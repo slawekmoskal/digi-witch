@@ -25,6 +25,9 @@ class AppScope extends InheritedNotifier<AppStore> {
   AppStore get store => notifier!;
 }
 
+/// Current bottom tab (0 Numbers, 1 Tarot, 2 Today, 3 Library, 4 Journal); tiles can switch it.
+final homeTab = ValueNotifier<int>(2);
+
 extension Ctx on BuildContext {
   AppLocalizations get l => AppLocalizations.of(this);
   AppStore get store => AppScope.of(this).store;

@@ -52,6 +52,7 @@ void main() {
       expect(find.textContaining('Nie potrzebujesz konta'), findsOneWidget);
       await t.tap(find.text('Zaczynamy'));
       await t.pumpAndSettle();
+      await scrollTo(t, find.text('Karta dnia'));
       expect(find.text('Karta dnia'), findsOneWidget);
     },
   );
@@ -67,7 +68,8 @@ void main() {
         '29051975',
       );
       expect(find.text('29.05.1975'), findsOneWidget); // mask
-      await t.tap(find.text('Oblicz'));
+      await scrollTo(t, find.text('Tylko oblicz (bez zapisywania)'));
+      await t.tap(find.text('Tylko oblicz (bez zapisywania)'));
       await t.pumpAndSettle();
       // The only onstage ListView is the numerology tab (other tabs are Offstage).
       final numScroll = find
@@ -117,7 +119,8 @@ void main() {
       find.widgetWithText(TextField, 'Data urodzenia'),
       '29022023',
     );
-    await t.tap(find.text('Oblicz'));
+    await scrollTo(t, find.text('Tylko oblicz (bez zapisywania)'));
+    await t.tap(find.text('Tylko oblicz (bez zapisywania)'));
     await t.pumpAndSettle();
     expect(find.textContaining('Taka data nie istnieje'), findsOneWidget);
     await t.enterText(find.widgetWithText(TextField, 'Data urodzenia'), '');
@@ -125,7 +128,8 @@ void main() {
       find.widgetWithText(TextField, 'Imię i nazwisko (opcjonalnie)'),
       'Jürgen',
     );
-    await t.tap(find.text('Oblicz'));
+    await scrollTo(t, find.text('Tylko oblicz (bez zapisywania)'));
+    await t.tap(find.text('Tylko oblicz (bez zapisywania)'));
     await t.pumpAndSettle();
     expect(find.textContaining('Nieobsługiwane znaki: ü'), findsOneWidget);
   });
@@ -259,10 +263,15 @@ void main() {
       await t.pumpAndSettle();
       await t.tap(find.text('Liczby'));
       await t.pumpAndSettle();
+      // A saved profile shows the numbers; editing opens the form.
+      expect(find.text('TWOJE LICZBY'), findsOneWidget);
+      await t.tap(find.text('Zmień dane lub policz dla kogoś innego'));
+      await t.pumpAndSettle();
       await t.enterText(
         find.widgetWithText(TextField, 'Data urodzenia'),
         '1507199',
       );
+      await scrollTo(t, find.text('Zapamiętaj jako mój profil'));
       await t.tap(find.text('Zapamiętaj jako mój profil'));
       await t.pumpAndSettle();
       expect(find.textContaining('Taka data nie istnieje'), findsOneWidget);
@@ -271,6 +280,7 @@ void main() {
         find.widgetWithText(TextField, 'Data urodzenia'),
         '01012099',
       );
+      await scrollTo(t, find.text('Zapamiętaj jako mój profil'));
       await t.tap(find.text('Zapamiętaj jako mój profil'));
       await t.pumpAndSettle();
       expect(find.textContaining('z przyszłości'), findsOneWidget);
@@ -282,7 +292,7 @@ void main() {
     t,
   ) async {
     final store = await pump(t);
-    expect(find.textContaining('Zapisz datę urodzenia'), findsOneWidget);
+    expect(find.textContaining('Podaj datę urodzenia'), findsOneWidget);
     store.saveProfile(CalendarDate.tryCreate(1990, 4, 1), null);
     await t.pumpAndSettle();
     expect(find.text('DZIŚ DLA CIEBIE'), findsOneWidget);
@@ -318,6 +328,7 @@ void main() {
     await pump(t);
     await t.tap(find.text('Liczby'));
     await t.pumpAndSettle();
+    await scrollTo(t, find.text('Zgodność dwóch osób'));
     await t.tap(find.text('Zgodność dwóch osób'));
     await t.pumpAndSettle();
     await t.enterText(find.byType(TextField).at(0), '15071990');
@@ -387,8 +398,8 @@ void main() {
     final store = await pump(t);
     store.saveProfile(CalendarDate.tryCreate(1990, 7, 15), null);
     await t.pumpAndSettle();
-    await scrollTo(t, find.text('Znak chiński: Koń'));
-    await t.tap(find.text('Znak chiński: Koń'));
+    await scrollTo(t, find.text('Horoskop chiński'));
+    await t.tap(find.text('Horoskop chiński'));
     await t.pumpAndSettle();
     expect(find.textContaining('1990 · Metal · yang'), findsOneWidget);
     await scrollTo(t, find.textContaining('Tajemny przyjaciel'));
@@ -469,4 +480,28 @@ void main() {
     await t.pumpAndSettle();
     expect(store.birthPlace, customPlace(-12.05, -77.04, 'America/Lima'));
   });
+
+  testWidgets(
+    'Today: date entered on Today unlocks the horoscope; tiles open',
+    (t) async {
+      final store = await pump(t);
+      await t.enterText(
+        find.widgetWithText(TextField, 'Data urodzenia'),
+        '15071990',
+      );
+      await t.tap(find.text('Pokaż mój horoskop'));
+      await t.pumpAndSettle();
+      expect(store.birthDate?.iso, '1990-07-15');
+      expect(find.text('Rak'), findsOneWidget);
+      await scrollTo(t, find.text('Sennik'));
+      await t.tap(find.text('Sennik'));
+      await t.pumpAndSettle();
+      expect(find.textContaining('Szukaj symbolu'), findsOneWidget);
+      await t.tap(find.byTooltip('Wstecz'));
+      await t.pumpAndSettle();
+      await t.tap(find.text('Zapytaj karty'));
+      await t.pumpAndSettle();
+      expect(find.text('Wybierz rozkład'), findsOneWidget);
+    },
+  );
 }

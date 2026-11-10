@@ -59,28 +59,6 @@ class HoroscopeCard extends StatelessWidget {
               style: t.bodySmall,
             ),
           ),
-          const SizedBox(height: 10),
-          Wrap(
-            alignment: WrapAlignment.center,
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              OutlinedButton.icon(
-                icon: const Icon(Icons.brightness_4_outlined, size: 18),
-                label: Text(l.bigThree),
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute(builder: (_) => const BirthChartScreen()),
-                ),
-              ),
-              OutlinedButton.icon(
-                icon: const Icon(Icons.pets_outlined, size: 18),
-                label: Text(l.chineseSignButton(chinese.name)),
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute(builder: (_) => const ChineseScreen()),
-                ),
-              ),
-            ],
-          ),
           const SizedBox(height: 8),
           block(
             l.horoscopeToday,

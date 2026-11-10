@@ -122,11 +122,21 @@ class HomeShell extends StatefulWidget {
 }
 
 class _HomeShellState extends State<HomeShell> {
-  int _i = 2; // Today, the centre button
+  int get _i => homeTab.value;
+
+  void _onTab() => setState(() {});
+
+  @override
+  void dispose() {
+    homeTab.removeListener(_onTab);
+    super.dispose();
+  }
 
   @override
   void initState() {
     super.initState();
+    homeTab.value = 2; // always start on Today
+    homeTab.addListener(_onTab);
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final m = context.store.reminderMinutes;
       if (m != null) {
@@ -169,7 +179,7 @@ class _HomeShellState extends State<HomeShell> {
             ),
           FloatingNav(
             index: _i,
-            onSelect: (i) => setState(() => _i = i),
+            onSelect: (i) => homeTab.value = i,
             items: [
               (Icons.tag, l.tabNumerology),
               (Icons.style_outlined, l.tabTarot),

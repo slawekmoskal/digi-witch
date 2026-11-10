@@ -35,7 +35,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get onboardWhat =>
-      'Poznawaj tradycje symboliczne: numerologię, tarot i archetypy. Każde obliczenie pokazujemy krok po kroku, a każdą kartę możesz poznać w bibliotece.';
+      'Twój codzienny przewodnik po symbolach: horoskop na dziś, Księżyc, tarot, numerologia, znak chiński i sennik. Każde obliczenie pokazujemy krok po kroku, a każdą kartę możesz poznać w bibliotece.';
 
   @override
   String get onboardNot =>
@@ -212,7 +212,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get numerologyIntro =>
-      'Wpisz datę urodzenia, imię i nazwisko — albo tylko jedno z nich. Nic nie zapisujemy, dopóki sam(a) o to nie poprosisz.';
+      'Podaj datę urodzenia, a jeśli chcesz — także imię i nazwisko. Zapisane jako Twój profil odblokują horoskop na dziś, liczbę dnia, wielką trójkę i znak chiński. Dane zostają tylko na tym telefonie.';
 
   @override
   String get birthDate => 'Data urodzenia';
@@ -534,7 +534,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get horoscopeNeedsBirth =>
-      'Zapisz datę urodzenia w zakładce Liczby (przycisk „Zapisz jako profil”), a zobaczysz tu horoskop na dziś, liczbę dnia i szczęśliwe liczby.';
+      'Podaj datę urodzenia — od razu zobaczysz swój znak, horoskop na dziś, liczbę dnia i szczęśliwe liczby.';
 
   @override
   String get moonToday => 'Księżyc dziś';
@@ -810,4 +810,59 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get otherPlaceRange =>
       'Szerokość musi być między -66° a 66° (za kołem podbiegunowym ascendent bywa nieokreślony), długość między -180° a 180°.';
+
+  @override
+  String get numbersStartTitle => 'Zacznij od daty urodzenia';
+
+  @override
+  String get numbersEditTitle => 'Zmień dane lub policz dla innej osoby';
+
+  @override
+  String get calculateOnce => 'Tylko oblicz (bez zapisywania)';
+
+  @override
+  String get compatibilityHint => 'Porównaj dwie daty urodzenia';
+
+  @override
+  String get yourNumbers => 'Twoje liczby';
+
+  @override
+  String get editOrOther => 'Zmień dane lub policz dla kogoś innego';
+
+  @override
+  String get showMyHoroscope => 'Pokaż mój horoskop';
+
+  @override
+  String get privacyShort =>
+      'Data zostaje tylko na tym telefonie. Zmienisz ją w zakładce Liczby.';
+
+  @override
+  String get explore => 'Odkrywaj';
+
+  @override
+  String get exploreBigThree => 'Słońce, Księżyc i ascendent';
+
+  @override
+  String get exploreChinese => 'Znak, żywioł i Twój rok';
+
+  @override
+  String get exploreTarot => 'Zapytaj karty';
+
+  @override
+  String get exploreTarotSub => 'Rozkłady i pytania „tak czy nie”';
+
+  @override
+  String get exploreNumbersSub => 'Droga życia i karta urodzenia';
+
+  @override
+  String get exploreMoon => 'Fazy, ogród, Merkury wsteczny';
+
+  @override
+  String get exploreDreams => 'Co mówi Twój sen';
+
+  @override
+  String get exploreLibrary => '78 kart, artykuły, słownik — w Bibliotece';
+
+  @override
+  String get exploreLibraryTitle => 'Karty i artykuły';
 }

@@ -145,7 +145,7 @@ abstract class AppLocalizations {
   /// No description provided for @onboardWhat.
   ///
   /// In pl, this message translates to:
-  /// **'Poznawaj tradycje symboliczne: numerologię, tarot i archetypy. Każde obliczenie pokazujemy krok po kroku, a każdą kartę możesz poznać w bibliotece.'**
+  /// **'Twój codzienny przewodnik po symbolach: horoskop na dziś, Księżyc, tarot, numerologia, znak chiński i sennik. Każde obliczenie pokazujemy krok po kroku, a każdą kartę możesz poznać w bibliotece.'**
   String get onboardWhat;
 
   /// No description provided for @onboardNot.
@@ -427,7 +427,7 @@ abstract class AppLocalizations {
   /// No description provided for @numerologyIntro.
   ///
   /// In pl, this message translates to:
-  /// **'Wpisz datę urodzenia, imię i nazwisko — albo tylko jedno z nich. Nic nie zapisujemy, dopóki sam(a) o to nie poprosisz.'**
+  /// **'Podaj datę urodzenia, a jeśli chcesz — także imię i nazwisko. Zapisane jako Twój profil odblokują horoskop na dziś, liczbę dnia, wielką trójkę i znak chiński. Dane zostają tylko na tym telefonie.'**
   String get numerologyIntro;
 
   /// No description provided for @birthDate.
@@ -931,7 +931,7 @@ abstract class AppLocalizations {
   /// No description provided for @horoscopeNeedsBirth.
   ///
   /// In pl, this message translates to:
-  /// **'Zapisz datę urodzenia w zakładce Liczby (przycisk „Zapisz jako profil”), a zobaczysz tu horoskop na dziś, liczbę dnia i szczęśliwe liczby.'**
+  /// **'Podaj datę urodzenia — od razu zobaczysz swój znak, horoskop na dziś, liczbę dnia i szczęśliwe liczby.'**
   String get horoscopeNeedsBirth;
 
   /// No description provided for @moonToday.
@@ -1347,6 +1347,114 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Szerokość musi być między -66° a 66° (za kołem podbiegunowym ascendent bywa nieokreślony), długość między -180° a 180°.'**
   String get otherPlaceRange;
+
+  /// No description provided for @numbersStartTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zacznij od daty urodzenia'**
+  String get numbersStartTitle;
+
+  /// No description provided for @numbersEditTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zmień dane lub policz dla innej osoby'**
+  String get numbersEditTitle;
+
+  /// No description provided for @calculateOnce.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tylko oblicz (bez zapisywania)'**
+  String get calculateOnce;
+
+  /// No description provided for @compatibilityHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Porównaj dwie daty urodzenia'**
+  String get compatibilityHint;
+
+  /// No description provided for @yourNumbers.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twoje liczby'**
+  String get yourNumbers;
+
+  /// No description provided for @editOrOther.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zmień dane lub policz dla kogoś innego'**
+  String get editOrOther;
+
+  /// No description provided for @showMyHoroscope.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pokaż mój horoskop'**
+  String get showMyHoroscope;
+
+  /// No description provided for @privacyShort.
+  ///
+  /// In pl, this message translates to:
+  /// **'Data zostaje tylko na tym telefonie. Zmienisz ją w zakładce Liczby.'**
+  String get privacyShort;
+
+  /// No description provided for @explore.
+  ///
+  /// In pl, this message translates to:
+  /// **'Odkrywaj'**
+  String get explore;
+
+  /// No description provided for @exploreBigThree.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słońce, Księżyc i ascendent'**
+  String get exploreBigThree;
+
+  /// No description provided for @exploreChinese.
+  ///
+  /// In pl, this message translates to:
+  /// **'Znak, żywioł i Twój rok'**
+  String get exploreChinese;
+
+  /// No description provided for @exploreTarot.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapytaj karty'**
+  String get exploreTarot;
+
+  /// No description provided for @exploreTarotSub.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rozkłady i pytania „tak czy nie”'**
+  String get exploreTarotSub;
+
+  /// No description provided for @exploreNumbersSub.
+  ///
+  /// In pl, this message translates to:
+  /// **'Droga życia i karta urodzenia'**
+  String get exploreNumbersSub;
+
+  /// No description provided for @exploreMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Fazy, ogród, Merkury wsteczny'**
+  String get exploreMoon;
+
+  /// No description provided for @exploreDreams.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co mówi Twój sen'**
+  String get exploreDreams;
+
+  /// No description provided for @exploreLibrary.
+  ///
+  /// In pl, this message translates to:
+  /// **'78 kart, artykuły, słownik — w Bibliotece'**
+  String get exploreLibrary;
+
+  /// No description provided for @exploreLibraryTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karty i artykuły'**
+  String get exploreLibraryTitle;
 }
 
 class _AppLocalizationsDelegate
