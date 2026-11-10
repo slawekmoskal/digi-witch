@@ -801,6 +801,12 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.'**
   String get reminderDenied;
+
+  /// No description provided for @proStoreNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy.'**
+  String get proStoreNote;
 }
 
 class _AppLocalizationsDelegate

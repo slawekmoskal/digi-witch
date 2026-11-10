@@ -167,5 +167,6 @@
   },
   "reminderTitle": "Digi Witch",
   "reminderBody": "Chwila na refleksję — jeśli masz ochotę.",
-  "reminderDenied": "Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu."
+  "reminderDenied": "Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.",
+  "proStoreNote": "Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy."
 }

@@ -47,6 +47,8 @@ class _ProSheet extends StatelessWidget {
                 style: TextStyle(color: Theme.of(context).colorScheme.error),
               ),
             ),
+          const SizedBox(height: 8),
+          Text(l.proStoreNote, style: Theme.of(context).textTheme.bodySmall),
           if (m != null && !pro)
             TextButton(onPressed: m.restore, child: Text(l.restorePurchases)),
         ],

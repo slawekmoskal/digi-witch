@@ -433,4 +433,8 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get reminderDenied =>
       'Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.';
+
+  @override
+  String get proStoreNote =>
+      'Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy.';
 }
