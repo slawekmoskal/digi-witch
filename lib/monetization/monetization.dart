@@ -36,7 +36,12 @@ class Monetization extends ChangeNotifier {
 
   bool get isPro => store.isPro;
 
+  bool _started = false;
+
+  /// Called after onboarding (never over it); idempotent.
   Future<void> init() async {
+    if (_started) return;
+    _started = true;
     _sub = _iap.purchaseStream.listen(
       _onPurchases,
       onError: (Object e) {

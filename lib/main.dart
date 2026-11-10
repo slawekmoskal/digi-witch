@@ -22,7 +22,9 @@ Future<void> main() async {
   runApp(
     DigiWitchApp(store: store, content: results[1] as Content, monetization: m),
   );
-  m?.init(); // after first frame; never blocks offline use
+  if (store.onboarded) {
+    m?.init(); // first run: started from onboarding, so consent never covers it
+  }
 }
 
 class DigiWitchApp extends StatelessWidget {
@@ -91,7 +93,10 @@ class Onboarding extends StatelessWidget {
             Text(l.onboardAdults),
             const SizedBox(height: 24),
             FilledButton(
-              onPressed: () => context.store.onboarded = true,
+              onPressed: () {
+                context.store.onboarded = true;
+                context.monetization?.init();
+              },
               child: Text(l.start),
             ),
           ],

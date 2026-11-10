@@ -19,3 +19,5 @@ Format: data — decyzja — dlaczego — konsekwencje. Najnowsze na dole.
 15. **2026-11-10 — Grafiki: zestaw „Roses & Lilies” (RWS1909) z Wikimedia Commons**, 78 plików, SHA-1 zweryfikowane, przeskalowane do 600 px WebP (7,8 MB). Proweniencja per plik: `assets/cards/manifest.json`. Bez rewersów i bez późniejszych kolorowań.
 16. **2026-11-10 — Przypomnienia**: `flutter_local_notifications` (wymusza `compileSdk = 37`; `targetSdk` 36), harmonogram niedokładny (bez uprawnienia exact alarm), uprawnienie systemowe pytane dopiero przy włączeniu. Tekst: „Chwila na refleksję — jeśli masz ochotę.”
 17. **2026-11-10 — Kopie zapasowe Androida pozostają włączone** (domyślne): chroni dziennik przed utratą przy zmianie telefonu; kopie Google są szyfrowane. Opisane w polityce prywatności.
+18. **2026-11-10 — Zgoda reklamowa dopiero po onboardingu** (wcześniej formularz UMP zasłaniał pierwszy ekran).
+19. **2026-11-10 — Ikona: karta tarota z iskrą** (pergamin na indygo). Odrzucono półksiężyc z gwiazdą — skojarzenia z symbolem religijnym/państwowym. Źródła: `assets/icon/`, generowane `flutter_launcher_icons`.

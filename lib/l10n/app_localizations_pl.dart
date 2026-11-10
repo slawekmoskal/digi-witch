@@ -393,7 +393,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get proUnavailable =>
-      'Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.';
+      'Zakup jest w tej chwili niedostępny. Sprawdź połączenie z internetem i spróbuj później.';
 
   @override
   String proBuy(String price) {

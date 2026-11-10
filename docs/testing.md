@@ -37,7 +37,18 @@ Niezależny przegląd kodu (osobny agent, bez dostępu do zapisu) zgłosił 12 p
 - `flutter build appbundle/apk --release` ✅ (targetSdk 36, compileSdk 37).
 - **Emulator Android 16 (API 36, arm64, Google Play image):** aplikacja **padała przy starcie** w wydaniu release — R8 usuwał `androidx.work.impl.WorkDatabase_Impl` (WorkManager z SDK reklam). Dodano `android/app/proguard-rules.pro`; po poprawce `apkanalyzer` potwierdza obecność klasy i konstruktora w APK. **Ponowne uruchomienie na emulatorze po poprawce nie zostało wykonane** (emulator zatrzymany z powodu braku miejsca na dysku).
 
+### Emulator po poprawkach (2026-11-10, Android 16 / API 36, obraz Google Play, release APK arm64)
+- Start bez awarii; zimny start 0,77–0,86 s (pierwszy po instalacji 18 s — kompilacja dex).
+- Onboarding → dopiero potem formularz zgody UMP (testowy Google, EN). Sprawdzono obie ścieżki: „Do not consent” (baner testowy się ładuje) i „Consent”; po zgodzie w Ustawieniach widać „Ustawienia prywatności reklam”.
+- Dzisiaj: karta dnia z grafiką 1909; ta sama karta po `force-stop` i ponownym uruchomieniu.
+- Liczby: maska daty (29051975 → 29.05.1975), wyniki 11/11/8 i dla „Krzysztof” 4/4/9 — zgodne z wyrocznią; widoczne kroki, interpretacja, pytanie.
+- Tarot: rozkład 3 kart z grafikami; rozkład Pro z kłódką otwiera arkusz Pro („niedostępny” — produkt jeszcze nie skonfigurowany w Play Console).
+- Przypomnienie: polski zegar 24 h → systemowa prośba o powiadomienia → `dumpsys alarm` pokazuje RTC_WAKEUP na 20:00 (okno 1 h). **Samego dostarczenia powiadomienia nie obserwowano.**
+- Ikona aplikacji w launcherze (własna: karta z iskrą).
+
+Wykryte na emulatorze i poprawione: awaria startu (R8), formularz zgody nad onboardingiem, mylący tekst „brak połączenia ze sklepem”, domyślna ikona Fluttera.
+
 ### Nadal nieprzetestowane
-- Uruchomienie po poprawce R8 na emulatorze/urządzeniu; iOS na symulatorze (brak runtime iOS 27.2) i urządzeniu.
+- iOS na symulatorze (brak runtime iOS 27.2) i urządzeniu.
 - Prawdziwy zakup/przywracanie (wymaga kont sandbox), formularz UMP i baner testowy na urządzeniu, ATT, powiadomienia (uprawnienie, dostarczenie, restart urządzenia).
 - TalkBack/VoiceOver.

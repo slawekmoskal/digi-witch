@@ -733,7 +733,7 @@ abstract class AppLocalizations {
   /// No description provided for @proUnavailable.
   ///
   /// In pl, this message translates to:
-  /// **'Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.'**
+  /// **'Zakup jest w tej chwili niedostępny. Sprawdź połączenie z internetem i spróbuj później.'**
   String get proUnavailable;
 
   /// No description provided for @proBuy.

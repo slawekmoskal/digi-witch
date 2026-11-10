@@ -142,7 +142,7 @@
   "proBenefits": "• Brak reklam w całej aplikacji\n• Dodatkowe rozkłady: „Relacja” (6 kart) i „Krzyż refleksji” (10 kart)\n• Jednorazowa płatność, bez subskrypcji",
   "proFreeStays": "Numerologia, karta dnia, rozkłady 1/3/5 kart, biblioteka i dziennik pozostają bezpłatne. Zakup nie wpływa na losowanie kart ani wyniki obliczeń.",
   "proActive": "Masz Pro — dziękujemy!",
-  "proUnavailable": "Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.",
+  "proUnavailable": "Zakup jest w tej chwili niedostępny. Sprawdź połączenie z internetem i spróbuj później.",
   "proBuy": "Kup Pro za {price}",
   "@proBuy": {
     "placeholders": {
