@@ -1,7 +1,10 @@
 import 'package:digi_witch/data/content.dart';
 import 'package:digi_witch/data/store.dart';
+import 'package:digi_witch/engine/numerology.dart';
 import 'package:digi_witch/main.dart';
 import 'package:digi_witch/ui/journal_screen.dart';
+import 'package:digi_witch/ui/tarot_screen.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -12,6 +15,23 @@ void main() {
     TestWidgetsFlutterBinding.ensureInitialized();
     content = await Content.load();
   });
+
+  /// Scrolls the visible tab's list until [f] is built, then centres it so the
+  /// floating nav bar never covers it.
+  Future<void> scrollTo(WidgetTester t, Finder f) async {
+    await t.scrollUntilVisible(
+      f,
+      150,
+      scrollable: find
+          .descendant(
+            of: find.byType(ListView),
+            matching: find.byType(Scrollable),
+          )
+          .first,
+    );
+    await Scrollable.ensureVisible(t.element(f), alignment: 0.5);
+    await t.pumpAndSettle();
+  }
 
   Future<AppStore> pump(WidgetTester t, {bool onboarded = true}) async {
     SharedPreferences.setMockInitialValues({'onboarded': onboarded});
@@ -48,18 +68,41 @@ void main() {
       expect(find.text('29.05.1975'), findsOneWidget); // mask
       await t.tap(find.text('Oblicz'));
       await t.pumpAndSettle();
-      expect(find.text('Droga życia'), findsOneWidget);
+      // The only onstage ListView is the numerology tab (other tabs are Offstage).
+      final numScroll = find
+          .descendant(
+            of: find.byType(ListView),
+            matching: find.byType(Scrollable),
+          )
+          .first;
+      await t.scrollUntilVisible(
+        find.text('Droga życia'),
+        100,
+        scrollable: numScroll,
+      );
+      // Results start under the bottom bar on the test screen: scroll them up first.
+      await t.drag(numScroll, const Offset(0, -300));
+      await t.pumpAndSettle();
       await t.tap(find.text('Droga życia'));
       await t.pumpAndSettle();
-      expect(
-        find.text('Cyfry daty: 2 + 9 + 0 + 5 + 1 + 9 + 7 + 5 = 38.'),
-        findsOneWidget,
+      final steps = find.text(
+        'Cyfry daty: 2 + 9 + 0 + 5 + 1 + 9 + 7 + 5 = 38.',
       );
+      await t.scrollUntilVisible(steps, 100, scrollable: numScroll);
+      expect(steps, findsOneWidget);
       expect(find.text('INTERPRETACJA SYMBOLICZNA'), findsWidgets);
       expect(
         find.text('Liczba ekspresji'),
         findsNothing,
       ); // no name -> no name indicators
+      // 29 + 5 + 1975 = 2009 → 11 (Sprawiedliwość), paired with 2 (Kapłanka)
+      await t.scrollUntilVisible(
+        find.text('Karta towarzysząca'),
+        200,
+        scrollable: numScroll,
+      );
+      expect(find.text('Sprawiedliwość'), findsOneWidget);
+      expect(find.text('Kapłanka'), findsOneWidget);
     },
   );
 
@@ -92,9 +135,19 @@ void main() {
       final store = await pump(t);
       await t.tap(find.text('Tarot').last);
       await t.pumpAndSettle();
+      await t.enterText(find.byType(TextField), '  Czy zmienić pracę? ');
+      await scrollTo(t, find.text('Wylosuj karty'));
       await t.tap(find.text('Wylosuj karty'));
       await t.pumpAndSettle();
+      await scrollTo(t, find.text('Sytuacja'));
       expect(find.text('Sytuacja'), findsOneWidget);
+      expect(find.text('Co karty mówią o Twoim pytaniu'), findsOneWidget);
+      expect(find.text('„Czy zmienić pracę?”'), findsOneWidget);
+      expect(
+        find.textContaining('w pozycji „Następny krok”: '),
+        findsOneWidget,
+      );
+      await scrollTo(t, find.text('Następny krok'));
       expect(find.text('Następny krok'), findsOneWidget);
       await t.ensureVisible(find.text('Zapisz refleksję w dzienniku'));
       await t.pumpAndSettle();
@@ -112,6 +165,10 @@ void main() {
       await t.pumpAndSettle();
       expect(store.journal.single.text, 'Moja myśl');
       expect(store.journal.single.ref!['cards'].length, 3);
+      expect(
+        store.journal.single.ref!['label'],
+        startsWith('„Czy zmienić pracę?” — Trzy karty: '),
+      );
     },
   );
 
@@ -150,9 +207,11 @@ void main() {
       ),
     );
     await t.pumpAndSettle();
+    expect(t.takeException(), isNull, reason: 'Dziś');
     for (final tab in ['Liczby', 'Tarot', 'Biblioteka', 'Dziennik']) {
       await t.tap(find.text(tab).last);
       await t.pumpAndSettle();
+      expect(t.takeException(), isNull, reason: tab);
     }
     expect(t.takeException(), isNull);
   });
@@ -177,9 +236,11 @@ void main() {
     await t.pumpAndSettle();
     await t.tap(find.text('Krzyż refleksji'));
     await t.pumpAndSettle();
+    await scrollTo(t, find.text('Wylosuj karty'));
     await t.tap(find.text('Wylosuj karty'));
     await t.pumpAndSettle();
-    expect(find.text('Możliwy kierunek', skipOffstage: false), findsOneWidget);
+    await scrollTo(t, find.text('Możliwy kierunek'));
+    expect(find.text('Możliwy kierunek'), findsOneWidget);
   });
 
   testWidgets(
@@ -215,4 +276,136 @@ void main() {
       expect(store.birthDate?.iso, '1990-07-15');
     },
   );
+
+  testWidgets('Today: horoscope with a saved birth date, moon calendar opens', (
+    t,
+  ) async {
+    final store = await pump(t);
+    expect(find.textContaining('Zapisz datę urodzenia'), findsOneWidget);
+    store.saveProfile(CalendarDate.tryCreate(1990, 4, 1), null);
+    await t.pumpAndSettle();
+    expect(find.text('DZIŚ DLA CIEBIE'), findsOneWidget);
+    expect(find.text('Baran'), findsOneWidget);
+    expect(find.text('SZCZĘŚLIWE LICZBY DNIA'), findsOneWidget);
+    await t.scrollUntilVisible(
+      find.text('Księżyc dziś'),
+      200,
+      scrollable: find
+          .descendant(
+            of: find.byType(ListView),
+            matching: find.byType(Scrollable),
+          )
+          .first,
+    );
+    // The tile may sit under the bottom bar on the test screen; trigger it directly.
+    t
+        .widget<ListTile>(
+          find.ancestor(
+            of: find.text('Księżyc dziś'),
+            matching: find.byType(ListTile),
+          ),
+        )
+        .onTap!();
+    await t.pumpAndSettle();
+    expect(find.text('Kalendarz Księżyca'), findsOneWidget);
+    await scrollTo(t, find.text('Najbliższe fazy'));
+    expect(find.text('Pełnia'), findsWidgets);
+    await scrollTo(t, find.text('Dzień po dniu (30 dni)'));
+  });
+
+  testWidgets('compatibility of two dates', (t) async {
+    await pump(t);
+    await t.tap(find.text('Liczby'));
+    await t.pumpAndSettle();
+    await t.tap(find.text('Zgodność dwóch osób'));
+    await t.pumpAndSettle();
+    await t.enterText(find.byType(TextField).at(0), '15071990');
+    await t.enterText(find.byType(TextField).at(1), '01012000');
+    await t.tap(find.text('Sprawdź'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('Osoba 1: Rak (Woda)'), findsOneWidget);
+    expect(find.textContaining('Osoba 2: Koziorożec (Ziemia)'), findsOneWidget);
+    expect(find.textContaining('Żywioły, które się wspierają'), findsOneWidget);
+    expect(
+      find.textContaining('Koń + Królik'),
+      findsOneWidget,
+    ); // 01.01.2000 is before Chinese New Year 2000, so Rabbit
+    await scrollTo(t, find.text('Liczba relacji'));
+    expect(find.text('Liczba relacji'), findsOneWidget);
+  });
+
+  testWidgets('Android (test default) uses the solid nav bar', (t) async {
+    await pump(t);
+    expect(find.byType(BackdropFilter), findsNothing);
+  });
+
+  testWidgets('iOS uses the glass nav bar', (t) async {
+    debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
+    addTearDown(() => debugDefaultTargetPlatformOverride = null);
+    await pump(t);
+    expect(find.byType(BackdropFilter), findsOneWidget);
+    debugDefaultTargetPlatformOverride = null;
+  });
+
+  testWidgets('tapping the deck draws and reveals the spread', (t) async {
+    await pump(t);
+    await t.tap(find.text('Tarot').last);
+    await t.pumpAndSettle();
+    await t.tap(find.text('Jedna karta'));
+    await t.pumpAndSettle();
+    await t.tap(find.byType(DeckStack));
+    await t.pumpAndSettle();
+    expect(find.byType(RevealedSpread), findsOneWidget);
+    expect(find.text('Wylosuj ponownie'), findsOneWidget);
+  });
+
+  testWidgets('big three: Moon from date, ascendant after time and place', (
+    t,
+  ) async {
+    final store = await pump(t);
+    store.saveProfile(CalendarDate.tryCreate(1990, 7, 15), null);
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Twoja wielka trójka'));
+    await t.tap(find.text('Twoja wielka trójka'));
+    await t.pumpAndSettle();
+    expect(find.text('Rak'), findsWidgets); // Sun sign
+    expect(find.text('ASCENDENT'), findsOneWidget);
+    expect(find.textContaining('Podaj godzinę i miejsce'), findsOneWidget);
+    store.saveBirthDetails(14 * 60 + 30, 'Kraków');
+    await t.pumpAndSettle();
+    expect(find.textContaining('Podaj godzinę i miejsce'), findsNothing);
+    expect(find.text('14:30'), findsOneWidget);
+    // Deleting the profile also forgets time and place.
+    store.saveProfile(null, null);
+    await t.pumpAndSettle();
+    expect(store.birthMinutes, isNull);
+    expect(store.birthPlace, isNull);
+  });
+
+  testWidgets('Chinese horoscope shows element and relations', (t) async {
+    final store = await pump(t);
+    store.saveProfile(CalendarDate.tryCreate(1990, 7, 15), null);
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Znak chiński: Koń'));
+    await t.tap(find.text('Znak chiński: Koń'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('1990 · Metal · yang'), findsOneWidget);
+    await scrollTo(t, find.textContaining('Tajemny przyjaciel'));
+    expect(find.textContaining('Tajemny przyjaciel: Koza'), findsOneWidget);
+    expect(find.textContaining('Znak przeciwny: Szczur'), findsOneWidget);
+  });
+
+  testWidgets('dream dictionary opens and filters', (t) async {
+    await pump(t);
+    await t.tap(find.text('Biblioteka'));
+    await t.pumpAndSettle();
+    await t.tap(find.text('Sennik'));
+    await t.pumpAndSettle();
+    await t.enterText(find.byType(TextField), 'zęb');
+    await t.pumpAndSettle();
+    expect(find.text('Wypadanie zębów'), findsOneWidget);
+    await t.tap(find.text('Wypadanie zębów'));
+    await t.pumpAndSettle();
+    expect(find.text('Czego boisz się stracić?'), findsOneWidget);
+  });
 }

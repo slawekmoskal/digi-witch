@@ -18,7 +18,10 @@
     "reflection": [
       "Jakie uczucie chciałoby dziś zostać przeze mnie zauważone?",
       "Komu lub czemu mogę okazać wdzięczność bez oczekiwania na odpowiedź?"
-    ]
+    ],
+    "advice": "Otwórz serce. Pozwól sobie poczuć i przyjąć to, co dobre — nowe uczucie lub relacja mogą się teraz zacząć.",
+    "adviceReversed": "Zamykasz się na emocje. Zastanów się, czego się boisz, i daj sobie prawo do czucia.",
+    "astrology": "Woda — źródło żywiołu"
   },
   {
     "id": "cups_02",
@@ -39,7 +42,10 @@
     "reflection": [
       "W której relacji czuję się naprawdę wysłuchany lub wysłuchana?",
       "Czego potrzebuję, by dawać i przyjmować w równowadze?"
-    ]
+    ],
+    "advice": "Postaw na porozumienie. Wyciągnij rękę, szukaj wzajemności — w relacji jest teraz dobra energia.",
+    "adviceReversed": "W relacji czegoś brakuje — równowagi albo szczerości. Porozmawiaj o tym, zanim urośnie dystans.",
+    "astrology": "Woda · Wenus w Raku"
   },
   {
     "id": "cups_03",
@@ -60,7 +66,10 @@
     "reflection": [
       "Z kim chciałbym lub chciałabym podzielić się ostatnią dobrą chwilą?",
       "Gdzie czuję się częścią wspólnoty, a gdzie tylko gościem?"
-    ]
+    ],
+    "advice": "Spotkaj się z ludźmi, którzy Ci sprzyjają. Wspólna radość i wsparcie pomogą Ci w tej sprawie.",
+    "adviceReversed": "Nadmiar towarzystwa lub plotek może przeszkadzać. Wybierz, komu naprawdę ufasz.",
+    "astrology": "Woda · Merkury w Raku"
   },
   {
     "id": "cups_04",
@@ -81,7 +90,10 @@
     "reflection": [
       "Co wokół mnie przestało mnie cieszyć i dlaczego?",
       "Jaką propozycję mogłem lub mogłam ostatnio przeoczyć?"
-    ]
+    ],
+    "advice": "Coś dostajesz, ale tego nie zauważasz. Rozejrzyj się — okazja może być bliżej, niż myślisz.",
+    "adviceReversed": "Wychodzisz z apatii — dobrze. Teraz przyjmij to, co dotąd odrzucałeś(-aś).",
+    "astrology": "Woda · Księżyc w Raku"
   },
   {
     "id": "cups_05",
@@ -102,7 +114,10 @@
     "reflection": [
       "Czego żal pozwalam sobie odczuwać, a czego unikam?",
       "Co wartościowego wciąż jest przy mnie, mimo tego, co się wylało?"
-    ]
+    ],
+    "advice": "Pozwól sobie na żal, ale nie zostawaj w nim. Odwróć się — nie wszystko zostało stracone.",
+    "adviceReversed": "Zaczynasz się podnosić po stracie. Skup się na tym, co zostało, i zrób pierwszy krok naprzód.",
+    "astrology": "Woda · Mars w Skorpionie"
   },
   {
     "id": "cups_06",
@@ -123,7 +138,10 @@
     "reflection": [
       "Które wspomnienie daje mi dziś poczucie ciepła?",
       "Czy jest coś z przeszłości, co mogę już łagodnie odłożyć?"
-    ]
+    ],
+    "advice": "Sięgnij po to, co dobre z przeszłości — prostotę, życzliwość, dawną przyjaźń. Mogą być teraz pomocne.",
+    "adviceReversed": "Nie żyj wspomnieniami. To, co było, nie wróci w tej samej formie — czas patrzeć do przodu.",
+    "astrology": "Woda · Słońce w Skorpionie"
   },
   {
     "id": "cups_07",
@@ -144,7 +162,10 @@
     "reflection": [
       "Które z moich marzeń jest naprawdę moje, a które przejąłem lub przejęłam od innych?",
       "Jaki jeden mały krok pomógłby mi sprawdzić wybraną możliwość?"
-    ]
+    ],
+    "advice": "Masz wiele możliwości, ale nie wszystkie są realne. Wybierz jedną konkretną i oddziel marzenia od planów.",
+    "adviceReversed": "Mgła się rozwiewa — widzisz już, co jest ważne. Teraz podejmij decyzję.",
+    "astrology": "Woda · Wenus w Skorpionie"
   },
   {
     "id": "cups_08",
@@ -165,7 +186,10 @@
     "reflection": [
       "Czego szukam, czego nie mogę znaleźć tam, gdzie jestem teraz?",
       "Co mogę zostawić z wdzięcznością, zamiast z żalem?"
-    ]
+    ],
+    "advice": "Odejdź od tego, co już Cię nie karmi. To odważne, ale idziesz szukać czegoś głębszego.",
+    "adviceReversed": "Wahasz się między odejściem a zostaniem. Sprawdź, czy uciekasz, czy naprawdę szukasz czegoś lepszego.",
+    "astrology": "Woda · Saturn w Rybach"
   },
   {
     "id": "cups_09",
@@ -186,7 +210,10 @@
     "reflection": [
       "Co sprawia mi prawdziwą, cichą satysfakcję?",
       "Czy pozwalam sobie cieszyć się tym, co osiągnąłem lub osiągnęłam?"
-    ]
+    ],
+    "advice": "Odpowiedź jest na tak — Twoje życzenie ma szansę się spełnić. Ciesz się tym i doceń, co już masz.",
+    "adviceReversed": "Zadowolenie z zewnątrz nie wystarczy. Zastanów się, czego naprawdę pragniesz, a nie tylko co wypada mieć.",
+    "astrology": "Woda · Jowisz w Rybach"
   },
   {
     "id": "cups_10",
@@ -207,7 +234,10 @@
     "reflection": [
       "Gdzie i z kim czuję się naprawdę u siebie?",
       "Co mogę dziś zrobić, by w moim otoczeniu było więcej ciepła?"
-    ]
+    ],
+    "advice": "Postaw na bliskość i harmonię. To, co budujesz z bliskimi, jest teraz najważniejsze — dbaj o to.",
+    "adviceReversed": "Za obrazkiem idealnej rodziny lub relacji kryje się napięcie. Porozmawiajcie szczerze o potrzebach.",
+    "astrology": "Woda · Mars w Rybach"
   },
   {
     "id": "cups_11",
@@ -228,7 +258,10 @@
     "reflection": [
       "Jaki pomysł lub uczucie zaskoczyło mnie ostatnio?",
       "Gdzie mogę pozwolić sobie na więcej twórczej zabawy?"
-    ]
+    ],
+    "advice": "Słuchaj intuicji i bądź otwarty(-a) na emocjonalne wiadomości. Mała wrażliwa iskra może się w coś zamienić.",
+    "adviceReversed": "Emocjonalna niedojrzałość lub nadwrażliwość przeszkadzają. Nie bierz wszystkiego do siebie.",
+    "astrology": "Woda"
   },
   {
     "id": "cups_12",
@@ -249,7 +282,10 @@
     "reflection": [
       "Co chciałbym lub chciałabym ofiarować komuś z głębi serca?",
       "Czy moje ideały mają oparcie w codzienności?"
-    ]
+    ],
+    "advice": "Idź za sercem — złóż propozycję, wyraź uczucia. Romantyzm i szczerość są teraz po Twojej stronie.",
+    "adviceReversed": "Nie daj się ponieść idealizmowi. Sprawdź, czy obietnice mają pokrycie w czynach.",
+    "astrology": "Woda"
   },
   {
     "id": "cups_13",
@@ -270,7 +306,10 @@
     "reflection": [
       "Co podpowiada mi dziś moja intuicja?",
       "Jak mogę wspierać innych, nie gubiąc przy tym siebie?"
-    ]
+    ],
+    "advice": "Kieruj się empatią — wobec innych i wobec siebie. Twoja intuicja dobrze Cię prowadzi.",
+    "adviceReversed": "Dajesz innym za dużo, sobie za mało. Postaw zdrowe granice emocjonalne.",
+    "astrology": "Woda"
   },
   {
     "id": "cups_14",
@@ -291,7 +330,10 @@
     "reflection": [
       "Jak reaguję na emocjonalne fale wokół mnie?",
       "W czym mogę być dla kogoś spokojnym i życzliwym oparciem?"
-    ]
+    ],
+    "advice": "Zachowaj spokój i dojrzałość. Panuj nad emocjami, nie tłumiąc ich — to klucz do dobrej decyzji.",
+    "adviceReversed": "Emocje biorą górę albo są zamknięte na klucz. Znajdź bezpieczny sposób, by je wyrazić.",
+    "astrology": "Woda"
   },
   {
     "id": "swords_01",
@@ -312,7 +354,10 @@
     "reflection": [
       "Co stało się dla mnie jasne w ostatnim czasie?",
       "Jak mogę wyrazić swoją prawdę z szacunkiem dla innych?"
-    ]
+    ],
+    "advice": "Powiedz prawdę i myśl jasno. Przełom jest blisko — jedna trafna decyzja przetnie zamieszanie.",
+    "adviceReversed": "Myśli się plączą. Zanim zdecydujesz, zbierz fakty i oddziel je od obaw.",
+    "astrology": "Powietrze — źródło żywiołu"
   },
   {
     "id": "swords_02",
@@ -333,7 +378,10 @@
     "reflection": [
       "Przed jakim wyborem się teraz zatrzymuję?",
       "Czego potrzebuję wiedzieć, by poczuć się pewniej?"
-    ]
+    ],
+    "advice": "Unikasz decyzji, zasłaniając oczy. Zdejmij opaskę: przyjrzyj się faktom i wybierz.",
+    "adviceReversed": "Napięcie rośnie — dłużej nie da się czekać. Podejmij decyzję, nawet niedoskonałą.",
+    "astrology": "Powietrze · Księżyc w Wadze"
   },
   {
     "id": "swords_03",
@@ -354,7 +402,10 @@
     "reflection": [
       "Jaki ból potrzebuje dziś mojego uznania?",
       "Co pomaga mi przechodzić przez trudne uczucia łagodnie?"
-    ]
+    ],
+    "advice": "Uznaj ból, zamiast go ukrywać. Pozwól sobie przeżyć smutek — to pierwszy krok do zagojenia.",
+    "adviceReversed": "Rana zaczyna się goić. Pozwól jej — przestań wracać myślami do tego, co zabolało.",
+    "astrology": "Powietrze · Saturn w Wadze"
   },
   {
     "id": "swords_04",
@@ -375,7 +426,10 @@
     "reflection": [
       "Kiedy ostatnio pozwoliłem lub pozwoliłam sobie na prawdziwy odpoczynek?",
       "Co mogę odłożyć na chwilę, by odzyskać jasność?"
-    ]
+    ],
+    "advice": "Odpocznij. Zanim zrobisz następny krok, potrzebujesz regeneracji i ciszy — to nie strata czasu.",
+    "adviceReversed": "Wracasz do sił — dobrze. Ale nie rzucaj się od razu w wir; wracaj stopniowo.",
+    "astrology": "Powietrze · Jowisz w Wadze"
   },
   {
     "id": "swords_05",
@@ -396,7 +450,10 @@
     "reflection": [
       "Czy w jakiejś sytuacji zależy mi bardziej na wygranej niż na porozumieniu?",
       "Z którego sporu mógłbym lub mogłabym się wycofać z godnością?"
-    ]
+    ],
+    "advice": "Zastanów się, czy to zwycięstwo jest warte swojej ceny. Czasem lepiej odpuścić spór niż stracić relację.",
+    "adviceReversed": "Czas zakończyć konflikt. Wyciągnij rękę albo odejdź z godnością.",
+    "astrology": "Powietrze · Wenus w Wodniku"
   },
   {
     "id": "swords_06",
@@ -417,7 +474,10 @@
     "reflection": [
       "Od czego powoli się oddalam i dokąd zmierzam?",
       "Kto lub co pomaga mi przejść przez ten okres?"
-    ]
+    ],
+    "advice": "Przejdź na spokojniejsze wody. Zmiana jest potrzebna — zostaw za sobą to, co trudne.",
+    "adviceReversed": "Zmiana jest potrzebna, ale się opierasz. Rozważ, co trzyma Cię w miejscu.",
+    "astrology": "Powietrze · Merkury w Wodniku"
   },
   {
     "id": "swords_07",
@@ -438,7 +498,10 @@
     "reflection": [
       "Gdzie wybieram drogę na skróty i co mnie do tego skłania?",
       "Czy jest coś, co mógłbym lub mogłabym powiedzieć otwarcie?"
-    ]
+    ],
+    "advice": "Działaj sprytnie, ale uczciwie. Sprawdź też, czy ktoś nie gra z Tobą nie fair.",
+    "adviceReversed": "Coś wychodzi na jaw. Postaw na szczerość — ukrywanie kosztuje więcej, niż daje.",
+    "astrology": "Powietrze · Księżyc w Wodniku"
   },
   {
     "id": "swords_08",
@@ -459,7 +522,10 @@
     "reflection": [
       "Jakie przekonanie o sobie trzyma mnie w miejscu?",
       "Jaki najmniejszy ruch mógłbym lub mogłabym dziś wykonać?"
-    ]
+    ],
+    "advice": "Klatka jest głównie w Twojej głowie. Zakwestionuj przekonanie, które Cię ogranicza — wyjście istnieje.",
+    "adviceReversed": "Zaczynasz się uwalniać od lęku. Idź dalej — każdy krok będzie łatwiejszy.",
+    "astrology": "Powietrze · Jowisz w Bliźniętach"
   },
   {
     "id": "swords_09",
@@ -480,7 +546,10 @@
     "reflection": [
       "Która z moich obaw jest faktem, a która wyobrażeniem?",
       "Z kim mogę podzielić się tym, co nie daje mi spokoju?"
-    ]
+    ],
+    "advice": "Twoje obawy są większe niż rzeczywistość. Podziel się nimi z kimś zaufanym — w świetle dnia wyglądają inaczej.",
+    "adviceReversed": "Najgorsze lęki tracą moc. Pozwól sobie odetchnąć i zadbaj o sen i spokój.",
+    "astrology": "Powietrze · Mars w Bliźniętach"
   },
   {
     "id": "swords_10",
@@ -501,7 +570,10 @@
     "reflection": [
       "Co w moim życiu dobiegło już końca, choć wciąż to podtrzymuję?",
       "Jak wygląda mój świt po zamknięciu tego etapu?"
-    ]
+    ],
+    "advice": "To koniec pewnego etapu — gorzej już nie będzie. Przyjmij to i zacznij od nowa.",
+    "adviceReversed": "Powoli podnosisz się po trudnym czasie. Nie wracaj do tego, co Cię zraniło.",
+    "astrology": "Powietrze · Słońce w Bliźniętach"
   },
   {
     "id": "swords_11",
@@ -522,7 +594,10 @@
     "reflection": [
       "Czego chciałbym lub chciałabym się teraz dowiedzieć?",
       "Czy słucham, czy tylko czekam na swoją kolej, by mówić?"
-    ]
+    ],
+    "advice": "Zadawaj pytania i zbieraj informacje. Bądź czujny(-a), zanim podejmiesz decyzję.",
+    "adviceReversed": "Uważaj na plotki i pochopne słowa. Mów mniej, słuchaj więcej.",
+    "astrology": "Powietrze"
   },
   {
     "id": "swords_12",
@@ -543,7 +618,10 @@
     "reflection": [
       "Dokąd się spieszę i czy ten kierunek jest mój?",
       "Jak mogę wyrazić swoje zdanie stanowczo, ale bez raniącego tonu?"
-    ]
+    ],
+    "advice": "Działaj zdecydowanie i szybko — jasno wiesz, czego chcesz. Tylko nie tratuj innych po drodze.",
+    "adviceReversed": "Pośpiech i ostre słowa mogą zaszkodzić. Zwolnij i przemyśl, zanim ruszysz.",
+    "astrology": "Powietrze"
   },
   {
     "id": "swords_13",
@@ -564,7 +642,10 @@
     "reflection": [
       "Gdzie potrzebuję jaśniej postawić granicę?",
       "Jak moje doświadczenia mogą mnie uczyć, a nie zamykać?"
-    ]
+    ],
+    "advice": "Mów wprost i stawiaj granice. Przenikliwość i niezależność pomogą Ci zobaczyć sprawę jasno.",
+    "adviceReversed": "Nie bądź zbyt surowy(-a) — dla siebie i innych. Szczerość nie musi ranić.",
+    "astrology": "Powietrze"
   },
   {
     "id": "swords_14",
@@ -585,7 +666,10 @@
     "reflection": [
       "Czy moja decyzja opiera się na faktach, czy na obawach?",
       "Jak mogę łączyć zasady z wyrozumiałością?"
-    ]
+    ],
+    "advice": "Kieruj się rozumem i zasadami. Obiektywna, chłodna analiza da najlepszy wynik.",
+    "adviceReversed": "Sama logika nie wystarczy. Uwzględnij też ludzi i emocje, których dotyczy decyzja.",
+    "astrology": "Powietrze"
   },
   {
     "id": "pentacles_01",
@@ -606,7 +690,10 @@
     "reflection": [
       "Jakie nasiono chciałbym lub chciałabym zasadzić w swojej codzienności?",
       "Co konkretnego mogę zrobić, by zadbać o swoje zasoby?"
-    ]
+    ],
+    "advice": "Pojawia się konkretna szansa — chwyć ją. Zasiej ziarno: zainwestuj czas, pracę lub środki w coś trwałego.",
+    "adviceReversed": "Szansa może przejść obok. Sprawdź, czy dobrze planujesz, zanim zainwestujesz.",
+    "astrology": "Ziemia — źródło żywiołu"
   },
   {
     "id": "pentacles_02",
@@ -627,7 +714,10 @@
     "reflection": [
       "Ile spraw naraz staram się teraz utrzymać?",
       "Co mógłbym lub mogłabym odłożyć, by odzyskać lekkość?"
-    ]
+    ],
+    "advice": "Żonglujesz wieloma sprawami — i dajesz radę. Zachowaj elastyczność i ustal priorytety.",
+    "adviceReversed": "Za dużo na raz. Zrezygnuj z czegoś, zanim coś upadnie.",
+    "astrology": "Ziemia · Jowisz w Koziorożcu"
   },
   {
     "id": "pentacles_03",
@@ -648,7 +738,10 @@
     "reflection": [
       "Z kim mógłbym lub mogłabym zbudować coś razem?",
       "Czy doceniam swój wkład tak samo jak wkład innych?"
-    ]
+    ],
+    "advice": "Współpracuj. Twoje umiejętności połączone z cudzymi dadzą solidny efekt — poproś o wsparcie lub opinię.",
+    "adviceReversed": "Współpraca się nie układa. Ustalcie jasno, kto za co odpowiada.",
+    "astrology": "Ziemia · Mars w Koziorożcu"
   },
   {
     "id": "pentacles_04",
@@ -669,7 +762,10 @@
     "reflection": [
       "Czego trzymam się z obawy, a nie z potrzeby?",
       "Co daje mi poczucie bezpieczeństwa poza rzeczami materialnymi?"
-    ]
+    ],
+    "advice": "Zabezpiecz to, co masz, ale nie zaciskaj pięści za mocno. Bezpieczeństwo to nie to samo co kontrola.",
+    "adviceReversed": "Czas się otworzyć — podziel się, wydaj, puść. Kurczowe trzymanie blokuje przepływ.",
+    "astrology": "Ziemia · Słońce w Koziorożcu"
   },
   {
     "id": "pentacles_05",
@@ -690,7 +786,10 @@
     "reflection": [
       "Gdzie mogę poprosić o wsparcie, którego potrzebuję?",
       "Kto idzie obok mnie w trudniejszych chwilach?"
-    ]
+    ],
+    "advice": "Trudny czas nie trwa wiecznie. Poproś o pomoc — wsparcie jest bliżej, niż myślisz.",
+    "adviceReversed": "Najgorsze mija. Przyjmij pomoc, którą ktoś Ci oferuje.",
+    "astrology": "Ziemia · Merkury w Byku"
   },
   {
     "id": "pentacles_06",
@@ -711,7 +810,10 @@
     "reflection": [
       "Czy łatwiej mi dawać, czy przyjmować?",
       "Gdzie w moim życiu wymiana wymaga większej równowagi?"
-    ]
+    ],
+    "advice": "Dawaj i przyjmuj w równowadze. Hojność wróci do Ciebie — ale nie zapominaj też brać.",
+    "adviceReversed": "Sprawdź, czy wymiana jest uczciwa. Pomoc z zobowiązaniami może Cię obciążać.",
+    "astrology": "Ziemia · Księżyc w Byku"
   },
   {
     "id": "pentacles_07",
@@ -732,7 +834,10 @@
     "reflection": [
       "Co już wyrosło dzięki mojej pracy, choć tego nie zauważałem lub nie zauważałam?",
       "Czy kierunek, w którym zmierzam, nadal jest dla mnie właściwy?"
-    ]
+    ],
+    "advice": "Bądź cierpliwy(-a) — plony rosną. Oceń, co działa, i inwestuj tam, gdzie widać wzrost.",
+    "adviceReversed": "Wysiłek nie przynosi efektów. Zmień metodę, zamiast pracować jeszcze ciężej tym samym sposobem.",
+    "astrology": "Ziemia · Saturn w Byku"
   },
   {
     "id": "pentacles_08",
@@ -753,7 +858,10 @@
     "reflection": [
       "Jaką umiejętność chciałbym lub chciałabym rozwijać krok po kroku?",
       "Czy pracuję z zaangażowaniem, czy tylko z obowiązku?"
-    ]
+    ],
+    "advice": "Skup się na rzemiośle i ćwicz. Systematyczna praca i dbałość o szczegóły przyniosą efekt.",
+    "adviceReversed": "Perfekcjonizm albo rutyna Cię zatrzymują. Przypomnij sobie, po co to robisz.",
+    "astrology": "Ziemia · Słońce w Pannie"
   },
   {
     "id": "pentacles_09",
@@ -774,7 +882,10 @@
     "reflection": [
       "Z czego, co zbudowałem lub zbudowałam samodzielnie, jestem dumny lub dumna?",
       "Jak mogę cieszyć się tym, co mam, bez porównywania się?"
-    ]
+    ],
+    "advice": "Ciesz się owocami swojej pracy. Masz prawo do niezależności i odrobiny luksusu.",
+    "adviceReversed": "Sprawdź, czy Twoja niezależność nie jest samotnością. Pozwól komuś się zbliżyć.",
+    "astrology": "Ziemia · Wenus w Pannie"
   },
   {
     "id": "pentacles_10",
@@ -795,7 +906,10 @@
     "reflection": [
       "Jakie wartości otrzymałem lub otrzymałam od poprzednich pokoleń?",
       "Co chciałbym lub chciałabym zostawić po sobie innym?"
-    ]
+    ],
+    "advice": "Myśl długoterminowo. Buduj coś trwałego — dla siebie i tych, którzy przyjdą po Tobie.",
+    "adviceReversed": "Sprawy rodzinne lub finansowe wymagają uporządkowania. Nie odkładaj trudnych rozmów.",
+    "astrology": "Ziemia · Merkury w Pannie"
   },
   {
     "id": "pentacles_11",
@@ -816,7 +930,10 @@
     "reflection": [
       "Czego praktycznego chciałbym lub chciałabym się nauczyć?",
       "Jaki pierwszy, mały krok mogę zrobić w tym tygodniu?"
-    ]
+    ],
+    "advice": "Ucz się. Nowa umiejętność albo praktyczny kurs otworzy Ci drogę — zacznij od podstaw.",
+    "adviceReversed": "Zacznij wreszcie, zamiast tylko planować naukę. Mały, regularny krok wystarczy.",
+    "astrology": "Ziemia"
   },
   {
     "id": "pentacles_12",
@@ -837,7 +954,10 @@
     "reflection": [
       "Jaki codzienny nawyk naprawdę mnie wspiera?",
       "Gdzie moja ostrożność zamienia się w zastój?"
-    ]
+    ],
+    "advice": "Pracuj wytrwale i metodycznie. Powoli, ale pewnie dojdziesz do celu — nie skracaj drogi.",
+    "adviceReversed": "Zbyt ostrożnie albo zbyt monotonnie. Dodaj trochę ruchu i zmiany do rutyny.",
+    "astrology": "Ziemia"
   },
   {
     "id": "pentacles_13",
@@ -858,7 +978,10 @@
     "reflection": [
       "Jak mogę dziś zadbać o swoją przestrzeń i rytm dnia?",
       "Czy troszczę się o siebie z taką samą czułością jak o innych?"
-    ]
+    ],
+    "advice": "Zadbaj o praktyczne podstawy — dom, zdrowie, budżet. Troska o konkrety da Ci spokój.",
+    "adviceReversed": "Opiekujesz się wszystkimi oprócz siebie. Znajdź czas i środki dla siebie.",
+    "astrology": "Ziemia"
   },
   {
     "id": "pentacles_14",
@@ -879,6 +1002,9 @@
     "reflection": [
       "Co uważam za swoje prawdziwe bogactwo?",
       "Jak to, co zbudowałem lub zbudowałam, może wspierać innych?"
-    ]
+    ],
+    "advice": "Postaw na stabilność i odpowiedzialne decyzje. Działaj jak ktoś, kto buduje na lata.",
+    "adviceReversed": "Nie pozwól, by pieniądze lub status przysłoniły to, co ważne. Bezpieczeństwo to nie wszystko.",
+    "astrology": "Ziemia"
   }
 ]

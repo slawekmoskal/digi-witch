@@ -3,6 +3,7 @@
 | Materiał | Plik | Pochodzenie | Status |
 |---|---|---|---|
 | Opisy 78 kart (symbolika, interpretacje, pytania) | `assets/content/tarot_part_a.json`, `tarot_part_b.json` | Teksty autorskie napisane dla projektu z pomocą modelu AI (Claude) na podstawie ogólnej wiedzy o symbolice talii z 1909 r.; polecenie wprost zakazywało kopiowania i parafrazowania książek (w tym Waite 1910) i współczesnych autorów | Do korekty językowej i merytorycznej (opisy obrazów pisane z pamięci — porównać ze skanami) |
+| Rady kart, horoskop, Księżyc, liczba dnia/relacji, artykuł o powtarzających się liczbach, korespondencje | `advice*` w kartach, `astro.json`, `numerology.json`, `articles.json` | Teksty autorskie (z pomocą AI); korespondencje astrologiczne wg systemu Złotego Brzasku (XIX w.) | Do korekty; sprawdzić ton („Uważaj na…”) pod kątem App Store 4.3 |
 | Interpretacje liczb (6 wskaźników) | `numerology.json` | jw. | Do korekty |
 | 12 archetypów | `archetypes.json` | Autorski model redakcyjny; nie kopiuje opisów Mark & Pearson ani innych | Do korekty |
 | 33 pytania do dziennika (14 rodzinnych) | `journal_prompts.json` | jw. | Do korekty |

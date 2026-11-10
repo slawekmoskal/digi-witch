@@ -3,6 +3,9 @@ import 'package:flutter/services.dart';
 
 import '../data/content.dart';
 import '../engine/numerology.dart';
+import '../engine/tarot.dart';
+import 'astro_screens.dart';
+import 'tarot_screen.dart';
 import 'widgets.dart';
 
 /// Accepts "15.07.1990", "15-07-1990", "15071990" — digits only keyboard friendly.
@@ -46,6 +49,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
   String? _dateError, _nameError;
   int _year = DateTime.now().year;
   List<NumerologyResult>? _results;
+  CalendarDate? _birth; // for the birth card, set with results
 
   @override
   void didChangeDependencies() {
@@ -66,6 +70,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
     final n = name.isEmpty ? null : normalizeName(name);
     setState(() {
       _results = null;
+      _birth = null;
       _dateError = dateText.isEmpty
           ? (name.isEmpty ? l.enterDateOrName : null)
           : d == null
@@ -79,6 +84,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
           ? l.nameNoLetters
           : l.nameUnsupported(n.unsupported.join(' '));
       if (_dateError != null || _nameError != null) return;
+      _birth = d;
       _results = [
         if (d != null) ...[lifePath(d), birthDay(d), personalYear(d, _year)],
         if (n != null) ...[expression(n), soulUrge(n), personality(n)],
@@ -93,7 +99,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
     return Scaffold(
       appBar: AppBar(title: Text(l.tabNumerology)),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: pagePadding(context),
         children: [
           Text(l.numerologyIntro),
           const SizedBox(height: 16),
@@ -106,7 +112,6 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
               hintText: 'DD.MM.RRRR',
               helperText: l.birthDateHelp,
               errorText: _dateError,
-              border: const OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 12),
@@ -119,7 +124,6 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
               helperMaxLines: 3,
               errorText: _nameError,
               errorMaxLines: 3,
-              border: const OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 12),
@@ -160,12 +164,22 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
                 },
                 child: Text(l.saveAsProfile),
               ),
+              OutlinedButton.icon(
+                icon: const Icon(Icons.favorite_border),
+                label: Text(l.compatibility),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const CompatibilityScreen(),
+                  ),
+                ),
+              ),
             ],
           ),
           if (_results != null) ...[
             SectionTitle(l.portrait),
             Text(l.portraitNote, style: Theme.of(context).textTheme.bodySmall),
             for (final r in _results!) ResultCard(r),
+            if (_birth case final b?) BirthCardSection(birthCard(b)),
           ],
         ],
       ),
@@ -187,13 +201,14 @@ class ResultCard extends StatelessWidget {
     final title = l.indicatorName(r.indicator.name);
     return Card(
       child: ExpansionTile(
-        title: Text(title),
+        title: Text(title, style: Theme.of(context).textTheme.titleMedium),
         subtitle: Text(
           r.value == null
               ? l.noBasis
               : '${r.value}${i != null ? ' · ${i.title}' : ''}',
         ),
-        leading: CircleAvatar(child: Text(r.value?.toString() ?? '–')),
+        leading: NumberBadge(r.value?.toString() ?? '–'),
+        minTileHeight: 76,
         childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
         expandedCrossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -222,6 +237,26 @@ class ResultCard extends StatelessWidget {
           ],
         ],
       ),
+    );
+  }
+}
+
+class BirthCardSection extends StatelessWidget {
+  final BirthCard b;
+  const BirthCardSection(this.b, {super.key});
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SectionTitle(l.birthCardTitle),
+        Text(l.birthCardNote, style: Theme.of(context).textTheme.bodySmall),
+        for (final s in b.steps) Text(s),
+        DrawnCardTile(DrawnCard(b.id, l.birthCardTitle, false)),
+        if (b.secondId case final id?)
+          DrawnCardTile(DrawnCard(id, l.birthCardSecond, false)),
+      ],
     );
   }
 }

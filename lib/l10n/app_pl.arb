@@ -42,6 +42,35 @@
   "reversedOn": "Karty odwrócone: włączone (każda karta niezależnie z prawdopodobieństwem 1/2).",
   "reversedOff": "Karty odwrócone: wyłączone — możesz je włączyć w Ustawieniach.",
   "spreadReflectionPrompt": "Co w tym rozkładzie najbardziej mnie poruszyło i dlaczego?",
+  "questionLabel": "Twoje pytanie (opcjonalnie)",
+  "questionHint": "np. Na co zwrócić uwagę przy zmianie pracy?",
+  "readingTitle": "Co karty mówią o Twoim pytaniu",
+  "readingTitleNoQuestion": "Podsumowanie rozkładu",
+  "summaryMajors": "Przeważają Wielkie Arkana — sprawa dotyka czegoś ważnego, większego niż codzienne decyzje.",
+  "summarySuit": "{suit, select, wands{Najwięcej Buław — w tle są energia, działanie i inicjatywa.} cups{Najwięcej Kielichów — w tle są emocje, uczucia i relacje.} swords{Najwięcej Mieczy — w tle są myśli, decyzje i trudne rozmowy.} pentacles{Najwięcej Denarów — w tle są praca, pieniądze i sprawy praktyczne.} other{}}",
+  "@summarySuit": {
+    "placeholders": {
+      "suit": {
+        "type": "String"
+      }
+    }
+  },
+  "summaryReversed": "Większość kart jest odwrócona — coś może być zablokowane, opóźnione albo przeżywane bardziej w środku niż na zewnątrz.",
+  "summaryBalanced": "Karty rozkładają się równomiernie — żaden obszar wyraźnie nie dominuje.",
+  "summaryAnswer": "Odpowiedź kart — {card} w pozycji „{position}”: {advice}",
+  "@summaryAnswer": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "card": {
+        "type": "String"
+      },
+      "advice": {
+        "type": "String"
+      }
+    }
+  },
   "addBookmark": "Dodaj zakładkę",
   "removeBookmark": "Usuń zakładkę",
   "group": "Grupa",
@@ -66,7 +95,7 @@
   "profileSaved": "Zapisano na tym urządzeniu.",
   "portrait": "Portret numerologiczny",
   "portraitNote": "Rozwiń wskaźnik, aby zobaczyć obliczenie i jego symboliczną interpretację. Wyniki są zgodne z konwencją opisaną w Bibliotece („Jak liczymy”).",
-  "indicatorName": "{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} other{Wskaźnik}}",
+  "indicatorName": "{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} other{Wskaźnik}}",
   "@indicatorName": {
     "placeholders": {
       "name": {
@@ -168,5 +197,283 @@
   "reminderTitle": "Digi Witch",
   "reminderBody": "Chwila na refleksję — jeśli masz ochotę.",
   "reminderDenied": "Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.",
-  "proStoreNote": "Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy."
+  "proStoreNote": "Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy.",
+  "horoscopeToday": "Dziś",
+  "horoscopeStars": "Gwiazdy mówią",
+  "horoscopeCaution": "Uważaj",
+  "moonIn": "Księżyc w {sign}, {phase}.",
+  "@moonIn": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      },
+      "phase": {
+        "type": "String"
+      }
+    }
+  },
+  "luckyNumbers": "Szczęśliwe liczby dnia",
+  "luckyNote": "Dla zabawy: liczby wynikają z Twojej daty urodzenia i dzisiejszej daty, więc są stałe przez cały dzień. Nie przewidują wygranych.",
+  "whyThis": "Z czego to wynika",
+  "whySign": "Twój znak: {sign} ({dates}), żywioł: {element}. Chiński znak: {chinese} — {chineseText}",
+  "@whySign": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      },
+      "dates": {
+        "type": "String"
+      },
+      "element": {
+        "type": "String"
+      },
+      "chinese": {
+        "type": "String"
+      },
+      "chineseText": {
+        "type": "String"
+      }
+    }
+  },
+  "whyMoon": "Dziś w południe Księżyc jest w znaku {sign} (żywioł: {element}). Relacja z Twoim żywiołem: {relation, select, same{ten sam żywioł} supportive{wspierająca} tense{napięta} other{neutralna}}.",
+  "@whyMoon": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      },
+      "element": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "whyMethod": "Położenie Księżyca liczymy wzorami astronomicznymi, bez internetu (dokładność ok. 0,5°). Tekst „Dziś” zależy od relacji żywiołów, „Gwiazdy mówią” od fazy Księżyca, a „Uważaj” od Twojej liczby dnia.",
+  "horoscopeNeedsBirth": "Zapisz datę urodzenia w zakładce Liczby (przycisk „Zapisz jako profil”), a zobaczysz tu horoskop na dziś, liczbę dnia i szczęśliwe liczby.",
+  "moonToday": "Księżyc dziś",
+  "moonState": "{phase} · oświetlenie {percent}% · w {sign}",
+  "@moonState": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "moonCalendar": "Kalendarz Księżyca",
+  "moonCalendarIntro": "Najbliższe główne fazy Księżyca, czas lokalny (dokładność ok. 1 godziny).",
+  "compatibility": "Zgodność dwóch osób",
+  "compatIntro": "Wpisz daty urodzenia dwóch osób. Porównamy znaki zodiaku, żywioły, znaki chińskie i liczby drogi życia. To zabawa i pretekst do rozmowy, nie ocena związku.",
+  "personDate": "Data urodzenia — osoba {n}",
+  "@personDate": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "check": "Sprawdź",
+  "compatElements": "Żywioły",
+  "personLine": "Osoba {n}: {sign} ({element}) · chiński znak: {chinese} · droga życia {lifePath}",
+  "@personLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "sign": {
+        "type": "String"
+      },
+      "element": {
+        "type": "String"
+      },
+      "chinese": {
+        "type": "String"
+      },
+      "lifePath": {
+        "type": "int"
+      }
+    }
+  },
+  "birthCardTitle": "Karta urodzenia",
+  "birthCardNote": "Metoda: dzień + miesiąc + rok urodzenia, sumujemy cyfry, aż wynik będzie nie większy niż 22 (22 = Głupiec). Wynik dwucyfrowy daje też kartę towarzyszącą.",
+  "birthCardSecond": "Karta towarzysząca",
+  "yesNoAnswer": "{a, select, yes{Odpowiedź kart: TAK} no{Odpowiedź kart: NIE} other{Odpowiedź kart: NIEJASNA — sprawa jeszcze się waży}}",
+  "@yesNoAnswer": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      }
+    }
+  },
+  "horoscopeFor": "Dziś dla Ciebie",
+  "licenses": "Licencje (czcionki i biblioteki)",
+  "cardAdvice": "Rada karty",
+  "correspondences": "Korespondencje astrologiczne (Złoty Brzask, XIX w.)",
+  "chooseSpread": "Wybierz rozkład",
+  "tapDeck": "Zadaj pytanie w myślach i dotknij talii",
+  "spreadCards": "{n, plural, one{1 karta} few{{n} karty} many{{n} kart} other{{n} kart}}",
+  "@spreadCards": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "bigThree": "Twoja wielka trójka",
+  "bigThreeIntro": "Słońce to Twój znak zodiaku. Księżyc opisuje emocje, a ascendent — to, jak widzą Cię inni. Do Księżyca zwykle wystarczy data, do ascendentu potrzebna jest godzina i miejsce urodzenia. Dane zostają tylko na tym urządzeniu.",
+  "birthTime": "Godzina urodzenia",
+  "notGiven": "nie podano",
+  "birthPlace": "Miejsce urodzenia",
+  "placesNote": "Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.",
+  "sunLabel": "Słońce",
+  "moonLabel": "Księżyc",
+  "ascLabel": "Ascendent",
+  "moonTwoSigns": "Tego dnia Księżyc zmieniał znak: {a} albo {b} — zależy od godziny urodzenia.",
+  "@moonTwoSigns": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "ascNeeds": "Podaj godzinę i miejsce urodzenia, aby obliczyć ascendent.",
+  "traceTime": "Czas lokalny {local} → {utc} UTC (strefa Europe/Warsaw z historią czasu letniego).",
+  "@traceTime": {
+    "placeholders": {
+      "local": {
+        "type": "String"
+      },
+      "utc": {
+        "type": "String"
+      }
+    }
+  },
+  "traceMoon": "Długość ekliptyczna Księżyca: {deg}° → {sign}.",
+  "@traceMoon": {
+    "placeholders": {
+      "deg": {
+        "type": "String"
+      },
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "traceAsc": "Ascendent: {deg}° → {sign} ({place}, {lat}° N, {lon}° E).",
+  "@traceAsc": {
+    "placeholders": {
+      "deg": {
+        "type": "String"
+      },
+      "sign": {
+        "type": "String"
+      },
+      "place": {
+        "type": "String"
+      },
+      "lat": {
+        "type": "String"
+      },
+      "lon": {
+        "type": "String"
+      }
+    }
+  },
+  "needBirthDate": "Najpierw zapisz datę urodzenia w zakładce Liczby (przycisk „Zapamiętaj jako mój profil”).",
+  "clear": "Wyczyść",
+  "chineseTitle": "Horoskop chiński",
+  "chineseBirthYear": "Rok według kalendarza chińskiego: {year} · {element} · {yy, select, yang{yang} other{yin}}",
+  "@chineseBirthYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "element": {
+        "type": "String"
+      },
+      "yy": {
+        "type": "String"
+      }
+    }
+  },
+  "chineseNewYearNote": "Chiński Nowy Rok wypada między 21 stycznia a 20 lutego. Jeśli urodziłeś(-aś) przed nim, należysz do znaku poprzedniego roku — tu jest to już uwzględnione.",
+  "chineseCurrentYear": "Rok {year}: {animal} · {element}",
+  "@chineseCurrentYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "animal": {
+        "type": "String"
+      },
+      "element": {
+        "type": "String"
+      }
+    }
+  },
+  "chineseYearSince": "Obecny rok chiński trwa od {date}.",
+  "@chineseYearSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "chineseCompatTitle": "Zgodność znaków chińskich",
+  "chineseFriend": "Tajemny przyjaciel",
+  "chineseTrine": "Trójka sprzymierzeńców",
+  "chineseClash": "Znak przeciwny",
+  "chineseElement": "Żywioł roku urodzenia",
+  "mercuryRetro": "Merkury wsteczny",
+  "mercuryNow": "Merkury wsteczny do {date}",
+  "@mercuryNow": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "mercuryNone": "W najbliższym roku brak okresów wstecznych.",
+  "upcomingPhases": "Najbliższe fazy",
+  "dayByDay": "Dzień po dniu (30 dni)",
+  "moonDayLine": "Księżyc w {sign} · {phase}",
+  "@moonDayLine": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      },
+      "phase": {
+        "type": "String"
+      }
+    }
+  },
+  "dreams": "Sennik",
+  "dreamsCount": "{n} symboli snów — co sen może mówić o Tobie",
+  "@dreamsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dreamsIntro": "Sny nie przepowiadają przyszłości. Sennik podpowiada, z czym dany symbol bywa kojarzony, a pytanie pomaga sprawdzić, co znaczy właśnie dla Ciebie. Najważniejsze jest to, co czułeś(-aś) we śnie.",
+  "dreamsSearch": "Szukaj symbolu, np. woda, zęby, dom",
+  "dreamsEmpty": "Nie ma takiego symbolu. Spróbuj podobnego słowa — albo zapisz sen w dzienniku.",
+  "chineseSignButton": "Znak chiński: {animal}",
+  "@chineseSignButton": {
+    "placeholders": {
+      "animal": {
+        "type": "String"
+      }
+    }
+  }
 }

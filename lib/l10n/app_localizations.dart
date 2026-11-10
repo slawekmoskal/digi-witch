@@ -304,6 +304,60 @@ abstract class AppLocalizations {
   /// **'Co w tym rozkładzie najbardziej mnie poruszyło i dlaczego?'**
   String get spreadReflectionPrompt;
 
+  /// No description provided for @questionLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twoje pytanie (opcjonalnie)'**
+  String get questionLabel;
+
+  /// No description provided for @questionHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'np. Na co zwrócić uwagę przy zmianie pracy?'**
+  String get questionHint;
+
+  /// No description provided for @readingTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co karty mówią o Twoim pytaniu'**
+  String get readingTitle;
+
+  /// No description provided for @readingTitleNoQuestion.
+  ///
+  /// In pl, this message translates to:
+  /// **'Podsumowanie rozkładu'**
+  String get readingTitleNoQuestion;
+
+  /// No description provided for @summaryMajors.
+  ///
+  /// In pl, this message translates to:
+  /// **'Przeważają Wielkie Arkana — sprawa dotyka czegoś ważnego, większego niż codzienne decyzje.'**
+  String get summaryMajors;
+
+  /// No description provided for @summarySuit.
+  ///
+  /// In pl, this message translates to:
+  /// **'{suit, select, wands{Najwięcej Buław — w tle są energia, działanie i inicjatywa.} cups{Najwięcej Kielichów — w tle są emocje, uczucia i relacje.} swords{Najwięcej Mieczy — w tle są myśli, decyzje i trudne rozmowy.} pentacles{Najwięcej Denarów — w tle są praca, pieniądze i sprawy praktyczne.} other{}}'**
+  String summarySuit(String suit);
+
+  /// No description provided for @summaryReversed.
+  ///
+  /// In pl, this message translates to:
+  /// **'Większość kart jest odwrócona — coś może być zablokowane, opóźnione albo przeżywane bardziej w środku niż na zewnątrz.'**
+  String get summaryReversed;
+
+  /// No description provided for @summaryBalanced.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karty rozkładają się równomiernie — żaden obszar wyraźnie nie dominuje.'**
+  String get summaryBalanced;
+
+  /// No description provided for @summaryAnswer.
+  ///
+  /// In pl, this message translates to:
+  /// **'Odpowiedź kart — {card} w pozycji „{position}”: {advice}'**
+  String summaryAnswer(String position, String card, String advice);
+
   /// No description provided for @addBookmark.
   ///
   /// In pl, this message translates to:
@@ -451,7 +505,7 @@ abstract class AppLocalizations {
   /// No description provided for @indicatorName.
   ///
   /// In pl, this message translates to:
-  /// **'{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} other{Wskaźnik}}'**
+  /// **'{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} other{Wskaźnik}}'**
   String indicatorName(String name);
 
   /// No description provided for @noBasis.
@@ -807,6 +861,444 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy.'**
   String get proStoreNote;
+
+  /// No description provided for @horoscopeToday.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dziś'**
+  String get horoscopeToday;
+
+  /// No description provided for @horoscopeStars.
+  ///
+  /// In pl, this message translates to:
+  /// **'Gwiazdy mówią'**
+  String get horoscopeStars;
+
+  /// No description provided for @horoscopeCaution.
+  ///
+  /// In pl, this message translates to:
+  /// **'Uważaj'**
+  String get horoscopeCaution;
+
+  /// No description provided for @moonIn.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc w {sign}, {phase}.'**
+  String moonIn(String sign, String phase);
+
+  /// No description provided for @luckyNumbers.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szczęśliwe liczby dnia'**
+  String get luckyNumbers;
+
+  /// No description provided for @luckyNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dla zabawy: liczby wynikają z Twojej daty urodzenia i dzisiejszej daty, więc są stałe przez cały dzień. Nie przewidują wygranych.'**
+  String get luckyNote;
+
+  /// No description provided for @whyThis.
+  ///
+  /// In pl, this message translates to:
+  /// **'Z czego to wynika'**
+  String get whyThis;
+
+  /// No description provided for @whySign.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twój znak: {sign} ({dates}), żywioł: {element}. Chiński znak: {chinese} — {chineseText}'**
+  String whySign(
+    String sign,
+    String dates,
+    String element,
+    String chinese,
+    String chineseText,
+  );
+
+  /// No description provided for @whyMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dziś w południe Księżyc jest w znaku {sign} (żywioł: {element}). Relacja z Twoim żywiołem: {relation, select, same{ten sam żywioł} supportive{wspierająca} tense{napięta} other{neutralna}}.'**
+  String whyMoon(String sign, String element, String relation);
+
+  /// No description provided for @whyMethod.
+  ///
+  /// In pl, this message translates to:
+  /// **'Położenie Księżyca liczymy wzorami astronomicznymi, bez internetu (dokładność ok. 0,5°). Tekst „Dziś” zależy od relacji żywiołów, „Gwiazdy mówią” od fazy Księżyca, a „Uważaj” od Twojej liczby dnia.'**
+  String get whyMethod;
+
+  /// No description provided for @horoscopeNeedsBirth.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisz datę urodzenia w zakładce Liczby (przycisk „Zapisz jako profil”), a zobaczysz tu horoskop na dziś, liczbę dnia i szczęśliwe liczby.'**
+  String get horoscopeNeedsBirth;
+
+  /// No description provided for @moonToday.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc dziś'**
+  String get moonToday;
+
+  /// No description provided for @moonState.
+  ///
+  /// In pl, this message translates to:
+  /// **'{phase} · oświetlenie {percent}% · w {sign}'**
+  String moonState(String phase, int percent, String sign);
+
+  /// No description provided for @moonCalendar.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kalendarz Księżyca'**
+  String get moonCalendar;
+
+  /// No description provided for @moonCalendarIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Najbliższe główne fazy Księżyca, czas lokalny (dokładność ok. 1 godziny).'**
+  String get moonCalendarIntro;
+
+  /// No description provided for @compatibility.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zgodność dwóch osób'**
+  String get compatibility;
+
+  /// No description provided for @compatIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wpisz daty urodzenia dwóch osób. Porównamy znaki zodiaku, żywioły, znaki chińskie i liczby drogi życia. To zabawa i pretekst do rozmowy, nie ocena związku.'**
+  String get compatIntro;
+
+  /// No description provided for @personDate.
+  ///
+  /// In pl, this message translates to:
+  /// **'Data urodzenia — osoba {n}'**
+  String personDate(int n);
+
+  /// No description provided for @check.
+  ///
+  /// In pl, this message translates to:
+  /// **'Sprawdź'**
+  String get check;
+
+  /// No description provided for @compatElements.
+  ///
+  /// In pl, this message translates to:
+  /// **'Żywioły'**
+  String get compatElements;
+
+  /// No description provided for @personLine.
+  ///
+  /// In pl, this message translates to:
+  /// **'Osoba {n}: {sign} ({element}) · chiński znak: {chinese} · droga życia {lifePath}'**
+  String personLine(
+    int n,
+    String sign,
+    String element,
+    String chinese,
+    int lifePath,
+  );
+
+  /// No description provided for @birthCardTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karta urodzenia'**
+  String get birthCardTitle;
+
+  /// No description provided for @birthCardNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Metoda: dzień + miesiąc + rok urodzenia, sumujemy cyfry, aż wynik będzie nie większy niż 22 (22 = Głupiec). Wynik dwucyfrowy daje też kartę towarzyszącą.'**
+  String get birthCardNote;
+
+  /// No description provided for @birthCardSecond.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karta towarzysząca'**
+  String get birthCardSecond;
+
+  /// No description provided for @yesNoAnswer.
+  ///
+  /// In pl, this message translates to:
+  /// **'{a, select, yes{Odpowiedź kart: TAK} no{Odpowiedź kart: NIE} other{Odpowiedź kart: NIEJASNA — sprawa jeszcze się waży}}'**
+  String yesNoAnswer(String a);
+
+  /// No description provided for @horoscopeFor.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dziś dla Ciebie'**
+  String get horoscopeFor;
+
+  /// No description provided for @licenses.
+  ///
+  /// In pl, this message translates to:
+  /// **'Licencje (czcionki i biblioteki)'**
+  String get licenses;
+
+  /// No description provided for @cardAdvice.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rada karty'**
+  String get cardAdvice;
+
+  /// No description provided for @correspondences.
+  ///
+  /// In pl, this message translates to:
+  /// **'Korespondencje astrologiczne (Złoty Brzask, XIX w.)'**
+  String get correspondences;
+
+  /// No description provided for @chooseSpread.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wybierz rozkład'**
+  String get chooseSpread;
+
+  /// No description provided for @tapDeck.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zadaj pytanie w myślach i dotknij talii'**
+  String get tapDeck;
+
+  /// No description provided for @spreadCards.
+  ///
+  /// In pl, this message translates to:
+  /// **'{n, plural, one{1 karta} few{{n} karty} many{{n} kart} other{{n} kart}}'**
+  String spreadCards(int n);
+
+  /// No description provided for @bigThree.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twoja wielka trójka'**
+  String get bigThree;
+
+  /// No description provided for @bigThreeIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słońce to Twój znak zodiaku. Księżyc opisuje emocje, a ascendent — to, jak widzą Cię inni. Do Księżyca zwykle wystarczy data, do ascendentu potrzebna jest godzina i miejsce urodzenia. Dane zostają tylko na tym urządzeniu.'**
+  String get bigThreeIntro;
+
+  /// No description provided for @birthTime.
+  ///
+  /// In pl, this message translates to:
+  /// **'Godzina urodzenia'**
+  String get birthTime;
+
+  /// No description provided for @notGiven.
+  ///
+  /// In pl, this message translates to:
+  /// **'nie podano'**
+  String get notGiven;
+
+  /// No description provided for @birthPlace.
+  ///
+  /// In pl, this message translates to:
+  /// **'Miejsce urodzenia'**
+  String get birthPlace;
+
+  /// No description provided for @placesNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.'**
+  String get placesNote;
+
+  /// No description provided for @sunLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słońce'**
+  String get sunLabel;
+
+  /// No description provided for @moonLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc'**
+  String get moonLabel;
+
+  /// No description provided for @ascLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ascendent'**
+  String get ascLabel;
+
+  /// No description provided for @moonTwoSigns.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tego dnia Księżyc zmieniał znak: {a} albo {b} — zależy od godziny urodzenia.'**
+  String moonTwoSigns(String a, String b);
+
+  /// No description provided for @ascNeeds.
+  ///
+  /// In pl, this message translates to:
+  /// **'Podaj godzinę i miejsce urodzenia, aby obliczyć ascendent.'**
+  String get ascNeeds;
+
+  /// No description provided for @traceTime.
+  ///
+  /// In pl, this message translates to:
+  /// **'Czas lokalny {local} → {utc} UTC (strefa Europe/Warsaw z historią czasu letniego).'**
+  String traceTime(String local, String utc);
+
+  /// No description provided for @traceMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Długość ekliptyczna Księżyca: {deg}° → {sign}.'**
+  String traceMoon(String deg, String sign);
+
+  /// No description provided for @traceAsc.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ascendent: {deg}° → {sign} ({place}, {lat}° N, {lon}° E).'**
+  String traceAsc(
+    String deg,
+    String sign,
+    String place,
+    String lat,
+    String lon,
+  );
+
+  /// No description provided for @needBirthDate.
+  ///
+  /// In pl, this message translates to:
+  /// **'Najpierw zapisz datę urodzenia w zakładce Liczby (przycisk „Zapamiętaj jako mój profil”).'**
+  String get needBirthDate;
+
+  /// No description provided for @clear.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wyczyść'**
+  String get clear;
+
+  /// No description provided for @chineseTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Horoskop chiński'**
+  String get chineseTitle;
+
+  /// No description provided for @chineseBirthYear.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rok według kalendarza chińskiego: {year} · {element} · {yy, select, yang{yang} other{yin}}'**
+  String chineseBirthYear(int year, String element, String yy);
+
+  /// No description provided for @chineseNewYearNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Chiński Nowy Rok wypada między 21 stycznia a 20 lutego. Jeśli urodziłeś(-aś) przed nim, należysz do znaku poprzedniego roku — tu jest to już uwzględnione.'**
+  String get chineseNewYearNote;
+
+  /// No description provided for @chineseCurrentYear.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rok {year}: {animal} · {element}'**
+  String chineseCurrentYear(int year, String animal, String element);
+
+  /// No description provided for @chineseYearSince.
+  ///
+  /// In pl, this message translates to:
+  /// **'Obecny rok chiński trwa od {date}.'**
+  String chineseYearSince(String date);
+
+  /// No description provided for @chineseCompatTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zgodność znaków chińskich'**
+  String get chineseCompatTitle;
+
+  /// No description provided for @chineseFriend.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tajemny przyjaciel'**
+  String get chineseFriend;
+
+  /// No description provided for @chineseTrine.
+  ///
+  /// In pl, this message translates to:
+  /// **'Trójka sprzymierzeńców'**
+  String get chineseTrine;
+
+  /// No description provided for @chineseClash.
+  ///
+  /// In pl, this message translates to:
+  /// **'Znak przeciwny'**
+  String get chineseClash;
+
+  /// No description provided for @chineseElement.
+  ///
+  /// In pl, this message translates to:
+  /// **'Żywioł roku urodzenia'**
+  String get chineseElement;
+
+  /// No description provided for @mercuryRetro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Merkury wsteczny'**
+  String get mercuryRetro;
+
+  /// No description provided for @mercuryNow.
+  ///
+  /// In pl, this message translates to:
+  /// **'Merkury wsteczny do {date}'**
+  String mercuryNow(String date);
+
+  /// No description provided for @mercuryNone.
+  ///
+  /// In pl, this message translates to:
+  /// **'W najbliższym roku brak okresów wstecznych.'**
+  String get mercuryNone;
+
+  /// No description provided for @upcomingPhases.
+  ///
+  /// In pl, this message translates to:
+  /// **'Najbliższe fazy'**
+  String get upcomingPhases;
+
+  /// No description provided for @dayByDay.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dzień po dniu (30 dni)'**
+  String get dayByDay;
+
+  /// No description provided for @moonDayLine.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc w {sign} · {phase}'**
+  String moonDayLine(String sign, String phase);
+
+  /// No description provided for @dreams.
+  ///
+  /// In pl, this message translates to:
+  /// **'Sennik'**
+  String get dreams;
+
+  /// No description provided for @dreamsCount.
+  ///
+  /// In pl, this message translates to:
+  /// **'{n} symboli snów — co sen może mówić o Tobie'**
+  String dreamsCount(int n);
+
+  /// No description provided for @dreamsIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Sny nie przepowiadają przyszłości. Sennik podpowiada, z czym dany symbol bywa kojarzony, a pytanie pomaga sprawdzić, co znaczy właśnie dla Ciebie. Najważniejsze jest to, co czułeś(-aś) we śnie.'**
+  String get dreamsIntro;
+
+  /// No description provided for @dreamsSearch.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szukaj symbolu, np. woda, zęby, dom'**
+  String get dreamsSearch;
+
+  /// No description provided for @dreamsEmpty.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nie ma takiego symbolu. Spróbuj podobnego słowa — albo zapisz sen w dzienniku.'**
+  String get dreamsEmpty;
+
+  /// No description provided for @chineseSignButton.
+  ///
+  /// In pl, this message translates to:
+  /// **'Znak chiński: {animal}'**
+  String chineseSignButton(String animal);
 }
 
 class _AppLocalizationsDelegate

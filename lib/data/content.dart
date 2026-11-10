@@ -9,6 +9,8 @@ const contentVersion = 'pl-2026.11-1';
 
 class TarotCard {
   final String id, name, arcana, symbolism, upright, reversed;
+  final String advice, adviceReversed; // used as the reading's answer
+  final String astrology;
   final String? suit;
   final int rank;
   final List<String> keywords, reflection;
@@ -22,6 +24,9 @@ class TarotCard {
       symbolism = j['symbolism'],
       upright = j['upright'],
       reversed = j['reversed'],
+      advice = j['advice'],
+      adviceReversed = j['adviceReversed'],
+      astrology = j['astrology'],
       reflection = List<String>.from(j['reflection']);
 
   String get group =>
@@ -77,6 +82,81 @@ class Article {
       body = j['body'];
 }
 
+typedef Named = ({String name, String text});
+
+class Sign {
+  final String id, name, locative, dates, text;
+  Sign.fromJson(Map<String, dynamic> j)
+    : id = j['id'],
+      name = j['name'],
+      locative = j['locative'],
+      dates = j['dates'],
+      text = j['text'];
+}
+
+/// Texts for the daily horoscope, moon and compatibility; indexes follow engine/astro.dart.
+class Astro {
+  final Map<String, String> elements, compat, yearForecast, chineseCompat;
+  final Map<String, String> haircut;
+  final List<Sign> signs;
+  final List<({String name, String text, String long})> chinese;
+  final List<Named> phases;
+  final List<String> moonSigns, ascSigns;
+  final Map<String, ({String name, String adj, String text})> elements5;
+  final Map<String, Named> dayTypes;
+  final String mercury;
+  final Map<String, List<String>> today;
+  final Map<int, String> caution;
+  Astro.fromJson(Map<String, dynamic> j)
+    : elements = Map<String, String>.from(j['elements']),
+      compat = Map<String, String>.from(j['compat']),
+      yearForecast = Map<String, String>.from(j['yearForecast']),
+      chineseCompat = Map<String, String>.from(j['chineseCompat']),
+      haircut = Map<String, String>.from(j['haircut']),
+      moonSigns = List<String>.from(j['moonSigns']),
+      ascSigns = List<String>.from(j['ascSigns']),
+      mercury = j['mercury'],
+      elements5 = {
+        for (final e in (j['elements5'] as Map<String, dynamic>).entries)
+          e.key: (
+            name: e.value['name'] as String,
+            adj: e.value['adj'] as String,
+            text: e.value['text'] as String,
+          ),
+      },
+      dayTypes = {
+        for (final e in (j['dayTypes'] as Map<String, dynamic>).entries)
+          e.key: (
+            name: e.value['name'] as String,
+            text: e.value['text'] as String,
+          ),
+      },
+      signs = [for (final e in j['signs']) Sign.fromJson(e)],
+      chinese = [
+        for (final e in j['chinese'])
+          (name: e['name'], text: e['text'], long: e['long']),
+      ],
+      phases = [
+        for (final e in j['phases']) (name: e['name'], text: e['text']),
+      ],
+      today = {
+        for (final e in (j['today'] as Map<String, dynamic>).entries)
+          e.key: List<String>.from(e.value),
+      },
+      caution = {
+        for (final e in (j['caution'] as Map<String, dynamic>).entries)
+          int.parse(e.key): e.value as String,
+      };
+}
+
+class Dream {
+  final String symbol, meaning, reflection;
+  Dream.fromJson(Map<String, dynamic> j)
+    : symbol = j['symbol'],
+      meaning = j['meaning'],
+      reflection = j['reflection'];
+}
+
 /// All bundled, offline content.
 class Content {
   final Map<String, TarotCard> cards; // ordered as in the deck
@@ -85,6 +165,8 @@ class Content {
   final List<Prompt> prompts;
   final List<Term> glossary;
   final List<Article> articles;
+  final Astro astro;
+  final List<Dream> dreams;
   Content._(
     this.cards,
     this.numerology,
@@ -92,6 +174,8 @@ class Content {
     this.prompts,
     this.glossary,
     this.articles,
+    this.astro,
+    this.dreams,
   );
 
   Interpretation? interpretation(Indicator i, int? v) =>
@@ -119,6 +203,8 @@ class Content {
       [for (final e in await j('journal_prompts.json')) Prompt.fromJson(e)],
       [for (final e in await j('glossary.json')) Term.fromJson(e)],
       [for (final e in await j('articles.json')) Article.fromJson(e)],
+      Astro.fromJson(await j('astro.json')),
+      [for (final e in await j('dreams.json')) Dream.fromJson(e)],
     );
   }
 }

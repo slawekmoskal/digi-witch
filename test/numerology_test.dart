@@ -110,4 +110,22 @@ void main() {
     expect(CalendarDate.tryCreate(300000, 1, 1), isNull);
     expect(CalendarDate.tryCreate(1, 1, 1)?.iso, '0001-01-01');
   });
+
+  test('personal day, relation number, lucky numbers', () {
+    final birth = CalendarDate.tryCreate(1990, 7, 15)!;
+    final day = CalendarDate.tryCreate(2026, 11, 10)!;
+    // personal year 2026: 1+5 + 7 + (2+0+2+6=10) = 23 → 5; day: 5 + (1+1) + (1+0) = 8
+    expect(personalYear(birth, 2026).value, 5);
+    expect(personalDay(birth, day).value, 8);
+    // life paths: 15.07.1990 → 32 → 5; 01.01.2000 → 4; 5 + 4 = 9
+    expect(relation(birth, CalendarDate.tryCreate(2000, 1, 1)!).value, 9);
+    final a = luckyNumbers(birth, day);
+    expect(a, luckyNumbers(birth, day)); // stable for the day
+    expect(a.length, 3);
+    expect(a.every((n) => n >= 1 && n <= 99), isTrue);
+    expect(
+      a,
+      isNot(luckyNumbers(birth, CalendarDate.tryCreate(2026, 11, 11)!)),
+    );
+  });
 }

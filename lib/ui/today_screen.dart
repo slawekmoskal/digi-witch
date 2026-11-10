@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../engine/numerology.dart';
+import 'astro_screens.dart';
 import 'numerology_screen.dart';
 import 'settings_screen.dart';
 import 'tarot_screen.dart';
@@ -24,7 +25,7 @@ class TodayScreen extends StatelessWidget {
     final birth = s.birthDate;
     return Scaffold(
       appBar: AppBar(
-        title: Text(l.tabToday),
+        title: Text(l.appTitle),
         actions: [
           IconButton(
             tooltip: l.settings,
@@ -36,12 +37,29 @@ class TodayScreen extends StatelessWidget {
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: pagePadding(context),
         children: [
           Text(
             MaterialLocalizations.of(context).formatFullDate(now),
-            style: Theme.of(context).textTheme.bodySmall,
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
+          if (birth != null)
+            HoroscopeCard(birth, now)
+          else
+            TarotFrame(
+              child: Column(
+                children: [
+                  Text(
+                    l.horoscopeFor,
+                    style: Theme.of(context).textTheme.headlineSmall,
+                  ),
+                  const SizedBox(height: 8),
+                  Text(l.horoscopeNeedsBirth, textAlign: TextAlign.center),
+                ],
+              ),
+            ),
+          MoonCard(now),
           SectionTitle(l.cardOfDay),
           DrawnCardTile(card),
           Text(l.cardOfDayNote, style: Theme.of(context).textTheme.bodySmall),
@@ -62,6 +80,8 @@ class TodayScreen extends StatelessWidget {
             ),
           ),
           if (birth != null) ...[
+            SectionTitle(l.indicatorName('personalDay')),
+            ResultCard(personalDay(birth, today)),
             SectionTitle(l.yourPersonalYear(now.year)),
             ResultCard(personalYear(birth, now.year)),
           ],

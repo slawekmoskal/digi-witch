@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:digi_witch/engine/numerology.dart';
 import 'package:digi_witch/engine/tarot.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -54,5 +55,47 @@ void main() {
     );
     expect(chi, lessThan(117.6));
     expect(rev / n, closeTo(0.5, 0.02));
+  });
+
+  test('summary: majors, dominant suit, reversals', () {
+    DrawnCard c(String id, [bool r = false]) => DrawnCard(id, 'p', r);
+    var s = summarize([c('major_00'), c('major_13'), c('cups_02', true)]);
+    expect(s.majorsDominate, isTrue);
+    expect(s.dominantSuit, isNull); // single minor card is not a pattern
+    expect(s.mostlyReversed, isFalse);
+
+    s = summarize([c('cups_01', true), c('cups_05', true), c('swords_02')]);
+    expect(s.majorsDominate, isFalse);
+    expect(s.dominantSuit, 'cups');
+    expect(s.mostlyReversed, isTrue);
+
+    // tie between suits -> no dominant suit
+    s = summarize([c('cups_01'), c('cups_02'), c('wands_01'), c('wands_02')]);
+    expect(s.dominantSuit, isNull);
+
+    // one-card spread: no patterns
+    s = summarize([c('major_16', true)]);
+    expect([s.majorsDominate, s.mostlyReversed], [false, false]);
+  });
+
+  test('yes/no answers', () {
+    expect(yesNo(const DrawnCard('major_19', 'p', false)), YesNo.yes);
+    expect(yesNo(const DrawnCard('major_19', 'p', true)), YesNo.no);
+    expect(yesNo(const DrawnCard('major_16', 'p', false)), YesNo.no);
+    expect(yesNo(const DrawnCard('major_16', 'p', true)), YesNo.unclear);
+    expect(yesNo(const DrawnCard('major_18', 'p', false)), YesNo.unclear);
+  });
+
+  test('birth card', () {
+    CalendarDate d(int y, int m, int day) => CalendarDate.tryCreate(y, m, day)!;
+    // 15 + 7 + 1990 = 2012 → 5
+    var b = birthCard(d(1990, 7, 15));
+    expect([b.major, b.second], [5, null]);
+    // 28 + 12 + 1979 = 2019 → 12, paired with 1 + 2 = 3
+    b = birthCard(d(1979, 12, 28));
+    expect([b.id, b.secondId], ['major_12', 'major_03']);
+    // 1 + 1 + 1991 = 1993 → 22 = Fool, paired with 4
+    b = birthCard(d(1991, 1, 1));
+    expect([b.id, b.secondId], ['major_00', 'major_04']);
   });
 }

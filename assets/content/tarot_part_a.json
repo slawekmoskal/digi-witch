@@ -18,7 +18,10 @@
     "reflection": [
       "Co byłoby możliwe, gdyby nie trzeba było znać zakończenia z góry?",
       "Jaki mały krok w nieznane wydaje Ci się teraz kuszący?"
-    ]
+    ],
+    "advice": "To dobry moment na nowy początek. Zrób pierwszy krok, nawet jeśli nie znasz całej drogi — zaufaj intuicji i ciekawości, tylko patrz pod nogi.",
+    "adviceReversed": "Zatrzymaj się na chwilę przed skokiem. Sprawdź, czy wahanie wynika z rozsądku, czy ze strachu przed błędem — i dopiero wtedy ruszaj.",
+    "astrology": "Powietrze"
   },
   {
     "id": "major_01",
@@ -39,7 +42,10 @@
     "reflection": [
       "Jakie umiejętności masz już do dyspozycji, choć rzadko je zauważasz?",
       "Która myśl czeka na przełożenie na pierwszy konkretny ruch?"
-    ]
+    ],
+    "advice": "Masz wszystko, czego potrzebujesz, żeby zacząć. Weź sprawy w swoje ręce, skup się na jednym celu i działaj.",
+    "adviceReversed": "Zanim zaczniesz działać, sprawdź swoje intencje. Rozproszona energia albo próba manipulowania sytuacją nie przyniosą tego, czego chcesz.",
+    "astrology": "Merkury"
   },
   {
     "id": "major_02",
@@ -60,7 +66,10 @@
     "reflection": [
       "Co mówi Ci wewnętrzny głos, gdy na chwilę wyciszysz otoczenie?",
       "Na co potrzebujesz więcej czasu, zanim podejmiesz decyzję?"
-    ]
+    ],
+    "advice": "Odpowiedź już w Tobie jest. Nie podejmuj decyzji w pośpiechu — wycisz się i posłuchaj intuicji, zanim zapytasz innych.",
+    "adviceReversed": "Przestań zagłuszać swój wewnętrzny głos cudzymi opiniami. Daj sobie chwilę ciszy, a zobaczysz, co naprawdę czujesz.",
+    "astrology": "Księżyc"
   },
   {
     "id": "major_03",
@@ -81,7 +90,10 @@
     "reflection": [
       "Co w Twoim życiu potrzebuje teraz cierpliwej troski, żeby mogło rosnąć?",
       "W jaki sposób możesz dziś zadbać o siebie tak, jak dbasz o innych?"
-    ]
+    ],
+    "advice": "Zadbaj o to, co chcesz, żeby rosło — o siebie, relację, pomysł. Działaj z troską i cierpliwością, a sprawa sama nabierze kształtu.",
+    "adviceReversed": "Trudno dawać innym, gdy samemu brakuje sił. Zacznij od zadbania o siebie, a potem troszcz się o resztę.",
+    "astrology": "Wenus"
   },
   {
     "id": "major_04",
@@ -102,7 +114,10 @@
     "reflection": [
       "Jaka granica lub zasada pomogłaby Ci poczuć się pewniej?",
       "Gdzie kontrola daje Ci oparcie, a gdzie zaczyna ograniczać?"
-    ]
+    ],
+    "advice": "Wprowadź porządek. Ustal jasne zasady, zrób plan i weź odpowiedzialność za decyzję — stabilność da Ci przewagę.",
+    "adviceReversed": "Za dużo kontroli może dusić sytuację. Rozluźnij sztywne reguły albo — jeśli brakuje struktury — wreszcie ją zbuduj.",
+    "astrology": "Baran"
   },
   {
     "id": "major_05",
@@ -123,7 +138,10 @@
     "reflection": [
       "Od kogo możesz się teraz czegoś nauczyć?",
       "Które przekonania przejęte od innych warto dziś przemyśleć na nowo?"
-    ]
+    ],
+    "advice": "Skorzystaj ze sprawdzonej drogi. Poproś o radę kogoś doświadczonego albo oprzyj się na zasadach, które już się sprawdziły.",
+    "adviceReversed": "Nie musisz robić wszystkiego tak, jak „się powinno”. Zapytaj siebie, które zasady są Twoje, a które tylko odziedziczone.",
+    "astrology": "Byk"
   },
   {
     "id": "major_06",
@@ -144,7 +162,10 @@
     "reflection": [
       "Jaki wybór byłby najbardziej zgodny z tym, co naprawdę cenisz?",
       "Czego potrzebujesz, by w relacji czuć się w pełni sobą?"
-    ]
+    ],
+    "advice": "Stoisz przed wyborem — wybierz zgodnie ze swoimi wartościami, nie z wygody. Postaw na to, co naprawdę jest dla Ciebie ważne.",
+    "adviceReversed": "Coś jest niespójne: serce chce jednego, a działania mówią drugie. Zanim zdecydujesz, uczciwie nazwij, czego chcesz.",
+    "astrology": "Bliźnięta"
   },
   {
     "id": "major_07",
@@ -165,7 +186,10 @@
     "reflection": [
       "Dokąd właściwie zmierzasz i po czym poznasz, że to dobra droga?",
       "Jakie sprzeczne potrzeby możesz pogodzić, zamiast z nimi walczyć?"
-    ]
+    ],
+    "advice": "Idź naprzód. Wyznacz kierunek, trzymaj się go i nie daj się rozproszyć — determinacja zaprowadzi Cię do celu.",
+    "adviceReversed": "Ciągniesz w dwie strony naraz. Zdecyduj, dokąd zmierzasz, zanim dodasz gazu.",
+    "astrology": "Rak"
   },
   {
     "id": "major_08",
@@ -186,7 +210,10 @@
     "reflection": [
       "Która emocja potrzebuje dziś raczej zrozumienia niż walki?",
       "Gdzie Twoja łagodność mogłaby okazać się siłą?"
-    ]
+    ],
+    "advice": "Działaj łagodną siłą. Spokój, cierpliwość i odwaga zrobią więcej niż nacisk — poradzisz sobie z tym.",
+    "adviceReversed": "Wątpisz w siebie bardziej, niż to konieczne. Przypomnij sobie, z czym już sobie poradziłeś(-aś), i podejdź do siebie łagodniej.",
+    "astrology": "Lew"
   },
   {
     "id": "major_09",
@@ -207,7 +234,10 @@
     "reflection": [
       "Czego dowiadujesz się o sobie, gdy jesteś w ciszy?",
       "Jaki jeden następny krok widzisz w świetle, które już masz?"
-    ]
+    ],
+    "advice": "Odsuń się na chwilę od zgiełku. Przemyśl sprawę w samotności — odpowiedź przyjdzie z wnętrza, nie z zewnątrz.",
+    "adviceReversed": "Wycofanie się trwa już za długo. Czas wyjść do ludzi i podzielić się tym, co w sobie wiesz.",
+    "astrology": "Panna"
   },
   {
     "id": "major_10",
@@ -228,7 +258,10 @@
     "reflection": [
       "Jaki powtarzający się wzorzec zauważasz w swoim życiu?",
       "Na co masz wpływ, nawet gdy okoliczności się zmieniają?"
-    ]
+    ],
+    "advice": "Sytuacja się zmienia i to dobry moment, by z tym popłynąć. Wykorzystaj okazję, która się pojawi — koło się kręci.",
+    "adviceReversed": "Nie walcz z tym, na co nie masz wpływu. Skup się na tym, co możesz zrobić, i poczekaj, aż cykl się odwróci.",
+    "astrology": "Jowisz"
   },
   {
     "id": "major_11",
@@ -249,7 +282,10 @@
     "reflection": [
       "Jak wyglądałaby ta sytuacja, gdyby spojrzeć na nią z każdej strony?",
       "Za co chcesz wziąć odpowiedzialność, a co do Ciebie nie należy?"
-    ]
+    ],
+    "advice": "Postąp uczciwie i rozważ wszystkie strony. Decyzja oparta na faktach i prawdzie przyniesie sprawiedliwy wynik.",
+    "adviceReversed": "Coś jest nie w równowadze. Sprawdź, czy jesteś wobec siebie i innych w pełni szczery(-a), zanim wydasz ocenę.",
+    "astrology": "Waga"
   },
   {
     "id": "major_12",
@@ -270,7 +306,10 @@
     "reflection": [
       "Co zobaczysz, jeśli spojrzysz na tę sprawę z zupełnie odwrotnej strony?",
       "Z czego możesz zrezygnować, by zrobić miejsce na coś nowego?"
-    ]
+    ],
+    "advice": "Nie przyspieszaj. Zatrzymaj się i spójrz na sprawę z innej strony — odpuszczenie może dać Ci więcej niż walka.",
+    "adviceReversed": "Czekanie przestało być pożyteczne. Jeśli tkwisz w zawieszeniu, czas podjąć decyzję i ruszyć dalej.",
+    "astrology": "Woda"
   },
   {
     "id": "major_13",
@@ -291,7 +330,10 @@
     "reflection": [
       "Jaki etap Twojego życia naturalnie dobiega końca?",
       "Co mogłoby się pojawić, gdyby zrobić miejsce po tym, co odchodzi?"
-    ]
+    ],
+    "advice": "Zamknij to, co się skończyło. Pozwól odejść staremu etapowi — dopiero wtedy zrobi się miejsce na nowe.",
+    "adviceReversed": "Trzymasz się czegoś, co już minęło. Zmiana i tak przyjdzie — łatwiej będzie, jeśli przestaniesz się jej opierać.",
+    "astrology": "Skorpion"
   },
   {
     "id": "major_14",
@@ -312,7 +354,10 @@
     "reflection": [
       "Które dwie sfery Twojego życia potrzebują teraz lepszego wyważenia?",
       "Co mogłoby się zmienić, gdyby działać małymi, cierpliwymi krokami?"
-    ]
+    ],
+    "advice": "Szukaj złotego środka. Łącz przeciwieństwa, działaj spokojnie i krok po kroku — umiar jest teraz Twoją siłą.",
+    "adviceReversed": "Gdzieś przesadzasz — z pracą, emocjami albo oczekiwaniami. Przywróć równowagę, zanim zaczniesz coś nowego.",
+    "astrology": "Strzelec"
   },
   {
     "id": "major_15",
@@ -333,7 +378,10 @@
     "reflection": [
       "Jaki nawyk lub przekonanie ogranicza Cię bardziej, niż chcesz przyznać?",
       "Co by się zmieniło, gdyby ten łańcuch okazał się luźniejszy, niż się wydaje?"
-    ]
+    ],
+    "advice": "Zobacz, co Cię trzyma — nawyk, lęk, zależność. Nazwij to szczerze; łańcuch jest luźniejszy, niż się wydaje.",
+    "adviceReversed": "Masz szansę się uwolnić. Zrób pierwszy krok od schematu, który Ci szkodzi — teraz jest to łatwiejsze niż wcześniej.",
+    "astrology": "Koziorożec"
   },
   {
     "id": "major_16",
@@ -354,7 +402,10 @@
     "reflection": [
       "Które przekonanie lub układ wymaga dziś uczciwego sprawdzenia?",
       "Co mogłoby powstać na miejscu tego, co przestaje działać?"
-    ]
+    ],
+    "advice": "Nie podpieraj tego, co się sypie. Przyjmij zmianę i zbuduj coś na mocniejszych fundamentach.",
+    "adviceReversed": "Unikasz nieuniknionej zmiany. Lepiej zmierzyć się z nią teraz, na własnych warunkach, niż czekać na wstrząs.",
+    "astrology": "Mars"
   },
   {
     "id": "major_17",
@@ -375,7 +426,10 @@
     "reflection": [
       "Co daje Ci dziś poczucie nadziei, nawet niewielkie?",
       "Jak możesz zadbać o swój odpoczynek w najbliższych dniach?"
-    ]
+    ],
+    "advice": "Miej nadzieję i działaj z niej. Najgorsze minęło — daj sobie czas na odnowę i patrz w przyszłość z ufnością.",
+    "adviceReversed": "Straciłeś(-aś) wiarę w to, że może być lepiej? Zacznij od małego kroku, który przywróci Ci poczucie sensu.",
+    "astrology": "Wodnik"
   },
   {
     "id": "major_18",
@@ -396,7 +450,10 @@
     "reflection": [
       "Co w tej sytuacji jest faktem, a co Twoją interpretacją?",
       "Jaki sen lub przeczucie wraca do Ciebie ostatnio?"
-    ]
+    ],
+    "advice": "Nie wszystko jest teraz jasne — i to w porządku. Nie podejmuj ostatecznych decyzji we mgle; zaufaj intuicji, ale sprawdzaj fakty.",
+    "adviceReversed": "Mgła zaczyna się rozwiewać. Nazwij swoje lęki po imieniu — wiele z nich okaże się mniejszych, niż się wydawały.",
+    "astrology": "Ryby"
   },
   {
     "id": "major_19",
@@ -417,7 +474,10 @@
     "reflection": [
       "Co sprawia Ci prawdziwą, prostą radość?",
       "Jak możesz pozwolić sobie na więcej lekkości w tym tygodniu?"
-    ]
+    ],
+    "advice": "Odpowiedź jest pozytywna. Działaj otwarcie, z radością i pewnością siebie — to dobry czas, żeby się pokazać.",
+    "adviceReversed": "Radość jest blisko, tylko coś ją przysłania. Pozwól sobie cieszyć się tym, co już masz, zamiast czekać na idealny moment.",
+    "astrology": "Słońce"
   },
   {
     "id": "major_20",
@@ -438,7 +498,10 @@
     "reflection": [
       "Do czego czujesz wewnętrzne wezwanie?",
       "Co możesz sobie wybaczyć, by iść dalej z lżejszym sercem?"
-    ]
+    ],
+    "advice": "Usłyszałeś(-aś) wewnętrzne wezwanie — odpowiedz na nie. Podsumuj przeszłość, wybacz sobie i podejmij decyzję.",
+    "adviceReversed": "Zbyt surowo się oceniasz albo odkładasz ważną decyzję. Przestań czekać na znak — ten znak już był.",
+    "astrology": "Ogień"
   },
   {
     "id": "major_21",
@@ -459,7 +522,10 @@
     "reflection": [
       "Co już osiągasz, czego jeszcze w pełni nie doceniasz?",
       "Co potrzebuje domknięcia, zanim zaczniesz kolejny rozdział?"
-    ]
+    ],
+    "advice": "Domknij sprawę i doceń to, co osiągnąłeś(-aś). Ten etap się dopełnia — możesz śmiało przejść do następnego.",
+    "adviceReversed": "Brakuje ostatniego kroku do zamknięcia. Dokończ to, co zaczęte, zanim weźmiesz się za coś nowego.",
+    "astrology": "Saturn"
   },
   {
     "id": "wands_01",
@@ -480,7 +546,10 @@
     "reflection": [
       "Jaki pomysł wywołuje w Tobie najwięcej ekscytacji?",
       "Jaki najmniejszy krok pozwoliłby mu zaistnieć?"
-    ]
+    ],
+    "advice": "Masz iskrę — działaj, póki jest gorąca. Zacznij projekt, zadzwoń, napisz: inspiracja potrzebuje ruchu.",
+    "adviceReversed": "Zapał gaśnie, zanim przejdzie w działanie. Zrób jedną małą rzecz dziś, zamiast czekać na idealny moment.",
+    "astrology": "Ogień — źródło żywiołu"
   },
   {
     "id": "wands_02",
@@ -501,7 +570,10 @@
     "reflection": [
       "Jak wygląda horyzont, ku któremu chcesz zmierzać?",
       "Co zatrzymuje Cię na murach, zamiast pozwolić wyruszyć?"
-    ]
+    ],
+    "advice": "Zaplanuj kolejny krok i spójrz dalej niż zwykle. Decyzja należy do Ciebie — wybierz szerszą perspektywę.",
+    "adviceReversed": "Strach przed nieznanym trzyma Cię w strefie komfortu. Zastanów się, co tracisz, nie wychodząc poza nią.",
+    "astrology": "Ogień · Mars w Baranie"
   },
   {
     "id": "wands_03",
@@ -522,7 +594,10 @@
     "reflection": [
       "Co zostało już wprawione w ruch i potrzebuje teraz czasu?",
       "Jakie nowe możliwości widać z miejsca, w którym stoisz?"
-    ]
+    ],
+    "advice": "To, co zasiałeś(-aś), zaczyna się rozwijać. Myśl szerzej, przygotuj się na więcej i bądź cierpliwy(-a) — efekty nadchodzą.",
+    "adviceReversed": "Opóźnienia nie oznaczają porażki. Sprawdź plan, popraw kurs i nie rezygnuj zbyt szybko.",
+    "astrology": "Ogień · Słońce w Baranie"
   },
   {
     "id": "wands_04",
@@ -543,7 +618,10 @@
     "reflection": [
       "Co zasługuje dziś na świętowanie?",
       "Gdzie i z kim czujesz się jak w domu?"
-    ]
+    ],
+    "advice": "Świętuj to, co się udało, i dziel się tym z bliskimi. Stabilny grunt pozwoli Ci pójść dalej.",
+    "adviceReversed": "Coś zakłóca poczucie bezpieczeństwa w domu lub zespole. Porozmawiaj o tym otwarcie, zamiast udawać, że wszystko gra.",
+    "astrology": "Ogień · Wenus w Baranie"
   },
   {
     "id": "wands_05",
@@ -564,7 +642,10 @@
     "reflection": [
       "O co tak naprawdę toczy się ten spór?",
       "Jak możesz wyrazić swoje zdanie, jednocześnie słuchając innych?"
-    ]
+    ],
+    "advice": "Różnica zdań nie musi być wojną. Wyraź swoje zdanie, ale słuchaj innych — z napięcia może wyjść coś twórczego.",
+    "adviceReversed": "Unikasz konfliktu albo nim się męczysz. Postaw sprawę jasno i zakończ spór, który niczemu nie służy.",
+    "astrology": "Ogień · Saturn w Lwie"
   },
   {
     "id": "wands_06",
@@ -585,7 +666,10 @@
     "reflection": [
       "Jakie Twoje osiągnięcie zasługuje na uznanie?",
       "Na ile Twoje poczucie wartości zależy od opinii innych?"
-    ]
+    ],
+    "advice": "Masz prawo być z siebie dumny(-a). Pokaż swoje osiągnięcia — uznanie jest zasłużone i otworzy kolejne drzwi.",
+    "adviceReversed": "Nie uzależniaj swojej wartości od oklasków. Doceń siebie, nawet jeśli inni jeszcze tego nie zrobili.",
+    "astrology": "Ogień · Jowisz w Lwie"
   },
   {
     "id": "wands_07",
@@ -606,7 +690,10 @@
     "reflection": [
       "Za czym chcesz stanąć, nawet jeśli inni mają inne zdanie?",
       "Które spory są warte Twojej energii, a które możesz odpuścić?"
-    ]
+    ],
+    "advice": "Broń swojego stanowiska. Masz rację, by trwać przy swoim — nie ustępuj tylko dlatego, że jest trudno.",
+    "adviceReversed": "Nie musisz walczyć na wszystkich frontach. Wybierz, o co naprawdę warto się bić, a resztę odpuść.",
+    "astrology": "Ogień · Mars w Lwie"
   },
   {
     "id": "wands_08",
@@ -627,7 +714,10 @@
     "reflection": [
       "Co w Twoim życiu właśnie nabiera tempa?",
       "Jak możesz zadbać, by pośpiech nie odebrał Ci jasności?"
-    ]
+    ],
+    "advice": "Sprawy przyspieszają — działaj szybko i nie zwlekaj z odpowiedzią. To czas na ruch, nie na rozważania.",
+    "adviceReversed": "Pośpiech prowadzi do chaosu albo wszystko utknęło. Zwolnij, uporządkuj sprawy i dopiero wtedy przyspiesz.",
+    "astrology": "Ogień · Merkury w Strzelcu"
   },
   {
     "id": "wands_09",
@@ -648,7 +738,10 @@
     "reflection": [
       "Co już udało Ci się przetrwać i czego Cię to nauczyło?",
       "Gdzie możesz pozwolić sobie na odpoczynek zamiast ciągłej czujności?"
-    ]
+    ],
+    "advice": "Jesteś blisko celu — wytrzymaj jeszcze trochę. Bądź czujny(-a), ale nie pozwól, by zmęczenie odebrało Ci wiarę.",
+    "adviceReversed": "Bronisz się przed czymś, co już Ci nie zagraża. Odpocznij i przyjmij pomoc, zamiast stać na straży bez końca.",
+    "astrology": "Ogień · Księżyc w Strzelcu"
   },
   {
     "id": "wands_10",
@@ -669,7 +762,10 @@
     "reflection": [
       "Którą z obecnych odpowiedzialności możesz odłożyć lub przekazać?",
       "Jak wyglądałaby droga do celu, gdyby ciężar był lżejszy?"
-    ]
+    ],
+    "advice": "Niesiesz za dużo. Oddaj część obowiązków, poproś o pomoc albo odłóż to, co nie jest Twoje.",
+    "adviceReversed": "Czas zrzucić ciężar. Powiedz „nie” temu, czego nie musisz dźwigać — zrobi się lżej.",
+    "astrology": "Ogień · Saturn w Strzelcu"
   },
   {
     "id": "wands_11",
@@ -690,7 +786,10 @@
     "reflection": [
       "Czego chcesz się nauczyć tylko dlatego, że Cię to ciekawi?",
       "Który pomysł zasługuje na to, by poświęcić mu więcej uwagi?"
-    ]
+    ],
+    "advice": "Bądź ciekawy(-a) i spróbuj czegoś nowego. Pierwszy entuzjastyczny krok jest ważniejszy niż doskonały plan.",
+    "adviceReversed": "Zaczynasz wiele rzeczy, a kończysz niewiele. Wybierz jedną i doprowadź ją do końca.",
+    "astrology": "Ogień"
   },
   {
     "id": "wands_12",
@@ -711,7 +810,10 @@
     "reflection": [
       "Do jakiej przygody tęsknisz?",
       "Jak połączyć swój zapał z cierpliwością?"
-    ]
+    ],
+    "advice": "Ruszaj śmiało — odwaga i energia są po Twojej stronie. Działaj, ale nie zapominaj, dokąd zmierzasz.",
+    "adviceReversed": "Impulsywność może Cię kosztować. Przemyśl ruch, zanim go wykonasz — szybkość to nie wszystko.",
+    "astrology": "Ogień"
   },
   {
     "id": "wands_13",
@@ -732,7 +834,10 @@
     "reflection": [
       "W jakich sytuacjach czujesz się najbardziej sobą?",
       "Jak możesz dziś okazać swoje ciepło, nie umniejszając siebie?"
-    ]
+    ],
+    "advice": "Zaufaj sobie i pokaż się takim(-ą), jakim(-ą) jesteś. Twoja pewność siebie i ciepło przekonają innych.",
+    "adviceReversed": "Coś podkopuje Twoją pewność siebie. Odbuduj ją, zaczynając od tego, w czym jesteś naprawdę dobry(-a).",
+    "astrology": "Ogień"
   },
   {
     "id": "wands_14",
@@ -753,6 +858,9 @@
     "reflection": [
       "Jaką wizję chcesz realizować w dłuższej perspektywie?",
       "Jak możesz inspirować innych, zamiast ich popychać?"
-    ]
+    ],
+    "advice": "Prowadź. Masz wizję — podziel się nią i weź odpowiedzialność za kierunek, inni pójdą za Tobą.",
+    "adviceReversed": "Nie narzucaj swojej wizji siłą. Najlepszy przywódca słucha — zaproś innych do współdecydowania.",
+    "astrology": "Ogień"
   }
 ]

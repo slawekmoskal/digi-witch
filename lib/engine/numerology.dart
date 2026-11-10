@@ -3,6 +3,8 @@
 /// on any rule change: saved results keep the version they were computed with.
 library;
 
+import 'dart:math';
+
 const algorithmVersion = 'pl-pyth-1';
 
 const mastersAll = {11, 22, 33};
@@ -56,6 +58,8 @@ enum Indicator {
   soulUrge,
   personality,
   personalYear,
+  personalDay,
+  relation,
 }
 
 /// One computed indicator with a human-readable trace of every step.
@@ -156,6 +160,48 @@ NumerologyResult personalYear(CalendarDate birth, int year) {
     ],
     seen.last,
   );
+}
+
+NumerologyResult personalDay(CalendarDate birth, CalendarDate day) {
+  final py = personalYear(birth, day.year).value!;
+  final m = digitSum(day.month), dd = digitSum(day.day);
+  final seen = reduceSteps(py + m + dd, const {});
+  return NumerologyResult(
+    Indicator.personalDay,
+    'Rok osobisty plus cyfry bieżącego miesiąca i dnia, redukcja do 1–9.',
+    {'Data urodzenia': birth.display, 'Dzień': day.display},
+    [
+      'Rok osobisty ${day.year}: $py.',
+      'Miesiąc: ${day.month} → $m; dzień: ${day.day} → $dd.',
+      'Suma: $py + $m + $dd = ${py + m + dd}.',
+      _reductionLine(seen),
+    ],
+    seen.last,
+  );
+}
+
+/// Relationship number of two people: sum of both life paths, reduced to 1–9.
+NumerologyResult relation(CalendarDate a, CalendarDate b) {
+  final x = lifePath(a).value!, y = lifePath(b).value!;
+  final seen = reduceSteps(x + y, const {});
+  return NumerologyResult(
+    Indicator.relation,
+    'Suma liczb drogi życia obu osób, redukcja do 1–9.',
+    {'Osoba 1': a.display, 'Osoba 2': b.display},
+    ['Drogi życia: $x + $y = ${x + y}.', _reductionLine(seen)],
+    seen.last,
+  );
+}
+
+/// Three numbers 1–99, fixed for one person and one day. For fun only — not a forecast.
+List<int> luckyNumbers(CalendarDate birth, CalendarDate day) {
+  int key(CalendarDate d) => d.year * 10000 + d.month * 100 + d.day;
+  final r = Random(key(birth) * 7919 + key(day));
+  final s = <int>{};
+  while (s.length < 3) {
+    s.add(r.nextInt(99) + 1);
+  }
+  return s.toList()..sort();
 }
 
 // ---- Letters ----

@@ -72,6 +72,11 @@ flutter:
   assets:
     - assets/content/
     - assets/cards/
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: Cormorant
+      fonts:
+        - asset: assets/fonts/CormorantGaramond.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

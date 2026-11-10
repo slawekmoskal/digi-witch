@@ -135,6 +135,48 @@ class AppLocalizationsPl extends AppLocalizations {
       'Co w tym rozkładzie najbardziej mnie poruszyło i dlaczego?';
 
   @override
+  String get questionLabel => 'Twoje pytanie (opcjonalnie)';
+
+  @override
+  String get questionHint => 'np. Na co zwrócić uwagę przy zmianie pracy?';
+
+  @override
+  String get readingTitle => 'Co karty mówią o Twoim pytaniu';
+
+  @override
+  String get readingTitleNoQuestion => 'Podsumowanie rozkładu';
+
+  @override
+  String get summaryMajors =>
+      'Przeważają Wielkie Arkana — sprawa dotyka czegoś ważnego, większego niż codzienne decyzje.';
+
+  @override
+  String summarySuit(String suit) {
+    String _temp0 = intl.Intl.selectLogic(suit, {
+      'wands': 'Najwięcej Buław — w tle są energia, działanie i inicjatywa.',
+      'cups': 'Najwięcej Kielichów — w tle są emocje, uczucia i relacje.',
+      'swords': 'Najwięcej Mieczy — w tle są myśli, decyzje i trudne rozmowy.',
+      'pentacles':
+          'Najwięcej Denarów — w tle są praca, pieniądze i sprawy praktyczne.',
+      'other': '',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get summaryReversed =>
+      'Większość kart jest odwrócona — coś może być zablokowane, opóźnione albo przeżywane bardziej w środku niż na zewnątrz.';
+
+  @override
+  String get summaryBalanced =>
+      'Karty rozkładają się równomiernie — żaden obszar wyraźnie nie dominuje.';
+
+  @override
+  String summaryAnswer(String position, String card, String advice) {
+    return 'Odpowiedź kart — $card w pozycji „$position”: $advice';
+  }
+
+  @override
   String get addBookmark => 'Dodaj zakładkę';
 
   @override
@@ -219,6 +261,8 @@ class AppLocalizationsPl extends AppLocalizations {
       'soulUrge': 'Liczba samogłosek',
       'personality': 'Liczba spółgłosek',
       'personalYear': 'Rok osobisty',
+      'personalDay': 'Liczba dnia',
+      'relation': 'Liczba relacji',
       'other': 'Wskaźnik',
     });
     return '$_temp0';
@@ -437,4 +481,304 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get proStoreNote =>
       'Płatność i ewentualne zwroty obsługuje App Store lub Google Play zgodnie ze swoimi zasadami. Zakup działa niezależnie od zgody na reklamy.';
+
+  @override
+  String get horoscopeToday => 'Dziś';
+
+  @override
+  String get horoscopeStars => 'Gwiazdy mówią';
+
+  @override
+  String get horoscopeCaution => 'Uważaj';
+
+  @override
+  String moonIn(String sign, String phase) {
+    return 'Księżyc w $sign, $phase.';
+  }
+
+  @override
+  String get luckyNumbers => 'Szczęśliwe liczby dnia';
+
+  @override
+  String get luckyNote =>
+      'Dla zabawy: liczby wynikają z Twojej daty urodzenia i dzisiejszej daty, więc są stałe przez cały dzień. Nie przewidują wygranych.';
+
+  @override
+  String get whyThis => 'Z czego to wynika';
+
+  @override
+  String whySign(
+    String sign,
+    String dates,
+    String element,
+    String chinese,
+    String chineseText,
+  ) {
+    return 'Twój znak: $sign ($dates), żywioł: $element. Chiński znak: $chinese — $chineseText';
+  }
+
+  @override
+  String whyMoon(String sign, String element, String relation) {
+    String _temp0 = intl.Intl.selectLogic(relation, {
+      'same': 'ten sam żywioł',
+      'supportive': 'wspierająca',
+      'tense': 'napięta',
+      'other': 'neutralna',
+    });
+    return 'Dziś w południe Księżyc jest w znaku $sign (żywioł: $element). Relacja z Twoim żywiołem: $_temp0.';
+  }
+
+  @override
+  String get whyMethod =>
+      'Położenie Księżyca liczymy wzorami astronomicznymi, bez internetu (dokładność ok. 0,5°). Tekst „Dziś” zależy od relacji żywiołów, „Gwiazdy mówią” od fazy Księżyca, a „Uważaj” od Twojej liczby dnia.';
+
+  @override
+  String get horoscopeNeedsBirth =>
+      'Zapisz datę urodzenia w zakładce Liczby (przycisk „Zapisz jako profil”), a zobaczysz tu horoskop na dziś, liczbę dnia i szczęśliwe liczby.';
+
+  @override
+  String get moonToday => 'Księżyc dziś';
+
+  @override
+  String moonState(String phase, int percent, String sign) {
+    return '$phase · oświetlenie $percent% · w $sign';
+  }
+
+  @override
+  String get moonCalendar => 'Kalendarz Księżyca';
+
+  @override
+  String get moonCalendarIntro =>
+      'Najbliższe główne fazy Księżyca, czas lokalny (dokładność ok. 1 godziny).';
+
+  @override
+  String get compatibility => 'Zgodność dwóch osób';
+
+  @override
+  String get compatIntro =>
+      'Wpisz daty urodzenia dwóch osób. Porównamy znaki zodiaku, żywioły, znaki chińskie i liczby drogi życia. To zabawa i pretekst do rozmowy, nie ocena związku.';
+
+  @override
+  String personDate(int n) {
+    return 'Data urodzenia — osoba $n';
+  }
+
+  @override
+  String get check => 'Sprawdź';
+
+  @override
+  String get compatElements => 'Żywioły';
+
+  @override
+  String personLine(
+    int n,
+    String sign,
+    String element,
+    String chinese,
+    int lifePath,
+  ) {
+    return 'Osoba $n: $sign ($element) · chiński znak: $chinese · droga życia $lifePath';
+  }
+
+  @override
+  String get birthCardTitle => 'Karta urodzenia';
+
+  @override
+  String get birthCardNote =>
+      'Metoda: dzień + miesiąc + rok urodzenia, sumujemy cyfry, aż wynik będzie nie większy niż 22 (22 = Głupiec). Wynik dwucyfrowy daje też kartę towarzyszącą.';
+
+  @override
+  String get birthCardSecond => 'Karta towarzysząca';
+
+  @override
+  String yesNoAnswer(String a) {
+    String _temp0 = intl.Intl.selectLogic(a, {
+      'yes': 'Odpowiedź kart: TAK',
+      'no': 'Odpowiedź kart: NIE',
+      'other': 'Odpowiedź kart: NIEJASNA — sprawa jeszcze się waży',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get horoscopeFor => 'Dziś dla Ciebie';
+
+  @override
+  String get licenses => 'Licencje (czcionki i biblioteki)';
+
+  @override
+  String get cardAdvice => 'Rada karty';
+
+  @override
+  String get correspondences =>
+      'Korespondencje astrologiczne (Złoty Brzask, XIX w.)';
+
+  @override
+  String get chooseSpread => 'Wybierz rozkład';
+
+  @override
+  String get tapDeck => 'Zadaj pytanie w myślach i dotknij talii';
+
+  @override
+  String spreadCards(int n) {
+    String _temp0 = intl.Intl.pluralLogic(
+      n,
+      locale: localeName,
+      other: '$n kart',
+      many: '$n kart',
+      few: '$n karty',
+      one: '1 karta',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get bigThree => 'Twoja wielka trójka';
+
+  @override
+  String get bigThreeIntro =>
+      'Słońce to Twój znak zodiaku. Księżyc opisuje emocje, a ascendent — to, jak widzą Cię inni. Do Księżyca zwykle wystarczy data, do ascendentu potrzebna jest godzina i miejsce urodzenia. Dane zostają tylko na tym urządzeniu.';
+
+  @override
+  String get birthTime => 'Godzina urodzenia';
+
+  @override
+  String get notGiven => 'nie podano';
+
+  @override
+  String get birthPlace => 'Miejsce urodzenia';
+
+  @override
+  String get placesNote =>
+      'Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.';
+
+  @override
+  String get sunLabel => 'Słońce';
+
+  @override
+  String get moonLabel => 'Księżyc';
+
+  @override
+  String get ascLabel => 'Ascendent';
+
+  @override
+  String moonTwoSigns(String a, String b) {
+    return 'Tego dnia Księżyc zmieniał znak: $a albo $b — zależy od godziny urodzenia.';
+  }
+
+  @override
+  String get ascNeeds =>
+      'Podaj godzinę i miejsce urodzenia, aby obliczyć ascendent.';
+
+  @override
+  String traceTime(String local, String utc) {
+    return 'Czas lokalny $local → $utc UTC (strefa Europe/Warsaw z historią czasu letniego).';
+  }
+
+  @override
+  String traceMoon(String deg, String sign) {
+    return 'Długość ekliptyczna Księżyca: $deg° → $sign.';
+  }
+
+  @override
+  String traceAsc(
+    String deg,
+    String sign,
+    String place,
+    String lat,
+    String lon,
+  ) {
+    return 'Ascendent: $deg° → $sign ($place, $lat° N, $lon° E).';
+  }
+
+  @override
+  String get needBirthDate =>
+      'Najpierw zapisz datę urodzenia w zakładce Liczby (przycisk „Zapamiętaj jako mój profil”).';
+
+  @override
+  String get clear => 'Wyczyść';
+
+  @override
+  String get chineseTitle => 'Horoskop chiński';
+
+  @override
+  String chineseBirthYear(int year, String element, String yy) {
+    String _temp0 = intl.Intl.selectLogic(yy, {'yang': 'yang', 'other': 'yin'});
+    return 'Rok według kalendarza chińskiego: $year · $element · $_temp0';
+  }
+
+  @override
+  String get chineseNewYearNote =>
+      'Chiński Nowy Rok wypada między 21 stycznia a 20 lutego. Jeśli urodziłeś(-aś) przed nim, należysz do znaku poprzedniego roku — tu jest to już uwzględnione.';
+
+  @override
+  String chineseCurrentYear(int year, String animal, String element) {
+    return 'Rok $year: $animal · $element';
+  }
+
+  @override
+  String chineseYearSince(String date) {
+    return 'Obecny rok chiński trwa od $date.';
+  }
+
+  @override
+  String get chineseCompatTitle => 'Zgodność znaków chińskich';
+
+  @override
+  String get chineseFriend => 'Tajemny przyjaciel';
+
+  @override
+  String get chineseTrine => 'Trójka sprzymierzeńców';
+
+  @override
+  String get chineseClash => 'Znak przeciwny';
+
+  @override
+  String get chineseElement => 'Żywioł roku urodzenia';
+
+  @override
+  String get mercuryRetro => 'Merkury wsteczny';
+
+  @override
+  String mercuryNow(String date) {
+    return 'Merkury wsteczny do $date';
+  }
+
+  @override
+  String get mercuryNone => 'W najbliższym roku brak okresów wstecznych.';
+
+  @override
+  String get upcomingPhases => 'Najbliższe fazy';
+
+  @override
+  String get dayByDay => 'Dzień po dniu (30 dni)';
+
+  @override
+  String moonDayLine(String sign, String phase) {
+    return 'Księżyc w $sign · $phase';
+  }
+
+  @override
+  String get dreams => 'Sennik';
+
+  @override
+  String dreamsCount(int n) {
+    return '$n symboli snów — co sen może mówić o Tobie';
+  }
+
+  @override
+  String get dreamsIntro =>
+      'Sny nie przepowiadają przyszłości. Sennik podpowiada, z czym dany symbol bywa kojarzony, a pytanie pomaga sprawdzić, co znaczy właśnie dla Ciebie. Najważniejsze jest to, co czułeś(-aś) we śnie.';
+
+  @override
+  String get dreamsSearch => 'Szukaj symbolu, np. woda, zęby, dom';
+
+  @override
+  String get dreamsEmpty =>
+      'Nie ma takiego symbolu. Spróbuj podobnego słowa — albo zapisz sen w dzienniku.';
+
+  @override
+  String chineseSignButton(String animal) {
+    return 'Znak chiński: $animal';
+  }
 }

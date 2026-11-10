@@ -24,6 +24,8 @@ void main() {
             k.symbolism,
             k.upright,
             k.reversed,
+            k.advice,
+            k.adviceReversed,
           ].every((s) => s.trim().isNotEmpty),
           isTrue,
           reason: k.id,
@@ -96,6 +98,29 @@ void main() {
       expect(c.archetypes.length, 12);
       expect(c.glossary, isNotEmpty);
       expect(c.articles.map((a) => a.id), contains('jak-liczymy'));
+    });
+
+    test('astro and dream content complete', () {
+      final a = c.astro;
+      expect(a.signs.length, 12);
+      expect(a.moonSigns.length, 12);
+      expect(a.ascSigns.length, 12);
+      expect(a.chinese.every((x) => x.long.isNotEmpty), isTrue);
+      expect(a.chinese.length, 12);
+      expect(a.elements5.keys.toSet(), {
+        'wood',
+        'fire',
+        'earth',
+        'metal',
+        'water',
+      });
+      for (final k in ['same', 'friend', 'trine', 'clash', 'neutral']) {
+        expect(a.yearForecast[k], isNotNull, reason: k);
+        expect(a.chineseCompat[k], isNotNull, reason: k);
+      }
+      expect(a.dayTypes.keys.toSet(), {'fire', 'earth', 'air', 'water'});
+      expect(c.dreams.length, greaterThan(100));
+      expect(c.dreams.map((d) => d.symbol).toSet().length, c.dreams.length);
     });
   });
 

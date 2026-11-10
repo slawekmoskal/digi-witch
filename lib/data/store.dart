@@ -81,6 +81,23 @@ class AppStore extends ChangeNotifier {
     (name == null || name.isEmpty)
         ? await _p.remove('fullName')
         : await _p.setString('fullName', name);
+    if (d == null) {
+      // Time and place only make sense with a birth date.
+      await _p.remove('birthMinutes');
+      await _p.remove('birthPlace');
+    }
+  });
+
+  /// Optional birth time (minutes after local midnight) and place (city name), for the Moon and ascendant.
+  int? get birthMinutes => _p.getInt('birthMinutes');
+  String? get birthPlace => _p.getString('birthPlace');
+  void saveBirthDetails(int? minutes, String? place) => _set(() async {
+    minutes == null
+        ? await _p.remove('birthMinutes')
+        : await _p.setInt('birthMinutes', minutes);
+    place == null
+        ? await _p.remove('birthPlace')
+        : await _p.setString('birthPlace', place);
   });
 
   // ---- card of the day ----

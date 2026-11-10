@@ -52,7 +52,9 @@ class JournalScreen extends StatelessWidget {
               ),
             )
           : ListView(
-              padding: const EdgeInsets.fromLTRB(16, 8, 16, 96),
+              padding: pagePadding(context).copyWith(
+                bottom: pagePadding(context).bottom + 72, // room for the FAB
+              ),
               children: [
                 Text(
                   l.journalPrivacy,
@@ -214,10 +216,7 @@ class _EntryEditorState extends State<EntryEditor> {
             maxLines: null,
             autofocus: widget.existing == null,
             textCapitalization: TextCapitalization.sentences,
-            decoration: InputDecoration(
-              border: const OutlineInputBorder(),
-              hintText: l.entryHint,
-            ),
+            decoration: InputDecoration(hintText: l.entryHint),
           ),
         ],
       ),

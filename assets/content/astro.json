@@ -1,0 +1,333 @@
+{
+  "elements": {
+    "fire": "Ogień",
+    "earth": "Ziemia",
+    "air": "Powietrze",
+    "water": "Woda"
+  },
+  "signs": [
+    {
+      "id": "aries",
+      "name": "Baran",
+      "locative": "Baranie",
+      "dates": "21.03–19.04",
+      "text": "Baran to pierwszy znak zodiaku i ogień w najczystszej postaci: odwaga, inicjatywa i potrzeba działania tu i teraz. Najlepiej czuje się, gdy może zaczynać — trudniej mu z cierpliwością i dokańczaniem."
+    },
+    {
+      "id": "taurus",
+      "name": "Byk",
+      "locative": "Byku",
+      "dates": "20.04–20.05",
+      "text": "Byk to ziemia, która ceni spokój, wygodę i to, co trwałe. Jest cierpliwy i wierny, buduje powoli, ale solidnie. Jego wyzwaniem bywa upór i niechęć do zmian."
+    },
+    {
+      "id": "gemini",
+      "name": "Bliźnięta",
+      "locative": "Bliźniętach",
+      "dates": "21.05–20.06",
+      "text": "Bliźnięta to powietrze w ruchu: ciekawość, rozmowa, szybkie łączenie faktów. Łatwo nawiązują kontakt i uczą się nowych rzeczy. Wyzwanie to rozproszenie i trudność w wyborze jednej drogi."
+    },
+    {
+      "id": "cancer",
+      "name": "Rak",
+      "locative": "Raku",
+      "dates": "21.06–22.07",
+      "text": "Rak to woda, która chroni: dom, bliscy, poczucie bezpieczeństwa. Jest wrażliwy, opiekuńczy i ma dobrą pamięć emocjonalną. Wyzwanie to chowanie się w skorupie, gdy coś zaboli."
+    },
+    {
+      "id": "leo",
+      "name": "Lew",
+      "locative": "Lwie",
+      "dates": "23.07–22.08",
+      "text": "Lew to ogień, który świeci: hojność, twórczość i potrzeba bycia zauważonym. Daje innym ciepło i odwagę. Wyzwaniem bywa duma i trudność w przyjmowaniu krytyki."
+    },
+    {
+      "id": "virgo",
+      "name": "Panna",
+      "locative": "Pannie",
+      "dates": "23.08–22.09",
+      "text": "Panna to ziemia w szczegółach: porządek, rzetelność i chęć bycia pomocną. Widzi, co można ulepszyć. Wyzwanie to perfekcjonizm i zbyt surowa ocena siebie."
+    },
+    {
+      "id": "libra",
+      "name": "Waga",
+      "locative": "Wadze",
+      "dates": "23.09–22.10",
+      "text": "Waga to powietrze, które szuka równowagi: harmonia, sprawiedliwość i piękno w relacjach. Potrafi łagodzić spory. Wyzwanie to odkładanie decyzji, by nikogo nie urazić."
+    },
+    {
+      "id": "scorpio",
+      "name": "Skorpion",
+      "locative": "Skorpionie",
+      "dates": "23.10–21.11",
+      "text": "Skorpion to głęboka woda: intensywność, lojalność i przenikliwość. Nie zadowala się powierzchnią. Wyzwaniem bywa zazdrość i trudność w odpuszczaniu."
+    },
+    {
+      "id": "sagittarius",
+      "name": "Strzelec",
+      "locative": "Strzelcu",
+      "dates": "22.11–21.12",
+      "text": "Strzelec to ogień, który szuka sensu: podróże, wiedza, wolność i optymizm. Zaraża entuzjazmem. Wyzwanie to niecierpliwość i obietnice składane zbyt szybko."
+    },
+    {
+      "id": "capricorn",
+      "name": "Koziorożec",
+      "locative": "Koziorożcu",
+      "dates": "22.12–19.01",
+      "text": "Koziorożec to ziemia, która wspina się na szczyt: ambicja, odpowiedzialność i wytrwałość. Myśli długofalowo. Wyzwanie to praca kosztem odpoczynku i bliskości."
+    },
+    {
+      "id": "aquarius",
+      "name": "Wodnik",
+      "locative": "Wodniku",
+      "dates": "20.01–18.02",
+      "text": "Wodnik to powietrze, które patrzy w przyszłość: niezależność, oryginalność i myślenie o wspólnocie. Lubi iść własną drogą. Wyzwanie to dystans emocjonalny."
+    },
+    {
+      "id": "pisces",
+      "name": "Ryby",
+      "locative": "Rybach",
+      "dates": "19.02–20.03",
+      "text": "Ryby to woda bez brzegów: empatia, wyobraźnia i duchowość. Czują więcej, niż mówią. Wyzwanie to ucieczka od rzeczywistości i brak granic."
+    }
+  ],
+  "chinese": [
+    {
+      "id": "rat",
+      "name": "Szczur",
+      "text": "Bystry, zaradny i towarzyski — szybko dostrzega okazje.",
+      "long": "Szczur otwiera chiński zodiak. To znak sprytu, zaradności i szybkiego myślenia — potrafi dostrzec okazję tam, gdzie inni widzą problem. Jest towarzyski i dobrze odnajduje się wśród ludzi, choć bliskich wybiera starannie. Wyzwanie: nerwowość i skłonność do gromadzenia „na zapas”."
+    },
+    {
+      "id": "ox",
+      "name": "Bawół",
+      "text": "Cierpliwy, pracowity i niezawodny — dochodzi do celu krok po kroku.",
+      "long": "Bawół to pracowitość, cierpliwość i niezawodność. Działa metodycznie, nie lubi pośpiechu ani niespodzianek, ale gdy coś obieca — dotrzyma słowa. Wyzwanie: upór i trudność w proszeniu o pomoc."
+    },
+    {
+      "id": "tiger",
+      "name": "Tygrys",
+      "text": "Odważny, pełen energii i niezależny — nie boi się wyzwań.",
+      "long": "Tygrys to odwaga, energia i potrzeba niezależności. Lubi wyzwania i staje w obronie słabszych. Bywa porywczy i niecierpliwy, ale jego entuzjazm porywa innych."
+    },
+    {
+      "id": "rabbit",
+      "name": "Królik",
+      "text": "Łagodny, taktowny i wrażliwy na piękno — ceni spokój.",
+      "long": "Królik (w Wietnamie Kot) to takt, łagodność i wyczucie piękna. Unika konfliktów, ceni spokój i dobre relacje. Wyzwanie: unikanie trudnych decyzji i nadmierna ostrożność."
+    },
+    {
+      "id": "dragon",
+      "name": "Smok",
+      "text": "Charyzmatyczny, ambitny i pewny siebie — lubi wielkie plany.",
+      "long": "Smok to jedyne mityczne zwierzę zodiaku — symbol mocy, szczęścia i charyzmy. Ma wielkie plany i energię, by je realizować. Wyzwanie: duma i niecierpliwość wobec słabości innych."
+    },
+    {
+      "id": "snake",
+      "name": "Wąż",
+      "text": "Mądry, intuicyjny i rozważny — widzi więcej, niż pokazuje.",
+      "long": "Wąż to mądrość, intuicja i elegancja. Myśli zanim działa, widzi więcej, niż mówi. Wyzwanie: skrytość i podejrzliwość."
+    },
+    {
+      "id": "horse",
+      "name": "Koń",
+      "text": "Wolny duch, energiczny i szczery — potrzebuje ruchu i przestrzeni.",
+      "long": "Koń to wolny duch: energia, szczerość i potrzeba ruchu. Lubi być w centrum wydarzeń i szybko działa. Wyzwanie: niecierpliwość i trudność w dokańczaniu rozpoczętych spraw."
+    },
+    {
+      "id": "goat",
+      "name": "Koza",
+      "text": "Twórcza, łagodna i empatyczna — dobrze czuje się w harmonii.",
+      "long": "Koza (lub Owca) to twórczość, łagodność i empatia. Potrzebuje harmonii i bezpiecznego otoczenia, by rozkwitnąć. Wyzwanie: zamartwianie się i zależność od opinii innych."
+    },
+    {
+      "id": "monkey",
+      "name": "Małpa",
+      "text": "Pomysłowa, dowcipna i ciekawa świata — szybko się uczy.",
+      "long": "Małpa to pomysłowość, dowcip i ciekawość świata. Szybko się uczy i znajduje nietypowe rozwiązania. Wyzwanie: rozproszenie i skłonność do chodzenia na skróty."
+    },
+    {
+      "id": "rooster",
+      "name": "Kogut",
+      "text": "Pracowity, szczery i dokładny — lubi porządek i jasne zasady.",
+      "long": "Kogut to szczerość, pracowitość i dbałość o szczegóły. Lubi porządek i mówi wprost, co myśli. Wyzwanie: krytycyzm i perfekcjonizm."
+    },
+    {
+      "id": "dog",
+      "name": "Pies",
+      "text": "Lojalny, uczciwy i opiekuńczy — staje po stronie słabszych.",
+      "long": "Pies to lojalność, uczciwość i poczucie sprawiedliwości. Jest oddanym przyjacielem i obrońcą bliskich. Wyzwanie: niepokój i pesymizm."
+    },
+    {
+      "id": "pig",
+      "name": "Świnia",
+      "text": "Hojna, życzliwa i pogodna — umie cieszyć się życiem.",
+      "long": "Świnia (lub Dzik) to hojność, życzliwość i radość życia. Ufa ludziom i umie się cieszyć. Wyzwanie: naiwność i trudność w odmawianiu."
+    }
+  ],
+  "phases": [
+    {
+      "name": "Nów",
+      "text": "Nów to czas zasiewania. Wyznacz zamiar, zacznij coś po cichu — nie musisz jeszcze nikomu tego pokazywać."
+    },
+    {
+      "name": "Przybywający sierp",
+      "text": "Księżyc rośnie — energia narasta. Dobry czas na pierwsze kroki i zbieranie tego, czego potrzebujesz."
+    },
+    {
+      "name": "Pierwsza kwadra",
+      "text": "Pierwsza kwadra przynosi pierwsze przeszkody. Nie rezygnuj — podejmij decyzję i działaj mimo oporu."
+    },
+    {
+      "name": "Przybywający garb",
+      "text": "Księżyc jest prawie pełny. Dopracuj szczegóły, popraw to, co nie działa — efekt jest blisko."
+    },
+    {
+      "name": "Pełnia",
+      "text": "Pełnia wszystko oświetla i wzmacnia emocje. Zobaczysz efekty swoich działań — świętuj, ale nie decyduj pod wpływem chwili."
+    },
+    {
+      "name": "Ubywający garb",
+      "text": "Po pełni przychodzi czas na wdzięczność i dzielenie się. Podsumuj, czego się nauczyłeś(-aś)."
+    },
+    {
+      "name": "Ostatnia kwadra",
+      "text": "Ostatnia kwadra to czas porządków. Odpuść to, co niepotrzebne — zakończ, oddaj, wyrzuć."
+    },
+    {
+      "name": "Ubywający sierp",
+      "text": "Księżyc gaśnie przed nowiem. Zwolnij, odpocznij i wycisz się — nowy cykl zaraz się zacznie."
+    }
+  ],
+  "today": {
+    "same": [
+      "Księżyc idzie dziś przez znak Twojego żywiołu — czujesz się bardziej sobą. Działaj po swojemu i nie tłumacz się z tego.",
+      "Dziś łatwiej Ci zaufać swojemu wyczuciu. To dobry dzień na sprawy, które wymagają Twoich naturalnych mocnych stron.",
+      "Energia dnia płynie w Twoim rytmie. Wykorzystaj to na coś, co od dawna odkładasz."
+    ],
+    "supportive": [
+      "Dzień Ci sprzyja — to, co robisz, napotyka mniej oporu niż zwykle. Dobry moment na rozmowy i nowe kontakty.",
+      "Otoczenie dziś Cię wspiera. Poproś o pomoc albo zaproponuj współpracę — usłyszysz „tak” częściej niż zwykle.",
+      "Lekki, sprzyjający dzień. Postaw na ruch, wymianę pomysłów i drobne przyjemności."
+    ],
+    "neutral": [
+      "Spokojny dzień bez wyraźnych wiatrów — to, ile z niego wyniesiesz, zależy od Ciebie. Postaw na jedną konkretną rzecz.",
+      "Dziś nic nie popycha Cię w żadną stronę. Dobry moment, by spokojnie uporządkować sprawy.",
+      "Zwyczajny dzień, w którym liczy się konsekwencja. Małe kroki dadzą więcej niż wielkie gesty."
+    ],
+    "tense": [
+      "Dziś możesz czuć, że świat gra w innym rytmie niż Ty. Nie walcz z tym — zwolnij i wybierz, które sprawy naprawdę są ważne.",
+      "Napięty dzień — łatwiej o nieporozumienia. Zanim odpowiesz ostro, weź oddech.",
+      "Energia dnia jest Ci obca, co może męczyć. Zadbaj o siebie i nie podejmuj wielkich decyzji pod wpływem nastroju."
+    ]
+  },
+  "caution": {
+    "1": "Uważaj na upór i działanie w pojedynkę — nie musisz wszystkiego robić sam(a).",
+    "2": "Uważaj na nadmierną uległość — Twoje zdanie też się liczy.",
+    "3": "Uważaj na rozproszenie i obietnice bez pokrycia — dokończ to, co zaczęte.",
+    "4": "Uważaj na sztywność — plan jest ważny, ale zostaw miejsce na zmianę.",
+    "5": "Uważaj na pochopne decyzje i impulsywne wydatki.",
+    "6": "Uważaj, by nie brać na siebie cudzych problemów — pomagaj, ale nie ratuj na siłę.",
+    "7": "Uważaj na zamykanie się w sobie i nadmierne analizowanie.",
+    "8": "Uważaj na pracę ponad siły i walkę o kontrolę — odpoczynek też jest produktywny.",
+    "9": "Uważaj na trzymanie się tego, co już się skończyło — pozwól temu odejść."
+  },
+  "compat": {
+    "same": "Ten sam żywioł: rozumiecie się bez słów i macie podobny rytm. Uważajcie, by nie wzmacniać nawzajem swoich słabości.",
+    "supportive": "Żywioły, które się wspierają: jedno rozpala drugie albo daje mu grunt. Naturalnie się uzupełniacie.",
+    "neutral": "Żywioły różne, ale bez konfliktu: każde ma swój świat. Związek wymaga ciekawości tego, co inne.",
+    "tense": "Żywioły w napięciu: macie różne potrzeby i tempo. To nie przeszkoda, ale wymaga rozmowy i wyrozumiałości — możecie się wiele od siebie nauczyć."
+  },
+  "moonSigns": [
+    "Emocje wybuchają szybko i szybko gasną. Potrzebujesz działania, by poczuć się dobrze — bezczynność męczy Cię bardziej niż wysiłek.",
+    "Potrzebujesz spokoju, wygody i przewidywalności. Bezpieczeństwo budujesz przez rzeczy namacalne: dom, jedzenie, dotyk, stały rytm dnia.",
+    "Uczucia przepracowujesz, rozmawiając o nich. Potrzebujesz bodźców, ciekawości i kogoś, z kim można się wymieniać myślami.",
+    "To naturalne miejsce Księżyca: głęboka wrażliwość, potrzeba bliskości i domu. Silnie czujesz nastroje innych.",
+    "Potrzebujesz być widzianym i docenianym. Emocje wyrażasz ciepło i z rozmachem; zranione serce szybko przechodzi w dumę.",
+    "Spokój daje Ci porządek i poczucie, że jesteś potrzebny(-a). Emocje często zamieniasz w troskę o konkrety.",
+    "Potrzebujesz harmonii i partnerstwa. Konflikty Cię wytrącają z równowagi, więc łatwo ustępujesz, by zachować spokój.",
+    "Czujesz intensywnie i głęboko, ale niewiele pokazujesz. Zaufanie budujesz powoli, a lojalność jest dla Ciebie wszystkim.",
+    "Potrzebujesz wolności, przestrzeni i sensu. Optymizm pomaga Ci przechodzić przez trudne chwile — czasem kosztem ich przeżycia.",
+    "Emocje trzymasz pod kontrolą i najpierw myślisz o obowiązkach. Bezpieczeństwo daje Ci plan i poczucie, że panujesz nad sytuacją.",
+    "Potrzebujesz niezależności i przyjaźni bardziej niż czułości na pokaz. Emocje lubisz najpierw zrozumieć, a dopiero potem poczuć.",
+    "Bardzo empatyczny Księżyc: chłoniesz nastroje otoczenia. Potrzebujesz ciszy, sztuki lub duchowości, by wrócić do siebie."
+  ],
+  "ascSigns": [
+    "Na pierwszy rzut oka: energia, bezpośredniość, szybkie tempo. Ludzie widzą w Tobie kogoś, kto działa, zanim się zastanowi.",
+    "Na pierwszy rzut oka: spokój, cierpliwość, przyjemna obecność. Sprawiasz wrażenie kogoś stabilnego i godnego zaufania.",
+    "Na pierwszy rzut oka: ciekawość, żywa mimika, lekkość w rozmowie. Wydajesz się młodszy(-a) i bardziej ruchliwy(-a), niż jesteś.",
+    "Na pierwszy rzut oka: łagodność i ostrożność. Najpierw wyczuwasz atmosferę, a dopiero potem się otwierasz.",
+    "Na pierwszy rzut oka: pewność siebie i ciepło. Łatwo przyciągasz uwagę, nawet gdy o nią nie zabiegasz.",
+    "Na pierwszy rzut oka: skromność, uważność, schludność. Sprawiasz wrażenie kogoś, kto wie, co robi.",
+    "Na pierwszy rzut oka: uprzejmość, urok, dbałość o formę. Ludzie czują się przy Tobie swobodnie.",
+    "Na pierwszy rzut oka: tajemniczość i intensywne spojrzenie. Trudno Cię rozszyfrować — i dobrze się z tym czujesz.",
+    "Na pierwszy rzut oka: otwartość, humor, entuzjazm. Wydajesz się kimś, kto zawsze szuka przygody.",
+    "Na pierwszy rzut oka: powaga, opanowanie, dojrzałość. Ludzie szybko powierzają Ci odpowiedzialność.",
+    "Na pierwszy rzut oka: oryginalność i lekki dystans. Wyróżniasz się, nawet jeśli tego nie planujesz.",
+    "Na pierwszy rzut oka: łagodność, marzycielskość, wrażliwość. Ludzie łatwo zwierzają Ci się ze swoich spraw."
+  ],
+  "elements5": {
+    "wood": {
+      "name": "Drewno",
+      "adj": "Drewniany",
+      "text": "Drewno to rozwój, hojność i współpraca. Ludzie Drewna rosną razem z innymi i myślą o przyszłości."
+    },
+    "fire": {
+      "name": "Ogień",
+      "adj": "Ognisty",
+      "text": "Ogień to pasja, entuzjazm i odwaga. Ludzie Ognia zarażają energią, ale łatwo się wypalają."
+    },
+    "earth": {
+      "name": "Ziemia",
+      "adj": "Ziemny",
+      "text": "Ziemia to stabilność, rozsądek i troska. Ludzie Ziemi są oparciem dla innych i budują na lata."
+    },
+    "metal": {
+      "name": "Metal",
+      "adj": "Metalowy",
+      "text": "Metal to determinacja, zasady i siła woli. Ludzie Metalu są konsekwentni i nie boją się trudnych decyzji."
+    },
+    "water": {
+      "name": "Woda",
+      "adj": "Wodny",
+      "text": "Woda to intuicja, elastyczność i mądrość. Ludzie Wody dostosowują się do okoliczności i dobrze czują innych."
+    }
+  },
+  "yearForecast": {
+    "same": "To Twój rok — rok Twojego znaku (běnmìngnián). Tradycja radzi w nim ostrożność: więcej uważności, mniej ryzyka. Dobry czas, by wrócić do siebie i swoich korzeni.",
+    "friend": "Rok Twojego „tajemnego przyjaciela”. Tradycja mówi o wsparciu, które przychodzi po cichu — warto przyjmować pomoc i zaproszenia.",
+    "trine": "Rok znaku z Twojej trójki sprzymierzeńców. Sprzyja działaniu, współpracy i realizacji planów — energia roku jest Ci bliska.",
+    "clash": "Rok znaku przeciwnego (chōng). Tradycja zapowiada zmiany i napięcia — lepiej nie forsować spraw na siłę, a zmiany traktować jako szansę.",
+    "neutral": "Rok neutralny dla Twojego znaku. Ani szczególnych wiatrów w plecy, ani przeszkód — wiele zależy od Twoich decyzji."
+  },
+  "chineseCompat": {
+    "same": "Ten sam znak: dobrze się rozumiecie, ale łatwo wzmacniacie też swoje słabości.",
+    "friend": "Tajemni przyjaciele: według tradycji to jedna z najlepszych par — wspierają się nawzajem.",
+    "trine": "Ta sama trójka sprzymierzeńców: podobne wartości i naturalna harmonia.",
+    "clash": "Znaki przeciwne: przyciągają się i ścierają — dużo nauki, ale też tarć.",
+    "neutral": "Para neutralna: ani szczególnej harmonii, ani konfliktu — wszystko zależy od was."
+  },
+  "dayTypes": {
+    "fire": {
+      "name": "Dzień owocu",
+      "text": "Księżyc w znaku Ognia: w tradycji ogrodniczej dobry dzień na rośliny owocowe i zbiór owoców."
+    },
+    "earth": {
+      "name": "Dzień korzenia",
+      "text": "Księżyc w znaku Ziemi: dobry dzień na warzywa korzeniowe, przesadzanie i prace w glebie."
+    },
+    "air": {
+      "name": "Dzień kwiatu",
+      "text": "Księżyc w znaku Powietrza: dobry dzień na rośliny kwitnące i cięcie kwiatów do wazonu."
+    },
+    "water": {
+      "name": "Dzień liścia",
+      "text": "Księżyc w znaku Wody: dobry dzień na zioła, sałaty i podlewanie."
+    }
+  },
+  "haircut": {
+    "waxing": "Księżyc przybywa — według tradycji włosy po strzyżeniu szybciej odrastają.",
+    "waning": "Księżyc ubywa — według tradycji fryzura dłużej trzyma kształt."
+  },
+  "mercury": "Merkury wsteczny: z Ziemi wygląda, jakby cofał się na niebie. W tradycji astrologicznej to czas na powtórki, poprawki i powroty do starych spraw — a nie na podpisywanie umów w pośpiechu. Sprawdzaj dwa razy wiadomości i plany."
+}
