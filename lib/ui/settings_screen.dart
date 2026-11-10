@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content.dart';
 import '../engine/numerology.dart';
+import '../reminders.dart';
 import 'pro_sheet.dart';
 import 'widgets.dart';
 
@@ -30,8 +31,36 @@ class SettingsScreen extends StatelessWidget {
       ),
     );
     if (ok == true) {
+      await Reminders.disable();
       await store.deleteAllData();
       nav.popUntil((r) => r.isFirst);
+    }
+  }
+
+  Future<void> _toggleReminder(BuildContext context, bool on) async {
+    final l = context.l;
+    final store = context.store;
+    final messenger = ScaffoldMessenger.of(context);
+    if (!on) {
+      await Reminders.disable();
+      store.reminderMinutes = null;
+      return;
+    }
+    final t = await showTimePicker(
+      context: context,
+      initialTime: const TimeOfDay(hour: 20, minute: 0),
+    );
+    if (t == null) return;
+    final ok = await Reminders.enable(
+      t.hour,
+      t.minute,
+      title: l.reminderTitle,
+      body: l.reminderBody,
+    );
+    if (ok) {
+      store.reminderMinutes = t.hour * 60 + t.minute;
+    } else {
+      messenger.showSnackBar(SnackBar(content: Text(l.reminderDenied)));
     }
   }
 
@@ -62,6 +91,22 @@ class SettingsScreen extends StatelessWidget {
             value: s.allowReversed,
             onChanged: (v) => s.allowReversed = v,
           ),
+          if (Reminders.supported)
+            SwitchListTile(
+              title: Text(l.reminder),
+              subtitle: Text(
+                s.reminderMinutes == null
+                    ? l.reminderOff
+                    : l.reminderAt(
+                        TimeOfDay(
+                          hour: s.reminderMinutes! ~/ 60,
+                          minute: s.reminderMinutes! % 60,
+                        ).format(context),
+                      ),
+              ),
+              value: s.reminderMinutes != null,
+              onChanged: (on) => _toggleReminder(context, on),
+            ),
           if (s.birthDate != null || s.fullName != null)
             ListTile(
               title: Text(l.profile),

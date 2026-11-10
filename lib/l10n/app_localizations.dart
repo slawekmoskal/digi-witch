@@ -765,6 +765,42 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Ustawienia prywatności reklam'**
   String get adPrivacyOptions;
+
+  /// No description provided for @reminder.
+  ///
+  /// In pl, this message translates to:
+  /// **'Codzienne przypomnienie'**
+  String get reminder;
+
+  /// No description provided for @reminderOff.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wyłączone'**
+  String get reminderOff;
+
+  /// No description provided for @reminderAt.
+  ///
+  /// In pl, this message translates to:
+  /// **'Codziennie o {time}'**
+  String reminderAt(String time);
+
+  /// No description provided for @reminderTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Digi Witch'**
+  String get reminderTitle;
+
+  /// No description provided for @reminderBody.
+  ///
+  /// In pl, this message translates to:
+  /// **'Chwila na refleksję — jeśli masz ochotę.'**
+  String get reminderBody;
+
+  /// No description provided for @reminderDenied.
+  ///
+  /// In pl, this message translates to:
+  /// **'Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.'**
+  String get reminderDenied;
 }
 
 class _AppLocalizationsDelegate

@@ -56,6 +56,14 @@ class AppStore extends ChangeNotifier {
   bool get isPro => _p.getBool('isPro') ?? false;
   set isPro(bool v) => _set(() => _p.setBool('isPro', v));
 
+  /// Daily reminder time in minutes after midnight; null = off (default).
+  int? get reminderMinutes => _p.getInt('reminderMinutes');
+  set reminderMinutes(int? v) => _set(
+    () => v == null
+        ? _p.remove('reminderMinutes')
+        : _p.setInt('reminderMinutes', v),
+  );
+
   bool get allowReversed => _p.getBool('allowReversed') ?? false;
   set allowReversed(bool v) => _set(() => _p.setBool('allowReversed', v));
 

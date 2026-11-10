@@ -154,5 +154,18 @@
   "purchaseError": "Zakup nie został ukończony. Nie pobrano opłaty, jeśli sklep nie potwierdził transakcji.",
   "restorePurchases": "Przywróć zakupy",
   "proOnly": "Dostępne w Pro",
-  "adPrivacyOptions": "Ustawienia prywatności reklam"
+  "adPrivacyOptions": "Ustawienia prywatności reklam",
+  "reminder": "Codzienne przypomnienie",
+  "reminderOff": "Wyłączone",
+  "reminderAt": "Codziennie o {time}",
+  "@reminderAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderTitle": "Digi Witch",
+  "reminderBody": "Chwila na refleksję — jeśli masz ochotę.",
+  "reminderDenied": "Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu."
 }

@@ -412,4 +412,25 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Ustawienia prywatności reklam';
+
+  @override
+  String get reminder => 'Codzienne przypomnienie';
+
+  @override
+  String get reminderOff => 'Wyłączone';
+
+  @override
+  String reminderAt(String time) {
+    return 'Codziennie o $time';
+  }
+
+  @override
+  String get reminderTitle => 'Digi Witch';
+
+  @override
+  String get reminderBody => 'Chwila na refleksję — jeśli masz ochotę.';
+
+  @override
+  String get reminderDenied =>
+      'Brak zgody na powiadomienia. Możesz ją nadać w ustawieniach systemu.';
 }
