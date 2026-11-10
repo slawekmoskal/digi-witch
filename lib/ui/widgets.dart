@@ -101,13 +101,19 @@ class CardFace extends StatelessWidget {
             style: Theme.of(context).textTheme.labelMedium),
       ]),
     );
+    // Historical 1909 artwork (public domain, provenance in assets/cards/manifest.json); typographic face as fallback.
+    final art = ClipRRect(
+      borderRadius: BorderRadius.circular(6),
+      child: Image.asset('assets/cards/${card.id}.webp',
+          width: width, height: width * 1.72, fit: BoxFit.cover, errorBuilder: (_, _, _) => face),
+    );
     return Semantics(
       label: '${card.name}${reversed ? ', ${context.l.reversed}' : ''}',
       excludeSemantics: true,
       // Face text is decorative (full name is shown next to it / in the label), so cap its scaling.
       child: MediaQuery.withClampedTextScaling(
         maxScaleFactor: 1.2,
-        child: reversed ? RotatedBox(quarterTurns: 2, child: face) : face,
+        child: reversed ? RotatedBox(quarterTurns: 2, child: art) : art,
       ),
     );
   }

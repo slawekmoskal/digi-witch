@@ -26,7 +26,13 @@
   "linkedResult": "Powiązany wynik",
   "promptsTitle": "Pytanie na start (opcjonalnie)",
   "promptCategory": "{c, select, ogolne{Ogólne} rodzina{Rodzina} tarot{Tarot} liczby{Liczby} other{Inne}}",
-  "@promptCategory": {"placeholders": {"c": {"type": "String"}}},
+  "@promptCategory": {
+    "placeholders": {
+      "c": {
+        "type": "String"
+      }
+    }
+  },
   "randomPrompt": "Wylosuj pytanie",
   "familyNote": "Pisz tylko o tym, czym chcesz się podzielić. Możesz używać pseudonimów zamiast imion bliskich.",
   "entryHint": "Twoje myśli…",
@@ -46,7 +52,7 @@
   "reflectionQuestions": "Pytania do refleksji",
   "reflectionQuestion": "Pytanie do refleksji",
   "sourcesAndRights": "Źródła i prawa",
-  "cardSourceNote": "Opisy kart są autorskimi tekstami tej aplikacji, inspirowanymi symboliką historycznej talii z 1909 r. (ilustracje Pamela Colman Smith, koncepcja A. E. Waite). Grafiki kart nie są jeszcze dołączone — pokazujemy symboliczny awers.",
+  "cardSourceNote": "Opisy kart są autorskimi tekstami tej aplikacji. Ilustracja: Pamela Colman Smith (1878–1951), talia wydana w 1909 r. — domena publiczna; skan egzemplarza „Roses & Lilies” (Saskia Jansen), udostępniony w Wikimedia Commons. Grafikę jedynie przeskalowano.",
   "numerologyIntro": "Wpisz datę urodzenia, imię i nazwisko — albo tylko jedno z nich. Nic nie zapisujemy, dopóki sam(a) o to nie poprosisz.",
   "birthDate": "Data urodzenia",
   "birthDateHelp": "Wpisz same cyfry, np. 15071990",
@@ -61,7 +67,13 @@
   "portrait": "Portret numerologiczny",
   "portraitNote": "Rozwiń wskaźnik, aby zobaczyć obliczenie i jego symboliczną interpretację. Wyniki są zgodne z konwencją opisaną w Bibliotece („Jak liczymy”).",
   "indicatorName": "{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} other{Wskaźnik}}",
-  "@indicatorName": {"placeholders": {"name": {"type": "String"}}},
+  "@indicatorName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "noBasis": "Brak podstaw do obliczenia",
   "calculation": "Obliczenie",
   "symbolicInterpretation": "Interpretacja symboliczna",
@@ -70,17 +82,36 @@
   "dateFuture": "Data nie może być z przyszłości.",
   "nameNoLetters": "Wpisz przynajmniej jedną literę.",
   "nameUnsupported": "Nieobsługiwane znaki: {chars}. Wpisz zapis w alfabecie łacińskim (transliterację), którego chcesz użyć do obliczeń.",
-  "@nameUnsupported": {"placeholders": {"chars": {"type": "String"}}},
+  "@nameUnsupported": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "cardOfDay": "Karta dnia",
   "cardOfDayNote": "Karta dnia pozostaje ta sama do końca dnia według zegara tego urządzenia.",
   "promptOfDay": "Pytanie dnia",
   "yourPersonalYear": "Twój rok osobisty {year}",
-  "@yourPersonalYear": {"placeholders": {"year": {"type": "int", "format": "decimalPattern"}}},
+  "@yourPersonalYear": {
+    "placeholders": {
+      "year": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
   "search": "Szukaj kart, pojęć, artykułów",
   "bookmarks": "Zakładki",
   "articles": "Artykuły",
   "cardsCount": "{n, plural, one{Karta (1)} few{Karty ({n})} many{Karty ({n})} other{Karty ({n})}}",
-  "@cardsCount": {"placeholders": {"n": {"type": "int"}}},
+  "@cardsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "archetypes": "Archetypy",
   "archetypesNote": "12 archetypów to autorski model redakcyjny tej aplikacji — jeden z wielu możliwych podziałów, a nie kanon ani test psychologiczny.",
   "aboutModel": "O modelu",
@@ -98,7 +129,7 @@
   "privacyBody": "Nie zakładamy kont i nie wysyłamy Twoich dat, imion ani wpisów na serwer. Dane są tylko na tym urządzeniu — dopóki sam(a) ich nie wyeksportujesz.",
   "deleteAllTitle": "Usuń wszystkie dane",
   "deleteAllBody": "Usuniemy dziennik, profil, zakładki, kartę dnia i ustawienia z tego urządzenia. Tej operacji nie da się cofnąć.",
-  "sourcesBody": "Wszystkie teksty interpretacji, pytania, archetypy i artykuły są autorskie. Źródła historyczne wymieniamy na końcu artykułów w Bibliotece.",
+  "sourcesBody": "Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.",
   "purchases": "Wersja Pro",
   "purchasesBody": "Jeszcze niedostępna. Wszystkie obecne funkcje są bezpłatne.",
   "help": "Pomoc",

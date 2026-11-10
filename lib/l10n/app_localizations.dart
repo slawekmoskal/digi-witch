@@ -367,7 +367,7 @@ abstract class AppLocalizations {
   /// No description provided for @cardSourceNote.
   ///
   /// In pl, this message translates to:
-  /// **'Opisy kart są autorskimi tekstami tej aplikacji, inspirowanymi symboliką historycznej talii z 1909 r. (ilustracje Pamela Colman Smith, koncepcja A. E. Waite). Grafiki kart nie są jeszcze dołączone — pokazujemy symboliczny awers.'**
+  /// **'Opisy kart są autorskimi tekstami tej aplikacji. Ilustracja: Pamela Colman Smith (1878–1951), talia wydana w 1909 r. — domena publiczna; skan egzemplarza „Roses & Lilies” (Saskia Jansen), udostępniony w Wikimedia Commons. Grafikę jedynie przeskalowano.'**
   String get cardSourceNote;
 
   /// No description provided for @numerologyIntro.
@@ -655,7 +655,7 @@ abstract class AppLocalizations {
   /// No description provided for @sourcesBody.
   ///
   /// In pl, this message translates to:
-  /// **'Wszystkie teksty interpretacji, pytania, archetypy i artykuły są autorskie. Źródła historyczne wymieniamy na końcu artykułów w Bibliotece.'**
+  /// **'Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.'**
   String get sourcesBody;
 
   /// No description provided for @purchases.

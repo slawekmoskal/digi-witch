@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="digi_witch"
+        android:label="Digi Witch"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

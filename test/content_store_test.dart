@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
 import 'package:digi_witch/data/content.dart';
@@ -22,6 +23,15 @@ void main() {
         expect(k.reflection, isNotEmpty);
       }
       expect(c.cards['major_13']!.name, 'Śmierć');
+    });
+
+    test('every card has artwork with recorded provenance and verified hash', () {
+      final manifest = {for (final m in jsonDecode(File('assets/cards/manifest.json').readAsStringSync())) m['id']: m};
+      for (final id in deckIds) {
+        expect(File('assets/cards/$id.webp').existsSync(), isTrue, reason: id);
+        expect(manifest[id]?['sha1'], hasLength(40), reason: id);
+        expect(manifest[id]['license'], 'Public domain');
+      }
     });
 
     test('no duplicated interpretation texts across cards', () {

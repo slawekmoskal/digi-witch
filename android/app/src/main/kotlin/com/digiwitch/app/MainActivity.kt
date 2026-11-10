@@ -1,4 +1,4 @@
-package pl.digiwitch.digi_witch
+package com.digiwitch.app
 
 import io.flutter.embedding.android.FlutterActivity
 
