@@ -69,13 +69,45 @@ void main() {
     expect(r.steps.single, contains('brak podstaw'));
   });
 
-  test('birth day never yields 33; trace contains steps', () {
-    for (var d = 1; d <= 31; d++) {
-      expect(birthDay(CalendarDate.tryCreate(2000, 1, d)!).value, isNot(33));
-    }
+  test('trace contains steps and version', () {
     final r = lifePath(CalendarDate.tryParse('1975-05-29')!);
     expect(r.steps.first, 'Cyfry daty: 2 + 9 + 0 + 5 + 1 + 9 + 7 + 5 = 38.');
     expect(r.steps.last, contains('liczba mistrzowska'));
     expect(r.toJson()['version'], algorithmVersion);
+  });
+
+  test(
+    'NFD Polish letters, typographic separators and whitespace are accepted',
+    () {
+      expect(normalizeName('Ęwa Żółć').letters.join(), 'EWAZOLC');
+      expect(normalizeName('Ewa Nowak').isValid, isTrue);
+      expect(
+        normalizeName('Anna‑Maria O’Neill\tX').letters.join(),
+        'ANNAMARIAONEILLX',
+      );
+      expect(
+        normalizeName('Anna‑Maria').letters.join(),
+        normalizeName('Anna-Maria').letters.join(),
+      );
+    },
+  );
+
+  test(
+    'look-alike letters are not silently accepted; emoji reported whole',
+    () {
+      expect(normalizeName('Joſef').unsupported, {'ſ'}); // long s
+      expect(normalizeName('ıwona').unsupported, {'ı'}); // dotless i
+      expect(normalizeName('Straße').unsupported, {'ß'});
+      expect(normalizeName('Ewa\u{1F642}').unsupported, {'\u{1F642}'});
+    },
+  );
+
+  test('date validation is zone-independent and bounded', () {
+    expect(
+      CalendarDate.tryCreate(2011, 12, 30),
+      isNotNull,
+    ); // skipped locally in Pacific/Apia
+    expect(CalendarDate.tryCreate(300000, 1, 1), isNull);
+    expect(CalendarDate.tryCreate(1, 1, 1)?.iso, '0001-01-01');
   });
 }

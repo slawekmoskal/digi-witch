@@ -181,4 +181,38 @@ void main() {
     await t.pumpAndSettle();
     expect(find.text('Możliwy kierunek', skipOffstage: false), findsOneWidget);
   });
+
+  testWidgets(
+    'saving profile with an invalid date shows an error and keeps the old date',
+    (t) async {
+      SharedPreferences.setMockInitialValues({
+        'onboarded': true,
+        'birthDate': '1990-07-15',
+      });
+      final store = AppStore(await SharedPreferences.getInstance());
+      t.view.physicalSize = const Size(1080, 2400);
+      t.view.devicePixelRatio = 2.75;
+      addTearDown(t.view.reset);
+      await t.pumpWidget(DigiWitchApp(store: store, content: content));
+      await t.pumpAndSettle();
+      await t.tap(find.text('Liczby'));
+      await t.pumpAndSettle();
+      await t.enterText(
+        find.widgetWithText(TextField, 'Data urodzenia'),
+        '1507199',
+      );
+      await t.tap(find.text('Zapamiętaj jako mój profil'));
+      await t.pumpAndSettle();
+      expect(find.textContaining('Taka data nie istnieje'), findsOneWidget);
+      expect(store.birthDate?.iso, '1990-07-15');
+      await t.enterText(
+        find.widgetWithText(TextField, 'Data urodzenia'),
+        '01012099',
+      );
+      await t.tap(find.text('Zapamiętaj jako mój profil'));
+      await t.pumpAndSettle();
+      expect(find.textContaining('z przyszłości'), findsOneWidget);
+      expect(store.birthDate?.iso, '1990-07-15');
+    },
+  );
 }

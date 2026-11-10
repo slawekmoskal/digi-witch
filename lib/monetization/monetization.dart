@@ -44,13 +44,40 @@ class Monetization extends ChangeNotifier {
         notifyListeners();
       },
     );
-    if (await _iap.isAvailable()) {
-      final r = await _iap.queryProductDetails({proProductId});
-      product = r.productDetails.isEmpty ? null : r.productDetails.first;
+    try {
+      await loadProduct();
+      if (Platform.isAndroid && !isPro) {
+        // Silent on Play (no dialog): recovers Pro after reinstall and acknowledges purchases
+        // interrupted before completePurchase. Not on iOS: restore may prompt for Apple ID.
+        final first = _firstPurchaseEvent = Completer<void>();
+        await _iap.restorePurchases();
+        await first.future.timeout(
+          const Duration(seconds: 3),
+          onTimeout: () {},
+        );
+      }
+    } catch (e) {
+      lastError = '$e'; // store unavailable (no Play services, offline…) must not block ads/consent
     }
     notifyListeners();
     // Pro users never see the consent form or ads; Pro itself does not depend on ad consent.
     if (!isPro) await _gatherConsent();
+  }
+
+  Completer<void>? _firstPurchaseEvent;
+
+  /// Safe to call again (e.g. when the Pro sheet opens after connectivity returns).
+  Future<void> loadProduct() async {
+    if (product != null) return;
+    try {
+      if (await _iap.isAvailable()) {
+        final r = await _iap.queryProductDetails({proProductId});
+        product = r.productDetails.isEmpty ? null : r.productDetails.first;
+      }
+    } catch (e) {
+      lastError = '$e';
+    }
+    notifyListeners();
   }
 
   Future<void> _onPurchases(List<PurchaseDetails> list) async {
@@ -65,18 +92,33 @@ class Monetization extends ChangeNotifier {
       }
       if (p.pendingCompletePurchase) await _iap.completePurchase(p);
     }
+    if (!(_firstPurchaseEvent?.isCompleted ?? true)) {
+      _firstPurchaseEvent!.complete();
+    }
     notifyListeners();
   }
 
   Future<void> buyPro() async {
     if (product == null) return;
     lastError = null;
-    await _iap.buyNonConsumable(
-      purchaseParam: PurchaseParam(productDetails: product!),
-    );
+    try {
+      await _iap.buyNonConsumable(
+        purchaseParam: PurchaseParam(productDetails: product!),
+      );
+    } catch (e) {
+      lastError = '$e'; // e.g. iOS "pending transaction" PlatformException
+      notifyListeners();
+    }
   }
 
-  Future<void> restore() => _iap.restorePurchases();
+  Future<void> restore() async {
+    try {
+      await _iap.restorePurchases();
+    } catch (e) {
+      lastError = '$e';
+      notifyListeners();
+    }
+  }
 
   Future<void> _gatherConsent() async {
     final done = Completer<void>();

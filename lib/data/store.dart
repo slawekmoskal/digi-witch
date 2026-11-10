@@ -89,8 +89,13 @@ class AppStore extends ChangeNotifier {
   DrawnCard cardOfDay(CalendarDate today) {
     final raw = _p.getString('cardOfDay');
     if (raw != null) {
-      final j = jsonDecode(raw);
-      if (j['date'] == today.iso) return DrawnCard.fromJson(j['card']);
+      try {
+        final j = jsonDecode(raw);
+        final c = DrawnCard.fromJson(j['card']);
+        if (j['date'] == today.iso && deckIds.contains(c.cardId)) return c;
+      } catch (_) {
+        // Corrupt or outdated value: draw a fresh card instead of breaking the Today screen.
+      }
     }
     final card = draw(
       spreads[0],
@@ -120,9 +125,36 @@ class AppStore extends ChangeNotifier {
   List<JournalEntry> get journal {
     final raw = _p.getString('journal');
     if (raw == null) return [];
-    return [for (final e in jsonDecode(raw)) JournalEntry.fromJson(e)]
-      ..sort((a, b) => b.createdAt.compareTo(a.createdAt));
+    final List<dynamic> list;
+    try {
+      list = jsonDecode(raw) as List;
+    } catch (_) {
+      _quarantine(raw);
+      _p.remove('journal');
+      return [];
+    }
+    final ok = <JournalEntry>[];
+    final bad = <Object?>[];
+    for (final e in list) {
+      try {
+        ok.add(JournalEntry.fromJson(e));
+      } catch (_) {
+        bad.add(e);
+      }
+    }
+    if (bad.isNotEmpty) {
+      // Unreadable entries are kept aside (and exported), never silently dropped or allowed to block the journal.
+      _quarantine(jsonEncode(bad));
+      _p.setString('journal', jsonEncode([for (final e in ok) e.toJson()]));
+    }
+    return ok..sort((a, b) => b.createdAt.compareTo(a.createdAt));
   }
+
+  List<String> get unreadableJournalData =>
+      _p.getStringList('journalQuarantine') ?? [];
+
+  void _quarantine(String raw) =>
+      _p.setStringList('journalQuarantine', [...unreadableJournalData, raw]);
 
   Future<void> _saveJournal(List<JournalEntry> l) async {
     final ok = await _p.setString(
@@ -139,7 +171,8 @@ class AppStore extends ChangeNotifier {
     Map<String, dynamic>? ref,
   }) => _saveJournal([
     JournalEntry(
-      id: '${DateTime.now().microsecondsSinceEpoch}',
+      // Random suffix: web clocks have ms resolution, so timestamps alone can collide.
+      id: '${DateTime.now().microsecondsSinceEpoch}-${_random.nextInt(1 << 32)}',
       createdAt: DateTime.now(),
       text: text,
       promptText: promptText,
@@ -168,6 +201,7 @@ class AppStore extends ChangeNotifier {
     'app': 'digi_witch',
     'exportedAt': DateTime.now().toIso8601String(),
     'entries': [for (final e in journal) e.toJson()],
+    if (unreadableJournalData.isNotEmpty) 'unreadable': unreadableJournalData,
   });
 
   /// Removes every locally stored item (journal, profile, card of the day, settings).

@@ -57,7 +57,8 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
     if (_name.text.isEmpty && s.fullName != null) _name.text = s.fullName!;
   }
 
-  void _compute() {
+  /// Validates input, shows errors or results; returns true when input is valid.
+  bool _compute() {
     final l = context.l;
     final today = CalendarDate.fromDateTime(DateTime.now());
     final dateText = _date.text.trim(), name = _name.text.trim();
@@ -83,6 +84,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
         if (n != null) ...[expression(n), soulUrge(n), personality(n)],
       ];
     });
+    return _results != null;
   }
 
   @override
@@ -141,9 +143,14 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
           Wrap(
             spacing: 8,
             children: [
-              FilledButton(onPressed: _compute, child: Text(l.calculate)),
+              FilledButton(
+                onPressed: () => _compute(),
+                child: Text(l.calculate),
+              ),
               OutlinedButton(
                 onPressed: () {
+                  // Never overwrite the saved profile with an invalid or future date.
+                  if (!_compute()) return;
                   context.store.saveProfile(
                     parseUserDate(_date.text),
                     _name.text.trim(),

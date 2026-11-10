@@ -183,6 +183,61 @@ void main() {
       expect(s.journal, isEmpty);
     });
 
+    test('corrupt journal JSON is quarantined, exported, and does not block new entries', () async {
+      final s = await fresh({
+        'journal': '[{"id":"1","createdAt":"2026-01-01T10:00:00.000"',
+      });
+      expect(s.journal, isEmpty);
+      await s.addEntry('nowy');
+      expect(s.journal.single.text, 'nowy');
+      final exported = jsonDecode(s.exportJournal());
+      expect(exported['unreadable'], isNotEmpty);
+    });
+
+    test(
+      'one bad entry is set aside, good ones stay readable and editable',
+      () async {
+        final good = {
+          'id': 'a',
+          'createdAt': '2026-01-01T10:00:00.000',
+          'text': 'ok',
+        };
+        final s = await fresh({
+          'journal': jsonEncode([
+            good,
+            {'id': 'b', 'text': null},
+          ]),
+        });
+        expect(s.journal.single.text, 'ok');
+        await s.updateEntry('a', 'zmienione');
+        expect(s.journal.single.text, 'zmienione');
+        expect(s.unreadableJournalData.single, contains('"b"'));
+      },
+    );
+
+    test(
+      'corrupt or unknown card of the day is redrawn instead of crashing',
+      () async {
+        final today = CalendarDate.tryCreate(2026, 11, 10)!;
+        for (final bad in [
+          '{oops',
+          jsonEncode({
+            'date': today.iso,
+            'card': {'cardId': 'nope_99', 'position': 'x', 'reversed': false},
+          }),
+        ]) {
+          final s = await fresh({'cardOfDay': bad});
+          expect(deckIds, contains(s.cardOfDay(today).cardId));
+        }
+      },
+    );
+
+    test('entry ids are unique even when added in the same instant', () async {
+      final s = await fresh();
+      await Future.wait([s.addEntry('a'), s.addEntry('b')]);
+      expect(s.journal.map((e) => e.id).toSet().length, s.journal.length);
+    });
+
     test('reversed setting defaults to off and is honoured', () async {
       final s = await fresh();
       expect(s.allowReversed, isFalse);

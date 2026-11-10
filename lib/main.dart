@@ -5,6 +5,7 @@ import 'data/content.dart';
 import 'data/store.dart';
 import 'l10n/app_localizations.dart';
 import 'monetization/monetization.dart';
+import 'reminders.dart';
 import 'ui/journal_screen.dart';
 import 'ui/library_screen.dart';
 import 'ui/numerology_screen.dart';
@@ -108,6 +109,22 @@ class HomeShell extends StatefulWidget {
 
 class _HomeShellState extends State<HomeShell> {
   int _i = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final m = context.store.reminderMinutes;
+      if (m != null) {
+        Reminders.reschedule(
+          m,
+          title: context.l.reminderTitle,
+          body: context.l.reminderBody,
+        );
+      }
+    });
+  }
+
   static const _pages = [
     TodayScreen(),
     NumerologyScreen(),

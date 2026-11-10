@@ -15,8 +15,11 @@ class CalendarDate implements Comparable<CalendarDate> {
 
   /// Returns null for non-existent dates (e.g. 2023-02-30, 1900-02-29).
   static CalendarDate? tryCreate(int year, int month, int day) {
-    if (year < 1 || month < 1 || month > 12 || day < 1) return null;
-    final dt = DateTime(year, month, day);
+    if (year < 1 || year > 9999 || month < 1 || month > 12 || day < 1) {
+      return null;
+    }
+    // UTC only to validate the calendar date: local zones can skip whole days (e.g. Pacific/Apia 2011-12-30).
+    final dt = DateTime.utc(year, month, day);
     if (dt.year != year || dt.month != month || dt.day != day) return null;
     return CalendarDate._(year, month, day);
   }
@@ -168,7 +171,27 @@ const _polish = {
   'Ź': 'Z',
   'Ż': 'Z',
 };
-const _separators = {' ', '-', "'", '’'};
+const _polishLetters = 'ĄĆĘŁŃÓŚŹŻąćęłńóśźż';
+const _nfdPolish = {
+  'a\u0328': 'ą',
+  'A\u0328': 'Ą',
+  'e\u0328': 'ę',
+  'E\u0328': 'Ę',
+  'c\u0301': 'ć',
+  'C\u0301': 'Ć',
+  'n\u0301': 'ń',
+  'N\u0301': 'Ń',
+  'o\u0301': 'ó',
+  'O\u0301': 'Ó',
+  's\u0301': 'ś',
+  'S\u0301': 'Ś',
+  'z\u0301': 'ź',
+  'Z\u0301': 'Ź',
+  'z\u0307': 'ż',
+  'Z\u0307': 'Ż',
+};
+// Hyphens/apostrophes incl. typographic variants (U+2010, U+2011, U+2019, U+02BC); any whitespace also ignored.
+const _separators = {'-', '\u2010', '\u2011', "'", '\u2019', '\u02BC'};
 const vowels = {'A', 'E', 'I', 'O', 'U', 'Y'};
 
 int letterValue(String upperAZ) => (upperAZ.codeUnitAt(0) - 65) % 9 + 1;
@@ -186,12 +209,24 @@ class NormalizedName {
 NormalizedName normalizeName(String input) {
   final letters = <String>[];
   final bad = <String>{};
-  for (final ch in input.trim().split('')) {
-    if (_separators.contains(ch)) continue;
-    var u = ch.toUpperCase();
-    u = _polish[u] ?? u;
-    if (u.length == 1 && u.codeUnitAt(0) >= 65 && u.codeUnitAt(0) <= 90) {
+  final runes = input.trim().runes.toList();
+  for (var i = 0; i < runes.length; i++) {
+    var ch = String.fromCharCode(runes[i]);
+    // Decomposed (NFD) Polish letters, e.g. "e" + U+0328 → "ę".
+    if (i + 1 < runes.length) {
+      final composed = _nfdPolish['$ch${String.fromCharCode(runes[i + 1])}'];
+      if (composed != null) {
+        ch = composed;
+        i++;
+      }
+    }
+    if (_separators.contains(ch) || ch.trim().isEmpty) continue;
+    final u = ch.toUpperCase();
+    // Only plain A–Z or the explicit Polish table; "ı", "ſ", "ß" etc. need user transliteration.
+    if (RegExp(r'^[A-Za-z]$').hasMatch(ch)) {
       letters.add(u);
+    } else if (_polish[u] != null && _polishLetters.contains(ch)) {
+      letters.add(_polish[u]!);
     } else {
       bad.add(ch);
     }

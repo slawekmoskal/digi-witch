@@ -109,15 +109,24 @@ class _EntryEditorState extends State<EntryEditor> {
     }
   }
 
+  bool _saving = false;
+
   Future<void> _save() async {
     final s = context.store;
     final t = _text.text.trim();
-    if (t.isEmpty) return;
+    if (t.isEmpty || _saving) {
+      return; // guard against double taps creating duplicates
+    }
+    setState(() => _saving = true);
     final nav = Navigator.of(context);
-    widget.existing == null
-        ? await s.addEntry(t, promptText: _prompt, ref: widget.ref)
-        : await s.updateEntry(widget.existing!.id, t);
-    nav.pop();
+    try {
+      widget.existing == null
+          ? await s.addEntry(t, promptText: _prompt, ref: widget.ref)
+          : await s.updateEntry(widget.existing!.id, t);
+      nav.pop();
+    } finally {
+      if (mounted) setState(() => _saving = false);
+    }
   }
 
   Future<void> _delete() async {
@@ -160,7 +169,7 @@ class _EntryEditorState extends State<EntryEditor> {
               icon: const Icon(Icons.delete_outline),
               onPressed: _delete,
             ),
-          TextButton(onPressed: _save, child: Text(l.save)),
+          TextButton(onPressed: _saving ? null : _save, child: Text(l.save)),
         ],
       ),
       body: ListView(

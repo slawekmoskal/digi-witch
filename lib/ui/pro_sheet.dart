@@ -10,8 +10,21 @@ Future<void> showProSheet(BuildContext context) => showModalBottomSheet(
   builder: (_) => const _ProSheet(),
 );
 
-class _ProSheet extends StatelessWidget {
+class _ProSheet extends StatefulWidget {
   const _ProSheet();
+  @override
+  State<_ProSheet> createState() => _ProSheetState();
+}
+
+class _ProSheetState extends State<_ProSheet> {
+  @override
+  void initState() {
+    super.initState();
+    // Retry if the product could not be fetched at startup (e.g. offline then).
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) context.monetization?.loadProduct();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
