@@ -100,5 +100,41 @@
     "7": {"title": "Para poszukiwaczy", "text": "Liczba relacji 7: głęboka, refleksyjna więź i wspólne szukanie sensu. Wyzwanie: zamykanie się i niedopowiedzenia.", "reflection": "Czym dzielimy się ze sobą tylko w myślach?"},
     "8": {"title": "Para mocy", "text": "Liczba relacji 8: ambicja, wspólne cele, sukces materialny. Wyzwanie: walka o kontrolę i zapominanie o czułości.", "reflection": "Czy wygrywamy razem, czy przeciwko sobie?"},
     "9": {"title": "Para idealistów", "text": "Liczba relacji 9: współczucie, szerokie horyzonty, wspólne wartości. Wyzwanie: ideały, które rozmijają się z codziennością.", "reflection": "Jak nasze wartości wyglądają w zwykły wtorek?"}
+  },
+  "personalMonth": {
+    "1": {"title": "Miesiąc startu", "text": "Miesiąc osobisty 1 sprzyja nowym projektom i decyzjom. To dobry moment, by zacząć coś, co odkładasz — energia jest po stronie inicjatywy.", "reflection": "Co zacznę w tym miesiącu?"},
+    "2": {"title": "Miesiąc relacji", "text": "Miesiąc osobisty 2 kieruje uwagę na współpracę i cierpliwość. Sprawy dojrzewają wolniej, ale relacje mogą się pogłębić.", "reflection": "Z kim chcę w tym miesiącu lepiej się porozumieć?"},
+    "3": {"title": "Miesiąc ekspresji", "text": "Miesiąc osobisty 3 to czas spotkań, twórczości i radości. Łatwiej mówić o sobie i dzielić się pomysłami.", "reflection": "Jak chcę się w tym miesiącu wyrazić?"},
+    "4": {"title": "Miesiąc pracy", "text": "Miesiąc osobisty 4 to porządki, plany i systematyczna praca. Mniej fajerwerków, więcej solidnych podstaw.", "reflection": "Co zbuduję krok po kroku?"},
+    "5": {"title": "Miesiąc zmian", "text": "Miesiąc osobisty 5 przynosi ruch, nowości i niespodzianki. Dobry czas na podróż, naukę i elastyczność.", "reflection": "Na jaką zmianę się otworzę?"},
+    "6": {"title": "Miesiąc domu", "text": "Miesiąc osobisty 6 to dom, bliscy i odpowiedzialność. Więcej troski — także o siebie.", "reflection": "Jak zadbam o bliskich i o siebie?"},
+    "7": {"title": "Miesiąc refleksji", "text": "Miesiąc osobisty 7 sprzyja wyciszeniu, nauce i przemyśleniom. Odpowiedzi przychodzą raczej w ciszy niż w biegu.", "reflection": "Czego chcę się dowiedzieć o sobie?"},
+    "8": {"title": "Miesiąc sprawczości", "text": "Miesiąc osobisty 8 sprzyja konkretom: pracy, pieniądzom i decyzjom. Dobry czas, by wziąć sprawy w swoje ręce.", "reflection": "Jaki konkretny cel zrealizuję?"},
+    "9": {"title": "Miesiąc domykania", "text": "Miesiąc osobisty 9 to podsumowania i zamykanie spraw. Zrób miejsce na nowe — wkrótce zaczyna się kolejny cykl.", "reflection": "Co zakończę w tym miesiącu?"}
+  },
+  "maturity": {
+    "1": {"title": "Dojrzałość niezależności", "text": "Z wiekiem coraz wyraźniej potrzebujesz samodzielności i własnej drogi. Druga połowa życia sprzyja przywództwu i odwadze.", "reflection": "Gdzie chcę być bardziej samodzielny(-a)?"},
+    "2": {"title": "Dojrzałość partnerstwa", "text": "Z czasem rośnie wartość relacji, współpracy i łagodności. Dojrzałość przynosi umiejętność łączenia ludzi.", "reflection": "Jakie relacje chcę pielęgnować w przyszłości?"},
+    "3": {"title": "Dojrzałość twórcza", "text": "Z wiekiem coraz łatwiej wyrażasz siebie — słowem, sztuką, humorem. Dojrzałość sprzyja radości i kontaktom.", "reflection": "Jak chcę tworzyć w kolejnych latach?"},
+    "4": {"title": "Dojrzałość budowniczego", "text": "Z wiekiem cenisz stabilność i porządek. Dojrzałość przynosi trwałe efekty cierpliwej pracy.", "reflection": "Co trwałego chcę po sobie zostawić?"},
+    "5": {"title": "Dojrzałość wolności", "text": "Z wiekiem pragniesz ruchu, przygód i zmian, a nie spokoju. Dojrzałość to czas odkrywania świata na nowo.", "reflection": "Co chcę jeszcze zobaczyć i przeżyć?"},
+    "6": {"title": "Dojrzałość opiekuna", "text": "Z wiekiem coraz ważniejsza jest rodzina, dom i troska o innych. Dojrzałość przynosi rolę oparcia dla bliskich.", "reflection": "Komu chcę być oparciem?"},
+    "7": {"title": "Dojrzałość mędrca", "text": "Z wiekiem rośnie potrzeba zrozumienia, nauki i duchowości. Dojrzałość sprzyja głębokim pytaniom.", "reflection": "Jakie pytanie chcę zgłębić?"},
+    "8": {"title": "Dojrzałość sprawczości", "text": "Z wiekiem przychodzi wpływ, odpowiedzialność i umiejętność zarządzania. Dojrzałość sprzyja realizacji ambicji.", "reflection": "Jaki wpływ chcę mieć na świat?"},
+    "9": {"title": "Dojrzałość humanisty", "text": "Z wiekiem coraz bardziej liczy się dobro wspólne i dzielenie się doświadczeniem. Dojrzałość przynosi szerokie spojrzenie.", "reflection": "Czym chcę się podzielić z innymi?"},
+    "11": {"title": "Dojrzałość inspiracji", "text": "Liczba mistrzowska 11: z wiekiem rośnie intuicja i zdolność inspirowania innych. Ważne, by dbać o wrażliwość.", "reflection": "Kogo i czym chcę inspirować?"},
+    "22": {"title": "Dojrzałość wielkich planów", "text": "Liczba mistrzowska 22: dojrzałość może przynieść projekty, które służą wielu osobom. Wymaga to cierpliwości i realizmu.", "reflection": "Jaki duży plan chcę przełożyć na konkret?"},
+    "33": {"title": "Dojrzałość nauczyciela", "text": "Liczba mistrzowska 33: z wiekiem pojawia się potrzeba uczenia i wspierania innych. Pamiętaj też o własnych granicach.", "reflection": "Czego chcę uczyć innych?"}
+  },
+  "house": {
+    "1": {"title": "Dom niezależności", "text": "Miejsce sprzyjające samodzielności i nowym początkom — dobre dla osób, które zaczynają coś własnego.", "reflection": "Co nowego chcę tu zacząć?"},
+    "2": {"title": "Dom partnerstwa", "text": "Miejsce sprzyjające bliskości, spokojowi i relacjom we dwoje.", "reflection": "Jak dbamy tu o siebie nawzajem?"},
+    "3": {"title": "Dom spotkań", "text": "Miejsce pełne rozmów, gości i twórczości — rzadko bywa tu cicho.", "reflection": "Kogo chcę tu częściej gościć?"},
+    "4": {"title": "Dom stabilności", "text": "Miejsce sprzyjające porządkowi, pracy i poczuciu bezpieczeństwa.", "reflection": "Co daje mi tu poczucie bezpieczeństwa?"},
+    "5": {"title": "Dom ruchu", "text": "Miejsce zmian, podróży i ciągłego ruchu — trudno się tu nudzić.", "reflection": "Ile zmiany potrzebuję w swoim otoczeniu?"},
+    "6": {"title": "Dom rodzinny", "text": "Miejsce troski, ciepła i rodziny — dobry dom dla dzieci i zwierząt.", "reflection": "Jak tworzę tu ciepłą atmosferę?"},
+    "7": {"title": "Dom ciszy", "text": "Miejsce sprzyjające wyciszeniu, nauce i medytacji.", "reflection": "Gdzie tu jest mój kącik ciszy?"},
+    "8": {"title": "Dom sukcesu", "text": "Miejsce sprzyjające pracy, ambicjom i sprawom finansowym.", "reflection": "Jak to miejsce wspiera moje cele?"},
+    "9": {"title": "Dom otwarty", "text": "Miejsce gościnne, otwarte na innych i na pomaganie.", "reflection": "Komu chcę tu dawać schronienie?"}
   }
 }

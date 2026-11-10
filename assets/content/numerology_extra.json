@@ -157,5 +157,56 @@
       "title": "Wyzwanie władzy i pieniędzy",
       "text": "Nauka zdrowego podejścia do pieniędzy, ambicji i kontroli."
     }
+  },
+  "karmicDebts": {
+    "13": {
+      "title": "Dług karmiczny 13",
+      "text": "W tradycji numerologicznej 13 oznacza lekcję pracy i wytrwałości: łatwe drogi na skróty rzadko działają, a cierpliwy wysiłek przynosi trwałe efekty."
+    },
+    "14": {
+      "title": "Dług karmiczny 14",
+      "text": "14 to lekcja umiaru i wolności: nauka korzystania ze swobody bez nadmiaru i bez uciekania od zobowiązań."
+    },
+    "16": {
+      "title": "Dług karmiczny 16",
+      "text": "16 to lekcja pokory i przebudowy: czasem coś musi się rozpaść, by mogło powstać coś prawdziwszego."
+    },
+    "19": {
+      "title": "Dług karmiczny 19",
+      "text": "19 to lekcja samodzielności, która nie wyklucza proszenia o pomoc: siła rośnie, gdy pozwalasz innym się wspierać."
+    }
+  },
+  "karmicLessons": {
+    "1": "Lekcja 1: nauka wiary w siebie i podejmowania decyzji bez oglądania się na innych.",
+    "2": "Lekcja 2: nauka cierpliwości, współpracy i słuchania.",
+    "3": "Lekcja 3: nauka wyrażania siebie i dzielenia się radością.",
+    "4": "Lekcja 4: nauka systematyczności, porządku i doprowadzania spraw do końca.",
+    "5": "Lekcja 5: nauka elastyczności i otwartości na zmiany.",
+    "6": "Lekcja 6: nauka brania odpowiedzialności za bliskich — i za siebie.",
+    "7": "Lekcja 7: nauka zaufania do intuicji i czasu na refleksję.",
+    "8": "Lekcja 8: nauka zdrowego podejścia do pieniędzy i własnej siły.",
+    "9": "Lekcja 9: nauka współczucia i patrzenia szerzej niż na własne sprawy."
+  },
+  "keywords": {
+    "1": "początek, odwaga, samodzielność",
+    "2": "współpraca, cierpliwość, łagodność",
+    "3": "radość, twórczość, rozmowa",
+    "4": "porządek, stabilność, praca",
+    "5": "zmiana, ruch, wolność",
+    "6": "dom, troska, harmonia",
+    "7": "refleksja, intuicja, wiedza",
+    "8": "sprawczość, sukces, odpowiedzialność",
+    "9": "domknięcie, współczucie, szeroka perspektywa"
+  },
+  "dayColors": {
+    "1": "czerwony",
+    "2": "pomarańczowy",
+    "3": "żółty",
+    "4": "zielony",
+    "5": "niebieski",
+    "6": "indygo",
+    "7": "fioletowy",
+    "8": "różowy",
+    "9": "złoty"
   }
 }

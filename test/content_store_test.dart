@@ -132,6 +132,33 @@ void main() {
       expect(c.iching.keys.toSet(), {for (var i = 1; i <= 64; i++) i});
       expect(c.astro.transits.length, 6);
       expect(c.astro.rituals.keys.toSet(), {'new', 'full'});
+      expect(x.karmicDebts.keys.toSet(), {13, 14, 16, 19});
+      expect(x.karmicLessons.length, 9);
+      expect(x.keywords.length, 9);
+      expect(x.dayColors.length, 9);
+      expect(
+        c.astro.signs.every((s) => s.stone.isNotEmpty && s.planet.isNotEmpty),
+        isTrue,
+      );
+      for (final i in [Indicator.personalMonth, Indicator.house]) {
+        expect(c.numerology[i]!.keys.toSet(), {
+          for (var k = 1; k <= 9; k++) k,
+        }, reason: i.name);
+      }
+      expect(c.numerology[Indicator.maturity]!.keys.toSet(), {
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        22,
+        33,
+      });
     });
   });
 

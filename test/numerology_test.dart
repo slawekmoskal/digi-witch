@@ -150,4 +150,29 @@ void main() {
       [31, 32, 40, 50, null],
     );
   });
+
+  test('personal month, maturity, house number', () {
+    final b = CalendarDate.tryCreate(1990, 7, 15)!;
+    // personal year 2026 = 5; November: 1+1 = 2 → 7
+    expect(personalMonth(b, 2026, 11).value, 7);
+    // JAN KOWALSKI expression: J1 A1 N5 K2 O6 W5 A1 L3 S1 K2 I9 = 36 → 9; life path 5 → 14 → 5
+    final n = normalizeName('Jan Kowalski');
+    expect(expression(n).value, 9);
+    expect(maturity(b, n).value, 5);
+    expect(houseNumber('12A')!.value, 4); // 1 + 2 + A(1) = 4
+    expect(houseNumber('+48 600 100 200')!.value, 3); // 4+8+6+1+2 = 21 → 3
+    expect(houseNumber('---'), isNull);
+  });
+
+  test('karmic debts and lessons', () {
+    // born on the 13th → debt 13
+    expect(
+      karmicDebts(CalendarDate.tryCreate(1990, 7, 13)!, null),
+      contains(13),
+    );
+    // 15.07.1990: digits sum 32, day 15 → no karmic numbers on the way
+    expect(karmicDebts(CalendarDate.tryCreate(1990, 7, 15)!, null), isEmpty);
+    // "Jan Kowalski" letter values: 1,5,2,6,3,9 present → lessons 4,7,8
+    expect(karmicLessons(normalizeName('Jan Kowalski')), [4, 7, 8]);
+  });
 }

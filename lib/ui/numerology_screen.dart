@@ -86,8 +86,14 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
       if (_dateError != null || _nameError != null) return;
       _birth = d;
       _results = [
-        if (d != null) ...[lifePath(d), birthDay(d), personalYear(d, _year)],
+        if (d != null) ...[
+          lifePath(d),
+          birthDay(d),
+          personalYear(d, _year),
+          personalMonth(d, _year, DateTime.now().month),
+        ],
         if (n != null) ...[expression(n), soulUrge(n), personality(n)],
+        if (d != null && n != null) maturity(d, n),
       ];
     });
     return _results != null;
@@ -129,6 +135,12 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
             BirthCardSection(birthCard(birth)),
             PythagorasSection(birth),
             LifeCyclesSection(birth),
+            KarmicSection(
+              birth,
+              s.fullName == null || s.fullName!.isEmpty
+                  ? null
+                  : normalizeName(s.fullName!),
+            ),
           ] else ...[
             TarotFrame(
               child: Column(
@@ -215,9 +227,16 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
                 PythagorasSection(b),
                 LifeCyclesSection(b),
               ],
+              KarmicSection(
+                _birth,
+                _name.text.trim().isEmpty
+                    ? null
+                    : normalizeName(_name.text.trim()),
+              ),
             ],
           ],
-          const SizedBox(height: 16),
+          const HouseNumberCard(),
+          const SizedBox(height: 8),
           Card(
             child: ListTile(
               leading: Icon(
@@ -241,11 +260,18 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
 /// Results for the saved profile (current personal year).
 List<NumerologyResult> profileResults(CalendarDate birth, String? name) {
   final n = name == null || name.isEmpty ? null : normalizeName(name);
+  final now = DateTime.now();
   return [
     lifePath(birth),
     birthDay(birth),
-    personalYear(birth, DateTime.now().year),
-    if (n != null && n.isValid) ...[expression(n), soulUrge(n), personality(n)],
+    personalYear(birth, now.year),
+    personalMonth(birth, now.year, now.month),
+    if (n != null && n.isValid) ...[
+      expression(n),
+      soulUrge(n),
+      personality(n),
+      maturity(birth, n),
+    ],
   ];
 }
 
@@ -579,6 +605,78 @@ class LifeCyclesSection extends StatelessWidget {
               );
             },
           ),
+      ],
+    );
+  }
+}
+
+/// Karmic debts (13/14/16/19 on the way to core numbers) and lessons (digits missing from the name).
+class KarmicSection extends StatelessWidget {
+  final CalendarDate? birth;
+  final NormalizedName? name;
+  const KarmicSection(this.birth, this.name, {super.key});
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    final x = context.content.numerologyExtra;
+    final valid = name != null && name!.isValid ? name : null;
+    if (birth == null && valid == null) return const SizedBox.shrink();
+    final debts = karmicDebts(birth, valid).toList()..sort();
+    final lessons = valid == null ? <int>[] : karmicLessons(valid);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SectionTitle(l.karmicTitle),
+        Text(l.karmicIntro, style: Theme.of(context).textTheme.bodySmall),
+        const SizedBox(height: 6),
+        if (debts.isEmpty) Text(l.karmicNone),
+        for (final d in debts)
+          Card(
+            child: ListTile(
+              leading: NumberBadge('$d', size: 46),
+              title: Text(x.karmicDebts[d]!.name),
+              subtitle: Text(x.karmicDebts[d]!.text),
+            ),
+          ),
+        if (lessons.isNotEmpty)
+          LabeledBlock(
+            l.karmicLessonsTitle,
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                for (final n in lessons) Text('• ${x.karmicLessons[n]}'),
+              ],
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+/// Numerology of a house, flat or phone number.
+class HouseNumberCard extends StatefulWidget {
+  const HouseNumberCard({super.key});
+  @override
+  State<HouseNumberCard> createState() => _HouseNumberCardState();
+}
+
+class _HouseNumberCardState extends State<HouseNumberCard> {
+  NumerologyResult? _r;
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SectionTitle(l.houseTitle),
+        TextField(
+          decoration: InputDecoration(
+            labelText: l.houseHint,
+            prefixIcon: const Icon(Icons.home_outlined),
+          ),
+          onChanged: (v) => setState(() => _r = houseNumber(v)),
+        ),
+        if (_r case final r?) ResultCard(r),
       ],
     );
   }

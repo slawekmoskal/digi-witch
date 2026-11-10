@@ -505,7 +505,7 @@ abstract class AppLocalizations {
   /// No description provided for @indicatorName.
   ///
   /// In pl, this message translates to:
-  /// **'{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} other{Wskaźnik}}'**
+  /// **'{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} personalMonth{Miesiąc osobisty} maturity{Liczba dojrzałości} house{Liczba domu} other{Wskaźnik}}'**
   String indicatorName(String name);
 
   /// No description provided for @noBasis.
@@ -1629,6 +1629,66 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Rada'**
   String get advice;
+
+  /// No description provided for @karmicTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karma w liczbach'**
+  String get karmicTitle;
+
+  /// No description provided for @karmicIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Długi karmiczne to liczby 13, 14, 16 i 19 pojawiające się po drodze do Twoich liczb. Lekcje karmiczne to cyfry, których brakuje w imieniu i nazwisku. W tradycji opisują tematy do przepracowania — nie wyroki.'**
+  String get karmicIntro;
+
+  /// No description provided for @karmicNone.
+  ///
+  /// In pl, this message translates to:
+  /// **'Brak długów karmicznych w Twoich liczbach.'**
+  String get karmicNone;
+
+  /// No description provided for @karmicLessonsTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Lekcje karmiczne (brakujące cyfry w imieniu)'**
+  String get karmicLessonsTitle;
+
+  /// No description provided for @houseTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Numerologia domu i telefonu'**
+  String get houseTitle;
+
+  /// No description provided for @houseHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Numer domu, mieszkania lub telefonu, np. 12A'**
+  String get houseHint;
+
+  /// No description provided for @luckyMeaning.
+  ///
+  /// In pl, this message translates to:
+  /// **'{n} → {reduced}: {keywords}'**
+  String luckyMeaning(int n, int reduced, String keywords);
+
+  /// No description provided for @dayColor.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kolor dnia: {color}'**
+  String dayColor(String color);
+
+  /// No description provided for @signExtras.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kolor: {color} · kamień: {stone} · dzień: {day} · planeta: {planet}'**
+  String signExtras(String color, String stone, String day, String planet);
+
+  /// No description provided for @luckyTap.
+  ///
+  /// In pl, this message translates to:
+  /// **'Stuknij liczbę, aby zobaczyć jej znaczenie.'**
+  String get luckyTap;
 }
 
 class _AppLocalizationsDelegate

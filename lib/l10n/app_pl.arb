@@ -95,7 +95,7 @@
   "profileSaved": "Zapisano na tym urządzeniu.",
   "portrait": "Portret numerologiczny",
   "portraitNote": "Rozwiń wskaźnik, aby zobaczyć obliczenie i jego symboliczną interpretację. Wyniki są zgodne z konwencją opisaną w Bibliotece („Jak liczymy”).",
-  "indicatorName": "{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} other{Wskaźnik}}",
+  "indicatorName": "{name, select, lifePath{Droga życia} birthDay{Liczba dnia urodzenia} expression{Liczba ekspresji} soulUrge{Liczba samogłosek} personality{Liczba spółgłosek} personalYear{Rok osobisty} personalDay{Liczba dnia} relation{Liczba relacji} personalMonth{Miesiąc osobisty} maturity{Liczba dojrzałości} house{Liczba domu} other{Wskaźnik}}",
   "@indicatorName": {
     "placeholders": {
       "name": {
@@ -581,5 +581,51 @@
   "moonReminderFullTitle": "Pełnia — czas na podsumowanie",
   "moonReminderFullBody": "Co się udało od nowiu? Za co jesteś wdzięczny(-a)?",
   "forYouToday": "Tylko dla Ciebie",
-  "advice": "Rada"
+  "advice": "Rada",
+  "karmicTitle": "Karma w liczbach",
+  "karmicIntro": "Długi karmiczne to liczby 13, 14, 16 i 19 pojawiające się po drodze do Twoich liczb. Lekcje karmiczne to cyfry, których brakuje w imieniu i nazwisku. W tradycji opisują tematy do przepracowania — nie wyroki.",
+  "karmicNone": "Brak długów karmicznych w Twoich liczbach.",
+  "karmicLessonsTitle": "Lekcje karmiczne (brakujące cyfry w imieniu)",
+  "houseTitle": "Numerologia domu i telefonu",
+  "houseHint": "Numer domu, mieszkania lub telefonu, np. 12A",
+  "luckyMeaning": "{n} → {reduced}: {keywords}",
+  "@luckyMeaning": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "reduced": {
+        "type": "int"
+      },
+      "keywords": {
+        "type": "String"
+      }
+    }
+  },
+  "dayColor": "Kolor dnia: {color}",
+  "@dayColor": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      }
+    }
+  },
+  "signExtras": "Kolor: {color} · kamień: {stone} · dzień: {day} · planeta: {planet}",
+  "@signExtras": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      },
+      "stone": {
+        "type": "String"
+      },
+      "day": {
+        "type": "String"
+      },
+      "planet": {
+        "type": "String"
+      }
+    }
+  },
+  "luckyTap": "Stuknij liczbę, aby zobaczyć jej znaczenie."
 }

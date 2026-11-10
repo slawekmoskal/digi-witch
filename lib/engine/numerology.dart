@@ -60,6 +60,9 @@ enum Indicator {
   personalYear,
   personalDay,
   relation,
+  personalMonth,
+  maturity,
+  house,
 }
 
 /// One computed indicator with a human-readable trace of every step.
@@ -397,5 +400,101 @@ List<LifePeriod> lifePeriods(CalendarDate d) {
     LifePeriod(end1 + 1, end1 + 9, p2, c2),
     LifePeriod(end1 + 10, end1 + 18, p3, c3),
     LifePeriod(end1 + 19, null, p4, c4),
+  ];
+}
+
+// ---- More indicators ----
+
+NumerologyResult personalMonth(CalendarDate birth, int year, int month) {
+  final py = personalYear(birth, year).value!;
+  final m = digitSum(month);
+  final seen = reduceSteps(py + m, const {});
+  return NumerologyResult(
+    Indicator.personalMonth,
+    'Rok osobisty plus cyfry miesiąca, redukcja do 1–9.',
+    {'Data urodzenia': birth.display, 'Miesiąc': '$month.$year'},
+    [
+      'Rok osobisty $year: $py.',
+      'Miesiąc: $month → $m.',
+      'Suma: $py + $m = ${py + m}.',
+      _reductionLine(seen),
+    ],
+    seen.last,
+  );
+}
+
+/// Maturity number: life path + expression, reduced (masters kept).
+NumerologyResult maturity(CalendarDate birth, NormalizedName n) {
+  final lp = lifePath(birth).value!, ex = expression(n).value!;
+  final seen = reduceSteps(lp + ex, mastersAll);
+  return NumerologyResult(
+    Indicator.maturity,
+    'Suma drogi życia i liczby ekspresji, redukcja z 11, 22, 33.',
+    {'Data urodzenia': birth.display, 'Zapis': n.original},
+    [
+      'Droga życia $lp + ekspresja $ex = ${lp + ex}.',
+      _reductionLine(seen) + _masterNote(seen.last, mastersAll),
+    ],
+    seen.last,
+  );
+}
+
+/// House, flat or phone number: digits as they are, letters by the A–Z table, reduced to 1–9.
+NumerologyResult? houseNumber(String input) {
+  final values = <String>[];
+  var sum = 0;
+  for (final ch in input.toUpperCase().split('')) {
+    if (RegExp(r'[0-9]').hasMatch(ch)) {
+      sum += int.parse(ch);
+      values.add(ch);
+    } else if (RegExp(r'[A-Z]').hasMatch(ch)) {
+      sum += letterValue(ch);
+      values.add('$ch=${letterValue(ch)}');
+    }
+  }
+  if (sum == 0) return null;
+  final seen = reduceSteps(sum, const {});
+  return NumerologyResult(
+    Indicator.house,
+    'Suma cyfr (litery według tabeli A–Z), redukcja do 1–9. Inne znaki pomijamy.',
+    {'Zapis': input.trim()},
+    ['Wartości: ${values.join(' + ')} = $sum.', _reductionLine(seen)],
+    seen.last,
+  );
+}
+
+const karmicNumbers = {13, 14, 16, 19};
+
+/// Karmic debts: 13, 14, 16 or 19 appearing as a birth day or on the way to a core number.
+Set<int> karmicDebts(CalendarDate? d, NormalizedName? n) {
+  final sums = <int>[
+    if (d != null) ...[
+      d.day,
+      '${d.day.toString().padLeft(2, '0')}${d.month.toString().padLeft(2, '0')}${d.year}'
+          .split('')
+          .fold(0, (a, c) => a + int.parse(c)),
+    ],
+    if (n != null && n.isValid) ...[
+      for (final pick in <bool Function(String)>[
+        (_) => true,
+        vowels.contains,
+        (l) => !vowels.contains(l),
+      ])
+        n.letters.where(pick).fold(0, (a, l) => a + letterValue(l)),
+    ],
+  ];
+  return {
+    for (final s in sums)
+      for (final v in reduceSteps(s, mastersAll))
+        if (karmicNumbers.contains(v)) v,
+  };
+}
+
+/// Karmic lessons: digits 1–9 that no letter of the name gives.
+List<int> karmicLessons(NormalizedName n) {
+  final present = {for (final l in n.letters) letterValue(l)};
+  return [
+    for (var i = 1; i <= 9; i++)
+      if (!present.contains(i)) i,
   ];
 }

@@ -86,8 +86,13 @@ typedef Named = ({String name, String text});
 
 class Sign {
   final String id, name, locative, dates, text;
+  final String color, stone, day, planet;
   Sign.fromJson(Map<String, dynamic> j)
-    : id = j['id'],
+    : color = j['color'],
+      stone = j['stone'],
+      day = j['day'],
+      planet = j['planet'],
+      id = j['id'],
       name = j['name'],
       locative = j['locative'],
       dates = j['dates'],
@@ -171,9 +176,14 @@ class Dream {
 
 class NumerologyExtra {
   final Map<int, ({String title, List<String> levels})> square;
-  final Map<int, Named> pinnacles, challenges;
+  final Map<int, Named> pinnacles, challenges, karmicDebts;
+  final Map<int, String> karmicLessons, keywords, dayColors;
   NumerologyExtra.fromJson(Map<String, dynamic> j)
-    : square = {
+    : karmicDebts = _named(j['karmicDebts']),
+      karmicLessons = _ints(j['karmicLessons']),
+      keywords = _ints(j['keywords']),
+      dayColors = _ints(j['dayColors']),
+      square = {
         for (final e in (j['square'] as Map<String, dynamic>).entries)
           int.parse(e.key): (
             title: e.value['title'] as String,
@@ -182,6 +192,10 @@ class NumerologyExtra {
       },
       pinnacles = _named(j['pinnacles']),
       challenges = _named(j['challenges']);
+
+  static Map<int, String> _ints(Map<String, dynamic> m) => {
+    for (final e in m.entries) int.parse(e.key): e.value as String,
+  };
 
   static Map<int, Named> _named(Map<String, dynamic> m) => {
     for (final e in m.entries)

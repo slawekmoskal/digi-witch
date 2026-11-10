@@ -263,6 +263,9 @@ class AppLocalizationsPl extends AppLocalizations {
       'personalYear': 'Rok osobisty',
       'personalDay': 'Liczba dnia',
       'relation': 'Liczba relacji',
+      'personalMonth': 'Miesiąc osobisty',
+      'maturity': 'Liczba dojrzałości',
+      'house': 'Liczba domu',
       'other': 'Wskaźnik',
     });
     return '$_temp0';
@@ -975,4 +978,42 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get advice => 'Rada';
+
+  @override
+  String get karmicTitle => 'Karma w liczbach';
+
+  @override
+  String get karmicIntro =>
+      'Długi karmiczne to liczby 13, 14, 16 i 19 pojawiające się po drodze do Twoich liczb. Lekcje karmiczne to cyfry, których brakuje w imieniu i nazwisku. W tradycji opisują tematy do przepracowania — nie wyroki.';
+
+  @override
+  String get karmicNone => 'Brak długów karmicznych w Twoich liczbach.';
+
+  @override
+  String get karmicLessonsTitle =>
+      'Lekcje karmiczne (brakujące cyfry w imieniu)';
+
+  @override
+  String get houseTitle => 'Numerologia domu i telefonu';
+
+  @override
+  String get houseHint => 'Numer domu, mieszkania lub telefonu, np. 12A';
+
+  @override
+  String luckyMeaning(int n, int reduced, String keywords) {
+    return '$n → $reduced: $keywords';
+  }
+
+  @override
+  String dayColor(String color) {
+    return 'Kolor dnia: $color';
+  }
+
+  @override
+  String signExtras(String color, String stone, String day, String planet) {
+    return 'Kolor: $color · kamień: $stone · dzień: $day · planeta: $planet';
+  }
+
+  @override
+  String get luckyTap => 'Stuknij liczbę, aby zobaczyć jej znaczenie.';
 }

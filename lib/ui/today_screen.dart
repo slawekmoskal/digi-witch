@@ -89,6 +89,8 @@ class TodayScreen extends StatelessWidget {
           if (birth != null) ...[
             SectionTitle(l.indicatorName('personalDay')),
             ResultCard(personalDay(birth, today)),
+            SectionTitle(l.indicatorName('personalMonth')),
+            ResultCard(personalMonth(birth, now.year, now.month)),
             SectionTitle(l.yourPersonalYear(now.year)),
             ResultCard(personalYear(birth, now.year)),
           ],

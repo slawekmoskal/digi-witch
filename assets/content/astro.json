@@ -11,84 +11,132 @@
       "name": "Baran",
       "locative": "Baranie",
       "dates": "21.03–19.04",
-      "text": "Baran to pierwszy znak zodiaku i ogień w najczystszej postaci: odwaga, inicjatywa i potrzeba działania tu i teraz. Najlepiej czuje się, gdy może zaczynać — trudniej mu z cierpliwością i dokańczaniem."
+      "text": "Baran to pierwszy znak zodiaku i ogień w najczystszej postaci: odwaga, inicjatywa i potrzeba działania tu i teraz. Najlepiej czuje się, gdy może zaczynać — trudniej mu z cierpliwością i dokańczaniem.",
+      "color": "czerwony",
+      "stone": "diament, karneol",
+      "day": "wtorek",
+      "planet": "Mars"
     },
     {
       "id": "taurus",
       "name": "Byk",
       "locative": "Byku",
       "dates": "20.04–20.05",
-      "text": "Byk to ziemia, która ceni spokój, wygodę i to, co trwałe. Jest cierpliwy i wierny, buduje powoli, ale solidnie. Jego wyzwaniem bywa upór i niechęć do zmian."
+      "text": "Byk to ziemia, która ceni spokój, wygodę i to, co trwałe. Jest cierpliwy i wierny, buduje powoli, ale solidnie. Jego wyzwaniem bywa upór i niechęć do zmian.",
+      "color": "zielony, różowy",
+      "stone": "szmaragd, kwarc różowy",
+      "day": "piątek",
+      "planet": "Wenus"
     },
     {
       "id": "gemini",
       "name": "Bliźnięta",
       "locative": "Bliźniętach",
       "dates": "21.05–20.06",
-      "text": "Bliźnięta to powietrze w ruchu: ciekawość, rozmowa, szybkie łączenie faktów. Łatwo nawiązują kontakt i uczą się nowych rzeczy. Wyzwanie to rozproszenie i trudność w wyborze jednej drogi."
+      "text": "Bliźnięta to powietrze w ruchu: ciekawość, rozmowa, szybkie łączenie faktów. Łatwo nawiązują kontakt i uczą się nowych rzeczy. Wyzwanie to rozproszenie i trudność w wyborze jednej drogi.",
+      "color": "żółty",
+      "stone": "agat, cytryn",
+      "day": "środa",
+      "planet": "Merkury"
     },
     {
       "id": "cancer",
       "name": "Rak",
       "locative": "Raku",
       "dates": "21.06–22.07",
-      "text": "Rak to woda, która chroni: dom, bliscy, poczucie bezpieczeństwa. Jest wrażliwy, opiekuńczy i ma dobrą pamięć emocjonalną. Wyzwanie to chowanie się w skorupie, gdy coś zaboli."
+      "text": "Rak to woda, która chroni: dom, bliscy, poczucie bezpieczeństwa. Jest wrażliwy, opiekuńczy i ma dobrą pamięć emocjonalną. Wyzwanie to chowanie się w skorupie, gdy coś zaboli.",
+      "color": "srebrny, biały",
+      "stone": "perła, kamień księżycowy",
+      "day": "poniedziałek",
+      "planet": "Księżyc"
     },
     {
       "id": "leo",
       "name": "Lew",
       "locative": "Lwie",
       "dates": "23.07–22.08",
-      "text": "Lew to ogień, który świeci: hojność, twórczość i potrzeba bycia zauważonym. Daje innym ciepło i odwagę. Wyzwaniem bywa duma i trudność w przyjmowaniu krytyki."
+      "text": "Lew to ogień, który świeci: hojność, twórczość i potrzeba bycia zauważonym. Daje innym ciepło i odwagę. Wyzwaniem bywa duma i trudność w przyjmowaniu krytyki.",
+      "color": "złoty, pomarańczowy",
+      "stone": "rubin, bursztyn",
+      "day": "niedziela",
+      "planet": "Słońce"
     },
     {
       "id": "virgo",
       "name": "Panna",
       "locative": "Pannie",
       "dates": "23.08–22.09",
-      "text": "Panna to ziemia w szczegółach: porządek, rzetelność i chęć bycia pomocną. Widzi, co można ulepszyć. Wyzwanie to perfekcjonizm i zbyt surowa ocena siebie."
+      "text": "Panna to ziemia w szczegółach: porządek, rzetelność i chęć bycia pomocną. Widzi, co można ulepszyć. Wyzwanie to perfekcjonizm i zbyt surowa ocena siebie.",
+      "color": "beżowy, granatowy",
+      "stone": "szafir, jaspis",
+      "day": "środa",
+      "planet": "Merkury"
     },
     {
       "id": "libra",
       "name": "Waga",
       "locative": "Wadze",
       "dates": "23.09–22.10",
-      "text": "Waga to powietrze, które szuka równowagi: harmonia, sprawiedliwość i piękno w relacjach. Potrafi łagodzić spory. Wyzwanie to odkładanie decyzji, by nikogo nie urazić."
+      "text": "Waga to powietrze, które szuka równowagi: harmonia, sprawiedliwość i piękno w relacjach. Potrafi łagodzić spory. Wyzwanie to odkładanie decyzji, by nikogo nie urazić.",
+      "color": "pastelowy niebieski, różowy",
+      "stone": "opal, lapis lazuli",
+      "day": "piątek",
+      "planet": "Wenus"
     },
     {
       "id": "scorpio",
       "name": "Skorpion",
       "locative": "Skorpionie",
       "dates": "23.10–21.11",
-      "text": "Skorpion to głęboka woda: intensywność, lojalność i przenikliwość. Nie zadowala się powierzchnią. Wyzwaniem bywa zazdrość i trudność w odpuszczaniu."
+      "text": "Skorpion to głęboka woda: intensywność, lojalność i przenikliwość. Nie zadowala się powierzchnią. Wyzwaniem bywa zazdrość i trudność w odpuszczaniu.",
+      "color": "bordowy, czarny",
+      "stone": "topaz, obsydian",
+      "day": "wtorek",
+      "planet": "Mars i Pluton"
     },
     {
       "id": "sagittarius",
       "name": "Strzelec",
       "locative": "Strzelcu",
       "dates": "22.11–21.12",
-      "text": "Strzelec to ogień, który szuka sensu: podróże, wiedza, wolność i optymizm. Zaraża entuzjazmem. Wyzwanie to niecierpliwość i obietnice składane zbyt szybko."
+      "text": "Strzelec to ogień, który szuka sensu: podróże, wiedza, wolność i optymizm. Zaraża entuzjazmem. Wyzwanie to niecierpliwość i obietnice składane zbyt szybko.",
+      "color": "fioletowy",
+      "stone": "turkus, ametyst",
+      "day": "czwartek",
+      "planet": "Jowisz"
     },
     {
       "id": "capricorn",
       "name": "Koziorożec",
       "locative": "Koziorożcu",
       "dates": "22.12–19.01",
-      "text": "Koziorożec to ziemia, która wspina się na szczyt: ambicja, odpowiedzialność i wytrwałość. Myśli długofalowo. Wyzwanie to praca kosztem odpoczynku i bliskości."
+      "text": "Koziorożec to ziemia, która wspina się na szczyt: ambicja, odpowiedzialność i wytrwałość. Myśli długofalowo. Wyzwanie to praca kosztem odpoczynku i bliskości.",
+      "color": "brązowy, szary",
+      "stone": "granat, onyks",
+      "day": "sobota",
+      "planet": "Saturn"
     },
     {
       "id": "aquarius",
       "name": "Wodnik",
       "locative": "Wodniku",
       "dates": "20.01–18.02",
-      "text": "Wodnik to powietrze, które patrzy w przyszłość: niezależność, oryginalność i myślenie o wspólnocie. Lubi iść własną drogą. Wyzwanie to dystans emocjonalny."
+      "text": "Wodnik to powietrze, które patrzy w przyszłość: niezależność, oryginalność i myślenie o wspólnocie. Lubi iść własną drogą. Wyzwanie to dystans emocjonalny.",
+      "color": "turkusowy",
+      "stone": "ametyst, akwamaryn",
+      "day": "sobota",
+      "planet": "Saturn i Uran"
     },
     {
       "id": "pisces",
       "name": "Ryby",
       "locative": "Rybach",
       "dates": "19.02–20.03",
-      "text": "Ryby to woda bez brzegów: empatia, wyobraźnia i duchowość. Czują więcej, niż mówią. Wyzwanie to ucieczka od rzeczywistości i brak granic."
+      "text": "Ryby to woda bez brzegów: empatia, wyobraźnia i duchowość. Czują więcej, niż mówią. Wyzwanie to ucieczka od rzeczywistości i brak granic.",
+      "color": "morski, lawendowy",
+      "stone": "akwamaryn, ametyst",
+      "day": "czwartek",
+      "planet": "Jowisz i Neptun"
     }
   ],
   "chinese": [

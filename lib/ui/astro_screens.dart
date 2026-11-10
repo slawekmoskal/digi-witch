@@ -118,11 +118,37 @@ class HoroscopeCard extends StatelessWidget {
                   spacing: 10,
                   children: [
                     for (final n in luckyNumbers(birth, today))
-                      NumberBadge('$n', size: 48),
+                      InkWell(
+                        customBorder: const CircleBorder(),
+                        onTap: () {
+                          final r = reduceSteps(n, const {}).last;
+                          ScaffoldMessenger.of(context)
+                            ..hideCurrentSnackBar()
+                            ..showSnackBar(
+                              SnackBar(
+                                content: Text(
+                                  l.luckyMeaning(
+                                    n,
+                                    r,
+                                    context
+                                        .content
+                                        .numerologyExtra
+                                        .keywords[r]!,
+                                  ),
+                                ),
+                              ),
+                            );
+                        },
+                        child: NumberBadge('$n', size: 48),
+                      ),
                   ],
                 ),
                 const SizedBox(height: 6),
-                Text(l.luckyNote, style: t.bodySmall),
+                Text(
+                  l.dayColor(context.content.numerologyExtra.dayColors[day]!),
+                  style: const TextStyle(fontWeight: FontWeight.w600),
+                ),
+                Text('${l.luckyTap} ${l.luckyNote}', style: t.bodySmall),
               ],
             ),
           ),
@@ -142,6 +168,16 @@ class HoroscopeCard extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               Text(a.signs[sign].text),
+              const SizedBox(height: 4),
+              Text(
+                l.signExtras(
+                  a.signs[sign].color,
+                  a.signs[sign].stone,
+                  a.signs[sign].day,
+                  a.signs[sign].planet,
+                ),
+                style: const TextStyle(fontWeight: FontWeight.w600),
+              ),
               const SizedBox(height: 8),
               Text(
                 l.whyMoon(
@@ -504,7 +540,11 @@ class BirthChartScreen extends StatelessWidget {
             ),
           ),
           Text(l.placesNote, style: t.bodySmall),
-          _BigThree(l.sunLabel, a.signs[sun].name, a.signs[sun].text),
+          _BigThree(
+            l.sunLabel,
+            a.signs[sun].name,
+            '${a.signs[sun].text}\n\n${l.signExtras(a.signs[sun].color, a.signs[sun].stone, a.signs[sun].day, a.signs[sun].planet)}',
+          ),
           _BigThree(
             l.moonLabel,
             moonA == moonB
