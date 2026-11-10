@@ -126,7 +126,18 @@ void main() {
     test('numerology extras, I Ching, transits and rituals complete', () {
       final x = c.numerologyExtra;
       expect(x.square.keys.toSet(), {for (var i = 1; i <= 9; i++) i});
-      expect(x.square.values.every((v) => v.levels.length == 4), isTrue);
+      expect(x.square.values.every((v) => v.levels.length == 5), isTrue);
+      expect(
+        c.astro.signs.every(
+          (s) =>
+              s.love.isNotEmpty && s.work.isNotEmpty && s.wellbeing.isNotEmpty,
+        ),
+        isTrue,
+      );
+      expect(
+        c.astro.chinese.every((s) => s.love.isNotEmpty && s.work.isNotEmpty),
+        isTrue,
+      );
       expect(x.pinnacles.keys.toSet(), {for (var i = 1; i <= 9; i++) i});
       expect(x.challenges.keys.toSet(), {for (var i = 0; i <= 8; i++) i});
       expect(c.iching.keys.toSet(), {for (var i = 1; i <= 64; i++) i});

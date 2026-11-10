@@ -15,7 +15,10 @@
       "color": "czerwony",
       "stone": "diament, karneol",
       "day": "wtorek",
-      "planet": "Mars"
+      "planet": "Mars",
+      "love": "W miłości Baran jest bezpośredni i namiętny — lubi zdobywać i szybko okazuje uczucia. Potrzebuje partnera, który nie boi się jego tempa, i uczy się, że bliskość wymaga też cierpliwości.",
+      "work": "W pracy najlepiej odnajduje się tam, gdzie liczy się inicjatywa: zaczyna projekty, prowadzi, rywalizuje. Rutyna go męczy; warto mieć obok kogoś, kto dokończy szczegóły.",
+      "wellbeing": "Energię rozładowuje ruchem. Sprzyja mu sport, krótkie intensywne wyzwania i świadome hamowanie, zanim zmęczenie przejdzie w irytację."
     },
     {
       "id": "taurus",
@@ -26,7 +29,10 @@
       "color": "zielony, różowy",
       "stone": "szmaragd, kwarc różowy",
       "day": "piątek",
-      "planet": "Wenus"
+      "planet": "Wenus",
+      "love": "W miłości Byk jest wierny, czuły i zmysłowy. Okazuje uczucia czynami — troską, posiłkiem, obecnością — i potrzebuje poczucia stałości.",
+      "work": "W pracy jest wytrwały i rzetelny; doprowadza sprawy do końca. Dobrze czuje się w finansach, rzemiośle, ogrodnictwie i wszędzie tam, gdzie widać efekt.",
+      "wellbeing": "Dobrze robią mu natura, dobre jedzenie i rytm dnia. Warto uważać na zastój — łagodny ruch i zmiana otoczenia przywracają mu lekkość."
     },
     {
       "id": "gemini",
@@ -37,7 +43,10 @@
       "color": "żółty",
       "stone": "agat, cytryn",
       "day": "środa",
-      "planet": "Merkury"
+      "planet": "Merkury",
+      "love": "W miłości Bliźnięta potrzebują rozmowy i lekkości. Zakochują się w umyśle; nuda jest dla nich największym zagrożeniem związku.",
+      "work": "W pracy błyszczą w komunikacji, mediach, handlu i nauczaniu. Lubią wiele projektów naraz — klucz to wybór priorytetów.",
+      "wellbeing": "Umysł pracuje bez przerwy, więc potrzebują momentów ciszy i offline. Pomaga oddech, spacer i ograniczenie bodźców wieczorem."
     },
     {
       "id": "cancer",
@@ -48,7 +57,10 @@
       "color": "srebrny, biały",
       "stone": "perła, kamień księżycowy",
       "day": "poniedziałek",
-      "planet": "Księżyc"
+      "planet": "Księżyc",
+      "love": "W miłości Rak jest opiekuńczy i oddany; tworzy dom, w którym bliscy czują się bezpiecznie. Potrzebuje zapewnień i czułości, choć nie zawsze o nie prosi.",
+      "work": "W pracy sprawdza się tam, gdzie ważna jest troska: w opiece, edukacji, gastronomii, pracy z ludźmi. Dobrze pracuje w zespołach, które przypominają rodzinę.",
+      "wellbeing": "Jego samopoczucie mocno zależy od emocji. Pomaga mu dom, woda, bliskie osoby i nazywanie uczuć, zamiast chowania ich w skorupie."
     },
     {
       "id": "leo",
@@ -59,7 +71,10 @@
       "color": "złoty, pomarańczowy",
       "stone": "rubin, bursztyn",
       "day": "niedziela",
-      "planet": "Słońce"
+      "planet": "Słońce",
+      "love": "W miłości Lew jest hojny, romantyczny i lojalny. Potrzebuje podziwu i docenienia, a w zamian daje dużo ciepła.",
+      "work": "W pracy lubi prowadzić i występować: sprawdza się w przywództwie, sztuce, sprzedaży i wszędzie, gdzie można się wyróżnić.",
+      "wellbeing": "Energię czerpie z radości i twórczości. Warto, by dbał o serce i kręgosłup — także w przenośni: o odpoczynek od roli „tego silnego”."
     },
     {
       "id": "virgo",
@@ -70,7 +85,10 @@
       "color": "beżowy, granatowy",
       "stone": "szafir, jaspis",
       "day": "środa",
-      "planet": "Merkury"
+      "planet": "Merkury",
+      "love": "W miłości Panna okazuje uczucia przez troskę i pomoc. Bywa powściągliwa, ale jest bardzo oddana; potrzebuje partnera, który doceni jej codzienną uważność.",
+      "work": "W pracy jest dokładna, analityczna i rzetelna. Sprawdza się w zdrowiu, analizie, redakcji, organizacji — wszędzie, gdzie liczą się szczegóły.",
+      "wellbeing": "Łatwo się zamartwia, więc pomaga jej porządek, rutyna i świadome odpuszczanie perfekcjonizmu. Dobrze reaguje na zdrową dietę i spacery."
     },
     {
       "id": "libra",
@@ -81,7 +99,10 @@
       "color": "pastelowy niebieski, różowy",
       "stone": "opal, lapis lazuli",
       "day": "piątek",
-      "planet": "Wenus"
+      "planet": "Wenus",
+      "love": "W miłości Waga szuka partnerstwa, harmonii i piękna. Jest romantyczna i taktowna, ale musi uważać, by dla spokoju nie rezygnować z siebie.",
+      "work": "W pracy sprawdza się w dyplomacji, prawie, designie, pracy z klientem. Najlepiej działa w duecie lub zespole.",
+      "wellbeing": "Dobrze robi jej estetyczne otoczenie, sztuka i równowaga między pracą a odpoczynkiem. Konflikty ją wyczerpują — warto uczyć się mówić „nie”."
     },
     {
       "id": "scorpio",
@@ -92,7 +113,10 @@
       "color": "bordowy, czarny",
       "stone": "topaz, obsydian",
       "day": "wtorek",
-      "planet": "Mars i Pluton"
+      "planet": "Mars i Pluton",
+      "love": "W miłości Skorpion jest intensywny, namiętny i lojalny aż do końca. Potrzebuje głębokiego zaufania; zdradę wybacza bardzo trudno.",
+      "work": "W pracy jest przenikliwy i wytrwały: sprawdza się w badaniach, psychologii, finansach, medycynie i wszędzie, gdzie trzeba dojść do sedna.",
+      "wellbeing": "Silne emocje warto mu przepracowywać, a nie tłumić. Pomaga intensywny ruch, woda i rozmowa z zaufaną osobą."
     },
     {
       "id": "sagittarius",
@@ -103,7 +127,10 @@
       "color": "fioletowy",
       "stone": "turkus, ametyst",
       "day": "czwartek",
-      "planet": "Jowisz"
+      "planet": "Jowisz",
+      "love": "W miłości Strzelec potrzebuje wolności i wspólnej przygody. Jest szczery, ciepły i optymistyczny; źle znosi zazdrość i kontrolę.",
+      "work": "W pracy sprawdza się w podróżach, edukacji, wydawnictwach, sporcie i wszędzie, gdzie jest sens i perspektywa rozwoju.",
+      "wellbeing": "Energię daje mu ruch i przestrzeń — wędrówki, sport, nowe miejsca. Warto uważać na przesadę: w jedzeniu, obietnicach i tempie."
     },
     {
       "id": "capricorn",
@@ -114,7 +141,10 @@
       "color": "brązowy, szary",
       "stone": "granat, onyks",
       "day": "sobota",
-      "planet": "Saturn"
+      "planet": "Saturn",
+      "love": "W miłości Koziorożec jest poważny, odpowiedzialny i lojalny. Okazuje uczucia przez troskę o przyszłość; potrzebuje czasu, by się otworzyć.",
+      "work": "W pracy jest ambitny, wytrwały i dobrze zorganizowany. Sprawdza się w zarządzaniu, finansach, administracji i długofalowych projektach.",
+      "wellbeing": "Łatwo przepracowuje się kosztem odpoczynku. Pomaga mu regularny rytm, góry, cisza i pozwolenie sobie na przyjemność bez poczucia winy."
     },
     {
       "id": "aquarius",
@@ -125,7 +155,10 @@
       "color": "turkusowy",
       "stone": "ametyst, akwamaryn",
       "day": "sobota",
-      "planet": "Saturn i Uran"
+      "planet": "Saturn i Uran",
+      "love": "W miłości Wodnik potrzebuje przyjaźni i wolności. Jest lojalny i otwarty, ale emocje okazuje po swojemu — bardziej przez wspólne idee niż czułe słowa.",
+      "work": "W pracy sprawdza się w technologii, nauce, działalności społecznej i wszędzie, gdzie można wymyślać nowe rozwiązania.",
+      "wellbeing": "Głowa pracuje szybko, ciało bywa zapominane. Pomaga mu ruch, kontakt z ludźmi o podobnych wartościach i czas na własne projekty."
     },
     {
       "id": "pisces",
@@ -136,7 +169,10 @@
       "color": "morski, lawendowy",
       "stone": "akwamaryn, ametyst",
       "day": "czwartek",
-      "planet": "Jowisz i Neptun"
+      "planet": "Jowisz i Neptun",
+      "love": "W miłości Ryby są romantyczne, empatyczne i oddane. Łatwo się zakochują i idealizują; potrzebują partnera, który da im poczucie bezpieczeństwa.",
+      "work": "W pracy sprawdzają się w sztuce, pomocy innym, terapii, muzyce i duchowości — tam, gdzie liczy się wyobraźnia i współczucie.",
+      "wellbeing": "Chłoną nastroje otoczenia, więc potrzebują ciszy i granic. Pomaga woda, sen, sztuka i ograniczenie kontaktu z tym, co je przytłacza."
     }
   ],
   "chinese": [
@@ -144,73 +180,97 @@
       "id": "rat",
       "name": "Szczur",
       "text": "Bystry, zaradny i towarzyski — szybko dostrzega okazje.",
-      "long": "Szczur otwiera chiński zodiak. To znak sprytu, zaradności i szybkiego myślenia — potrafi dostrzec okazję tam, gdzie inni widzą problem. Jest towarzyski i dobrze odnajduje się wśród ludzi, choć bliskich wybiera starannie. Wyzwanie: nerwowość i skłonność do gromadzenia „na zapas”."
+      "long": "Szczur otwiera chiński zodiak. To znak sprytu, zaradności i szybkiego myślenia — potrafi dostrzec okazję tam, gdzie inni widzą problem. Jest towarzyski i dobrze odnajduje się wśród ludzi, choć bliskich wybiera starannie. Wyzwanie: nerwowość i skłonność do gromadzenia „na zapas”.",
+      "love": "W miłości Szczur jest czuły i oddany, choć ostrożny na początku. Ceni partnera, który jest bystry i lojalny.",
+      "work": "W pracy sprawdza się w biznesie, handlu i wszędzie, gdzie trzeba szybko dostrzec okazję."
     },
     {
       "id": "ox",
       "name": "Bawół",
       "text": "Cierpliwy, pracowity i niezawodny — dochodzi do celu krok po kroku.",
-      "long": "Bawół to pracowitość, cierpliwość i niezawodność. Działa metodycznie, nie lubi pośpiechu ani niespodzianek, ale gdy coś obieca — dotrzyma słowa. Wyzwanie: upór i trudność w proszeniu o pomoc."
+      "long": "Bawół to pracowitość, cierpliwość i niezawodność. Działa metodycznie, nie lubi pośpiechu ani niespodzianek, ale gdy coś obieca — dotrzyma słowa. Wyzwanie: upór i trudność w proszeniu o pomoc.",
+      "love": "W miłości Bawół jest wierny i stały — okazuje uczucia czynami, a nie słowami.",
+      "work": "W pracy jest niezawodny: sprawdza się w zawodach wymagających cierpliwości, precyzji i odpowiedzialności."
     },
     {
       "id": "tiger",
       "name": "Tygrys",
       "text": "Odważny, pełen energii i niezależny — nie boi się wyzwań.",
-      "long": "Tygrys to odwaga, energia i potrzeba niezależności. Lubi wyzwania i staje w obronie słabszych. Bywa porywczy i niecierpliwy, ale jego entuzjazm porywa innych."
+      "long": "Tygrys to odwaga, energia i potrzeba niezależności. Lubi wyzwania i staje w obronie słabszych. Bywa porywczy i niecierpliwy, ale jego entuzjazm porywa innych.",
+      "love": "W miłości Tygrys jest namiętny i spontaniczny; potrzebuje partnera, który da mu przestrzeń.",
+      "work": "W pracy dobrze czuje się jako lider, przedsiębiorca albo tam, gdzie liczy się odwaga."
     },
     {
       "id": "rabbit",
       "name": "Królik",
       "text": "Łagodny, taktowny i wrażliwy na piękno — ceni spokój.",
-      "long": "Królik (w Wietnamie Kot) to takt, łagodność i wyczucie piękna. Unika konfliktów, ceni spokój i dobre relacje. Wyzwanie: unikanie trudnych decyzji i nadmierna ostrożność."
+      "long": "Królik (w Wietnamie Kot) to takt, łagodność i wyczucie piękna. Unika konfliktów, ceni spokój i dobre relacje. Wyzwanie: unikanie trudnych decyzji i nadmierna ostrożność.",
+      "love": "W miłości Królik jest czuły, romantyczny i szuka spokojnego, harmonijnego związku.",
+      "work": "W pracy sprawdza się w dyplomacji, sztuce, designie i pracy z ludźmi."
     },
     {
       "id": "dragon",
       "name": "Smok",
       "text": "Charyzmatyczny, ambitny i pewny siebie — lubi wielkie plany.",
-      "long": "Smok to jedyne mityczne zwierzę zodiaku — symbol mocy, szczęścia i charyzmy. Ma wielkie plany i energię, by je realizować. Wyzwanie: duma i niecierpliwość wobec słabości innych."
+      "long": "Smok to jedyne mityczne zwierzę zodiaku — symbol mocy, szczęścia i charyzmy. Ma wielkie plany i energię, by je realizować. Wyzwanie: duma i niecierpliwość wobec słabości innych.",
+      "love": "W miłości Smok jest pełen pasji i hojny, ale potrzebuje podziwu i swobody.",
+      "work": "W pracy dąży do wielkich celów — sprawdza się w przywództwie i projektach z rozmachem."
     },
     {
       "id": "snake",
       "name": "Wąż",
       "text": "Mądry, intuicyjny i rozważny — widzi więcej, niż pokazuje.",
-      "long": "Wąż to mądrość, intuicja i elegancja. Myśli zanim działa, widzi więcej, niż mówi. Wyzwanie: skrytość i podejrzliwość."
+      "long": "Wąż to mądrość, intuicja i elegancja. Myśli zanim działa, widzi więcej, niż mówi. Wyzwanie: skrytość i podejrzliwość.",
+      "love": "W miłości Wąż jest zmysłowy i lojalny, ale zazdrosny o to, co ważne.",
+      "work": "W pracy sprawdza się w analizie, strategii, finansach i wszędzie, gdzie liczy się przenikliwość."
     },
     {
       "id": "horse",
       "name": "Koń",
       "text": "Wolny duch, energiczny i szczery — potrzebuje ruchu i przestrzeni.",
-      "long": "Koń to wolny duch: energia, szczerość i potrzeba ruchu. Lubi być w centrum wydarzeń i szybko działa. Wyzwanie: niecierpliwość i trudność w dokańczaniu rozpoczętych spraw."
+      "long": "Koń to wolny duch: energia, szczerość i potrzeba ruchu. Lubi być w centrum wydarzeń i szybko działa. Wyzwanie: niecierpliwość i trudność w dokańczaniu rozpoczętych spraw.",
+      "love": "W miłości Koń jest szczery i entuzjastyczny; potrzebuje wspólnych przygód i wolności.",
+      "work": "W pracy dobrze czuje się w ruchu: w podróżach, sprzedaży, sporcie i projektach z tempem."
     },
     {
       "id": "goat",
       "name": "Koza",
       "text": "Twórcza, łagodna i empatyczna — dobrze czuje się w harmonii.",
-      "long": "Koza (lub Owca) to twórczość, łagodność i empatia. Potrzebuje harmonii i bezpiecznego otoczenia, by rozkwitnąć. Wyzwanie: zamartwianie się i zależność od opinii innych."
+      "long": "Koza (lub Owca) to twórczość, łagodność i empatia. Potrzebuje harmonii i bezpiecznego otoczenia, by rozkwitnąć. Wyzwanie: zamartwianie się i zależność od opinii innych.",
+      "love": "W miłości Koza jest łagodna i opiekuńcza; potrzebuje bezpieczeństwa i czułości.",
+      "work": "W pracy sprawdza się w sztuce, opiece, pracy twórczej i w zespołach o dobrej atmosferze."
     },
     {
       "id": "monkey",
       "name": "Małpa",
       "text": "Pomysłowa, dowcipna i ciekawa świata — szybko się uczy.",
-      "long": "Małpa to pomysłowość, dowcip i ciekawość świata. Szybko się uczy i znajduje nietypowe rozwiązania. Wyzwanie: rozproszenie i skłonność do chodzenia na skróty."
+      "long": "Małpa to pomysłowość, dowcip i ciekawość świata. Szybko się uczy i znajduje nietypowe rozwiązania. Wyzwanie: rozproszenie i skłonność do chodzenia na skróty.",
+      "love": "W miłości Małpa jest zabawna i pomysłowa; nudę traktuje jak największego wroga.",
+      "work": "W pracy sprawdza się w technologii, handlu, rozrywce i wszędzie, gdzie trzeba myśleć nieszablonowo."
     },
     {
       "id": "rooster",
       "name": "Kogut",
       "text": "Pracowity, szczery i dokładny — lubi porządek i jasne zasady.",
-      "long": "Kogut to szczerość, pracowitość i dbałość o szczegóły. Lubi porządek i mówi wprost, co myśli. Wyzwanie: krytycyzm i perfekcjonizm."
+      "long": "Kogut to szczerość, pracowitość i dbałość o szczegóły. Lubi porządek i mówi wprost, co myśli. Wyzwanie: krytycyzm i perfekcjonizm.",
+      "love": "W miłości Kogut jest wierny i troskliwy, choć bywa krytyczny — wyraża uczucia przez dbałość o szczegóły.",
+      "work": "W pracy sprawdza się w organizacji, księgowości, wojsku, medycynie i zawodach wymagających dokładności."
     },
     {
       "id": "dog",
       "name": "Pies",
       "text": "Lojalny, uczciwy i opiekuńczy — staje po stronie słabszych.",
-      "long": "Pies to lojalność, uczciwość i poczucie sprawiedliwości. Jest oddanym przyjacielem i obrońcą bliskich. Wyzwanie: niepokój i pesymizm."
+      "long": "Pies to lojalność, uczciwość i poczucie sprawiedliwości. Jest oddanym przyjacielem i obrońcą bliskich. Wyzwanie: niepokój i pesymizm.",
+      "love": "W miłości Pies jest jednym z najwierniejszych znaków — szczery i oddany.",
+      "work": "W pracy sprawdza się w zawodach związanych z pomocą, prawem, ochroną i edukacją."
     },
     {
       "id": "pig",
       "name": "Świnia",
       "text": "Hojna, życzliwa i pogodna — umie cieszyć się życiem.",
-      "long": "Świnia (lub Dzik) to hojność, życzliwość i radość życia. Ufa ludziom i umie się cieszyć. Wyzwanie: naiwność i trudność w odmawianiu."
+      "long": "Świnia (lub Dzik) to hojność, życzliwość i radość życia. Ufa ludziom i umie się cieszyć. Wyzwanie: naiwność i trudność w odmawianiu.",
+      "love": "W miłości Świnia jest hojna, ciepła i romantyczna; łatwo ufa.",
+      "work": "W pracy sprawdza się w gastronomii, opiece, sztuce i pracy z ludźmi — tam, gdzie liczy się życzliwość."
     }
   ],
   "phases": [
@@ -287,32 +347,32 @@
     "tense": "Żywioły w napięciu: macie różne potrzeby i tempo. To nie przeszkoda, ale wymaga rozmowy i wyrozumiałości — możecie się wiele od siebie nauczyć."
   },
   "moonSigns": [
-    "Emocje wybuchają szybko i szybko gasną. Potrzebujesz działania, by poczuć się dobrze — bezczynność męczy Cię bardziej niż wysiłek.",
-    "Potrzebujesz spokoju, wygody i przewidywalności. Bezpieczeństwo budujesz przez rzeczy namacalne: dom, jedzenie, dotyk, stały rytm dnia.",
-    "Uczucia przepracowujesz, rozmawiając o nich. Potrzebujesz bodźców, ciekawości i kogoś, z kim można się wymieniać myślami.",
-    "To naturalne miejsce Księżyca: głęboka wrażliwość, potrzeba bliskości i domu. Silnie czujesz nastroje innych.",
-    "Potrzebujesz być widzianym i docenianym. Emocje wyrażasz ciepło i z rozmachem; zranione serce szybko przechodzi w dumę.",
-    "Spokój daje Ci porządek i poczucie, że jesteś potrzebny(-a). Emocje często zamieniasz w troskę o konkrety.",
-    "Potrzebujesz harmonii i partnerstwa. Konflikty Cię wytrącają z równowagi, więc łatwo ustępujesz, by zachować spokój.",
-    "Czujesz intensywnie i głęboko, ale niewiele pokazujesz. Zaufanie budujesz powoli, a lojalność jest dla Ciebie wszystkim.",
-    "Potrzebujesz wolności, przestrzeni i sensu. Optymizm pomaga Ci przechodzić przez trudne chwile — czasem kosztem ich przeżycia.",
-    "Emocje trzymasz pod kontrolą i najpierw myślisz o obowiązkach. Bezpieczeństwo daje Ci plan i poczucie, że panujesz nad sytuacją.",
-    "Potrzebujesz niezależności i przyjaźni bardziej niż czułości na pokaz. Emocje lubisz najpierw zrozumieć, a dopiero potem poczuć.",
-    "Bardzo empatyczny Księżyc: chłoniesz nastroje otoczenia. Potrzebujesz ciszy, sztuki lub duchowości, by wrócić do siebie."
+    "Księżyc w Baranie: emocje wybuchają szybko i szybko gasną. Potrzebujesz działania, by poczuć się dobrze — bezczynność męczy bardziej niż wysiłek. Złość pojawia się łatwo, ale nie trzymasz urazy. Pomaga Ci ruch i możliwość decydowania o sobie.",
+    "Księżyc w Byku: potrzebujesz spokoju, wygody i przewidywalności. Bezpieczeństwo budujesz przez rzeczy namacalne: dom, jedzenie, dotyk, stały rytm dnia. Zmiany wymagają u Ciebie czasu. Gdy jesteś w równowadze, dajesz innym ogromne poczucie stabilności.",
+    "Księżyc w Bliźniętach: uczucia przepracowujesz, rozmawiając o nich. Potrzebujesz bodźców, ciekawości i kogoś, z kim można się wymieniać myślami. Nastroje zmieniają się szybko. Pomaga Ci pisanie, rozmowa i lekkość.",
+    "Księżyc w Raku: to naturalne miejsce Księżyca — głęboka wrażliwość, potrzeba bliskości i domu. Silnie czujesz nastroje innych i pamiętasz dawne emocje. Gdy coś zaboli, chowasz się w skorupie. Pomaga Ci bezpieczne miejsce i bliscy ludzie.",
+    "Księżyc w Lwie: potrzebujesz być widzianym i docenianym. Emocje wyrażasz ciepło i z rozmachem; zranione serce szybko przechodzi w dumę. Dajesz innym dużo serca. Pomaga Ci twórczość, zabawa i szczere uznanie.",
+    "Księżyc w Pannie: spokój daje Ci porządek i poczucie, że jesteś potrzebny(-a). Emocje często zamieniasz w troskę o konkrety i analizę. Łatwo się zamartwiasz. Pomaga Ci rutyna, praca rękami i łagodność wobec własnych błędów.",
+    "Księżyc w Wadze: potrzebujesz harmonii i partnerstwa. Konflikty wytrącają Cię z równowagi, więc łatwo ustępujesz, by zachować spokój. Ważne jest dla Ciebie piękno otoczenia. Pomaga Ci rozmowa w cztery oczy i nazywanie własnych potrzeb.",
+    "Księżyc w Skorpionie: czujesz intensywnie i głęboko, ale niewiele pokazujesz. Zaufanie budujesz powoli, a lojalność jest dla Ciebie wszystkim. Trudno Ci odpuszczać. Pomaga Ci szczerość, prywatność i przemiana emocji w działanie.",
+    "Księżyc w Strzelcu: potrzebujesz wolności, przestrzeni i sensu. Optymizm pomaga Ci przechodzić przez trudne chwile — czasem kosztem ich przeżycia. Źle znosisz ograniczenia. Pomaga Ci podróż, nauka i poczucie, że życie ma kierunek.",
+    "Księżyc w Koziorożcu: emocje trzymasz pod kontrolą i najpierw myślisz o obowiązkach. Bezpieczeństwo daje Ci plan i poczucie, że panujesz nad sytuacją. Rzadko prosisz o pomoc. Pomaga Ci uznanie wysiłku i czas tylko dla siebie.",
+    "Księżyc w Wodniku: potrzebujesz niezależności i przyjaźni bardziej niż czułości na pokaz. Emocje lubisz najpierw zrozumieć, a dopiero potem poczuć. Dobrze czujesz się w grupie, ale na własnych zasadach. Pomaga Ci przestrzeń i ludzie, którzy akceptują Twoją inność.",
+    "Księżyc w Rybach: bardzo empatyczny Księżyc — chłoniesz nastroje otoczenia. Potrzebujesz ciszy, sztuki lub duchowości, by wrócić do siebie. Łatwo się wzruszasz i współczujesz. Pomagają Ci granice, sen i twórczość."
   ],
   "ascSigns": [
-    "Na pierwszy rzut oka: energia, bezpośredniość, szybkie tempo. Ludzie widzą w Tobie kogoś, kto działa, zanim się zastanowi.",
-    "Na pierwszy rzut oka: spokój, cierpliwość, przyjemna obecność. Sprawiasz wrażenie kogoś stabilnego i godnego zaufania.",
-    "Na pierwszy rzut oka: ciekawość, żywa mimika, lekkość w rozmowie. Wydajesz się młodszy(-a) i bardziej ruchliwy(-a), niż jesteś.",
-    "Na pierwszy rzut oka: łagodność i ostrożność. Najpierw wyczuwasz atmosferę, a dopiero potem się otwierasz.",
-    "Na pierwszy rzut oka: pewność siebie i ciepło. Łatwo przyciągasz uwagę, nawet gdy o nią nie zabiegasz.",
-    "Na pierwszy rzut oka: skromność, uważność, schludność. Sprawiasz wrażenie kogoś, kto wie, co robi.",
-    "Na pierwszy rzut oka: uprzejmość, urok, dbałość o formę. Ludzie czują się przy Tobie swobodnie.",
-    "Na pierwszy rzut oka: tajemniczość i intensywne spojrzenie. Trudno Cię rozszyfrować — i dobrze się z tym czujesz.",
-    "Na pierwszy rzut oka: otwartość, humor, entuzjazm. Wydajesz się kimś, kto zawsze szuka przygody.",
-    "Na pierwszy rzut oka: powaga, opanowanie, dojrzałość. Ludzie szybko powierzają Ci odpowiedzialność.",
-    "Na pierwszy rzut oka: oryginalność i lekki dystans. Wyróżniasz się, nawet jeśli tego nie planujesz.",
-    "Na pierwszy rzut oka: łagodność, marzycielskość, wrażliwość. Ludzie łatwo zwierzają Ci się ze swoich spraw."
+    "Ascendent w Baranie: na pierwszy rzut oka energia, bezpośredniość i szybkie tempo. Ludzie widzą w Tobie kogoś, kto działa, zanim się zastanowi. Wchodzisz w nowe sytuacje odważnie. Uważaj, by pośpiech nie wyglądał na brak zainteresowania innymi.",
+    "Ascendent w Byku: na pierwszy rzut oka spokój, cierpliwość i przyjemna obecność. Sprawiasz wrażenie kogoś stabilnego i godnego zaufania. Nowe sytuacje oswajasz powoli. Twoja siła to wytrwałość i dobry gust.",
+    "Ascendent w Bliźniętach: na pierwszy rzut oka ciekawość, żywa mimika i lekkość w rozmowie. Wydajesz się młodszy(-a) i bardziej ruchliwy(-a), niż jesteś. Łatwo nawiązujesz kontakt. Uważaj na rozproszenie.",
+    "Ascendent w Raku: na pierwszy rzut oka łagodność i ostrożność. Najpierw wyczuwasz atmosferę, a dopiero potem się otwierasz. Ludzie czują przy Tobie ciepło. Twoją ochroną bywa rezerwa wobec obcych.",
+    "Ascendent w Lwie: na pierwszy rzut oka pewność siebie i ciepło. Łatwo przyciągasz uwagę, nawet gdy o nią nie zabiegasz. Masz w sobie coś scenicznego. Uważaj, by duma nie zasłaniała wrażliwości.",
+    "Ascendent w Pannie: na pierwszy rzut oka skromność, uważność i schludność. Sprawiasz wrażenie kogoś, kto wie, co robi. Zauważasz szczegóły, które inni pomijają. Uważaj na zbyt surową samoocenę.",
+    "Ascendent w Wadze: na pierwszy rzut oka uprzejmość, urok i dbałość o formę. Ludzie czują się przy Tobie swobodnie. Naturalnie łagodzisz napięcia. Uważaj, by nie zgadzać się na wszystko dla świętego spokoju.",
+    "Ascendent w Skorpionie: na pierwszy rzut oka tajemniczość i intensywne spojrzenie. Trudno Cię rozszyfrować — i dobrze się z tym czujesz. Masz silną obecność. Zaufanie dajesz stopniowo.",
+    "Ascendent w Strzelcu: na pierwszy rzut oka otwartość, humor i entuzjazm. Wydajesz się kimś, kto zawsze szuka przygody. Łatwo zarażasz optymizmem. Uważaj na obietnice składane w zapale.",
+    "Ascendent w Koziorożcu: na pierwszy rzut oka powaga, opanowanie i dojrzałość. Ludzie szybko powierzają Ci odpowiedzialność. Z wiekiem często stajesz się lżejszy(-a) i bardziej otwarty(-a). Uważaj, by nie nieść wszystkiego samemu.",
+    "Ascendent w Wodniku: na pierwszy rzut oka oryginalność i lekki dystans. Wyróżniasz się, nawet jeśli tego nie planujesz. Jesteś przyjazny(-a) dla wszystkich, ale bliski(-a) nielicznym. Twoja siła to niezależne myślenie.",
+    "Ascendent w Rybach: na pierwszy rzut oka łagodność, marzycielskość i wrażliwość. Ludzie łatwo zwierzają Ci się ze swoich spraw. Dobrze wyczuwasz nastroje. Potrzebujesz granic, by nie przejmować cudzych emocji."
   ],
   "elements5": {
     "wood": {

@@ -576,7 +576,11 @@ class BirthChartScreen extends StatelessWidget {
           _BigThree(
             l.sunLabel,
             a.signs[sun].name,
-            '${a.signs[sun].text}\n\n${l.signExtras(a.signs[sun].color, a.signs[sun].stone, a.signs[sun].day, a.signs[sun].planet)}',
+            '${a.signs[sun].text}\n\n'
+            '${l.loveLabel}: ${a.signs[sun].love}\n\n'
+            '${l.workLabel}: ${a.signs[sun].work}\n\n'
+            '${l.wellbeingLabel}: ${a.signs[sun].wellbeing}\n\n'
+            '${l.signExtras(a.signs[sun].color, a.signs[sun].stone, a.signs[sun].day, a.signs[sun].planet)}',
           ),
           _BigThree(
             l.moonLabel,
@@ -699,6 +703,8 @@ class ChineseScreen extends StatelessWidget {
               ],
             ),
           ),
+          LabeledBlock(l.loveLabel, Text(a.chinese[sign].love)),
+          LabeledBlock(l.workLabel, Text(a.chinese[sign].work)),
           LabeledBlock(l.chineseElement, Text('${el.name}. ${el.text}')),
           LabeledBlock(
             l.chineseCurrentYear(

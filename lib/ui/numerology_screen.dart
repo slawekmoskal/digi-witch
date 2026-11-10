@@ -506,7 +506,7 @@ class _PythagorasSectionState extends State<PythagorasSection> {
                   style: t.titleMedium,
                 ),
                 const SizedBox(height: 4),
-                Text(texts[_picked]!.levels[n.clamp(0, 3)]),
+                Text(texts[_picked]!.levels[n.clamp(0, 4)]),
               ],
             ),
           ),

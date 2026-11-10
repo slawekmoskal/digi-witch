@@ -1797,6 +1797,24 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Zbliża się zaćmienie: {when}'**
   String eclipseSoon(String when);
+
+  /// No description provided for @loveLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Miłość'**
+  String get loveLabel;
+
+  /// No description provided for @workLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Praca'**
+  String get workLabel;
+
+  /// No description provided for @wellbeingLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dobre samopoczucie'**
+  String get wellbeingLabel;
 }
 
 class _AppLocalizationsDelegate

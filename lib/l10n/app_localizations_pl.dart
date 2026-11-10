@@ -1090,4 +1090,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String eclipseSoon(String when) {
     return 'Zbliża się zaćmienie: $when';
   }
+
+  @override
+  String get loveLabel => 'Miłość';
+
+  @override
+  String get workLabel => 'Praca';
+
+  @override
+  String get wellbeingLabel => 'Dobre samopoczucie';
 }

@@ -86,9 +86,12 @@ typedef Named = ({String name, String text});
 
 class Sign {
   final String id, name, locative, dates, text;
-  final String color, stone, day, planet;
+  final String color, stone, day, planet, love, work, wellbeing;
   Sign.fromJson(Map<String, dynamic> j)
-    : color = j['color'],
+    : love = j['love'],
+      work = j['work'],
+      wellbeing = j['wellbeing'],
+      color = j['color'],
       stone = j['stone'],
       day = j['day'],
       planet = j['planet'],
@@ -104,7 +107,10 @@ class Astro {
   final Map<String, String> elements, compat, yearForecast, chineseCompat;
   final Map<String, String> haircut, week, eclipseText;
   final List<Sign> signs;
-  final List<({String name, String text, String long})> chinese;
+  final List<
+    ({String name, String text, String long, String love, String work})
+  >
+  chinese;
   final List<Named> phases;
   final List<String> moonSigns, ascSigns;
   final Map<String, ({String name, String adj, String text})> elements5;
@@ -153,7 +159,13 @@ class Astro {
       signs = [for (final e in j['signs']) Sign.fromJson(e)],
       chinese = [
         for (final e in j['chinese'])
-          (name: e['name'], text: e['text'], long: e['long']),
+          (
+            name: e['name'],
+            text: e['text'],
+            long: e['long'],
+            love: e['love'],
+            work: e['work'],
+          ),
       ],
       phases = [
         for (final e in j['phases']) (name: e['name'], text: e['text']),
