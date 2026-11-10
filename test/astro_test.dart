@@ -150,4 +150,14 @@ void main() {
     expect(p.single.$2.month, 11);
     expect(p.single.$2.day, inInclusiveRange(13, 15));
   });
+
+  test('ascendant worldwide incl. southern hemisphere and tropics', () {
+    final ref3 = jsonDecode(
+      File('test/fixtures/astro_ref3.json').readAsStringSync(),
+    );
+    for (final c in ref3) {
+      final a = ascendant(DateTime.parse(c[0]), c[1], c[2]);
+      expect(angleDiff(a, c[3]), lessThan(0.5), reason: '${c[0]} ${c[1]}');
+    }
+  });
 }

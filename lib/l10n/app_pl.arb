@@ -330,7 +330,7 @@
   "birthTime": "Godzina urodzenia",
   "notGiven": "nie podano",
   "birthPlace": "Miejsce urodzenia",
-  "placesNote": "Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.",
+  "placesNote": "Miasta w Polsce i największe miasta za granicą. Jeśli Twojego nie ma, wybierz najbliższe w tym samym kraju albo podaj współrzędne — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.",
   "sunLabel": "Słońce",
   "moonLabel": "Księżyc",
   "ascLabel": "Ascendent",
@@ -346,13 +346,16 @@
     }
   },
   "ascNeeds": "Podaj godzinę i miejsce urodzenia, aby obliczyć ascendent.",
-  "traceTime": "Czas lokalny {local} → {utc} UTC (strefa Europe/Warsaw z historią czasu letniego).",
+  "traceTime": "Czas lokalny {local} → {utc} UTC (strefa {zone}, z historią czasu letniego).",
   "@traceTime": {
     "placeholders": {
       "local": {
         "type": "String"
       },
       "utc": {
+        "type": "String"
+      },
+      "zone": {
         "type": "String"
       }
     }
@@ -475,5 +478,23 @@
         "type": "String"
       }
     }
-  }
+  },
+  "otherPlace": "Inne miejsce — podaj współrzędne",
+  "otherPlaceSet": "Inne miejsce: {place} ({zone})",
+  "@otherPlaceSet": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      },
+      "zone": {
+        "type": "String"
+      }
+    }
+  },
+  "otherPlaceHelp": "Współrzędne znajdziesz w mapach (np. kliknij miejsce w Mapach Google). Południe i zachód wpisuj ze znakiem minus. Strefa czasowa to region, np. Europe/London, America/Chicago.",
+  "latitude": "Szerokość geograficzna",
+  "longitude": "Długość geograficzna",
+  "timeZone": "Strefa czasowa",
+  "otherPlaceMissing": "Uzupełnij szerokość, długość i strefę czasową.",
+  "otherPlaceRange": "Szerokość musi być między -66° a 66° (za kołem podbiegunowym ascendent bywa nieokreślony), długość między -180° a 180°."
 }

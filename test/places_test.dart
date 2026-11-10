@@ -18,12 +18,50 @@ void main() {
     ); // DST 1957–1964
   });
 
-  test('city list is unique and inside Poland', () {
-    expect(cities.map((c) => c.name).toSet().length, cities.length);
+  test('foreign zones: London, New York, Sydney (southern summer)', () {
+    expect(
+      localToUtc(d(1995, 7, 1), 12 * 60, 'Europe/London'),
+      DateTime.utc(1995, 7, 1, 11),
+    );
+    expect(
+      localToUtc(d(1995, 1, 10), 12 * 60, 'America/New_York'),
+      DateTime.utc(1995, 1, 10, 17),
+    );
+    expect(
+      localToUtc(d(1995, 1, 10), 12 * 60, 'Australia/Sydney'),
+      DateTime.utc(1995, 1, 10, 1),
+    );
+  });
+
+  test('every place has a known zone, unique label, valid coordinates', () {
+    final labels = cities.map(placeLabel).toList();
+    expect(labels.toSet().length, labels.length);
     for (final c in cities) {
-      expect(c.lat, inInclusiveRange(49.0, 55.0), reason: c.name);
-      expect(c.lon, inInclusiveRange(14.0, 24.2), reason: c.name);
+      expect(isZone(c.tz), isTrue, reason: c.name);
+      expect(
+        c.lat.abs(),
+        lessThan(66),
+        reason: c.name,
+      ); // ascendant undefined near the poles
+      expect(c.lon.abs(), lessThanOrEqualTo(180), reason: c.name);
+      if (c.country == null) {
+        expect(c.tz, 'Europe/Warsaw');
+        expect(c.lat, inInclusiveRange(49.0, 55.0), reason: c.name);
+        expect(c.lon, inInclusiveRange(14.0, 24.2), reason: c.name);
+      }
     }
-    expect(placeNamed('Kraków')!.lat, 50.06);
+    expect(
+      placeNamed('Kraków')!.lat,
+      50.06,
+    ); // profiles saved before the world list
+    expect(placeNamed('Londyn (Wielka Brytania)')!.tz, 'Europe/London');
+  });
+
+  test('custom place round-trips and rejects bad input', () {
+    final p = placeNamed(customPlace(-12.05, -77.04, 'America/Lima'))!;
+    expect([p.lat, p.lon, p.tz], [-12.05, -77.04, 'America/Lima']);
+    expect(placeNamed('custom:1;2;Nowhere/Zone'), isNull);
+    expect(placeNamed('custom:abc'), isNull);
+    expect(placeNamed('Atlantyda'), isNull);
   });
 }

@@ -1,4 +1,5 @@
 import 'package:digi_witch/data/content.dart';
+import 'package:digi_witch/data/places.dart';
 import 'package:digi_witch/data/store.dart';
 import 'package:digi_witch/engine/numerology.dart';
 import 'package:digi_witch/main.dart';
@@ -407,5 +408,65 @@ void main() {
     await t.tap(find.text('Wypadanie zębów'));
     await t.pumpAndSettle();
     expect(find.text('Czego boisz się stracić?'), findsOneWidget);
+  });
+
+  testWidgets('big three abroad: list city and a hand-typed place', (t) async {
+    final store = await pump(t);
+    store.saveProfile(CalendarDate.tryCreate(1985, 3, 10), null);
+    store.saveBirthDetails(8 * 60, 'Nowy Jork (USA)');
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Twoja wielka trójka'));
+    await t.tap(find.text('Twoja wielka trójka'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('Podaj godzinę i miejsce'), findsNothing);
+    await scrollTo(t, find.text('Z czego to wynika'));
+    await t.tap(find.text('Z czego to wynika'));
+    await t.pumpAndSettle();
+    // 08:00 EST = 13:00 UTC
+    expect(
+      find.textContaining('08:00 → 13:00 UTC (strefa America/New_York'),
+      findsOneWidget,
+    );
+
+    store.saveBirthDetails(8 * 60, customPlace(-12.05, -77.04, 'America/Lima'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('strefa America/Lima'), findsOneWidget);
+    expect(
+      find.textContaining('Inne miejsce: -12.05°, -77.04°'),
+      findsOneWidget,
+    );
+  });
+
+  testWidgets('other-place dialog validates and saves', (t) async {
+    final store = await pump(t);
+    store.saveProfile(CalendarDate.tryCreate(1985, 3, 10), null);
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Twoja wielka trójka'));
+    await t.tap(find.text('Twoja wielka trójka'));
+    await t.pumpAndSettle();
+    await t.tap(find.text('Inne miejsce — podaj współrzędne'));
+    await t.pumpAndSettle();
+    expect(t.takeException(), isNull);
+    await t.tap(find.text('Zapisz'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('Uzupełnij szerokość'), findsOneWidget);
+    await t.enterText(
+      find.widgetWithText(TextField, 'Szerokość geograficzna'),
+      '-12,05',
+    );
+    await t.enterText(
+      find.widgetWithText(TextField, 'Długość geograficzna'),
+      '-77,04',
+    );
+    await t.enterText(
+      find.widgetWithText(TextField, 'Strefa czasowa'),
+      'America/Lima',
+    );
+    await t.pumpAndSettle();
+    await t.tap(find.text('America/Lima').last);
+    await t.pumpAndSettle();
+    await t.tap(find.text('Zapisz'));
+    await t.pumpAndSettle();
+    expect(store.birthPlace, customPlace(-12.05, -77.04, 'America/Lima'));
   });
 }

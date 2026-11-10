@@ -650,7 +650,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get placesNote =>
-      'Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.';
+      'Miasta w Polsce i największe miasta za granicą. Jeśli Twojego nie ma, wybierz najbliższe w tym samym kraju albo podaj współrzędne — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.';
 
   @override
   String get sunLabel => 'Słońce';
@@ -671,8 +671,8 @@ class AppLocalizationsPl extends AppLocalizations {
       'Podaj godzinę i miejsce urodzenia, aby obliczyć ascendent.';
 
   @override
-  String traceTime(String local, String utc) {
-    return 'Czas lokalny $local → $utc UTC (strefa Europe/Warsaw z historią czasu letniego).';
+  String traceTime(String local, String utc, String zone) {
+    return 'Czas lokalny $local → $utc UTC (strefa $zone, z historią czasu letniego).';
   }
 
   @override
@@ -781,4 +781,33 @@ class AppLocalizationsPl extends AppLocalizations {
   String chineseSignButton(String animal) {
     return 'Znak chiński: $animal';
   }
+
+  @override
+  String get otherPlace => 'Inne miejsce — podaj współrzędne';
+
+  @override
+  String otherPlaceSet(String place, String zone) {
+    return 'Inne miejsce: $place ($zone)';
+  }
+
+  @override
+  String get otherPlaceHelp =>
+      'Współrzędne znajdziesz w mapach (np. kliknij miejsce w Mapach Google). Południe i zachód wpisuj ze znakiem minus. Strefa czasowa to region, np. Europe/London, America/Chicago.';
+
+  @override
+  String get latitude => 'Szerokość geograficzna';
+
+  @override
+  String get longitude => 'Długość geograficzna';
+
+  @override
+  String get timeZone => 'Strefa czasowa';
+
+  @override
+  String get otherPlaceMissing =>
+      'Uzupełnij szerokość, długość i strefę czasową.';
+
+  @override
+  String get otherPlaceRange =>
+      'Szerokość musi być między -66° a 66° (za kołem podbiegunowym ascendent bywa nieokreślony), długość między -180° a 180°.';
 }

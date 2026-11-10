@@ -1099,7 +1099,7 @@ abstract class AppLocalizations {
   /// No description provided for @placesNote.
   ///
   /// In pl, this message translates to:
-  /// **'Lista obejmuje miasta w Polsce. Jeśli Twojego nie ma, wybierz najbliższe — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.'**
+  /// **'Miasta w Polsce i największe miasta za granicą. Jeśli Twojego nie ma, wybierz najbliższe w tym samym kraju albo podaj współrzędne — kilkadziesiąt kilometrów zmienia ascendent o mniej niż 1°.'**
   String get placesNote;
 
   /// No description provided for @sunLabel.
@@ -1135,8 +1135,8 @@ abstract class AppLocalizations {
   /// No description provided for @traceTime.
   ///
   /// In pl, this message translates to:
-  /// **'Czas lokalny {local} → {utc} UTC (strefa Europe/Warsaw z historią czasu letniego).'**
-  String traceTime(String local, String utc);
+  /// **'Czas lokalny {local} → {utc} UTC (strefa {zone}, z historią czasu letniego).'**
+  String traceTime(String local, String utc, String zone);
 
   /// No description provided for @traceMoon.
   ///
@@ -1299,6 +1299,54 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Znak chiński: {animal}'**
   String chineseSignButton(String animal);
+
+  /// No description provided for @otherPlace.
+  ///
+  /// In pl, this message translates to:
+  /// **'Inne miejsce — podaj współrzędne'**
+  String get otherPlace;
+
+  /// No description provided for @otherPlaceSet.
+  ///
+  /// In pl, this message translates to:
+  /// **'Inne miejsce: {place} ({zone})'**
+  String otherPlaceSet(String place, String zone);
+
+  /// No description provided for @otherPlaceHelp.
+  ///
+  /// In pl, this message translates to:
+  /// **'Współrzędne znajdziesz w mapach (np. kliknij miejsce w Mapach Google). Południe i zachód wpisuj ze znakiem minus. Strefa czasowa to region, np. Europe/London, America/Chicago.'**
+  String get otherPlaceHelp;
+
+  /// No description provided for @latitude.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szerokość geograficzna'**
+  String get latitude;
+
+  /// No description provided for @longitude.
+  ///
+  /// In pl, this message translates to:
+  /// **'Długość geograficzna'**
+  String get longitude;
+
+  /// No description provided for @timeZone.
+  ///
+  /// In pl, this message translates to:
+  /// **'Strefa czasowa'**
+  String get timeZone;
+
+  /// No description provided for @otherPlaceMissing.
+  ///
+  /// In pl, this message translates to:
+  /// **'Uzupełnij szerokość, długość i strefę czasową.'**
+  String get otherPlaceMissing;
+
+  /// No description provided for @otherPlaceRange.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szerokość musi być między -66° a 66° (za kołem podbiegunowym ascendent bywa nieokreślony), długość między -180° a 180°.'**
+  String get otherPlaceRange;
 }
 
 class _AppLocalizationsDelegate

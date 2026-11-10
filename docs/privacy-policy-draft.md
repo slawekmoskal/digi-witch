@@ -6,7 +6,7 @@
 
 ## 1. Dane, które zostają na Twoim urządzeniu
 
-Data urodzenia, opcjonalnie godzina i miejsce urodzenia (do obliczenia Księżyca i ascendentu), imię i nazwisko, wpisy w dzienniku, zakładki, karta dnia i ustawienia są zapisywane **wyłącznie lokalnie** na Twoim urządzeniu. Nie przesyłamy ich na żaden serwer i nie mamy do nich dostępu. Możesz je w każdej chwili usunąć (Ustawienia → Usuń wszystkie dane) lub wyeksportować dziennik do pliku. Kopie zapasowe systemu (Google / iCloud) mogą obejmować te dane zgodnie z ustawieniami Twojego urządzenia.
+Data urodzenia, opcjonalnie godzina i miejsce urodzenia — miasto z listy lub współrzędne (do obliczenia Księżyca i ascendentu), imię i nazwisko, wpisy w dzienniku, zakładki, karta dnia i ustawienia są zapisywane **wyłącznie lokalnie** na Twoim urządzeniu. Nie przesyłamy ich na żaden serwer i nie mamy do nich dostępu. Możesz je w każdej chwili usunąć (Ustawienia → Usuń wszystkie dane) lub wyeksportować dziennik do pliku. Kopie zapasowe systemu (Google / iCloud) mogą obejmować te dane zgodnie z ustawieniami Twojego urządzenia.
 
 ## 2. Reklamy (Google AdMob)
 

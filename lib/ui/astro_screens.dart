@@ -414,22 +414,26 @@ class BirthChartScreen extends StatelessWidget {
       body = Text(l.needBirthDate);
     } else {
       final sun = sunSign(birth);
-      final utc = minutes == null ? null : warsawToUtc(birth, minutes);
-      final moonA = moonSign(utc ?? warsawToUtc(birth, 0));
-      final moonB = utc == null ? moonSign(warsawToUtc(birth, 1439)) : moonA;
+      // Without a place the Moon is still useful: assume Polish time.
+      final zone = place?.tz ?? 'Europe/Warsaw';
+      final utc = minutes == null ? null : localToUtc(birth, minutes, zone);
+      final moonA = moonSign(utc ?? localToUtc(birth, 0, zone));
+      final moonB = utc == null
+          ? moonSign(localToUtc(birth, 1439, zone))
+          : moonA;
       final asc = utc != null && place != null
           ? ascendant(utc, place.lat, place.lon)
           : null;
       final trace = <String>[
         if (utc != null)
-          l.traceTime(_hhmm(minutes!), _hhmm(utc.hour * 60 + utc.minute)),
+          l.traceTime(_hhmm(minutes!), _hhmm(utc.hour * 60 + utc.minute), zone),
         if (utc != null)
           l.traceMoon(_deg(moonLongitude(utc)), a.signs[moonA].name),
         if (asc != null)
           l.traceAsc(
             _deg(asc),
             a.signs[asc ~/ 30].name,
-            place!.name,
+            placeLabel(place!),
             _deg(place.lat),
             _deg(place.lon),
           ),
@@ -470,8 +474,12 @@ class BirthChartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           DropdownMenu<String>(
+            // Key forces a rebuild when a custom place replaces the selection.
+            key: ValueKey(s.birthPlace),
             expandedInsets: EdgeInsets.zero,
-            initialSelection: place?.name,
+            initialSelection: place != null && cities.contains(place)
+                ? placeLabel(place)
+                : null,
             enableFilter: true,
             requestFocusOnTap: true,
             leadingIcon: const Icon(Icons.place_outlined),
@@ -479,10 +487,27 @@ class BirthChartScreen extends StatelessWidget {
             onSelected: (v) => s.saveBirthDetails(minutes, v),
             dropdownMenuEntries: [
               for (final c in cities)
-                DropdownMenuEntry(value: c.name, label: c.name),
+                DropdownMenuEntry(value: placeLabel(c), label: placeLabel(c)),
             ],
           ),
-          const SizedBox(height: 6),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: TextButton.icon(
+              icon: const Icon(Icons.edit_location_alt_outlined),
+              label: Text(
+                place != null && !cities.contains(place)
+                    ? l.otherPlaceSet(placeLabel(place), place.tz)
+                    : l.otherPlace,
+              ),
+              onPressed: () async {
+                final v = await showDialog<String>(
+                  context: context,
+                  builder: (_) => const OtherPlaceDialog(),
+                );
+                if (v != null) s.saveBirthDetails(minutes, v);
+              },
+            ),
+          ),
           Text(l.placesNote, style: t.bodySmall),
           _BigThree(l.sunLabel, a.signs[sun].name, a.signs[sun].text),
           _BigThree(
@@ -640,6 +665,110 @@ class ChineseScreen extends StatelessWidget {
           Text(l.chineseNewYearNote, style: t.bodySmall),
         ],
       ),
+    );
+  }
+}
+
+/// Hand-typed place for births outside the list: latitude, longitude, time zone.
+class OtherPlaceDialog extends StatefulWidget {
+  const OtherPlaceDialog({super.key});
+  @override
+  State<OtherPlaceDialog> createState() => _OtherPlaceDialogState();
+}
+
+class _OtherPlaceDialogState extends State<OtherPlaceDialog> {
+  final _lat = TextEditingController(), _lon = TextEditingController();
+  String? _zone, _error;
+
+  @override
+  void dispose() {
+    _lat.dispose();
+    _lon.dispose();
+    super.dispose();
+  }
+
+  double? _num(TextEditingController c) =>
+      double.tryParse(c.text.trim().replaceAll(',', '.'));
+
+  void _save() {
+    final lat = _num(_lat), lon = _num(_lon);
+    if (lat == null || lon == null || _zone == null) {
+      setState(() => _error = context.l.otherPlaceMissing);
+    } else if (lat.abs() >= 66 || lon.abs() > 180) {
+      // Above the polar circles the ascendant is undefined part of the day.
+      setState(() => _error = context.l.otherPlaceRange);
+    } else {
+      Navigator.of(context).pop(customPlace(lat, lon, _zone!));
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    const numKeys = TextInputType.numberWithOptions(
+      decimal: true,
+      signed: true,
+    );
+    return AlertDialog(
+      title: Text(l.otherPlace),
+      content: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              l.otherPlaceHelp,
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: _lat,
+              keyboardType: numKeys,
+              decoration: InputDecoration(
+                labelText: l.latitude,
+                hintText: '-12,05',
+              ),
+            ),
+            const SizedBox(height: 8),
+            TextField(
+              controller: _lon,
+              keyboardType: numKeys,
+              decoration: InputDecoration(
+                labelText: l.longitude,
+                hintText: '-77,04',
+              ),
+            ),
+            const SizedBox(height: 8),
+            DropdownMenu<String>(
+              expandedInsets: EdgeInsets.zero,
+              enableFilter: true,
+              requestFocusOnTap: true,
+              menuHeight: 300,
+              label: Text(l.timeZone),
+              onSelected: (v) => _zone = v,
+              dropdownMenuEntries: [
+                for (final z in allZones())
+                  DropdownMenuEntry(value: z, label: z),
+              ],
+            ),
+            if (_error != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: Text(
+                  _error!,
+                  style: TextStyle(color: Theme.of(context).colorScheme.error),
+                ),
+              ),
+          ],
+        ),
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(),
+          child: Text(MaterialLocalizations.of(context).cancelButtonLabel),
+        ),
+        FilledButton(onPressed: _save, child: Text(l.save)),
+      ],
     );
   }
 }
