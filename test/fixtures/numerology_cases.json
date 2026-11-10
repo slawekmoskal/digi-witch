@@ -1,0 +1,139 @@
+{
+  "dates": [
+    {
+      "date": "1990-07-15",
+      "lifePath": 5,
+      "lifePathSeparateSchool": 5,
+      "birthDay": 6,
+      "personalYear2026": 5
+    },
+    {
+      "date": "1985-11-29",
+      "lifePath": 9,
+      "lifePathSeparateSchool": 9,
+      "birthDay": 11,
+      "personalYear2026": 5
+    },
+    {
+      "date": "2000-02-29",
+      "lifePath": 6,
+      "lifePathSeparateSchool": 6,
+      "birthDay": 11,
+      "personalYear2026": 5
+    },
+    {
+      "date": "2024-02-29",
+      "lifePath": 3,
+      "lifePathSeparateSchool": 3,
+      "birthDay": 11,
+      "personalYear2026": 5
+    },
+    {
+      "date": "1938-12-31",
+      "lifePath": 1,
+      "lifePathSeparateSchool": 1,
+      "birthDay": 4,
+      "personalYear2026": 8
+    },
+    {
+      "date": "1975-05-29",
+      "lifePath": 11,
+      "lifePathSeparateSchool": 11,
+      "birthDay": 11,
+      "personalYear2026": 8
+    },
+    {
+      "date": "1951-01-01",
+      "lifePath": 9,
+      "lifePathSeparateSchool": 9,
+      "birthDay": 1,
+      "personalYear2026": 3
+    },
+    {
+      "date": "1999-09-09",
+      "lifePath": 1,
+      "lifePathSeparateSchool": 1,
+      "birthDay": 9,
+      "personalYear2026": 1
+    },
+    {
+      "date": "1987-11-22",
+      "lifePath": 4,
+      "lifePathSeparateSchool": 4,
+      "birthDay": 22,
+      "personalYear2026": 7
+    },
+    {
+      "date": "1969-12-29",
+      "lifePath": 3,
+      "lifePathSeparateSchool": 3,
+      "birthDay": 11,
+      "personalYear2026": 6
+    },
+    {
+      "date": "1950-01-04",
+      "lifePath": 2,
+      "lifePathSeparateSchool": 11,
+      "birthDay": 4,
+      "personalYear2026": 6
+    },
+    {
+      "date": "1951-02-13",
+      "lifePath": 22,
+      "lifePathSeparateSchool": 4,
+      "birthDay": 4,
+      "personalYear2026": 7
+    },
+    {
+      "date": "1954-06-08",
+      "lifePath": 33,
+      "lifePathSeparateSchool": 6,
+      "birthDay": 8,
+      "personalYear2026": 6
+    }
+  ],
+  "names": [
+    {
+      "name": "Łukasz Żółć",
+      "expression": 11,
+      "soulUrge": 1,
+      "personality": 1
+    },
+    {
+      "name": "Anna Maria Kowalska-Nowak",
+      "expression": 4,
+      "soulUrge": 1,
+      "personality": 3
+    },
+    {
+      "name": "Ewa",
+      "expression": 11,
+      "soulUrge": 6,
+      "personality": 5
+    },
+    {
+      "name": "Grzegorz Brzęczyszczykiewicz",
+      "expression": 7,
+      "soulUrge": 8,
+      "personality": 8
+    },
+    {
+      "name": "Krzysztof",
+      "expression": 4,
+      "soulUrge": 4,
+      "personality": 9
+    },
+    {
+      "name": "Zofia O'Neill",
+      "expression": 7,
+      "soulUrge": 9,
+      "personality": 7
+    },
+    {
+      "name": "Ścibor Źrebięcki",
+      "expression": 1,
+      "soulUrge": 7,
+      "personality": 3
+    }
+  ]
+}

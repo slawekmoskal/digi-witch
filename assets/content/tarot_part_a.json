@@ -1,0 +1,758 @@
+[
+  {
+    "id": "major_00",
+    "name": "Głupiec",
+    "arcana": "major",
+    "suit": null,
+    "rank": 0,
+    "keywords": [
+      "nowy początek",
+      "spontaniczność",
+      "zaufanie",
+      "ciekawość",
+      "lekkość"
+    ],
+    "symbolism": "Młoda postać w barwnym stroju stoi na skraju urwiska z twarzą zwróconą ku niebu, jakby nie zauważała przepaści. W jednej dłoni trzyma białą różę, na ramieniu niesie kij z niewielkim tobołkiem, a przy jej nogach podskakuje mały biały pies. Za nią świeci jasne słońce i widać ośnieżone szczyty.",
+    "upright": "Głupiec zaprasza, by spojrzeć na sytuację świeżym okiem, bez ciężaru wcześniejszych założeń. To energia pierwszego kroku, w której jest więcej ciekawości niż planu. Karta może sugerować, że warto dać sobie prawo do niewiedzy i uczyć się w drodze. Pies przy nogach przypomina, że otwartość dobrze łączy się z odrobiną uważności.",
+    "reversed": "Odwrócony Głupiec może wskazywać na wahanie przed startem albo przeciwnie — na pośpiech, który pomija ważne sygnały. Czasem to zaproszenie, by sprawdzić, czy lęk przed błędem nie odbiera radości z próbowania.",
+    "reflection": [
+      "Co byłoby możliwe, gdyby nie trzeba było znać zakończenia z góry?",
+      "Jaki mały krok w nieznane wydaje Ci się teraz kuszący?"
+    ]
+  },
+  {
+    "id": "major_01",
+    "name": "Mag",
+    "arcana": "major",
+    "suit": null,
+    "rank": 1,
+    "keywords": [
+      "sprawczość",
+      "skupienie",
+      "umiejętności",
+      "inicjatywa",
+      "komunikacja"
+    ],
+    "symbolism": "Postać w białej szacie i czerwonym płaszczu unosi jedną ręką różdżkę ku niebu, a drugą wskazuje ziemię. Nad jej głową widnieje znak nieskończoności, a na stole leżą puchar, miecz, pentakl i buława — znaki czterech żywiołów. Całą scenę otaczają kwitnące róże i lilie.",
+    "upright": "Mag mówi o chwili, w której masz pod ręką więcej zasobów, niż się wydaje. Karta zachęca, by połączyć myśl z działaniem i nadać zamiarom konkretny kształt. To dobry moment, by zauważyć własne talenty i korzystać z nich świadomie. Gest skierowany jednocześnie w górę i w dół przypomina o łączeniu wizji z codzienną praktyką.",
+    "reversed": "W pozycji odwróconej energia Maga może się rozpraszać — pomysłów jest wiele, ale brakuje kierunku. Bywa też sygnałem, by przyjrzeć się, czy słowa i intencje są ze sobą spójne.",
+    "reflection": [
+      "Jakie umiejętności masz już do dyspozycji, choć rzadko je zauważasz?",
+      "Która myśl czeka na przełożenie na pierwszy konkretny ruch?"
+    ]
+  },
+  {
+    "id": "major_02",
+    "name": "Kapłanka",
+    "arcana": "major",
+    "suit": null,
+    "rank": 2,
+    "keywords": [
+      "intuicja",
+      "cisza",
+      "wiedza wewnętrzna",
+      "tajemnica",
+      "cierpliwość"
+    ],
+    "symbolism": "Kobieta w niebieskich szatach siedzi między dwiema kolumnami, ciemną i jasną, oznaczonymi literami B i J. Na kolanach trzyma częściowo ukryty zwój, u jej stóp leży półksiężyc, a za nią wisi zasłona zdobiona owocami granatu. Na głowie nosi koronę przypominającą fazy Księżyca.",
+    "upright": "Kapłanka zaprasza do wsłuchania się w to, co ciche i niewypowiedziane. Nie wszystkie odpowiedzi przychodzą przez analizę — część z nich dojrzewa w spokoju. Karta może sugerować, że warto zatrzymać się przed decyzją i dać sobie czas na odczucie sytuacji. To przestrzeń dla zaufania własnemu wyczuciu.",
+    "reversed": "Odwrócona Kapłanka może wskazywać na zagłuszanie intuicji hałasem codzienności lub cudzymi opiniami. Czasem oznacza też nadmierne zamknięcie się w sobie, gdy rozmowa mogłaby przynieść ulgę.",
+    "reflection": [
+      "Co mówi Ci wewnętrzny głos, gdy na chwilę wyciszysz otoczenie?",
+      "Na co potrzebujesz więcej czasu, zanim podejmiesz decyzję?"
+    ]
+  },
+  {
+    "id": "major_03",
+    "name": "Cesarzowa",
+    "arcana": "major",
+    "suit": null,
+    "rank": 3,
+    "keywords": [
+      "obfitość",
+      "troska",
+      "twórczość",
+      "zmysłowość",
+      "wzrost"
+    ],
+    "symbolism": "Kobieta w sukni we wzór granatów odpoczywa na miękkich poduszkach pośród dojrzewającego zboża. Na głowie ma wieniec z dwunastu gwiazd, a obok niej stoi tarcza w kształcie serca ze znakiem Wenus. W tle płynie strumień i szumi gęsty las.",
+    "upright": "Cesarzowa przypomina o tym, co rośnie, gdy otrzymuje uwagę i czułość — projektach, relacjach, a także o trosce o siebie. Karta zachęca do docenienia przyjemności płynącej z prostych rzeczy. Może być zaproszeniem do tworzenia bez presji perfekcji. To energia hojności, która obejmuje również Ciebie.",
+    "reversed": "W odwróceniu ta energia może przejawiać się jako dawanie ponad siły albo pomijanie własnych potrzeb. Bywa też sygnałem twórczej blokady, którą łagodzi raczej odpoczynek niż nacisk.",
+    "reflection": [
+      "Co w Twoim życiu potrzebuje teraz cierpliwej troski, żeby mogło rosnąć?",
+      "W jaki sposób możesz dziś zadbać o siebie tak, jak dbasz o innych?"
+    ]
+  },
+  {
+    "id": "major_04",
+    "name": "Cesarz",
+    "arcana": "major",
+    "suit": null,
+    "rank": 4,
+    "keywords": [
+      "struktura",
+      "odpowiedzialność",
+      "stabilność",
+      "granice",
+      "przywództwo"
+    ],
+    "symbolism": "Brodaty władca w zbroi i czerwonym płaszczu zasiada na kamiennym tronie ozdobionym głowami baranów. W jednej dłoni trzyma berło zakończone znakiem anch, w drugiej złotą kulę. Za nim wznoszą się surowe, rdzawe góry.",
+    "upright": "Cesarz mówi o porządku, który daje poczucie bezpieczeństwa i pozwala działać spokojnie. Karta może zachęcać do określenia jasnych zasad, granic lub planu. To także zaproszenie do wzięcia odpowiedzialności za swój obszar wpływu. Dobra struktura nie musi być sztywna — może być oparciem.",
+    "reversed": "Odwrócony Cesarz może wskazywać na nadmierną kontrolę albo, przeciwnie, na brak stałych punktów oparcia. Warto zapytać, czy obecne reguły jeszcze służą, czy już tylko krępują.",
+    "reflection": [
+      "Jaka granica lub zasada pomogłaby Ci poczuć się pewniej?",
+      "Gdzie kontrola daje Ci oparcie, a gdzie zaczyna ograniczać?"
+    ]
+  },
+  {
+    "id": "major_05",
+    "name": "Kapłan",
+    "arcana": "major",
+    "suit": null,
+    "rank": 5,
+    "keywords": [
+      "tradycja",
+      "nauka",
+      "wspólnota",
+      "wartości",
+      "przewodnictwo"
+    ],
+    "symbolism": "Duchowny w czerwonej szacie i potrójnej koronie siedzi między dwiema kamiennymi kolumnami, unosząc dłoń w geście błogosławieństwa. U jego stóp leżą skrzyżowane klucze, a przed nim klęczy dwóch uczniów w szatach ozdobionych różami i liliami.",
+    "upright": "Kapłan odnosi się do wiedzy przekazywanej z pokolenia na pokolenie i do wspólnot, które dają poczucie przynależności. Karta może sugerować, że warto skorzystać z doświadczenia nauczyciela, mentora lub sprawdzonej metody. To także okazja, by zastanowić się, które wartości są naprawdę Twoje. Tradycja może być mostem, a nie murem.",
+    "reversed": "Odwrócony Kapłan może zapraszać do zakwestionowania reguł przyjętych bez zastanowienia. Czasem wskazuje na potrzebę znalezienia własnej drogi poza utartymi schematami.",
+    "reflection": [
+      "Od kogo możesz się teraz czegoś nauczyć?",
+      "Które przekonania przejęte od innych warto dziś przemyśleć na nowo?"
+    ]
+  },
+  {
+    "id": "major_06",
+    "name": "Kochankowie",
+    "arcana": "major",
+    "suit": null,
+    "rank": 6,
+    "keywords": [
+      "wybór",
+      "relacja",
+      "wartości",
+      "bliskość",
+      "spójność"
+    ],
+    "symbolism": "Naga kobieta i mężczyzna stoją w ogrodzie, a nad nimi, w obłokach, unosi się skrzydlaty anioł z rozpostartymi ramionami. Za kobietą rośnie drzewo z owocami oplecione przez węża, za mężczyzną drzewo o płomiennych liściach. Między nimi, w oddali, wznosi się samotna góra.",
+    "upright": "Kochankowie mówią o bliskości, ale także o wyborach wynikających z tego, co dla nas ważne. Karta może dotyczyć relacji, w której liczą się szczerość i wzajemność. Może też zapraszać do decyzji zgodnej z własnymi wartościami, nawet jeśli wymaga ona odwagi. Spójność serca i działania daje poczucie wewnętrznego ładu.",
+    "reversed": "W odwróceniu karta może wskazywać na rozdźwięk między tym, czego się pragnie, a tym, co się wybiera. Bywa też zaproszeniem do szczerej rozmowy o oczekiwaniach w relacji.",
+    "reflection": [
+      "Jaki wybór byłby najbardziej zgodny z tym, co naprawdę cenisz?",
+      "Czego potrzebujesz, by w relacji czuć się w pełni sobą?"
+    ]
+  },
+  {
+    "id": "major_07",
+    "name": "Rydwan",
+    "arcana": "major",
+    "suit": null,
+    "rank": 7,
+    "keywords": [
+      "determinacja",
+      "kierunek",
+      "ruch naprzód",
+      "samodyscyplina",
+      "pewność"
+    ],
+    "symbolism": "Wojownik w zbroi ozdobionej półksiężycami stoi w kamiennym rydwanie pod baldachimem usianym gwiazdami. Pojazd ciągną dwa sfinksy, czarny i biały, które spoglądają w różne strony. Za nim widać mury miasta i płynącą rzekę.",
+    "upright": "Rydwan opisuje energię skupionego ruchu, w którym różne siły udaje się poprowadzić w jednym kierunku. Karta może zachęcać do wytrwałości i jasnego określenia celu. Nie chodzi o walkę z przeszkodami, lecz o spokojne trzymanie kursu. Zwycięstwem bywa tu samo opanowanie wewnętrznych sprzeczności.",
+    "reversed": "Odwrócony Rydwan może sugerować, że siły ciągną w przeciwne strony i trudno ruszyć z miejsca. Czasem to sygnał, by zwolnić i sprawdzić, czy obrany cel nadal jest właściwy.",
+    "reflection": [
+      "Dokąd właściwie zmierzasz i po czym poznasz, że to dobra droga?",
+      "Jakie sprzeczne potrzeby możesz pogodzić, zamiast z nimi walczyć?"
+    ]
+  },
+  {
+    "id": "major_08",
+    "name": "Moc",
+    "arcana": "major",
+    "suit": null,
+    "rank": 8,
+    "keywords": [
+      "łagodna siła",
+      "odwaga",
+      "cierpliwość",
+      "opanowanie",
+      "współczucie"
+    ],
+    "symbolism": "Kobieta w białej sukni, przepasana girlandą kwiatów, spokojnie obejmuje dłońmi pysk lwa. Nad jej głową unosi się znak nieskończoności. Zwierzę wydaje się oswojone, a scena rozgrywa się na tle łagodnych wzgórz i jasnego, żółtego nieba.",
+    "upright": "Moc pokazuje siłę, która nie potrzebuje krzyku ani przymusu. Karta zachęca do łagodnego obchodzenia się z własnymi emocjami i instynktami — nie do ich tłumienia, lecz oswajania. To odwaga płynąca z cierpliwości i życzliwości wobec siebie. Spokój bywa tu bardziej przekonujący niż nacisk.",
+    "reversed": "W odwróceniu karta może wskazywać na zwątpienie we własne siły lub na trudność z ukojeniem frustracji. Warto wtedy potraktować siebie z taką cierpliwością, jaką okazuje się bliskim.",
+    "reflection": [
+      "Która emocja potrzebuje dziś raczej zrozumienia niż walki?",
+      "Gdzie Twoja łagodność mogłaby okazać się siłą?"
+    ]
+  },
+  {
+    "id": "major_09",
+    "name": "Pustelnik",
+    "arcana": "major",
+    "suit": null,
+    "rank": 9,
+    "keywords": [
+      "refleksja",
+      "samotność z wyboru",
+      "mądrość",
+      "wycofanie",
+      "poszukiwanie"
+    ],
+    "symbolism": "Starzec w szarym płaszczu z kapturem stoi na ośnieżonym szczycie. W jednej dłoni unosi latarnię, w której jaśnieje sześcioramienna gwiazda, drugą opiera na długiej lasce. Jego wzrok skierowany jest w dół, jakby oświetlał drogę idącym za nim.",
+    "upright": "Pustelnik zaprasza do zatrzymania się i spojrzenia w głąb. Czas spędzony w ciszy może pomóc oddzielić to, co ważne, od tego, co tylko głośne. Karta nie oznacza odcięcia od ludzi, lecz świadome zrobienie miejsca na własne myśli. Światło latarni wystarcza, by zobaczyć najbliższy krok.",
+    "reversed": "Odwrócony Pustelnik może sugerować, że wycofanie zaczęło przypominać izolację. Bywa też odwrotnie — uciekanie od ciszy, bo trudno spotkać się z własnymi pytaniami.",
+    "reflection": [
+      "Czego dowiadujesz się o sobie, gdy jesteś w ciszy?",
+      "Jaki jeden następny krok widzisz w świetle, które już masz?"
+    ]
+  },
+  {
+    "id": "major_10",
+    "name": "Koło Fortuny",
+    "arcana": "major",
+    "suit": null,
+    "rank": 10,
+    "keywords": [
+      "cykle",
+      "zmiana",
+      "przypadek",
+      "rytm",
+      "zwrot okoliczności"
+    ],
+    "symbolism": "Na niebie obraca się wielkie koło pokryte literami i znakami alchemicznymi. Na jego szczycie siedzi sfinks z mieczem, wzdłuż jednego boku zsuwa się wąż, a od dołu unosi się postać o głowie szakala. W narożnikach, na obłokach, skrzydlate istoty — anioł, orzeł, lew i byk — pochylają się nad księgami.",
+    "upright": "Koło Fortuny przypomina, że życie porusza się w cyklach i żadna sytuacja nie trwa niezmiennie. Karta zachęca, by zauważyć, co się właśnie zmienia, i zastanowić się, jak się do tego dostroić. Nie wszystko od nas zależy, ale wpływ na własną postawę pozostaje. Zmiana może odsłonić możliwości, których wcześniej nie było widać.",
+    "reversed": "W odwróceniu karta może wskazywać na opór wobec zmiany albo poczucie, że wciąż powraca ten sam schemat. To zaproszenie, by poszukać elementu cyklu, który można świadomie przerwać lub przekształcić.",
+    "reflection": [
+      "Jaki powtarzający się wzorzec zauważasz w swoim życiu?",
+      "Na co masz wpływ, nawet gdy okoliczności się zmieniają?"
+    ]
+  },
+  {
+    "id": "major_11",
+    "name": "Sprawiedliwość",
+    "arcana": "major",
+    "suit": null,
+    "rank": 11,
+    "keywords": [
+      "równowaga",
+      "uczciwość",
+      "przyczyna i skutek",
+      "jasność",
+      "odpowiedzialność"
+    ],
+    "symbolism": "Postać w czerwonej szacie zasiada na tronie między dwiema kolumnami, za którymi wisi fioletowa zasłona. W jednej dłoni trzyma uniesiony obosieczny miecz, w drugiej wagę o wyrównanych szalach. Spod szaty wysuwa się biały but, a spojrzenie jest spokojne i bezpośrednie.",
+    "upright": "Sprawiedliwość zaprasza do uczciwego spojrzenia na sytuację, z uwzględnieniem wszystkich jej stron. Karta mówi o związku między wyborami a ich konsekwencjami. To może być dobry moment, by nazwać fakty i zdecydować w zgodzie z własnym poczuciem rzetelności. Jasność często przynosi ulgę, nawet gdy wymaga szczerości wobec siebie.",
+    "reversed": "Odwrócona Sprawiedliwość może sugerować trudność w przyjęciu odpowiedzialności lub poczucie, że coś pozostaje niewyważone. Warto sprawdzić, czy ocena sytuacji nie jest zbyt surowa — wobec innych albo wobec siebie.",
+    "reflection": [
+      "Jak wyglądałaby ta sytuacja, gdyby spojrzeć na nią z każdej strony?",
+      "Za co chcesz wziąć odpowiedzialność, a co do Ciebie nie należy?"
+    ]
+  },
+  {
+    "id": "major_12",
+    "name": "Wisielec",
+    "arcana": "major",
+    "suit": null,
+    "rank": 12,
+    "keywords": [
+      "zawieszenie",
+      "nowa perspektywa",
+      "odpuszczenie",
+      "pauza",
+      "akceptacja"
+    ],
+    "symbolism": "Mężczyzna wisi głową w dół, przywiązany za jedną stopę do drewnianej belki w kształcie litery T, z której wyrastają liście. Druga noga jest zgięta, tworząc krzyż, a ręce ukryte są za plecami. Wokół jego głowy jaśnieje aureola, a twarz pozostaje spokojna.",
+    "upright": "Wisielec opisuje czas zawieszenia, który może przynieść zupełnie nowe spojrzenie. Gdy działanie nie przynosi efektu, pomocne bywa zatrzymanie się i obejrzenie rzeczy z innej strony. Karta zachęca do odpuszczenia potrzeby natychmiastowych rozwiązań. W pozornym bezruchu często dojrzewa zrozumienie.",
+    "reversed": "Odwrócony Wisielec może wskazywać na zniecierpliwienie pauzą lub tkwienie w zawieszeniu dłużej, niż to potrzebne. Bywa też zaproszeniem, by zauważyć, co można już puścić, aby ruszyć dalej.",
+    "reflection": [
+      "Co zobaczysz, jeśli spojrzysz na tę sprawę z zupełnie odwrotnej strony?",
+      "Z czego możesz zrezygnować, by zrobić miejsce na coś nowego?"
+    ]
+  },
+  {
+    "id": "major_13",
+    "name": "Śmierć",
+    "arcana": "major",
+    "suit": null,
+    "rank": 13,
+    "keywords": [
+      "transformacja",
+      "zamknięcie etapu",
+      "przemiana",
+      "odnowa",
+      "puszczanie"
+    ],
+    "symbolism": "Postać w czarnej zbroi jedzie na białym koniu, niosąc czarny sztandar z białą różą. Przed nią stoją i klęczą ludzie różnych stanów — od władcy po dziecko — każdy reaguje na jej przybycie inaczej. W tle, między dwiema wieżami, wschodzi słońce.",
+    "upright": "Śmierć w tarocie symbolizuje zamknięcie pewnego rozdziału i przejście do kolejnego, a nie fizyczny koniec. Karta mówi o przemianie, która uwalnia przestrzeń — tak jak jesień przygotowuje grunt pod wiosnę. Może zachęcać do pożegnania nawyków, ról lub przekonań, które spełniły już swoją funkcję. Wschodzące słońce w tle przypomina, że po zakończeniu przychodzi nowy początek.",
+    "reversed": "Odwrócona Śmierć może wskazywać na opór przed zmianą, która i tak dojrzewa od środka. Czasem to zaproszenie, by łagodnie pozwolić czemuś odejść, zamiast podtrzymywać to na siłę.",
+    "reflection": [
+      "Jaki etap Twojego życia naturalnie dobiega końca?",
+      "Co mogłoby się pojawić, gdyby zrobić miejsce po tym, co odchodzi?"
+    ]
+  },
+  {
+    "id": "major_14",
+    "name": "Umiarkowanie",
+    "arcana": "major",
+    "suit": null,
+    "rank": 14,
+    "keywords": [
+      "harmonia",
+      "równowaga",
+      "cierpliwość",
+      "łączenie",
+      "umiar"
+    ],
+    "symbolism": "Skrzydlaty anioł w białej szacie przelewa wodę między dwoma kielichami, stojąc jedną stopą na brzegu, a drugą w strumieniu. Na jego piersi widnieje trójkąt wpisany w kwadrat. Obok rosną żółte irysy, a ścieżka prowadzi ku górom, nad którymi jaśnieje łuk światła.",
+    "upright": "Umiarkowanie mówi o sztuce łączenia przeciwieństw i szukania złotego środka. Karta zachęca do spokojnego, stopniowego działania zamiast skrajnych rozwiązań. Może dotyczyć równoważenia pracy i odpoczynku albo rozumu i emocji. Harmonia nie jest stanem stałym, lecz ciągłym, uważnym dostrajaniem.",
+    "reversed": "W odwróceniu karta może wskazywać na brak równowagi — nadmiar w jednej sferze kosztem innej. To sygnał, by przyjrzeć się, gdzie potrzebna jest delikatna korekta proporcji.",
+    "reflection": [
+      "Które dwie sfery Twojego życia potrzebują teraz lepszego wyważenia?",
+      "Co mogłoby się zmienić, gdyby działać małymi, cierpliwymi krokami?"
+    ]
+  },
+  {
+    "id": "major_15",
+    "name": "Diabeł",
+    "arcana": "major",
+    "suit": null,
+    "rank": 15,
+    "keywords": [
+      "przywiązanie",
+      "pokusa",
+      "schematy",
+      "cień",
+      "uświadomienie"
+    ],
+    "symbolism": "Rogata postać o nietoperzowych skrzydłach siedzi na ciemnym postumencie, unosząc jedną dłoń, a w drugiej trzymając opuszczoną pochodnię. Do postumentu przykute są dwie nagie postacie z małymi rogami i ogonami. Łańcuchy na ich szyjach są luźne — mogłyby je zdjąć.",
+    "upright": "Diabeł zaprasza do przyjrzenia się temu, co trzyma nas w miejscu: nawykom, przekonaniom czy zależnościom. Karta nie jest wyrokiem, lecz okazją do uświadomienia sobie mechanizmów działających poza naszą uwagą. Luźne łańcuchy przypominają, że wiele ograniczeń da się rozluźnić, gdy zostaną nazwane. To także przestrzeń do uczciwego spotkania z własnym cieniem.",
+    "reversed": "Odwrócony Diabeł może oznaczać początek uwalniania się od schematu albo moment, w którym przywiązanie staje się wyraźnie widoczne. Bywa zaproszeniem do łagodnego, lecz konsekwentnego odzyskiwania swobody.",
+    "reflection": [
+      "Jaki nawyk lub przekonanie ogranicza Cię bardziej, niż chcesz przyznać?",
+      "Co by się zmieniło, gdyby ten łańcuch okazał się luźniejszy, niż się wydaje?"
+    ]
+  },
+  {
+    "id": "major_16",
+    "name": "Wieża",
+    "arcana": "major",
+    "suit": null,
+    "rank": 16,
+    "keywords": [
+      "nagła zmiana",
+      "rewizja",
+      "przebudzenie",
+      "uwolnienie",
+      "prawda"
+    ],
+    "symbolism": "Wysoka wieża na skalistym szczycie zostaje trafiona błyskawicą, która strąca z niej koronę. Z okien wydobywają się płomienie, a dwie postacie spadają w dół na tle ciemnego nieba. Wokół unoszą się drobne iskry w kształcie hebrajskiej litery jod.",
+    "upright": "Wieża opisuje moment, w którym coś, co wydawało się stabilne, nagle domaga się rewizji. Taka zmiana może zaskakiwać, ale często odsłania prawdę, która dotąd była przesłonięta. Karta zachęca, by sprawdzić, które struktury zbudowano na chwiejnych podstawach. Po uporządkowaniu pojawia się miejsce na coś bardziej autentycznego.",
+    "reversed": "Odwrócona Wieża może wskazywać na odkładanie potrzebnej zmiany lub na przemianę dokonującą się bardziej w środku niż na zewnątrz. Czasem to sygnał, że coś można przebudować stopniowo, zanim napięcie narośnie.",
+    "reflection": [
+      "Które przekonanie lub układ wymaga dziś uczciwego sprawdzenia?",
+      "Co mogłoby powstać na miejscu tego, co przestaje działać?"
+    ]
+  },
+  {
+    "id": "major_17",
+    "name": "Gwiazda",
+    "arcana": "major",
+    "suit": null,
+    "rank": 17,
+    "keywords": [
+      "nadzieja",
+      "odnowa",
+      "spokój",
+      "inspiracja",
+      "zaufanie"
+    ],
+    "symbolism": "Naga kobieta klęczy nad brzegiem stawu i wylewa wodę z dwóch dzbanów — jednym do wody, drugim na ląd. Nad nią świeci duża ośmioramienna gwiazda otoczona siedmioma mniejszymi. Na drzewie w tle przysiadł ptak.",
+    "upright": "Gwiazda przynosi poczucie wytchnienia i cichej nadziei. Karta zaprasza do odpoczynku i odbudowania zaufania do siebie i świata. To dobry czas na marzenia, które nie muszą być od razu realizowane, by dodawać sił. Prostota tej sceny przypomina, że można pokazać się bez masek.",
+    "reversed": "W odwróceniu Gwiazda może wskazywać na zmęczenie lub chwilowe przygaszenie nadziei. To zaproszenie, by poszukać małych źródeł światła i dać sobie czas na regenerację.",
+    "reflection": [
+      "Co daje Ci dziś poczucie nadziei, nawet niewielkie?",
+      "Jak możesz zadbać o swój odpoczynek w najbliższych dniach?"
+    ]
+  },
+  {
+    "id": "major_18",
+    "name": "Księżyc",
+    "arcana": "major",
+    "suit": null,
+    "rank": 18,
+    "keywords": [
+      "niepewność",
+      "wyobraźnia",
+      "sny",
+      "podświadomość",
+      "przeczucia"
+    ],
+    "symbolism": "Nad nocnym krajobrazem świeci księżyc z ludzką twarzą, z którego opadają krople światła. Pies i wilk wyją ku niemu po obu stronach ścieżki, która wije się między dwiema wieżami ku dalekim wzgórzom. Z wody na pierwszym planie wypełza rak.",
+    "upright": "Księżyc opisuje stan, w którym nie wszystko jest wyraźne, a wyobraźnia podsuwa różne wersje zdarzeń. Karta zachęca, by z ciekawością przyjrzeć się snom, przeczuciom i lękom, nie traktując ich od razu jak faktów. To czas na ostrożne poruszanie się krok po kroku. Niejasność bywa etapem, który poprzedza zrozumienie.",
+    "reversed": "Odwrócony Księżyc może sugerować, że mgła zaczyna się rozwiewać, albo że lęki zyskują nieproporcjonalnie dużą moc. Warto oddzielić to, co wiadome, od tego, co dopowiada wyobraźnia.",
+    "reflection": [
+      "Co w tej sytuacji jest faktem, a co Twoją interpretacją?",
+      "Jaki sen lub przeczucie wraca do Ciebie ostatnio?"
+    ]
+  },
+  {
+    "id": "major_19",
+    "name": "Słońce",
+    "arcana": "major",
+    "suit": null,
+    "rank": 19,
+    "keywords": [
+      "radość",
+      "jasność",
+      "ciepło",
+      "otwartość",
+      "powodzenie"
+    ],
+    "symbolism": "Nagie dziecko z wiankiem i czerwonym piórem na głowie jedzie radośnie na białym koniu, trzymając wielki czerwony sztandar. Nad nim świeci promieniste słońce z twarzą, a za niskim murem kwitną słoneczniki.",
+    "upright": "Słońce przynosi energię jasności i prostej radości. Karta zachęca do cieszenia się tym, co dobre, i do dzielenia się swoim ciepłem z innymi. Może opisywać moment, w którym sprawy stają się klarowne, a działanie przychodzi z lekkością. To także zaproszenie do kontaktu z dziecięcą spontanicznością.",
+    "reversed": "W odwróceniu radość Słońca może być przygaszona albo trudno ją w pełni przyjąć. Czasem to też sygnał, by nie udawać pogody ducha, gdy potrzebna jest chwila szczerości.",
+    "reflection": [
+      "Co sprawia Ci prawdziwą, prostą radość?",
+      "Jak możesz pozwolić sobie na więcej lekkości w tym tygodniu?"
+    ]
+  },
+  {
+    "id": "major_20",
+    "name": "Sąd Ostateczny",
+    "arcana": "major",
+    "suit": null,
+    "rank": 20,
+    "keywords": [
+      "przebudzenie",
+      "wewnętrzne wezwanie",
+      "podsumowanie",
+      "odrodzenie",
+      "przebaczenie"
+    ],
+    "symbolism": "Anioł wyłania się z chmur i dmie w trąbę, do której przymocowana jest flaga z czerwonym krzyżem. Poniżej, z otwartych skrzyń unoszących się na wodzie, podnoszą się nagie postacie — dorośli i dziecko — z rękami wyciągniętymi ku górze. W tle widać ośnieżone góry.",
+    "upright": "Sąd Ostateczny opisuje moment przebudzenia, w którym własna droga staje się wyraźniejsza niż wcześniej. Karta zachęca do podsumowania doświadczeń i wyciągnięcia z nich wniosków bez surowej oceny. Może to być wewnętrzne wezwanie do zajęcia się czymś, co od dawna było ważne. To także przestrzeń na przebaczenie sobie i innym.",
+    "reversed": "Odwrócona karta może wskazywać na zbyt krytyczne ocenianie siebie albo na zagłuszanie wewnętrznego wezwania. Warto zapytać, co powstrzymuje przed odpowiedzią na to, co woła.",
+    "reflection": [
+      "Do czego czujesz wewnętrzne wezwanie?",
+      "Co możesz sobie wybaczyć, by iść dalej z lżejszym sercem?"
+    ]
+  },
+  {
+    "id": "major_21",
+    "name": "Świat",
+    "arcana": "major",
+    "suit": null,
+    "rank": 21,
+    "keywords": [
+      "spełnienie",
+      "integracja",
+      "domknięcie",
+      "pełnia",
+      "nowy cykl"
+    ],
+    "symbolism": "Postać okryta jedynie fioletową szarfą tańczy wewnątrz owalnego wieńca z liści, trzymając w dłoniach dwie różdżki. Wieniec przewiązany jest u góry i u dołu czerwonymi wstęgami, a w narożnikach karty pojawiają się głowy anioła, orła, lwa i byka.",
+    "upright": "Świat opisuje poczucie pełni i domknięcia ważnego etapu. Karta zaprasza do docenienia przebytej drogi i tego, jak różne doświadczenia złożyły się w spójną całość. To dobry moment na świętowanie i wdzięczność. Zakończenie jednego cyklu naturalnie przygotowuje grunt pod kolejny.",
+    "reversed": "W odwróceniu Świat może wskazywać na niedokończone sprawy lub trudność w zamknięciu etapu. Bywa zaproszeniem, by zauważyć, czego jeszcze brakuje do poczucia całości.",
+    "reflection": [
+      "Co już osiągasz, czego jeszcze w pełni nie doceniasz?",
+      "Co potrzebuje domknięcia, zanim zaczniesz kolejny rozdział?"
+    ]
+  },
+  {
+    "id": "wands_01",
+    "name": "As Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 1,
+    "keywords": [
+      "iskra",
+      "inspiracja",
+      "potencjał",
+      "zapał",
+      "nowa inicjatywa"
+    ],
+    "symbolism": "Z obłoku wyłania się dłoń trzymająca mocną, ulistnioną buławę, z której opadają drobne listki. Poniżej rozciąga się zielony krajobraz z rzeką, a na odległym wzgórzu stoi zamek.",
+    "upright": "As Buław to iskra nowego pomysłu lub przypływ entuzjazmu. Karta zachęca, by zauważyć, co Cię teraz ożywia, i dać temu szansę. Na tym etapie liczy się bardziej zapał niż gotowy plan. Potencjał jest obecny i czeka na pierwsze działanie.",
+    "reversed": "Odwrócony As może wskazywać na pomysł, który jeszcze nie znalazł ujścia, lub na chwilowy spadek motywacji. Czasem warto poczekać, aż iskra dojrzeje, zamiast ją wymuszać.",
+    "reflection": [
+      "Jaki pomysł wywołuje w Tobie najwięcej ekscytacji?",
+      "Jaki najmniejszy krok pozwoliłby mu zaistnieć?"
+    ]
+  },
+  {
+    "id": "wands_02",
+    "name": "Dwójka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 2,
+    "keywords": [
+      "planowanie",
+      "perspektywa",
+      "decyzja",
+      "horyzont",
+      "ambicja"
+    ],
+    "symbolism": "Mężczyzna w czerwonym nakryciu głowy stoi na murach zamku i trzyma w dłoni mały glob, spoglądając na morze i ląd. Jedna buława jest przymocowana do muru, drugą trzyma w ręce. Na kamieniu widnieje herb ze skrzyżowanymi różami i liliami.",
+    "upright": "Dwójka Buław opisuje moment planowania i rozważania szerszych możliwości. Masz już pewną bazę, a teraz pojawia się pytanie, dokąd dalej. Karta zachęca do śmiałego myślenia o przyszłości i świadomego wyboru kierunku. To czas na wizję, która poprzedza ruch.",
+    "reversed": "W odwróceniu karta może wskazywać na wahanie między bezpieczeństwem a nowym lub na planowanie, które nie przechodzi w działanie. Warto zapytać, czego potrzeba, by poczuć gotowość.",
+    "reflection": [
+      "Jak wygląda horyzont, ku któremu chcesz zmierzać?",
+      "Co zatrzymuje Cię na murach, zamiast pozwolić wyruszyć?"
+    ]
+  },
+  {
+    "id": "wands_03",
+    "name": "Trójka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 3,
+    "keywords": [
+      "rozwój",
+      "wyczekiwanie",
+      "ekspansja",
+      "dalekowzroczność",
+      "pierwsze efekty"
+    ],
+    "symbolism": "Postać w płaszczu stoi na wzgórzu tyłem do patrzącego, wsparta o jedną z trzech buław wbitych w ziemię. Spogląda na złocistą zatokę, po której płyną statki. Horyzont jest szeroki i otwarty.",
+    "upright": "Trójka Buław mówi o czasie, gdy pierwsze działania zostały podjęte i można obserwować, jak się rozwijają. Karta zachęca do szerszego spojrzenia i cierpliwego czekania na efekty. Może sugerować otwarcie się na nowe kontakty lub obszary. To radość z tego, że coś zaczyna nabierać kształtu.",
+    "reversed": "Odwrócona karta może wskazywać na zniecierpliwienie, gdy rezultaty przychodzą wolniej, niż oczekiwano. Bywa też zaproszeniem do skorygowania planu w świetle nowych informacji.",
+    "reflection": [
+      "Co zostało już wprawione w ruch i potrzebuje teraz czasu?",
+      "Jakie nowe możliwości widać z miejsca, w którym stoisz?"
+    ]
+  },
+  {
+    "id": "wands_04",
+    "name": "Czwórka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 4,
+    "keywords": [
+      "świętowanie",
+      "wspólnota",
+      "dom",
+      "stabilność",
+      "radość"
+    ],
+    "symbolism": "Cztery buławy przewiązane girlandą kwiatów i owoców tworzą rodzaj bramy. Za nią dwie postacie unoszą bukiety, w tle widać grupę ludzi i zamek. Scena ma świąteczny, ciepły charakter.",
+    "upright": "Czwórka Buław zaprasza do zatrzymania się i docenienia tego, co już zbudowano. To energia wspólnego świętowania, poczucia przynależności i bezpiecznej przystani. Karta może dotyczyć ważnego etapu, który warto zaznaczyć. Radość dzielona z innymi wzmacnia więzi.",
+    "reversed": "W odwróceniu karta może sugerować, że trudno się zatrzymać i świętować albo że poczucie wspólnoty zostało nadwyrężone. Warto poszukać miejsca i ludzi, przy których można odetchnąć.",
+    "reflection": [
+      "Co zasługuje dziś na świętowanie?",
+      "Gdzie i z kim czujesz się jak w domu?"
+    ]
+  },
+  {
+    "id": "wands_05",
+    "name": "Piątka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 5,
+    "keywords": [
+      "rywalizacja",
+      "różnica zdań",
+      "napięcie",
+      "ścieranie się",
+      "energia grupy"
+    ],
+    "symbolism": "Pięciu młodych mężczyzn w różnobarwnych strojach wymachuje buławami, jakby toczyli chaotyczną potyczkę albo zabawę. Żaden nie wydaje się ranny, a ich ruchy krzyżują się w różnych kierunkach.",
+    "upright": "Piątka Buław opisuje sytuację, w której ściera się wiele opinii i energii. Taki konflikt nie musi być destrukcyjny — może być twórczą wymianą, która wyostrza pomysły. Karta zachęca, by zauważyć, czy chodzi o wspólny cel, czy tylko o przewagę. Dobra komunikacja może zamienić chaos we współpracę.",
+    "reversed": "W odwróceniu karta może wskazywać na unikanie konfliktu za wszelką cenę lub na napięcie, które przeniosło się do wnętrza. Czasem to zaproszenie, by szukać porozumienia zamiast wygranej.",
+    "reflection": [
+      "O co tak naprawdę toczy się ten spór?",
+      "Jak możesz wyrazić swoje zdanie, jednocześnie słuchając innych?"
+    ]
+  },
+  {
+    "id": "wands_06",
+    "name": "Szóstka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 6,
+    "keywords": [
+      "uznanie",
+      "sukces",
+      "pewność siebie",
+      "docenienie",
+      "zwycięstwo"
+    ],
+    "symbolism": "Jeździec w wieńcu laurowym jedzie na białym koniu, trzymając buławę z przywiązanym do niej drugim wieńcem. Wokół idą ludzie z uniesionymi buławami, jakby witali go po powrocie.",
+    "upright": "Szóstka Buław mówi o docenieniu i widocznym efekcie włożonego wysiłku. Karta zachęca, by przyjąć uznanie bez fałszywej skromności. To także przypomnienie, że sukces często jest dziełem wielu osób. Pewność siebie może stać się wsparciem dla innych.",
+    "reversed": "W odwróceniu karta może wskazywać na trudność w przyjmowaniu pochwał lub silną zależność od opinii otoczenia. Warto zastanowić się, jak samodzielnie docenić własną pracę.",
+    "reflection": [
+      "Jakie Twoje osiągnięcie zasługuje na uznanie?",
+      "Na ile Twoje poczucie wartości zależy od opinii innych?"
+    ]
+  },
+  {
+    "id": "wands_07",
+    "name": "Siódemka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 7,
+    "keywords": [
+      "obrona stanowiska",
+      "wytrwałość",
+      "odwaga",
+      "granice",
+      "przekonanie"
+    ],
+    "symbolism": "Młody mężczyzna stoi na wzniesieniu z buławą w dłoniach i odpiera sześć innych buław, które sięgają ku niemu z dołu. Na nogach ma dwa różne buty, co sugeruje pośpiech lub zaskoczenie.",
+    "upright": "Siódemka Buław opisuje sytuację, w której warto stanąć za swoimi przekonaniami. Karta zachęca do wytrwałości i jasnego wyrażania tego, co ważne. Pozycja na wzniesieniu przypomina, że masz pewną przewagę — wiedzę lub doświadczenie. Obrona granic może odbywać się spokojnie i z szacunkiem.",
+    "reversed": "W odwróceniu karta może wskazywać na zmęczenie ciągłym bronieniem się lub na wątpliwość, czy dana walka jest warta energii. Czasem lepiej wybrać, które sprawy naprawdę wymagają obrony.",
+    "reflection": [
+      "Za czym chcesz stanąć, nawet jeśli inni mają inne zdanie?",
+      "Które spory są warte Twojej energii, a które możesz odpuścić?"
+    ]
+  },
+  {
+    "id": "wands_08",
+    "name": "Ósemka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 8,
+    "keywords": [
+      "tempo",
+      "ruch",
+      "wiadomości",
+      "rozpęd",
+      "szybki postęp"
+    ],
+    "symbolism": "Osiem buław szybuje ukośnie przez czyste niebo, równolegle do siebie, jakby zmierzały ku ziemi. Pod nimi rozciąga się spokojny krajobraz z rzeką i wzgórzem. Na karcie nie ma żadnej postaci.",
+    "upright": "Ósemka Buław przynosi energię szybkiego ruchu i spraw, które nabierają tempa. Karta może dotyczyć wiadomości, rozmów lub kwestii, które wreszcie ruszają z miejsca. Zachęca, by działać zdecydowanie, gdy sprzyja rozpęd. To czas, gdy myśl szybko przechodzi w działanie.",
+    "reversed": "W odwróceniu karta może wskazywać na opóźnienia, chaos w komunikacji lub zbyt wiele spraw naraz. Warto zwolnić i ustalić, co jest teraz najważniejsze.",
+    "reflection": [
+      "Co w Twoim życiu właśnie nabiera tempa?",
+      "Jak możesz zadbać, by pośpiech nie odebrał Ci jasności?"
+    ]
+  },
+  {
+    "id": "wands_09",
+    "name": "Dziewiątka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 9,
+    "keywords": [
+      "czujność",
+      "wytrwałość",
+      "odporność",
+      "ostatni wysiłek",
+      "doświadczenie"
+    ],
+    "symbolism": "Mężczyzna z obandażowaną głową stoi wsparty na buławie i ostrożnie spogląda w bok. Za nim stoi rząd ośmiu buław przypominający palisadę. Jego postawa wyraża zmęczenie, ale i gotowość.",
+    "upright": "Dziewiątka Buław mówi o wytrwałości po długim wysiłku. Karta przypomina, że wiele już za Tobą i możesz polegać na zdobytym doświadczeniu. Czujność bywa pomocna, ale warto sprawdzić, czy nie przeradza się w stałe napięcie. Odporność rośnie także dzięki odpoczynkowi.",
+    "reversed": "W odwróceniu karta może sugerować wyczerpanie lub nadmierną podejrzliwość wobec otoczenia. To dobry moment, by poprosić o wsparcie i opuścić gardę tam, gdzie to bezpieczne.",
+    "reflection": [
+      "Co już udało Ci się przetrwać i czego Cię to nauczyło?",
+      "Gdzie możesz pozwolić sobie na odpoczynek zamiast ciągłej czujności?"
+    ]
+  },
+  {
+    "id": "wands_10",
+    "name": "Dziesiątka Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 10,
+    "keywords": [
+      "obciążenie",
+      "odpowiedzialność",
+      "wysiłek",
+      "nadmiar zadań",
+      "delegowanie"
+    ],
+    "symbolism": "Pochylony mężczyzna niesie w objęciach dziesięć buław, które zasłaniają mu widok. Z trudem idzie w stronę domu widocznego w oddali.",
+    "upright": "Dziesiątka Buław opisuje ciężar wielu zobowiązań niesionych naraz. Karta zachęca, by przyjrzeć się, które z nich są naprawdę Twoje, a które przyjęto z rozpędu. Cel jest blisko, ale sposób niesienia może utrudniać drogę. Uporządkowanie i podział zadań mogą przynieść ulgę.",
+    "reversed": "W odwróceniu karta może wskazywać na moment, w którym ciężar staje się zbyt duży, albo na gotowość do odłożenia części brzemienia. To zaproszenie do proszenia o pomoc i mówienia „nie”.",
+    "reflection": [
+      "Którą z obecnych odpowiedzialności możesz odłożyć lub przekazać?",
+      "Jak wyglądałaby droga do celu, gdyby ciężar był lżejszy?"
+    ]
+  },
+  {
+    "id": "wands_11",
+    "name": "Paź Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 11,
+    "keywords": [
+      "ciekawość",
+      "entuzjazm",
+      "odkrywanie",
+      "nowe wieści",
+      "młodzieńczy zapał"
+    ],
+    "symbolism": "Młodzieniec w tunice ozdobionej wzorem salamander stoi na pustynnym terenie i z zaciekawieniem przygląda się buławie, którą trzyma przed sobą. W tle wznoszą się trzy wzgórza przypominające piramidy.",
+    "upright": "Paź Buław wnosi energię ciekawego ucznia, który chce spróbować czegoś nowego. Karta zachęca do eksplorowania pomysłów bez presji natychmiastowych wyników. Może dotyczyć inspirującej wiadomości lub rodzącej się pasji. Zapał jest tu najcenniejszym zasobem.",
+    "reversed": "W odwróceniu Paź może wskazywać na rozproszony entuzjazm lub niecierpliwość, która porzuca pomysły zbyt szybko. Warto wybrać jedną iskrę i dać jej trochę czasu.",
+    "reflection": [
+      "Czego chcesz się nauczyć tylko dlatego, że Cię to ciekawi?",
+      "Który pomysł zasługuje na to, by poświęcić mu więcej uwagi?"
+    ]
+  },
+  {
+    "id": "wands_12",
+    "name": "Rycerz Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 12,
+    "keywords": [
+      "odwaga",
+      "przygoda",
+      "impet",
+      "działanie",
+      "namiętność"
+    ],
+    "symbolism": "Rycerz w zbroi i żółtej tunice z salamandrami pędzi na stającym dęba koniu, unosząc buławę. Pióra na jego hełmie przypominają płomienie, a w tle rozciąga się pustynia z piramidalnymi wzgórzami.",
+    "upright": "Rycerz Buław to energia śmiałego działania i gotowości do przygody. Karta zachęca do podążania za pasją i podejmowania inicjatywy. Jego zapał bywa zaraźliwy i potrafi porwać innych. Warto jednak pamiętać, by impet szedł w parze z kierunkiem.",
+    "reversed": "W odwróceniu energia Rycerza może zamieniać się w pośpiech, który przeskakuje ważne etapy. Czasem to sygnał, by się zatrzymać i sprawdzić, czy ogień nie spala się zbyt szybko.",
+    "reflection": [
+      "Do jakiej przygody tęsknisz?",
+      "Jak połączyć swój zapał z cierpliwością?"
+    ]
+  },
+  {
+    "id": "wands_13",
+    "name": "Królowa Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 13,
+    "keywords": [
+      "pewność siebie",
+      "ciepło",
+      "charyzma",
+      "niezależność",
+      "kreatywność"
+    ],
+    "symbolism": "Królowa siedzi na tronie ozdobionym lwami, trzymając w jednej dłoni buławę, a w drugiej słonecznik. U jej stóp siedzi czarny kot. Jej postawa jest otwarta i swobodna.",
+    "upright": "Królowa Buław łączy ciepło z pewnością siebie. Karta zachęca do wyrażania siebie w autentyczny sposób i dzielenia się swoją energią. To postawa kogoś, kto zna swoją wartość i jednocześnie wspiera innych. Kreatywność rozkwita, gdy pozwalasz sobie świecić.",
+    "reversed": "W odwróceniu karta może wskazywać na chwilowe zwątpienie w siebie lub na energię, która staje się zbyt dominująca. Warto poszukać równowagi między troską o siebie a obecnością dla innych.",
+    "reflection": [
+      "W jakich sytuacjach czujesz się najbardziej sobą?",
+      "Jak możesz dziś okazać swoje ciepło, nie umniejszając siebie?"
+    ]
+  },
+  {
+    "id": "wands_14",
+    "name": "Król Buław",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 14,
+    "keywords": [
+      "wizja",
+      "przywództwo",
+      "inspirowanie",
+      "śmiałość",
+      "odpowiedzialność"
+    ],
+    "symbolism": "Król siedzi na tronie ozdobionym lwami i salamandrami, trzymając kwitnącą buławę. U jego stóp przycupnęła mała salamandra. Jego spojrzenie skierowane jest w bok, jakby wybiegał myślami w przyszłość.",
+    "upright": "Król Buław uosabia dojrzałe przywództwo oparte na wizji i inspiracji. Karta zachęca do podejmowania decyzji z perspektywy długofalowego celu. To energia kogoś, kto potrafi zarazić innych zapałem i zarazem wziąć odpowiedzialność za kierunek. Śmiałość idzie tu w parze z doświadczeniem.",
+    "reversed": "W odwróceniu karta może wskazywać na niecierpliwość wobec innych lub na wizję, która pomija potrzeby otoczenia. Warto sprawdzić, czy przywództwo nie zamienia się w narzucanie własnej woli.",
+    "reflection": [
+      "Jaką wizję chcesz realizować w dłuższej perspektywie?",
+      "Jak możesz inspirować innych, zamiast ich popychać?"
+    ]
+  }
+]

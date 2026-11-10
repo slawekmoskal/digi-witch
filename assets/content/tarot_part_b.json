@@ -1,0 +1,884 @@
+[
+  {
+    "id": "cups_01",
+    "name": "As Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 1,
+    "keywords": [
+      "otwarte serce",
+      "nowe uczucie",
+      "wdzięczność",
+      "przepływ",
+      "czułość"
+    ],
+    "symbolism": "Z obłoku wysuwa się dłoń trzymająca puchar, z którego pięcioma strumieniami spływa woda do stawu pełnego lilii wodnych. Nad naczyniem zniża się biała gołębica z niewielkim krążkiem w dziobie, a wokół unoszą się drobne krople przypominające spadające płatki.",
+    "upright": "As Kielichów mówi o chwili, w której uczucia zaczynają płynąć swobodniej. Może to być nowa relacja, odnowiona przyjaźń albo po prostu łagodniejsze spojrzenie na siebie. Karta zaprasza, by przyjąć to, co przychodzi, bez pośpiechu i bez oceniania. Warto zauważyć, czym chcesz się dziś podzielić z innymi.",
+    "reversed": "Odwrócony As może wskazywać, że emocje są obecne, ale zatrzymane w środku, jakby naczynie było zakryte. Czasem to potrzeba ochrony, czasem zmęczenie dawaniem. Dobrym krokiem bywa najpierw napełnić własny kielich.",
+    "reflection": [
+      "Jakie uczucie chciałoby dziś zostać przeze mnie zauważone?",
+      "Komu lub czemu mogę okazać wdzięczność bez oczekiwania na odpowiedź?"
+    ]
+  },
+  {
+    "id": "cups_02",
+    "name": "Dwójka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 2,
+    "keywords": [
+      "wzajemność",
+      "spotkanie",
+      "porozumienie",
+      "partnerstwo",
+      "zaufanie"
+    ],
+    "symbolism": "Młody mężczyzna i młoda kobieta stoją naprzeciw siebie i wymieniają się kielichami, jakby składali obietnicę. Nad nimi unosi się laska oplatana dwoma wężami, zwieńczona skrzydlatą głową lwa, a w tle widać spokojny dom wśród wzgórz.",
+    "upright": "Dwójka Kielichów opisuje więź opartą na równowadze dawania i brania. Chodzi nie tylko o romans, ale o każde spotkanie, w którym obie strony czują się widziane. Karta sugeruje, że szczerość i uważne słuchanie mogą zbliżyć ludzi bardziej niż wielkie gesty. To dobry moment, by docenić osoby, z którymi łączy cię wzajemny szacunek.",
+    "reversed": "W odwróceniu karta może zwracać uwagę na nierówny podział uwagi lub niewypowiedziane oczekiwania. Bywa też sygnałem, że najpierw potrzebne jest porozumienie z samym sobą.",
+    "reflection": [
+      "W której relacji czuję się naprawdę wysłuchany lub wysłuchana?",
+      "Czego potrzebuję, by dawać i przyjmować w równowadze?"
+    ]
+  },
+  {
+    "id": "cups_03",
+    "name": "Trójka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 3,
+    "keywords": [
+      "wspólnota",
+      "radość",
+      "świętowanie",
+      "przyjaźń",
+      "wsparcie"
+    ],
+    "symbolism": "Trzy kobiety w barwnych szatach tańczą w kręgu i unoszą kielichy ku górze. U ich stóp leżą dojrzałe owoce, dynie i winogrona, co przywodzi na myśl czas zbiorów i wspólnego ucztowania.",
+    "upright": "Trójka Kielichów przypomina o sile wspólnoty i o radości dzielonej z innymi. Może zachęcać do świętowania drobnych sukcesów albo do odnowienia kontaktu z przyjaciółmi. Karta podkreśla, że wsparcie często przychodzi w lekkiej formie: rozmowy, śmiechu, wspólnego posiłku. Warto zapytać siebie, gdzie czujesz się częścią czegoś większego.",
+    "reversed": "Odwrócona Trójka może mówić o przesycie towarzystwem lub o poczuciu, że jesteś trochę obok grupy. Bywa też zaproszeniem do świętowania w ciszy, we własnym tempie.",
+    "reflection": [
+      "Z kim chciałbym lub chciałabym podzielić się ostatnią dobrą chwilą?",
+      "Gdzie czuję się częścią wspólnoty, a gdzie tylko gościem?"
+    ]
+  },
+  {
+    "id": "cups_04",
+    "name": "Czwórka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 4,
+    "keywords": [
+      "zamyślenie",
+      "znużenie",
+      "dystans",
+      "introspekcja",
+      "niezauważone szanse"
+    ],
+    "symbolism": "Młody człowiek siedzi pod drzewem ze skrzyżowanymi ramionami i patrzy na trzy kielichy stojące przed nim na trawie. Z boku, z obłoku, wyłania się dłoń podająca czwarty kielich, którego on zdaje się nie dostrzegać.",
+    "upright": "Czwórka Kielichów opisuje stan wycofania, w którym to, co znane, przestaje cieszyć. Taka pauza może być potrzebna, by zrozumieć, czego naprawdę pragniesz. Karta łagodnie podpowiada jednak, by co jakiś czas podnieść wzrok, bo obok może czekać coś nowego. Nie musisz od razu tego przyjmować, wystarczy zauważyć.",
+    "reversed": "W odwróceniu karta może oznaczać powolne wychodzenie z marazmu i większą otwartość na propozycje. Może też wskazywać, że zamknięcie w sobie trwa dłużej, niż jest ci to potrzebne.",
+    "reflection": [
+      "Co wokół mnie przestało mnie cieszyć i dlaczego?",
+      "Jaką propozycję mogłem lub mogłam ostatnio przeoczyć?"
+    ]
+  },
+  {
+    "id": "cups_05",
+    "name": "Piątka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 5,
+    "keywords": [
+      "żal",
+      "rozczarowanie",
+      "strata",
+      "akceptacja",
+      "to, co pozostało"
+    ],
+    "symbolism": "Postać w długim czarnym płaszczu stoi pochylona nad trzema przewróconymi kielichami, z których wylał się płyn. Za jej plecami stoją jeszcze dwa pełne kielichy, a dalej płynie rzeka, nad którą przerzucono most prowadzący do domu.",
+    "upright": "Piątka Kielichów daje przestrzeń na smutek po czymś, co nie poszło zgodnie z oczekiwaniami. Karta nie każe szybko się otrząsać, raczej uznaje, że żal jest naturalną częścią przeżywania. Jednocześnie przypomina o dwóch kielichach, które wciąż stoją. Kiedy będziesz gotów lub gotowa, możesz się odwrócić i dostrzec, co nadal masz.",
+    "reversed": "Odwrócona Piątka może sygnalizować, że proces godzenia się ze stratą już trwa i pojawia się więcej łagodności. Czasem jednak wskazuje na smutek schowany głęboko, który potrzebuje bezpiecznego wyrażenia.",
+    "reflection": [
+      "Czego żal pozwalam sobie odczuwać, a czego unikam?",
+      "Co wartościowego wciąż jest przy mnie, mimo tego, co się wylało?"
+    ]
+  },
+  {
+    "id": "cups_06",
+    "name": "Szóstka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 6,
+    "keywords": [
+      "wspomnienia",
+      "niewinność",
+      "życzliwość",
+      "dzieciństwo",
+      "prostota"
+    ],
+    "symbolism": "Na dziedzińcu starej osady chłopiec podaje dziewczynce kielich wypełniony białymi kwiatami. Wokół stoją kolejne naczynia z kwiatami, a w tle oddala się postać strażnika, jakby czuwającego nad tym spokojnym miejscem.",
+    "upright": "Szóstka Kielichów przywołuje ciepło wspomnień i prostych gestów życzliwości. Może zachęcać do kontaktu z kimś z przeszłości albo do przypomnienia sobie, co cieszyło cię dawniej. Karta mówi o dawaniu bez wyrachowania, tak jak robią to dzieci. Warto sprawdzić, które z dawnych radości mogą dziś odżyć w nowej formie.",
+    "reversed": "W odwróceniu karta może wskazywać na zbyt silne trzymanie się przeszłości lub idealizowanie tego, co minęło. Bywa też zachętą, by z dawnych lekcji zabrać to, co dobre, i ruszyć dalej.",
+    "reflection": [
+      "Które wspomnienie daje mi dziś poczucie ciepła?",
+      "Czy jest coś z przeszłości, co mogę już łagodnie odłożyć?"
+    ]
+  },
+  {
+    "id": "cups_07",
+    "name": "Siódemka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 7,
+    "keywords": [
+      "wyobraźnia",
+      "wybór",
+      "marzenia",
+      "złudzenia",
+      "wiele możliwości"
+    ],
+    "symbolism": "Ciemna sylwetka stoi przed siedmioma kielichami unoszącymi się w chmurach. W każdym kryje się coś innego: głowa, zasłonięta świecąca postać, wąż, zamek, klejnoty, wieniec i smok, jakby każde naczynie obiecywało odmienną przyszłość.",
+    "upright": "Siódemka Kielichów pokazuje bogactwo wyobraźni i mnogość dróg, które można sobie wymarzyć. To piękna przestrzeń, ale łatwo się w niej zgubić. Karta zaprasza, by odróżnić to, co cię naprawdę porusza, od tego, co tylko błyszczy. Jeden mały, konkretny krok może pomóc sprawdzić, które marzenie ma w sobie życie.",
+    "reversed": "Odwrócona Siódemka może oznaczać, że mgła się rozwiewa i łatwiej ci wybrać. Może też wskazywać na przeciążenie opcjami, przy którym warto zawęzić pole widzenia.",
+    "reflection": [
+      "Które z moich marzeń jest naprawdę moje, a które przejąłem lub przejęłam od innych?",
+      "Jaki jeden mały krok pomógłby mi sprawdzić wybraną możliwość?"
+    ]
+  },
+  {
+    "id": "cups_08",
+    "name": "Ósemka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 8,
+    "keywords": [
+      "odejście",
+      "poszukiwanie",
+      "głębszy sens",
+      "zmiana kierunku",
+      "odwaga"
+    ],
+    "symbolism": "Postać w czerwonym płaszczu, wsparta na kiju, oddala się w stronę gór i wody pod nocnym niebem, na którym księżyc ma ludzką twarz. Za nią zostaje osiem kielichów ustawionych starannie w dwóch rzędach, z wyraźną luką w górnym rzędzie.",
+    "upright": "Ósemka Kielichów mówi o chwili, gdy to, co zbudowane, przestaje wystarczać sercu. Nie chodzi o porażkę, lecz o potrzebę głębszego sensu. Karta może wspierać decyzję o odejściu od nawyku, roli albo przekonania, które już ci nie służy. Odejście bywa tu formą szacunku dla siebie.",
+    "reversed": "W odwróceniu karta może wskazywać na wahanie: chęć zmiany przy jednoczesnym strachu przed porzuceniem znanego. Bywa też sygnałem, że warto jeszcze raz spojrzeć na to, co zostawiasz, zanim ruszysz.",
+    "reflection": [
+      "Czego szukam, czego nie mogę znaleźć tam, gdzie jestem teraz?",
+      "Co mogę zostawić z wdzięcznością, zamiast z żalem?"
+    ]
+  },
+  {
+    "id": "cups_09",
+    "name": "Dziewiątka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 9,
+    "keywords": [
+      "zadowolenie",
+      "spełnienie",
+      "przyjemność",
+      "wdzięczność",
+      "komfort"
+    ],
+    "symbolism": "Zadowolony mężczyzna siedzi na drewnianej ławie ze skrzyżowanymi rękami i lekko uniesioną głową. Za nim, na łukowatym stole przykrytym błękitnym suknem, stoi równy rząd dziewięciu kielichów.",
+    "upright": "Dziewiątka Kielichów opisuje poczucie, że jest dobrze, a pragnienia zostały choć częściowo zaspokojone. To zaproszenie, by pozwolić sobie na radość bez poczucia winy. Karta przypomina też, że satysfakcja smakuje pełniej, gdy jest świadoma, a nie tylko odhaczona. Zatrzymaj się na chwilę przy tym, co już się udało.",
+    "reversed": "Odwrócona Dziewiątka może wskazywać na zadowolenie powierzchowne lub zależne od zewnętrznych oznak. Czasem sugeruje, by zapytać, czego pragniesz naprawdę, a nie tego, co wypada mieć.",
+    "reflection": [
+      "Co sprawia mi prawdziwą, cichą satysfakcję?",
+      "Czy pozwalam sobie cieszyć się tym, co osiągnąłem lub osiągnęłam?"
+    ]
+  },
+  {
+    "id": "cups_10",
+    "name": "Dziesiątka Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 10,
+    "keywords": [
+      "harmonia",
+      "rodzina",
+      "bliskość",
+      "dom",
+      "emocjonalny spokój"
+    ],
+    "symbolism": "Para stoi obejmując się i wznosi ramiona ku tęczy, w której łuku jaśnieje dziesięć kielichów. Obok nich dwoje dzieci tańczy, a w dali widać mały dom nad rzeką wśród zielonych wzgórz.",
+    "upright": "Dziesiątka Kielichów mówi o poczuciu emocjonalnego domu, czyli o miejscu lub ludziach, przy których możesz być sobą. Nie musi to być rodzina w tradycyjnym sensie, lecz każda wspólnota oparta na trosce. Karta zachęca, by docenić codzienną harmonię, nawet jeśli nie jest doskonała. Warto zastanowić się, co sam lub sama wnosisz do tego wspólnego spokoju.",
+    "reversed": "W odwróceniu karta może zwracać uwagę na rozdźwięk między wyobrażeniem idealnego domu a rzeczywistością. Bywa zaproszeniem do szczerej rozmowy o tym, czego każdy z bliskich potrzebuje.",
+    "reflection": [
+      "Gdzie i z kim czuję się naprawdę u siebie?",
+      "Co mogę dziś zrobić, by w moim otoczeniu było więcej ciepła?"
+    ]
+  },
+  {
+    "id": "cups_11",
+    "name": "Paź Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 11,
+    "keywords": [
+      "ciekawość",
+      "wrażliwość",
+      "intuicja",
+      "zaskoczenie",
+      "twórczy impuls"
+    ],
+    "symbolism": "Młodzieniec w tunice w kwiatowe wzory stoi nad brzegiem morza i trzyma kielich, z którego wychyla się mała ryba. Przygląda się jej z zaciekawieniem, jakby prowadził z nią cichą rozmowę, a za nim falują łagodne fale.",
+    "upright": "Paź Kielichów to zaproszenie do zabawy z własnymi uczuciami i wyobraźnią. Może pojawić się niespodziewany pomysł, sen albo wrażenie, które warto zapisać. Karta zachęca do otwartości i odrobiny dziecięcej naiwności w najlepszym znaczeniu tego słowa. Nie wszystko musi mieć od razu sens, by było wartościowe.",
+    "reversed": "Odwrócony Paź może sugerować, że wrażliwość jest tłumiona z obawy przed oceną. Może też wskazywać na emocjonalną chwiejność, przy której pomaga łagodna struktura dnia.",
+    "reflection": [
+      "Jaki pomysł lub uczucie zaskoczyło mnie ostatnio?",
+      "Gdzie mogę pozwolić sobie na więcej twórczej zabawy?"
+    ]
+  },
+  {
+    "id": "cups_12",
+    "name": "Rycerz Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 12,
+    "keywords": [
+      "romantyzm",
+      "propozycja",
+      "idealizm",
+      "łagodność",
+      "podążanie za sercem"
+    ],
+    "symbolism": "Rycerz w zbroi ze skrzydełkami na hełmie i piętach jedzie powoli na białym koniu, trzymając kielich przed sobą jak dar. Jego koń stąpa spokojnie, a w tle płynie rzeka i wznoszą się łagodne wzgórza.",
+    "upright": "Rycerz Kielichów niesie w sobie energię serca, które chce działać. Może to oznaczać zaproszenie, gest uczucia lub twórczy projekt prowadzony z pasją. Karta podkreśla wartość delikatności i szczerości w tym, co oferujesz. Warto jednak sprawdzić, czy twoje ideały mają też grunt pod nogami.",
+    "reversed": "Odwrócony Rycerz może wskazywać na zbytnie bujanie w obłokach lub nastroje zmieniające kierunek z dnia na dzień. Bywa też sygnałem, by nie składać obietnic, zanim poczujesz, że są realne.",
+    "reflection": [
+      "Co chciałbym lub chciałabym ofiarować komuś z głębi serca?",
+      "Czy moje ideały mają oparcie w codzienności?"
+    ]
+  },
+  {
+    "id": "cups_13",
+    "name": "Królowa Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 13,
+    "keywords": [
+      "empatia",
+      "intuicja",
+      "opiekuńczość",
+      "głębia uczuć",
+      "spokój"
+    ],
+    "symbolism": "Królowa siedzi na tronie ustawionym tuż przy brzegu, a jej stopy niemal dotykają wody. W dłoniach trzyma bogato zdobiony, zamknięty kielich z uszami w kształcie aniołów i wpatruje się w niego z namysłem; tron zdobią postacie morskich dzieci i muszle.",
+    "upright": "Królowa Kielichów uosabia dojrzałą wrażliwość, która potrafi współczuć bez zatracania siebie. Karta zachęca, by zaufać swoim przeczuciom i dać sobie czas na wsłuchanie się w to, co dzieje się w środku. Może też wskazywać na osobę, przy której inni czują się bezpiecznie. Twoja empatia jest cenna, zwłaszcza gdy obejmuje również ciebie.",
+    "reversed": "W odwróceniu karta może oznaczać przejmowanie cudzych emocji jak własnych lub zatracanie granic. Bywa zaproszeniem, by najpierw zadbać o własne wewnętrzne wody.",
+    "reflection": [
+      "Co podpowiada mi dziś moja intuicja?",
+      "Jak mogę wspierać innych, nie gubiąc przy tym siebie?"
+    ]
+  },
+  {
+    "id": "cups_14",
+    "name": "Król Kielichów",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 14,
+    "keywords": [
+      "równowaga emocjonalna",
+      "dojrzałość",
+      "spokój",
+      "dyplomacja",
+      "opanowanie"
+    ],
+    "symbolism": "Król siedzi na kamiennym tronie, który zdaje się unosić na falującym morzu. W jednej ręce trzyma kielich, w drugiej berło, na szyi nosi wisior w kształcie ryby, a w tle płynie statek i wyskakuje z wody morskie stworzenie.",
+    "upright": "Król Kielichów pokazuje, że można czuć głęboko i jednocześnie zachować spokój. To energia kogoś, kto nie tłumi emocji, lecz potrafi je rozumieć i mądrze z nimi postępować. Karta zachęca do łagodnego przywództwa i rozmów prowadzonych z życzliwością. Wokół może być burzliwie, a ty możesz pozostać swoją wyspą.",
+    "reversed": "Odwrócony Król może wskazywać na emocje trzymane pod zbyt ścisłą kontrolą, które szukają ujścia. Czasem jest to sygnał, by pozwolić sobie na więcej szczerości wobec siebie.",
+    "reflection": [
+      "Jak reaguję na emocjonalne fale wokół mnie?",
+      "W czym mogę być dla kogoś spokojnym i życzliwym oparciem?"
+    ]
+  },
+  {
+    "id": "swords_01",
+    "name": "As Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 1,
+    "keywords": [
+      "jasność",
+      "prawda",
+      "przełom",
+      "nowa idea",
+      "decyzja"
+    ],
+    "symbolism": "Z obłoku wyłania się dłoń dzierżąca pionowy miecz, którego ostrze przebija koronę. Z korony zwisają gałązki oliwki i palmy, wokół spadają drobne iskry, a u dołu rozciągają się surowe, skaliste szczyty.",
+    "upright": "As Mieczy przynosi chwilę jasności, gdy myśli nagle układają się w klarowny obraz. Może to być nowa idea, zrozumienie sytuacji albo gotowość, by nazwać rzeczy po imieniu. Karta zachęca do uczciwości wobec siebie i do wyrażania prawdy z namysłem. Klarowność jest narzędziem, które najlepiej służy, gdy łączy się z życzliwością.",
+    "reversed": "Odwrócony As może wskazywać na myśli, które krążą bez kierunku, lub na prawdę, której jeszcze nie chcesz usłyszeć. Bywa też sygnałem, by zwolnić, zanim ostre słowa padną zbyt szybko.",
+    "reflection": [
+      "Co stało się dla mnie jasne w ostatnim czasie?",
+      "Jak mogę wyrazić swoją prawdę z szacunkiem dla innych?"
+    ]
+  },
+  {
+    "id": "swords_02",
+    "name": "Dwójka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 2,
+    "keywords": [
+      "zawieszenie",
+      "rozważanie",
+      "wewnętrzna cisza",
+      "trudny wybór",
+      "ochrona"
+    ],
+    "symbolism": "Kobieta w białej szacie siedzi na ławie z zawiązanymi oczami, trzymając dwa skrzyżowane miecze na piersi. Za jej plecami rozciąga się woda usiana skałami, a na niebie widać wąski sierp księżyca.",
+    "upright": "Dwójka Mieczy opisuje moment, w którym wybór wydaje się trudny, a umysł szuka równowagi. Zasłonięte oczy mogą oznaczać chęć odcięcia się od chaosu, by usłyszeć własny głos. Karta pozwala na chwilę namysłu, ale przypomina, że zawieszenie nie musi trwać wiecznie. Czasem wystarczy uchylić opaskę i spojrzeć na fakty.",
+    "reversed": "W odwróceniu karta może wskazywać na napięcie, które w końcu domaga się decyzji, albo na nadmiar informacji. Może też być sygnałem, że czujesz się już gotowy lub gotowa wyjść z impasu.",
+    "reflection": [
+      "Przed jakim wyborem się teraz zatrzymuję?",
+      "Czego potrzebuję wiedzieć, by poczuć się pewniej?"
+    ]
+  },
+  {
+    "id": "swords_03",
+    "name": "Trójka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 3,
+    "keywords": [
+      "smutek",
+      "zranienie",
+      "uznanie bólu",
+      "oczyszczenie",
+      "szczerość wobec siebie"
+    ],
+    "symbolism": "Czerwone serce przebite trzema mieczami unosi się na tle szarych chmur, z których pada deszcz. Obraz jest prosty i oszczędny, bez postaci, jakby skupiał całą uwagę na jednym uczuciu.",
+    "upright": "Trójka Mieczy mówi o bólu, który warto uznać, zamiast go ukrywać. Może dotyczyć rozczarowania, przykrych słów lub poczucia straty, ale nie przesądza o niczym ostatecznym. Deszcz na karcie to także obraz oczyszczenia: łzy mogą przynieść ulgę. Nazwanie tego, co boli, często jest pierwszym krokiem do zdrowienia emocjonalnego.",
+    "reversed": "Odwrócona Trójka może sygnalizować, że rana powoli się goi i wraca więcej spokoju. Czasem jednak wskazuje na smutek tłumiony, który potrzebuje rozmowy z kimś zaufanym.",
+    "reflection": [
+      "Jaki ból potrzebuje dziś mojego uznania?",
+      "Co pomaga mi przechodzić przez trudne uczucia łagodnie?"
+    ]
+  },
+  {
+    "id": "swords_04",
+    "name": "Czwórka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 4,
+    "keywords": [
+      "odpoczynek",
+      "regeneracja",
+      "cisza",
+      "kontemplacja",
+      "przerwa"
+    ],
+    "symbolism": "Rzeźbiona postać rycerza spoczywa na kamiennym sarkofagu w kościele, z dłońmi złożonymi do modlitwy. Nad nim na ścianie wiszą trzy miecze skierowane w dół, czwarty leży poziomo pod nim, a w witrażu widać scenę z postaciami.",
+    "upright": "Czwórka Mieczy zaprasza do zatrzymania się i odpoczynku umysłu. Po okresie napięcia cisza nie jest stratą czasu, lecz sposobem na odzyskanie sił. Karta zachęca do wyciszenia, refleksji lub po prostu dłuższej przerwy od bodźców. To, co odłożysz na chwilę, będzie na ciebie czekać.",
+    "reversed": "W odwróceniu karta może wskazywać na trudność w odpuszczeniu i ciągłe pozostawanie w gotowości. Bywa też sygnałem, że odpoczynek dobiega końca i powoli wraca chęć działania.",
+    "reflection": [
+      "Kiedy ostatnio pozwoliłem lub pozwoliłam sobie na prawdziwy odpoczynek?",
+      "Co mogę odłożyć na chwilę, by odzyskać jasność?"
+    ]
+  },
+  {
+    "id": "swords_05",
+    "name": "Piątka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 5,
+    "keywords": [
+      "konflikt",
+      "granice",
+      "duma",
+      "koszt wygranej",
+      "wycofanie"
+    ],
+    "symbolism": "Mężczyzna z lekkim uśmiechem zbiera miecze, podczas gdy dwie postacie odchodzą zgarbione w stronę wody. Kilka mieczy leży na ziemi, a niebo przecinają poszarpane chmury.",
+    "upright": "Piątka Mieczy pyta o cenę, jaką płaci się za postawienie na swoim. Czasem wygrana sporu zostawia po sobie chłód i dystans. Karta zachęca do refleksji nad tym, które bitwy są naprawdę warte stoczenia. Wycofanie się nie musi być porażką, może być mądrym wyborem.",
+    "reversed": "Odwrócona Piątka może oznaczać gotowość do pojednania lub do zamknięcia starego sporu. Może też wskazywać na żal po słowach, które warto spokojnie naprawić.",
+    "reflection": [
+      "Czy w jakiejś sytuacji zależy mi bardziej na wygranej niż na porozumieniu?",
+      "Z którego sporu mógłbym lub mogłabym się wycofać z godnością?"
+    ]
+  },
+  {
+    "id": "swords_06",
+    "name": "Szóstka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 6,
+    "keywords": [
+      "przejście",
+      "zmiana",
+      "spokojniejsze wody",
+      "podróż",
+      "pozostawienie trudności"
+    ],
+    "symbolism": "Przewoźnik odpycha łódź drągiem, a w niej siedzi okryta postać z dzieckiem u boku. W łodzi tkwi pionowo sześć mieczy, woda po jednej stronie jest wzburzona, po drugiej gładka, a na horyzoncie majaczy brzeg.",
+    "upright": "Szóstka Mieczy opisuje stopniowe przechodzenie od trudniejszego okresu ku spokojniejszemu. Nie wszystko zostaje za tobą od razu, część myśli płynie razem z tobą. Karta przypomina, że przejście może być ciche i powolne, a mimo to prowadzić naprzód. Warto docenić pomoc, która pozwala ci płynąć.",
+    "reversed": "W odwróceniu karta może wskazywać na opór przed zmianą lub poczucie, że ciągle wracasz do tego samego brzegu. Bywa zachętą, by sprawdzić, co jeszcze trzymasz w łodzi, a co mogłoby zostać.",
+    "reflection": [
+      "Od czego powoli się oddalam i dokąd zmierzam?",
+      "Kto lub co pomaga mi przejść przez ten okres?"
+    ]
+  },
+  {
+    "id": "swords_07",
+    "name": "Siódemka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 7,
+    "keywords": [
+      "strategia",
+      "przebiegłość",
+      "ukryte motywy",
+      "niezależność",
+      "unikanie"
+    ],
+    "symbolism": "Mężczyzna skrada się na palcach z obozowiska namiotów, unosząc w ramionach pięć mieczy. Dwa kolejne zostają wbite w ziemię za nim, a on spogląda przez ramię z wyrazem zadowolenia.",
+    "upright": "Siódemka Mieczy zachęca do przyjrzenia się, gdzie działasz w pojedynkę i jakimi drogami. Może to być mądra strategia, ale także pokusa, by ominąć trudną rozmowę. Karta pyta o uczciwość wobec innych i siebie. Czasem warto zatrzymać się i zastanowić, co naprawdę zabierasz, a co zostawiasz.",
+    "reversed": "Odwrócona Siódemka może oznaczać chęć wyjścia z ukrycia i powiedzenia prawdy. Może też wskazywać, że próbujesz unieść zbyt wiele na raz, zamiast poprosić o wsparcie.",
+    "reflection": [
+      "Gdzie wybieram drogę na skróty i co mnie do tego skłania?",
+      "Czy jest coś, co mógłbym lub mogłabym powiedzieć otwarcie?"
+    ]
+  },
+  {
+    "id": "swords_08",
+    "name": "Ósemka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 8,
+    "keywords": [
+      "ograniczające przekonania",
+      "poczucie uwięzienia",
+      "lęk",
+      "wyjście",
+      "perspektywa"
+    ],
+    "symbolism": "Kobieta w długiej sukni stoi z zawiązanymi oczami i luźno spętanymi ramionami pośród ośmiu mieczy wbitych w podmokły grunt. Miecze nie zamykają jej w pełnym kręgu, a na wzgórzu w oddali wznosi się zamek.",
+    "upright": "Ósemka Mieczy pokazuje sytuację, w której ograniczenie jest w dużej mierze utkane z myśli. Więzy na karcie są luźne, a między mieczami jest przestrzeń. Karta zachęca, by sprawdzić, które przekonania trzymają cię w miejscu. Mały ruch, pytanie lub rozmowa mogą okazać się początkiem wyjścia.",
+    "reversed": "W odwróceniu karta może oznaczać, że opaska zaczyna się zsuwać i widzisz więcej możliwości. Czasem wskazuje jednak na lęk tak silny, że warto szukać wsparcia u życzliwej osoby.",
+    "reflection": [
+      "Jakie przekonanie o sobie trzyma mnie w miejscu?",
+      "Jaki najmniejszy ruch mógłbym lub mogłabym dziś wykonać?"
+    ]
+  },
+  {
+    "id": "swords_09",
+    "name": "Dziewiątka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 9,
+    "keywords": [
+      "niepokój",
+      "nocne myśli",
+      "zamartwianie",
+      "wrażliwość",
+      "potrzeba ukojenia"
+    ],
+    "symbolism": "Postać siedzi na łóżku w ciemności, ukrywając twarz w dłoniach. Na czarnej ścianie wisi poziomo dziewięć mieczy, a narzutę zdobią róże i znaki zodiaku; na boku łóżka wyrzeźbiona jest scena walki.",
+    "upright": "Dziewiątka Mieczy opisuje myśli, które w nocy wydają się większe niż za dnia. Niepokój bywa głośny, ale nie zawsze mówi prawdę o rzeczywistości. Karta zachęca, by zapisać obawy, nazwać je i oddzielić fakty od wyobrażeń. Rozmowa z kimś bliskim może przynieść więcej ulgi, niż się spodziewasz.",
+    "reversed": "Odwrócona Dziewiątka może wskazywać, że niepokój zaczyna słabnąć i pojawia się więcej dystansu. Może też oznaczać zmartwienia trzymane w sekrecie, którym dobrze zrobiłoby wypowiedzenie na głos.",
+    "reflection": [
+      "Która z moich obaw jest faktem, a która wyobrażeniem?",
+      "Z kim mogę podzielić się tym, co nie daje mi spokoju?"
+    ]
+  },
+  {
+    "id": "swords_10",
+    "name": "Dziesiątka Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 10,
+    "keywords": [
+      "koniec etapu",
+      "wyczerpanie",
+      "zamknięcie",
+      "świt",
+      "nowy początek"
+    ],
+    "symbolism": "Postać leży twarzą do ziemi nad brzegiem spokojnej wody, z dziesięcioma mieczami wbitymi w plecy i czerwoną tkaniną narzuconą na ciało. Niebo nad nią jest ciemne, lecz przy horyzoncie rozjaśnia się złocistym pasem świtu.",
+    "upright": "Dziesiątka Mieczy mówi o momencie, w którym jakiś etap dobiega końca i nie da się go już podtrzymać. Obraz jest wyrazisty, niemal teatralny, jakby podkreślał, że gorzej już nie będzie, a więc można zacząć się podnosić. Karta nie zapowiada katastrofy, raczej zachęca do uznania zmęczenia i do odpuszczenia tego, co się wyczerpało. Na horyzoncie już świta.",
+    "reversed": "W odwróceniu karta może oznaczać stopniowe podnoszenie się i odzyskiwanie sił. Może też wskazywać na trzymanie się czegoś, co już się zakończyło, z obawy przed pustką.",
+    "reflection": [
+      "Co w moim życiu dobiegło już końca, choć wciąż to podtrzymuję?",
+      "Jak wygląda mój świt po zamknięciu tego etapu?"
+    ]
+  },
+  {
+    "id": "swords_11",
+    "name": "Paź Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 11,
+    "keywords": [
+      "ciekawość umysłu",
+      "czujność",
+      "pytania",
+      "nauka",
+      "nowe spojrzenie"
+    ],
+    "symbolism": "Młoda postać stoi na nierównym, wietrznym wzgórzu i trzyma miecz uniesiony oburącz. Chmury pędzą po niebie, w górze krążą ptaki, a ona spogląda w bok, jakby nasłuchiwała.",
+    "upright": "Paź Mieczy to energia ciekawego umysłu, który chce rozumieć i zadaje pytania. Karta zachęca do nauki, obserwacji i zbierania informacji, zanim wyciągniesz wnioski. Może też wskazywać na przypływ nowych pomysłów lub chęć wypowiedzenia się. Czujność jest cenna, gdy łączy się z otwartością.",
+    "reversed": "Odwrócony Paź może oznaczać rozproszenie, pochopne słowa lub plotki. Bywa sygnałem, by sprawdzić źródła, zanim coś powtórzysz.",
+    "reflection": [
+      "Czego chciałbym lub chciałabym się teraz dowiedzieć?",
+      "Czy słucham, czy tylko czekam na swoją kolej, by mówić?"
+    ]
+  },
+  {
+    "id": "swords_12",
+    "name": "Rycerz Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 12,
+    "keywords": [
+      "determinacja",
+      "szybkie działanie",
+      "zapał",
+      "bezpośredniość",
+      "impet"
+    ],
+    "symbolism": "Rycerz w zbroi pędzi galopem na białym koniu, wysoko unosząc miecz. Drzewa w tle uginają się na wietrze, a chmury i ptaki rozrywa ten sam gwałtowny podmuch.",
+    "upright": "Rycerz Mieczy niesie silny impuls do działania i bronienia swoich racji. Taka energia pomaga przebić się przez zastój i jasno wyrazić intencje. Karta przypomina jednak, że prędkość nie zawsze idzie w parze z rozwagą. Warto sprawdzić, czy wiesz, dokąd tak pędzisz.",
+    "reversed": "W odwróceniu karta może wskazywać na pośpiech, który rozprasza siły, albo na słowa wypowiadane zbyt ostro. Może też oznaczać zahamowany zapał, który potrzebuje jasnego celu.",
+    "reflection": [
+      "Dokąd się spieszę i czy ten kierunek jest mój?",
+      "Jak mogę wyrazić swoje zdanie stanowczo, ale bez raniącego tonu?"
+    ]
+  },
+  {
+    "id": "swords_13",
+    "name": "Królowa Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 13,
+    "keywords": [
+      "niezależność",
+      "przenikliwość",
+      "szczerość",
+      "granice",
+      "doświadczenie"
+    ],
+    "symbolism": "Królowa siedzi z profilu na tronie zdobionym motywem motyli, trzymając miecz pionowo w prawej ręce. Lewą dłoń unosi otwartą, jakby kogoś zapraszała lub wskazywała drogę, a nad nią w czystym niebie leci pojedynczy ptak.",
+    "upright": "Królowa Mieczy to postać, która widzi jasno i mówi wprost, często dzięki temu, co przeżyła. Karta zachęca, by ufać swojemu osądowi i stawiać granice bez nadmiernych tłumaczeń. Jej przenikliwość nie wyklucza ciepła, otwarta dłoń pokazuje gotowość do rozmowy. Doświadczenie może stać się źródłem mądrości zamiast goryczy.",
+    "reversed": "Odwrócona Królowa może wskazywać na chłód używany jako tarcza lub na zbyt surowe ocenianie siebie i innych. Bywa zachętą, by połączyć jasność myśli z łagodnością.",
+    "reflection": [
+      "Gdzie potrzebuję jaśniej postawić granicę?",
+      "Jak moje doświadczenia mogą mnie uczyć, a nie zamykać?"
+    ]
+  },
+  {
+    "id": "swords_14",
+    "name": "Król Mieczy",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 14,
+    "keywords": [
+      "autorytet intelektualny",
+      "obiektywizm",
+      "zasady",
+      "sprawiedliwość",
+      "jasne myślenie"
+    ],
+    "symbolism": "Król siedzi przodem na wysokim tronie, trzymając miecz nieco odchylony od pionu. Oparcie tronu zdobią motyle i sierpy księżyca, a za nim widać kilka drzew i dwa ptaki na tle chmur.",
+    "upright": "Król Mieczy uosabia umysł, który waży argumenty i kieruje się zasadami. Karta zachęca do bezstronnego spojrzenia na sytuację i do decyzji opartych na faktach. To energia odpowiedzialnej, przemyślanej komunikacji. Mądrość pojawia się, gdy logika służy ludziom, a nie tylko racji.",
+    "reversed": "W odwróceniu karta może oznaczać sztywność przekonań lub używanie argumentów do dominowania nad innymi. Może też wskazywać na wewnętrzny chaos myśli, który potrzebuje uporządkowania.",
+    "reflection": [
+      "Czy moja decyzja opiera się na faktach, czy na obawach?",
+      "Jak mogę łączyć zasady z wyrozumiałością?"
+    ]
+  },
+  {
+    "id": "pentacles_01",
+    "name": "As Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 1,
+    "keywords": [
+      "nowa szansa",
+      "ugruntowanie",
+      "obfitość",
+      "konkret",
+      "potencjał"
+    ],
+    "symbolism": "Z obłoku wysuwa się dłoń, na której spoczywa duży złoty denar z wpisanym pentagramem. Pod nim rozciąga się ogród pełen białych lilii, a ścieżka prowadzi do furtki w żywopłocie, za którą wznoszą się góry.",
+    "upright": "As Denarów mówi o nasionku czegoś namacalnego: nowym zajęciu, umiejętności lub zdrowszym rytmie codzienności. Karta zachęca, by doceniać to, co realne i dostępne tu i teraz. Potencjał staje się czymś trwałym, gdy otacza się go cierpliwą troską. Furtka w ogrodzie jest otwarta, ale przejść trzeba samemu.",
+    "reversed": "Odwrócony As może wskazywać na okazję, która jeszcze nie dojrzała, lub na trudność w przełożeniu planów na działanie. Bywa sygnałem, by wrócić do podstaw i sprawdzić, na czym stoisz.",
+    "reflection": [
+      "Jakie nasiono chciałbym lub chciałabym zasadzić w swojej codzienności?",
+      "Co konkretnego mogę zrobić, by zadbać o swoje zasoby?"
+    ]
+  },
+  {
+    "id": "pentacles_02",
+    "name": "Dwójka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 2,
+    "keywords": [
+      "żonglowanie",
+      "elastyczność",
+      "równowaga",
+      "priorytety",
+      "rytm"
+    ],
+    "symbolism": "Młody mężczyzna w wysokim kapeluszu tańczy, żonglując dwoma denarami połączonymi wstęgą w kształcie leżącej ósemki. Za nim na wysokich falach kołyszą się dwa statki.",
+    "upright": "Dwójka Denarów pokazuje sztukę zachowania równowagi między różnymi obowiązkami. Życie może przypominać taniec na zmiennej fali, a ty uczysz się poruszać w jego rytmie. Karta zachęca do lekkości, ale też do uczciwego spojrzenia na to, ile naraz możesz unieść. Elastyczność jest siłą, gdy nie odbiera ci oddechu.",
+    "reversed": "W odwróceniu karta może wskazywać na zbyt wiele rzeczy w powietrzu i poczucie przeciążenia. Może też być zachętą, by odłożyć jedną z piłek i ustalić, co jest najważniejsze.",
+    "reflection": [
+      "Ile spraw naraz staram się teraz utrzymać?",
+      "Co mógłbym lub mogłabym odłożyć, by odzyskać lekkość?"
+    ]
+  },
+  {
+    "id": "pentacles_03",
+    "name": "Trójka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 3,
+    "keywords": [
+      "współpraca",
+      "rzemiosło",
+      "uznanie",
+      "plan",
+      "wspólne budowanie"
+    ],
+    "symbolism": "W gotyckim wnętrzu rzemieślnik stoi na ławce i pracuje przy łuku sklepienia. Obok niego dwie postacie, jedna w habicie, druga trzymająca rozłożony plan, omawiają postęp prac, a nad nimi w kamieniu wyrzeźbiono trzy denary.",
+    "upright": "Trójka Denarów podkreśla wartość współpracy, w której każdy wnosi swoją umiejętność. Karta zachęca, by dzielić się wiedzą i słuchać tych, którzy patrzą z innej perspektywy. Docenienie cudzej pracy i swojej własnej buduje trwałe efekty. To dobry moment, by zapytać, jak wspólnie można zrobić coś lepiej.",
+    "reversed": "Odwrócona Trójka może sygnalizować brak zgrania w zespole lub poczucie, że twój wkład pozostaje niezauważony. Bywa zachętą do jasnej rozmowy o rolach i oczekiwaniach.",
+    "reflection": [
+      "Z kim mógłbym lub mogłabym zbudować coś razem?",
+      "Czy doceniam swój wkład tak samo jak wkład innych?"
+    ]
+  },
+  {
+    "id": "pentacles_04",
+    "name": "Czwórka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 4,
+    "keywords": [
+      "bezpieczeństwo",
+      "kontrola",
+      "zatrzymywanie",
+      "stabilność",
+      "ostrożność"
+    ],
+    "symbolism": "Mężczyzna w koronie siedzi na kamiennej ławie, mocno przyciskając denar do piersi. Kolejny denar spoczywa na jego koronie, dwa przytrzymuje stopami, a za nim rozpościera się miasto.",
+    "upright": "Czwórka Denarów mówi o potrzebie stabilności i ochrony tego, co masz. Dbałość o bezpieczeństwo jest naturalna i ważna. Karta zachęca jednak, by sprawdzić, czy trzymasz mocno to, co cenne, czy także to, co już tylko zajmuje miejsce. Czasem otwarcie dłoni daje więcej spokoju niż zaciskanie.",
+    "reversed": "W odwróceniu karta może wskazywać na rozluźnianie kurczowego uchwytu i gotowość do dzielenia się. Może też oznaczać wahania między nadmierną ostrożnością a zbyt szybkim rozdawaniem.",
+    "reflection": [
+      "Czego trzymam się z obawy, a nie z potrzeby?",
+      "Co daje mi poczucie bezpieczeństwa poza rzeczami materialnymi?"
+    ]
+  },
+  {
+    "id": "pentacles_05",
+    "name": "Piątka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 5,
+    "keywords": [
+      "trudny czas",
+      "poczucie wykluczenia",
+      "wsparcie",
+      "wytrwałość",
+      "prośba o pomoc"
+    ],
+    "symbolism": "Dwie postacie brną przez śnieg w zimową noc; jedna wspiera się na kulach, druga otula się podartym szalem. Przechodzą obok jasno oświetlonego witrażu z pięcioma denarami, zdając się go nie zauważać.",
+    "upright": "Piątka Denarów opisuje okres, w którym możesz czuć się pozostawiony lub pozostawiona na zewnątrz. Karta uznaje trudność, ale przypomina, że postacie idą razem, a nie w pojedynkę. Światło w oknie sugeruje, że wsparcie bywa bliżej, niż się wydaje. Prośba o pomoc nie jest słabością, lecz formą troski o siebie.",
+    "reversed": "Odwrócona Piątka może oznaczać powolne wychodzenie z trudnego okresu i odzyskiwanie poczucia przynależności. Może też wskazywać na trudność w przyjmowaniu wsparcia, które jest dostępne.",
+    "reflection": [
+      "Gdzie mogę poprosić o wsparcie, którego potrzebuję?",
+      "Kto idzie obok mnie w trudniejszych chwilach?"
+    ]
+  },
+  {
+    "id": "pentacles_06",
+    "name": "Szóstka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 6,
+    "keywords": [
+      "hojność",
+      "dzielenie się",
+      "równowaga",
+      "wymiana",
+      "wdzięczność"
+    ],
+    "symbolism": "Zamożny kupiec trzyma w jednej dłoni wagę, a drugą rozdaje monety jednemu z dwóch klęczących ubogich. Nad sceną unosi się sześć denarów.",
+    "upright": "Szóstka Denarów mówi o przepływie: czasem dajesz, czasem przyjmujesz. Karta zachęca do hojności, która nie upokarza, i do przyjmowania pomocy bez wstydu. Waga w dłoni kupca przypomina o uczciwości i proporcji. Warto zastanowić się, gdzie w twoim życiu wymiana jest sprawiedliwa, a gdzie wymaga korekty.",
+    "reversed": "W odwróceniu karta może wskazywać na nierównowagę, na przykład dawanie z poczucia obowiązku lub pomoc obwarowaną warunkami. Bywa zachętą do przemyślenia granic w relacjach opartych na wsparciu.",
+    "reflection": [
+      "Czy łatwiej mi dawać, czy przyjmować?",
+      "Gdzie w moim życiu wymiana wymaga większej równowagi?"
+    ]
+  },
+  {
+    "id": "pentacles_07",
+    "name": "Siódemka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 7,
+    "keywords": [
+      "cierpliwość",
+      "ocena postępów",
+      "wzrost",
+      "inwestowanie czasu",
+      "pauza"
+    ],
+    "symbolism": "Rolnik opiera się na motyce i spogląda na krzew, na którym wśród liści wyrosło siedem denarów. Jego postawa wyraża zmęczenie i zamyślenie, jakby mierzył, ile już przyniosła jego praca.",
+    "upright": "Siódemka Denarów to chwila zatrzymania, by spojrzeć na to, co już wyrosło. Wzrost bywa powolny i nie zawsze widać go z dnia na dzień. Karta zachęca do cierpliwości i uczciwej oceny, czy kierunek wciąż ci odpowiada. Odpoczynek w trakcie pracy jest częścią uprawy.",
+    "reversed": "Odwrócona Siódemka może wskazywać na zniecierpliwienie lub poczucie, że wysiłek nie przynosi oczekiwanych rezultatów. Bywa zaproszeniem, by zmienić sposób działania, zamiast się poddawać.",
+    "reflection": [
+      "Co już wyrosło dzięki mojej pracy, choć tego nie zauważałem lub nie zauważałam?",
+      "Czy kierunek, w którym zmierzam, nadal jest dla mnie właściwy?"
+    ]
+  },
+  {
+    "id": "pentacles_08",
+    "name": "Ósemka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 8,
+    "keywords": [
+      "mistrzostwo",
+      "praktyka",
+      "skupienie",
+      "rzetelność",
+      "nauka zawodu"
+    ],
+    "symbolism": "Rzemieślnik siedzi przy ławie warsztatowej i dłutem cierpliwie wykańcza kolejny denar. Gotowe krążki wiszą jeden nad drugim na drewnianym słupie, jeden leży u jego stóp, a w oddali widać zabudowania miasta.",
+    "upright": "Ósemka Denarów opisuje radość z doskonalenia się poprzez powtarzanie i skupienie. Karta docenia pracę wykonywaną starannie, nawet jeśli nikt jej akurat nie ogląda. Może zachęcać do nauki nowej umiejętności lub pogłębienia tej, którą już masz. Mistrzostwo rodzi się z małych, codziennych kroków.",
+    "reversed": "W odwróceniu karta może wskazywać na perfekcjonizm, który odbiera przyjemność z pracy, lub na rutynę bez zaangażowania. Bywa zachętą, by przypomnieć sobie, po co się uczysz.",
+    "reflection": [
+      "Jaką umiejętność chciałbym lub chciałabym rozwijać krok po kroku?",
+      "Czy pracuję z zaangażowaniem, czy tylko z obowiązku?"
+    ]
+  },
+  {
+    "id": "pentacles_09",
+    "name": "Dziewiątka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 9,
+    "keywords": [
+      "samodzielność",
+      "dobrobyt",
+      "wyrafinowanie",
+      "niezależność",
+      "docenianie siebie"
+    ],
+    "symbolism": "Kobieta w szacie zdobionej kwiatami stoi w winnicy pełnej dojrzałych gron i dziewięciu denarów. Na jej dłoni w rękawicy siedzi sokół z kapturem na głowie, a w trawie u jej stóp pełznie mały ślimak.",
+    "upright": "Dziewiątka Denarów mówi o satysfakcji z tego, co zbudowało się własnym wysiłkiem i cierpliwością. Karta zachęca, by cieszyć się chwilą spokoju i docenić swoją niezależność. Sokół z kapturem przypomina o opanowaniu i umiejętności czekania. Możesz pozwolić sobie na odrobinę przyjemności bez tłumaczenia się z niej.",
+    "reversed": "Odwrócona Dziewiątka może wskazywać na zależność od zewnętrznego uznania lub na samotność ukrytą za pozorem samowystarczalności. Bywa zaproszeniem, by dzielić się swoim ogrodem z innymi.",
+    "reflection": [
+      "Z czego, co zbudowałem lub zbudowałam samodzielnie, jestem dumny lub dumna?",
+      "Jak mogę cieszyć się tym, co mam, bez porównywania się?"
+    ]
+  },
+  {
+    "id": "pentacles_10",
+    "name": "Dziesiątka Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 10,
+    "keywords": [
+      "dziedzictwo",
+      "trwałość",
+      "wspólnota pokoleń",
+      "korzenie",
+      "długofalowość"
+    ],
+    "symbolism": "Pod łukowatym przejściem siedzi siwy starzec w bogatym płaszczu, głaszcząc dwa białe psy. Obok stoją młoda kobieta, mężczyzna i dziecko, a dziesięć denarów ułożono na obrazie w kształt rozgałęzionego drzewa; w tle widać mury domostwa i herby.",
+    "upright": "Dziesiątka Denarów kieruje uwagę na to, co trwa dłużej niż jedno życie: rodzinne historie, tradycje, wartości i wspólne miejsca. Karta zachęca do refleksji nad tym, co dziedziczysz i co chcesz przekazać dalej. Mówi też o poczuciu zakorzenienia i stabilności budowanej latami. Codzienne gesty troski stają się z czasem dziedzictwem.",
+    "reversed": "W odwróceniu karta może wskazywać na napięcia wokół rodzinnych oczekiwań lub na poczucie, że tradycje cię ograniczają. Bywa zachętą, by świadomie wybrać, co z dziedzictwa chcesz zachować.",
+    "reflection": [
+      "Jakie wartości otrzymałem lub otrzymałam od poprzednich pokoleń?",
+      "Co chciałbym lub chciałabym zostawić po sobie innym?"
+    ]
+  },
+  {
+    "id": "pentacles_11",
+    "name": "Paź Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 11,
+    "keywords": [
+      "nauka",
+      "ciekawość",
+      "nowe umiejętności",
+      "skupienie",
+      "praktyczne marzenie"
+    ],
+    "symbolism": "Młoda postać stoi na zielonej łące i z namaszczeniem trzyma przed sobą denar, wpatrując się w niego. Za nią rozciąga się zaorane pole i kilka drzew, a horyzont jest spokojny i szeroki.",
+    "upright": "Paź Denarów to energia ucznia, który podchodzi do świata z ciekawością i powagą jednocześnie. Karta zachęca do nauki, eksperymentowania i stawiania pierwszych kroków w czymś praktycznym. Pomysły nabierają kształtu, gdy poświęca się im uwagę dzień po dniu. Nie musisz wszystkiego umieć od razu.",
+    "reversed": "Odwrócony Paź może wskazywać na odkładanie startu lub na brak skupienia przy dobrych intencjach. Bywa sygnałem, by wybrać jedną rzecz i zacząć od małego kroku.",
+    "reflection": [
+      "Czego praktycznego chciałbym lub chciałabym się nauczyć?",
+      "Jaki pierwszy, mały krok mogę zrobić w tym tygodniu?"
+    ]
+  },
+  {
+    "id": "pentacles_12",
+    "name": "Rycerz Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 12,
+    "keywords": [
+      "wytrwałość",
+      "metodyczność",
+      "odpowiedzialność",
+      "rutyna",
+      "niezawodność"
+    ],
+    "symbolism": "Rycerz w ciemnej zbroi siedzi na masywnym, stojącym nieruchomo koniu i trzyma przed sobą denar. Za nim rozciąga się zaorane pole, a jego hełm i koński łeb zdobią zielone gałązki.",
+    "upright": "Rycerz Denarów pokazuje siłę płynącą z wytrwałości i konsekwencji. Nie jest najszybszy, ale dociera do celu krok po kroku. Karta zachęca do docenienia rutyny, która buduje, oraz odpowiedzialności wobec podjętych zobowiązań. Powolne tempo bywa najpewniejszą drogą.",
+    "reversed": "W odwróceniu karta może wskazywać na utknięcie w rutynie, która przestała służyć, lub na nadmierną ostrożność. Bywa zaproszeniem, by wprowadzić odrobinę świeżości do codziennych nawyków.",
+    "reflection": [
+      "Jaki codzienny nawyk naprawdę mnie wspiera?",
+      "Gdzie moja ostrożność zamienia się w zastój?"
+    ]
+  },
+  {
+    "id": "pentacles_13",
+    "name": "Królowa Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 13,
+    "keywords": [
+      "troska",
+      "praktyczna mądrość",
+      "dom",
+      "natura",
+      "zaradność"
+    ],
+    "symbolism": "Królowa siedzi na tronie w ogrodzie pełnym kwitnących róż i trzyma w dłoniach denar, spoglądając na niego z czułością. Tron zdobią rzeźbione owoce i głowy kóz, a w dolnym rogu obrazu przycupnął królik.",
+    "upright": "Królowa Denarów uosabia ciepło połączone z praktycznym rozsądkiem. Karta zachęca do dbania o otoczenie, ciało i codzienny rytm w sposób, który daje poczucie zakorzenienia. Mówi o tworzeniu przestrzeni, w której ty i inni możecie się dobrze czuć. Troska o siebie jest tu równie ważna, jak troska o bliskich.",
+    "reversed": "W odwróceniu karta może wskazywać na zaniedbywanie siebie przy nadmiernym dbaniu o innych lub na zbyt duże przywiązanie do porządku. Bywa zachętą, by odnaleźć równowagę między dawaniem a odpoczynkiem.",
+    "reflection": [
+      "Jak mogę dziś zadbać o swoją przestrzeń i rytm dnia?",
+      "Czy troszczę się o siebie z taką samą czułością jak o innych?"
+    ]
+  },
+  {
+    "id": "pentacles_14",
+    "name": "Król Denarów",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 14,
+    "keywords": [
+      "stabilność",
+      "dojrzałość",
+      "odpowiedzialność",
+      "hojność",
+      "praktyczne przywództwo"
+    ],
+    "symbolism": "Król siedzi na tronie ozdobionym rzeźbionymi głowami byków, w szacie gęsto pokrytej motywem winorośli i gron. W jednej dłoni trzyma berło, w drugiej denar, a za nim wznoszą się mury zamku.",
+    "upright": "Król Denarów pokazuje dojrzałą stabilność, budowaną cierpliwie i odpowiedzialnie. Karta zachęca, by z wdzięcznością spojrzeć na to, co udało się stworzyć, i zastanowić się, jak może to służyć także innym. To energia kogoś, kto potrafi tworzyć bezpieczne warunki dla siebie i otoczenia. Prawdziwe bogactwo obejmuje też czas, relacje i spokój.",
+    "reversed": "Odwrócony Król może wskazywać na nadmierne skupienie na kontroli lub na mierzenie wartości wyłącznie posiadaniem. Bywa zaproszeniem, by przypomnieć sobie, czemu służy to, co budujesz.",
+    "reflection": [
+      "Co uważam za swoje prawdziwe bogactwo?",
+      "Jak to, co zbudowałem lub zbudowałam, może wspierać innych?"
+    ]
+  }
+]
