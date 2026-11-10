@@ -141,6 +141,7 @@ void main() {
       expect(x.pinnacles.keys.toSet(), {for (var i = 1; i <= 9; i++) i});
       expect(x.challenges.keys.toSet(), {for (var i = 0; i <= 8; i++) i});
       expect(c.iching.keys.toSet(), {for (var i = 1; i <= 64; i++) i});
+      expect(c.iching.values.every((h) => h.lines.length == 6), isTrue);
       expect(c.astro.transits.length, 6);
       expect(c.astro.rituals.keys.toSet(), {'new', 'full'});
       expect(x.karmicDebts.keys.toSet(), {13, 14, 16, 19});

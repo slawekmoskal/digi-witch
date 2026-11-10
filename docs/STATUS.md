@@ -14,7 +14,8 @@ Ostatnia aktualizacja: 2026-11-10 (popołudnie). **Zmiany niezacommitowane** —
 - Wielka trójka (Słońce, Księżyc, ascendent; godzina + miasto w PL), horoskop chiński (żywioł, yin/yang, rok, zgodność), zgodność dwóch osób, karta urodzenia, sennik (144), artykuł o powtarzających się liczbach.
 - Nowy wygląd: paleta z ikony, Cormorant Garamond, ramka „karta tarota”, pływający pasek (na iOS imitacja Liquid Glass), ekran Tarota z talią i odsłanianiem kart.
 - Później: miejsca urodzenia na świecie (229 + własne współrzędne), Dziś jako centrum (data od razu, kafelki „Odkrywaj”), Liczby z profilem; kwadrat Pitagorasa, cykle życia, I Ching, rytuały nowiu/pełni (powiadomienia), tranzyty osobiste.
-- Testy: `flutter test` 99/99; obliczenia astronomiczne sprawdzone z PyEphem (fixtures w `test/fixtures/`).
+- Potem: miesiąc osobisty, dojrzałość, karma, numer domu, zaćmienia, horoskop tygodniowy/miesięczny, rozkłady Decyzja/Miesiąc/Rok, dłuższe opisy, 384 linie I Ching.
+- Testy: `flutter test` 104/104; obliczenia astronomiczne sprawdzone z PyEphem (fixtures w `test/fixtures/`).
 
 ## Do zrobienia przy commicie
 - **Nie commitować** `ios/Runner.xcodeproj/project.pbxproj` (demo: bundle `com.digiwitch.app.demo`, Team `2B3TYZXZA8`) — przywrócić `git checkout` przed buildem do sklepu.
@@ -26,7 +27,7 @@ Ostatnia aktualizacja: 2026-11-10 (popołudnie). **Zmiany niezacommitowane** —
 3. Prawdziwe ID AdMob przy buildzie (`--dart-define=ADMOB_BANNER_ANDROID=…`, `-PADMOB_APP_ID_ANDROID=…`, iOS `Info.plist`).
 4. Produkt `pro_lifetime` w obu sklepach → test sandbox zakupu/przywracania.
 5. iOS: zainstalować runtime symulatora iOS 27.2 (Xcode → Settings → Components) → test na symulatorze, Privacy Report.
-6. Korekta treści przez człowieka — w tym nowe: rady kart, `astro.json`, `dreams.json`, liczba dnia/relacji (`docs/content-sources.md`), polityka prywatności pod digi-witch.com/prywatnosc (`docs/privacy-policy-draft.md`), decyzja DSA (przedsiębiorca).
+6. Korekta treści przez człowieka — w tym nowe: rady kart, `astro.json`, `dreams.json`, `iching.json`, `numerology_extra.json`, nowe wskaźniki w `numerology.json` (`docs/content-sources.md`), polityka prywatności pod digi-witch.com/prywatnosc (`docs/privacy-policy-draft.md`), decyzja DSA (przedsiębiorca).
 
 ## Środowisko
 ```sh

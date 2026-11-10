@@ -223,8 +223,10 @@ class NumerologyExtra {
 class Hexagram {
   final int n;
   final String name, text, advice;
+  final List<String> lines; // bottom → top
   Hexagram.fromJson(Map<String, dynamic> j)
-    : n = j['n'],
+    : lines = List<String>.from(j['lines']),
+      n = j['n'],
       name = j['name'],
       text = j['text'],
       advice = j['advice'];

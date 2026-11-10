@@ -569,7 +569,7 @@
     }
   },
   "ichingAgain": "Nowe pytanie",
-  "ichingNote": "Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.",
+  "ichingNote": "Opisy heksagramów i linii są autorskimi, skróconymi interpretacjami tej aplikacji, inspirowanymi obrazami starochińskiego tekstu — traktuj je jako pretekst do refleksji.",
   "exploreIching": "Pytanie i sześć rzutów monetą",
   "ritualsTitle": "Rytuały Księżyca",
   "exploreRituals": "Intencje na nów i pełnię",
@@ -693,5 +693,28 @@
   },
   "loveLabel": "Miłość",
   "workLabel": "Praca",
-  "wellbeingLabel": "Dobre samopoczucie"
+  "wellbeingLabel": "Dobre samopoczucie",
+  "ichingImage": "Obraz: {upper} nad {lower}",
+  "@ichingImage": {
+    "placeholders": {
+      "upper": {
+        "type": "String"
+      },
+      "lower": {
+        "type": "String"
+      }
+    }
+  },
+  "ichingLinesTitle": "Linie zmienne",
+  "ichingLine": "Linia {n}: {text}",
+  "@ichingLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  }
 }

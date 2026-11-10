@@ -46,3 +46,10 @@ int hexagram(List<bool> yang) {
     hexagram([for (final l in lines) isChanging(l) ? !isYang(l) : isYang(l)]),
   );
 }
+
+/// (upper, lower) trigram indices in the order Qian, Zhen, Kan, Gen, Kun, Xun, Li, Dui.
+(int, int) trigramsOf(List<bool> yang) {
+  String t(int from) =>
+      [for (var i = from; i < from + 3; i++) yang[i] ? '1' : '0'].join();
+  return (_trigrams[t(3)]!, _trigrams[t(0)]!);
+}

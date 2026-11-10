@@ -938,7 +938,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ichingNote =>
-      'Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.';
+      'Opisy heksagramów i linii są autorskimi, skróconymi interpretacjami tej aplikacji, inspirowanymi obrazami starochińskiego tekstu — traktuj je jako pretekst do refleksji.';
 
   @override
   String get exploreIching => 'Pytanie i sześć rzutów monetą';
@@ -1099,4 +1099,17 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get wellbeingLabel => 'Dobre samopoczucie';
+
+  @override
+  String ichingImage(String upper, String lower) {
+    return 'Obraz: $upper nad $lower';
+  }
+
+  @override
+  String get ichingLinesTitle => 'Linie zmienne';
+
+  @override
+  String ichingLine(int n, String text) {
+    return 'Linia $n: $text';
+  }
 }

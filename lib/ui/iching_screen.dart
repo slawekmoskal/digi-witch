@@ -5,6 +5,29 @@ import 'package:flutter/material.dart';
 import '../engine/iching.dart';
 import 'widgets.dart';
 
+// Trigram names in the engine's order (Qian, Zhen, Kan, Gen, Kun, Xun, Li, Dui): nominative / instrumental.
+// shortcut: Polish in code like spread names (decisions.md #9); move to ARB with a second language.
+const _trigramNom = [
+  'Niebo',
+  'Grzmot',
+  'Woda',
+  'Góra',
+  'Ziemia',
+  'Wiatr',
+  'Ogień',
+  'Jezioro',
+];
+const _trigramIns = [
+  'Niebem',
+  'Grzmotem',
+  'Wodą',
+  'Górą',
+  'Ziemią',
+  'Wiatrem',
+  'Ogniem',
+  'Jeziorem',
+];
+
 /// I Ching: a question, six throws of three coins (bottom line first), then the reading.
 class IChingScreen extends StatefulWidget {
   const IChingScreen({super.key});
@@ -95,8 +118,38 @@ class _IChingScreenState extends State<IChingScreen> {
                   style: t.bodyMedium?.copyWith(fontStyle: FontStyle.italic),
                 ),
               ),
+            Builder(
+              builder: (context) {
+                final (up, low) = trigramsOf([
+                  for (final x in _lines) isYang(x),
+                ]);
+                return Text(
+                  l.ichingImage(_trigramNom[up], _trigramIns[low]),
+                  style: t.labelLarge?.copyWith(
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                );
+              },
+            ),
             LabeledBlock(l.ichingMeaning, Text(hex[reading.$1]!.text)),
             LabeledBlock(l.advice, Text(hex[reading.$1]!.advice)),
+            if (_lines.any(isChanging))
+              LabeledBlock(
+                l.ichingLinesTitle,
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (var i = 0; i < 6; i++)
+                      if (isChanging(_lines[i]))
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 6),
+                          child: Text(
+                            l.ichingLine(i + 1, hex[reading.$1]!.lines[i]),
+                          ),
+                        ),
+                  ],
+                ),
+              ),
             if (reading.$2 case final next?)
               LabeledBlock(
                 l.ichingChange,

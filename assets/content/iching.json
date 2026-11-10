@@ -3,384 +3,896 @@
     "n": 1,
     "name": "Twórcza siła (Niebo)",
     "text": "Czysta energia działania, inicjatywa i siła, która niczego nie potrzebuje, by ruszyć.",
-    "advice": "Działaj odważnie i konsekwentnie, ale z umiarem — siła bez kierunku się wypala."
+    "advice": "Działaj odważnie i konsekwentnie, ale z umiarem — siła bez kierunku się wypala.",
+    "lines": [
+      "Siła jeszcze ukryta — nie działaj pochopnie, przygotuj się.",
+      "Pierwsze efekty są widoczne; szukaj ludzi, od których możesz się uczyć.",
+      "Dużo pracy i napięcia — czuwaj, ale nie przemęczaj się.",
+      "Stoisz przed wyborem: skoczyć czy poczekać. Oba są dobre, jeśli są szczere.",
+      "Pełnia możliwości — działaj z rozmachem i szukaj wsparcia mądrych.",
+      "Przesada pychy — kto wspiął się za wysoko, zaczyna żałować."
+    ]
   },
   {
     "n": 2,
     "name": "Przyjmowanie (Ziemia)",
     "text": "Otwartość, cierpliwość i podatność, która pozwala czemuś wyrosnąć.",
-    "advice": "Nie prowadź teraz — podążaj, wspieraj, daj sprawom dojrzeć."
+    "advice": "Nie prowadź teraz — podążaj, wspieraj, daj sprawom dojrzeć.",
+    "lines": [
+      "Pierwszy szron zapowiada zimę — zauważ małe sygnały, zanim urosną.",
+      "Bądź prosty(-a) i szczery(-a) — naturalność przyniesie powodzenie.",
+      "Pracuj w cieniu, bez zabiegania o uznanie — efekty przyjdą.",
+      "Czas zamknąć usta i sakiewkę — ostrożność chroni przed błędem.",
+      "Skromność w ważnej roli przynosi wielkie szczęście.",
+      "Walka sił przeciwnych — gdy upór obu stron rośnie, obie tracą."
+    ]
   },
   {
     "n": 3,
     "name": "Trudny początek",
     "text": "Chaos pierwszych kroków: wszystko kiełkuje, ale jeszcze się nie ułożyło.",
-    "advice": "Nie zrażaj się zamętem. Poproś o pomoc i nie przyspieszaj na siłę."
+    "advice": "Nie zrażaj się zamętem. Poproś o pomoc i nie przyspieszaj na siłę.",
+    "lines": [
+      "Przeszkoda na starcie — zatrzymaj się, ale nie porzucaj celu.",
+      "Pomoc przychodzi, choć nie od razu — nie przyjmuj jej z niewłaściwych rąk.",
+      "Bez przewodnika łatwo zabłądzić — lepiej odpuścić, niż iść na oślep.",
+      "Przyjmij pomoc, o którą prosisz — teraz współpraca przynosi postęp.",
+      "Masz zasoby, ale nie możesz ich jeszcze w pełni użyć — małe kroki.",
+      "Zniechęcenie i łzy — to nie koniec, tylko dno, od którego się odbijasz."
+    ]
   },
   {
     "n": 4,
     "name": "Młodzieńcza niewiedza",
     "text": "Nie wiesz jeszcze wszystkiego — i to jest punkt wyjścia do nauki.",
-    "advice": "Pytaj, ucz się od doświadczonych, nie udawaj eksperta."
+    "advice": "Pytaj, ucz się od doświadczonych, nie udawaj eksperta.",
+    "lines": [
+      "Odrobina dyscypliny pomaga nauce, ale nie zamykaj się w surowości.",
+      "Cierpliwość wobec niewiedzy innych świadczy o dojrzałości.",
+      "Nie goń za tym, co tylko błyszczy — trzymaj się istoty.",
+      "Uparte trwanie w niewiedzy prowadzi do upokorzenia — otwórz się na naukę.",
+      "Dziecięca otwartość przynosi powodzenie.",
+      "Gdy trzeba kogoś skorygować, rób to, by chronić, nie by karać."
+    ]
   },
   {
     "n": 5,
     "name": "Czekanie",
     "text": "Sprawa dojrzewa; deszcz przyjdzie, ale nie teraz.",
-    "advice": "Czekaj spokojnie i z ufnością. Przygotuj się, zamiast się niecierpliwić."
+    "advice": "Czekaj spokojnie i z ufnością. Przygotuj się, zamiast się niecierpliwić.",
+    "lines": [
+      "Czekasz z dala od niebezpieczeństwa — zachowaj spokój i rutynę.",
+      "Drobne plotki i niepokój — nie reaguj, a minie.",
+      "Czekasz w błocie — sam(a) ściągasz kłopot; bądź ostrożny(-a).",
+      "W trudnym miejscu: wyjdź z niego spokojnie, bez paniki.",
+      "Czekanie przy dobrym stole — ciesz się chwilą i nie trać celu z oczu.",
+      "Niespodziewani goście — przyjmij ich z szacunkiem, a pomogą."
+    ]
   },
   {
     "n": 6,
     "name": "Spór",
     "text": "Napięcie, różne racje, ryzyko konfliktu.",
-    "advice": "Szukaj porozumienia w połowie drogi. Nie doprowadzaj sporu do końca za wszelką cenę."
+    "advice": "Szukaj porozumienia w połowie drogi. Nie doprowadzaj sporu do końca za wszelką cenę.",
+    "lines": [
+      "Nie przedłużaj sporu — kilka słów wyjaśnienia wystarczy.",
+      "Wycofanie się z przegranej walki jest mądrością, nie wstydem.",
+      "Trzymaj się tego, co Ci należne z tradycji — nie sięgaj po więcej.",
+      "Zrezygnuj ze sporu i wróć do spokoju — zyskasz więcej.",
+      "Spór rozstrzygnięty sprawiedliwie przynosi pomyślność.",
+      "Wygrany siłą spór daje nagrodę, którą łatwo stracić."
+    ]
   },
   {
     "n": 7,
     "name": "Armia",
     "text": "Zorganizowana siła, dyscyplina i wspólny cel.",
-    "advice": "Potrzebny jest porządek i dobre przywództwo. Działaj zespołowo i z planem."
+    "advice": "Potrzebny jest porządek i dobre przywództwo. Działaj zespołowo i z planem.",
+    "lines": [
+      "Porządek na starcie decyduje o wszystkim — bez niego klęska.",
+      "Lider w środku zespołu, blisko ludzi — zaufanie przynosi sukces.",
+      "Zbyt wielu dowodzi naraz — to prowadzi do porażki.",
+      "Wycofanie się w porę to nie błąd.",
+      "Działaj wobec zagrożenia, ale oddaj dowództwo doświadczonym.",
+      "Po zwycięstwie rozdaj zadania mądrym, nie tym, którzy tylko krzyczą."
+    ]
   },
   {
     "n": 8,
     "name": "Jedność",
     "text": "Łączenie się z innymi, wspólnota, przynależność.",
-    "advice": "Szukaj sojuszników i budź zaufanie. Nie zwlekaj z dołączeniem."
+    "advice": "Szukaj sojuszników i budź zaufanie. Nie zwlekaj z dołączeniem.",
+    "lines": [
+      "Szczerość od początku buduje prawdziwą jedność.",
+      "Bliskość płynąca z wnętrza — zachowaj własną godność.",
+      "Uważaj, z kim się wiążesz — nie każdy jest właściwy.",
+      "Otwarta lojalność wobec kogoś godnego przynosi dobro.",
+      "Prawdziwy przywódca przyciąga, nie zmusza.",
+      "Spóźnione przyłączenie się bywa niemożliwe — nie zwlekaj."
+    ]
   },
   {
     "n": 9,
     "name": "Mała siła oswajania",
     "text": "Drobne przeszkody spowalniają, ale nie zatrzymują.",
-    "advice": "Działaj łagodnie i małymi krokami. Wielkie gesty jeszcze nie teraz."
+    "advice": "Działaj łagodnie i małymi krokami. Wielkie gesty jeszcze nie teraz.",
+    "lines": [
+      "Wróć na własną drogę — to nie błąd.",
+      "Inni wracają razem z Tobą — wspólny powrót przynosi szczęście.",
+      "Wóz traci koło — spór blokuje postęp; najpierw zgoda.",
+      "Szczerość usuwa strach i krzywdę.",
+      "Wierność łączy ludzi i dzieli bogactwo.",
+      "Deszcz przyszedł — czas spocząć i nie forsować dalej."
+    ]
   },
   {
     "n": 10,
     "name": "Stąpanie",
     "text": "Ostrożne kroki w delikatnej sytuacji — jak stąpanie po ogonie tygrysa.",
-    "advice": "Zachowuj takt i uprzejmość. Dobre maniery chronią Cię przed kłopotem."
+    "advice": "Zachowuj takt i uprzejmość. Dobre maniery chronią Cię przed kłopotem.",
+    "lines": [
+      "Prosta, skromna droga — idź nią, a nic złego się nie stanie.",
+      "Spokojna, równa ścieżka — dobra dla tych, którzy nie szukają rozgłosu.",
+      "Przeceniasz siły — możesz zostać zraniony(-a).",
+      "Ostrożność w niebezpiecznym miejscu ostatecznie przynosi powodzenie.",
+      "Stanowczość jest potrzebna, ale świadomość ryzyka też.",
+      "Spójrz wstecz na swoje kroki — z nich wynika to, co nadchodzi."
+    ]
   },
   {
     "n": 11,
     "name": "Pokój",
     "text": "Harmonia nieba i ziemi — sprzyjający czas.",
-    "advice": "Korzystaj z dobrego okresu, buduj i dziel się. Pamiętaj, że pomyślność też się zmienia."
+    "advice": "Korzystaj z dobrego okresu, buduj i dziel się. Pamiętaj, że pomyślność też się zmienia.",
+    "lines": [
+      "Dobre rzeczy przychodzą razem — działaj z innymi.",
+      "Bądź wyrozumiały(-a) wobec słabszych i nie zapominaj o dalekich.",
+      "Nie ma równiny bez spadku — pamiętaj o tym w dobrych czasach.",
+      "Zejdź do innych bez wyższości — szczerość łączy.",
+      "Dobre połączenie przynosi błogosławieństwo.",
+      "Mur wraca do fosy — nie używaj teraz siły, uporządkuj swoje sprawy."
+    ]
   },
   {
     "n": 12,
     "name": "Zastój",
     "text": "Rzeczy nie płyną, porozumienie jest trudne.",
-    "advice": "Nie forsuj. Zachowaj swoje wartości i przeczekaj, nie dając się wciągnąć w złe układy."
+    "advice": "Nie forsuj. Zachowaj swoje wartości i przeczekaj, nie dając się wciągnąć w złe układy.",
+    "lines": [
+      "Wycofaj się razem z podobnymi Tobie — zachowaj wartości.",
+      "Znoś cierpliwie to, co trudne — nie wchodź w złe układy.",
+      "Wstyd ukryty w środku — przyznaj się przed sobą.",
+      "Działaj zgodnie z tym, co wyższe, a zastój zacznie ustępować.",
+      "Zastój się kończy, ale uważaj — wszystko jeszcze kruche.",
+      "Zastój się odwraca — najpierw trudność, potem radość."
+    ]
   },
   {
     "n": 13,
     "name": "Wspólnota z ludźmi",
     "text": "Ludzie łączą się wokół wspólnego celu.",
-    "advice": "Działaj otwarcie i szukaj tego, co wspólne, a nie tego, co dzieli."
+    "advice": "Działaj otwarcie i szukaj tego, co wspólne, a nie tego, co dzieli.",
+    "lines": [
+      "Wspólnota przy drzwiach — otwartość wobec wszystkich bez wyjątku.",
+      "Wspólnota tylko we własnym kręgu prowadzi do upokorzenia.",
+      "Ukryta broń i nieufność — nic dobrego z tego nie wyjdzie przez lata.",
+      "Wspinasz się na mur, ale nie atakujesz — zatrzymanie się w porę to szczęście.",
+      "Najpierw łzy, potem śmiech — prawdziwa więź pokonuje przeszkody.",
+      "Wspólnota na obrzeżach — nic nie żałujesz, choć celu jeszcze brak."
+    ]
   },
   {
     "n": 14,
     "name": "Wielkie posiadanie",
     "text": "Obfitość, sukces, wiele w Twoich rękach.",
-    "advice": "Bądź hojny(-a) i skromny(-a) — dobrobyt trwa, gdy służy też innym."
+    "advice": "Bądź hojny(-a) i skromny(-a) — dobrobyt trwa, gdy służy też innym.",
+    "lines": [
+      "Dużo posiadasz, ale bez pychy — uniknij błędu.",
+      "Wielki wóz do ładunku — masz zasoby, by zrobić coś ważnego.",
+      "Dziel się tym, co masz — samolubstwo zniszczy dobrobyt.",
+      "Nie przechwalaj się — skromność chroni bogactwo.",
+      "Szczerość połączona z godnością przynosi szacunek.",
+      "Wsparcie z góry — wszystko sprzyja."
+    ]
   },
   {
     "n": 15,
     "name": "Skromność",
     "text": "Siła, która nie musi się pokazywać.",
-    "advice": "Nie wywyższaj się. Skromność wyrównuje to, co nierówne, i otwiera drzwi."
+    "advice": "Nie wywyższaj się. Skromność wyrównuje to, co nierówne, i otwiera drzwi.",
+    "lines": [
+      "Skromny podwójnie — przejdziesz przez wielką wodę.",
+      "Skromność, która wyraża się na zewnątrz, przynosi szczęście.",
+      "Pracowita skromność doprowadza sprawy do końca.",
+      "Skromność w działaniu — wszystko idzie dobrze.",
+      "Skromność nie oznacza bierności — czasem trzeba działać stanowczo.",
+      "Skromność wobec siebie: najpierw uporządkuj własne sprawy."
+    ]
   },
   {
     "n": 16,
     "name": "Entuzjazm",
     "text": "Radosna energia, która porywa innych.",
-    "advice": "Zarażaj zapałem, ale przygotuj grunt — entuzjazm potrzebuje planu."
+    "advice": "Zarażaj zapałem, ale przygotuj grunt — entuzjazm potrzebuje planu.",
+    "lines": [
+      "Chwalenie się entuzjazmem przynosi pecha.",
+      "Twardy jak skała — rozpoznaj chwilę i nie daj się porwać.",
+      "Patrzenie w górę z nadzieją bez działania prowadzi do żalu.",
+      "Źródło entuzjazmu — przyciągasz ludzi szczerością.",
+      "Długa choroba bez śmierci — trwała presja, która nie łamie.",
+      "Ślepy entuzjazm — jeśli się zmienisz, unikniesz błędu."
+    ]
   },
   {
     "n": 17,
     "name": "Podążanie",
     "text": "Dostosowanie się do biegu rzeczy i za kimś, kto prowadzi.",
-    "advice": "Podążaj za tym, co słuszne, a nie za tym, co wygodne."
+    "advice": "Podążaj za tym, co słuszne, a nie za tym, co wygodne.",
+    "lines": [
+      "Zmiana sytuacji — wyjdź z domu i szukaj kontaktu z innymi.",
+      "Trzymasz się małego, tracisz wielkie — wybierz mądrze.",
+      "Trzymasz się wielkiego, tracisz małe — i dobrze.",
+      "Podążanie z ukrytym celem — bądź szczery(-a) wobec siebie.",
+      "Szczerość wobec dobra przynosi szczęście.",
+      "Głęboka więź, którą trudno przerwać — trwaj przy niej."
+    ]
   },
   {
     "n": 18,
     "name": "Naprawa zepsutego",
     "text": "Coś zaniedbanego wymaga uporządkowania.",
-    "advice": "Zajmij się źródłem problemu, nie objawami. Naprawa wymaga namysłu przed i po."
+    "advice": "Zajmij się źródłem problemu, nie objawami. Naprawa wymaga namysłu przed i po.",
+    "lines": [
+      "Naprawiasz to, co zepsuł ojciec — trudne, ale dobre.",
+      "Naprawiasz to, co zepsuła matka — rób to łagodnie.",
+      "Naprawiasz zbyt gwałtownie — trochę żalu, ale bez wielkiego błędu.",
+      "Tolerowanie zepsucia prowadzi do upokorzenia.",
+      "Naprawa przynosi uznanie.",
+      "Nie służysz królom — dbasz o własne wartości."
+    ]
   },
   {
     "n": 19,
     "name": "Zbliżanie się",
     "text": "Coś dobrego nadchodzi; czas wzrostu.",
-    "advice": "Wykorzystaj ten okres, ale pamiętaj, że każda pora roku mija."
+    "advice": "Wykorzystaj ten okres, ale pamiętaj, że każda pora roku mija.",
+    "lines": [
+      "Wspólne zbliżanie — wytrwałość przynosi szczęście.",
+      "Wspólne zbliżanie — wszystko sprzyja.",
+      "Zbliżanie się zbyt łatwe i wygodne — zauważ to i zmień.",
+      "Pełne zbliżenie — bez błędu.",
+      "Mądre zbliżanie, godne przywódcy.",
+      "Hojne zbliżanie — szczęście."
+    ]
   },
   {
     "n": 20,
     "name": "Kontemplacja",
     "text": "Spojrzenie z wysoka, obserwacja, zrozumienie.",
-    "advice": "Zatrzymaj się i popatrz. Twój przykład mówi więcej niż słowa."
+    "advice": "Zatrzymaj się i popatrz. Twój przykład mówi więcej niż słowa.",
+    "lines": [
+      "Patrzysz jak dziecko — dobre dla prostych, niewystarczające dla mądrych.",
+      "Patrzysz przez szparę — zbyt wąska perspektywa.",
+      "Spójrz na własne życie i zdecyduj, czy iść naprzód czy się cofnąć.",
+      "Obserwujesz świetność innych — czas, by stać się gościem przy ważnym stole.",
+      "Przyjrzyj się sobie — jeśli jesteś prawy(-a), nie ma błędu.",
+      "Przyjrzyj się swojemu życiu z dystansu."
+    ]
   },
   {
     "n": 21,
     "name": "Przegryzanie",
     "text": "Przeszkoda, którą trzeba przełamać zdecydowanie.",
-    "advice": "Nazwij problem i rozwiąż go stanowczo, ale sprawiedliwie."
+    "advice": "Nazwij problem i rozwiąż go stanowczo, ale sprawiedliwie.",
+    "lines": [
+      "Drobna kara na początek zapobiega większemu złu.",
+      "Gryziesz zbyt głęboko — ale to nie błąd.",
+      "Twarde jedzenie i trucizna — drobny wstyd, bez dużej szkody.",
+      "Twarda kość — wytrwałość w trudnościach przynosi korzyść.",
+      "Złoto w suchym mięsie — bądź sprawiedliwy(-a) i stanowczy(-a).",
+      "Zbyt późna nauka — nie słuchasz, więc płacisz."
+    ]
   },
   {
     "n": 22,
     "name": "Wdzięk",
     "text": "Piękno, forma, elegancja.",
-    "advice": "Zadbaj o formę, ale nie myl jej z treścią. Ważne sprawy wymagają więcej niż ozdób."
+    "advice": "Zadbaj o formę, ale nie myl jej z treścią. Ważne sprawy wymagają więcej niż ozdób.",
+    "lines": [
+      "Ozdób swoje kroki — wybierz skromną drogę pieszo, nie powóz.",
+      "Ozdoba brody — forma bez treści nic nie znaczy.",
+      "Piękno i wilgoć — trwaj przy wartościach, a będzie dobrze.",
+      "Prostota czy przepych? Biel jest piękniejsza niż ozdoby.",
+      "Skromny dar ze szczerego serca ma wartość.",
+      "Prosta biel — bez ozdób, bez błędu."
+    ]
   },
   {
     "n": 23,
     "name": "Rozpad",
     "text": "Stare struktury się rozsypują.",
-    "advice": "Nie podejmuj teraz wielkich działań. Przeczekaj i zadbaj o fundamenty."
+    "advice": "Nie podejmuj teraz wielkich działań. Przeczekaj i zadbaj o fundamenty.",
+    "lines": [
+      "Noga łóżka się kruszy — rozpad zaczyna się od podstaw.",
+      "Rozpad sięga ramy łóżka — bądź czujny(-a).",
+      "Odejdź od tego, co się sypie — bez winy.",
+      "Rozpad dotyka Ciebie — zatrzymaj się i chroń, co możesz.",
+      "Łaska dla tych, którzy byli wierni — nadchodzi poprawa.",
+      "Wielki owoc niezjedzony — po rozpadzie przychodzi odnowa."
+    ]
   },
   {
     "n": 24,
     "name": "Powrót",
     "text": "Punkt zwrotny — światło wraca po ciemności.",
-    "advice": "Pozwól nowemu wzrastać powoli. Wracaj do tego, co dla Ciebie właściwe."
+    "advice": "Pozwól nowemu wzrastać powoli. Wracaj do tego, co dla Ciebie właściwe.",
+    "lines": [
+      "Powrót z niedaleka — bez żalu, wielkie szczęście.",
+      "Spokojny powrót — dobrze.",
+      "Powtarzane powroty — niebezpieczne, ale bez błędu.",
+      "Idziesz z innymi, ale wracasz sam(a) — to Twoja droga.",
+      "Szlachetny powrót — bez żalu.",
+      "Przegapiony powrót — klęska; wróć, póki możesz."
+    ]
   },
   {
     "n": 25,
     "name": "Niewinność",
     "text": "Działanie bez ukrytych zamiarów, prostota.",
-    "advice": "Bądź szczery(-a) i spontaniczny(-a). Kombinowanie teraz zaszkodzi."
+    "advice": "Bądź szczery(-a) i spontaniczny(-a). Kombinowanie teraz zaszkodzi.",
+    "lines": [
+      "Niewinne działanie przynosi szczęście.",
+      "Nie licz na zbiory, zanim zasiejesz — rób to, co trzeba.",
+      "Niezawinione nieszczęście — to minie.",
+      "Trwaj przy niewinności — bez błędu.",
+      "Choroba bez winy — nie lecz jej na siłę, minie sama.",
+      "Działanie bez ładu teraz przynosi szkodę — przeczekaj."
+    ]
   },
   {
     "n": 26,
     "name": "Wielka siła oswajania",
     "text": "Zgromadzona energia, wiedza i zasoby.",
-    "advice": "Wykorzystaj to, czego się nauczyłeś(-aś). Dobry czas na wielkie przedsięwzięcia."
+    "advice": "Wykorzystaj to, czego się nauczyłeś(-aś). Dobry czas na wielkie przedsięwzięcia.",
+    "lines": [
+      "Niebezpieczeństwo — zatrzymaj się.",
+      "Wóz bez osi — teraz nie ruszaj.",
+      "Dobry koń biegnie — trenuj i bądź gotowy(-a) do drogi.",
+      "Młodemu bykowi zakłada się deskę na rogi — zapobiegaj, zanim będzie za późno.",
+      "Wykastrowany dzik — kieruj siłą pośrednio, nie wprost.",
+      "Droga do nieba otwarta — wielki sukces."
+    ]
   },
   {
     "n": 27,
     "name": "Karmienie",
     "text": "Troska o to, czym się karmisz — ciało, umysł, słowa.",
-    "advice": "Zwróć uwagę, co przyjmujesz i co dajesz innym."
+    "advice": "Zwróć uwagę, co przyjmujesz i co dajesz innym.",
+    "lines": [
+      "Zostawiasz własną mądrość i patrzysz z zazdrością na innych — błąd.",
+      "Szukasz pożywienia u niewłaściwych — nie warto.",
+      "Odżywianie się tym, co szkodzi — zmień nawyki.",
+      "Szukasz wsparcia u mądrzejszych — dobrze.",
+      "Nie jesteś jeszcze gotów(-owa) na wielkie zadania — zostań przy swoich.",
+      "Źródło karmienia dla innych — wielka odpowiedzialność i szczęście."
+    ]
   },
   {
     "n": 28,
     "name": "Przewaga wielkiego",
     "text": "Ciężar przekracza siły, belka się ugina.",
-    "advice": "Działaj szybko, ale ostrożnie — zmniejsz obciążenie, zanim coś pęknie."
+    "advice": "Działaj szybko, ale ostrożnie — zmniejsz obciążenie, zanim coś pęknie.",
+    "lines": [
+      "Ostrożność na początku — podłóż białą matę.",
+      "Stare drzewo wypuszcza pędy — nowe życie jest możliwe.",
+      "Belka ugina się do pęknięcia — nie forsuj.",
+      "Belka podparta — dobrze, ale nie wykorzystuj tego.",
+      "Stare drzewo kwitnie — efekt krótki, bez głębi.",
+      "Przekraczasz wodę ponad głowę — ryzyko, ale bez winy."
+    ]
   },
   {
     "n": 29,
     "name": "Otchłań",
     "text": "Niebezpieczeństwo, powtarzająca się trudność.",
-    "advice": "Płyń jak woda: konsekwentnie i bez paniki. Zachowaj wewnętrzną szczerość."
+    "advice": "Płyń jak woda: konsekwentnie i bez paniki. Zachowaj wewnętrzną szczerość.",
+    "lines": [
+      "Otchłań w otchłani — wpadasz głębiej; zatrzymaj się.",
+      "Niebezpieczeństwo — zadowól się małymi krokami.",
+      "Wokół otchłań — nie działaj, czekaj.",
+      "Prosta szczerość wystarczy — nawet skromny dar.",
+      "Otchłań nie przelewa się — wyrównanie przyjdzie.",
+      "Zaplątanie w trudnościach na długo — szukaj wyjścia cierpliwie."
+    ]
   },
   {
     "n": 30,
     "name": "Lgnące (Ogień)",
     "text": "Jasność, przejrzystość, zależność od tego, co Cię podtrzymuje.",
-    "advice": "Świeć, ale pamiętaj, z czego czerpiesz siłę. Dbaj o swoje źródła."
+    "advice": "Świeć, ale pamiętaj, z czego czerpiesz siłę. Dbaj o swoje źródła.",
+    "lines": [
+      "Kroki w nieładzie — zachowaj powagę i uwagę.",
+      "Złote światło — wielkie szczęście.",
+      "Światło zachodzącego słońca — pogódź się z przemijaniem.",
+      "Nagłe światło szybko gaśnie — nie daj się ponieść.",
+      "Łzy i westchnienia — szczery żal przynosi odmianę.",
+      "Król wyrusza — usuń przyczynę, oszczędzając resztę."
+    ]
   },
   {
     "n": 31,
     "name": "Wpływ",
     "text": "Wzajemne przyciąganie, zaloty, oddziaływanie.",
-    "advice": "Bądź otwarty(-a) i przyjmujący(-a). Prawdziwy wpływ nie wymaga nacisku."
+    "advice": "Bądź otwarty(-a) i przyjmujący(-a). Prawdziwy wpływ nie wymaga nacisku.",
+    "lines": [
+      "Wpływ w palcach stóp — dopiero zamiar, jeszcze bez skutku.",
+      "Wpływ w łydkach — nie ruszaj się pochopnie.",
+      "Wpływ w udach — podążanie za innymi bez namysłu.",
+      "Wytrwałość i szczery zamiar — wpływ działa.",
+      "Wpływ w karku — bez żalu, ale i bez głębi.",
+      "Wpływ w szczęce — same słowa nie wystarczą."
+    ]
   },
   {
     "n": 32,
     "name": "Trwałość",
     "text": "Stałość, wierność, wytrwanie.",
-    "advice": "Trzymaj się obranego kierunku — trwałość nie oznacza bezruchu."
+    "advice": "Trzymaj się obranego kierunku — trwałość nie oznacza bezruchu.",
+    "lines": [
+      "Zbyt szybko chcesz trwałości — nic z tego.",
+      "Żal znika — trzymasz się umiaru.",
+      "Niestałość charakteru przynosi wstyd.",
+      "Polowanie bez zwierzyny — szukasz w złym miejscu.",
+      "Stałość dobra w jednym, zła w innym — bądź elastyczny(-a).",
+      "Ciągłe pobudzenie — nic trwałego z tego nie wyjdzie."
+    ]
   },
   {
     "n": 33,
     "name": "Wycofanie",
     "text": "Mądry odwrót, gdy siły przeciwne rosną.",
-    "advice": "Wycofaj się w porę i z godnością. To nie ucieczka, lecz strategia."
+    "advice": "Wycofaj się w porę i z godnością. To nie ucieczka, lecz strategia.",
+    "lines": [
+      "Na końcu odwrotu — niebezpieczeństwo; nie działaj.",
+      "Trzymaj się mocno — wierność przynosi bezpieczeństwo.",
+      "Odwrót związany z innymi — trudny, ale konieczny.",
+      "Dobrowolny odwrót — korzystny dla mądrych.",
+      "Przyjazny odwrót — dobry.",
+      "Pogodny odwrót — wszystko sprzyja."
+    ]
   },
   {
     "n": 34,
     "name": "Wielka siła",
     "text": "Moc w pełni, ale łatwo jej nadużyć.",
-    "advice": "Używaj siły z rozwagą i zgodnie z tym, co słuszne."
+    "advice": "Używaj siły z rozwagą i zgodnie z tym, co słuszne.",
+    "lines": [
+      "Siła w nogach — pochopny ruch przynosi kłopot.",
+      "Wytrwałość przynosi szczęście.",
+      "Kozioł bodzie płot i zaplątuje rogi — nie używaj siły.",
+      "Płot się otwiera — droga wolna.",
+      "Kozioł zgubiony bez trudu — bez żalu.",
+      "Kozioł utknął w płocie — przyznaj trudność, wtedy znajdziesz wyjście."
+    ]
   },
   {
     "n": 35,
     "name": "Postęp",
     "text": "Szybki rozwój, uznanie, wschodzące słońce.",
-    "advice": "Idź naprzód, ale dziel się światłem z innymi."
+    "advice": "Idź naprzód, ale dziel się światłem z innymi.",
+    "lines": [
+      "Postęp blokowany — zachowaj spokój i ufność.",
+      "Postęp w smutku — wsparcie przyjdzie od kogoś bliskiego.",
+      "Wszyscy zgodni — żal znika.",
+      "Postęp jak chomik — chciwość jest niebezpieczna.",
+      "Nie przejmuj się zyskiem i stratą — działaj.",
+      "Postęp z rogami — użyj go tylko wobec siebie."
+    ]
   },
   {
     "n": 36,
     "name": "Zaciemnienie światła",
     "text": "Trudny czas, gdy lepiej nie pokazywać wszystkiego.",
-    "advice": "Chroń swoje światło w środku. Bądź ostrożny(-a), ale nie trać zasad."
+    "advice": "Chroń swoje światło w środku. Bądź ostrożny(-a), ale nie trać zasad.",
+    "lines": [
+      "Światło przyćmione w locie — odejdź, nawet głodny(-a).",
+      "Ranny(-a), ale nie pokonany(-a) — szukaj pomocy szybko.",
+      "Na polowaniu na południu — schwytasz przywódcę, ale nie śpiesz się.",
+      "Wnikasz w serce ciemności — zrozumiesz i odejdziesz.",
+      "Ukryj światło jak mądry Jizi — przetrwasz.",
+      "Ciemność rośnie do szczytu i upada sama."
+    ]
   },
   {
     "n": 37,
     "name": "Rodzina",
     "text": "Dom, role, wzajemna troska.",
-    "advice": "Zadbaj o porządek w bliskich relacjach — od tego zaczyna się reszta."
+    "advice": "Zadbaj o porządek w bliskich relacjach — od tego zaczyna się reszta.",
+    "lines": [
+      "Wyraźne zasady w rodzinie od początku.",
+      "Troska o dom i posiłki — wytrwałość przynosi szczęście.",
+      "Zbyt surowo czy zbyt swobodnie? Lepiej odrobina surowości.",
+      "Dobrobyt rodziny — wielkie szczęście.",
+      "Król w swoim domu — nie bój się, będzie dobrze.",
+      "Szczerość i powaga — ostatecznie szczęście."
+    ]
   },
   {
     "n": 38,
     "name": "Przeciwieństwo",
     "text": "Różnice, rozbieżne kierunki.",
-    "advice": "W małych sprawach porozumienie jest możliwe. Nie oczekuj zgody we wszystkim."
+    "advice": "W małych sprawach porozumienie jest możliwe. Nie oczekuj zgody we wszystkim.",
+    "lines": [
+      "Zgubiony koń wróci sam — nie goń go.",
+      "Spotykasz pana w wąskiej uliczce — bez błędu.",
+      "Wóz cofnięty, wół zatrzymany — trudny start, dobre zakończenie.",
+      "Samotny(-a) w opozycji — spotkasz pokrewną duszę.",
+      "Żal znika — przyjaciel przebija się przez skórę.",
+      "Widzisz wrogów tam, gdzie ich nie ma — opuść łuk, to sojusznicy."
+    ]
   },
   {
     "n": 39,
     "name": "Przeszkoda",
     "text": "Droga zablokowana.",
-    "advice": "Zatrzymaj się, oceń siebie i poproś o pomoc. Czasem lepiej obejść niż przebić."
+    "advice": "Zatrzymaj się, oceń siebie i poproś o pomoc. Czasem lepiej obejść niż przebić.",
+    "lines": [
+      "Idąc — przeszkody; wracając — uznanie.",
+      "Przeszkoda za przeszkodą, ale nie z Twojej winy.",
+      "Idąc — przeszkody; wróć do swoich.",
+      "Idąc — przeszkody; wracając — połączenie.",
+      "Wielkie przeszkody — przyjaciele przychodzą.",
+      "Idąc — przeszkody; wracając — wielkie szczęście."
+    ]
   },
   {
     "n": 40,
     "name": "Wyzwolenie",
     "text": "Ulga po napięciu, burza mija.",
-    "advice": "Wybacz, odpuść i wróć do zwykłego życia. Nie przedłużaj walki."
+    "advice": "Wybacz, odpuść i wróć do zwykłego życia. Nie przedłużaj walki.",
+    "lines": [
+      "Bez błędu — odpocznij po trudnym czasie.",
+      "Trzy lisy upolowane — strzała złota; uczciwość wygrywa.",
+      "Niesiesz ciężar i jedziesz wozem — przyciągasz złodziei; nie popisuj się.",
+      "Uwolnij się od złych towarzyszy — przyjdą lepsi.",
+      "Wyzwolenie przez wewnętrzną zmianę.",
+      "Jastrząb zestrzelony z muru — przeszkoda usunięta."
+    ]
   },
   {
     "n": 41,
     "name": "Ubytek",
     "text": "Coś trzeba oddać lub ograniczyć.",
-    "advice": "Uprość, zrezygnuj z nadmiaru — mniej może dać więcej."
+    "advice": "Uprość, zrezygnuj z nadmiaru — mniej może dać więcej.",
+    "lines": [
+      "Skończ swoją pracę i szybko pomóż innym — ale z umiarem.",
+      "Pomagaj, nie tracąc siebie.",
+      "Trzech idzie — jeden odchodzi; jeden idzie — znajduje towarzysza.",
+      "Zmniejsz swoje wady — radość przyjdzie szybko.",
+      "Ktoś wzbogaca Cię nieoczekiwanie — przyjmij.",
+      "Przyrost bez straty — dobrze."
+    ]
   },
   {
     "n": 42,
     "name": "Przyrost",
     "text": "Wzrost, wsparcie, sprzyjający wiatr.",
-    "advice": "Wykorzystaj okazję, by się rozwinąć i pomóc innym."
+    "advice": "Wykorzystaj okazję, by się rozwinąć i pomóc innym.",
+    "lines": [
+      "Czas na wielkie dzieło — wielkie szczęście.",
+      "Ktoś Cię wzbogaca — wytrwałość przynosi szczęście.",
+      "Wzbogacenie przez trudności — szczerość chroni.",
+      "Pośrednictwo w dobrej sprawie — warto.",
+      "Szczere serce — nie pytaj, szczęście pewne.",
+      "Nikt Cię nie wzbogaca — ktoś może zaszkodzić; zmień postawę."
+    ]
   },
   {
     "n": 43,
     "name": "Przełom",
     "text": "Stanowczość, decyzja, wyjście z impasu.",
-    "advice": "Powiedz prawdę jasno, ale bez agresji. Przygotuj się na konsekwencje."
+    "advice": "Powiedz prawdę jasno, ale bez agresji. Przygotuj się na konsekwencje.",
+    "lines": [
+      "Zbyt silny start — porażka.",
+      "Czujność w nocy — nie bój się.",
+      "Stanowczość w złości — bądź opanowany(-a).",
+      "Bez skóry na udach — idziesz z trudem; słuchaj rad.",
+      "Chwasty wymagają stanowczości — działaj w środku drogi.",
+      "Brak ostrzeżenia — koniec przychodzi nagle."
+    ]
   },
   {
     "n": 44,
     "name": "Spotkanie",
     "text": "Nieoczekiwane spotkanie, pokusa.",
-    "advice": "Uważaj, co wpuszczasz do swojego życia. Nie wszystko, co przyciąga, jest dobre."
+    "advice": "Uważaj, co wpuszczasz do swojego życia. Nie wszystko, co przyciąga, jest dobre.",
+    "lines": [
+      "Zatrzymaj to od razu — hamulec z brązu.",
+      "Ryba w worku — kontrolujesz sytuację, nie dziel się nią z gośćmi.",
+      "Bez skóry na udach — trudności, ale bez wielkiego błędu.",
+      "Brak ryby w worku — tracisz kontakt z ludźmi.",
+      "Melon pod wierzbą — ukryte piękno dojrzewa.",
+      "Spotkanie rogami — upokorzenie, ale bez winy."
+    ]
   },
   {
     "n": 45,
     "name": "Gromadzenie",
     "text": "Ludzie się zbierają, wspólny cel.",
-    "advice": "Łącz innych wokół wartości i bądź przygotowany(-a) na nieprzewidziane."
+    "advice": "Łącz innych wokół wartości i bądź przygotowany(-a) na nieprzewidziane.",
+    "lines": [
+      "Niepewna szczerość — zgromadzenie raz tak, raz nie; zawołaj o pomoc.",
+      "Pozwól się przyciągnąć — szczęście.",
+      "Gromadzenie z westchnieniem — drobny wstyd, idź dalej.",
+      "Wielkie szczęście — bez błędu.",
+      "Gromadzenie z autorytetem — umocnij zaufanie.",
+      "Łzy i westchnienia — bez błędu."
+    ]
   },
   {
     "n": 46,
     "name": "Wznoszenie się",
     "text": "Stopniowy wzrost, jak drzewo z ziemi.",
-    "advice": "Idź krok po kroku. Wysiłek teraz przyniesie trwały efekt."
+    "advice": "Idź krok po kroku. Wysiłek teraz przyniesie trwały efekt.",
+    "lines": [
+      "Wznoszenie z zaufaniem — wielkie szczęście.",
+      "Szczerość wystarczy, nawet skromna ofiara.",
+      "Wznosisz się do pustego miasta — bez przeszkód.",
+      "Król ofiaruje na górze — szczęście.",
+      "Wytrwałość — wznosisz się krok po kroku.",
+      "Wznoszenie w ciemności — wytrwałość konieczna."
+    ]
   },
   {
     "n": 47,
     "name": "Ucisk",
     "text": "Wyczerpanie, ograniczenie.",
-    "advice": "Nie trać wiary. Mów mniej, działaj mądrze — ten czas Cię wzmocni."
+    "advice": "Nie trać wiary. Mów mniej, działaj mądrze — ten czas Cię wzmocni.",
+    "lines": [
+      "Siedzisz pod nagim drzewem — przygnębienie; wyjdź z doliny.",
+      "Ucisk przy jedzeniu i piciu — czekaj, przyjdzie pomoc.",
+      "Ucisk przez kamień — opierasz się na tym, co rani.",
+      "Pomoc przychodzi powoli — wstyd, ale dobre zakończenie.",
+      "Ucisk przez władzę — powoli przychodzi radość.",
+      "Ucisk przez pnącza — działaj, a żal minie."
+    ]
   },
   {
     "n": 48,
     "name": "Studnia",
     "text": "Niewyczerpane źródło, wspólne dobro.",
-    "advice": "Dbaj o swoje źródła i dziel się nimi. Pogłębiaj, zamiast zmieniać miejsce."
+    "advice": "Dbaj o swoje źródła i dziel się nimi. Pogłębiaj, zamiast zmieniać miejsce.",
+    "lines": [
+      "Błotnista studnia — nikt z niej nie pije.",
+      "Studnia z rybkami — dzbanek pęknięty; potencjał marnowany.",
+      "Czysta studnia nieużywana — szkoda.",
+      "Studnia remontowana — bez błędu.",
+      "Czysta, zimna woda — pij.",
+      "Studnia otwarta dla wszystkich — wielkie szczęście."
+    ]
   },
   {
     "n": 49,
     "name": "Przewrót",
     "text": "Zmiana, rewolucja, zrzucenie starej skóry.",
-    "advice": "Zmieniaj, gdy nadszedł czas — i gdy umiesz wyjaśnić dlaczego."
+    "advice": "Zmieniaj, gdy nadszedł czas — i gdy umiesz wyjaśnić dlaczego.",
+    "lines": [
+      "Owinięty w żółtą skórę — nie zmieniaj teraz.",
+      "Dzień zmiany przyszedł — działaj.",
+      "Zbyt szybka zmiana szkodzi; rozmawiaj trzy razy.",
+      "Żal znika — zmiana z przekonania.",
+      "Wielki człowiek zmienia się jak tygrys — wyraźnie.",
+      "Szlachetny zmienia się jak pantera — ale nie przesadzaj."
+    ]
   },
   {
     "n": 50,
     "name": "Kocioł",
     "text": "Przemiana, odżywienie, kultura.",
-    "advice": "Pielęgnuj to, co wartościowe. Dobre efekty wymagają czasu i ognia."
+    "advice": "Pielęgnuj to, co wartościowe. Dobre efekty wymagają czasu i ognia.",
+    "lines": [
+      "Kocioł do góry nogami — usuń stare, by zrobić miejsce.",
+      "Kocioł pełny — zazdrośni nie dosięgną.",
+      "Ucho kotła zmienione — trudność przejściowa.",
+      "Noga kotła złamana — przeciążenie.",
+      "Żółte uszy, złote kółka — korzystne.",
+      "Jadeitowe kółka — wielkie szczęście."
+    ]
   },
   {
     "n": 51,
     "name": "Wstrząs (Grom)",
     "text": "Nagłe wydarzenie, szok.",
-    "advice": "Zachowaj spokój. Wstrząs mija, a zostaje to, czego Cię nauczył."
+    "advice": "Zachowaj spokój. Wstrząs mija, a zostaje to, czego Cię nauczył.",
+    "lines": [
+      "Grom nadchodzi — strach, potem śmiech.",
+      "Grom w niebezpieczeństwie — stracisz coś, ale odzyskasz.",
+      "Grom rozprasza — działaj, by uniknąć nieszczęścia.",
+      "Grom w błocie — paraliż.",
+      "Grom tu i tam — niebezpieczeństwo, ale nic nie tracisz.",
+      "Grom przynosi chaos — nie ruszaj się teraz."
+    ]
   },
   {
     "n": 52,
     "name": "Zatrzymanie (Góra)",
     "text": "Spokój, bezruch, medytacja.",
-    "advice": "Zatrzymaj się. Działaj, gdy czas działać, i stój, gdy czas stać."
+    "advice": "Zatrzymaj się. Działaj, gdy czas działać, i stój, gdy czas stać.",
+    "lines": [
+      "Zatrzymaj stopy — nie zaczynaj, czego nie dokończysz.",
+      "Zatrzymaj łydki — nie możesz pomóc tym, za którymi idziesz.",
+      "Zatrzymaj biodra — sztywność jest niebezpieczna.",
+      "Zatrzymaj tułów — spokój wewnętrzny.",
+      "Zatrzymaj szczękę — mów z rozwagą.",
+      "Szlachetne zatrzymanie — szczęście."
+    ]
   },
   {
     "n": 53,
     "name": "Stopniowy rozwój",
     "text": "Powolny, pewny postęp.",
-    "advice": "Nie przyspieszaj — rzeczy dobre rosną powoli."
+    "advice": "Nie przyspieszaj — rzeczy dobre rosną powoli.",
+    "lines": [
+      "Dzika gęś zbliża się do brzegu — młodość w niebezpieczeństwie.",
+      "Gęś na skale — jedz i pij w spokoju.",
+      "Gęś na płaskowyżu — mężczyzna wychodzi i nie wraca.",
+      "Gęś na drzewie — znajdzie gałąź.",
+      "Gęś na wzgórzu — trzy lata bez dziecka, ale wygrana.",
+      "Gęś zbliża się do chmur — jej pióra używane do obrzędów."
+    ]
   },
   {
     "n": 54,
     "name": "Panna młoda",
     "text": "Sytuacja, w której nie masz pełnej kontroli.",
-    "advice": "Dostosuj się z godnością i pamiętaj o długofalowym celu."
+    "advice": "Dostosuj się z godnością i pamiętaj o długofalowym celu.",
+    "lines": [
+      "Druga żona — kulawa noga idzie naprzód.",
+      "Jednooki widzi — zachowaj samotność.",
+      "Służąca — czekaj na swoją kolej.",
+      "Opóźnione zamążpójście — czas przyjdzie.",
+      "Skromna panna młoda — piękniejsza niż ozdoby.",
+      "Pusty kosz — nic nie przynosi."
+    ]
   },
   {
     "n": 55,
     "name": "Obfitość",
     "text": "Pełnia, szczyt, jak słońce w południe.",
-    "advice": "Ciesz się pełnią bez lęku, że minie — i przygotuj się mądrze na zmianę."
+    "advice": "Ciesz się pełnią bez lęku, że minie — i przygotuj się mądrze na zmianę.",
+    "lines": [
+      "Spotykasz równego sobie — bez błędu przez dziesięć dni.",
+      "Pełnia zasłania słońce — nieufność; szczerość pomaga.",
+      "Pełnia ukrywa — zgubiona ręka, bez winy.",
+      "Spotykasz władcę — szczęście.",
+      "Przychodzą jasne talenty — szczęście.",
+      "Pełnia domu — samotność za murami."
+    ]
   },
   {
     "n": 56,
     "name": "Wędrowiec",
     "text": "Podróż, obcość, tymczasowość.",
-    "advice": "Bądź uprzejmy(-a) i ostrożny(-a) w nowym miejscu. Nie zapuszczaj korzeni zbyt szybko."
+    "advice": "Bądź uprzejmy(-a) i ostrożny(-a) w nowym miejscu. Nie zapuszczaj korzeni zbyt szybko.",
+    "lines": [
+      "Wędrowiec zajęty drobiazgami — sam(a) ściągasz kłopot.",
+      "Wędrowiec w gospodzie — znajduje służącego.",
+      "Wędrowiec pali gospodę — traci służącego.",
+      "Wędrowiec ma schronienie, ale serce niespokojne.",
+      "Strzała trafia — pochwała i stanowisko.",
+      "Ptak pali swoje gniazdo — śmiech, potem płacz."
+    ]
   },
   {
     "n": 57,
     "name": "Łagodność (Wiatr)",
     "text": "Delikatne, ale stałe przenikanie.",
-    "advice": "Działaj łagodnie i wytrwale — kropla drąży skałę."
+    "advice": "Działaj łagodnie i wytrwale — kropla drąży skałę.",
+    "lines": [
+      "Naprzód i wstecz — dyscyplina pomaga.",
+      "Łagodność pod łóżkiem — szukaj przyczyn.",
+      "Powtarzana łagodność — wstyd.",
+      "Żal znika — trzy rodzaje zwierzyny.",
+      "Wytrwałość — szczęście po zmianie.",
+      "Łagodność pod łóżkiem — strata."
+    ]
   },
   {
     "n": 58,
     "name": "Radość (Jezioro)",
     "text": "Wesołość, rozmowa, przyjemność.",
-    "advice": "Dziel się radością z innymi, ale nie myl jej z pobłażliwością."
+    "advice": "Dziel się radością z innymi, ale nie myl jej z pobłażliwością.",
+    "lines": [
+      "Harmonijna radość — szczęście.",
+      "Szczera radość — szczęście.",
+      "Wymuszona radość — pech.",
+      "Radość targowana — nieustanna niepewność.",
+      "Ufanie temu, co niszczy — niebezpieczeństwo.",
+      "Uwodząca radość — uważaj."
+    ]
   },
   {
     "n": 59,
     "name": "Rozproszenie",
     "text": "Rozpuszczanie sztywności i podziałów.",
-    "advice": "Pozwól odejść temu, co dzieli. Wspólny cel znów połączy."
+    "advice": "Pozwól odejść temu, co dzieli. Wspólny cel znów połączy.",
+    "lines": [
+      "Pomoc z siłą konia — szczęście.",
+      "Rozproszenie — biegniesz do oparcia.",
+      "Rozproszenie siebie — bez żalu.",
+      "Rozproszenie grupy — wielkie szczęście.",
+      "Rozproszenie wielkiego wołania — bez błędu.",
+      "Rozproszenie krwi — bez winy."
+    ]
   },
   {
     "n": 60,
     "name": "Ograniczenie",
     "text": "Granice, umiar, zasady.",
-    "advice": "Postaw rozsądne granice — ale nie tak ciasne, by dusiły."
+    "advice": "Postaw rozsądne granice — ale nie tak ciasne, by dusiły.",
+    "lines": [
+      "Nie wychodzisz z dziedzińca — bez błędu.",
+      "Nie wychodzisz z bramy — nieszczęście.",
+      "Brak ograniczeń — żal.",
+      "Spokojne ograniczenie — sukces.",
+      "Przyjemne ograniczenie — szczęście.",
+      "Gorzkie ograniczenie — wytrwałość niebezpieczna."
+    ]
   },
   {
     "n": 61,
     "name": "Wewnętrzna prawda",
     "text": "Szczerość, która przekonuje.",
-    "advice": "Bądź szczery(-a) wobec siebie i innych. Prawda dociera nawet do upartych."
+    "advice": "Bądź szczery(-a) wobec siebie i innych. Prawda dociera nawet do upartych.",
+    "lines": [
+      "Spokojna gotowość — szczęście.",
+      "Żuraw woła w cieniu — młode odpowiadają.",
+      "Znajduje towarzysza — raz bęben, raz płacz.",
+      "Księżyc prawie pełny — koń odchodzi.",
+      "Szczerość łączy — bez błędu.",
+      "Kogucie piórko wzlatuje do nieba — wytrwałość niebezpieczna."
+    ]
   },
   {
     "n": 62,
     "name": "Przewaga małego",
     "text": "Czas na małe sprawy, nie na wielkie.",
-    "advice": "Zajmij się szczegółami, bądź skromny(-a). Nie mierz teraz za wysoko."
+    "advice": "Zajmij się szczegółami, bądź skromny(-a). Nie mierz teraz za wysoko.",
+    "lines": [
+      "Ptak leci — nieszczęście.",
+      "Mijasz przodka, spotykasz matkę przodka — bez błędu.",
+      "Nie bądź zbyt ostrożny(-a) — ktoś może Cię zranić.",
+      "Bez błędu — nie wychodź naprzód.",
+      "Gęste chmury bez deszczu — weź to, co w jaskini.",
+      "Nie spotykasz, mijasz — ptak oddala się."
+    ]
   },
   {
     "n": 63,
     "name": "Po spełnieniu",
     "text": "Coś zostało osiągnięte, wszystko na swoim miejscu.",
-    "advice": "Nie spoczywaj na laurach — dbaj o to, co osiągnięte, bo porządek łatwo traci się na końcu."
+    "advice": "Nie spoczywaj na laurach — dbaj o to, co osiągnięte, bo porządek łatwo traci się na końcu.",
+    "lines": [
+      "Hamujesz koła — bez błędu.",
+      "Kobieta traci zasłonę — nie szukaj, wróci po siedmiu dniach.",
+      "Wielki przodek atakuje — po trzech latach zwycięża.",
+      "Szczeliny w łodzi — czuwaj cały dzień.",
+      "Sąsiad ze wschodu zabija wołu — mniejsza ofiara ze szczerego serca ważniejsza.",
+      "Moczysz głowę — niebezpieczeństwo."
+    ]
   },
   {
     "n": 64,
     "name": "Przed spełnieniem",
     "text": "Przejście, jeszcze nie koniec.",
-    "advice": "Ostatni krok wymaga największej uwagi. Nie świętuj przed czasem."
+    "advice": "Ostatni krok wymaga największej uwagi. Nie świętuj przed czasem.",
+    "lines": [
+      "Moczysz ogon — wstyd.",
+      "Hamujesz koła — wytrwałość przynosi szczęście.",
+      "Przed spełnieniem — działanie przynosi nieszczęście, ale przekrocz wodę.",
+      "Wytrwałość — szczęście; żal znika.",
+      "Światło mądrego — szczęście.",
+      "Pijesz wino z ufnością — bez błędu, ale nie przesadzaj."
+    ]
   }
 ]

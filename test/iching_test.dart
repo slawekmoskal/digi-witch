@@ -39,4 +39,10 @@ void main() {
     expect(c[9]! / 80000, closeTo(1 / 8, 0.01));
     expect(c[7]! / 80000, closeTo(3 / 8, 0.01));
   });
+
+  test('trigrams of a hexagram', () {
+    // 42 Increase: Wind (Xun=5) over Thunder (Zhen=1)
+    expect(trigramsOf([true, false, false, false, true, true]), (5, 1));
+    expect(hexagram([true, false, false, false, true, true]), 42);
+  });
 }

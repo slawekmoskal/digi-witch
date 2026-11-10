@@ -1555,7 +1555,7 @@ abstract class AppLocalizations {
   /// No description provided for @ichingNote.
   ///
   /// In pl, this message translates to:
-  /// **'Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.'**
+  /// **'Opisy heksagramów i linii są autorskimi, skróconymi interpretacjami tej aplikacji, inspirowanymi obrazami starochińskiego tekstu — traktuj je jako pretekst do refleksji.'**
   String get ichingNote;
 
   /// No description provided for @exploreIching.
@@ -1815,6 +1815,24 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Dobre samopoczucie'**
   String get wellbeingLabel;
+
+  /// No description provided for @ichingImage.
+  ///
+  /// In pl, this message translates to:
+  /// **'Obraz: {upper} nad {lower}'**
+  String ichingImage(String upper, String lower);
+
+  /// No description provided for @ichingLinesTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Linie zmienne'**
+  String get ichingLinesTitle;
+
+  /// No description provided for @ichingLine.
+  ///
+  /// In pl, this message translates to:
+  /// **'Linia {n}: {text}'**
+  String ichingLine(int n, String text);
 }
 
 class _AppLocalizationsDelegate
