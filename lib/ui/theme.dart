@@ -8,11 +8,14 @@ ThemeData buildTheme(Brightness b) {
   return ThemeData(
     colorScheme: scheme,
     useMaterial3: true,
-    scaffoldBackgroundColor: b == Brightness.light ? const Color(0xFFF8F5EF) : scheme.surface,
-    cardTheme: const CardThemeData(margin: EdgeInsets.symmetric(vertical: 6), clipBehavior: Clip.antiAlias),
-    textTheme: Typography.material2021(platform: TargetPlatform.android).black.apply(
-          bodyColor: scheme.onSurface,
-          displayColor: scheme.onSurface,
-        ),
+    scaffoldBackgroundColor: b == Brightness.light
+        ? const Color(0xFFF8F5EF)
+        : scheme.surface,
+    cardTheme: const CardThemeData(
+      margin: EdgeInsets.symmetric(vertical: 6),
+      clipBehavior: Clip.antiAlias,
+    ),
+    textTheme: Typography.material2021(platform: TargetPlatform.android).black
+        .apply(bodyColor: scheme.onSurface, displayColor: scheme.onSurface),
   );
 }

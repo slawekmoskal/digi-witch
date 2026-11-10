@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content.dart';
 import '../engine/numerology.dart';
+import 'pro_sheet.dart';
 import 'widgets.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -17,8 +18,14 @@ class SettingsScreen extends StatelessWidget {
         title: Text(l.deleteAllTitle),
         content: Text(l.deleteAllBody),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(c, false), child: Text(l.cancel)),
-          TextButton(onPressed: () => Navigator.pop(c, true), child: Text(l.delete)),
+          TextButton(
+            onPressed: () => Navigator.pop(c, false),
+            child: Text(l.cancel),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(c, true),
+            child: Text(l.delete),
+          ),
         ],
       ),
     );
@@ -34,49 +41,80 @@ class SettingsScreen extends StatelessWidget {
     final s = context.store;
     return Scaffold(
       appBar: AppBar(title: Text(l.settings)),
-      body: ListView(children: [
-        ListTile(title: Text(l.theme)),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: SegmentedButton<String>(
-            segments: [
-              ButtonSegment(value: 'system', label: Text(l.themeSystem)),
-              ButtonSegment(value: 'light', label: Text(l.themeLight)),
-              ButtonSegment(value: 'dark', label: Text(l.themeDark)),
-            ],
-            selected: {s.themeMode},
-            onSelectionChanged: (v) => s.themeMode = v.first,
+      body: ListView(
+        children: [
+          ListTile(title: Text(l.theme)),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: SegmentedButton<String>(
+              segments: [
+                ButtonSegment(value: 'system', label: Text(l.themeSystem)),
+                ButtonSegment(value: 'light', label: Text(l.themeLight)),
+                ButtonSegment(value: 'dark', label: Text(l.themeDark)),
+              ],
+              selected: {s.themeMode},
+              onSelectionChanged: (v) => s.themeMode = v.first,
+            ),
           ),
-        ),
-        SwitchListTile(
-          title: Text(l.allowReversed),
-          subtitle: Text(l.allowReversedRule),
-          value: s.allowReversed,
-          onChanged: (v) => s.allowReversed = v,
-        ),
-        if (s.birthDate != null || s.fullName != null)
+          SwitchListTile(
+            title: Text(l.allowReversed),
+            subtitle: Text(l.allowReversedRule),
+            value: s.allowReversed,
+            onChanged: (v) => s.allowReversed = v,
+          ),
+          if (s.birthDate != null || s.fullName != null)
+            ListTile(
+              title: Text(l.profile),
+              subtitle: Text(
+                [
+                  s.birthDate?.display,
+                  s.fullName,
+                ].whereType<String>().join(' · '),
+              ),
+              trailing: TextButton(
+                onPressed: () => s.saveProfile(null, null),
+                child: Text(l.delete),
+              ),
+            ),
+          const Divider(),
+          ListTile(title: Text(l.privacy), subtitle: Text(l.privacyBody)),
           ListTile(
-            title: Text(l.profile),
-            subtitle: Text([s.birthDate?.display, s.fullName].whereType<String>().join(' · ')),
-            trailing: TextButton(onPressed: () => s.saveProfile(null, null), child: Text(l.delete)),
+            title: Text(l.deleteAllTitle),
+            leading: const Icon(Icons.delete_forever_outlined),
+            onTap: () => _deleteAll(context),
           ),
-        const Divider(),
-        ListTile(title: Text(l.privacy), subtitle: Text(l.privacyBody)),
-        ListTile(
-          title: Text(l.deleteAllTitle),
-          leading: const Icon(Icons.delete_forever_outlined),
-          onTap: () => _deleteAll(context),
-        ),
-        const Divider(),
-        ListTile(title: Text(l.sourcesAndRights), subtitle: Text(l.sourcesBody)),
-        ListTile(title: Text(l.purchases), subtitle: Text(l.purchasesBody)),
-        ListTile(title: Text(l.help), subtitle: Text(l.helpBody)),
-        ListTile(
-          title: Text(l.versions),
-          subtitle: Text('${l.algorithm}: $algorithmVersion · ${l.contentVer}: $contentVersion'),
-        ),
-        ListTile(subtitle: Text(l.disclaimer)),
-      ]),
+          const Divider(),
+          ListTile(
+            title: Text(l.sourcesAndRights),
+            subtitle: Text(l.sourcesBody),
+          ),
+          ListTile(
+            leading: const Icon(Icons.workspace_premium_outlined),
+            title: Text(l.purchases),
+            subtitle: Text(s.isPro ? l.proActive : l.proShort),
+            onTap: () => showProSheet(context),
+          ),
+          if (context.monetization case final m?)
+            ListenableBuilder(
+              listenable: m,
+              builder: (_, _) => m.privacyOptionsRequired && !s.isPro
+                  ? ListTile(
+                      leading: const Icon(Icons.privacy_tip_outlined),
+                      title: Text(l.adPrivacyOptions),
+                      onTap: m.showPrivacyOptions,
+                    )
+                  : const SizedBox.shrink(),
+            ),
+          ListTile(title: Text(l.help), subtitle: Text(l.helpBody)),
+          ListTile(
+            title: Text(l.versions),
+            subtitle: Text(
+              '${l.algorithm}: $algorithmVersion · ${l.contentVer}: $contentVersion',
+            ),
+          ),
+          ListTile(subtitle: Text(l.disclaimer)),
+        ],
+      ),
     );
   }
 }

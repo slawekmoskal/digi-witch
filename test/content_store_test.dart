@@ -18,24 +18,47 @@ void main() {
     test('78 cards matching engine ids, all fields filled', () {
       expect(c.cards.keys.toList(), deckIds);
       for (final k in c.cards.values) {
-        expect([k.name, k.symbolism, k.upright, k.reversed].every((s) => s.trim().isNotEmpty), isTrue, reason: k.id);
+        expect(
+          [
+            k.name,
+            k.symbolism,
+            k.upright,
+            k.reversed,
+          ].every((s) => s.trim().isNotEmpty),
+          isTrue,
+          reason: k.id,
+        );
         expect(k.keywords, isNotEmpty);
         expect(k.reflection, isNotEmpty);
       }
       expect(c.cards['major_13']!.name, 'Śmierć');
     });
 
-    test('every card has artwork with recorded provenance and verified hash', () {
-      final manifest = {for (final m in jsonDecode(File('assets/cards/manifest.json').readAsStringSync())) m['id']: m};
-      for (final id in deckIds) {
-        expect(File('assets/cards/$id.webp').existsSync(), isTrue, reason: id);
-        expect(manifest[id]?['sha1'], hasLength(40), reason: id);
-        expect(manifest[id]['license'], 'Public domain');
-      }
-    });
+    test(
+      'every card has artwork with recorded provenance and verified hash',
+      () {
+        final manifest = {
+          for (final m in jsonDecode(
+            File('assets/cards/manifest.json').readAsStringSync(),
+          ))
+            m['id']: m,
+        };
+        for (final id in deckIds) {
+          expect(
+            File('assets/cards/$id.webp').existsSync(),
+            isTrue,
+            reason: id,
+          );
+          expect(manifest[id]?['sha1'], hasLength(40), reason: id);
+          expect(manifest[id]['license'], 'Public domain');
+        }
+      },
+    );
 
     test('no duplicated interpretation texts across cards', () {
-      final texts = [for (final k in c.cards.values) ...[k.upright, k.reversed, k.symbolism]];
+      final texts = [
+        for (final k in c.cards.values) ...[k.upright, k.reversed, k.symbolism],
+      ];
       expect(texts.toSet().length, texts.length);
     });
 
@@ -53,13 +76,22 @@ void main() {
           expect(c.interpretation(e.key, v), isNotNull, reason: '${e.key} $v');
         }
       }
-      final all = [for (final m in c.numerology.values) ...m.values.map((i) => i.text)];
-      expect(all.toSet().length, all.length, reason: 'same text pasted into several indicators');
+      final all = [
+        for (final m in c.numerology.values) ...m.values.map((i) => i.text),
+      ];
+      expect(
+        all.toSet().length,
+        all.length,
+        reason: 'same text pasted into several indicators',
+      );
     });
 
     test('prompts, archetypes, glossary, articles', () {
       expect(c.prompts.length, greaterThanOrEqualTo(30));
-      expect(c.prompts.where((p) => p.category == 'rodzina').length, greaterThanOrEqualTo(10));
+      expect(
+        c.prompts.where((p) => p.category == 'rodzina').length,
+        greaterThanOrEqualTo(10),
+      );
       expect(c.prompts.map((p) => p.id).toSet().length, c.prompts.length);
       expect(c.archetypes.length, 12);
       expect(c.glossary, isNotEmpty);
@@ -73,38 +105,62 @@ void main() {
       return AppStore(await SharedPreferences.getInstance(), random: Random(3));
     }
 
-    test('card of the day stable across restarts, new on a new local date', () async {
-      final s1 = await fresh();
-      final d = CalendarDate.tryCreate(2026, 11, 10)!;
-      final a = s1.cardOfDay(d);
-      // "restart": new store instance over the same prefs, different RNG
-      final s2 = AppStore(await SharedPreferences.getInstance(), random: Random(999));
-      expect(s2.cardOfDay(d).toJson(), a.toJson());
-      final next = s2.cardOfDay(CalendarDate.tryCreate(2026, 11, 11)!);
-      expect(jsonDecode((await SharedPreferences.getInstance()).getString('cardOfDay')!)['date'], '2026-11-11');
-      expect(next, isA<DrawnCard>());
-    });
+    test(
+      'card of the day stable across restarts, new on a new local date',
+      () async {
+        final s1 = await fresh();
+        final d = CalendarDate.tryCreate(2026, 11, 10)!;
+        final a = s1.cardOfDay(d);
+        // "restart": new store instance over the same prefs, different RNG
+        final s2 = AppStore(
+          await SharedPreferences.getInstance(),
+          random: Random(999),
+        );
+        expect(s2.cardOfDay(d).toJson(), a.toJson());
+        final next = s2.cardOfDay(CalendarDate.tryCreate(2026, 11, 11)!);
+        expect(
+          jsonDecode(
+            (await SharedPreferences.getInstance()).getString('cardOfDay')!,
+          )['date'],
+          '2026-11-11',
+        );
+        expect(next, isA<DrawnCard>());
+      },
+    );
 
-    test('journal add / edit / export / delete; ref snapshot keeps versions', () async {
-      final s = await fresh();
-      final r = lifePath(CalendarDate.tryCreate(1990, 7, 15)!);
-      await s.addEntry('pierwszy', ref: {'type': 'numerology', 'label': 'Droga życia: 5', 'result': r.toJson()});
-      await s.addEntry('drugi');
-      expect(s.journal.length, 2);
-      final first = s.journal.firstWhere((e) => e.text == 'pierwszy');
-      expect(first.ref!['contentVersion'], contentVersion);
-      expect(first.ref!['result']['version'], algorithmVersion);
-      expect(first.ref!['result']['steps'], isNotEmpty);
+    test(
+      'journal add / edit / export / delete; ref snapshot keeps versions',
+      () async {
+        final s = await fresh();
+        final r = lifePath(CalendarDate.tryCreate(1990, 7, 15)!);
+        await s.addEntry(
+          'pierwszy',
+          ref: {
+            'type': 'numerology',
+            'label': 'Droga życia: 5',
+            'result': r.toJson(),
+          },
+        );
+        await s.addEntry('drugi');
+        expect(s.journal.length, 2);
+        final first = s.journal.firstWhere((e) => e.text == 'pierwszy');
+        expect(first.ref!['contentVersion'], contentVersion);
+        expect(first.ref!['result']['version'], algorithmVersion);
+        expect(first.ref!['result']['steps'], isNotEmpty);
 
-      await s.updateEntry(first.id, 'zmieniony');
-      expect(s.journal.map((e) => e.text), containsAll(['zmieniony', 'drugi']));
+        await s.updateEntry(first.id, 'zmieniony');
+        expect(
+          s.journal.map((e) => e.text),
+          containsAll(['zmieniony', 'drugi']),
+        );
 
-      final exported = jsonDecode(s.exportJournal());
-      expect(exported['entries'].length, 2);
+        final exported = jsonDecode(s.exportJournal());
+        expect(exported['entries'].length, 2);
 
-      await s.deleteEntry(first.id);
-      expect(s.journal.single.text, 'drugi');
-    });
+        await s.deleteEntry(first.id);
+        expect(s.journal.single.text, 'drugi');
+      },
+    );
 
     test('delete all data wipes everything', () async {
       final s = await fresh();
@@ -116,6 +172,15 @@ void main() {
       expect(s.birthDate, isNull);
       expect(s.bookmarks, isEmpty);
       expect(s.onboarded, isFalse);
+    });
+
+    test('delete all keeps the Pro purchase', () async {
+      final s = await fresh();
+      s.isPro = true;
+      await s.addEntry('x');
+      await s.deleteAllData();
+      expect(s.isPro, isTrue);
+      expect(s.journal, isEmpty);
     });
 
     test('reversed setting defaults to off and is honoured', () async {

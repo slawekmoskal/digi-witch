@@ -130,12 +130,29 @@
   "deleteAllTitle": "Usuń wszystkie dane",
   "deleteAllBody": "Usuniemy dziennik, profil, zakładki, kartę dnia i ustawienia z tego urządzenia. Tej operacji nie da się cofnąć.",
   "sourcesBody": "Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.",
-  "purchases": "Wersja Pro",
-  "purchasesBody": "Jeszcze niedostępna. Wszystkie obecne funkcje są bezpłatne.",
+  "purchases": "Digi Witch Pro",
   "help": "Pomoc",
   "helpBody": "Jeśli przeżywasz kryzys, skontaktuj się ze specjalistą lub zadzwoń pod 116 123 (telefon zaufania dla dorosłych) albo 112 w nagłych sytuacjach.",
   "versions": "Wersje",
   "algorithm": "algorytm",
   "contentVer": "treści",
-  "disclaimer": "Treści służą rozrywce, edukacji i autorefleksji. Nie są poradą medyczną, psychologiczną, prawną ani finansową."
+  "disclaimer": "Treści służą rozrywce, edukacji i autorefleksji. Nie są poradą medyczną, psychologiczną, prawną ani finansową.",
+  "proShort": "Jednorazowy zakup: bez reklam, dodatkowe rozkłady.",
+  "proTitle": "Digi Witch Pro",
+  "proBenefits": "• Brak reklam w całej aplikacji\n• Dodatkowe rozkłady: „Relacja” (6 kart) i „Krzyż refleksji” (10 kart)\n• Jednorazowa płatność, bez subskrypcji",
+  "proFreeStays": "Numerologia, karta dnia, rozkłady 1/3/5 kart, biblioteka i dziennik pozostają bezpłatne. Zakup nie wpływa na losowanie kart ani wyniki obliczeń.",
+  "proActive": "Masz Pro — dziękujemy!",
+  "proUnavailable": "Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.",
+  "proBuy": "Kup Pro za {price}",
+  "@proBuy": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchaseError": "Zakup nie został ukończony. Nie pobrano opłaty, jeśli sklep nie potwierdził transakcji.",
+  "restorePurchases": "Przywróć zakupy",
+  "proOnly": "Dostępne w Pro",
+  "adPrivacyOptions": "Ustawienia prywatności reklam"
 }

@@ -352,11 +352,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.';
 
   @override
-  String get purchases => 'Wersja Pro';
-
-  @override
-  String get purchasesBody =>
-      'Jeszcze niedostępna. Wszystkie obecne funkcje są bezpłatne.';
+  String get purchases => 'Digi Witch Pro';
 
   @override
   String get help => 'Pomoc';
@@ -377,4 +373,43 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get disclaimer =>
       'Treści służą rozrywce, edukacji i autorefleksji. Nie są poradą medyczną, psychologiczną, prawną ani finansową.';
+
+  @override
+  String get proShort => 'Jednorazowy zakup: bez reklam, dodatkowe rozkłady.';
+
+  @override
+  String get proTitle => 'Digi Witch Pro';
+
+  @override
+  String get proBenefits =>
+      '• Brak reklam w całej aplikacji\n• Dodatkowe rozkłady: „Relacja” (6 kart) i „Krzyż refleksji” (10 kart)\n• Jednorazowa płatność, bez subskrypcji';
+
+  @override
+  String get proFreeStays =>
+      'Numerologia, karta dnia, rozkłady 1/3/5 kart, biblioteka i dziennik pozostają bezpłatne. Zakup nie wpływa na losowanie kart ani wyniki obliczeń.';
+
+  @override
+  String get proActive => 'Masz Pro — dziękujemy!';
+
+  @override
+  String get proUnavailable =>
+      'Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.';
+
+  @override
+  String proBuy(String price) {
+    return 'Kup Pro za $price';
+  }
+
+  @override
+  String get purchaseError =>
+      'Zakup nie został ukończony. Nie pobrano opłaty, jeśli sklep nie potwierdził transakcji.';
+
+  @override
+  String get restorePurchases => 'Przywróć zakupy';
+
+  @override
+  String get proOnly => 'Dostępne w Pro';
+
+  @override
+  String get adPrivacyOptions => 'Ustawienia prywatności reklam';
 }

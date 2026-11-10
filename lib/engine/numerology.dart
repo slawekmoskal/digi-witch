@@ -21,7 +21,8 @@ class CalendarDate implements Comparable<CalendarDate> {
     return CalendarDate._(year, month, day);
   }
 
-  factory CalendarDate.fromDateTime(DateTime d) => CalendarDate._(d.year, d.month, d.day);
+  factory CalendarDate.fromDateTime(DateTime d) =>
+      CalendarDate._(d.year, d.month, d.day);
 
   /// Parses `yyyy-mm-dd`; null if malformed or non-existent.
   static CalendarDate? tryParse(String s) {
@@ -45,7 +46,14 @@ class CalendarDate implements Comparable<CalendarDate> {
   String toString() => iso;
 }
 
-enum Indicator { lifePath, birthDay, expression, soulUrge, personality, personalYear }
+enum Indicator {
+  lifePath,
+  birthDay,
+  expression,
+  soulUrge,
+  personality,
+  personalYear,
+}
 
 /// One computed indicator with a human-readable trace of every step.
 class NumerologyResult {
@@ -55,20 +63,27 @@ class NumerologyResult {
   final List<String> steps;
   final int? value; // null = no basis to compute (e.g. no vowels)
   final String version;
-  const NumerologyResult(this.indicator, this.method, this.inputs, this.steps, this.value,
-      {this.version = algorithmVersion});
+  const NumerologyResult(
+    this.indicator,
+    this.method,
+    this.inputs,
+    this.steps,
+    this.value, {
+    this.version = algorithmVersion,
+  });
 
   Map<String, Object?> toJson() => {
-        'indicator': indicator.name,
-        'method': method,
-        'inputs': inputs,
-        'steps': steps,
-        'value': value,
-        'version': version,
-      };
+    'indicator': indicator.name,
+    'method': method,
+    'inputs': inputs,
+    'steps': steps,
+    'value': value,
+    'version': version,
+  };
 }
 
-int digitSum(int n) => n.abs().toString().split('').fold(0, (a, c) => a + int.parse(c));
+int digitSum(int n) =>
+    n.abs().toString().split('').fold(0, (a, c) => a + int.parse(c));
 
 /// Repeated digit sums until 1–9 or a number in [masters]. Returns every value seen.
 List<int> reduceSteps(int n, Set<int> masters) {
@@ -89,21 +104,26 @@ String _reductionLine(List<int> seen) {
   return 'Redukcja: ${parts.join('; ')}.';
 }
 
-String _masterNote(int v, Set<int> masters) =>
-    masters.contains(v) ? ' $v to liczba mistrzowska w przyjętej konwencji — nie redukujemy jej dalej.' : '';
+String _masterNote(int v, Set<int> masters) => masters.contains(v)
+    ? ' $v to liczba mistrzowska w przyjętej konwencji — nie redukujemy jej dalej.'
+    : '';
 
 NumerologyResult lifePath(CalendarDate d) {
-  final digits = '${d.day.toString().padLeft(2, '0')}${d.month.toString().padLeft(2, '0')}${d.year}'
-      .split('')
-      .map(int.parse)
-      .toList();
+  final digits =
+      '${d.day.toString().padLeft(2, '0')}${d.month.toString().padLeft(2, '0')}${d.year}'
+          .split('')
+          .map(int.parse)
+          .toList();
   final sum = digits.fold(0, (a, b) => a + b);
   final seen = reduceSteps(sum, mastersAll);
   return NumerologyResult(
     Indicator.lifePath,
     'Suma wszystkich cyfr pełnej daty, następnie redukcja (zachowujemy 11, 22, 33).',
     {'Data urodzenia': d.display},
-    ['Cyfry daty: ${digits.join(' + ')} = $sum.', _reductionLine(seen) + _masterNote(seen.last, mastersAll)],
+    [
+      'Cyfry daty: ${digits.join(' + ')} = $sum.',
+      _reductionLine(seen) + _masterNote(seen.last, mastersAll),
+    ],
     seen.last,
   );
 }
@@ -126,14 +146,28 @@ NumerologyResult personalYear(CalendarDate birth, int year) {
     Indicator.personalYear,
     'Suma cyfr dnia i miesiąca urodzenia oraz wybranego roku, redukcja do 1–9. Rok zaczyna się 1 stycznia.',
     {'Dzień i miesiąc': '${birth.day}.${birth.month}', 'Rok': '$year'},
-    ['Dzień: ${birth.day} → $a; miesiąc: ${birth.month} → $b; rok: $year → $c.', 'Suma: $a + $b + $c = ${a + b + c}.', _reductionLine(seen)],
+    [
+      'Dzień: ${birth.day} → $a; miesiąc: ${birth.month} → $b; rok: $year → $c.',
+      'Suma: $a + $b + $c = ${a + b + c}.',
+      _reductionLine(seen),
+    ],
     seen.last,
   );
 }
 
 // ---- Letters ----
 
-const _polish = {'Ą': 'A', 'Ć': 'C', 'Ę': 'E', 'Ł': 'L', 'Ń': 'N', 'Ó': 'O', 'Ś': 'S', 'Ź': 'Z', 'Ż': 'Z'};
+const _polish = {
+  'Ą': 'A',
+  'Ć': 'C',
+  'Ę': 'E',
+  'Ł': 'L',
+  'Ń': 'N',
+  'Ó': 'O',
+  'Ś': 'S',
+  'Ź': 'Z',
+  'Ż': 'Z',
+};
 const _separators = {' ', '-', "'", '’'};
 const vowels = {'A', 'E', 'I', 'O', 'U', 'Y'};
 
@@ -165,13 +199,24 @@ NormalizedName normalizeName(String input) {
   return NormalizedName(input, letters, bad);
 }
 
-NumerologyResult _nameNumber(Indicator ind, String method, NormalizedName n, bool Function(String) pick) {
-  if (!n.isValid) throw ArgumentError('Name has unsupported characters: ${n.unsupported.join()}');
+NumerologyResult _nameNumber(
+  Indicator ind,
+  String method,
+  NormalizedName n,
+  bool Function(String) pick,
+) {
+  if (!n.isValid) {
+    throw ArgumentError(
+      'Name has unsupported characters: ${n.unsupported.join()}',
+    );
+  }
   final used = n.letters.where(pick).toList();
   final sum = used.fold(0, (a, l) => a + letterValue(l));
   final inputs = {'Zapis': n.original, 'Po normalizacji': n.letters.join()};
   if (sum == 0) {
-    return NumerologyResult(ind, method, inputs, ['Brak liter tej grupy — brak podstaw do obliczenia.'], null);
+    return NumerologyResult(ind, method, inputs, [
+      'Brak liter tej grupy — brak podstaw do obliczenia.',
+    ], null);
   }
   final seen = reduceSteps(sum, mastersAll);
   return NumerologyResult(ind, method, inputs, [
@@ -181,12 +226,23 @@ NumerologyResult _nameNumber(Indicator ind, String method, NormalizedName n, boo
   ], seen.last);
 }
 
-NumerologyResult expression(NormalizedName n) => _nameNumber(Indicator.expression,
-    'Suma wartości wszystkich liter (tabela A–Z cyklicznie 1–9), redukcja z 11, 22, 33.', n, (_) => true);
+NumerologyResult expression(NormalizedName n) => _nameNumber(
+  Indicator.expression,
+  'Suma wartości wszystkich liter (tabela A–Z cyklicznie 1–9), redukcja z 11, 22, 33.',
+  n,
+  (_) => true,
+);
 
-NumerologyResult soulUrge(NormalizedName n) => _nameNumber(Indicator.soulUrge,
-    'Suma wartości samogłosek A, E, I, O, U, Y, redukcja z 11, 22, 33.', n, vowels.contains);
+NumerologyResult soulUrge(NormalizedName n) => _nameNumber(
+  Indicator.soulUrge,
+  'Suma wartości samogłosek A, E, I, O, U, Y, redukcja z 11, 22, 33.',
+  n,
+  vowels.contains,
+);
 
-NumerologyResult personality(NormalizedName n) => _nameNumber(Indicator.personality,
-    'Suma wartości spółgłosek (litery inne niż A, E, I, O, U, Y), redukcja z 11, 22, 33.', n,
-    (l) => !vowels.contains(l));
+NumerologyResult personality(NormalizedName n) => _nameNumber(
+  Indicator.personality,
+  'Suma wartości spółgłosek (litery inne niż A, E, I, O, U, Y), redukcja z 11, 22, 33.',
+  n,
+  (l) => !vowels.contains(l),
+);

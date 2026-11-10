@@ -16,13 +16,44 @@ final List<String> deckIds = List.unmodifiable([
 class Spread {
   final String id, name;
   final List<String> positions;
-  const Spread(this.id, this.name, this.positions);
+  final bool pro;
+  const Spread(this.id, this.name, this.positions, {this.pro = false});
 }
 
 const spreads = [
   Spread('one', 'Jedna karta', ['Na co warto dziś zwrócić uwagę']),
-  Spread('three', 'Trzy karty', ['Sytuacja', 'Możliwa perspektywa', 'Następny krok']),
-  Spread('five', 'Pięć kart', ['Sedno sprawy', 'Co mnie wspiera', 'Co mnie ogranicza', 'Czego nie widzę', 'Co mogę zrobić']),
+  Spread('three', 'Trzy karty', [
+    'Sytuacja',
+    'Możliwa perspektywa',
+    'Następny krok',
+  ]),
+  Spread('five', 'Pięć kart', [
+    'Sedno sprawy',
+    'Co mnie wspiera',
+    'Co mnie ogranicza',
+    'Czego nie widzę',
+    'Co mogę zrobić',
+  ]),
+  Spread('relation', 'Relacja', [
+    'Ja w tej relacji',
+    'Jak widzę drugą osobę',
+    'Co nas łączy',
+    'Co nas różni',
+    'Czego potrzebuję',
+    'Co mogę zaproponować',
+  ], pro: true),
+  Spread('cross', 'Krzyż refleksji', [
+    'Sedno',
+    'Co je przecina',
+    'Podstawa',
+    'Co odchodzi',
+    'Świadomy cel',
+    'Najbliższy krok',
+    'Moja postawa',
+    'Otoczenie',
+    'Nadzieje i obawy',
+    'Możliwy kierunek',
+  ], pro: true),
 ];
 
 class DrawnCard {
@@ -31,17 +62,32 @@ class DrawnCard {
   final bool reversed;
   const DrawnCard(this.cardId, this.position, this.reversed);
 
-  Map<String, Object> toJson() => {'cardId': cardId, 'position': position, 'reversed': reversed};
-  factory DrawnCard.fromJson(Map<String, dynamic> j) =>
-      DrawnCard(j['cardId'] as String, j['position'] as String, j['reversed'] as bool);
+  Map<String, Object> toJson() => {
+    'cardId': cardId,
+    'position': position,
+    'reversed': reversed,
+  };
+  factory DrawnCard.fromJson(Map<String, dynamic> j) => DrawnCard(
+    j['cardId'] as String,
+    j['position'] as String,
+    j['reversed'] as bool,
+  );
 }
 
 /// Fisher–Yates via List.shuffle (uniform), then the first N cards — no replacement.
 /// Reversal rule: if enabled, each card independently reversed with probability 1/2.
-List<DrawnCard> draw(Spread spread, {required Random random, required bool allowReversed}) {
+List<DrawnCard> draw(
+  Spread spread, {
+  required Random random,
+  required bool allowReversed,
+}) {
   final deck = [...deckIds]..shuffle(random);
   return [
     for (var i = 0; i < spread.positions.length; i++)
-      DrawnCard(deck[i], spread.positions[i], allowReversed && random.nextBool()),
+      DrawnCard(
+        deck[i],
+        spread.positions[i],
+        allowReversed && random.nextBool(),
+      ),
   ];
 }

@@ -6,7 +6,9 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// Expectations come from tool/expected_numerology.py (independent oracle).
 void main() {
-  final cases = jsonDecode(File('test/fixtures/numerology_cases.json').readAsStringSync());
+  final cases = jsonDecode(
+    File('test/fixtures/numerology_cases.json').readAsStringSync(),
+  );
 
   group('dates (oracle)', () {
     for (final c in cases['dates']) {
@@ -32,7 +34,9 @@ void main() {
   });
 
   test('school difference is real: 1950-01-04 is 2 here, 11 when reducing parts separately', () {
-    final c = (cases['dates'] as List).firstWhere((c) => c['date'] == '1950-01-04');
+    final c = (cases['dates'] as List).firstWhere(
+      (c) => c['date'] == '1950-01-04',
+    );
     expect(c['lifePathSeparateSchool'], 11);
     expect(lifePath(CalendarDate.tryParse('1950-01-04')!).value, 2);
   });

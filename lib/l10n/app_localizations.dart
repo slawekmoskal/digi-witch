@@ -661,14 +661,8 @@ abstract class AppLocalizations {
   /// No description provided for @purchases.
   ///
   /// In pl, this message translates to:
-  /// **'Wersja Pro'**
+  /// **'Digi Witch Pro'**
   String get purchases;
-
-  /// No description provided for @purchasesBody.
-  ///
-  /// In pl, this message translates to:
-  /// **'Jeszcze niedostępna. Wszystkie obecne funkcje są bezpłatne.'**
-  String get purchasesBody;
 
   /// No description provided for @help.
   ///
@@ -705,6 +699,72 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Treści służą rozrywce, edukacji i autorefleksji. Nie są poradą medyczną, psychologiczną, prawną ani finansową.'**
   String get disclaimer;
+
+  /// No description provided for @proShort.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jednorazowy zakup: bez reklam, dodatkowe rozkłady.'**
+  String get proShort;
+
+  /// No description provided for @proTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Digi Witch Pro'**
+  String get proTitle;
+
+  /// No description provided for @proBenefits.
+  ///
+  /// In pl, this message translates to:
+  /// **'• Brak reklam w całej aplikacji\n• Dodatkowe rozkłady: „Relacja” (6 kart) i „Krzyż refleksji” (10 kart)\n• Jednorazowa płatność, bez subskrypcji'**
+  String get proBenefits;
+
+  /// No description provided for @proFreeStays.
+  ///
+  /// In pl, this message translates to:
+  /// **'Numerologia, karta dnia, rozkłady 1/3/5 kart, biblioteka i dziennik pozostają bezpłatne. Zakup nie wpływa na losowanie kart ani wyniki obliczeń.'**
+  String get proFreeStays;
+
+  /// No description provided for @proActive.
+  ///
+  /// In pl, this message translates to:
+  /// **'Masz Pro — dziękujemy!'**
+  String get proActive;
+
+  /// No description provided for @proUnavailable.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zakup jest w tej chwili niedostępny (brak połączenia ze sklepem). Spróbuj później.'**
+  String get proUnavailable;
+
+  /// No description provided for @proBuy.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kup Pro za {price}'**
+  String proBuy(String price);
+
+  /// No description provided for @purchaseError.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zakup nie został ukończony. Nie pobrano opłaty, jeśli sklep nie potwierdził transakcji.'**
+  String get purchaseError;
+
+  /// No description provided for @restorePurchases.
+  ///
+  /// In pl, this message translates to:
+  /// **'Przywróć zakupy'**
+  String get restorePurchases;
+
+  /// No description provided for @proOnly.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dostępne w Pro'**
+  String get proOnly;
+
+  /// No description provided for @adPrivacyOptions.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ustawienia prywatności reklam'**
+  String get adPrivacyOptions;
 }
 
 class _AppLocalizationsDelegate
