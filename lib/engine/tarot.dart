@@ -57,6 +57,24 @@ const spreads = [
     'Możliwy kierunek',
   ], pro: true),
   Spread('yesno', 'Tak/Nie', ['Odpowiedź']),
+  Spread('decision', 'Decyzja A/B', [
+    'Sedno decyzji',
+    'Droga A',
+    'Dokąd prowadzi A',
+    'Droga B',
+    'Dokąd prowadzi B',
+  ]),
+  Spread('month', 'Miesiąc', [
+    'Tydzień 1',
+    'Tydzień 2',
+    'Tydzień 3',
+    'Tydzień 4',
+    'Rada na miesiąc',
+  ]),
+  Spread('year', 'Rok', [
+    'Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', //
+    'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień',
+  ], pro: true),
 ];
 
 class DrawnCard {

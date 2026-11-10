@@ -1689,6 +1689,114 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Stuknij liczbę, aby zobaczyć jej znaczenie.'**
   String get luckyTap;
+
+  /// No description provided for @periodTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Horoskop na tydzień i miesiąc'**
+  String get periodTitle;
+
+  /// No description provided for @explorePeriod.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ważne dni i Twój miesiąc osobisty'**
+  String get explorePeriod;
+
+  /// No description provided for @periodIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Liczony z prawdziwego nieba: fazy Księżyca, zaćmienia, Merkury wsteczny, wejście Słońca w kolejny znak i dni, gdy Księżyc jest w Twoim znaku — plus Twoje liczby osobiste.'**
+  String get periodIntro;
+
+  /// No description provided for @tabWeek.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tydzień'**
+  String get tabWeek;
+
+  /// No description provided for @tabMonth.
+  ///
+  /// In pl, this message translates to:
+  /// **'Miesiąc'**
+  String get tabMonth;
+
+  /// No description provided for @weekGeneral.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ogólnie'**
+  String get weekGeneral;
+
+  /// No description provided for @keyDays.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ważne dni'**
+  String get keyDays;
+
+  /// No description provided for @noKeyDays.
+  ///
+  /// In pl, this message translates to:
+  /// **'W tym okresie nie ma szczególnych wydarzeń na niebie — to dobry czas na spokojną pracę.'**
+  String get noKeyDays;
+
+  /// No description provided for @evPhase.
+  ///
+  /// In pl, this message translates to:
+  /// **'{phase}'**
+  String evPhase(String phase);
+
+  /// No description provided for @evMoonInSign.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc w Twoim znaku ({sign})'**
+  String evMoonInSign(String sign);
+
+  /// No description provided for @evSunIngress.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słońce wchodzi w znak {sign}'**
+  String evSunIngress(String sign);
+
+  /// No description provided for @evMercuryStart.
+  ///
+  /// In pl, this message translates to:
+  /// **'Merkury zaczyna cofać się'**
+  String get evMercuryStart;
+
+  /// No description provided for @evMercuryEnd.
+  ///
+  /// In pl, this message translates to:
+  /// **'Merkury znów idzie naprzód'**
+  String get evMercuryEnd;
+
+  /// No description provided for @evEclipse.
+  ///
+  /// In pl, this message translates to:
+  /// **'{kind, select, solar{Zaćmienie Słońca} partial{Zaćmienie Księżyca (częściowe lub całkowite)} other{Półcieniowe zaćmienie Księżyca (subtelne)}}'**
+  String evEclipse(String kind);
+
+  /// No description provided for @dayNumberLine.
+  ///
+  /// In pl, this message translates to:
+  /// **'Liczba dnia {n}: {title}'**
+  String dayNumberLine(int n, String title);
+
+  /// No description provided for @eclipsesTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zaćmienia w najbliższym roku'**
+  String get eclipsesTitle;
+
+  /// No description provided for @eclipseVisibility.
+  ///
+  /// In pl, this message translates to:
+  /// **'Widoczność zależy od miejsca na Ziemi — nie każde zaćmienie widać z Polski.'**
+  String get eclipseVisibility;
+
+  /// No description provided for @eclipseSoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zbliża się zaćmienie: {when}'**
+  String eclipseSoon(String when);
 }
 
 class _AppLocalizationsDelegate

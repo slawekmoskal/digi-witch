@@ -361,6 +361,7 @@ void main() {
     await t.tap(find.byType(DeckStack));
     await t.pumpAndSettle();
     expect(find.byType(RevealedSpread), findsOneWidget);
+    await scrollTo(t, find.text('Wylosuj ponownie'));
     expect(find.text('Wylosuj ponownie'), findsOneWidget);
   });
 
@@ -492,6 +493,7 @@ void main() {
       expect(find.textContaining('Szukaj symbolu'), findsOneWidget);
       await t.tap(find.byTooltip('Wstecz'));
       await t.pumpAndSettle();
+      await scrollTo(t, find.text('Zapytaj karty'));
       await t.tap(find.text('Zapytaj karty'));
       await t.pumpAndSettle();
       expect(find.text('Wybierz rozkład'), findsOneWidget);
@@ -545,5 +547,21 @@ void main() {
     expect(find.text('Rytuał nowiu'), findsOneWidget);
     await scrollTo(t, find.text('Rytuał pełni'));
     expect(find.text('Rytuał pełni'), findsOneWidget);
+  });
+
+  testWidgets('week and month horoscope show general text and key days', (
+    t,
+  ) async {
+    final store = await pump(t);
+    store.saveProfile(CalendarDate.tryCreate(1990, 7, 15), null);
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Horoskop na tydzień i miesiąc'));
+    await t.tap(find.text('Horoskop na tydzień i miesiąc'));
+    await t.pumpAndSettle();
+    expect(find.text('OGÓLNIE'), findsOneWidget);
+    expect(find.text('WAŻNE DNI'), findsOneWidget);
+    await t.tap(find.text('Miesiąc'));
+    await t.pumpAndSettle();
+    expect(find.text('Miesiąc osobisty'), findsOneWidget);
   });
 }

@@ -192,6 +192,12 @@ class ExploreGrid extends StatelessWidget {
       ),
       (Icons.tag, l.yourNumbers, l.exploreNumbersSub, () => homeTab.value = 0),
       (
+        Icons.calendar_month_outlined,
+        l.periodTitle,
+        l.explorePeriod,
+        () => push(const PeriodHoroscopeScreen()),
+      ),
+      (
         Icons.blur_on,
         l.ichingTitle,
         l.exploreIching,
@@ -268,7 +274,10 @@ class ExploreGrid extends StatelessWidget {
                 children: [
                   tile(tiles[i]),
                   const SizedBox(width: 10),
-                  tile(tiles[i + 1]),
+                  // Odd count: the last tile keeps half width.
+                  i + 1 < tiles.length
+                      ? tile(tiles[i + 1])
+                      : const Expanded(child: SizedBox()),
                 ],
               ),
             ),

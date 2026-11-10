@@ -297,3 +297,76 @@ String chineseRelation(int a, int b) {
   if ((a - b) % 12 == 6) return 'clash';
   return 'neutral';
 }
+
+// ---- Eclipses (shadow geometry at new/full moon, Almanac low-precision Moon) ----
+
+double _cos(double deg) => cos(deg * pi / 180);
+
+/// Ecliptic latitude of the Moon, degrees (Meeus ch. 47, ten largest terms, ~0.02°).
+double moonLatitude(DateTime t) {
+  final c = (_jd(t) - 2451545.0) / 36525;
+  final d = 297.8501921 + 445267.1114034 * c; // elongation
+  final m = 134.9633964 + 477198.8675055 * c; // Moon's anomaly
+  final f = 93.2720950 + 483202.0175233 * c; // argument of latitude
+  return 5.128122 * _sin(f) +
+      0.280602 * _sin(m + f) +
+      0.277693 * _sin(m - f) +
+      0.173237 * _sin(2 * d - f) +
+      0.055413 * _sin(2 * d - m + f) +
+      0.046271 * _sin(2 * d - m - f) +
+      0.032573 * _sin(2 * d + f) +
+      0.017198 * _sin(2 * m + f) +
+      0.009266 * _sin(2 * d + m - f) +
+      0.008822 * _sin(2 * m - f);
+}
+
+/// Horizontal parallax of the Moon, degrees (≈ its distance).
+double _moonParallax(DateTime t) {
+  final c = (_jd(t) - 2451545.0) / 36525;
+  return 0.9508 +
+      0.0518 * _cos(134.9 + 477198.85 * c) +
+      0.0095 * _cos(259.2 - 413335.38 * c) +
+      0.0078 * _cos(235.7 + 890534.23 * c) +
+      0.0028 * _cos(269.9 + 954397.70 * c);
+}
+
+enum EclipseKind { solar, lunarPartialOrTotal, lunarPenumbral }
+
+class Eclipse {
+  final EclipseKind kind;
+  final DateTime utc;
+  const Eclipse(this.kind, this.utc);
+}
+
+/// Solar and lunar eclipses after [from] (somewhere on Earth; visibility depends on place).
+List<Eclipse> eclipses(DateTime from, DateTime to) {
+  final out = <Eclipse>[];
+  for (final e in phaseEvents(
+    from,
+    4 * ((to.difference(from).inDays ~/ 29) + 2),
+  )) {
+    if (e.utc.isAfter(to)) break;
+    if (e.phase != 0 && e.phase != 4) continue;
+    final t = e.utc;
+    final g = (357.528 + 0.9856003 * (_jd(t) - 2451545.0)) % 360;
+    final r =
+        1.00014 - 0.01671 * _cos(g) - 0.00014 * _cos(2 * g); // Sun distance, AU
+    final pm = _moonParallax(t), ps = 0.002443 / r;
+    final rm = 0.2725 * pm, rs = 0.26656 / r;
+    final beta = moonLatitude(t).abs();
+    if (e.phase == 0) {
+      if (beta < pm - ps + rs + rm) out.add(Eclipse(EclipseKind.solar, t));
+    } else if (beta < 1.02 * (pm + ps - rs) + rm) {
+      out.add(Eclipse(EclipseKind.lunarPartialOrTotal, t));
+    } else if (beta < 1.02 * (pm + ps + rs) + rm) {
+      out.add(Eclipse(EclipseKind.lunarPenumbral, t));
+    }
+  }
+  return out;
+}
+
+/// Next moment the Sun enters a new sign after [from]: (time, sign index).
+(DateTime, int) nextSunIngress(DateTime from) {
+  final next = (sunLongitude(from) ~/ 30 + 1) % 12;
+  return (_next(sunLongitude, next * 30.0, from), next);
+}

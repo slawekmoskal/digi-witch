@@ -217,6 +217,13 @@ class MoonCard extends StatelessWidget {
             ),
             for (final (start, end) in mercuryRetrogrades(noon, noon))
               if (!start.isAfter(noon)) l.mercuryNow(_ddmm(end.toLocal())),
+            for (final e in eclipses(
+              noon.toUtc(),
+              noon.toUtc().add(const Duration(days: 7)),
+            ))
+              l.eclipseSoon(
+                '${l.evEclipse(_eclipseKind(e.kind))}, ${_ddmm(e.utc.toLocal())}',
+              ),
           ].join('\n'),
         ),
         trailing: const Icon(Icons.chevron_right),
@@ -261,6 +268,32 @@ class MoonCalendarScreen extends StatelessWidget {
                         '${loc.formatMediumDate(s.toLocal())} – ${loc.formatMediumDate(e.toLocal())}',
                         style: const TextStyle(fontWeight: FontWeight.w600),
                       ),
+                  ],
+                );
+              },
+            ),
+          ),
+          LabeledBlock(
+            l.eclipsesTitle,
+            Builder(
+              builder: (context) {
+                final now = DateTime.now().toUtc();
+                final list = eclipses(now, now.add(const Duration(days: 365)));
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (final e in list)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 6),
+                        child: Text(
+                          '${loc.formatMediumDate(e.utc.toLocal())} — ${l.evEclipse(_eclipseKind(e.kind))}\n'
+                          '${a.eclipseText[e.kind == EclipseKind.solar ? 'solar' : 'lunar']}',
+                        ),
+                      ),
+                    Text(
+                      l.eclipseVisibility,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
                   ],
                 );
               },
@@ -948,6 +981,169 @@ class MoonRitualsScreen extends StatelessWidget {
               },
             ),
         ],
+      ),
+    );
+  }
+}
+
+String _eclipseKind(EclipseKind k) => switch (k) {
+  EclipseKind.solar => 'solar',
+  EclipseKind.lunarPartialOrTotal => 'partial',
+  EclipseKind.lunarPenumbral => 'penumbral',
+};
+
+/// Sky events between [from] and [to] (local times), sorted.
+List<(DateTime, String)> keyEvents(
+  BuildContext context,
+  DateTime from,
+  DateTime to,
+  int sun,
+) {
+  final l = context.l;
+  final a = context.content.astro;
+  final f = from.toUtc(), t = to.toUtc();
+  final ev = <(DateTime, String)>[
+    for (final e in phaseEvents(f, 12))
+      if (e.utc.isBefore(t)) (e.utc.toLocal(), a.phases[e.phase].name),
+    for (final e in eclipses(f, t))
+      (e.utc.toLocal(), l.evEclipse(_eclipseKind(e.kind))),
+    for (final (s, e) in mercuryRetrogrades(f, t)) ...[
+      if (s.isAfter(f)) (s.toLocal(), l.evMercuryStart),
+      if (e.isBefore(t)) (e.toLocal(), l.evMercuryEnd),
+    ],
+  ];
+  var x = f;
+  while (true) {
+    final (at, sign) = nextSunIngress(x);
+    if (at.isAfter(t)) break;
+    ev.add((at.toLocal(), l.evSunIngress(a.signs[sign].name)));
+    x = at.add(const Duration(hours: 1));
+  }
+  int? prev;
+  for (
+    var d = DateTime(from.year, from.month, from.day);
+    !d.isAfter(to);
+    d = DateTime(d.year, d.month, d.day + 1)
+  ) {
+    final m = moonSign(noonOf(d));
+    if (m == sun && prev != sun) {
+      ev.add((noonOf(d), l.evMoonInSign(a.signs[sun].name))); // first day only
+    }
+    prev = m;
+  }
+  return ev..sort((p, q) => p.$1.compareTo(q.$1));
+}
+
+class PeriodHoroscopeScreen extends StatelessWidget {
+  const PeriodHoroscopeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    final a = context.content.astro;
+    final t = Theme.of(context).textTheme;
+    final loc = MaterialLocalizations.of(context);
+    final birth = context.store.birthDate;
+    final now = DateTime.now();
+    Widget events(List<(DateTime, String)> ev) => Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (ev.isEmpty) Text(l.noKeyDays),
+        for (final (at, what) in ev)
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            dense: true,
+            leading: Icon(
+              Icons.circle,
+              size: 10,
+              color: Theme.of(context).colorScheme.tertiary,
+            ),
+            title: Text(
+              what,
+              style: const TextStyle(fontWeight: FontWeight.w600),
+            ),
+            subtitle: Text(loc.formatMediumDate(at)),
+          ),
+      ],
+    );
+    if (birth == null) {
+      return Scaffold(
+        appBar: AppBar(title: Text(l.periodTitle)),
+        body: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Text(l.needBirthDate),
+        ),
+      );
+    }
+    final sun = sunSign(birth);
+    final weekEnd = DateTime(now.year, now.month, now.day + 7);
+    final monthStart = DateTime(now.year, now.month, 1);
+    final monthEnd = DateTime(now.year, now.month + 1, 0, 23, 59);
+    final rel = elementRelation(
+      elementOf(sun),
+      elementOf(sunLongitude(now) ~/ 30),
+    );
+    final dayTitles = context.content.numerology[Indicator.personalDay]!;
+    return DefaultTabController(
+      length: 2,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(l.periodTitle),
+          bottom: TabBar(
+            tabs: [
+              Tab(text: l.tabWeek),
+              Tab(text: l.tabMonth),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: [
+            ListView(
+              padding: const EdgeInsets.all(16),
+              children: [
+                Text(l.periodIntro, style: t.bodySmall),
+                LabeledBlock(l.weekGeneral, Text(a.week[rel]!)),
+                LabeledBlock(
+                  l.keyDays,
+                  events(keyEvents(context, now, weekEnd, sun)),
+                ),
+                for (var i = 0; i < 7; i++)
+                  Builder(
+                    builder: (context) {
+                      final d = DateTime(now.year, now.month, now.day + i);
+                      final n = personalDay(
+                        birth,
+                        CalendarDate.fromDateTime(d),
+                      ).value!;
+                      return Card(
+                        child: ListTile(
+                          leading: NumberBadge('$n', size: 42),
+                          title: Text(loc.formatFullDate(d)),
+                          subtitle: Text(
+                            '${l.dayNumberLine(n, dayTitles[n]!.title)}\n'
+                            '${l.moonDayLine(a.signs[moonSign(noonOf(d))].locative, a.phases[moonPhase(noonOf(d))].name.toLowerCase())}',
+                          ),
+                          isThreeLine: true,
+                        ),
+                      );
+                    },
+                  ),
+              ],
+            ),
+            ListView(
+              padding: const EdgeInsets.all(16),
+              children: [
+                Text(l.periodIntro, style: t.bodySmall),
+                const SizedBox(height: 8),
+                ResultCard(personalMonth(birth, now.year, now.month)),
+                LabeledBlock(
+                  l.keyDays,
+                  events(keyEvents(context, monthStart, monthEnd, sun)),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

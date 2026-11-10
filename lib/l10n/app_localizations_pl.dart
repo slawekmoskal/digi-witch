@@ -1016,4 +1016,78 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get luckyTap => 'Stuknij liczbę, aby zobaczyć jej znaczenie.';
+
+  @override
+  String get periodTitle => 'Horoskop na tydzień i miesiąc';
+
+  @override
+  String get explorePeriod => 'Ważne dni i Twój miesiąc osobisty';
+
+  @override
+  String get periodIntro =>
+      'Liczony z prawdziwego nieba: fazy Księżyca, zaćmienia, Merkury wsteczny, wejście Słońca w kolejny znak i dni, gdy Księżyc jest w Twoim znaku — plus Twoje liczby osobiste.';
+
+  @override
+  String get tabWeek => 'Tydzień';
+
+  @override
+  String get tabMonth => 'Miesiąc';
+
+  @override
+  String get weekGeneral => 'Ogólnie';
+
+  @override
+  String get keyDays => 'Ważne dni';
+
+  @override
+  String get noKeyDays =>
+      'W tym okresie nie ma szczególnych wydarzeń na niebie — to dobry czas na spokojną pracę.';
+
+  @override
+  String evPhase(String phase) {
+    return '$phase';
+  }
+
+  @override
+  String evMoonInSign(String sign) {
+    return 'Księżyc w Twoim znaku ($sign)';
+  }
+
+  @override
+  String evSunIngress(String sign) {
+    return 'Słońce wchodzi w znak $sign';
+  }
+
+  @override
+  String get evMercuryStart => 'Merkury zaczyna cofać się';
+
+  @override
+  String get evMercuryEnd => 'Merkury znów idzie naprzód';
+
+  @override
+  String evEclipse(String kind) {
+    String _temp0 = intl.Intl.selectLogic(kind, {
+      'solar': 'Zaćmienie Słońca',
+      'partial': 'Zaćmienie Księżyca (częściowe lub całkowite)',
+      'other': 'Półcieniowe zaćmienie Księżyca (subtelne)',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String dayNumberLine(int n, String title) {
+    return 'Liczba dnia $n: $title';
+  }
+
+  @override
+  String get eclipsesTitle => 'Zaćmienia w najbliższym roku';
+
+  @override
+  String get eclipseVisibility =>
+      'Widoczność zależy od miejsca na Ziemi — nie każde zaćmienie widać z Polski.';
+
+  @override
+  String eclipseSoon(String when) {
+    return 'Zbliża się zaćmienie: $when';
+  }
 }

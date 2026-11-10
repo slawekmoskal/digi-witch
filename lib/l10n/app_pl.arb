@@ -627,5 +627,68 @@
       }
     }
   },
-  "luckyTap": "Stuknij liczbę, aby zobaczyć jej znaczenie."
+  "luckyTap": "Stuknij liczbę, aby zobaczyć jej znaczenie.",
+  "periodTitle": "Horoskop na tydzień i miesiąc",
+  "explorePeriod": "Ważne dni i Twój miesiąc osobisty",
+  "periodIntro": "Liczony z prawdziwego nieba: fazy Księżyca, zaćmienia, Merkury wsteczny, wejście Słońca w kolejny znak i dni, gdy Księżyc jest w Twoim znaku — plus Twoje liczby osobiste.",
+  "tabWeek": "Tydzień",
+  "tabMonth": "Miesiąc",
+  "weekGeneral": "Ogólnie",
+  "keyDays": "Ważne dni",
+  "noKeyDays": "W tym okresie nie ma szczególnych wydarzeń na niebie — to dobry czas na spokojną pracę.",
+  "evPhase": "{phase}",
+  "@evPhase": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      }
+    }
+  },
+  "evMoonInSign": "Księżyc w Twoim znaku ({sign})",
+  "@evMoonInSign": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "evSunIngress": "Słońce wchodzi w znak {sign}",
+  "@evSunIngress": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "evMercuryStart": "Merkury zaczyna cofać się",
+  "evMercuryEnd": "Merkury znów idzie naprzód",
+  "evEclipse": "{kind, select, solar{Zaćmienie Słońca} partial{Zaćmienie Księżyca (częściowe lub całkowite)} other{Półcieniowe zaćmienie Księżyca (subtelne)}}",
+  "@evEclipse": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "dayNumberLine": "Liczba dnia {n}: {title}",
+  "@dayNumberLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "eclipsesTitle": "Zaćmienia w najbliższym roku",
+  "eclipseVisibility": "Widoczność zależy od miejsca na Ziemi — nie każde zaćmienie widać z Polski.",
+  "eclipseSoon": "Zbliża się zaćmienie: {when}",
+  "@eclipseSoon": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  }
 }

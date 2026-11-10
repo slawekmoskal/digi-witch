@@ -160,4 +160,35 @@ void main() {
       expect(angleDiff(a, c[3]), lessThan(0.5), reason: '${c[0]} ${c[1]}');
     }
   });
+
+  test('eclipses match PyEphem shadow geometry 2000–2035', () {
+    final ref = {
+      for (final e in jsonDecode(
+        File('test/fixtures/eclipses_ref.json').readAsStringSync(),
+      ))
+        '${e[0]} ${e[1]}',
+    };
+    String kind(EclipseKind k) => switch (k) {
+      EclipseKind.solar => 'solar',
+      EclipseKind.lunarPartialOrTotal => 'lunar-umbral',
+      EclipseKind.lunarPenumbral => 'lunar-penumbral',
+    };
+    final mine = {
+      for (final e in eclipses(DateTime.utc(2000), DateTime.utc(2036)))
+        '${e.utc.toIso8601String().substring(0, 10)} ${kind(e.kind)}',
+    };
+    // Borderline grazing cases may differ by the low-precision Moon; allow a couple.
+    expect(
+      mine.difference(ref).length + ref.difference(mine).length,
+      lessThanOrEqualTo(4),
+      reason: 'extra ${mine.difference(ref)} missing ${ref.difference(mine)}',
+    );
+    for (final y in ['2026', '2027', '2028']) {
+      expect(
+        mine.where((e) => e.startsWith(y)).toSet(),
+        ref.where((e) => e.startsWith(y)).toSet(),
+        reason: y,
+      );
+    }
+  });
 }

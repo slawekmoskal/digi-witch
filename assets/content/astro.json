@@ -405,5 +405,15 @@
         "Co chcę odpuścić, zanim zacznie się nowy cykl?"
       ]
     }
+  },
+  "week": {
+    "same": "Słońce przechodzi teraz przez znak Twojego żywiołu — to tydzień, w którym łatwiej Ci być sobą i realizować swoje plany. Wykorzystaj go na sprawy, które wymagają Twoich mocnych stron.",
+    "supportive": "Słońce jest w znaku żywiołu, który Cię wspiera. Tydzień sprzyja kontaktom, współpracy i nowym pomysłom — mniej oporu, więcej przepływu.",
+    "neutral": "Słońce jest w znaku żywiołu neutralnego dla Ciebie. Spokojny tydzień, w którym wiele zależy od Twojej konsekwencji — postaw na jedną ważną sprawę.",
+    "tense": "Słońce jest w znaku żywiołu, który działa w innym rytmie niż Ty. Tydzień może wymagać cierpliwości i kompromisów — nie forsuj spraw na siłę."
+  },
+  "eclipseText": {
+    "solar": "Zaćmienie Słońca wypada w nowiu. W tradycji to mocny nowy początek — czas na zamiar, który ma znaczenie na dłużej.",
+    "lunar": "Zaćmienie Księżyca wypada w pełni. W tradycji to czas domknięć i ujawniania się spraw — dobry moment, by coś zakończyć."
   }
 }

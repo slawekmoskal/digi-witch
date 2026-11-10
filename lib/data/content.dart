@@ -102,7 +102,7 @@ class Sign {
 /// Texts for the daily horoscope, moon and compatibility; indexes follow engine/astro.dart.
 class Astro {
   final Map<String, String> elements, compat, yearForecast, chineseCompat;
-  final Map<String, String> haircut;
+  final Map<String, String> haircut, week, eclipseText;
   final List<Sign> signs;
   final List<({String name, String text, String long})> chinese;
   final List<Named> phases;
@@ -121,6 +121,8 @@ class Astro {
       yearForecast = Map<String, String>.from(j['yearForecast']),
       chineseCompat = Map<String, String>.from(j['chineseCompat']),
       haircut = Map<String, String>.from(j['haircut']),
+      week = Map<String, String>.from(j['week']),
+      eclipseText = Map<String, String>.from(j['eclipseText']),
       moonSigns = List<String>.from(j['moonSigns']),
       ascSigns = List<String>.from(j['ascSigns']),
       mercury = j['mercury'],
