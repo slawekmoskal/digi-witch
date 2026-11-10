@@ -13,7 +13,8 @@ Ostatnia aktualizacja: 2026-11-10 (popołudnie). **Zmiany niezacommitowane** —
 - Horoskop dnia (znak × Księżyc × liczba dnia), szczęśliwe liczby, Księżyc dziś + kalendarz (fazy, dzień po dniu, ogród/strzyżenie, Merkury wsteczny).
 - Wielka trójka (Słońce, Księżyc, ascendent; godzina + miasto w PL), horoskop chiński (żywioł, yin/yang, rok, zgodność), zgodność dwóch osób, karta urodzenia, sennik (144), artykuł o powtarzających się liczbach.
 - Nowy wygląd: paleta z ikony, Cormorant Garamond, ramka „karta tarota”, pływający pasek (na iOS imitacja Liquid Glass), ekran Tarota z talią i odsłanianiem kart.
-- Testy: `flutter test` 83/83; obliczenia astronomiczne sprawdzone z PyEphem (fixtures w `test/fixtures/`).
+- Później: miejsca urodzenia na świecie (229 + własne współrzędne), Dziś jako centrum (data od razu, kafelki „Odkrywaj”), Liczby z profilem; kwadrat Pitagorasa, cykle życia, I Ching, rytuały nowiu/pełni (powiadomienia), tranzyty osobiste.
+- Testy: `flutter test` 99/99; obliczenia astronomiczne sprawdzone z PyEphem (fixtures w `test/fixtures/`).
 
 ## Do zrobienia przy commicie
 - **Nie commitować** `ios/Runner.xcodeproj/project.pbxproj` (demo: bundle `com.digiwitch.app.demo`, Team `2B3TYZXZA8`) — przywrócić `git checkout` przed buildem do sklepu.

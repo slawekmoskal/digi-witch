@@ -78,14 +78,7 @@ void main() {
             matching: find.byType(Scrollable),
           )
           .first;
-      await t.scrollUntilVisible(
-        find.text('Droga życia'),
-        100,
-        scrollable: numScroll,
-      );
-      // Results start under the bottom bar on the test screen: scroll them up first.
-      await t.drag(numScroll, const Offset(0, -300));
-      await t.pumpAndSettle();
+      await scrollTo(t, find.text('Droga życia'));
       await t.tap(find.text('Droga życia'));
       await t.pumpAndSettle();
       final steps = find.text(
@@ -504,4 +497,53 @@ void main() {
       expect(find.text('Wybierz rozkład'), findsOneWidget);
     },
   );
+
+  testWidgets('Pythagoras square and life cycles show for the profile', (
+    t,
+  ) async {
+    SharedPreferences.setMockInitialValues({
+      'onboarded': true,
+      'birthDate': '1990-07-15',
+    });
+    final store = AppStore(await SharedPreferences.getInstance());
+    t.view.physicalSize = const Size(1080, 2400);
+    t.view.devicePixelRatio = 2.75;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(DigiWitchApp(store: store, content: content));
+    await t.pumpAndSettle();
+    await t.tap(find.text('Liczby'));
+    await t.pumpAndSettle();
+    await scrollTo(t, find.text('Kwadrat Pitagorasa'));
+    expect(find.text('333'), findsOneWidget); // three 3s for 15.07.1990
+    await scrollTo(t, find.text('Cykle życia: szczyty i wyzwania'));
+    await scrollTo(t, find.text('Szczyt budowania')); // first pinnacle 4
+    expect(find.text('0–31 lat'), findsOneWidget);
+  });
+
+  testWidgets('I Ching: six tosses give a hexagram and a reading', (t) async {
+    await pump(t);
+    await scrollTo(t, find.text('Wyrocznia I Ching'));
+    await t.tap(find.text('Wyrocznia I Ching'));
+    await t.pumpAndSettle();
+    for (var i = 1; i <= 6; i++) {
+      await scrollTo(t, find.text('Rzuć monetami ($i/6)'));
+      await t.tap(find.text('Rzuć monetami ($i/6)'));
+      await t.pumpAndSettle();
+    }
+    expect(find.textContaining('Rzuć monetami'), findsNothing);
+    await scrollTo(t, find.text('Nowe pytanie'));
+    expect(find.text('ZNACZENIE'), findsOneWidget);
+  });
+
+  testWidgets('Moon rituals screen lists new and full moon with prompts', (
+    t,
+  ) async {
+    await pump(t);
+    await scrollTo(t, find.text('Rytuały Księżyca'));
+    await t.tap(find.text('Rytuały Księżyca'));
+    await t.pumpAndSettle();
+    expect(find.text('Rytuał nowiu'), findsOneWidget);
+    await scrollTo(t, find.text('Rytuał pełni'));
+    expect(find.text('Rytuał pełni'), findsOneWidget);
+  });
 }

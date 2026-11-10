@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../data/places.dart';
+import '../l10n/app_localizations.dart';
+import '../reminders.dart';
 import '../engine/astro.dart';
 import '../engine/numerology.dart';
 import 'numerology_screen.dart';
@@ -69,6 +71,21 @@ class HoroscopeCard extends StatelessWidget {
             '${l.moonIn(a.signs[moon].locative, phase.name.toLowerCase())} ${phase.text}',
           ),
           block(l.horoscopeCaution, a.caution[day]!),
+          if (personalTransits(context, birth, noon) case final tr
+              when tr.isNotEmpty)
+            LabeledBlock(
+              l.forYouToday,
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  for (final x in tr)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 6),
+                      child: Text(x),
+                    ),
+                ],
+              ),
+            ),
           const SizedBox(height: 16),
           Row(
             children: [
@@ -747,6 +764,151 @@ class _OtherPlaceDialogState extends State<OtherPlaceDialog> {
         ),
         FilledButton(onPressed: _save, child: Text(l.save)),
       ],
+    );
+  }
+}
+
+/// Moon sign at birth, or null when it is ambiguous (no time and the Moon changed sign that day).
+int? birthMoonSign(CalendarDate birth, int? minutes, Place? place) {
+  final zone = place?.tz ?? 'Europe/Warsaw';
+  if (minutes != null) return moonSign(localToUtc(birth, minutes, zone));
+  final a = moonSign(localToUtc(birth, 0, zone));
+  return a == moonSign(localToUtc(birth, 1439, zone)) ? a : null;
+}
+
+/// Ascendant sign, only with both birth time and place.
+int? birthAscSign(CalendarDate birth, int? minutes, Place? place) =>
+    minutes == null || place == null
+    ? null
+    : ascendant(localToUtc(birth, minutes, place.tz), place.lat, place.lon) ~/
+          30;
+
+/// Today's sky against the user's chart: Moon over Sun/Moon/ascendant, opposite Moon, solar season, Mercury retrograde in the Sun sign.
+List<String> personalTransits(
+  BuildContext context,
+  CalendarDate birth,
+  DateTime noon,
+) {
+  final s = context.store;
+  final tr = context.content.astro.transits;
+  final place = placeNamed(s.birthPlace);
+  final sun = sunSign(birth), moon = moonSign(noon);
+  final bm = birthMoonSign(birth, s.birthMinutes, place);
+  final asc = birthAscSign(birth, s.birthMinutes, place);
+  final retro = mercuryRetrogrades(noon, noon).any((p) => !p.$1.isAfter(noon));
+  return [
+    if (moon == sun) tr['moonInSun']!,
+    if (bm != null && moon == bm && bm != sun) tr['moonInMoon']!,
+    if (asc != null && moon == asc && asc != sun && asc != bm) tr['moonInAsc']!,
+    if (moon == (sun + 6) % 12) tr['moonOpposite']!,
+    if (sunLongitude(noon) ~/ 30 == sun) tr['sunSeason']!,
+    if (retro && mercuryLongitude(noon) ~/ 30 == sun) tr['mercuryInSun']!,
+  ];
+}
+
+/// Next two new and two full moons, at 9:00 local on the day.
+List<(DateTime, String, String)> moonReminderEvents(AppLocalizations l) => [
+  for (final e in phaseEvents(DateTime.now().toUtc(), 8))
+    if (e.phase == 0 || e.phase == 4)
+      (
+        DateTime(
+          e.utc.toLocal().year,
+          e.utc.toLocal().month,
+          e.utc.toLocal().day,
+          9,
+        ),
+        e.phase == 0 ? l.moonReminderNewTitle : l.moonReminderFullTitle,
+        e.phase == 0 ? l.moonReminderNewBody : l.moonReminderFullBody,
+      ),
+];
+
+class MoonRitualsScreen extends StatelessWidget {
+  const MoonRitualsScreen({super.key});
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    final a = context.content.astro;
+    final t = Theme.of(context).textTheme;
+    final s = context.store;
+    final loc = MaterialLocalizations.of(context);
+    final events = phaseEvents(DateTime.now().toUtc(), 4);
+    DateTime next(int phase) =>
+        events.firstWhere((e) => e.phase == phase).utc.toLocal();
+    Widget ritual(String key, DateTime when) {
+      final r = a.rituals[key]!;
+      return Card(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(r.title, style: t.headlineSmall),
+              Text(
+                loc.formatFullDate(when),
+                style: t.labelLarge?.copyWith(
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text(r.text),
+              LabeledBlock(
+                l.reflectionQuestions,
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [for (final p in r.prompts) Text('• $p')],
+                ),
+              ),
+              SaveReflectionButton(
+                prompt: r.prompts.join('\n'),
+                ref: {
+                  'type': 'ritual',
+                  'label': '${r.title} · ${loc.formatMediumDate(when)}',
+                },
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    final newFirst = next(0).isBefore(next(4));
+    return Scaffold(
+      appBar: AppBar(title: Text(l.ritualsTitle)),
+      body: ListView(
+        padding: const EdgeInsets.all(16),
+        children: [
+          Text(l.ritualsIntro, style: t.bodySmall),
+          const SizedBox(height: 8),
+          if (newFirst) ...[
+            ritual('new', next(0)),
+            ritual('full', next(4)),
+          ] else ...[
+            ritual('full', next(4)),
+            ritual('new', next(0)),
+          ],
+          if (Reminders.supported)
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Text(l.moonRemindersToggle),
+              subtitle: Text(l.moonRemindersNote),
+              value: s.moonReminders,
+              onChanged: (on) async {
+                if (!on) {
+                  s.moonReminders = false;
+                  await Reminders.disableMoon();
+                  return;
+                }
+                final ok = await Reminders.enableMoon(moonReminderEvents(l));
+                if (ok) {
+                  s.moonReminders = true;
+                } else if (context.mounted) {
+                  ScaffoldMessenger.of(context)
+                      .showSnackBar(SnackBar(content: Text(l.reminderDenied)));
+                }
+              },
+            ),
+        ],
+      ),
     );
   }
 }

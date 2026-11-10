@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../engine/numerology.dart';
 import 'library_screen.dart';
 import 'astro_screens.dart';
+import 'iching_screen.dart';
 import 'numerology_screen.dart';
 import 'settings_screen.dart';
 import 'tarot_screen.dart';
@@ -188,6 +189,18 @@ class ExploreGrid extends StatelessWidget {
         () => homeTab.value = 1,
       ),
       (Icons.tag, l.yourNumbers, l.exploreNumbersSub, () => homeTab.value = 0),
+      (
+        Icons.blur_on,
+        l.ichingTitle,
+        l.exploreIching,
+        () => push(const IChingScreen()),
+      ),
+      (
+        Icons.brightness_3_outlined,
+        l.ritualsTitle,
+        l.exploreRituals,
+        () => push(const MoonRitualsScreen()),
+      ),
       (
         Icons.dark_mode_outlined,
         l.moonCalendar,

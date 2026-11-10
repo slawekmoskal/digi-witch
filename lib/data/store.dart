@@ -57,6 +57,9 @@ class AppStore extends ChangeNotifier {
   set isPro(bool v) => _set(() => _p.setBool('isPro', v));
 
   /// Daily reminder time in minutes after midnight; null = off (default).
+  bool get moonReminders => _p.getBool('moonReminders') ?? false;
+  set moonReminders(bool v) => _set(() => _p.setBool('moonReminders', v));
+
   int? get reminderMinutes => _p.getInt('reminderMinutes');
   set reminderMinutes(int? v) => _set(
     () => v == null

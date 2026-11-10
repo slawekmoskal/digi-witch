@@ -122,6 +122,17 @@ void main() {
       expect(c.dreams.length, greaterThan(100));
       expect(c.dreams.map((d) => d.symbol).toSet().length, c.dreams.length);
     });
+
+    test('numerology extras, I Ching, transits and rituals complete', () {
+      final x = c.numerologyExtra;
+      expect(x.square.keys.toSet(), {for (var i = 1; i <= 9; i++) i});
+      expect(x.square.values.every((v) => v.levels.length == 4), isTrue);
+      expect(x.pinnacles.keys.toSet(), {for (var i = 1; i <= 9; i++) i});
+      expect(x.challenges.keys.toSet(), {for (var i = 0; i <= 8; i++) i});
+      expect(c.iching.keys.toSet(), {for (var i = 1; i <= 64; i++) i});
+      expect(c.astro.transits.length, 6);
+      expect(c.astro.rituals.keys.toSet(), {'new', 'full'});
+    });
   });
 
   group('store', () {

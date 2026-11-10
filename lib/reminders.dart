@@ -48,6 +48,12 @@ class Reminders {
     required String body,
   }) async {
     await _init();
+    if (!await _request()) return false;
+    await _schedule(hour, minute, title: title, body: body);
+    return true;
+  }
+
+  static Future<bool> _request() async {
     final granted = defaultTargetPlatform == TargetPlatform.iOS
         ? await _plugin
               .resolvePlatformSpecificImplementation<
@@ -59,9 +65,68 @@ class Reminders {
                 AndroidFlutterLocalNotificationsPlugin
               >()
               ?.requestNotificationsPermission();
-    if (granted != true) return false;
-    await _schedule(hour, minute, title: title, body: body);
+    return granted == true;
+  }
+
+  static const _moonIds = [10, 11, 12, 13];
+
+  /// One-off notifications for the next new and full moons. Returns false if permission was declined.
+  static Future<bool> enableMoon(
+    List<(DateTime, String, String)> events,
+  ) async {
+    if (!supported) return false;
+    await _init();
+    if (!await _request()) return false;
+    await _scheduleMoon(events);
     return true;
+  }
+
+  /// Re-plans moon reminders at app start (the next phases move on). No permission prompt.
+  static Future<void> rescheduleMoon(
+    List<(DateTime, String, String)> events,
+  ) async {
+    if (!supported) return;
+    try {
+      await _init();
+      await _scheduleMoon(events);
+    } catch (_) {}
+  }
+
+  static Future<void> _scheduleMoon(
+    List<(DateTime, String, String)> events,
+  ) async {
+    for (final id in _moonIds) {
+      await _plugin.cancel(id: id);
+    }
+    final now = DateTime.now();
+    var i = 0;
+    for (final (at, title, body) in events) {
+      if (!at.isAfter(now) || i >= _moonIds.length) continue;
+      await _plugin.zonedSchedule(
+        id: _moonIds[i++],
+        scheduledDate: tz.TZDateTime.from(at, tz.local),
+        title: title,
+        body: body,
+        notificationDetails: const NotificationDetails(
+          android: AndroidNotificationDetails(
+            'moon_rituals',
+            'Nów i pełnia',
+            importance: Importance.defaultImportance,
+            priority: Priority.defaultPriority,
+          ),
+          iOS: DarwinNotificationDetails(),
+        ),
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      );
+    }
+  }
+
+  static Future<void> disableMoon() async {
+    if (!supported) return;
+    await _init();
+    for (final id in _moonIds) {
+      await _plugin.cancel(id: id);
+    }
   }
 
   /// Re-plans an already enabled reminder at app start (zone change, restored backup). No permission prompt.
@@ -95,7 +160,7 @@ class Reminders {
       minute,
     );
     if (!at.isAfter(now)) at = at.add(const Duration(days: 1));
-    await _plugin.cancelAll();
+    await _plugin.cancel(id: 1); // only the daily one; moon reminders stay
     await _plugin.zonedSchedule(
       id: 1,
       scheduledDate: at,
@@ -119,6 +184,6 @@ class Reminders {
   static Future<void> disable() async {
     if (!supported) return;
     await _init();
-    await _plugin.cancelAll();
+    await _plugin.cancel(id: 1);
   }
 }

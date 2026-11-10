@@ -128,4 +128,26 @@ void main() {
       isNot(luckyNumbers(birth, CalendarDate.tryCreate(2026, 11, 11)!)),
     );
   });
+
+  test('Pythagoras square, classic and 2000+ variant', () {
+    // 15.07.1990: 1+5+0+7+1+9+9+0 = 32; 5; 32 − 2·1 = 30; 3
+    var s = pythagorasSquare(CalendarDate.tryCreate(1990, 7, 15)!);
+    expect(s.working, [32, 5, 30, 3]);
+    expect(s.counts, {1: 2, 2: 1, 3: 3, 4: 0, 5: 2, 6: 0, 7: 1, 8: 0, 9: 2});
+    // 03.05.2004: 0+3+0+5+2+0+0+4 = 14; 5; 14 + 19 = 33; 6
+    s = pythagorasSquare(CalendarDate.tryCreate(2004, 5, 3)!);
+    expect(s.working, [14, 5, 33, 6]);
+    expect(s.counts[3], 3); // one 3 in the date + two in 33
+  });
+
+  test('life periods: pinnacles, challenges, ages', () {
+    // 15.07.1990: m 7, d 6, y 1; life path 32 → 5; first period ends at 31
+    final p = lifePeriods(CalendarDate.tryCreate(1990, 7, 15)!);
+    expect([for (final x in p) x.pinnacle], [4, 7, 2, 8]); // 13→4, 7, 11→2, 8
+    expect([for (final x in p) x.challenge], [1, 5, 4, 6]);
+    expect(
+      [p[0].toAge, p[1].fromAge, p[1].toAge, p[3].fromAge, p[3].toAge],
+      [31, 32, 40, 50, null],
+    );
+  });
 }

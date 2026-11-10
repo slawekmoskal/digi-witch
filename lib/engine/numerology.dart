@@ -327,3 +327,75 @@ NumerologyResult personality(NormalizedName n) => _nameNumber(
   n,
   (l) => !vowels.contains(l),
 );
+
+// ---- Pythagoras square (psychomatrix, Aleksandrov method) ----
+
+class PythagorasSquare {
+  final List<int> working; // the four working numbers
+  final Map<int, int> counts; // digit 1–9 → how many times it appears
+  final List<String> steps;
+  const PythagorasSquare(this.working, this.counts, this.steps);
+}
+
+PythagorasSquare pythagorasSquare(CalendarDate d) {
+  final dateDigits =
+      '${d.day.toString().padLeft(2, '0')}${d.month.toString().padLeft(2, '0')}${d.year}'
+          .split('')
+          .map(int.parse)
+          .toList();
+  final a = dateDigits.fold(0, (s, x) => s + x);
+  final b = digitSum(a);
+  final firstDayDigit = d.day >= 10 ? d.day ~/ 10 : d.day;
+  // Born from 2000 on, the school uses +19 instead of − 2 × first digit of the day.
+  final c = d.year >= 2000 ? a + 19 : (a - 2 * firstDayDigit).abs();
+  final e = digitSum(c);
+  final pool = [
+    ...dateDigits,
+    for (final n in [a, b, c, e]) ...n.toString().split('').map(int.parse),
+  ].where((x) => x != 0);
+  final counts = {for (var i = 1; i <= 9; i++) i: 0};
+  for (final x in pool) {
+    counts[x] = counts[x]! + 1;
+  }
+  return PythagorasSquare(
+    [a, b, c, e],
+    counts,
+    [
+      'Cyfry daty: ${dateDigits.join(' + ')} = $a (pierwsza liczba robocza).',
+      'Suma cyfr $a = $b (druga).',
+      d.year >= 2000
+          ? 'Dla urodzonych od 2000 r.: $a + 19 = $c (trzecia).'
+          : '$a − 2 × $firstDayDigit (pierwsza cyfra dnia) = $c (trzecia).',
+      'Suma cyfr $c = $e (czwarta).',
+      'Do siatki trafiają cyfry daty i czterech liczb roboczych, bez zer.',
+    ],
+  );
+}
+
+// ---- Life cycles: pinnacles and challenges ----
+
+class LifePeriod {
+  final int fromAge; // inclusive
+  final int? toAge; // inclusive; null = rest of life
+  final int pinnacle, challenge;
+  const LifePeriod(this.fromAge, this.toAge, this.pinnacle, this.challenge);
+}
+
+int _single(int n) => reduceSteps(n, const {}).last;
+
+/// Four periods; the first ends at 36 − life path (life path reduced to 1–9).
+List<LifePeriod> lifePeriods(CalendarDate d) {
+  final m = _single(d.month), day = _single(d.day), y = _single(d.year);
+  final lp = _single(lifePath(d).value!);
+  final p1 = _single(m + day), p2 = _single(day + y);
+  final p3 = _single(p1 + p2), p4 = _single(m + y);
+  final c1 = (m - day).abs(), c2 = (day - y).abs();
+  final c3 = (c1 - c2).abs(), c4 = (m - y).abs();
+  final end1 = 36 - lp;
+  return [
+    LifePeriod(0, end1, p1, c1),
+    LifePeriod(end1 + 1, end1 + 9, p2, c2),
+    LifePeriod(end1 + 10, end1 + 18, p3, c3),
+    LifePeriod(end1 + 19, null, p4, c4),
+  ];
+}

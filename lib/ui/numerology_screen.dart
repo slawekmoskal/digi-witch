@@ -127,6 +127,8 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
             Text(l.portraitNote, style: t.bodySmall),
             for (final r in profileResults(birth, s.fullName)) ResultCard(r),
             BirthCardSection(birthCard(birth)),
+            PythagorasSection(birth),
+            LifeCyclesSection(birth),
           ] else ...[
             TarotFrame(
               child: Column(
@@ -208,7 +210,11 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
               SectionTitle(l.portrait),
               Text(l.portraitNote, style: t.bodySmall),
               for (final r in _results!) ResultCard(r),
-              if (_birth case final b?) BirthCardSection(birthCard(b)),
+              if (_birth case final b?) ...[
+                BirthCardSection(birthCard(b)),
+                PythagorasSection(b),
+                LifeCyclesSection(b),
+              ],
             ],
           ],
           const SizedBox(height: 16),
@@ -377,6 +383,202 @@ class BirthCardSection extends StatelessWidget {
         DrawnCardTile(DrawnCard(b.id, l.birthCardTitle, false)),
         if (b.secondId case final id?)
           DrawnCardTile(DrawnCard(id, l.birthCardSecond, false)),
+      ],
+    );
+  }
+}
+
+/// 3×3 psychomatrix grid; tap a cell to read what that digit's count means.
+class PythagorasSection extends StatefulWidget {
+  final CalendarDate birth;
+  const PythagorasSection(this.birth, {super.key});
+  @override
+  State<PythagorasSection> createState() => _PythagorasSectionState();
+}
+
+class _PythagorasSectionState extends State<PythagorasSection> {
+  int _picked = 1;
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    final t = Theme.of(context).textTheme;
+    final cs = Theme.of(context).colorScheme;
+    final sq = pythagorasSquare(widget.birth);
+    final texts = context.content.numerologyExtra.square;
+    Widget cell(int digit) {
+      final n = sq.counts[digit]!;
+      final sel = digit == _picked;
+      return Expanded(
+        child: Padding(
+          padding: const EdgeInsets.all(3),
+          child: Semantics(
+            button: true,
+            selected: sel,
+            label:
+                '${texts[digit]!.title}: ${n == 0 ? l.squareEmpty : '$digit × $n'}',
+            excludeSemantics: true,
+            child: Material(
+              color: sel ? cs.primary.withValues(alpha: 0.10) : cs.surface,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+                side: BorderSide(
+                  color: sel ? cs.tertiary : cs.outlineVariant,
+                  width: sel ? 2 : 1,
+                ),
+              ),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(12),
+                onTap: () => setState(() => _picked = digit),
+                child: SizedBox(
+                  height: 76,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      FittedBox(
+                        child: Text(
+                          n == 0 ? '—' : '$digit' * n,
+                          style: t.headlineSmall?.copyWith(color: cs.primary),
+                        ),
+                      ),
+                      Text(
+                        texts[digit]!.title,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: t.labelSmall,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
+
+    final n = sq.counts[_picked]!;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SectionTitle(l.squareTitle),
+        Text(l.squareIntro, style: t.bodySmall),
+        const SizedBox(height: 8),
+        for (final row in const [
+          [1, 4, 7],
+          [2, 5, 8],
+          [3, 6, 9],
+        ])
+          Row(children: [for (final d in row) cell(d)]),
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '${texts[_picked]!.title} · ${n == 0 ? l.squareEmpty : '$_picked' * n}',
+                  style: t.titleMedium,
+                ),
+                const SizedBox(height: 4),
+                Text(texts[_picked]!.levels[n.clamp(0, 3)]),
+              ],
+            ),
+          ),
+        ),
+        ExpansionTile(
+          tilePadding: EdgeInsets.zero,
+          title: Text(l.calculation),
+          expandedCrossAxisAlignment: CrossAxisAlignment.start,
+          children: [for (final s in sq.steps) Text(s)],
+        ),
+      ],
+    );
+  }
+}
+
+/// Four life periods with pinnacle and challenge; the current one is highlighted.
+class LifeCyclesSection extends StatelessWidget {
+  final CalendarDate birth;
+  const LifeCyclesSection(this.birth, {super.key});
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l;
+    final t = Theme.of(context).textTheme;
+    final cs = Theme.of(context).colorScheme;
+    final x = context.content.numerologyExtra;
+    final now = DateTime.now();
+    var age = now.year - birth.year;
+    if (now.month < birth.month ||
+        (now.month == birth.month && now.day < birth.day)) {
+      age--; // birthday not reached yet this year
+    }
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SectionTitle(l.cyclesTitle),
+        Text(l.cyclesIntro, style: t.bodySmall),
+        const SizedBox(height: 8),
+        for (final p in lifePeriods(birth))
+          Builder(
+            builder: (context) {
+              final current =
+                  age >= p.fromAge && (p.toAge == null || age <= p.toAge!);
+              final pin = x.pinnacles[p.pinnacle]!,
+                  ch = x.challenges[p.challenge]!;
+              return Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                  side: BorderSide(
+                    color: current ? cs.tertiary : cs.outlineVariant,
+                    width: current ? 2 : 1,
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      NumberBadge('${p.pinnacle}', size: 52),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              p.toAge == null
+                                  ? l.ageFrom(p.fromAge)
+                                  : l.ageRange(p.fromAge, p.toAge!),
+                              style: t.labelLarge?.copyWith(
+                                color: cs.secondary,
+                              ),
+                            ),
+                            if (current)
+                              Text(
+                                l.cyclesNow,
+                                style: t.labelLarge?.copyWith(
+                                  color: cs.primary,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            Text(pin.name, style: t.titleMedium),
+                            Text(pin.text),
+                            const SizedBox(height: 6),
+                            Text(
+                              '${ch.name} (${p.challenge})',
+                              style: const TextStyle(
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(ch.text),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
+          ),
       ],
     );
   }

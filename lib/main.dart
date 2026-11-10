@@ -10,6 +10,7 @@ import 'data/store.dart';
 import 'l10n/app_localizations.dart';
 import 'monetization/monetization.dart';
 import 'reminders.dart';
+import 'ui/astro_screens.dart';
 import 'ui/journal_screen.dart';
 import 'ui/library_screen.dart';
 import 'ui/numerology_screen.dart';
@@ -138,6 +139,9 @@ class _HomeShellState extends State<HomeShell> {
     homeTab.value = 2; // always start on Today
     homeTab.addListener(_onTab);
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (context.store.moonReminders) {
+        Reminders.rescheduleMoon(moonReminderEvents(context.l));
+      }
       final m = context.store.reminderMinutes;
       if (m != null) {
         Reminders.reschedule(

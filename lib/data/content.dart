@@ -105,6 +105,9 @@ class Astro {
   final Map<String, ({String name, String adj, String text})> elements5;
   final Map<String, Named> dayTypes;
   final String mercury;
+  final Map<String, String> transits;
+  final Map<String, ({String title, String text, List<String> prompts})>
+  rituals;
   final Map<String, List<String>> today;
   final Map<int, String> caution;
   Astro.fromJson(Map<String, dynamic> j)
@@ -116,6 +119,15 @@ class Astro {
       moonSigns = List<String>.from(j['moonSigns']),
       ascSigns = List<String>.from(j['ascSigns']),
       mercury = j['mercury'],
+      transits = Map<String, String>.from(j['transits']),
+      rituals = {
+        for (final e in (j['rituals'] as Map<String, dynamic>).entries)
+          e.key: (
+            title: e.value['title'] as String,
+            text: e.value['text'] as String,
+            prompts: List<String>.from(e.value['prompts']),
+          ),
+      },
       elements5 = {
         for (final e in (j['elements5'] as Map<String, dynamic>).entries)
           e.key: (
@@ -157,6 +169,39 @@ class Dream {
       reflection = j['reflection'];
 }
 
+class NumerologyExtra {
+  final Map<int, ({String title, List<String> levels})> square;
+  final Map<int, Named> pinnacles, challenges;
+  NumerologyExtra.fromJson(Map<String, dynamic> j)
+    : square = {
+        for (final e in (j['square'] as Map<String, dynamic>).entries)
+          int.parse(e.key): (
+            title: e.value['title'] as String,
+            levels: List<String>.from(e.value['levels']),
+          ),
+      },
+      pinnacles = _named(j['pinnacles']),
+      challenges = _named(j['challenges']);
+
+  static Map<int, Named> _named(Map<String, dynamic> m) => {
+    for (final e in m.entries)
+      int.parse(e.key): (
+        name: e.value['title'] as String,
+        text: e.value['text'] as String,
+      ),
+  };
+}
+
+class Hexagram {
+  final int n;
+  final String name, text, advice;
+  Hexagram.fromJson(Map<String, dynamic> j)
+    : n = j['n'],
+      name = j['name'],
+      text = j['text'],
+      advice = j['advice'];
+}
+
 /// All bundled, offline content.
 class Content {
   final Map<String, TarotCard> cards; // ordered as in the deck
@@ -167,6 +212,8 @@ class Content {
   final List<Article> articles;
   final Astro astro;
   final List<Dream> dreams;
+  final NumerologyExtra numerologyExtra;
+  final Map<int, Hexagram> iching;
   Content._(
     this.cards,
     this.numerology,
@@ -176,6 +223,8 @@ class Content {
     this.articles,
     this.astro,
     this.dreams,
+    this.numerologyExtra,
+    this.iching,
   );
 
   Interpretation? interpretation(Indicator i, int? v) =>
@@ -205,6 +254,11 @@ class Content {
       [for (final e in await j('articles.json')) Article.fromJson(e)],
       Astro.fromJson(await j('astro.json')),
       [for (final e in await j('dreams.json')) Dream.fromJson(e)],
+      NumerologyExtra.fromJson(await j('numerology_extra.json')),
+      {
+        for (final e in await j('iching.json'))
+          e['n'] as int: Hexagram.fromJson(e),
+      },
     );
   }
 }

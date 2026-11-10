@@ -1,0 +1,161 @@
+{
+  "square": {
+    "1": {
+      "title": "Charakter",
+      "levels": [
+        "Brak jedynek: siłę woli budujesz świadomie — opłaca się ćwiczyć asertywność.",
+        "Jedna jedynka: łagodny charakter, łatwo ustępujesz innym.",
+        "Dwie jedynki: zrównoważony charakter — umiesz postawić na swoim, ale nie na siłę.",
+        "Trzy i więcej: silna wola i potrzeba przewodzenia; uważaj na upór."
+      ]
+    },
+    "2": {
+      "title": "Energia",
+      "levels": [
+        "Brak dwójek: energię czerpiesz z innych i z odpoczynku — dbaj o regenerację.",
+        "Jedna dwójka: energii wystarcza na co dzień, ale łatwo ją stracić w nadmiarze bodźców.",
+        "Dwie dwójki: dobry zapas energii i wrażliwość na otoczenie.",
+        "Trzy i więcej: dużo energii, którą warto czymś zająć, by nie przeszła w nerwowość."
+      ]
+    },
+    "3": {
+      "title": "Ciekawość",
+      "levels": [
+        "Brak trójek: wiedzę zdobywasz praktycznie, przez doświadczenie, a nie z książek.",
+        "Jedna trójka: ciekawość świata, która potrzebuje konkretnego celu.",
+        "Dwie trójki: zdolności do nauk ścisłych, porządku i analizy.",
+        "Trzy i więcej: silny umysł badacza — łatwo przychodzi Ci nauka nowych rzeczy."
+      ]
+    },
+    "4": {
+      "title": "Zdrowie",
+      "levels": [
+        "Brak czwórek: tradycja mówi o potrzebie szczególnej troski o kondycję — ruch i rytm dnia.",
+        "Jedna czwórka: przeciętna wytrzymałość, którą łatwo wzmocnić nawykami.",
+        "Dwie czwórki: dobra kondycja i odporność.",
+        "Trzy i więcej: duża wytrzymałość fizyczna, często zamiłowanie do sportu."
+      ]
+    },
+    "5": {
+      "title": "Intuicja",
+      "levels": [
+        "Brak piątek: decyzje lepiej podejmować po namyśle i z planem.",
+        "Jedna piątka: intuicja działa, ale bywa zagłuszana przez wątpliwości.",
+        "Dwie piątki: dobra intuicja połączona z logiką — trafnie oceniasz sytuacje.",
+        "Trzy i więcej: silne przeczucia; warto im ufać, ale sprawdzać fakty."
+      ]
+    },
+    "6": {
+      "title": "Praca",
+      "levels": [
+        "Brak szóstek: lepiej czujesz się w pracy umysłowej niż fizycznej.",
+        "Jedna szóstka: praca fizyczna bywa koniecznością, a nie przyjemnością.",
+        "Dwie szóstki: zręczne ręce, talent do rzemiosła i konkretów.",
+        "Trzy i więcej: potrzeba tworzenia czegoś namacalnego — praca daje Ci równowagę."
+      ]
+    },
+    "7": {
+      "title": "Talent",
+      "levels": [
+        "Brak siódemek: sukces przychodzi z wytrwałości, nie z przypadku.",
+        "Jedna siódemka: ukryty talent, który warto odkryć.",
+        "Dwie siódemki: wyraźny talent i „szczęście” w działaniu.",
+        "Trzy i więcej: wiele talentów — ważne, by wybrać jeden i go rozwinąć."
+      ]
+    },
+    "8": {
+      "title": "Obowiązek",
+      "levels": [
+        "Brak ósemek: swobodne podejście do zobowiązań; dobrze mieć jasne zasady.",
+        "Jedna ósemka: odpowiedzialność przychodzi z wiekiem i doświadczeniem.",
+        "Dwie ósemki: silne poczucie obowiązku i troska o innych.",
+        "Trzy i więcej: wielka odpowiedzialność — pamiętaj, by nie nieść wszystkiego samemu."
+      ]
+    },
+    "9": {
+      "title": "Pamięć",
+      "levels": [
+        "Brak dziewiątek: lepiej zapamiętujesz przez działanie niż przez słuchanie.",
+        "Jedna dziewiątka: dobra pamięć, którą rozwija praktyka.",
+        "Dwie dziewiątki: bystry umysł i dobra pamięć.",
+        "Trzy i więcej: wyjątkowa pamięć i szybkie myślenie."
+      ]
+    }
+  },
+  "pinnacles": {
+    "1": {
+      "title": "Szczyt samodzielności",
+      "text": "Etap stawania na własnych nogach: decyzje, inicjatywa, odwaga, by iść własną drogą."
+    },
+    "2": {
+      "title": "Szczyt współpracy",
+      "text": "Etap relacji i partnerstwa: cierpliwość, dyplomacja, budowanie mostów między ludźmi."
+    },
+    "3": {
+      "title": "Szczyt ekspresji",
+      "text": "Etap twórczości, kontaktów i radości — dobry czas, by pokazać światu, co masz do powiedzenia."
+    },
+    "4": {
+      "title": "Szczyt budowania",
+      "text": "Etap pracy u podstaw: stabilizacja, dom, finanse, systematyczny wysiłek, który procentuje."
+    },
+    "5": {
+      "title": "Szczyt zmian",
+      "text": "Etap ruchu, podróży i nowych doświadczeń — dużo zmian, mało nudy."
+    },
+    "6": {
+      "title": "Szczyt troski",
+      "text": "Etap rodziny, domu i odpowiedzialności za innych; ważne relacje i zobowiązania."
+    },
+    "7": {
+      "title": "Szczyt poszukiwań",
+      "text": "Etap refleksji, nauki i pogłębiania siebie — więcej pytań o sens niż o wygodę."
+    },
+    "8": {
+      "title": "Szczyt sprawczości",
+      "text": "Etap kariery, wpływu i pieniędzy — czas na ambitne cele i dojrzałe zarządzanie zasobami."
+    },
+    "9": {
+      "title": "Szczyt domykania",
+      "text": "Etap szerokiej perspektywy, dzielenia się doświadczeniem i zamykania starych rozdziałów."
+    }
+  },
+  "challenges": {
+    "0": {
+      "title": "Wyzwanie wyboru",
+      "text": "Brak jednego tematu — wyzwaniem jest wybór, czego chcesz się nauczyć. Wszystkie drogi są otwarte."
+    },
+    "1": {
+      "title": "Wyzwanie niezależności",
+      "text": "Nauka wyrażania siebie i stawiania granic, bez uległości i bez uporu."
+    },
+    "2": {
+      "title": "Wyzwanie wrażliwości",
+      "text": "Nauka, by nie brać wszystkiego do siebie i nie rezygnować z siebie dla świętego spokoju."
+    },
+    "3": {
+      "title": "Wyzwanie wyrażania",
+      "text": "Nauka mówienia o uczuciach i pokazywania swojej twórczości mimo krytyki."
+    },
+    "4": {
+      "title": "Wyzwanie porządku",
+      "text": "Nauka dyscypliny i cierpliwości — bez sztywności i bez chaosu."
+    },
+    "5": {
+      "title": "Wyzwanie wolności",
+      "text": "Nauka mądrego korzystania z wolności, bez ucieczek i bez rzucania wszystkiego naraz."
+    },
+    "6": {
+      "title": "Wyzwanie odpowiedzialności",
+      "text": "Nauka troski o innych bez kontrolowania ich i bez zapominania o sobie."
+    },
+    "7": {
+      "title": "Wyzwanie zaufania",
+      "text": "Nauka otwartości i zaufania — sobie, innym i życiu."
+    },
+    "8": {
+      "title": "Wyzwanie władzy i pieniędzy",
+      "text": "Nauka zdrowego podejścia do pieniędzy, ambicji i kontroli."
+    }
+  }
+}

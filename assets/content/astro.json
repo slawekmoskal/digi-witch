@@ -329,5 +329,33 @@
     "waxing": "Księżyc przybywa — według tradycji włosy po strzyżeniu szybciej odrastają.",
     "waning": "Księżyc ubywa — według tradycji fryzura dłużej trzyma kształt."
   },
-  "mercury": "Merkury wsteczny: z Ziemi wygląda, jakby cofał się na niebie. W tradycji astrologicznej to czas na powtórki, poprawki i powroty do starych spraw — a nie na podpisywanie umów w pośpiechu. Sprawdzaj dwa razy wiadomości i plany."
+  "mercury": "Merkury wsteczny: z Ziemi wygląda, jakby cofał się na niebie. W tradycji astrologicznej to czas na powtórki, poprawki i powroty do starych spraw — a nie na podpisywanie umów w pośpiechu. Sprawdzaj dwa razy wiadomości i plany.",
+  "transits": {
+    "moonInSun": "Księżyc jest dziś w Twoim znaku Słońca. Emocje i potrzeby są bliżej powierzchni — dobry dzień, by zrobić coś dla siebie.",
+    "moonInMoon": "Księżyc wrócił do znaku, w którym był przy Twoich narodzinach (powrót Księżyca). Tradycja mówi o dniu odnowy emocjonalnej — zauważ, czego naprawdę potrzebujesz.",
+    "moonInAsc": "Księżyc przechodzi przez znak Twojego ascendentu. Bardziej widać po Tobie, co czujesz — inni mogą to dziś łatwiej wyczuć.",
+    "moonOpposite": "Księżyc jest w znaku przeciwnym do Twojego Słońca. Łatwiej o napięcie między tym, czego chcesz, a tym, czego chcą inni — szukaj kompromisu.",
+    "sunSeason": "Słońce jest w Twoim znaku — to Twój czas w roku. Dobry moment, by podsumować ostatni rok i wyznaczyć nowy kierunek.",
+    "mercuryInSun": "Merkury cofa się w Twoim znaku Słońca. Powtórki i nieporozumienia mogą dotyczyć Cię bardziej niż innych — sprawdzaj dwa razy, co mówisz i podpisujesz."
+  },
+  "rituals": {
+    "new": {
+      "title": "Rytuał nowiu",
+      "text": "Nów to początek cyklu Księżyca — tradycyjnie czas zasiewania zamiarów. Usiądź na chwilę w ciszy i zapisz, co chcesz zacząć lub w sobie rozwinąć w najbliższym miesiącu.",
+      "prompts": [
+        "Co chcę zacząć w tym cyklu?",
+        "Jaki jeden mały krok zrobię w tym tygodniu?",
+        "Czego potrzebuję, żeby mi się udało?"
+      ]
+    },
+    "full": {
+      "title": "Rytuał pełni",
+      "text": "Pełnia to szczyt cyklu — czas zbierania plonów, wdzięczności i odpuszczania. Wróć do zamiaru z nowiu i zobacz, co się wydarzyło.",
+      "prompts": [
+        "Za co jestem dziś wdzięczny(-a)?",
+        "Co się udało od nowiu?",
+        "Co chcę odpuścić, zanim zacznie się nowy cykl?"
+      ]
+    }
+  }
 }

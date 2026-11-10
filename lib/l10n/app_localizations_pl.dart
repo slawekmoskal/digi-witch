@@ -865,4 +865,114 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get exploreLibraryTitle => 'Karty i artykuły';
+
+  @override
+  String get squareTitle => 'Kwadrat Pitagorasa';
+
+  @override
+  String get squareIntro =>
+      'Siatka cyfr z daty urodzenia (metoda Aleksandrowa): im więcej danej cyfry, tym silniej wyrażona cecha. Stuknij pole, aby przeczytać opis.';
+
+  @override
+  String get squareEmpty => 'brak';
+
+  @override
+  String get cyclesTitle => 'Cykle życia: szczyty i wyzwania';
+
+  @override
+  String get cyclesIntro =>
+      'Numerologia dzieli życie na cztery etapy. Każdy ma swój „szczyt” — temat rozwoju — i „wyzwanie” — lekcję do przepracowania. Długość pierwszego etapu zależy od drogi życia.';
+
+  @override
+  String ageRange(int from, int to) {
+    return '$from–$to lat';
+  }
+
+  @override
+  String ageFrom(int from) {
+    return 'od $from lat';
+  }
+
+  @override
+  String get cyclesNow => 'TERAZ';
+
+  @override
+  String get ichingTitle => 'Wyrocznia I Ching';
+
+  @override
+  String get ichingIntro =>
+      'Księga Przemian to klasyczna chińska wyrocznia. Pomyśl o pytaniu, a potem rzuć trzema monetami sześć razy — heksagram buduje się od dołu. Linie z kropką są „zmienne” i pokazują, w co sytuacja się przekształca.';
+
+  @override
+  String ichingToss(int n) {
+    return 'Rzuć monetami ($n/6)';
+  }
+
+  @override
+  String ichingLastToss(String sum) {
+    String _temp0 = intl.Intl.selectLogic(sum, {
+      '6': 'reszka, reszka, reszka = 6 (stary yin, zmienna)',
+      '7': 'dwie reszki i orzeł = 7 (yang)',
+      '8': 'dwa orły i reszka = 8 (yin)',
+      'other': 'orzeł, orzeł, orzeł = 9 (stary yang, zmienna)',
+    });
+    return 'Ostatni rzut: $_temp0';
+  }
+
+  @override
+  String get ichingMeaning => 'Znaczenie';
+
+  @override
+  String get ichingChange => 'Kierunek zmiany';
+
+  @override
+  String ichingChangingLines(String lines) {
+    return 'Zmienne linie: $lines. Sytuacja przechodzi w:';
+  }
+
+  @override
+  String get ichingAgain => 'Nowe pytanie';
+
+  @override
+  String get ichingNote =>
+      'Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.';
+
+  @override
+  String get exploreIching => 'Pytanie i sześć rzutów monetą';
+
+  @override
+  String get ritualsTitle => 'Rytuały Księżyca';
+
+  @override
+  String get exploreRituals => 'Intencje na nów i pełnię';
+
+  @override
+  String get ritualsIntro =>
+      'Nów i pełnia wyznaczają rytm miesiąca. Zapisz intencję na nowiu, a na pełni sprawdź, co się wydarzyło — wpisy trafią do Twojego dziennika.';
+
+  @override
+  String get moonRemindersToggle => 'Przypomnij mi o nowiu i pełni';
+
+  @override
+  String get moonRemindersNote =>
+      'Powiadomienie o 9:00 w dniu nowiu i pełni. Bez internetu.';
+
+  @override
+  String get moonReminderNewTitle => 'Nów — czas na intencję';
+
+  @override
+  String get moonReminderNewBody => 'Zapisz, co chcesz zacząć w tym cyklu.';
+
+  @override
+  String get moonReminderFullTitle => 'Pełnia — czas na podsumowanie';
+
+  @override
+  String get moonReminderFullBody =>
+      'Co się udało od nowiu? Za co jesteś wdzięczny(-a)?';
+
+  @override
+  String get forYouToday => 'Tylko dla Ciebie';
+
+  @override
+  String get advice => 'Rada';
 }

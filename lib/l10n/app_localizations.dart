@@ -1455,6 +1455,180 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Karty i artykuły'**
   String get exploreLibraryTitle;
+
+  /// No description provided for @squareTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kwadrat Pitagorasa'**
+  String get squareTitle;
+
+  /// No description provided for @squareIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Siatka cyfr z daty urodzenia (metoda Aleksandrowa): im więcej danej cyfry, tym silniej wyrażona cecha. Stuknij pole, aby przeczytać opis.'**
+  String get squareIntro;
+
+  /// No description provided for @squareEmpty.
+  ///
+  /// In pl, this message translates to:
+  /// **'brak'**
+  String get squareEmpty;
+
+  /// No description provided for @cyclesTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Cykle życia: szczyty i wyzwania'**
+  String get cyclesTitle;
+
+  /// No description provided for @cyclesIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Numerologia dzieli życie na cztery etapy. Każdy ma swój „szczyt” — temat rozwoju — i „wyzwanie” — lekcję do przepracowania. Długość pierwszego etapu zależy od drogi życia.'**
+  String get cyclesIntro;
+
+  /// No description provided for @ageRange.
+  ///
+  /// In pl, this message translates to:
+  /// **'{from}–{to} lat'**
+  String ageRange(int from, int to);
+
+  /// No description provided for @ageFrom.
+  ///
+  /// In pl, this message translates to:
+  /// **'od {from} lat'**
+  String ageFrom(int from);
+
+  /// No description provided for @cyclesNow.
+  ///
+  /// In pl, this message translates to:
+  /// **'TERAZ'**
+  String get cyclesNow;
+
+  /// No description provided for @ichingTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wyrocznia I Ching'**
+  String get ichingTitle;
+
+  /// No description provided for @ichingIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księga Przemian to klasyczna chińska wyrocznia. Pomyśl o pytaniu, a potem rzuć trzema monetami sześć razy — heksagram buduje się od dołu. Linie z kropką są „zmienne” i pokazują, w co sytuacja się przekształca.'**
+  String get ichingIntro;
+
+  /// No description provided for @ichingToss.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rzuć monetami ({n}/6)'**
+  String ichingToss(int n);
+
+  /// No description provided for @ichingLastToss.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ostatni rzut: {sum, select, 6{reszka, reszka, reszka = 6 (stary yin, zmienna)} 7{dwie reszki i orzeł = 7 (yang)} 8{dwa orły i reszka = 8 (yin)} other{orzeł, orzeł, orzeł = 9 (stary yang, zmienna)}}'**
+  String ichingLastToss(String sum);
+
+  /// No description provided for @ichingMeaning.
+  ///
+  /// In pl, this message translates to:
+  /// **'Znaczenie'**
+  String get ichingMeaning;
+
+  /// No description provided for @ichingChange.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kierunek zmiany'**
+  String get ichingChange;
+
+  /// No description provided for @ichingChangingLines.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zmienne linie: {lines}. Sytuacja przechodzi w:'**
+  String ichingChangingLines(String lines);
+
+  /// No description provided for @ichingAgain.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nowe pytanie'**
+  String get ichingAgain;
+
+  /// No description provided for @ichingNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.'**
+  String get ichingNote;
+
+  /// No description provided for @exploreIching.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pytanie i sześć rzutów monetą'**
+  String get exploreIching;
+
+  /// No description provided for @ritualsTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rytuały Księżyca'**
+  String get ritualsTitle;
+
+  /// No description provided for @exploreRituals.
+  ///
+  /// In pl, this message translates to:
+  /// **'Intencje na nów i pełnię'**
+  String get exploreRituals;
+
+  /// No description provided for @ritualsIntro.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nów i pełnia wyznaczają rytm miesiąca. Zapisz intencję na nowiu, a na pełni sprawdź, co się wydarzyło — wpisy trafią do Twojego dziennika.'**
+  String get ritualsIntro;
+
+  /// No description provided for @moonRemindersToggle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Przypomnij mi o nowiu i pełni'**
+  String get moonRemindersToggle;
+
+  /// No description provided for @moonRemindersNote.
+  ///
+  /// In pl, this message translates to:
+  /// **'Powiadomienie o 9:00 w dniu nowiu i pełni. Bez internetu.'**
+  String get moonRemindersNote;
+
+  /// No description provided for @moonReminderNewTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nów — czas na intencję'**
+  String get moonReminderNewTitle;
+
+  /// No description provided for @moonReminderNewBody.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisz, co chcesz zacząć w tym cyklu.'**
+  String get moonReminderNewBody;
+
+  /// No description provided for @moonReminderFullTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pełnia — czas na podsumowanie'**
+  String get moonReminderFullTitle;
+
+  /// No description provided for @moonReminderFullBody.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co się udało od nowiu? Za co jesteś wdzięczny(-a)?'**
+  String get moonReminderFullBody;
+
+  /// No description provided for @forYouToday.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tylko dla Ciebie'**
+  String get forYouToday;
+
+  /// No description provided for @advice.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rada'**
+  String get advice;
 }
 
 class _AppLocalizationsDelegate

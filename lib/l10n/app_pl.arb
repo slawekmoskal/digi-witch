@@ -514,5 +514,72 @@
   "exploreMoon": "Fazy, ogród, Merkury wsteczny",
   "exploreDreams": "Co mówi Twój sen",
   "exploreLibrary": "78 kart, artykuły, słownik — w Bibliotece",
-  "exploreLibraryTitle": "Karty i artykuły"
+  "exploreLibraryTitle": "Karty i artykuły",
+  "squareTitle": "Kwadrat Pitagorasa",
+  "squareIntro": "Siatka cyfr z daty urodzenia (metoda Aleksandrowa): im więcej danej cyfry, tym silniej wyrażona cecha. Stuknij pole, aby przeczytać opis.",
+  "squareEmpty": "brak",
+  "cyclesTitle": "Cykle życia: szczyty i wyzwania",
+  "cyclesIntro": "Numerologia dzieli życie na cztery etapy. Każdy ma swój „szczyt” — temat rozwoju — i „wyzwanie” — lekcję do przepracowania. Długość pierwszego etapu zależy od drogi życia.",
+  "ageRange": "{from}–{to} lat",
+  "@ageRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
+    }
+  },
+  "ageFrom": "od {from} lat",
+  "@ageFrom": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      }
+    }
+  },
+  "cyclesNow": "TERAZ",
+  "ichingTitle": "Wyrocznia I Ching",
+  "ichingIntro": "Księga Przemian to klasyczna chińska wyrocznia. Pomyśl o pytaniu, a potem rzuć trzema monetami sześć razy — heksagram buduje się od dołu. Linie z kropką są „zmienne” i pokazują, w co sytuacja się przekształca.",
+  "ichingToss": "Rzuć monetami ({n}/6)",
+  "@ichingToss": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ichingLastToss": "Ostatni rzut: {sum, select, 6{reszka, reszka, reszka = 6 (stary yin, zmienna)} 7{dwie reszki i orzeł = 7 (yang)} 8{dwa orły i reszka = 8 (yin)} other{orzeł, orzeł, orzeł = 9 (stary yang, zmienna)}}",
+  "@ichingLastToss": {
+    "placeholders": {
+      "sum": {
+        "type": "String"
+      }
+    }
+  },
+  "ichingMeaning": "Znaczenie",
+  "ichingChange": "Kierunek zmiany",
+  "ichingChangingLines": "Zmienne linie: {lines}. Sytuacja przechodzi w:",
+  "@ichingChangingLines": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "ichingAgain": "Nowe pytanie",
+  "ichingNote": "Opisy heksagramów są autorskimi, skróconymi interpretacjami tej aplikacji — traktuj je jako pretekst do refleksji.",
+  "exploreIching": "Pytanie i sześć rzutów monetą",
+  "ritualsTitle": "Rytuały Księżyca",
+  "exploreRituals": "Intencje na nów i pełnię",
+  "ritualsIntro": "Nów i pełnia wyznaczają rytm miesiąca. Zapisz intencję na nowiu, a na pełni sprawdź, co się wydarzyło — wpisy trafią do Twojego dziennika.",
+  "moonRemindersToggle": "Przypomnij mi o nowiu i pełni",
+  "moonRemindersNote": "Powiadomienie o 9:00 w dniu nowiu i pełni. Bez internetu.",
+  "moonReminderNewTitle": "Nów — czas na intencję",
+  "moonReminderNewBody": "Zapisz, co chcesz zacząć w tym cyklu.",
+  "moonReminderFullTitle": "Pełnia — czas na podsumowanie",
+  "moonReminderFullBody": "Co się udało od nowiu? Za co jesteś wdzięczny(-a)?",
+  "forYouToday": "Tylko dla Ciebie",
+  "advice": "Rada"
 }
