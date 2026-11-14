@@ -102,6 +102,7 @@
   "privacyBody": "Wir legen keine Konten an und senden deine Daten, Namen oder Einträge an keinen Server. Deine Daten befinden sich nur auf diesem Gerät, solange du sie nicht selbst exportierst.",
   "deleteAllTitle": "Alle Daten löschen",
   "deleteAllBody": "Wir entfernen dein Tagebuch, dein Profil, deine Lesezeichen, die Tageskarte und die Einstellungen von diesem Gerät. Das lässt sich nicht rückgängig machen.",
+  "deleteAllFailed": "Nicht alle Daten konnten gelöscht werden. Bitte versuche es erneut.",
   "sourcesBody": "Deutungen, Fragen, Archetypen und Artikel sind eigene Texte. Kartenillustrationen: Pamela Colman Smith, Deck von 1909 (gemeinfrei), Scans von Wikimedia Commons; Details stehen bei jeder Karte. Historische Quellen sind am Ende der Artikel angegeben.",
   "purchases": "Digi Witch Pro",
   "help": "Hilfe",

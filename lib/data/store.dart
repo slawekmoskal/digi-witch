@@ -42,6 +42,8 @@ class JournalEntry {
 }
 
 /// Local-only persistence. Nothing here leaves the device except via user-initiated export.
+enum DeleteAllResult { done, notStarted, partial }
+
 class AppStore extends ChangeNotifier {
   final SharedPreferences _p;
   final Random _random;
@@ -58,6 +60,10 @@ class AppStore extends ChangeNotifier {
   bool get isPro =>
       const bool.fromEnvironment('DEMO_PRO') || (_p.getBool('isPro') ?? false);
   set isPro(bool v) => _set(() => _p.setBool('isPro', v));
+
+  /// A reset wiped the data but the home-screen widgets may still show it; retried at every start.
+  bool get widgetClearPending => _p.getBool('widgetClearPending') ?? false;
+  Future<void> setWidgetClearDone() => _p.remove('widgetClearPending');
 
   /// Daily reminder time in minutes after midnight; null = off (default).
   bool get moonReminders => _p.getBool('moonReminders') ?? false;
@@ -302,11 +308,35 @@ class AppStore extends ChangeNotifier {
 
   /// Removes every locally stored item (journal, profile, card of the day, settings).
   /// The Pro entitlement is kept — it is a purchase, not personal content (restorable anyway).
-  Future<void> deleteAllData() async {
-    final pro = isPro;
-    await _p.clear();
-    if (pro) await _p.setBool('isPro', true);
-    notifyListeners();
+  /// The widget-clear flag is written first: [DeleteAllResult.notStarted] means it was refused and
+  /// nothing was touched. Then the reminder settings go, [cancelReminders] runs (so settings never
+  /// say "on" for cancelled notifications), then the rest. A failure after that point is
+  /// [DeleteAllResult.partial]: what was removed stays removed, the flag makes every start retry
+  /// emptying the widgets, and a second call finishes the job.
+  Future<DeleteAllResult> deleteAllData({
+    Future<void> Function()? cancelReminders,
+  }) async {
+    var started = false;
+    try {
+      if (!await _p.setBool('widgetClearPending', true)) {
+        return DeleteAllResult.notStarted;
+      }
+      started = true;
+      for (final k in ['reminderMinutes', 'moonReminders']) {
+        if (!await _p.remove(k)) return DeleteAllResult.partial;
+      }
+      await cancelReminders?.call();
+      for (final k in _p.getKeys().toList()) {
+        // isPro: the stored purchase (not the DEMO_PRO build flag) is kept as it is
+        if (k == 'isPro' || k == 'widgetClearPending') continue;
+        if (!await _p.remove(k)) return DeleteAllResult.partial;
+      }
+      return DeleteAllResult.done;
+    } catch (_) {
+      return started ? DeleteAllResult.partial : DeleteAllResult.notStarted;
+    } finally {
+      notifyListeners();
+    }
   }
 
   Future<void> _set(Future<void> Function() f) async {

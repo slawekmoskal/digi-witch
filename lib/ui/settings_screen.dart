@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../data/content.dart';
+import '../data/store.dart' show DeleteAllResult;
 import '../engine/lang.dart';
 import '../engine/numerology.dart';
+import '../home_widget_sync.dart' show clearHomeWidget;
 import '../reminders.dart';
 import 'astro_screens.dart' show dailyReminderEvents;
 import 'pro_sheet.dart';
@@ -14,6 +16,7 @@ class SettingsScreen extends StatelessWidget {
   Future<void> _deleteAll(BuildContext context) async {
     final l = context.l;
     final nav = Navigator.of(context);
+    final messenger = ScaffoldMessenger.of(context);
     final store = context.store;
     final ok = await showDialog<bool>(
       context: context,
@@ -33,9 +36,16 @@ class SettingsScreen extends StatelessWidget {
       ),
     );
     if (ok == true) {
-      await Reminders.disable();
-      await store.deleteAllData();
-      nav.popUntil((r) => r.isFirst);
+      // cancelAll (daily and moon) runs inside, right after the reminder settings are gone
+      final r = await store.deleteAllData(cancelReminders: Reminders.cancelAll);
+      if (r != DeleteAllResult.done) {
+        messenger.showSnackBar(SnackBar(content: Text(l.deleteAllFailed)));
+      } else if (context.mounted) {
+        nav.popUntil((route) => route.isFirst);
+      }
+      // After a started reset the widgets are emptied even on failure (needs no screen); a refused
+      // flag means nothing was removed, so they stay. Failure keeps Settings open for a retry.
+      if (r != DeleteAllResult.notStarted) await clearHomeWidget(store);
     }
   }
 

@@ -395,6 +395,10 @@ class AppLocalizationsIt extends AppLocalizations {
       'Rimuoveremo da questo dispositivo il tuo diario, il profilo, i preferiti, la carta del giorno e le impostazioni. L’azione non si può annullare.';
 
   @override
+  String get deleteAllFailed =>
+      'Non è stato possibile eliminare tutti i dati. Riprova.';
+
+  @override
   String get sourcesBody =>
       'Le interpretazioni, le domande, gli archetipi e gli articoli sono testi originali. Illustrazioni delle carte: Pamela Colman Smith, mazzo del 1909 (pubblico dominio), scansioni da Wikimedia Commons; i dettagli sono indicati con ogni carta. Le fonti storiche sono elencate in fondo agli articoli.';
 

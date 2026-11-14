@@ -102,6 +102,7 @@
   "privacyBody": "Nous ne créons pas de compte et n’envoyons ni vos dates, ni vos noms, ni vos notes à un serveur. Vos données restent uniquement sur cet appareil, sauf si vous les exportez vous-même.",
   "deleteAllTitle": "Supprimer toutes les données",
   "deleteAllBody": "Nous allons effacer de cet appareil votre journal, votre profil, vos favoris, la carte du jour et les réglages. Cette action est irréversible.",
+  "deleteAllFailed": "Toutes les données n’ont pas pu être effacées. Veuillez réessayer.",
   "sourcesBody": "Les interprétations, questions, archétypes et articles sont des textes originaux. Illustrations des cartes : Pamela Colman Smith, jeu de 1909 (domaine public), numérisations issues de Wikimedia Commons ; les détails figurent avec chaque carte. Les sources historiques sont citées à la fin des articles.",
   "purchases": "Digi Witch Pro",
   "help": "Aide",

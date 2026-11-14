@@ -394,6 +394,10 @@ class AppLocalizationsPt extends AppLocalizations {
       'Vamos remover do aparelho o seu diário, perfil, favoritos, carta do dia e ajustes. Não é possível desfazer.';
 
   @override
+  String get deleteAllFailed =>
+      'Não foi possível apagar todos os dados. Tente novamente.';
+
+  @override
   String get sourcesBody =>
       'As interpretações, perguntas, arquétipos e artigos são textos originais. Ilustrações das cartas: Pamela Colman Smith, baralho de 1909 (domínio público), digitalizações do Wikimedia Commons; os detalhes estão em cada carta. As fontes históricas estão listadas no fim dos artigos.';
 

@@ -395,6 +395,10 @@ class AppLocalizationsPl extends AppLocalizations {
       'Usuniemy dziennik, profil, zakładki, kartę dnia i ustawienia z tego urządzenia. Tej operacji nie da się cofnąć.';
 
   @override
+  String get deleteAllFailed =>
+      'Nie udało się usunąć wszystkich danych. Spróbuj ponownie.';
+
+  @override
   String get sourcesBody =>
       'Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.';
 

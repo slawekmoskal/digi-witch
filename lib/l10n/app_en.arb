@@ -102,6 +102,7 @@
   "privacyBody": "We do not create accounts or send your dates, names or entries to a server. Your data is on this device only, unless you export it yourself.",
   "deleteAllTitle": "Delete all data",
   "deleteAllBody": "We will remove your journal, profile, bookmarks, card of the day and settings from this device. This cannot be undone.",
+  "deleteAllFailed": "Not all data could be deleted. Please try again.",
   "sourcesBody": "The interpretations, questions, archetypes and articles are original texts. Card illustrations: Pamela Colman Smith, 1909 deck (public domain), scans from Wikimedia Commons; details are given with each card. Historical sources are listed at the end of the articles.",
   "purchases": "Digi Witch Pro",
   "help": "Help",

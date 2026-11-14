@@ -46,6 +46,9 @@ Future<void> main() async {
       monetization: m,
     ),
   );
+  retryPendingHomeWidgetClear(
+    store,
+  ); // also on the onboarding screen, where HomeShell never runs
   if (store.onboarded) {
     m?.init(); // first run: started from onboarding, so consent never covers it
   }

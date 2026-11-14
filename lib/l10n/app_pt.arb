@@ -102,6 +102,7 @@
   "privacyBody": "Não criamos contas nem enviamos suas datas, nomes ou anotações a nenhum servidor. Seus dados ficam apenas neste aparelho, a menos que você mesmo os exporte.",
   "deleteAllTitle": "Apagar todos os dados",
   "deleteAllBody": "Vamos remover do aparelho o seu diário, perfil, favoritos, carta do dia e ajustes. Não é possível desfazer.",
+  "deleteAllFailed": "Não foi possível apagar todos os dados. Tente novamente.",
   "sourcesBody": "As interpretações, perguntas, arquétipos e artigos são textos originais. Ilustrações das cartas: Pamela Colman Smith, baralho de 1909 (domínio público), digitalizações do Wikimedia Commons; os detalhes estão em cada carta. As fontes históricas estão listadas no fim dos artigos.",
   "purchases": "Digi Witch Pro",
   "help": "Ajuda",

@@ -396,6 +396,10 @@ class AppLocalizationsFr extends AppLocalizations {
       'Nous allons effacer de cet appareil votre journal, votre profil, vos favoris, la carte du jour et les réglages. Cette action est irréversible.';
 
   @override
+  String get deleteAllFailed =>
+      'Toutes les données n’ont pas pu être effacées. Veuillez réessayer.';
+
+  @override
   String get sourcesBody =>
       'Les interprétations, questions, archétypes et articles sont des textes originaux. Illustrations des cartes : Pamela Colman Smith, jeu de 1909 (domaine public), numérisations issues de Wikimedia Commons ; les détails figurent avec chaque carte. Les sources historiques sont citées à la fin des articles.';
 

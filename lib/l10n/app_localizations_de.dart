@@ -394,6 +394,10 @@ class AppLocalizationsDe extends AppLocalizations {
       'Wir entfernen dein Tagebuch, dein Profil, deine Lesezeichen, die Tageskarte und die Einstellungen von diesem Gerät. Das lässt sich nicht rückgängig machen.';
 
   @override
+  String get deleteAllFailed =>
+      'Nicht alle Daten konnten gelöscht werden. Bitte versuche es erneut.';
+
+  @override
   String get sourcesBody =>
       'Deutungen, Fragen, Archetypen und Artikel sind eigene Texte. Kartenillustrationen: Pamela Colman Smith, Deck von 1909 (gemeinfrei), Scans von Wikimedia Commons; Details stehen bei jeder Karte. Historische Quellen sind am Ende der Artikel angegeben.';
 

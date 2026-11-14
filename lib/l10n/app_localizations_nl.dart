@@ -396,6 +396,10 @@ class AppLocalizationsNl extends AppLocalizations {
       'We verwijderen je dagboek, profiel, bladwijzers, dagkaart en instellingen van dit apparaat. Dit kan niet ongedaan worden gemaakt.';
 
   @override
+  String get deleteAllFailed =>
+      'Niet alle gegevens konden worden verwijderd. Probeer het opnieuw.';
+
+  @override
   String get sourcesBody =>
       'De duidingen, vragen, archetypen en artikelen zijn originele teksten. Kaartillustraties: Pamela Colman Smith, spel uit 1909 (publiek domein), scans van Wikimedia Commons; details staan bij elke kaart. Historische bronnen staan aan het eind van de artikelen.';
 

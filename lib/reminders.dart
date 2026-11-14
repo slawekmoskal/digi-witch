@@ -12,6 +12,26 @@ class Reminders {
   static final _plugin = FlutterLocalNotificationsPlugin();
   static bool _ready = false;
 
+  // Plugin writes run one at a time, and cancelAll() invalidates every plan made before it,
+  // so a start-up reschedule still in flight cannot bring reminders back after a reset.
+  static int _gen = 0;
+  static Future<void>? _tail;
+  static Future<void> _serial(Future<void> Function() f) {
+    final r = (_tail ?? Future.value()).then((_) => f());
+    _tail = r.then((_) {}, onError: (_) {});
+    return r;
+  }
+
+  /// Drops the queue, plan generation and init flag: each testWidgets has its own fake zone,
+  /// and a future left from an earlier test would hang everything chained after it. Synchronous
+  /// (awaiting in a tearDown hangs): a test must finish its operations inside its own body.
+  @visibleForTesting
+  static void resetForTest() {
+    _gen++; // never back to 0: an old plan remembering an earlier generation must stay invalid
+    _tail = null;
+    _ready = false;
+  }
+
   static bool get supported => monetizationSupported; // Android/iOS only
 
   static Future<void> _init() async {
@@ -43,9 +63,10 @@ class Reminders {
 
   /// Daily reminders with that day's content. Returns false if the user declined the system permission.
   static Future<bool> enable(List<(DateTime, String, String)> days) async {
+    final g = _gen;
     await _init();
     if (!await _request()) return false;
-    await _schedule(days);
+    await _schedule(days, g);
     return true;
   }
 
@@ -71,9 +92,10 @@ class Reminders {
     List<(DateTime, String, String)> events,
   ) async {
     if (!supported) return false;
+    final g = _gen;
     await _init();
     if (!await _request()) return false;
-    await _scheduleMoon(events);
+    await _scheduleMoon(events, g);
     return true;
   }
 
@@ -82,21 +104,25 @@ class Reminders {
     List<(DateTime, String, String)> events,
   ) async {
     if (!supported) return;
+    final g = _gen;
     try {
       await _init();
-      await _scheduleMoon(events);
+      await _scheduleMoon(events, g);
     } catch (_) {}
   }
 
   static Future<void> _scheduleMoon(
     List<(DateTime, String, String)> events,
-  ) async {
+    int g,
+  ) => _serial(() async {
+    if (g != _gen) return;
     for (final id in _moonIds) {
       await _plugin.cancel(id: id);
     }
     final now = DateTime.now();
     var i = 0;
     for (final (at, title, body) in events) {
+      if (g != _gen) return;
       if (!at.isAfter(now) || i >= _moonIds.length) continue;
       await _plugin.zonedSchedule(
         id: _moonIds[i++],
@@ -125,7 +151,7 @@ class Reminders {
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
       );
     }
-  }
+  });
 
   static Future<void> disableMoon() async {
     if (!supported) return;
@@ -138,9 +164,10 @@ class Reminders {
   /// Re-plans an already enabled reminder at app start (new content, zone change). No permission prompt.
   static Future<void> reschedule(List<(DateTime, String, String)> days) async {
     if (!supported) return;
+    final g = _gen;
     try {
       await _init();
-      await _schedule(days);
+      await _schedule(days, g);
     } catch (_) {
       // Never block app start because of a reminder.
     }
@@ -151,43 +178,46 @@ class Reminders {
 
   // shortcut: one-off notifications for the next 30 days, refreshed at every app start;
   // after 30 days without opening the app they stop (gentle by design). Revisit if users ask otherwise.
-  static Future<void> _schedule(List<(DateTime, String, String)> days) async {
-    for (final id in _dailyIds) {
-      await _plugin.cancel(id: id);
-    }
-    final now = DateTime.now();
-    var i = 1;
-    for (final (at, title, body) in days) {
-      if (!at.isAfter(now) || i >= _dailyIds.length) continue;
-      await _plugin.zonedSchedule(
-        id: _dailyIds[i++],
-        scheduledDate: tz.TZDateTime.from(at, tz.local),
-        title: title,
-        body: body,
-        notificationDetails: NotificationDetails(
-          android: AndroidNotificationDetails(
-            'daily_reflection',
-            tr(
-              pl: 'Przypomnienie o refleksji',
-              en: 'Reflection reminder',
-              de: 'Erinnerung zum Innehalten',
-              fr: 'Rappel de réflexion',
-              es: 'Recordatorio para reflexionar',
-              uk: 'Нагадування про роздуми',
-              it: 'Promemoria per riflettere',
-              pt: 'Lembrete para refletir',
-              nl: 'Herinnering om te reflecteren',
+  static Future<void> _schedule(List<(DateTime, String, String)> days, int g) =>
+      _serial(() async {
+        if (g != _gen) return;
+        for (final id in _dailyIds) {
+          await _plugin.cancel(id: id);
+        }
+        final now = DateTime.now();
+        var i = 1;
+        for (final (at, title, body) in days) {
+          if (g != _gen) return;
+          if (!at.isAfter(now) || i >= _dailyIds.length) continue;
+          await _plugin.zonedSchedule(
+            id: _dailyIds[i++],
+            scheduledDate: tz.TZDateTime.from(at, tz.local),
+            title: title,
+            body: body,
+            notificationDetails: NotificationDetails(
+              android: AndroidNotificationDetails(
+                'daily_reflection',
+                tr(
+                  pl: 'Przypomnienie o refleksji',
+                  en: 'Reflection reminder',
+                  de: 'Erinnerung zum Innehalten',
+                  fr: 'Rappel de réflexion',
+                  es: 'Recordatorio para reflexionar',
+                  uk: 'Нагадування про роздуми',
+                  it: 'Promemoria per riflettere',
+                  pt: 'Lembrete para refletir',
+                  nl: 'Herinnering om te reflecteren',
+                ),
+                importance: Importance.defaultImportance,
+                priority: Priority.defaultPriority,
+              ),
+              iOS: const DarwinNotificationDetails(),
             ),
-            importance: Importance.defaultImportance,
-            priority: Priority.defaultPriority,
-          ),
-          iOS: const DarwinNotificationDetails(),
-        ),
-        androidScheduleMode: AndroidScheduleMode
-            .inexactAllowWhileIdle, // no exact-alarm permission needed
-      );
-    }
-  }
+            androidScheduleMode: AndroidScheduleMode
+                .inexactAllowWhileIdle, // no exact-alarm permission needed
+          );
+        }
+      });
 
   static Future<void> disable() async {
     if (!supported) return;
@@ -195,5 +225,13 @@ class Reminders {
     for (final id in _dailyIds) {
       await _plugin.cancel(id: id);
     }
+  }
+
+  /// Cancels every notification of the app (daily and moon) and any plan still being made.
+  static Future<void> cancelAll() async {
+    if (!supported) return;
+    _gen++;
+    await _init();
+    await _serial(() => _plugin.cancelAll());
   }
 }

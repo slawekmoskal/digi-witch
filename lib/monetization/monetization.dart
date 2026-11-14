@@ -216,5 +216,9 @@ class _AdBannerState extends State<AdBanner> {
   }
 }
 
+/// Tests on a desktop host set this to exercise the Android/iOS-only code paths.
+@visibleForTesting
+bool? supportedForTest;
+
 bool get monetizationSupported =>
-    !kIsWeb && (Platform.isAndroid || Platform.isIOS);
+    supportedForTest ?? (!kIsWeb && (Platform.isAndroid || Platform.isIOS));

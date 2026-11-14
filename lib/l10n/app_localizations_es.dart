@@ -394,6 +394,10 @@ class AppLocalizationsEs extends AppLocalizations {
       'Borraremos de este dispositivo tu diario, tu perfil, tus marcadores, la carta del día y los ajustes. No se puede deshacer.';
 
   @override
+  String get deleteAllFailed =>
+      'No se pudieron borrar todos los datos. Inténtalo de nuevo.';
+
+  @override
   String get sourcesBody =>
       'Las interpretaciones, preguntas, arquetipos y artículos son textos originales. Ilustraciones de las cartas: Pamela Colman Smith, baraja de 1909 (dominio público), escaneos de Wikimedia Commons; los detalles figuran junto a cada carta. Las fuentes históricas se citan al final de los artículos.';
 

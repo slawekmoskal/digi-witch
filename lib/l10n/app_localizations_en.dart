@@ -393,6 +393,10 @@ class AppLocalizationsEn extends AppLocalizations {
       'We will remove your journal, profile, bookmarks, card of the day and settings from this device. This cannot be undone.';
 
   @override
+  String get deleteAllFailed =>
+      'Not all data could be deleted. Please try again.';
+
+  @override
   String get sourcesBody =>
       'The interpretations, questions, archetypes and articles are original texts. Card illustrations: Pamela Colman Smith, 1909 deck (public domain), scans from Wikimedia Commons; details are given with each card. Historical sources are listed at the end of the articles.';
 

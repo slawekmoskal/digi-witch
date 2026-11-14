@@ -724,6 +724,12 @@ abstract class AppLocalizations {
   /// **'Usuniemy dziennik, profil, zakładki, kartę dnia i ustawienia z tego urządzenia. Tej operacji nie da się cofnąć.'**
   String get deleteAllBody;
 
+  /// No description provided for @deleteAllFailed.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nie udało się usunąć wszystkich danych. Spróbuj ponownie.'**
+  String get deleteAllFailed;
+
   /// No description provided for @sourcesBody.
   ///
   /// In pl, this message translates to:

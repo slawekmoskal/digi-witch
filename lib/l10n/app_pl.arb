@@ -158,6 +158,7 @@
   "privacyBody": "Nie zakładamy kont i nie wysyłamy Twoich dat, imion ani wpisów na serwer. Dane są tylko na tym urządzeniu — dopóki sam(a) ich nie wyeksportujesz.",
   "deleteAllTitle": "Usuń wszystkie dane",
   "deleteAllBody": "Usuniemy dziennik, profil, zakładki, kartę dnia i ustawienia z tego urządzenia. Tej operacji nie da się cofnąć.",
+  "deleteAllFailed": "Nie udało się usunąć wszystkich danych. Spróbuj ponownie.",
   "sourcesBody": "Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.",
   "purchases": "Digi Witch Pro",
   "help": "Pomoc",

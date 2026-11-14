@@ -1,10 +1,20 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:digi_witch/data/content.dart';
 import 'package:digi_witch/data/places.dart';
 import 'package:digi_witch/data/store.dart';
 import 'package:digi_witch/engine/numerology.dart';
+import 'package:digi_witch/home_widget_sync.dart'
+    show
+        clearHomeWidget,
+        resetHomeWidgetSyncForTest,
+        retryPendingHomeWidgetClear,
+        widgetKeys;
 import 'package:digi_witch/main.dart';
+import 'package:digi_witch/reminders.dart';
+import 'package:digi_witch/monetization/monetization.dart'
+    show supportedForTest;
 import 'package:digi_witch/ui/astro_screens.dart';
 import 'package:digi_witch/ui/journal_screen.dart';
 import 'package:digi_witch/engine/tarot.dart' show deckIds;
@@ -12,12 +22,45 @@ import 'package:digi_witch/ui/today_screen.dart';
 import 'package:digi_witch/ui/widgets.dart' show NumberBadge;
 import 'package:digi_witch/ui/tarot_screen.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart'
+    show AndroidFlutterLocalNotificationsPlugin;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show MethodChannel, PlatformException;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+// Notification plugin answering on the channel; [hold] can stall each scheduled reminder.
+List<String> mockReminders(WidgetTester t, [Future<void>? Function()? hold]) {
+  supportedForTest = true;
+  AndroidFlutterLocalNotificationsPlugin.registerWith();
+  final calls = <String>[];
+  final m = t.binding.defaultBinaryMessenger;
+  const tzc = MethodChannel('flutter_timezone');
+  const nc = MethodChannel('dexterous.com/flutter/local_notifications');
+  m.setMockMethodCallHandler(
+    tzc,
+    (c) async => {'identifier': 'Europe/Warsaw'},
+  );
+  m.setMockMethodCallHandler(nc, (c) async {
+    calls.add(c.method);
+    if (c.method == 'zonedSchedule') await hold?.call();
+    return c.method == 'initialize' ? true : null;
+  });
+  addTearDown(() {
+    supportedForTest = null;
+    m.setMockMethodCallHandler(tzc, null);
+    m.setMockMethodCallHandler(nc, null);
+  });
+  return calls;
+}
+
 void main() {
   late Content content;
+  tearDown(() {
+    // sync only: awaiting futures from the test's FakeAsync zone here would hang the file
+    resetHomeWidgetSyncForTest();
+    Reminders.resetForTest();
+  });
   setUpAll(() async {
     TestWidgetsFlutterBinding.ensureInitialized();
     content = await Content.load();
@@ -667,6 +710,368 @@ void main() {
     await t.drag(find.byType(ListView).first, const Offset(0, 3000));
     await t.pumpAndSettle();
     expect(find.text('Co dziś podpowiedzą karty?'), findsOneWidget);
+  });
+
+  testWidgets(
+    'Delete all data keeps Pro, cancels reminders, clears widget store',
+    (t) async {
+      supportedForTest = true;
+      AndroidFlutterLocalNotificationsPlugin.registerWith();
+      addTearDown(() => supportedForTest = null);
+      final widgetStore = <String, Object?>{};
+      var refreshes = 0;
+      var cancelAll = 0;
+      final messenger = t.binding.defaultBinaryMessenger;
+      messenger.setMockMethodCallHandler(const MethodChannel('home_widget'), (
+        c,
+      ) async {
+        final a = c.arguments as Map?;
+        if (c.method == 'saveWidgetData') {
+          a!['data'] == null
+              ? widgetStore.remove(a['id'])
+              : widgetStore[a['id'] as String] = a['data'];
+        } else if (c.method == 'updateWidget') {
+          refreshes++;
+        }
+        return true;
+      });
+      messenger.setMockMethodCallHandler(
+        const MethodChannel('flutter_timezone'),
+        (c) async => {'identifier': 'Europe/Warsaw'},
+      );
+      messenger.setMockMethodCallHandler(
+        const MethodChannel('dexterous.com/flutter/local_notifications'),
+        (c) async {
+          if (c.method == 'cancelAll') cancelAll++;
+          return c.method == 'initialize' ? true : null;
+        },
+      );
+      addTearDown(() {
+        messenger.setMockMethodCallHandler(
+          const MethodChannel('home_widget'),
+          null,
+        );
+        messenger.setMockMethodCallHandler(
+          const MethodChannel('dexterous.com/flutter/local_notifications'),
+          null,
+        );
+      });
+
+      final store = await pump(t);
+      store.isPro = true;
+      store.moonReminders = true;
+      store.reminderAsked =
+          true; // hides the reminder prompt, which overflows in the test font
+      store.saveProfile(CalendarDate.tryCreate(1990, 1, 1), 'Ala');
+      store.revealCard(CalendarDate.fromDateTime(DateTime.now()));
+      await t.pumpAndSettle();
+      expect(
+        widgetStore['cardImage'],
+        isNotNull,
+      ); // a sync really filled the store
+      expect(
+        widgetStore.keys.toSet(),
+        widgetKeys.toSet(),
+      ); // the clear list is complete
+
+      await t.tap(find.byTooltip('Ustawienia'));
+      await t.pumpAndSettle();
+      await scrollTo(t, find.text('Usuń wszystkie dane'));
+      await t.tap(find.text('Usuń wszystkie dane'));
+      await t.pumpAndSettle();
+      await t.tap(
+        find.descendant(
+          of: find.byType(AlertDialog),
+          matching: find.text('Usuń'),
+        ),
+      );
+      await t.pumpAndSettle();
+
+      expect(store.isPro, isTrue);
+      expect(store.moonReminders, isFalse);
+      expect(store.birthDate, isNull);
+      expect(cancelAll, 1);
+      expect(
+        widgetStore,
+        isEmpty,
+      ); // not even a sync running during the reset brought data back
+      expect(refreshes, greaterThan(0));
+      expect(store.widgetClearPending, isFalse);
+      // Settings is gone (the reset leads to onboarding), yet the clear finished.
+      expect(find.text('Usuń wszystkie dane'), findsNothing);
+      expect(find.textContaining('Nie potrzebujesz konta'), findsOneWidget);
+    },
+  );
+
+  testWidgets(
+    'Delete all data: cancelAll failure shows the message, stays in Settings, keeps Pro, retry finishes',
+    (t) async {
+      final calls = mockReminders(t);
+      var failCancel = true;
+      final m = t.binding.defaultBinaryMessenger;
+      const nc = MethodChannel('dexterous.com/flutter/local_notifications');
+      m.setMockMethodCallHandler(nc, (c) async {
+        calls.add(c.method);
+        if (c.method == 'cancelAll' && failCancel) {
+          throw PlatformException(code: 'boom');
+        }
+        return c.method == 'initialize' ? true : null;
+      });
+      m.setMockMethodCallHandler(
+        const MethodChannel('home_widget'),
+        (c) async => true,
+      );
+      addTearDown(
+        () => m.setMockMethodCallHandler(
+          const MethodChannel('home_widget'),
+          null,
+        ),
+      );
+
+      final store = await pump(t);
+      store.isPro = true;
+      store.moonReminders = true;
+      store.reminderAsked = true;
+      store.saveProfile(CalendarDate.tryCreate(1990, 1, 1), 'Ala');
+      await t.pumpAndSettle();
+
+      Future<void> deleteAll() async {
+        await scrollTo(t, find.text('Usuń wszystkie dane'));
+        await t.tap(find.text('Usuń wszystkie dane'));
+        await t.pumpAndSettle();
+        await t.tap(
+          find.descendant(
+            of: find.byType(AlertDialog),
+            matching: find.text('Usuń'),
+          ),
+        );
+        await t.pumpAndSettle();
+      }
+
+      await t.tap(find.byTooltip('Ustawienia'));
+      await t.pumpAndSettle();
+      await deleteAll();
+
+      expect(find.textContaining('Nie udało się usunąć'), findsOneWidget);
+      expect(find.text('Usuń wszystkie dane'), findsOneWidget); // still in Settings
+      expect(store.isPro, isTrue);
+      expect(store.moonReminders, isFalse); // settings match what was cancelled
+      expect(store.widgetClearPending, isFalse); // widgets were emptied after the started reset
+      expect(store.birthDate, isNotNull); // the wipe did not get past the failure
+
+      failCancel = false; // retry
+      await deleteAll();
+      expect(store.birthDate, isNull);
+      expect(store.isPro, isTrue);
+      expect(calls.where((c) => c == 'cancelAll'), hasLength(2));
+      expect(find.textContaining('Nie potrzebujesz konta'), findsOneWidget);
+    },
+  );
+
+  testWidgets('reminders: cancel invalidates the plan; resetForTest re-initialises', (
+    t,
+  ) async {
+    final calls = mockReminders(t);
+    final now = DateTime.now();
+    final plan = Reminders.reschedule([
+      for (var d = 1; d <= 3; d++) (now.add(Duration(days: d)), 't', 'b'),
+    ]); // remembers the generation before the cancel
+    final reset = Reminders.cancelAll();
+    await plan; // operations finish inside the test body
+    await reset;
+    expect(calls.where((c) => c == 'zonedSchedule'), isEmpty);
+
+    final initializations = calls.where((c) => c == 'initialize').length;
+    Reminders.resetForTest(); // sync: only detaches state
+    await Reminders.reschedule([
+      (now.add(const Duration(days: 1)), 't', 'b'),
+    ]);
+    // parallel calls above may both initialise; assert only the increment after the reset
+    expect(
+      calls.where((c) => c == 'initialize'),
+      hasLength(initializations + 1),
+    );
+    expect(calls.where((c) => c == 'zonedSchedule'), hasLength(1));
+  });
+
+  testWidgets(
+    'reminders: a reset during a stalled reschedule stops the old plan',
+    (t) async {
+      final gate = Completer<void>();
+      final calls = mockReminders(t, () => gate.future);
+      final now = DateTime.now();
+      final plan = Reminders.reschedule([
+        for (var d = 1; d <= 3; d++) (now.add(Duration(days: d)), 't', 'b'),
+      ]);
+      Future<void>? reset;
+      try {
+        for (var i = 0; i < 100 && !calls.contains('zonedSchedule'); i++) {
+          await t.pump(const Duration(milliseconds: 10));
+        }
+        expect(
+          calls,
+          contains('zonedSchedule'),
+        ); // first reminder stuck in the plugin
+        reset = Reminders.cancelAll();
+      } finally {
+        if (!gate.isCompleted) gate.complete(); // never leave the queue stuck
+        await plan; // also after a failed assertion: finish inside the test's zone
+        await reset;
+      }
+      expect(
+        calls.first,
+        'initialize',
+      ); // a fresh init, not one left from an earlier test
+      expect(calls.where((c) => c == 'zonedSchedule'), hasLength(1));
+      expect(calls.last, 'cancelAll');
+    },
+  );
+
+  testWidgets('reminders: moon plan, then reset, in order', (t) async {
+    final calls = mockReminders(t);
+    await Reminders.rescheduleMoon([
+      (DateTime.now().add(const Duration(days: 2)), 'n', 'b'),
+    ]);
+    await Reminders.cancelAll();
+    expect(
+      calls,
+      containsAllInOrder(['initialize', 'zonedSchedule', 'cancelAll']),
+    );
+  });
+
+  testWidgets('Widget clear waits for a stalled old write and refreshes last', (
+    t,
+  ) async {
+    supportedForTest = true;
+    addTearDown(() => supportedForTest = null);
+    final widgetStore = <String, Object?>{};
+    final events = <String>[];
+    Completer<void>? gate;
+    final messenger = t.binding.defaultBinaryMessenger;
+    messenger.setMockMethodCallHandler(const MethodChannel('home_widget'), (
+      c,
+    ) async {
+      final a = c.arguments as Map?;
+      if (c.method == 'saveWidgetData') {
+        if (a!['data'] != null) {
+          events.add('save');
+          await gate?.future; // the old write hangs inside the plugin
+          widgetStore[a['id'] as String] = a['data'];
+        } else {
+          events.add('clear');
+          widgetStore.remove(a['id']);
+        }
+      } else if (c.method == 'updateWidget') {
+        events.add('refresh');
+      }
+      return true;
+    });
+    addTearDown(
+      () => messenger.setMockMethodCallHandler(
+        const MethodChannel('home_widget'),
+        null,
+      ),
+    );
+
+    final store = await pump(t);
+    store.reminderAsked = true;
+    await t.pumpAndSettle();
+    events.clear();
+    final blockedWrite = Completer<void>();
+    gate = blockedWrite;
+    Future<void>? clearing;
+    try {
+      store.saveProfile(
+        CalendarDate.tryCreate(1990, 1, 1),
+        'Ala',
+      ); // starts a push
+      // bounded wait for the mock to actually be entered
+      for (var i = 0; i < 100 && !events.contains('save'); i++) {
+        await t.pump(const Duration(milliseconds: 10));
+      }
+      expect(events, contains('save')); // in flight, stuck
+
+      await store.deleteAllData();
+      var done = false;
+      clearing = clearHomeWidget(store).then((_) {
+        done = true;
+      });
+      await t.pump(const Duration(milliseconds: 50));
+      expect(done, isFalse); // the clear waits for the stuck write
+    } finally {
+      // runs also after a failed assertion, so _inFlight is never left stuck
+      if (!blockedWrite.isCompleted) blockedWrite.complete();
+      await t.pumpAndSettle();
+      await (clearing ?? clearHomeWidget(store));
+      await t.pumpAndSettle();
+    }
+
+    expect(widgetStore, isEmpty);
+    expect(events.last, 'refresh'); // refreshed after the wipe
+    expect(events.lastIndexOf('save'), lessThan(events.indexOf('clear')));
+    expect(store.widgetClearPending, isFalse);
+  });
+
+  testWidgets(
+    'Widget clear answered false stays pending and is retried at start',
+    (t) async {
+      supportedForTest = true;
+      addTearDown(() => supportedForTest = null);
+      Object? answer = false;
+      final messenger = t.binding.defaultBinaryMessenger;
+      messenger.setMockMethodCallHandler(
+        const MethodChannel('home_widget'),
+        (c) async => answer is Exception ? throw answer : answer,
+      );
+      addTearDown(
+        () => messenger.setMockMethodCallHandler(
+          const MethodChannel('home_widget'),
+          null,
+        ),
+      );
+      SharedPreferences.setMockInitialValues({});
+      final store = await AppStore.open();
+      await store.deleteAllData();
+      await clearHomeWidget(store);
+      expect(store.widgetClearPending, isTrue); // false from the plugin
+
+      answer = Exception('no widget');
+      await retryPendingHomeWidgetClear(store);
+      expect(store.widgetClearPending, isTrue); // exception, still pending
+
+      answer = true;
+      await retryPendingHomeWidgetClear(store);
+      expect(store.widgetClearPending, isFalse);
+    },
+  );
+
+  testWidgets('a clear left pending is retried on the onboarding screen', (
+    t,
+  ) async {
+    supportedForTest = true;
+    addTearDown(() => supportedForTest = null);
+    final cleared = <Object?>[];
+    final messenger = t.binding.defaultBinaryMessenger;
+    messenger.setMockMethodCallHandler(const MethodChannel('home_widget'), (
+      c,
+    ) async {
+      if (c.method == 'saveWidgetData') cleared.add((c.arguments as Map)['id']);
+      return true;
+    });
+    addTearDown(
+      () => messenger.setMockMethodCallHandler(
+        const MethodChannel('home_widget'),
+        null,
+      ),
+    );
+    SharedPreferences.setMockInitialValues({'widgetClearPending': true});
+    final store = AppStore(await SharedPreferences.getInstance());
+    await t.pumpWidget(DigiWitchApp(store: store, contents: {'pl': content}));
+    await retryPendingHomeWidgetClear(store); // as main() does after runApp
+    await t.pumpAndSettle();
+    expect(find.textContaining('Nie potrzebujesz konta'), findsOneWidget);
+    expect(cleared.toSet(), widgetKeys.toSet());
+    expect(store.widgetClearPending, isFalse);
   });
 
   testWidgets('Today: card of the day is revealed by a tap, mood is kept', (
