@@ -258,6 +258,46 @@ void main() {
       expect(s.journal, isEmpty);
     });
 
+    test('delete all stopped halfway keeps Pro and the widget-clear flag, then can finish', () async {
+      for (final fail in [Object(), false]) {
+        SharedPreferences.setMockInitialValues({});
+        final prefs = _FlakyPrefs(await SharedPreferences.getInstance());
+        final s = AppStore(prefs);
+        s.isPro = true;
+        s.saveProfile(CalendarDate.tryCreate(1990, 1, 1), 'Ala');
+        await s.addEntry('x');
+        prefs.failRemove = fail; // storage throws, or answers false
+        expect(await s.deleteAllData(), DeleteAllResult.partial);
+        expect(
+          s.widgetClearPending,
+          isTrue,
+        ); // the next start empties the widgets
+        expect(s.isPro, isTrue);
+
+        prefs.failRemove = null; // a second try finishes the wipe
+        expect(await s.deleteAllData(), DeleteAllResult.done);
+        expect(s.journal, isEmpty);
+        expect(s.birthDate, isNull);
+        expect(s.isPro, isTrue);
+        expect(s.widgetClearPending, isTrue);
+      }
+    });
+
+    test('delete all refused before it starts removes nothing', () async {
+      SharedPreferences.setMockInitialValues({});
+      final prefs = _FlakyPrefs(await SharedPreferences.getInstance());
+      final s = AppStore(prefs);
+      await s.addEntry('x');
+      prefs.failFlag = true;
+      var cancelled = false;
+      expect(
+        await s.deleteAllData(cancelReminders: () async => cancelled = true),
+        DeleteAllResult.notStarted,
+      );
+      expect(cancelled, isFalse); // nothing cancelled, nothing removed
+      expect(s.journal, hasLength(1));
+    });
+
     test('corrupt journal JSON is quarantined, exported, and does not block new entries', () async {
       final s = await fresh({
         'journal': '[{"id":"1","createdAt":"2026-01-01T10:00:00.000"',
@@ -321,4 +361,50 @@ void main() {
       }
     });
   });
+}
+
+/// Real preferences whose writes can be made to fail: [failRemove] (an exception to throw,
+/// or false to answer) hits the second removal, [failFlag] refuses the reset flag.
+class _FlakyPrefs implements SharedPreferences {
+  _FlakyPrefs(this._p);
+  final SharedPreferences _p;
+  Object? failRemove;
+  bool failFlag = false;
+  var _removes = 0;
+
+  @override
+  Future<bool> remove(String key) async {
+    if (failRemove != null && ++_removes == 2) {
+      _removes = 0;
+      if (failRemove == false) return false;
+      throw failRemove!;
+    }
+    return _p.remove(key);
+  }
+
+  @override
+  Future<bool> setBool(String key, bool value) async =>
+      failFlag && key == 'widgetClearPending' ? false : _p.setBool(key, value);
+
+  @override
+  Set<String> getKeys() => _p.getKeys();
+  @override
+  Object? get(String key) => _p.get(key);
+  @override
+  bool? getBool(String key) => _p.getBool(key);
+  @override
+  int? getInt(String key) => _p.getInt(key);
+  @override
+  String? getString(String key) => _p.getString(key);
+  @override
+  List<String>? getStringList(String key) => _p.getStringList(key);
+  @override
+  Future<bool> setInt(String key, int value) => _p.setInt(key, value);
+  @override
+  Future<bool> setString(String key, String value) => _p.setString(key, value);
+  @override
+  Future<bool> setStringList(String key, List<String> value) =>
+      _p.setStringList(key, value);
+  @override
+  dynamic noSuchMethod(Invocation i) => super.noSuchMethod(i);
 }
