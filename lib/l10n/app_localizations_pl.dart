@@ -13,7 +13,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get appTitle => 'Digi Witch';
 
   @override
-  String get tabToday => 'Dzisiaj';
+  String get tabToday => 'Dziś';
 
   @override
   String get tabNumerology => 'Liczby';
@@ -225,7 +225,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get fullNameHelp =>
-      'Potrzebne tylko do liczb z liter. Polskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.';
+      'Potrzebne tylko do liczb z liter. Polskie, niemieckie, francuskie i hiszpańskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.';
 
   @override
   String get personalYearFor => 'Rok osobisty dla:';
@@ -1015,9 +1015,6 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String get luckyTap => 'Stuknij liczbę, aby zobaczyć jej znaczenie.';
-
-  @override
   String get periodTitle => 'Horoskop na tydzień i miesiąc';
 
   @override
@@ -1112,4 +1109,315 @@ class AppLocalizationsPl extends AppLocalizations {
   String ichingLine(int n, String text) {
     return 'Linia $n: $text';
   }
+
+  @override
+  String get revealCard => 'Odsłoń kartę';
+
+  @override
+  String get revealCardHint =>
+      'Stuknij kartę, aby zobaczyć, co przynosi dzień.';
+
+  @override
+  String get cardOfDayMore => 'Więcej o karcie';
+
+  @override
+  String get moodQuestion => 'Jak się dziś czujesz?';
+
+  @override
+  String moodName(String mood) {
+    String _temp0 = intl.Intl.selectLogic(mood, {
+      '1': 'Ciężko',
+      '2': 'Słabo',
+      '3': 'Tak sobie',
+      '4': 'Dobrze',
+      'other': 'Świetnie',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get moodSaved => 'Zapisane tylko na tym urządzeniu.';
+
+  @override
+  String countdown(String what, int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'za $days dni',
+      one: 'jutro',
+      zero: 'dziś',
+    );
+    return '$what $_temp0';
+  }
+
+  @override
+  String get yourBirthday => 'Twoje urodziny';
+
+  @override
+  String notifMoon(String sign) {
+    return 'Księżyc w $sign';
+  }
+
+  @override
+  String notifDayNumber(int n) {
+    return 'liczba dnia $n';
+  }
+
+  @override
+  String get notifCard => 'karta dnia czeka';
+
+  @override
+  String get tabStars => 'Gwiazdy';
+
+  @override
+  String get starsMore => 'Więcej z gwiazd';
+
+  @override
+  String get deckTitle => 'Talia kart';
+
+  @override
+  String get fullHoroscope => 'Cały horoskop';
+
+  @override
+  String get upcoming => 'Nadchodzi';
+
+  @override
+  String get suggested => 'Polecane dziś';
+
+  @override
+  String get suggestBigThree =>
+      'Dodaj godzinę i miejsce urodzenia — poznasz Księżyc i ascendent';
+
+  @override
+  String get dayNumberShort => 'liczba dnia';
+
+  @override
+  String get dayColorShort => 'kolor dnia';
+
+  @override
+  String get fullNumerology => 'Pełna numerologia i portret';
+
+  @override
+  String get firstEntry => 'Napisz pierwszą myśl';
+
+  @override
+  String get greetDay => 'Dzień dobry';
+
+  @override
+  String get greetEvening => 'Dobry wieczór';
+
+  @override
+  String get dayHoroscope => 'Horoskop';
+
+  @override
+  String get dayNumbers => 'Moje liczby';
+
+  @override
+  String get dayCard => 'Karta';
+
+  @override
+  String get dayDone => 'Na dziś gotowe.';
+
+  @override
+  String tomorrowIs(String what) {
+    return 'Jutro $what.';
+  }
+
+  @override
+  String tomorrowMoon(String sign) {
+    return 'Jutro Księżyc w $sign.';
+  }
+
+  @override
+  String tomorrowNumber(int n) {
+    return 'Jutro nowa karta i liczba dnia $n.';
+  }
+
+  @override
+  String get tomorrowCard => 'Jutro nowa karta dnia.';
+
+  @override
+  String get tabDreams => 'Sny';
+
+  @override
+  String get dreamAsk => 'Co Ci się dziś śniło?';
+
+  @override
+  String get dreamAskHint =>
+      'Zapisz sen, zanim się rozmyje, albo poszukaj symbolu poniżej.';
+
+  @override
+  String get dreamSave => 'Zapisz sen';
+
+  @override
+  String get dreamEntry => 'Sen';
+
+  @override
+  String get dreamOfDay => 'Symbol dnia';
+
+  @override
+  String get dreamsAll => 'Wszystkie symbole';
+
+  @override
+  String get widgetCardWaiting => 'Czeka na odsłonięcie';
+
+  @override
+  String get widgetStale => 'Stuknij, aby zobaczyć swój dzień';
+
+  @override
+  String widgetCardSays(String advice) {
+    return 'Karta mówi: $advice';
+  }
+
+  @override
+  String get widgetNeedBirth => 'Podaj datę urodzenia, a zobaczysz swój dzień.';
+
+  @override
+  String get language => 'Język';
+
+  @override
+  String get dateHint => 'DD.MM.RRRR';
+
+  @override
+  String get layTarot => 'Postaw tarota';
+
+  @override
+  String get tarotWelcomeTitle => 'Co dziś podpowiedzą karty?';
+
+  @override
+  String get tarotWelcomeBody =>
+      'Pomyśl o sprawie, która Cię zajmuje, wybierz rozkład i odkryj karty. Każdy rozkład to nowe spojrzenie. Wróć, gdy pojawi się kolejne pytanie.';
+
+  @override
+  String get seeDeck => 'Zobacz talię kart';
+
+  @override
+  String get tarotWelcomeSetting => 'Wstęp w zakładce Tarot';
+
+  @override
+  String get hide => 'Ukryj';
+
+  @override
+  String get tapHint => 'stuknij';
+
+  @override
+  String get dailyMood => 'Jak możesz się dziś czuć';
+
+  @override
+  String get dailyEvents => 'Co może Cię dziś spotkać';
+
+  @override
+  String get dailyAdvice => 'Rada na dziś';
+
+  @override
+  String get energyLabel => 'Energia';
+
+  @override
+  String meterValue(String label, int n) {
+    return '$label: $n z 5';
+  }
+
+  @override
+  String get cheerAll => 'Piękny dzień — gwiazdy są po Twojej stronie';
+
+  @override
+  String get cheerLove => 'Dobry dzień dla serca';
+
+  @override
+  String get cheerWork => 'Dobry dzień na działanie';
+
+  @override
+  String get cheerEnergy => 'Dzień pełen energii';
+
+  @override
+  String get cheerUpLove => 'W miłości lepiej niż wczoraj';
+
+  @override
+  String get cheerUpWork => 'W pracy lepiej niż wczoraj';
+
+  @override
+  String get cheerUpEnergy => 'Więcej energii niż wczoraj';
+
+  @override
+  String get cheerNewMoon => 'Nów — dobry czas na nowy zamiar';
+
+  @override
+  String get cheerWaxing => 'Księżyc rośnie, a z nim Twoje plany';
+
+  @override
+  String get cheerFullMoon => 'Pełnia — czas docenić to, co już masz';
+
+  @override
+  String get cheerWaning => 'Księżyc maleje — łatwiej odpuścić to, co ciąży';
+
+  @override
+  String get cheerNewMoon2 => 'Nów — czysta karta. Zapisz na niej coś dobrego';
+
+  @override
+  String get cheerNewMoon3 => 'Nów — w ciszy rodzą się najlepsze pomysły';
+
+  @override
+  String get cheerWaxing2 =>
+      'Księżyc przybywa — dobry czas, by dokładać małe kroki';
+
+  @override
+  String get cheerWaxing3 => 'Rosnący Księżyc sprzyja temu, co zaczynasz';
+
+  @override
+  String get cheerFullMoon2 =>
+      'Pełnia — widać dziś więcej. Także to, co Ci się udało';
+
+  @override
+  String get cheerFullMoon3 =>
+      'Pełnia — dobry wieczór, by świętować małe rzeczy';
+
+  @override
+  String get cheerWaning2 => 'Księżyc maleje — dobry czas na porządki i oddech';
+
+  @override
+  String get cheerWaning3 =>
+      'Ubywający Księżyc sprzyja odpoczynkowi i domykaniu spraw';
+
+  @override
+  String get threeGood => 'Zapisz trzy dobre rzeczy';
+
+  @override
+  String get threeGoodPrompt =>
+      'Trzy dobre rzeczy z tego tygodnia — i co sprawiło, że się wydarzyły:';
+
+  @override
+  String moodReply(String mood) {
+    String _temp0 = intl.Intl.selectLogic(mood, {
+      '1': 'Ciężkie dni się zdarzają. Nie musisz dziś niczego nadrabiać.',
+      '2': 'Słabszy dzień też jest w porządku. Wystarczy jeden mały krok.',
+      '3': 'Zwykły dzień też się liczy.',
+      '4': 'Dobrze to słyszeć.',
+      'other': 'Pięknie. Warto zapamiętać, co się na to złożyło.',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get reminderAsk => 'Chcesz, żeby karta dnia czekała na Ciebie rano?';
+
+  @override
+  String get reminderAskSub =>
+      'Jedno powiadomienie dziennie o 8:00, z treścią dnia. Godzinę zmienisz lub wyłączysz w Ustawieniach.';
+
+  @override
+  String get reminderYes => 'Tak, przypominaj';
+
+  @override
+  String get reminderNo => 'Nie, dziękuję';
+
+  @override
+  String get onboardBirthHint =>
+      'Nieobowiązkowo. Z datą od razu zobaczysz swój znak, horoskop i liczby.';
+
+  @override
+  String get lookBack => 'Twoje dni';
+
+  @override
+  String get lookBackHint =>
+      'Karty dnia i nastrój, dzień po dniu. Zapisane tylko na tym urządzeniu.';
 }

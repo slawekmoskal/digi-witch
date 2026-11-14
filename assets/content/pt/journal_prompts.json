@@ -1,0 +1,167 @@
+[
+ {
+  "id": "p01",
+  "category": "ogolne",
+  "text": "O que lhe deu, ainda que um pouco, de calma ou de alegria hoje?"
+ },
+ {
+  "id": "p02",
+  "category": "ogolne",
+  "text": "Que pensamento tem voltado a você nos últimos dias, e o que você gostaria de fazer com ele?"
+ },
+ {
+  "id": "p03",
+  "category": "ogolne",
+  "text": "Pelo que você pode agradecer a si mesmo hoje?"
+ },
+ {
+  "id": "p04",
+  "category": "ogolne",
+  "text": "Que pequena mudança poderia tornar a sua próxima semana mais agradável?"
+ },
+ {
+  "id": "p05",
+  "category": "ogolne",
+  "text": "O que você aprendeu recentemente, por menor que seja?"
+ },
+ {
+  "id": "p06",
+  "category": "ogolne",
+  "text": "Qual valor é importante para você, e como ele apareceu nas suas escolhas de hoje?"
+ },
+ {
+  "id": "p07",
+  "category": "ogolne",
+  "text": "Se tivesse de descrever esta fase da sua vida com uma única imagem, qual seria?"
+ },
+ {
+  "id": "p08",
+  "category": "ogolne",
+  "text": "A que você quer dar mais atenção no próximo mês?"
+ },
+ {
+  "id": "p09",
+  "category": "rodzina",
+  "text": "Qual costume da casa onde você cresceu você mais aprecia, e por quê?"
+ },
+ {
+  "id": "p10",
+  "category": "rodzina",
+  "text": "Qual ditado ou provérbio você ouvia muito em família? O que acha dele hoje?"
+ },
+ {
+  "id": "p11",
+  "category": "rodzina",
+  "text": "Como a sua família celebra as datas especiais? O que você gostaria de manter, e o que faria do seu jeito?"
+ },
+ {
+  "id": "p12",
+  "category": "rodzina",
+  "text": "Como se falava de dinheiro em casa, se é que se falava? Como você quer falar sobre isso?"
+ },
+ {
+  "id": "p13",
+  "category": "rodzina",
+  "text": "Que crença sobre trabalho ou dever você trouxe de casa, e até que ponto ela é sua hoje?"
+ },
+ {
+  "id": "p14",
+  "category": "rodzina",
+  "text": "Que papel você costuma ter nos encontros de família? Você se sente bem nele?"
+ },
+ {
+  "id": "p15",
+  "category": "rodzina",
+  "text": "Como você gostaria de expressar seus limites às pessoas próximas, de um jeito que lhe pareça certo?"
+ },
+ {
+  "id": "p16",
+  "category": "rodzina",
+  "text": "Qual história ou causo da família você gosta de contar aos outros?"
+ },
+ {
+  "id": "p17",
+  "category": "rodzina",
+  "text": "Que prato, cheiro ou música você associa à sua casa? O que isso traz de volta?"
+ },
+ {
+  "id": "p18",
+  "category": "rodzina",
+  "text": "Que qualidade ou habilidade de alguém da sua família você valoriza e gostaria de desenvolver em si?"
+ },
+ {
+  "id": "p19",
+  "category": "rodzina",
+  "text": "Que costume da família você gostaria de mudar ou de trocar por um novo? Como ele poderia ser?"
+ },
+ {
+  "id": "p20",
+  "category": "rodzina",
+  "text": "Que valores, com as suas palavras, você quer transmitir ou cultivar nas pessoas ao seu redor?"
+ },
+ {
+  "id": "p21",
+  "category": "rodzina",
+  "text": "Como a sua família demonstrava apreço ou alegria? Quais desses jeitos soam próximos de você?"
+ },
+ {
+  "id": "p22",
+  "category": "rodzina",
+  "text": "Se você tiver vontade: que conversa gostaria de ter um dia com alguém próximo, e sobre o quê?"
+ },
+ {
+  "id": "p23",
+  "category": "tarot",
+  "text": "Que imagem, cor ou detalhe da carta que você tirou chamou primeiro a sua atenção?"
+ },
+ {
+  "id": "p24",
+  "category": "tarot",
+  "text": "Se a figura da carta pudesse lhe fazer uma pergunta, qual seria?"
+ },
+ {
+  "id": "p25",
+  "category": "tarot",
+  "text": "De qual situação da sua vida a carta de hoje faz você se lembrar?"
+ },
+ {
+  "id": "p26",
+  "category": "tarot",
+  "text": "Se a carta estivesse invertida, o que poderia significar olhar para o tema dela pelo outro lado?"
+ },
+ {
+  "id": "p27",
+  "category": "tarot",
+  "text": "Que emoção a carta despertou em você, e de onde ela pode vir?"
+ },
+ {
+  "id": "p28",
+  "category": "tarot",
+  "text": "O que do simbolismo desta carta você quer levar consigo pelo resto do dia?"
+ },
+ {
+  "id": "p29",
+  "category": "liczby",
+  "text": "Qual descrição do seu perfil numerológico mais combina com você, e qual menos? Por quê?"
+ },
+ {
+  "id": "p30",
+  "category": "liczby",
+  "text": "Como você entende o tema do seu ano pessoal, e o que quer fazer com ele na prática?"
+ },
+ {
+  "id": "p31",
+  "category": "liczby",
+  "text": "A pergunta de reflexão do seu caminho de vida trouxe de volta alguma lembrança? Descreva-a."
+ },
+ {
+  "id": "p32",
+  "category": "liczby",
+  "text": "Em que o jeito como os outros veem você difere do que você sente por dentro, e as descrições dos números ajudaram a nomear isso?"
+ },
+ {
+  "id": "p33",
+  "category": "liczby",
+  "text": "Se você pudesse dar a si mesmo um número para este mês, qual seria, e por quê?"
+ }
+]

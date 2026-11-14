@@ -1,0 +1,221 @@
+{
+ "square": {
+  "1": {
+   "title": "Karakter",
+   "levels": [
+    "Geen enen: je bouwt je wilskracht bewust op, het loont om assertiviteit te oefenen.",
+    "Eén één: een zacht karakter, je geeft gemakkelijk toe aan anderen.",
+    "Twee enen: een evenwichtig karakter, je kunt voor jezelf opkomen, maar zonder te forceren.",
+    "Drie: sterke wil en behoefte om te leiden; pas op voor koppigheid.",
+    "Vier of meer: zeer sterke wil, waardoor koppigheid en de neiging om anderen te controleren op de loer liggen. Oefen in flexibiliteit."
+   ]
+  },
+  "2": {
+   "title": "Energie",
+   "levels": [
+    "Geen tweeën: je haalt energie uit anderen en uit rust, zorg dus goed voor herstel.",
+    "Eén twee: genoeg energie voor elke dag, maar die raakt snel op bij teveel prikkels.",
+    "Twee tweeën: een goede energiereserve en gevoeligheid voor je omgeving.",
+    "Drie: veel energie, die je beter ergens aan kunt besteden zodat ze niet in nervositeit omslaat.",
+    "Vier of meer: enorme energie die kan omslaan in overgevoeligheid; sport en rust zijn nodig."
+   ]
+  },
+  "3": {
+   "title": "Nieuwsgierigheid",
+   "levels": [
+    "Geen drieën: je verwerft kennis praktisch, door ervaring en niet uit boeken.",
+    "Eén drie: nieuwsgierigheid naar de wereld, die een concreet doel nodig heeft.",
+    "Twee drieën: aanleg voor exacte vakken, orde en analyse.",
+    "Drie: een sterke onderzoekersgeest, nieuwe dingen leren gaat je makkelijk af.",
+    "Vier of meer: een wetenschappersgeest, soms te verzonken in analyse; keer vaker terug naar het concrete."
+   ]
+  },
+  "4": {
+   "title": "Gezondheid",
+   "levels": [
+    "Geen vieren: de traditie spreekt van extra zorg voor je conditie, met beweging en een vast dagritme.",
+    "Eén vier: gemiddeld uithoudingsvermogen, dat je makkelijk met gewoontes versterkt.",
+    "Twee vieren: goede conditie en weerstand.",
+    "Drie: veel lichamelijk uithoudingsvermogen, vaak met liefde voor sport.",
+    "Vier of meer: veel lichamelijk uithoudingsvermogen; pas op dat je je lichaam niet overbelast."
+   ]
+  },
+  "5": {
+   "title": "Intuïtie",
+   "levels": [
+    "Geen vijven: beslissingen neem je beter na nadenken en met een plan.",
+    "Eén vijf: de intuïtie werkt, maar wordt soms overstemd door twijfel.",
+    "Twee vijven: goede intuïtie gecombineerd met logica, je schat situaties treffend in.",
+    "Drie: sterke voorgevoelens; vertrouw erop, maar check de feiten.",
+    "Vier of meer: bijzondere intuïtie, vertrouw erop, maar laat de feiten niet los."
+   ]
+  },
+  "6": {
+   "title": "Werk",
+   "levels": [
+    "Geen zessen: je voelt je beter bij hoofdwerk dan bij lichamelijk werk.",
+    "Eén zes: lichamelijk werk is soms een noodzaak, geen plezier.",
+    "Twee zessen: handige handen, talent voor ambacht en praktische zaken.",
+    "Drie: behoefte om iets tastbaars te maken, werk geeft je evenwicht.",
+    "Vier of meer: sterke behoefte aan lichamelijk werk en scheppen, stilzitten is lastig."
+   ]
+  },
+  "7": {
+   "title": "Talent",
+   "levels": [
+    "Geen zevens: succes komt door volharding, niet door toeval.",
+    "Eén zeven: een verborgen talent dat het ontdekken waard is.",
+    "Twee zevens: duidelijk talent en “geluk” in wat je onderneemt.",
+    "Drie: veel talenten; het is belangrijk er één te kiezen en te ontwikkelen.",
+    "Vier of meer: veel talenten, maar ook de neiging je te verspreiden; kies één weg."
+   ]
+  },
+  "8": {
+   "title": "Plicht",
+   "levels": [
+    "Geen achten: een ontspannen omgang met verplichtingen; duidelijke regels helpen.",
+    "Eén acht: verantwoordelijkheid komt met leeftijd en ervaring.",
+    "Twee achten: sterk plichtsbesef en zorg voor anderen.",
+    "Drie: grote verantwoordelijkheid, vergeet niet dat je niet alles alleen hoeft te dragen.",
+    "Vier of meer: zeer sterk plichtsbesef, onthoud dat je niet iedereen hoeft te redden."
+   ]
+  },
+  "9": {
+   "title": "Geheugen",
+   "levels": [
+    "Geen negens: je onthoudt beter door te doen dan door te luisteren.",
+    "Eén negen: een goed geheugen, dat door oefening groeit.",
+    "Twee negens: een scherpe geest en goed geheugen.",
+    "Drie: uitzonderlijk geheugen en snel denken.",
+    "Vier of meer: opvallend geheugen en scherpte, gun je geest ook rust."
+   ]
+  }
+ },
+ "pinnacles": {
+  "1": {
+   "title": "Piek van zelfstandigheid",
+   "text": "Fase van op eigen benen staan: beslissingen, initiatief, de moed om je eigen weg te gaan. Zo benut je het: neem je eigen beslissingen en begin nieuwe dingen, ook als je het niet zeker weet."
+  },
+  "2": {
+   "title": "Piek van samenwerking",
+   "text": "Fase van relaties en partnerschap: geduld, diplomatie, bruggen bouwen tussen mensen. Zo benut je het: investeer in relaties, luister en leer samenwerken, succes komt via mensen."
+  },
+  "3": {
+   "title": "Piek van expressie",
+   "text": "Fase van creativiteit, contacten en vreugde, een goede tijd om de wereld te laten zien wat je te zeggen hebt. Zo benut je het: maak, schrijf, treed op, ontmoet mensen, je expressie opent deuren."
+  },
+  "4": {
+   "title": "Piek van opbouw",
+   "text": "Fase van werk aan de basis: stabiliteit, huis, financiën, stelselmatige inzet die vruchten afwerpt. Zo benut je het: bouw een solide basis, zoals opleiding, spaargeld, een thuis. Geduld loont."
+  },
+  "5": {
+   "title": "Piek van verandering",
+   "text": "Fase van beweging, reizen en nieuwe ervaringen, veel verandering en weinig verveling. Zo benut je het: reis, leer, verander, maar kies veranderingen die zinvol zijn."
+  },
+  "6": {
+   "title": "Piek van zorg",
+   "text": "Fase van gezin, huis en verantwoordelijkheid voor anderen; belangrijke relaties en verplichtingen. Zo benut je het: zorg voor thuis en naasten, maar vergeet je eigen behoeften niet."
+  },
+  "7": {
+   "title": "Piek van zoeken",
+   "text": "Fase van reflectie, leren en jezelf verdiepen, met meer vragen over zin dan over gemak. Zo benut je het: geef jezelf tijd voor leren, reflectie en spiritualiteit, de antwoorden komen van binnenuit."
+  },
+  "8": {
+   "title": "Piek van daadkracht",
+   "text": "Fase van carrière, invloed en geld, tijd voor ambitieuze doelen en volwassen omgang met middelen. Zo benut je het: stel ambitieuze doelen en beheer je middelen verstandig, het is een tijd van invloed."
+  },
+  "9": {
+   "title": "Piek van afronden",
+   "text": "Fase van breed perspectief, ervaring delen en oude hoofdstukken afsluiten. Zo benut je het: deel je ervaring, help anderen en sluit af wat is uitgeput."
+  }
+ },
+ "challenges": {
+  "0": {
+   "title": "Uitdaging van de keuze",
+   "text": "Geen enkel thema, de uitdaging is kiezen wat je wilt leren. Alle wegen liggen open. Tip: luister bij keuzes naar je intuïtie, er is geen opgelegde weg."
+  },
+  "1": {
+   "title": "Uitdaging van onafhankelijkheid",
+   "text": "Leren jezelf uit te drukken en grenzen te stellen, zonder meegaandheid en zonder koppigheid. Tip: oefen in het zeggen van “ik wil” en “ik wil niet”, rustig maar vastberaden."
+  },
+  "2": {
+   "title": "Uitdaging van gevoeligheid",
+   "text": "Leren niet alles persoonlijk te nemen en jezelf niet op te geven voor de lieve vrede. Tip: neem de stemmingen van anderen niet over, jouw behoeften tellen ook."
+  },
+  "3": {
+   "title": "Uitdaging van uitdrukken",
+   "text": "Leren over je gevoelens te praten en je creatieve werk te tonen ondanks kritiek. Tip: deel wat je maakt voordat het perfect is."
+  },
+  "4": {
+   "title": "Uitdaging van orde",
+   "text": "Leren van discipline en geduld, zonder starheid en zonder chaos. Tip: kleine, regelmatige stappen in plaats van uitbarstingen en chaos."
+  },
+  "5": {
+   "title": "Uitdaging van vrijheid",
+   "text": "Leren verstandig met vrijheid om te gaan, zonder te vluchten en zonder alles in één keer weg te gooien. Tip: kijk voordat je naar iets nieuws vlucht waarvoor je op de vlucht bent."
+  },
+  "6": {
+   "title": "Uitdaging van verantwoordelijkheid",
+   "text": "Leren zorgen voor anderen zonder ze te controleren en zonder jezelf te vergeten. Tip: help, maar red niet met geweld en controleer niet."
+  },
+  "7": {
+   "title": "Uitdaging van vertrouwen",
+   "text": "Leren openstaan en vertrouwen, in jezelf, in anderen en in het leven. Tip: vertrouw iemand genoeg om te vertellen wat je echt denkt."
+  },
+  "8": {
+   "title": "Uitdaging van macht en geld",
+   "text": "Leren een gezonde omgang met geld, ambitie en controle. Tip: geld en macht zijn gereedschap, vraag waarvoor ze dienen."
+  }
+ },
+ "karmicDebts": {
+  "13": {
+   "title": "Karmische schuld 13",
+   "text": "In de numerologische traditie staat 13 voor een les in werk en volharding: gemakkelijke sluiproutes werken zelden, en geduldige inspanning levert blijvende resultaten."
+  },
+  "14": {
+   "title": "Karmische schuld 14",
+   "text": "14 is een les in matigheid en vrijheid: leren omgaan met vrijheid zonder overmaat en zonder aan verplichtingen te ontsnappen."
+  },
+  "16": {
+   "title": "Karmische schuld 16",
+   "text": "16 is een les in nederigheid en herbouw: soms moet iets instorten om plaats te maken voor iets echters."
+  },
+  "19": {
+   "title": "Karmische schuld 19",
+   "text": "19 is een les in zelfstandigheid die hulp vragen niet uitsluit: kracht groeit als je anderen je laat steunen."
+  }
+ },
+ "karmicLessons": {
+  "1": "Les 1: leren in jezelf te geloven en beslissingen te nemen zonder naar anderen om te kijken.",
+  "2": "Les 2: leren van geduld, samenwerking en luisteren.",
+  "3": "Les 3: leren jezelf uit te drukken en vreugde te delen.",
+  "4": "Les 4: leren van regelmaat, orde en dingen afmaken.",
+  "5": "Les 5: leren van flexibiliteit en openheid voor verandering.",
+  "6": "Les 6: leren verantwoordelijkheid te nemen voor je naasten en voor jezelf.",
+  "7": "Les 7: leren van vertrouwen in intuïtie en tijd voor reflectie.",
+  "8": "Les 8: leren van een gezonde omgang met geld en je eigen kracht.",
+  "9": "Les 9: leren van mededogen en verder kijken dan je eigen zaken."
+ },
+ "keywords": {
+  "1": "begin, moed, zelfstandigheid",
+  "2": "samenwerking, geduld, zachtheid",
+  "3": "vreugde, creativiteit, gesprek",
+  "4": "orde, stabiliteit, werk",
+  "5": "verandering, beweging, vrijheid",
+  "6": "thuis, zorg, harmonie",
+  "7": "reflectie, intuïtie, kennis",
+  "8": "daadkracht, succes, verantwoordelijkheid",
+  "9": "afronding, mededogen, breed perspectief"
+ },
+ "dayColors": {
+  "1": "rood",
+  "2": "oranje",
+  "3": "geel",
+  "4": "groen",
+  "5": "blauw",
+  "6": "indigo",
+  "7": "paars",
+  "8": "roze",
+  "9": "goud"
+ }
+}

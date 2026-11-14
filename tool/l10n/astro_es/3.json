@@ -1,0 +1,51 @@
+{
+"moonSigns": [
+"Luna en Aries: las emociones se encienden y se apagan deprisa. Necesitas acción para sentirte bien; la inactividad te cansa más que el esfuerzo. El enfado llega con facilidad, pero no guardas rencor. Te ayudan el movimiento y poder decidir por ti mismo.",
+"Luna en Tauro: necesitas calma, comodidad y previsibilidad. Construyes tu seguridad con cosas tangibles: el hogar, la comida, el contacto físico, un ritmo diario estable. El cambio te lleva tiempo. Cuando estás en equilibrio, das a los demás una enorme sensación de estabilidad.",
+"Luna en Géminis: procesas los sentimientos hablando de ellos. Necesitas estímulos, curiosidad y alguien con quien intercambiar ideas. Los estados de ánimo cambian rápido. Te ayudan escribir, conversar y la ligereza.",
+"Luna en Cáncer: es la casa natural de la Luna, con una sensibilidad profunda y necesidad de cercanía y hogar. Sientes con fuerza el ánimo de los demás y recuerdas emociones antiguas. Cuando algo duele, te refugias en tu caparazón. Te ayudan un lugar seguro y las personas cercanas.",
+"Luna en Leo: necesitas que te vean y te aprecien. Expresas las emociones con calidez y a lo grande; un corazón herido se convierte pronto en orgullo. Das mucho corazón a los demás. Te ayudan la creatividad, el juego y el reconocimiento sincero.",
+"Luna en Virgo: el orden y sentirte útil te dan paz. A menudo conviertes las emociones en cuidado de lo práctico y en análisis. Te preocupas con facilidad. Te ayudan la rutina, el trabajo manual y la indulgencia con tus propios errores.",
+"Luna en Libra: necesitas armonía y compañía. Los conflictos te desequilibran, así que cedes con facilidad para mantener la paz. Un entorno bonito es importante para ti. Te ayudan las conversaciones a solas y poner nombre a tus propias necesidades.",
+"Luna en Escorpio: sientes con intensidad y profundidad, pero muestras poco. Construyes la confianza despacio, y la lealtad lo es todo para ti. Te cuesta soltar. Te ayudan la sinceridad, la intimidad y convertir la emoción en acción.",
+"Luna en Sagitario: necesitas libertad, espacio y sentido. El optimismo te ayuda en los momentos difíciles, a veces a costa de no vivirlos de verdad. Llevas mal las restricciones. Te ayudan los viajes, aprender y sentir que tu vida tiene una dirección.",
+"Luna en Capricornio: mantienes las emociones bajo control y piensas primero en tus obligaciones. Un plan y la sensación de dominar la situación te dan seguridad. Rara vez pides ayuda. Te ayudan el reconocimiento de tu esfuerzo y tiempo solo para ti.",
+"Luna en Acuario: necesitas independencia y amistad más que muestras de ternura. Te gusta entender una emoción antes de sentirla. Te sientes bien en grupo, pero con tus propias reglas. Te ayudan el espacio y personas que aceptan que eres diferente.",
+"Luna en Piscis: una Luna muy empática; absorbes el ánimo de tu entorno. Necesitas silencio, arte o espiritualidad para volver a ti. Te emocionas con facilidad y sientes compasión enseguida. Te ayudan los límites, el sueño y la creatividad."
+],
+"ascSigns": [
+"Ascendente Aries: a primera vista, energía, franqueza y un ritmo rápido. Te ven como alguien que actúa antes de pensar. Entras con audacia en las situaciones nuevas. Cuida de que la prisa no parezca falta de interés por los demás.",
+"Ascendente Tauro: a primera vista, calma, paciencia y una presencia agradable. Pareces estable y digno de confianza. Te acostumbras despacio a las situaciones nuevas. Tu fuerza es la constancia y el buen gusto.",
+"Ascendente Géminis: a primera vista, curiosidad, expresividad y soltura al conversar. Pareces más joven e inquieto de lo que eres. Haces contactos con facilidad. Cuidado con la dispersión.",
+"Ascendente Cáncer: a primera vista, suavidad y cautela. Primero captas el ambiente y solo después te abres. La gente siente calidez a tu lado. La reserva ante desconocidos suele ser tu protección.",
+"Ascendente Leo: a primera vista, seguridad y calidez. Atraes la atención con facilidad, incluso sin buscarla. Tienes algo de escenario. Cuida de que el orgullo no oculte tu sensibilidad.",
+"Ascendente Virgo: a primera vista, modestia, atención y pulcritud. Das la impresión de saber lo que haces. Ves detalles que a otros se les escapan. Cuidado con juzgarte con demasiada dureza.",
+"Ascendente Libra: a primera vista, cortesía, encanto y cuidado de las formas. La gente se siente a gusto contigo. Suavizas las tensiones de forma natural. Cuida de no aceptarlo todo por tener paz.",
+"Ascendente Escorpio: a primera vista, misterio y una mirada intensa. Cuesta descifrarte, y eso te parece bien. Tienes una presencia fuerte. Das tu confianza poco a poco.",
+"Ascendente Sagitario: a primera vista, apertura, humor y entusiasmo. Pareces alguien que siempre busca aventura. Tu optimismo se contagia fácilmente. Cuidado con las promesas hechas en el calor del momento.",
+"Ascendente Capricornio: a primera vista, seriedad, serenidad y madurez. Enseguida te confían responsabilidades. Con los años sueles volverte más ligero y abierto. Cuida de no cargar con todo tú solo.",
+"Ascendente Acuario: a primera vista, originalidad y una ligera distancia. Destacas aunque no te lo propongas. Eres amable con todos, pero cercano con pocos. Tu fuerza es el pensamiento independiente.",
+"Ascendente Piscis: a primera vista, suavidad, aire soñador y sensibilidad. La gente te hace confidencias con facilidad. Lees bien los estados de ánimo. Necesitas límites para no cargar con las emociones ajenas."
+],
+"elements5": {
+"wood": {"name": "Madera", "adj": "de Madera", "text": "La Madera es crecimiento, generosidad y cooperación. Las personas de Madera crecen junto a otras y piensan en el futuro."},
+"fire": {"name": "Fuego", "adj": "de Fuego", "text": "El Fuego es pasión, entusiasmo y valor. Las personas de Fuego contagian su energía, pero se queman con facilidad."},
+"earth": {"name": "Tierra", "adj": "de Tierra", "text": "La Tierra es estabilidad, sentido común y cuidado. Las personas de Tierra son un apoyo para los demás y construyen para durar."},
+"metal": {"name": "Metal", "adj": "de Metal", "text": "El Metal es determinación, principios y fuerza de voluntad. Las personas de Metal son coherentes y no temen las decisiones difíciles."},
+"water": {"name": "Agua", "adj": "de Agua", "text": "El Agua es intuición, flexibilidad y sabiduría. Las personas de Agua se adaptan a las circunstancias y entienden bien a los demás."}
+},
+"yearForecast": {
+"same": "Es tu año, el año de tu propio signo (běnmìngnián). La tradición aconseja prudencia: más atención y menos riesgo. Un buen momento para volver a ti y a tus raíces.",
+"friend": "El año de tu «amigo secreto». La tradición habla de un apoyo que llega en silencio, así que conviene aceptar la ayuda y las invitaciones.",
+"trine": "El año de un signo de tu trígono de aliados. Favorece la acción, la cooperación y la realización de planes; la energía del año está cerca de la tuya.",
+"clash": "El año de tu signo opuesto (chōng). La tradición anuncia cambios y tensiones. Mejor no forzar nada y ver el cambio como una oportunidad.",
+"neutral": "Un año neutral para tu signo. Ni viento especialmente a favor ni obstáculos: mucho depende de tus propias decisiones."
+},
+"chineseCompat": {
+"same": "El mismo signo: os entendéis bien, pero también reforzáis con facilidad vuestras debilidades.",
+"friend": "Amigos secretos: según la tradición, una de las mejores combinaciones, en la que uno apoya al otro.",
+"trine": "El mismo trígono de aliados: valores parecidos y una armonía natural.",
+"clash": "Signos opuestos: se atraen y chocan. Mucho que aprender, pero también roces.",
+"neutral": "Una combinación neutral: ni armonía especial ni conflicto. Todo depende de vosotros."
+}
+}

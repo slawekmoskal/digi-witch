@@ -1,0 +1,37 @@
+{
+"dayTypes": {
+"fire": {"name": "Fruchttag", "text": "Mond in einem Feuerzeichen: Nach der Gärtnertradition ein guter Tag für Fruchtpflanzen und für die Obsternte."},
+"earth": {"name": "Wurzeltag", "text": "Mond in einem Erdzeichen: ein guter Tag für Wurzelgemüse, Umpflanzen und Bodenarbeit."},
+"air": {"name": "Blütentag", "text": "Mond in einem Luftzeichen: ein guter Tag für Blühpflanzen und um Blumen für die Vase zu schneiden."},
+"water": {"name": "Blatttag", "text": "Mond in einem Wasserzeichen: ein guter Tag für Kräuter, Salat und zum Gießen."}
+},
+"haircut": {
+"waxing": "Der Mond nimmt zu: Nach der Tradition wachsen die Haare nach dem Schneiden schneller nach.",
+"waning": "Der Mond nimmt ab: Nach der Tradition hält ein Haarschnitt länger seine Form."
+},
+"mercury": "Merkur rückläufig: Von der Erde aus scheint er sich rückwärts über den Himmel zu bewegen. In der astrologischen Tradition ist das eine Zeit für Überprüfen, Korrigieren und Rückkehr zu alten Angelegenheiten, nicht für übereilte Vertragsabschlüsse. Prüfe Nachrichten und Pläne doppelt.",
+"transits": {
+"moonInSun": "Der Mond steht heute in deinem Sonnenzeichen. Gefühle und Bedürfnisse liegen näher an der Oberfläche: ein guter Tag, um etwas für dich zu tun.",
+"moonInMoon": "Der Mond ist in das Zeichen zurückgekehrt, in dem er bei deiner Geburt stand (Mondwiederkehr). Die Tradition spricht von einem Tag emotionaler Erneuerung. Achte darauf, was du wirklich brauchst.",
+"moonInAsc": "Der Mond zieht durch das Zeichen deines Aszendenten. Was du fühlst, zeigt sich deutlicher, und andere nehmen es heute vielleicht leichter wahr.",
+"moonOpposite": "Der Mond steht im Gegenzeichen deiner Sonne. Spannungen zwischen dem, was du willst, und dem, was andere wollen, entstehen leichter. Such nach einem Kompromiss.",
+"sunSeason": "Die Sonne steht in deinem Zeichen: Das ist deine Zeit im Jahr. Ein guter Moment, auf das letzte Jahr zurückzublicken und eine neue Richtung zu setzen.",
+"mercuryInSun": "Merkur ist rückläufig in deinem Sonnenzeichen. Wiederholungen und Missverständnisse können dich stärker treffen als andere. Prüfe doppelt, was du sagst und was du unterschreibst."
+},
+"rituals": {
+"new": {"title": "Neumondritual", "text": "Der Neumond ist der Beginn des Mondzyklus, traditionell eine Zeit, Absichten zu säen. Setz dich einen Moment in Ruhe hin und schreib auf, was du im kommenden Monat beginnen oder in dir entwickeln möchtest.",
+"prompts": ["Was möchte ich in diesem Zyklus beginnen?", "Welchen einen kleinen Schritt gehe ich diese Woche?", "Was brauche ich, damit es gelingt?"]},
+"full": {"title": "Vollmondritual", "text": "Der Vollmond ist der Höhepunkt des Zyklus: eine Zeit der Ernte, der Dankbarkeit und des Loslassens. Kehr zu deiner Absicht vom Neumond zurück und schau, was geschehen ist.",
+"prompts": ["Wofür bin ich heute dankbar?", "Was ist seit dem Neumond gut gelaufen?", "Was möchte ich loslassen, bevor der neue Zyklus beginnt?"]}
+},
+"week": {
+"same": "Die Sonne zieht gerade durch ein Zeichen deines Elements. In dieser Woche fällt es leichter, du selbst zu sein und deine Pläne umzusetzen. Nutze sie für Dinge, die deine Stärken brauchen.",
+"supportive": "Die Sonne steht in einem Zeichen eines Elements, das dich unterstützt. Die Woche begünstigt Kontakte, Zusammenarbeit und neue Ideen: weniger Widerstand, mehr Fluss.",
+"neutral": "Die Sonne steht in einem Zeichen eines für dich neutralen Elements. Eine ruhige Woche, in der viel von deiner Beständigkeit abhängt. Konzentrier dich auf eine wichtige Sache.",
+"tense": "Die Sonne steht in einem Zeichen eines Elements, das in einem anderen Rhythmus schwingt als deines. Die Woche verlangt vielleicht Geduld und Kompromisse. Erzwinge nichts."
+},
+"eclipseText": {
+"solar": "Eine Sonnenfinsternis fällt auf den Neumond. In der Tradition ist sie ein kraftvoller Neubeginn: eine Zeit für eine Absicht, die länger trägt.",
+"lunar": "Eine Mondfinsternis fällt auf den Vollmond. In der Tradition ist sie eine Zeit des Abschließens und des Ans-Licht-Kommens: ein guter Moment, etwas zu beenden."
+}
+}

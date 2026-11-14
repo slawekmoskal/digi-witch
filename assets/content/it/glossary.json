@@ -1,0 +1,106 @@
+[
+ {
+  "term": "Numerologia",
+  "definition": "La tradizione di attribuire ai numeri significati simbolici e di ricavarli da date o nomi. In questa app è trattata come uno strumento di riflessione e di intrattenimento, non come un metodo scientifico."
+ },
+ {
+  "term": "Riduzione",
+  "definition": "Sommare le cifre di un numero finché ne resta una sola, ad es. 38 → 3 + 8 = 11 → 1 + 1 = 2. Nella convenzione adottata, la riduzione si ferma sui numeri maestri dove sono ammessi."
+ },
+ {
+  "term": "Numero maestro",
+  "definition": "Il nome convenzionale dei numeri 11, 22 e 33, che in molte scuole di numerologia non si riducono ulteriormente. È un'etichetta della tradizione, non il segno che una persona sia superiore o eccezionale."
+ },
+ {
+  "term": "Cammino di vita",
+  "definition": "Un numero ricavato dall'intera data di nascita, che nella tradizione descrive il tema generale o la direzione di una vita. L'app somma tutte le cifre della data e poi riduce il totale, mantenendo 11, 22 e 33."
+ },
+ {
+  "term": "Numero del giorno di nascita",
+  "definition": "Un numero ricavato dal giorno del mese in cui si è nati. La tradizione lo collega a un talento naturale o a uno stile di agire; l'app mantiene 11 e 22."
+ },
+ {
+  "term": "Numero dell'espressione",
+  "definition": "Un numero ricavato da tutte le lettere del nome completo. Descrive in modo simbolico come una persona mostra al mondo le proprie capacità."
+ },
+ {
+  "term": "Numero dell'anima (numero delle vocali)",
+  "definition": "Un numero ricavato dalle vocali del nome completo. Nella tradizione si riferisce alle motivazioni e ai bisogni interiori."
+ },
+ {
+  "term": "Numero della personalità",
+  "definition": "Un numero ricavato dalle consonanti del nome completo. Simboleggia la prima impressione e lo strato esterno che gli altri vedono."
+ },
+ {
+  "term": "Vocali e consonanti in questa convenzione",
+  "definition": "L'app considera vocali le lettere A, E, I, O, U e Y, e tutte le altre consonanti. Altre scuole trattano la Y in modo diverso, quindi i risultati possono variare."
+ },
+ {
+  "term": "Normalizzazione delle lettere accentate",
+  "definition": "Sostituire le lettere con segni diacritici (à, è, é, ì, ò, ù, ma anche ç, ñ, ü e simili) con la lettera di base prima del calcolo, ad es. à → A, ñ → N, ü → U. Questo perché la tabella tradizionale comprende solo le 26 lettere dell'alfabeto latino."
+ },
+ {
+  "term": "Tabella pitagorica delle lettere",
+  "definition": "La tabella oggi più diffusa, che assegna alle lettere A–Z valori da 1 a 9 in un ciclo ripetuto (A = 1 … I = 9, J = 1 … R = 9, S = 1 … Z = 8). Nonostante il nome è un sistema moderno, non opera degli antichi pitagorici."
+ },
+ {
+  "term": "Anno personale",
+  "definition": "Un numero da 1 a 9 ricavato dal giorno e dal mese di nascita e da un anno del calendario scelto. Nella tradizione descrive il tema di quell'anno all'interno di un ciclo di nove anni; nell'app è un invito alla riflessione, non una previsione."
+ },
+ {
+  "term": "Ciclo di nove anni",
+  "definition": "L'idea che gli anni personali si susseguano da 1 a 9, dopodiché il ciclo ricomincia. È un modello simbolico che dà una struttura alla riflessione."
+ },
+ {
+  "term": "Psiconumerologia",
+  "definition": "Il nome di un filone interpretativo che unisce la simbologia dei numeri al linguaggio della riflessione su di sé. Non è un metodo psicologico né clinico e non si usa per fare diagnosi."
+ },
+ {
+  "term": "Tarocchi",
+  "definition": "Un mazzo di solito di 78 carte, usato in origine per giocare e, dal Settecento, anche nella pratica esoterica. Nell'app le carte sono immagini che stimolano la riflessione."
+ },
+ {
+  "term": "Arcani maggiori",
+  "definition": "Le 22 carte di trionfo dei tarocchi, ciascuna con un nome e un'immagine propri, ad es. Il Matto, Il Mago, Il Sole. La tradizione le collega ai grandi temi della vita."
+ },
+ {
+  "term": "Arcani minori",
+  "definition": "56 carte divise in quattro semi, con le carte dall'asso al dieci e le figure. La tradizione le collega alle questioni e alle situazioni quotidiane."
+ },
+ {
+  "term": "Seme (nei tarocchi)",
+  "definition": "Una delle quattro serie degli Arcani minori: Bastoni, Coppe, Spade e Denari. A ogni seme la tradizione assegna un ambito simbolico."
+ },
+ {
+  "term": "Figure",
+  "definition": "Le carte degli Arcani minori che mostrano dei personaggi: Fante, Cavaliere, Regina e Re. Si leggono spesso come stili d'azione o ruoli più che come persone concrete."
+ },
+ {
+  "term": "Carta rovesciata",
+  "definition": "Una carta che esce capovolta durante la stesa. C'è chi la legge come una versione diversa o attenuata del tema della carta; altri non usano affatto le carte rovesciate."
+ },
+ {
+  "term": "Stesa",
+  "definition": "Una disposizione di più carte in cui a ogni posizione è assegnato un significato o una domanda, ad es. sfondo, sfida, possibile passo. Nell'app le posizioni sono domande per riflettere, non previsioni."
+ },
+ {
+  "term": "Mazzo Rider–Waite–Smith",
+  "definition": "Un mazzo di tarocchi pubblicato a Londra nel 1909 da Rider, ideato sotto la guida di A. E. Waite e illustrato da Pamela Colman Smith. Le sue immagini hanno influenzato molti mazzi successivi."
+ },
+ {
+  "term": "Tarocchi (le origini)",
+  "definition": "Il nome italiano delle carte da gioco da cui si sono sviluppati i tarocchi, noto dal Quattrocento. In origine servivano per un gioco di società con le carte di trionfo."
+ },
+ {
+  "term": "Archetipo",
+  "definition": "Uno schema universale di carattere o di situazione che ricorre nei miti, nei racconti e nella cultura, ad es. l'Eroe o il Saggio. Nell'app gli archetipi sono uno strumento di riflessione, non una tipologia di personalità."
+ },
+ {
+  "term": "Ombra (nella descrizione di un archetipo)",
+  "definition": "Un termine convenzionale per i lati meno utili di uno schema, che possono comparire quando i suoi tratti vengono esasperati. La descrizione dell'ombra serve a stimolare il pensiero, non a giudicare."
+ },
+ {
+  "term": "Sincronicità",
+  "definition": "Un termine introdotto da C. G. Jung per le coincidenze significative di eventi privi di un nesso causale. Nel contesto delle carte si usa spesso in modo approssimativo; non è una prova che la divinazione funzioni."
+ }
+]

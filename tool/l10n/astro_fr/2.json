@@ -1,0 +1,173 @@
+{
+ "chinese": [
+  {
+   "id": "rat",
+   "name": "Rat",
+   "text": "Vif d’esprit, débrouillard et sociable ; repère vite les occasions.",
+   "long": "Le Rat ouvre le zodiaque chinois. C’est le signe de l’intelligence, de la débrouillardise et de la pensée rapide, capable de voir une occasion là où d’autres voient un problème. Le Rat est sociable et à l’aise parmi les gens, mais choisit ses amis proches avec soin. Le défi : la nervosité et la tendance à amasser « au cas où ».",
+   "love": "En amour, le Rat est tendre et dévoué, quoique prudent au début. Il apprécie un partenaire intelligent et loyal.",
+   "work": "Au travail, le Rat réussit dans les affaires, le commerce et partout où il faut repérer vite une occasion."
+  },
+  {
+   "id": "ox",
+   "name": "Buffle",
+   "text": "Patient, travailleur et fiable ; atteint son but pas à pas.",
+   "long": "Le Buffle, c’est l’application, la patience et la fiabilité. Il travaille avec méthode et n’aime ni la précipitation ni les surprises, mais tient la promesse qu’il a faite. Le défi : l’entêtement et la difficulté à demander de l’aide.",
+   "love": "En amour, le Buffle est fidèle et constant, et montre ses sentiments par des actes plutôt que par des mots.",
+   "work": "Au travail, le Buffle est fiable et réussit dans les tâches qui demandent patience, précision et sens des responsabilités."
+  },
+  {
+   "id": "tiger",
+   "name": "Tigre",
+   "text": "Courageux, plein d’énergie et indépendant ; ne craint pas les défis.",
+   "long": "Le Tigre, c’est le courage, l’énergie et le besoin d’indépendance. Il aime les défis et prend la défense des plus faibles. Il peut être impulsif et impatient, mais son enthousiasme entraîne les autres.",
+   "love": "En amour, le Tigre est passionné et spontané, et a besoin d’un partenaire qui lui laisse de l’espace.",
+   "work": "Au travail, le Tigre est à l’aise comme leader, comme entrepreneur ou partout où le courage compte."
+  },
+  {
+   "id": "rabbit",
+   "name": "Lapin",
+   "text": "Doux, plein de tact et sensible à la beauté ; tient à la paix.",
+   "long": "Le Lapin (le Chat au Viêt Nam), c’est le tact, la douceur et le sens de la beauté. Il évite les conflits et apprécie la paix et les bonnes relations. Le défi : esquiver les décisions difficiles et faire preuve d’un excès de prudence.",
+   "love": "En amour, le Lapin est tendre et romantique, et cherche une relation calme et harmonieuse.",
+   "work": "Au travail, le Lapin réussit dans la diplomatie, les arts, le design et le travail avec les gens."
+  },
+  {
+   "id": "dragon",
+   "name": "Dragon",
+   "text": "Charismatique, ambitieux et sûr de lui ; aime les grands projets.",
+   "long": "Le Dragon est le seul animal mythique du zodiaque, symbole de puissance, de chance et de charisme. Il a de grands projets et l’énergie de les réaliser. Le défi : l’orgueil et l’impatience face aux faiblesses des autres.",
+   "love": "En amour, le Dragon est passionné et généreux, mais a besoin d’admiration et de liberté.",
+   "work": "Au travail, le Dragon vise de grands objectifs et réussit dans les postes de direction et les projets d’envergure."
+  },
+  {
+   "id": "snake",
+   "name": "Serpent",
+   "text": "Sage, intuitif et réfléchi ; voit plus qu’il ne montre.",
+   "long": "Le Serpent, c’est la sagesse, l’intuition et l’élégance. Il réfléchit avant d’agir et voit plus qu’il ne dit. Le défi : le goût du secret et la méfiance.",
+   "love": "En amour, le Serpent est sensuel et loyal, mais jaloux de ce qui compte pour lui.",
+   "work": "Au travail, le Serpent réussit dans l’analyse, la stratégie, la finance et partout où la perspicacité compte."
+  },
+  {
+   "id": "horse",
+   "name": "Cheval",
+   "text": "Esprit libre, énergique et franc ; a besoin de mouvement et d’espace.",
+   "long": "Le Cheval est un esprit libre : énergie, franchise et besoin de mouvement. Il aime être au centre des choses et agit vite. Le défi : l’impatience et la difficulté à terminer ce qu’il a commencé.",
+   "love": "En amour, le Cheval est franc et enthousiaste, et a besoin d’aventures partagées et de liberté.",
+   "work": "Au travail, le Cheval est le plus heureux en mouvement : voyages, vente, sport et projets au rythme rapide."
+  },
+  {
+   "id": "goat",
+   "name": "Chèvre",
+   "text": "Créative, douce et empathique ; à l’aise dans l’harmonie.",
+   "long": "La Chèvre (ou le Mouton), c’est la créativité, la douceur et l’empathie. Elle a besoin d’harmonie et d’un environnement sûr pour s’épanouir. Le défi : les inquiétudes et la dépendance à l’opinion des autres.",
+   "love": "En amour, la Chèvre est douce et attentionnée, et a besoin de sécurité et de tendresse.",
+   "work": "Au travail, la Chèvre réussit dans les arts, le soin, le travail créatif et les équipes où règne une bonne ambiance."
+  },
+  {
+   "id": "monkey",
+   "name": "Singe",
+   "text": "Inventif, plein d’esprit et curieux du monde ; apprend vite.",
+   "long": "Le Singe, c’est l’inventivité, l’esprit et la curiosité pour le monde. Il apprend vite et trouve des solutions inhabituelles. Le défi : la dispersion et la tendance à prendre des raccourcis.",
+   "love": "En amour, le Singe est amusant et inventif, et considère l’ennui comme son pire ennemi.",
+   "work": "Au travail, le Singe réussit dans la technologie, le commerce, le divertissement et partout où il faut penser autrement."
+  },
+  {
+   "id": "rooster",
+   "name": "Coq",
+   "text": "Travailleur, honnête et précis ; aime l’ordre et les règles claires.",
+   "long": "Le Coq, c’est l’honnêteté, l’application et le souci du détail. Il aime l’ordre et dit franchement ce qu’il pense. Le défi : l’esprit critique et le perfectionnisme.",
+   "love": "En amour, le Coq est fidèle et attentionné, parfois critique ; il exprime ses sentiments par l’attention aux détails.",
+   "work": "Au travail, le Coq réussit dans l’organisation, la comptabilité, l’armée, la médecine et les métiers qui exigent de la précision."
+  },
+  {
+   "id": "dog",
+   "name": "Chien",
+   "text": "Loyal, honnête et protecteur ; prend le parti des plus faibles.",
+   "long": "Le Chien, c’est la loyauté, l’honnêteté et le sens de la justice. C’est un ami dévoué et le défenseur de ses proches. Le défi : l’anxiété et le pessimisme.",
+   "love": "En amour, le Chien est l’un des signes les plus fidèles : sincère et dévoué.",
+   "work": "Au travail, le Chien réussit dans les métiers liés à l’aide, au droit, à la protection et à l’éducation."
+  },
+  {
+   "id": "pig",
+   "name": "Cochon",
+   "text": "Généreux, bon et joyeux ; sait profiter de la vie.",
+   "long": "Le Cochon (ou le Sanglier), c’est la générosité, la bonté et la joie de vivre. Il fait confiance aux gens et sait profiter des choses. Le défi : la naïveté et la difficulté à dire non.",
+   "love": "En amour, le Cochon est généreux, chaleureux et romantique, et accorde facilement sa confiance.",
+   "work": "Au travail, le Cochon réussit dans la restauration et l’hôtellerie, le soin, les arts et le travail avec les gens : là où la bonté compte."
+  }
+ ],
+ "phases": [
+  {
+   "name": "Nouvelle lune",
+   "text": "La nouvelle lune est le temps des semailles. Formulez une intention et commencez quelque chose en silence. Vous n’avez encore à le montrer à personne."
+  },
+  {
+   "name": "Premier croissant",
+   "text": "La Lune croît et l’énergie monte. Un bon moment pour les premiers pas et pour rassembler ce dont vous avez besoin."
+  },
+  {
+   "name": "Premier quartier",
+   "text": "Le premier quartier apporte les premiers obstacles. N’abandonnez pas : prenez une décision et agissez malgré la résistance."
+  },
+  {
+   "name": "Lune gibbeuse croissante",
+   "text": "La Lune est presque pleine. Peaufinez les détails et corrigez ce qui ne fonctionne pas. Le résultat est proche."
+  },
+  {
+   "name": "Pleine lune",
+   "text": "La pleine lune éclaire tout et intensifie les émotions. Vous verrez les résultats de ce que vous avez fait. Célébrez, mais ne décidez pas sur un coup de tête."
+  },
+  {
+   "name": "Lune gibbeuse décroissante",
+   "text": "Après la pleine lune vient le temps de la gratitude et du partage. Faites le bilan de ce que vous avez appris."
+  },
+  {
+   "name": "Dernier quartier",
+   "text": "Le dernier quartier est le temps du rangement. Lâchez ce dont vous n’avez pas besoin : terminez, donnez, jetez."
+  },
+  {
+   "name": "Dernier croissant",
+   "text": "La Lune s’efface avant la nouvelle lune. Ralentissez, reposez-vous et faites silence. Un nouveau cycle va bientôt commencer."
+  }
+ ],
+ "today": {
+  "same": [
+   "La Lune traverse aujourd’hui un signe de votre élément, et vous vous sentez davantage vous-même. Faites les choses à votre façon, sans vous en excuser.",
+   "Aujourd’hui, il est plus facile de faire confiance à votre instinct. Une bonne journée pour ce qui fait appel à vos forces naturelles.",
+   "L’énergie du jour suit votre rythme. Profitez-en pour une chose que vous repoussez depuis longtemps."
+  ],
+  "supportive": [
+   "La journée est de votre côté : ce que vous faites rencontre moins de résistance que d’habitude. Un bon moment pour les conversations et les nouveaux contacts.",
+   "Votre entourage est bienveillant aujourd’hui. Demandez de l’aide ou proposez une collaboration : vous entendrez « oui » plus souvent que d’habitude.",
+   "Une journée légère et favorable. Misez sur le mouvement, l’échange d’idées et les petits plaisirs."
+  ],
+  "neutral": [
+   "Une journée calme, sans vent bien net : ce que vous en tirerez dépend de vous. Concentrez-vous sur une chose concrète.",
+   "Rien ne vous pousse dans une direction particulière aujourd’hui. Un bon moment pour mettre de l’ordre dans vos affaires en toute tranquillité.",
+   "Une journée ordinaire où la régularité compte. Les petits pas iront plus loin que les grands gestes."
+  ],
+  "tense": [
+   "Aujourd’hui, vous aurez peut-être l’impression que le monde joue sur un autre rythme que le vôtre. Ne luttez pas : ralentissez et choisissez ce qui compte vraiment.",
+   "Une journée tendue où les malentendus naissent facilement. Avant de répondre sèchement, respirez.",
+   "L’énergie du jour vous est étrangère, ce qui peut fatiguer. Prenez soin de vous et ne prenez pas de grandes décisions sous le coup de l’humeur."
+  ]
+ },
+ "caution": {
+  "1": "Méfiez-vous de l’entêtement et de la tentation de faire cavalier seul. Vous n’avez pas à tout faire vous-même.",
+  "2": "Méfiez-vous de la tendance à trop céder. Votre avis compte aussi.",
+  "3": "Méfiez-vous de la dispersion et des promesses en l’air. Terminez ce que vous avez commencé.",
+  "4": "Méfiez-vous de la rigidité. Le plan compte, mais laissez de la place au changement.",
+  "5": "Méfiez-vous des décisions hâtives et des achats impulsifs.",
+  "6": "Méfiez-vous de la tendance à prendre sur vous les problèmes des autres. Aidez, mais ne sauvez personne contre son gré.",
+  "7": "Méfiez-vous du repli sur vous-même et de l’excès d’analyse.",
+  "8": "Méfiez-vous du surmenage et de la lutte pour le contrôle. Le repos aussi est productif.",
+  "9": "Méfiez-vous de l’envie de vous accrocher à ce qui est déjà fini. Laissez-le partir."
+ },
+ "compat": {
+  "same": "Le même élément : vous vous comprenez sans mots et avancez à un rythme semblable. Veillez à ne pas renforcer mutuellement vos faiblesses.",
+  "supportive": "Des éléments qui se soutiennent : l’un attise l’autre ou lui donne un sol où se poser. Vous vous complétez naturellement.",
+  "neutral": "Des éléments différents, mais sans conflit : chacun a son propre monde. La relation demande de la curiosité pour ce qui est différent.",
+  "tense": "Des éléments en tension : vous avez des besoins et un rythme différents. Ce n’est pas un obstacle, mais cela demande du dialogue et de la compréhension, et vous pouvez beaucoup apprendre l’un de l’autre."
+ }
+}

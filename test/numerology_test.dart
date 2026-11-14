@@ -56,11 +56,31 @@ void main() {
   });
 
   test('unsupported alphabet is reported, never dropped', () {
-    final n = normalizeName('Müller');
+    final n = normalizeName('Yıldız');
     expect(n.isValid, isFalse);
-    expect(n.unsupported, {'ü'});
+    expect(n.unsupported, {'ı'});
     expect(() => expression(n), throwsArgumentError);
     expect(normalizeName('Иван').unsupported.length, 4);
+  });
+
+  test('German, French and Spanish letters use their plain spelling', () {
+    expect(normalizeName('Jürgen Straße').letters.join(), 'JURGENSTRASSE');
+    expect(normalizeName('François Lœw').letters.join(), 'FRANCOISLOEW');
+    expect(normalizeName('Iñés Peña').letters.join(), 'INESPENA');
+    // Italian, Brazilian Portuguese and Dutch.
+    expect(
+      normalizeName('Niccolò Perché Più').letters.join(),
+      'NICCOLOPERCHEPIU',
+    );
+    expect(
+      normalizeName('Ítalo Gonçalves Pôr Ângela Mãe Põe Lúcia').letters.join(),
+      'ITALOGONCALVESPORANGELAMAEPOELUCIA',
+    );
+    expect(
+      normalizeName('Zoë Maïté Müller Ĳssel').letters.join(),
+      'ZOEMAITEMULLERIJSSEL',
+    );
+    expect(normalizeName('Ijsbrand').letters.join(), 'IJSBRAND');
   });
 
   test('no vowels -> no basis, not zero', () {
@@ -97,7 +117,6 @@ void main() {
     () {
       expect(normalizeName('Joſef').unsupported, {'ſ'}); // long s
       expect(normalizeName('ıwona').unsupported, {'ı'}); // dotless i
-      expect(normalizeName('Straße').unsupported, {'ß'});
       expect(normalizeName('Ewa\u{1F642}').unsupported, {'\u{1F642}'});
     },
   );

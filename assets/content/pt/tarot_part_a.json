@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "O Louco",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "novo começo",
+   "espontaneidade",
+   "confiança",
+   "curiosidade",
+   "leveza"
+  ],
+  "symbolism": "Uma figura jovem, em roupas coloridas, está à beira de um precipício com o rosto voltado para o céu, como se não notasse o abismo. Em uma das mãos segura uma rosa branca, sobre o ombro leva um cajado com uma pequena trouxa, e um cãozinho branco pula a seus pés. Atrás dela brilha um sol claro e se veem picos nevados.",
+  "upright": "O Louco convida você a olhar a situação com olhos novos, sem o peso de suposições anteriores. É a energia do primeiro passo, com mais curiosidade do que plano. A carta pode sugerir que vale a pena se dar o direito de não saber e de aprender pelo caminho. O cão aos pés do Louco lembra que a abertura combina bem com um pouco de atenção.",
+  "reversed": "O Louco invertido pode indicar hesitação antes de partir ou, ao contrário, uma pressa que ignora sinais importantes. Às vezes é um convite a conferir se o medo de errar não está tirando a alegria de tentar.",
+  "reflection": [
+   "O que seria possível se você não precisasse conhecer o final de antemão?",
+   "Que pequeno passo rumo ao desconhecido tenta você agora?"
+  ],
+  "advice": "Este é um bom momento para um novo começo. Dê o primeiro passo mesmo sem conhecer todo o caminho: confie na intuição e na curiosidade, só olhe onde pisa.",
+  "adviceReversed": "Pare um instante antes de saltar. Veja se a hesitação vem do bom senso ou do medo de errar, e só então parta.",
+  "astrology": "Ar"
+ },
+ {
+  "id": "major_01",
+  "name": "O Mago",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "realização",
+   "foco",
+   "habilidades",
+   "iniciativa",
+   "comunicação"
+  ],
+  "symbolism": "Uma figura de túnica branca e manto vermelho ergue uma varinha para o céu com uma das mãos e aponta para a terra com a outra. Acima da cabeça está o símbolo do infinito, e sobre a mesa há uma taça, uma espada, um pentáculo e uma vara: os sinais dos quatro elementos. A cena toda é emoldurada por rosas e lírios em flor.",
+  "upright": "O Mago fala de um momento em que você tem mais recursos à mão do que parece. A carta incentiva a unir pensamento e ação e a dar às suas intenções uma forma concreta. É um bom momento para notar os próprios talentos e usá-los de forma consciente. O gesto que aponta para cima e para baixo lembra de unir a visão à prática do dia a dia.",
+  "reversed": "Invertida, a energia do Mago pode se dispersar: há muitas ideias, mas nenhuma direção. Também pode ser um sinal para ver se as suas palavras e intenções são coerentes entre si.",
+  "reflection": [
+   "Que habilidades você já tem à disposição, embora raramente as note?",
+   "Que pensamento está esperando para virar um primeiro movimento concreto?"
+  ],
+  "advice": "Você tem tudo de que precisa para começar. Tome as rédeas, concentre-se em uma meta e aja.",
+  "adviceReversed": "Antes de agir, confira as suas intenções. Energia dispersa ou uma tentativa de manipular a situação não trará o que você quer.",
+  "astrology": "Mercúrio"
+ },
+ {
+  "id": "major_02",
+  "name": "A Sacerdotisa",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "intuição",
+   "silêncio",
+   "conhecimento interior",
+   "mistério",
+   "paciência"
+  ],
+  "symbolism": "Uma mulher de vestes azuis se senta entre duas colunas, uma escura e uma clara, marcadas com as letras B e J. No colo segura um pergaminho parcialmente oculto, aos pés há uma lua crescente, e atrás dela pende um véu decorado com romãs. Na cabeça usa uma coroa que lembra as fases da Lua.",
+  "upright": "A Sacerdotisa convida você a escutar o que é silencioso e não dito. Nem todas as respostas vêm pela análise; algumas amadurecem na quietude. A carta pode sugerir que vale a pena parar antes de uma decisão e dar-se tempo para sentir a situação. É um espaço para confiar no seu próprio senso das coisas.",
+  "reversed": "A Sacerdotisa invertida pode indicar uma intuição abafada pelo barulho do dia a dia ou pela opinião dos outros. Às vezes também significa se recolher demais em si quando uma conversa poderia trazer alívio.",
+  "reflection": [
+   "O que a sua voz interior diz quando você silencia um momento o que está ao redor?",
+   "De mais tempo para quê você precisa antes de tomar uma decisão?"
+  ],
+  "advice": "A resposta já está em você. Não decida com pressa: silencie e escute a sua intuição antes de perguntar aos outros.",
+  "adviceReversed": "Pare de abafar a sua voz interior com a opinião dos outros. Dê a si um momento de silêncio e você verá o que realmente sente.",
+  "astrology": "Lua"
+ },
+ {
+  "id": "major_03",
+  "name": "A Imperatriz",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "abundância",
+   "cuidado",
+   "criatividade",
+   "sensualidade",
+   "crescimento"
+  ],
+  "symbolism": "Uma mulher em um vestido estampado de romãs descansa sobre almofadas macias entre trigais maduros. Na cabeça traz uma coroa de doze estrelas, e ao seu lado há um escudo em forma de coração com o símbolo de Vênus. Ao fundo corre um riacho e farfalha uma mata densa.",
+  "upright": "A Imperatriz lembra o que cresce quando recebe atenção e ternura: projetos, relações e também o cuidado consigo mesmo. A carta incentiva a apreciar o prazer das coisas simples. Pode ser um convite a criar sem a pressão da perfeição. É uma energia de generosidade que inclui você também.",
+  "reversed": "Invertida, essa energia pode aparecer como dar além das próprias forças ou ignorar as suas necessidades. Também pode sinalizar um bloqueio criativo, que se alivia com descanso, não com pressão.",
+  "reflection": [
+   "O que na sua vida precisa agora de um cuidado paciente para crescer?",
+   "Como você pode cuidar de si hoje do jeito que cuida dos outros?"
+  ],
+  "advice": "Cuide do que você quer que cresça: você mesmo, uma relação, uma ideia. Aja com carinho e paciência, e o assunto tomará forma por conta própria.",
+  "adviceReversed": "É difícil dar aos outros quando as suas próprias forças estão no fim. Comece cuidando de si, depois cuide do resto.",
+  "astrology": "Vênus"
+ },
+ {
+  "id": "major_04",
+  "name": "O Imperador",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "estrutura",
+   "responsabilidade",
+   "estabilidade",
+   "limites",
+   "liderança"
+  ],
+  "symbolism": "Um governante barbado, de armadura e manto vermelho, senta-se em um trono de pedra decorado com cabeças de carneiro. Em uma das mãos segura um cetro encimado por um ankh, na outra um globo dourado. Atrás dele erguem-se montanhas áridas, cor de ferrugem.",
+  "upright": "O Imperador fala de uma ordem que dá sensação de segurança e permite agir com calma. A carta pode incentivar a definir regras claras, limites ou um plano. É também um convite a assumir a responsabilidade pela sua própria área de influência. Uma boa estrutura não precisa ser rígida; pode ser um apoio.",
+  "reversed": "O Imperador invertido pode indicar controle demais ou, ao contrário, falta de pontos fixos de apoio. Vale perguntar se as regras atuais ainda servem a você ou apenas o restringem.",
+  "reflection": [
+   "Que limite ou regra ajudaria você a se sentir mais seguro?",
+   "Onde o controle dá apoio a você, e onde começa a limitá-lo?"
+  ],
+  "advice": "Ponha ordem. Defina regras claras, faça um plano e assuma a responsabilidade pela decisão: a estabilidade lhe dará vantagem.",
+  "adviceReversed": "Controle demais pode sufocar a situação. Afrouxe regras rígidas ou, se falta estrutura, finalmente construa-a.",
+  "astrology": "Áries"
+ },
+ {
+  "id": "major_05",
+  "name": "O Hierofante",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "tradição",
+   "aprendizado",
+   "comunidade",
+   "valores",
+   "orientação"
+  ],
+  "symbolism": "Um sacerdote de túnica vermelha e tríplice coroa senta-se entre duas colunas de pedra, erguendo a mão em bênção. Chaves cruzadas jazem a seus pés, e diante dele se ajoelham dois discípulos em vestes decoradas com rosas e lírios.",
+  "upright": "O Hierofante remete ao conhecimento passado de geração em geração e às comunidades que dão sensação de pertencimento. A carta pode sugerir recorrer à experiência de um professor, de um mentor ou de um método comprovado. É também uma oportunidade para pensar quais valores são realmente seus. A tradição pode ser uma ponte, não um muro.",
+  "reversed": "O Hierofante invertido pode convidar a questionar regras aceitas sem pensar. Às vezes aponta a necessidade de encontrar o próprio caminho além dos padrões batidos.",
+  "reflection": [
+   "Com quem você poderia aprender algo agora?",
+   "Que crenças herdadas dos outros vale a pena repensar hoje?"
+  ],
+  "advice": "Use um caminho que já provou seu valor. Peça conselho a alguém experiente ou apoie-se em princípios que já funcionaram.",
+  "adviceReversed": "Você não precisa fazer tudo do jeito que “deve” ser feito. Pergunte-se quais regras são suas e quais são apenas herdadas.",
+  "astrology": "Touro"
+ },
+ {
+  "id": "major_06",
+  "name": "Os Enamorados",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "escolha",
+   "relação",
+   "valores",
+   "proximidade",
+   "integridade"
+  ],
+  "symbolism": "Uma mulher e um homem nus estão em um jardim, e acima deles, entre as nuvens, paira um anjo alado de braços abertos. Atrás da mulher cresce uma árvore frutífera com uma serpente enrolada, atrás do homem uma árvore de folhas em forma de chama. Entre eles, ao longe, ergue-se uma montanha solitária.",
+  "upright": "Os Enamorados falam de proximidade, mas também de escolhas que nascem do que importa para nós. A carta pode se referir a uma relação em que contam a honestidade e a reciprocidade. Também pode convidar a uma decisão alinhada com os seus valores, mesmo que exija coragem. A harmonia entre coração e ação dá uma sensação de ordem interior.",
+  "reversed": "Invertida, a carta pode indicar um descompasso entre o que você deseja e o que escolhe. Também pode ser um convite a uma conversa honesta sobre as expectativas em uma relação.",
+  "reflection": [
+   "Que escolha estaria mais de acordo com o que você realmente valoriza?",
+   "Do que você precisa para se sentir plenamente você mesmo em uma relação?"
+  ],
+  "advice": "Você está diante de uma escolha. Escolha de acordo com os seus valores, não com a comodidade. Vá atrás do que realmente importa a você.",
+  "adviceReversed": "Algo não fecha: o coração quer uma coisa e as suas ações dizem outra. Antes de decidir, nomeie com honestidade o que você quer.",
+  "astrology": "Gêmeos"
+ },
+ {
+  "id": "major_07",
+  "name": "O Carro",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "determinação",
+   "direção",
+   "avançar",
+   "autodisciplina",
+   "confiança"
+  ],
+  "symbolism": "Um guerreiro de armadura decorada com luas crescentes está em um carro de pedra sob um dossel salpicado de estrelas. O carro é puxado por duas esfinges, uma preta e uma branca, que olham em direções diferentes. Atrás dele estão as muralhas de uma cidade e um rio que corre.",
+  "upright": "O Carro descreve a energia do movimento focado, em que forças diferentes são conduzidas numa só direção. A carta pode incentivar a perseverança e a clareza sobre o objetivo. Não se trata de lutar contra obstáculos, mas de manter o rumo com calma. A vitória aqui costuma ser dominar as suas contradições internas.",
+  "reversed": "O Carro invertido pode sugerir que as forças puxam em direções opostas e é difícil se pôr em movimento. Às vezes é um sinal para desacelerar e conferir se a meta escolhida ainda é a certa.",
+  "reflection": [
+   "Aonde exatamente você está indo, e como saberá que é o caminho certo?",
+   "Que necessidades conflitantes você poderia conciliar em vez de combatê-las?"
+  ],
+  "advice": "Avance. Defina uma direção, mantenha-a e não se deixe distrair: a determinação levará você à meta.",
+  "adviceReversed": "Você está puxando em duas direções ao mesmo tempo. Decida aonde vai antes de pisar no acelerador.",
+  "astrology": "Câncer"
+ },
+ {
+  "id": "major_08",
+  "name": "A Força",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "força gentil",
+   "coragem",
+   "paciência",
+   "serenidade",
+   "compaixão"
+  ],
+  "symbolism": "Uma mulher de vestido branco, cingida por uma guirlanda de flores, segura calmamente com as mãos as mandíbulas de um leão. Acima da cabeça flutua o símbolo do infinito. O animal parece domado, e a cena se passa diante de colinas suaves e de um céu amarelo brilhante.",
+  "upright": "A Força mostra um poder que não precisa de gritos nem de violência. A carta incentiva a tratar com gentileza as próprias emoções e instintos, não os reprimindo, mas domesticando-os. É uma coragem que vem da paciência e da bondade consigo mesmo. A calma costuma ser aqui mais persuasiva que a pressão.",
+  "reversed": "Invertida, a carta pode indicar dúvida sobre a própria força ou dificuldade de acalmar a frustração. Então vale tratar-se com a paciência que você tem com as pessoas que ama.",
+  "reflection": [
+   "Que emoção precisa hoje de compreensão, e não de luta?",
+   "Onde a sua gentileza poderia se revelar uma força?"
+  ],
+  "advice": "Aja com força gentil. Calma, paciência e coragem conseguirão mais que a pressão. Você dá conta disso.",
+  "adviceReversed": "Você duvida de si mais do que precisa. Lembre-se do que já enfrentou e seja mais gentil consigo.",
+  "astrology": "Leão"
+ },
+ {
+  "id": "major_09",
+  "name": "O Eremita",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "reflexão",
+   "solidão escolhida",
+   "sabedoria",
+   "recolhimento",
+   "busca"
+  ],
+  "symbolism": "Um velho de capa cinza com capuz está em um pico nevado. Com uma das mãos ergue uma lanterna em que brilha uma estrela de seis pontas; com a outra se apoia num longo cajado. O olhar está voltado para baixo, como se iluminasse o caminho de quem o segue.",
+  "upright": "O Eremita convida você a parar e olhar para dentro. O tempo passado em silêncio pode ajudar a separar o que é importante do que é apenas barulhento. A carta não significa se isolar das pessoas, mas abrir espaço, de forma consciente, para os próprios pensamentos. A luz da lanterna basta para ver o próximo passo.",
+  "reversed": "O Eremita invertido pode sugerir que o recolhimento começou a se parecer com isolamento. Às vezes é o contrário: fugir do silêncio porque é difícil encarar as próprias perguntas.",
+  "reflection": [
+   "O que você aprende sobre si quando está em silêncio?",
+   "Que único próximo passo você consegue ver na luz que já tem?"
+  ],
+  "advice": "Afaste-se um pouco da agitação. Pense no assunto sozinho: a resposta virá de dentro, não de fora.",
+  "adviceReversed": "O recolhimento já durou demais. É hora de ir ao encontro das pessoas e compartilhar o que você sabe por dentro.",
+  "astrology": "Virgem"
+ },
+ {
+  "id": "major_10",
+  "name": "A Roda da Fortuna",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "ciclos",
+   "mudança",
+   "acaso",
+   "ritmo",
+   "virada dos acontecimentos"
+  ],
+  "symbolism": "Uma grande roda coberta de letras e sinais alquímicos gira no céu. Em cima dela está uma esfinge com uma espada, uma serpente desliza por um lado e uma figura com cabeça de chacal sobe por baixo. Nos cantos, sobre nuvens, criaturas aladas (um anjo, uma águia, um leão e um touro) se debruçam sobre livros.",
+  "upright": "A Roda da Fortuna lembra que a vida se move em ciclos e nenhuma situação permanece igual para sempre. A carta incentiva a notar o que está mudando agora e a pensar em como se sintonizar com isso. Nem tudo depende de nós, mas a nossa atitude continua em nossas mãos. A mudança pode revelar possibilidades que antes não se viam.",
+  "reversed": "Invertida, a carta pode indicar resistência à mudança, ou a sensação de que o mesmo padrão volta sempre. É um convite a procurar a parte do ciclo que pode ser rompida ou transformada de forma consciente.",
+  "reflection": [
+   "Que padrão recorrente você percebe na sua vida?",
+   "O que você pode influenciar mesmo quando as circunstâncias mudam?"
+  ],
+  "advice": "A situação está mudando, e este é um bom momento para ir com ela. Aproveite a oportunidade que surge: a roda está girando.",
+  "adviceReversed": "Não lute contra o que você não pode influenciar. Concentre-se no que pode fazer e espere o ciclo virar.",
+  "astrology": "Júpiter"
+ },
+ {
+  "id": "major_11",
+  "name": "A Justiça",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "equilíbrio",
+   "imparcialidade",
+   "causa e efeito",
+   "clareza",
+   "responsabilidade"
+  ],
+  "symbolism": "Uma figura de túnica vermelha senta-se num trono entre duas colunas, atrás das quais pende um véu roxo. Com uma das mãos a figura segura uma espada de dois gumes erguida, com a outra uma balança equilibrada. Um sapato branco aparece sob a túnica, e o olhar é calmo e direto.",
+  "upright": "A Justiça convida você a olhar com honestidade para a situação, levando em conta todos os seus lados. A carta fala da ligação entre as escolhas e suas consequências. Pode ser um bom momento para nomear os fatos e decidir de acordo com o seu próprio senso de justiça. A clareza muitas vezes traz alívio, mesmo quando exige honestidade consigo.",
+  "reversed": "A Justiça invertida pode sugerir dificuldade de assumir responsabilidade, ou a sensação de que algo continua desequilibrado. Vale conferir se o seu julgamento da situação não está duro demais, com os outros ou consigo mesmo.",
+  "reflection": [
+   "Como seria esta situação se você a olhasse de todos os lados?",
+   "Pelo que você quer assumir responsabilidade, e o que não cabe a você carregar?"
+  ],
+  "advice": "Aja com justiça e pese todos os lados. Uma decisão baseada em fatos e na verdade trará um resultado justo.",
+  "adviceReversed": "Algo está desequilibrado. Veja se você está sendo completamente honesto consigo e com os outros antes de julgar.",
+  "astrology": "Libra"
+ },
+ {
+  "id": "major_12",
+  "name": "O Enforcado",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "suspensão",
+   "nova perspectiva",
+   "soltar",
+   "pausa",
+   "aceitação"
+  ],
+  "symbolism": "Um homem pende de cabeça para baixo, preso por um pé a uma viga de madeira em forma de T da qual brotam folhas. A outra perna está dobrada formando uma cruz, e as mãos estão escondidas atrás das costas. Uma auréola brilha em torno da cabeça, e o rosto permanece calmo.",
+  "upright": "O Enforcado descreve um tempo de suspensão que pode trazer uma visão inteiramente nova. Quando a ação não traz resultados, muitas vezes ajuda parar e olhar as coisas de outro lado. A carta incentiva a abrir mão da necessidade de soluções imediatas. A compreensão costuma amadurecer numa aparente quietude.",
+  "reversed": "O Enforcado invertido pode indicar impaciência com a pausa, ou permanecer suspenso por mais tempo do que o necessário. Também pode ser um convite a notar o que você pode agora soltar para seguir adiante.",
+  "reflection": [
+   "O que você verá se olhar para este assunto pelo lado completamente oposto?",
+   "Do que você pode abrir mão para dar espaço a algo novo?"
+  ],
+  "advice": "Não tenha pressa. Pare e olhe o assunto de outro lado: soltar pode dar a você mais do que lutar.",
+  "adviceReversed": "Esperar já não é útil. Se você está preso na suspensão, é hora de tomar uma decisão e seguir em frente.",
+  "astrology": "Água"
+ },
+ {
+  "id": "major_13",
+  "name": "A Morte",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "transformação",
+   "fim de uma etapa",
+   "mudança",
+   "renovação",
+   "soltar"
+  ],
+  "symbolism": "Uma figura de armadura negra cavalga um cavalo branco, levando um estandarte preto com uma rosa branca. Diante dela estão de pé e ajoelhadas pessoas de diferentes posições, de um governante a uma criança, cada uma reagindo de modo diferente à sua chegada. Ao fundo, entre duas torres, o sol nasce.",
+  "upright": "No tarô, a Morte simboliza o fechamento de um capítulo e a passagem ao seguinte, não um fim físico. A carta fala de uma transformação que libera espaço, assim como o outono prepara o terreno para a primavera. Pode incentivar você a se despedir de hábitos, papéis ou crenças que já cumpriram o seu propósito. O sol nascente ao fundo lembra que, depois de um fim, vem um novo começo.",
+  "reversed": "A Morte invertida pode indicar resistência a uma mudança que está amadurecendo de dentro de qualquer maneira. Às vezes é um convite a deixar algo ir com suavidade, em vez de mantê-lo vivo à força.",
+  "reflection": [
+   "Que etapa da sua vida está naturalmente chegando ao fim?",
+   "O que poderia surgir se você abrisse espaço depois do que está partindo?"
+  ],
+  "advice": "Encerre o que acabou. Deixe a velha etapa ir: só assim haverá espaço para o novo.",
+  "adviceReversed": "Você está agarrado a algo que já passou. A mudança virá de qualquer modo, e será mais fácil se você parar de resistir.",
+  "astrology": "Escorpião"
+ },
+ {
+  "id": "major_14",
+  "name": "A Temperança",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "harmonia",
+   "equilíbrio",
+   "paciência",
+   "mistura",
+   "moderação"
+  ],
+  "symbolism": "Um anjo alado, de túnica branca, derrama água entre duas taças, com um pé na margem e o outro num riacho. No peito do anjo há um triângulo inscrito num quadrado. Íris amarelas crescem por perto, e um caminho leva a montanhas, acima das quais brilha um arco de luz.",
+  "upright": "A Temperança fala da arte de combinar opostos e de buscar o meio-termo. A carta incentiva a ação calma e gradual em vez de soluções extremas. Pode se referir ao equilíbrio entre trabalho e descanso, ou entre razão e emoção. A harmonia não é um estado fixo, mas uma sintonia contínua e atenta.",
+  "reversed": "Invertida, a carta pode indicar falta de equilíbrio: excesso em uma área à custa de outra. É um sinal para ver onde é preciso uma suave correção de proporções.",
+  "reflection": [
+   "Que duas áreas da sua vida precisam de melhor equilíbrio agora?",
+   "O que poderia mudar se você agisse em passos pequenos e pacientes?"
+  ],
+  "advice": "Busque o meio-termo. Combine opostos e aja com calma, passo a passo: a moderação é a sua força agora.",
+  "adviceReversed": "Você está exagerando em algo, seja trabalho, emoções ou expectativas. Restabeleça o equilíbrio antes de começar qualquer coisa nova.",
+  "astrology": "Sagitário"
+ },
+ {
+  "id": "major_15",
+  "name": "O Diabo",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "apego",
+   "tentação",
+   "padrões",
+   "sombra",
+   "consciência"
+  ],
+  "symbolism": "Uma figura com chifres e asas de morcego senta-se sobre um pedestal escuro, erguendo uma das mãos e segurando na outra uma tocha voltada para baixo. Duas figuras nuas, com pequenos chifres e caudas, estão acorrentadas ao pedestal. As correntes em volta dos pescoços estão frouxas: elas poderiam tirá-las.",
+  "upright": "O Diabo convida você a olhar para o que o mantém preso: hábitos, crenças ou dependências. A carta não é um veredito, mas uma oportunidade de tomar consciência de mecanismos que agem fora da sua atenção. As correntes frouxas lembram que muitos limites podem ser afrouxados depois de nomeados. É também um espaço para um encontro honesto com a sua própria sombra.",
+  "reversed": "O Diabo invertido pode significar o início da libertação de um padrão, ou o momento em que um apego se torna claramente visível. Pode ser um convite a reconquistar a sua liberdade com suavidade, mas com constância.",
+  "reflection": [
+   "Que hábito ou crença limita você mais do que você quer admitir?",
+   "O que mudaria se essa corrente se revelasse mais frouxa do que parece?"
+  ],
+  "advice": "Veja o que prende você: um hábito, um medo, uma dependência. Nomeie com honestidade; a corrente é mais frouxa do que parece.",
+  "adviceReversed": "Você tem a chance de se libertar. Dê o primeiro passo para longe do padrão que faz mal a você: agora está mais fácil do que antes.",
+  "astrology": "Capricórnio"
+ },
+ {
+  "id": "major_16",
+  "name": "A Torre",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "mudança súbita",
+   "reavaliação",
+   "despertar",
+   "libertação",
+   "verdade"
+  ],
+  "symbolism": "Uma torre alta sobre um pico rochoso é atingida por um raio, que derruba a sua coroa. Chamas irrompem das janelas, e duas figuras caem contra um céu escuro. Pequenas faíscas em forma da letra hebraica yod flutuam por toda parte.",
+  "upright": "A Torre descreve o momento em que algo que parecia estável passa a exigir de repente uma reavaliação. Tal mudança pode vir como surpresa, mas muitas vezes revela uma verdade que estava escondida. A carta incentiva a conferir quais estruturas foram construídas sobre alicerces frágeis. Depois que as coisas são esclarecidas, há espaço para algo mais autêntico.",
+  "reversed": "A Torre invertida pode indicar o adiamento de uma mudança necessária, ou uma transformação que acontece mais por dentro do que por fora. Às vezes é um sinal de que algo pode ser reconstruído aos poucos antes que a tensão se acumule.",
+  "reflection": [
+   "Que crença ou acordo precisa hoje de uma conferência honesta?",
+   "O que poderia ser construído no lugar do que já não funciona?"
+  ],
+  "advice": "Não escore o que está desmoronando. Aceite a mudança e construa algo sobre bases mais fortes.",
+  "adviceReversed": "Você está evitando uma mudança inevitável. É melhor enfrentá-la agora, nos seus próprios termos, do que esperar o choque.",
+  "astrology": "Marte"
+ },
+ {
+  "id": "major_17",
+  "name": "A Estrela",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "esperança",
+   "renovação",
+   "calma",
+   "inspiração",
+   "confiança"
+  ],
+  "symbolism": "Uma mulher nua se ajoelha à beira de uma lagoa e derrama água de duas jarras, uma na água e outra na terra. Acima dela brilha uma grande estrela de oito pontas cercada por sete menores. Um pássaro pousou numa árvore ao fundo.",
+  "upright": "A Estrela traz uma sensação de trégua e de esperança tranquila. A carta convida você a descansar e a reconstruir a confiança em si e no mundo. É um bom tempo para sonhos que não precisam se realizar de imediato para dar força a você. A simplicidade da cena lembra que você pode se mostrar sem máscaras.",
+  "reversed": "Invertida, a Estrela pode indicar cansaço ou uma esperança que se apagou por um tempo. É um convite a procurar pequenas fontes de luz e a dar-se tempo para se recuperar.",
+  "reflection": [
+   "O que dá a você hoje uma sensação de esperança, por menor que seja?",
+   "Como você pode cuidar do seu descanso nos próximos dias?"
+  ],
+  "advice": "Tenha esperança e aja a partir dela. O pior passou: dê-se tempo para se recuperar e olhe o futuro com confiança.",
+  "adviceReversed": "Você perdeu a fé de que as coisas podem melhorar? Comece com um pequeno passo que devolva a você um senso de sentido.",
+  "astrology": "Aquário"
+ },
+ {
+  "id": "major_18",
+  "name": "A Lua",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "incerteza",
+   "imaginação",
+   "sonhos",
+   "o subconsciente",
+   "pressentimentos"
+  ],
+  "symbolism": "Uma lua com rosto humano brilha sobre uma paisagem noturna, e dela caem gotas de luz. Um cão e um lobo uivam para ela, um de cada lado de um caminho que serpenteia entre duas torres rumo a colinas distantes. Um lagostim sai da água em primeiro plano.",
+  "upright": "A Lua descreve um estado em que nem tudo é claro e a imaginação sugere versões diferentes dos acontecimentos. A carta incentiva a olhar com curiosidade para sonhos, pressentimentos e medos sem tratá-los logo como fatos. É um tempo de se mover com cuidado, passo a passo. A incerteza costuma ser uma etapa que vem antes da compreensão.",
+  "reversed": "A Lua invertida pode sugerir que a névoa começa a se dissipar, ou que os medos estão ganhando um poder desproporcional. Vale separar o que é sabido do que a imaginação acrescenta.",
+  "reflection": [
+   "O que nesta situação é fato, e o que é interpretação sua?",
+   "Que sonho ou pressentimento tem voltado a você ultimamente?"
+  ],
+  "advice": "Nem tudo está claro agora, e tudo bem. Não tome decisões definitivas na névoa; confie na sua intuição, mas confira os fatos.",
+  "adviceReversed": "A névoa começa a se dissipar. Chame os seus medos pelo nome: muitos deles vão se revelar menores do que pareciam.",
+  "astrology": "Peixes"
+ },
+ {
+  "id": "major_19",
+  "name": "O Sol",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "alegria",
+   "clareza",
+   "calor",
+   "abertura",
+   "sucesso"
+  ],
+  "symbolism": "Uma criança nua, com uma guirlanda e uma pena vermelha na cabeça, cavalga alegremente um cavalo branco, segurando um grande estandarte vermelho. Acima brilha um sol radiante com um rosto, e girassóis florescem atrás de um muro baixo.",
+  "upright": "O Sol traz a energia da clareza e da alegria simples. A carta incentiva a aproveitar o que é bom e a compartilhar o seu calor com os outros. Pode descrever um momento em que as coisas ficam claras e a ação vem com facilidade. É também um convite a entrar em contato com a espontaneidade infantil.",
+  "reversed": "Invertida, a alegria do Sol pode estar abafada ou ser difícil de aceitar por completo. Às vezes também é um sinal para não fingir alegria quando é preciso um momento de honestidade.",
+  "reflection": [
+   "O que dá a você uma alegria real e simples?",
+   "Como você pode se permitir mais leveza nesta semana?"
+  ],
+  "advice": "A resposta é sim. Aja com abertura, alegria e confiança: este é um bom momento para se mostrar.",
+  "adviceReversed": "A alegria está perto, mas algo a encobre. Deixe-se aproveitar o que você já tem, em vez de esperar o momento perfeito.",
+  "astrology": "Sol"
+ },
+ {
+  "id": "major_20",
+  "name": "O Julgamento",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "despertar",
+   "chamado interior",
+   "balanço",
+   "renascimento",
+   "perdão"
+  ],
+  "symbolism": "Um anjo surge das nuvens e toca uma trombeta da qual pende uma bandeira com uma cruz vermelha. Embaixo, de caixões abertos que flutuam na água, erguem-se figuras nuas (adultos e uma criança) com os braços estendidos para o alto. Ao fundo veem-se montanhas nevadas.",
+  "upright": "O Julgamento descreve um momento de despertar em que o seu próprio caminho fica mais claro que antes. A carta incentiva a fazer um balanço das suas experiências e a tirar delas conclusões sem julgamento duro. Pode ser um chamado interior para retomar algo que há muito é importante. É também um espaço para perdoar a si mesmo e aos outros.",
+  "reversed": "Invertida, a carta pode indicar que você se julga de forma crítica demais, ou que abafa um chamado interior. Vale perguntar o que o impede de responder ao que o chama.",
+  "reflection": [
+   "Para o que você sente um chamado interior?",
+   "Pelo que você pode se perdoar para seguir adiante com o coração mais leve?"
+  ],
+  "advice": "Você ouviu um chamado interior: responda a ele. Faça um balanço do passado, perdoe-se e tome a decisão.",
+  "adviceReversed": "Você está se julgando com dureza demais ou adiando uma decisão importante. Pare de esperar um sinal: o sinal já veio.",
+  "astrology": "Fogo"
+ },
+ {
+  "id": "major_21",
+  "name": "O Mundo",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "realização plena",
+   "integração",
+   "conclusão",
+   "totalidade",
+   "novo ciclo"
+  ],
+  "symbolism": "Uma figura envolta apenas numa faixa roxa dança dentro de uma coroa oval de folhas, segurando duas varinhas. A coroa é atada em cima e embaixo com fitas vermelhas, e as cabeças de um anjo, de uma águia, de um leão e de um touro aparecem nos cantos da carta.",
+  "upright": "O Mundo descreve uma sensação de totalidade e a conclusão de uma etapa importante. A carta convida você a valorizar o caminho percorrido e o modo como as diferentes experiências se juntaram num todo coerente. É um bom momento para celebração e gratidão. O fim de um ciclo prepara naturalmente o terreno para o próximo.",
+  "reversed": "Invertido, o Mundo pode indicar assuntos inacabados ou dificuldade de encerrar uma etapa. Pode ser um convite a notar o que ainda falta para a sensação de plenitude.",
+  "reflection": [
+   "O que você já está conquistando e ainda não valoriza por inteiro?",
+   "O que precisa ser encerrado antes de você começar o próximo capítulo?"
+  ],
+  "advice": "Leve o assunto a um desfecho e valorize o que você alcançou. Esta etapa está completa: você pode seguir com confiança para a próxima.",
+  "adviceReversed": "Falta o último passo para o fechamento. Termine o que começou antes de assumir algo novo.",
+  "astrology": "Saturno"
+ },
+ {
+  "id": "wands_01",
+  "name": "Ás de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "centelha",
+   "inspiração",
+   "potencial",
+   "entusiasmo",
+   "nova iniciativa"
+  ],
+  "symbolism": "Uma mão surge de uma nuvem segurando uma vara forte e folhosa, da qual caem pequenas folhas. Embaixo se estende uma paisagem verde com um rio, e um castelo se ergue numa colina distante.",
+  "upright": "O Ás de Paus é a centelha de uma nova ideia ou um surto de entusiasmo. A carta incentiva a notar o que dá vida a você agora e a dar-lhe uma chance. Nesta fase, o entusiasmo conta mais que um plano pronto. O potencial está lá, esperando a primeira ação.",
+  "reversed": "O Ás invertido pode indicar uma ideia que ainda não encontrou uma saída, ou uma queda temporária de motivação. Às vezes vale esperar a centelha amadurecer em vez de forçá-la.",
+  "reflection": [
+   "Que ideia mais empolga você?",
+   "Qual é o menor passo que permitiria que ela passasse a existir?"
+  ],
+  "advice": "Você tem uma centelha: aja enquanto está quente. Comece o projeto, faça a ligação, anote. A inspiração precisa de movimento.",
+  "adviceReversed": "O entusiasmo esmorece antes de virar ação. Faça uma pequena coisa hoje em vez de esperar o momento perfeito.",
+  "astrology": "Fogo — raiz do elemento"
+ },
+ {
+  "id": "wands_02",
+  "name": "Dois de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "planejamento",
+   "perspectiva",
+   "decisão",
+   "horizonte",
+   "ambição"
+  ],
+  "symbolism": "Um homem de chapéu vermelho está sobre as muralhas de um castelo segurando um pequeno globo, olhando o mar e a terra. Uma vara está fixada à muralha, a outra ele segura na mão. Um brasão com rosas e lírios cruzados está entalhado na pedra.",
+  "upright": "O Dois de Paus descreve um momento de planejamento e de consideração de possibilidades mais amplas. Você já tem uma certa base, e agora a pergunta é para onde ir. A carta incentiva a pensar com ousadia no futuro e a escolher conscientemente uma direção. É um tempo para a visão que antecede o movimento.",
+  "reversed": "Invertida, a carta pode indicar hesitação entre a segurança e o novo, ou um planejamento que nunca vira ação. Vale perguntar do que você precisa para se sentir pronto.",
+  "reflection": [
+   "Como é o horizonte para o qual você quer seguir?",
+   "O que mantém você nas muralhas em vez de deixar você partir?"
+  ],
+  "advice": "Planeje o seu próximo passo e olhe mais longe que de costume. A decisão é sua: escolha a perspectiva mais ampla.",
+  "adviceReversed": "O medo do desconhecido mantém você na zona de conforto. Pense no que você perde por não sair dela.",
+  "astrology": "Fogo · Marte em Áries"
+ },
+ {
+  "id": "wands_03",
+  "name": "Três de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "crescimento",
+   "expectativa",
+   "expansão",
+   "previsão",
+   "primeiros resultados"
+  ],
+  "symbolism": "Uma figura de capa está numa colina de costas para quem olha, apoiada em uma de três varas fincadas no chão. Ela contempla uma baía dourada onde navegam navios. O horizonte é amplo e aberto.",
+  "upright": "O Três de Paus fala de um tempo em que as primeiras ações já foram tomadas e é possível observar como se desenvolvem. A carta incentiva uma visão mais ampla e uma espera paciente pelos resultados. Pode sugerir abrir-se a novos contatos ou áreas. É a alegria de ver algo começar a tomar forma.",
+  "reversed": "Invertida, a carta pode indicar impaciência quando os resultados vêm mais devagar que o esperado. Também pode ser um convite a ajustar o plano à luz de novas informações.",
+  "reflection": [
+   "O que já foi posto em movimento e agora precisa de tempo?",
+   "Que novas possibilidades se veem de onde você está?"
+  ],
+  "advice": "O que você semeou está começando a crescer. Pense maior, prepare-se para mais e tenha paciência: os resultados estão a caminho.",
+  "adviceReversed": "Atrasos não significam fracasso. Confira o plano, corrija o rumo e não desista cedo demais.",
+  "astrology": "Fogo · Sol em Áries"
+ },
+ {
+  "id": "wands_04",
+  "name": "Quatro de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "celebração",
+   "comunidade",
+   "lar",
+   "estabilidade",
+   "alegria"
+  ],
+  "symbolism": "Quatro varas atadas com uma guirlanda de flores e frutos formam uma espécie de portal. Atrás dele, duas figuras erguem buquês, e ao fundo se veem um grupo de pessoas e um castelo. A cena é festiva e calorosa.",
+  "upright": "O Quatro de Paus convida você a parar e valorizar o que já foi construído. É a energia da celebração compartilhada, do pertencimento e de um porto seguro. A carta pode se referir a um marco importante que merece ser marcado. A alegria partilhada com os outros fortalece os laços.",
+  "reversed": "Invertida, a carta pode sugerir que é difícil parar e celebrar, ou que o senso de comunidade foi abalado. Vale procurar um lugar e pessoas junto de quem você possa respirar aliviado.",
+  "reflection": [
+   "O que merece ser celebrado hoje?",
+   "Onde, e com quem, você se sente em casa?"
+  ],
+  "advice": "Celebre o que deu certo e compartilhe com as pessoas próximas. Um chão estável permitirá que você vá mais longe.",
+  "adviceReversed": "Algo perturba a sensação de segurança em casa ou na equipe. Fale sobre isso abertamente em vez de fingir que está tudo bem.",
+  "astrology": "Fogo · Vênus em Áries"
+ },
+ {
+  "id": "wands_05",
+  "name": "Cinco de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "competição",
+   "divergência",
+   "tensão",
+   "choque",
+   "energia de grupo"
+  ],
+  "symbolism": "Cinco jovens em roupas de cores diferentes brandem varas, como numa escaramuça caótica ou num jogo. Nenhum parece ferido, e os seus movimentos se cruzam em direções diferentes.",
+  "upright": "O Cinco de Paus descreve uma situação em que muitas opiniões e energias se chocam. Tal conflito não precisa ser destrutivo; pode ser uma troca criativa que afia as ideias. A carta incentiva a notar se se trata de um objetivo comum ou apenas de levar vantagem. Uma boa comunicação pode transformar o caos em cooperação.",
+  "reversed": "Invertida, a carta pode indicar evitar o conflito a qualquer preço, ou uma tensão que se mudou para dentro. Às vezes é um convite a buscar o acordo em vez da vitória.",
+  "reflection": [
+   "Sobre o que realmente é esta disputa?",
+   "Como você pode dar a sua opinião e ao mesmo tempo ouvir os outros?"
+  ],
+  "advice": "Uma diferença de opinião não precisa ser uma guerra. Diga o que pensa, mas ouça os outros: algo criativo pode sair da tensão.",
+  "adviceReversed": "Você está evitando o conflito ou se desgastando com ele. Coloque as coisas com clareza e encerre uma disputa que não serve a nada.",
+  "astrology": "Fogo · Saturno em Leão"
+ },
+ {
+  "id": "wands_06",
+  "name": "Seis de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "reconhecimento",
+   "sucesso",
+   "autoconfiança",
+   "valorização",
+   "vitória"
+  ],
+  "symbolism": "Um cavaleiro de coroa de louros monta um cavalo branco, segurando uma vara à qual está atada uma segunda coroa. Pessoas caminham em volta dele com varas erguidas, como se o recebessem de volta em casa.",
+  "upright": "O Seis de Paus fala de valorização e de um resultado visível do esforço que você investiu. A carta incentiva a aceitar o reconhecimento sem falsa modéstia. É também um lembrete de que o sucesso muitas vezes é obra de muitas pessoas. A autoconfiança pode se tornar um apoio para os outros.",
+  "reversed": "Invertida, a carta pode indicar dificuldade de aceitar elogios ou forte dependência da opinião dos outros. Vale pensar em como valorizar o seu próprio trabalho por conta própria.",
+  "reflection": [
+   "Qual conquista sua merece reconhecimento?",
+   "Até que ponto o seu senso de valor depende do que os outros pensam?"
+  ],
+  "advice": "Você tem todo o direito de se orgulhar de si. Mostre as suas conquistas: o reconhecimento é merecido e abrirá mais portas.",
+  "adviceReversed": "Não faça o seu valor depender de aplausos. Valorize-se mesmo que os outros ainda não o tenham feito.",
+  "astrology": "Fogo · Júpiter em Leão"
+ },
+ {
+  "id": "wands_07",
+  "name": "Sete de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "manter a posição",
+   "perseverança",
+   "coragem",
+   "limites",
+   "convicção"
+  ],
+  "symbolism": "Um jovem está em um terreno alto com uma vara nas mãos, repelindo outras seis varas que se estendem até ele por baixo. Ele usa dois sapatos diferentes, o que sugere pressa ou surpresa.",
+  "upright": "O Sete de Paus descreve uma situação em que vale a pena sustentar as suas convicções. A carta incentiva a perseverança e a deixar claro o que importa. A posição no terreno alto lembra que você tem certa vantagem: conhecimento ou experiência. Defender limites pode ser feito com calma e com respeito.",
+  "reversed": "Invertida, a carta pode indicar cansaço de se defender o tempo todo, ou dúvida sobre se esta luta vale a energia. Às vezes é melhor escolher quais assuntos realmente precisam ser defendidos.",
+  "reflection": [
+   "Pelo que você quer se posicionar, mesmo que os outros pensem diferente?",
+   "Que disputas valem a sua energia, e quais você pode soltar?"
+  ],
+  "advice": "Mantenha a sua posição. Você tem todos os motivos para sustentá-la: não ceda só porque é difícil.",
+  "adviceReversed": "Você não precisa lutar em todas as frentes. Escolha o que realmente vale a luta e deixe o resto ir.",
+  "astrology": "Fogo · Marte em Leão"
+ },
+ {
+  "id": "wands_08",
+  "name": "Oito de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "velocidade",
+   "movimento",
+   "notícias",
+   "impulso",
+   "progresso rápido"
+  ],
+  "symbolism": "Oito varas voam na diagonal por um céu limpo, paralelas entre si, como se rumassem ao chão. Embaixo se estende uma paisagem calma com um rio e uma colina. Não há figuras na carta.",
+  "upright": "O Oito de Paus traz a energia do movimento rápido e de assuntos que ganham velocidade. A carta pode se referir a notícias, conversas ou questões que finalmente se movem. Incentiva a agir com decisão enquanto o ímpeto está a seu favor. É um tempo em que o pensamento vira ação depressa.",
+  "reversed": "Invertida, a carta pode indicar atrasos, confusão na comunicação ou coisas demais ao mesmo tempo. Vale desacelerar e decidir o que mais importa agora.",
+  "reflection": [
+   "O que na sua vida está ganhando velocidade agora?",
+   "Como garantir que a pressa não tire a sua clareza?"
+  ],
+  "advice": "As coisas estão se acelerando: aja rápido e não adie a sua resposta. É um tempo de movimento, não de deliberação.",
+  "adviceReversed": "A pressa leva ao caos, ou tudo travou. Desacelere, ponha ordem e só então acelere.",
+  "astrology": "Fogo · Mercúrio em Sagitário"
+ },
+ {
+  "id": "wands_09",
+  "name": "Nove de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "vigilância",
+   "perseverança",
+   "resiliência",
+   "esforço final",
+   "experiência"
+  ],
+  "symbolism": "Um homem com a cabeça enfaixada está encostado numa vara e olha com desconfiança para o lado. Atrás dele há uma fileira de oito varas como uma paliçada. A postura mostra cansaço, mas também prontidão.",
+  "upright": "O Nove de Paus fala de perseverança depois de um longo esforço. A carta lembra que muita coisa já ficou para trás e que você pode contar com a experiência adquirida. A vigilância pode ajudar, mas vale conferir se não vira tensão constante. A resiliência cresce também com o descanso.",
+  "reversed": "Invertida, a carta pode sugerir exaustão ou desconfiança excessiva das pessoas ao redor. É um bom momento para pedir apoio e baixar a guarda onde for seguro.",
+  "reflection": [
+   "O que você já atravessou, e o que isso lhe ensinou?",
+   "Onde você pode se permitir descansar em vez de vigiar o tempo todo?"
+  ],
+  "advice": "Você está perto da meta: aguente mais um pouco. Fique alerta, mas não deixe o cansaço tirar a sua fé.",
+  "adviceReversed": "Você se defende de algo que já não ameaça você. Descanse e aceite ajuda em vez de montar guarda para sempre.",
+  "astrology": "Fogo · Lua em Sagitário"
+ },
+ {
+  "id": "wands_10",
+  "name": "Dez de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "fardo",
+   "responsabilidade",
+   "esforço",
+   "tarefas demais",
+   "delegar"
+  ],
+  "symbolism": "Um homem curvado carrega dez varas nos braços, e elas atrapalham a sua visão. Ele segue com dificuldade em direção a uma casa visível ao longe.",
+  "upright": "O Dez de Paus descreve o peso de muitos compromissos carregados de uma só vez. A carta incentiva a ver quais deles são realmente seus e quais foram assumidos por impulso. A meta está perto, mas o modo como você carrega o peso pode estar dificultando a viagem. Organizar e dividir as tarefas pode trazer alívio.",
+  "reversed": "Invertida, a carta pode indicar o momento em que o fardo fica pesado demais, ou a disposição de largar parte dele. É um convite a pedir ajuda e a dizer “não”.",
+  "reflection": [
+   "Qual das suas atuais responsabilidades você poderia largar ou passar adiante?",
+   "Como seria o caminho até a sua meta se a carga fosse mais leve?"
+  ],
+  "advice": "Você está carregando demais. Passe adiante parte das suas tarefas, peça ajuda ou largue o que não é seu.",
+  "adviceReversed": "É hora de se livrar da carga. Diga “não” ao que você não precisa carregar, e tudo ficará mais leve.",
+  "astrology": "Fogo · Saturno em Sagitário"
+ },
+ {
+  "id": "wands_11",
+  "name": "Pajem de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "curiosidade",
+   "entusiasmo",
+   "descoberta",
+   "novas notícias",
+   "zelo juvenil"
+  ],
+  "symbolism": "Um jovem de túnica decorada com um padrão de salamandras está numa região desértica e olha com curiosidade para a vara que segura à frente. Três colinas como pirâmides se erguem ao fundo.",
+  "upright": "O Pajem de Paus traz a energia de um aluno curioso que quer experimentar algo novo. A carta incentiva a explorar ideias sem pressão por resultados imediatos. Pode se referir a notícias inspiradoras ou a uma paixão nascente. O entusiasmo é aqui o recurso mais valioso.",
+  "reversed": "Invertido, o Pajem pode indicar entusiasmo disperso ou uma impaciência que larga as ideias cedo demais. Vale escolher uma centelha e dar-lhe um pouco de tempo.",
+  "reflection": [
+   "O que você quer aprender simplesmente porque lhe interessa?",
+   "Que ideia merece mais da sua atenção?"
+  ],
+  "advice": "Seja curioso e experimente algo novo. O primeiro passo entusiasmado importa mais que um plano perfeito.",
+  "adviceReversed": "Você começa muitas coisas e termina poucas. Escolha uma e leve até o fim.",
+  "astrology": "Fogo"
+ },
+ {
+  "id": "wands_12",
+  "name": "Cavaleiro de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "coragem",
+   "aventura",
+   "ímpeto",
+   "ação",
+   "paixão"
+  ],
+  "symbolism": "Um cavaleiro de armadura e túnica amarela decorada com salamandras galopa num cavalo empinado, erguendo uma vara. As plumas do elmo parecem chamas, e atrás dele se estende um deserto com colinas em forma de pirâmide.",
+  "upright": "O Cavaleiro de Paus é a energia da ação ousada e da disposição para a aventura. A carta incentiva a seguir a sua paixão e a tomar a iniciativa. O seu entusiasmo costuma ser contagiante e pode arrastar os outros. Vale lembrar, porém, que o ímpeto deve andar junto com a direção.",
+  "reversed": "Invertida, a energia do Cavaleiro pode virar uma pressa que pula etapas importantes. Às vezes é um sinal para parar e conferir se o fogo não está se consumindo rápido demais.",
+  "reflection": [
+   "Que aventura você deseja?",
+   "Como você pode combinar o seu entusiasmo com paciência?"
+  ],
+  "advice": "Parta com ousadia: coragem e energia estão do seu lado. Aja, mas não esqueça aonde está indo.",
+  "adviceReversed": "A impulsividade pode custar caro. Pense no seu movimento antes de fazê-lo: velocidade não é tudo.",
+  "astrology": "Fogo"
+ },
+ {
+  "id": "wands_13",
+  "name": "Rainha de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "autoconfiança",
+   "calor",
+   "carisma",
+   "independência",
+   "criatividade"
+  ],
+  "symbolism": "A rainha está sentada num trono decorado com leões, segurando uma vara numa das mãos e um girassol na outra. Um gato preto está sentado a seus pés. A sua postura é aberta e descontraída.",
+  "upright": "A Rainha de Paus une calor humano e autoconfiança. A carta incentiva a se expressar de forma autêntica e a compartilhar a sua energia. É a atitude de quem conhece o próprio valor e ao mesmo tempo apoia os outros. A criatividade floresce quando você se permite brilhar.",
+  "reversed": "Invertida, a carta pode indicar um momento de dúvida sobre si, ou uma energia que está ficando dominante demais. Vale buscar um equilíbrio entre cuidar de si e estar presente para os outros.",
+  "reflection": [
+   "Em que situações você se sente mais você mesmo?",
+   "Como você pode mostrar o seu calor hoje sem se diminuir?"
+  ],
+  "advice": "Confie em si e mostre-se como você é. A sua confiança e o seu calor conquistarão os outros.",
+  "adviceReversed": "Algo está minando a sua autoconfiança. Reconstrua-a, começando por aquilo em que você é realmente bom.",
+  "astrology": "Fogo"
+ },
+ {
+  "id": "wands_14",
+  "name": "Rei de Paus",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "visão",
+   "liderança",
+   "inspirar os outros",
+   "ousadia",
+   "responsabilidade"
+  ],
+  "symbolism": "O rei está sentado num trono decorado com leões e salamandras, segurando uma vara em flor. Uma pequena salamandra se agacha a seus pés. O seu olhar está voltado para o lado, como se os pensamentos corressem à frente, rumo ao futuro.",
+  "upright": "O Rei de Paus encarna uma liderança madura baseada em visão e inspiração. A carta incentiva a tomar decisões da perspectiva de uma meta de longo prazo. É a energia de quem sabe entusiasmar os outros e ao mesmo tempo assumir a responsabilidade pelo rumo. A ousadia anda aqui de mãos dadas com a experiência.",
+  "reversed": "Invertido, a carta pode indicar impaciência com os outros, ou uma visão que ignora as necessidades das pessoas ao redor. Vale conferir se a liderança não está virando imposição da própria vontade.",
+  "reflection": [
+   "Que visão você quer perseguir a longo prazo?",
+   "Como você pode inspirar os outros em vez de empurrá-los?"
+  ],
+  "advice": "Lidere. Você tem uma visão: compartilhe-a e assuma a responsabilidade pelo rumo, e os outros seguirão você.",
+  "adviceReversed": "Não imponha a sua visão à força. O melhor líder escuta: convide os outros a participar da decisão.",
+  "astrology": "Fogo"
+ }
+]

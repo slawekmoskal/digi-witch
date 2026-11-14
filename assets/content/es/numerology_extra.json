@@ -1,0 +1,109 @@
+{
+  "square": {
+    "1": {"title": "Carácter", "levels": [
+      "Ningún 1: construyes la fuerza de voluntad de forma consciente, y practicar la asertividad da fruto.",
+      "Un 1: un carácter suave; cedes fácilmente ante los demás.",
+      "Dos 1: un carácter equilibrado. Sabes defender tu postura sin forzar.",
+      "Tres: una voluntad fuerte y necesidad de liderar; cuidado con la terquedad.",
+      "Cuatro o más: una voluntad muy fuerte, que se convierte fácilmente en terquedad y en deseo de controlar a otros. Merece la pena cultivar la flexibilidad."]},
+    "2": {"title": "Energía", "levels": [
+      "Ningún 2: obtienes energía de otras personas y del descanso, así que cuida tu recuperación.",
+      "Un 2: energía suficiente para el día a día, pero se agota pronto cuando hay demasiado que hacer.",
+      "Dos 2: una buena reserva de energía y sensibilidad hacia tu entorno.",
+      "Tres: mucha energía, que necesita una salida para no convertirse en nerviosismo.",
+      "Cuatro o más: una energía enorme que puede volverse hipersensibilidad; hacen falta movimiento y descanso."]},
+    "3": {"title": "Curiosidad", "levels": [
+      "Ningún 3: aprendes con la práctica, más por experiencia que por los libros.",
+      "Un 3: curiosidad por el mundo que necesita un objetivo concreto.",
+      "Dos 3: talento para las ciencias exactas, el orden y el análisis.",
+      "Tres: una mente investigadora; aprender cosas nuevas te resulta fácil.",
+      "Cuatro o más: una mente científica, a veces demasiado metida en el análisis. Ayuda volver a lo concreto."]},
+    "4": {"title": "Salud", "levels": [
+      "Ningún 4: la tradición habla de la necesidad de cuidar especialmente tu forma física, con movimiento y un ritmo diario.",
+      "Un 4: una resistencia media que los buenos hábitos refuerzan con facilidad.",
+      "Dos 4: buena forma física y resistencia.",
+      "Tres: una gran resistencia física, a menudo con gusto por el deporte.",
+      "Cuatro o más: una gran resistencia física; procura no sobrecargar el cuerpo."]},
+    "5": {"title": "Intuición", "levels": [
+      "Ningún 5: es mejor decidir después de pensar y con un plan.",
+      "Un 5: la intuición funciona, pero a veces las dudas la acallan.",
+      "Dos 5: buena intuición unida a la lógica; juzgas bien las situaciones.",
+      "Tres: corazonadas fuertes; merece la pena confiar en ellas, pero comprueba los hechos.",
+      "Cuatro o más: una intuición notable. Confía en ella, sin renunciar a los hechos."]},
+    "6": {"title": "Trabajo", "levels": [
+      "Ningún 6: te sientes mejor con el trabajo intelectual que con el físico.",
+      "Un 6: el trabajo físico es más una necesidad que un placer.",
+      "Dos 6: manos hábiles, talento para la artesanía y las cosas prácticas.",
+      "Tres: necesidad de hacer algo tangible; el trabajo te da equilibrio.",
+      "Cuatro o más: una fuerte necesidad de trabajo físico y de crear cosas; te cuesta estar sin hacer nada."]},
+    "7": {"title": "Talento", "levels": [
+      "Ningún 7: el éxito llega por la perseverancia, no por casualidad.",
+      "Un 7: un talento oculto que merece la pena descubrir.",
+      "Dos 7: un talento claro y «buena suerte» en lo que haces.",
+      "Tres: muchos talentos; lo importante es elegir uno y desarrollarlo.",
+      "Cuatro o más: muchos talentos, pero también tendencia a dispersarte. Elige un camino."]},
+    "8": {"title": "Deber", "levels": [
+      "Ningún 8: una actitud relajada ante las obligaciones; ayudan unas reglas claras.",
+      "Un 8: la responsabilidad llega con la edad y la experiencia.",
+      "Dos 8: un fuerte sentido del deber y del cuidado de los demás.",
+      "Tres: una gran responsabilidad. Recuerda no cargar con todo tú solo.",
+      "Cuatro o más: un sentido del deber muy fuerte. Recuerda que no tienes que salvar a todo el mundo."]},
+    "9": {"title": "Memoria", "levels": [
+      "Ningún 9: recuerdas mejor haciendo que escuchando.",
+      "Un 9: una buena memoria que la práctica desarrolla.",
+      "Dos 9: una mente ágil y buena memoria.",
+      "Tres: una memoria excepcional y un pensamiento rápido.",
+      "Cuatro o más: una memoria y una agudeza sobresalientes; conviene dar descanso a la mente."]}
+  },
+  "pinnacles": {
+    "1": {"title": "Cima de la independencia", "text": "Una etapa de valerse por uno mismo: decisiones, iniciativa, valor para seguir el propio camino. Cómo aprovecharla: toma tus propias decisiones y empieza cosas nuevas, aunque no estés seguro."},
+    "2": {"title": "Cima de la cooperación", "text": "Una etapa de relaciones y de pareja: paciencia, diplomacia, tender puentes entre personas. Cómo aprovecharla: invierte en las relaciones, escucha y aprende a trabajar con otros. El éxito llegará a través de la gente."},
+    "3": {"title": "Cima de la expresión", "text": "Una etapa de creatividad, contactos y alegría; un buen momento para mostrar al mundo lo que tienes que decir. Cómo aprovecharla: crea, escribe, actúa, conoce gente. Tu expresión abre puertas."},
+    "4": {"title": "Cima de la construcción", "text": "Una etapa de trabajo de base: estabilidad, hogar, finanzas, un esfuerzo constante que se recompensa. Cómo aprovecharla: pon cimientos sólidos, como la formación, el ahorro y un hogar. La paciencia da fruto."},
+    "5": {"title": "Cima del cambio", "text": "Una etapa de movimiento, viajes y experiencias nuevas: muchos cambios y poco aburrimiento. Cómo aprovecharla: viaja, aprende, cambia, pero elige cambios con sentido."},
+    "6": {"title": "Cima del cuidado", "text": "Una etapa de familia, hogar y responsabilidad por los demás; relaciones y compromisos importantes. Cómo aprovecharla: cuida tu hogar y a tus seres queridos, sin olvidar tus propias necesidades."},
+    "7": {"title": "Cima de la búsqueda", "text": "Una etapa de reflexión, estudio y profundización en uno mismo, con más preguntas sobre el sentido que sobre la comodidad. Cómo aprovecharla: dedica tiempo al estudio, la reflexión y la espiritualidad. Las respuestas vendrán de dentro."},
+    "8": {"title": "Cima de la capacidad de acción", "text": "Una etapa de carrera, influencia y dinero; un tiempo para metas ambiciosas y una gestión madura de los recursos. Cómo aprovecharla: ponte metas ambiciosas y administra bien tus recursos. Es un tiempo de influencia."},
+    "9": {"title": "Cima de la culminación", "text": "Una etapa de mirada amplia, de compartir la experiencia y de cerrar capítulos antiguos. Cómo aprovecharla: comparte tu experiencia, ayuda a otros y cierra lo que ya ha cumplido su ciclo."}
+  },
+  "challenges": {
+    "0": {"title": "Desafío de la elección", "text": "No hay un tema único; el desafío es elegir qué quieres aprender. Todos los caminos están abiertos. Consejo: escucha a tu intuición al elegir. Ningún camino te viene impuesto."},
+    "1": {"title": "Desafío de la independencia", "text": "Aprender a expresarse y a poner límites, sin ceder y sin empecinarse. Consejo: practica decir «quiero» y «no quiero», con calma pero con firmeza."},
+    "2": {"title": "Desafío de la sensibilidad", "text": "Aprender a no tomarse todo como algo personal y a no renunciar a uno mismo por tener paz. Consejo: no cargues con el humor de los demás; tus necesidades también cuentan."},
+    "3": {"title": "Desafío de la expresión", "text": "Aprender a hablar de los sentimientos y a mostrar el propio trabajo creativo pese a la crítica. Consejo: comparte lo que creas antes de que sea perfecto."},
+    "4": {"title": "Desafío del orden", "text": "Aprender disciplina y paciencia, sin rigidez y sin caos. Consejo: pasos pequeños y regulares en lugar de arrebatos de esfuerzo y desorden."},
+    "5": {"title": "Desafío de la libertad", "text": "Aprender a usar la libertad con sabiduría, sin huir y sin dejarlo todo de golpe. Consejo: antes de escapar hacia algo nuevo, comprueba de qué estás huyendo."},
+    "6": {"title": "Desafío de la responsabilidad", "text": "Aprender a cuidar de los demás sin controlarlos y sin olvidarse de uno mismo. Consejo: ayuda, pero no rescates a nadie contra su voluntad, y no controles."},
+    "7": {"title": "Desafío de la confianza", "text": "Aprender apertura y confianza en uno mismo, en los demás y en la vida. Consejo: confía en alguien lo suficiente como para decirle lo que de verdad piensas."},
+    "8": {"title": "Desafío del poder y el dinero", "text": "Aprender una relación sana con el dinero, la ambición y el control. Consejo: el dinero y el poder son herramientas. Pregúntate para qué deben servir."}
+  },
+  "karmicDebts": {
+    "13": {"title": "Deuda kármica 13", "text": "En la tradición numerológica, el 13 representa una lección de trabajo y perseverancia: los atajos fáciles rara vez funcionan, y el esfuerzo paciente da resultados duraderos."},
+    "14": {"title": "Deuda kármica 14", "text": "El 14 es una lección de moderación y libertad: aprender a disfrutar de la libertad sin excesos y sin huir de los compromisos."},
+    "16": {"title": "Deuda kármica 16", "text": "El 16 es una lección de humildad y reconstrucción: a veces algo tiene que derrumbarse para que algo más auténtico ocupe su lugar."},
+    "19": {"title": "Deuda kármica 19", "text": "El 19 es una lección de autonomía que no excluye pedir ayuda: la fuerza crece cuando te dejas apoyar por los demás."}
+  },
+  "karmicLessons": {
+    "1": "Lección 1: aprender a creer en ti y a decidir sin mirar a los demás.",
+    "2": "Lección 2: aprender paciencia, cooperación y escucha.",
+    "3": "Lección 3: aprender a expresarte y a compartir la alegría.",
+    "4": "Lección 4: aprender a ser sistemático, ordenado y a terminar lo que empiezas.",
+    "5": "Lección 5: aprender flexibilidad y apertura al cambio.",
+    "6": "Lección 6: aprender a responsabilizarte de tus seres queridos, y de ti.",
+    "7": "Lección 7: aprender a confiar en tu intuición y a dedicar tiempo a la reflexión.",
+    "8": "Lección 8: aprender una relación sana con el dinero y con tu propia fuerza.",
+    "9": "Lección 9: aprender compasión y mirar más allá de los propios asuntos."
+  },
+  "keywords": {
+    "1": "comienzo, valor, independencia",
+    "2": "cooperación, paciencia, dulzura",
+    "3": "alegría, creatividad, conversación",
+    "4": "orden, estabilidad, trabajo",
+    "5": "cambio, movimiento, libertad",
+    "6": "hogar, cuidado, armonía",
+    "7": "reflexión, intuición, conocimiento",
+    "8": "capacidad de acción, éxito, responsabilidad",
+    "9": "culminación, compasión, mirada amplia"
+  },
+  "dayColors": {"1": "rojo", "2": "naranja", "3": "amarillo", "4": "verde", "5": "azul", "6": "índigo", "7": "violeta", "8": "rosa", "9": "dorado"}
+}

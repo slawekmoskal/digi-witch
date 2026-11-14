@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../data/content.dart';
+import '../engine/lang.dart';
 import '../engine/numerology.dart';
 import '../reminders.dart';
+import 'astro_screens.dart' show dailyReminderEvents;
 import 'pro_sheet.dart';
 import 'widgets.dart';
 
@@ -51,11 +53,9 @@ class SettingsScreen extends StatelessWidget {
       initialTime: const TimeOfDay(hour: 20, minute: 0),
     );
     if (t == null) return;
+    if (!context.mounted) return;
     final ok = await Reminders.enable(
-      t.hour,
-      t.minute,
-      title: l.reminderTitle,
-      body: l.reminderBody,
+      dailyReminderEvents(context, t.hour * 60 + t.minute),
     );
     if (ok) {
       store.reminderMinutes = t.hour * 60 + t.minute;
@@ -72,6 +72,20 @@ class SettingsScreen extends StatelessWidget {
       appBar: AppBar(title: Text(l.settings)),
       body: ListView(
         children: [
+          ListTile(
+            title: Text(l.language),
+            trailing: DropdownButton<String>(
+              value: appLangs.contains(s.language) ? s.language : 'system',
+              underline: const SizedBox(),
+              items: [
+                DropdownMenuItem(value: 'system', child: Text(l.themeSystem)),
+                // Language names stay in their own language.
+                for (final c in appLangs)
+                  DropdownMenuItem(value: c, child: Text(langNames[c]!)),
+              ],
+              onChanged: (v) => s.language = v!,
+            ),
+          ),
           ListTile(title: Text(l.theme)),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -84,6 +98,11 @@ class SettingsScreen extends StatelessWidget {
               selected: {s.themeMode},
               onSelectionChanged: (v) => s.themeMode = v.first,
             ),
+          ),
+          SwitchListTile(
+            title: Text(l.tarotWelcomeSetting),
+            value: s.tarotWelcome,
+            onChanged: (v) => s.tarotWelcome = v,
           ),
           SwitchListTile(
             title: Text(l.allowReversed),

@@ -1,7 +1,9 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show FlutterError;
 import 'package:flutter/services.dart';
 
+import '../engine/lang.dart';
 import '../engine/numerology.dart';
 
 /// Bump when interpretation texts change; saved entries keep the version they were written with.
@@ -29,14 +31,75 @@ class TarotCard {
       astrology = j['astrology'],
       reflection = List<String>.from(j['reflection']);
 
-  String get group =>
-      arcana == 'major' ? 'Wielkie Arkana' : 'Małe Arkana · ${suitNames[suit]}';
-  static const suitNames = {
-    'wands': 'Buławy',
-    'cups': 'Kielichy',
-    'swords': 'Miecze',
-    'pentacles': 'Denary',
-  };
+  String get group => arcana == 'major'
+      ? tr(
+          pl: 'Wielkie Arkana',
+          en: 'Major Arcana',
+          de: 'Große Arkana',
+          fr: 'Arcanes majeurs',
+          es: 'Arcanos mayores',
+          uk: 'Старші аркани',
+          it: 'Arcani maggiori',
+          pt: 'Arcanos maiores',
+          nl: 'Grote Arcana',
+        )
+      : '${tr(pl: 'Małe Arkana', en: 'Minor Arcana', de: 'Kleine Arkana', fr: 'Arcanes mineurs', es: 'Arcanos menores', uk: 'Молодші аркани', it: 'Arcani minori', pt: 'Arcanos menores', nl: 'Kleine Arcana')} · ${suitNames[suit]}';
+  static Map<String, String> get suitNames => inLang(const {
+    'pl': {
+      'wands': 'Buławy',
+      'cups': 'Kielichy',
+      'swords': 'Miecze',
+      'pentacles': 'Denary',
+    },
+    'en': {
+      'wands': 'Wands',
+      'cups': 'Cups',
+      'swords': 'Swords',
+      'pentacles': 'Pentacles',
+    },
+    'de': {
+      'wands': 'Stäbe',
+      'cups': 'Kelche',
+      'swords': 'Schwerter',
+      'pentacles': 'Münzen',
+    },
+    'fr': {
+      'wands': 'Bâtons',
+      'cups': 'Coupes',
+      'swords': 'Épées',
+      'pentacles': 'Deniers',
+    },
+    'es': {
+      'wands': 'Bastos',
+      'cups': 'Copas',
+      'swords': 'Espadas',
+      'pentacles': 'Oros',
+    },
+    'uk': {
+      'wands': 'Жезли',
+      'cups': 'Кубки',
+      'swords': 'Мечі',
+      'pentacles': 'Пентаклі',
+    },
+    'it': {
+      'wands': 'Bastoni',
+      'cups': 'Coppe',
+      'swords': 'Spade',
+      'pentacles': 'Denari',
+    },
+    'pt': {
+      'wands': 'Paus',
+      'cups': 'Copas',
+      'swords': 'Espadas',
+      'pentacles': 'Ouros',
+    },
+    'nl': {
+      'wands': 'Staven',
+      'cups': 'Bekers',
+      'swords': 'Zwaarden',
+      'pentacles': 'Pentakels',
+    },
+  });
 }
 
 class Interpretation {
@@ -244,6 +307,13 @@ class Content {
   final List<Dream> dreams;
   final NumerologyExtra numerologyExtra;
   final Map<int, Hexagram> iching;
+
+  /// Texts of the personal daily reading; null in a language that does not have them
+  /// yet (the app then shows the older, shorter horoscope).
+  final Daily? daily;
+
+  /// Kind words for everyone, one per day of the month; unrelated to the day's reading.
+  final List<String> messages;
   Content._(
     this.cards,
     this.numerology,
@@ -255,15 +325,20 @@ class Content {
     this.dreams,
     this.numerologyExtra,
     this.iching,
+    this.daily,
+    this.messages,
   );
 
   Interpretation? interpretation(Indicator i, int? v) =>
       v == null ? null : numerology[i]?[v];
 
-  static Future<Content> load([AssetBundle? bundle]) async {
+  /// Polish lives in assets/content, other languages in `assets/content/<lang>`,
+  /// with the same files, ids and structure.
+  static Future<Content> load({String lang = 'pl', AssetBundle? bundle}) async {
     final b = bundle ?? rootBundle;
+    final dir = lang == 'pl' ? 'assets/content' : 'assets/content/$lang';
     Future<dynamic> j(String f) async =>
-        jsonDecode(await b.loadString('assets/content/$f'));
+        jsonDecode(await b.loadString('$dir/$f'));
     final cards = [
       ...await j('tarot_part_a.json'),
       ...await j('tarot_part_b.json'),
@@ -289,6 +364,44 @@ class Content {
         for (final e in await j('iching.json'))
           e['n'] as int: Hexagram.fromJson(e),
       },
+      await _daily(b, '$dir/daily.json'),
+      List<String>.from(await j('messages.json')),
     );
   }
+
+  static Future<Daily?> _daily(AssetBundle b, String path) async {
+    final String text;
+    try {
+      text = await b.loadString(path);
+    } on FlutterError {
+      return null; // not translated into this language yet
+    }
+    return Daily.fromJson(jsonDecode(text));
+  }
+}
+
+/// Personal daily reading: mood by Moon sign and element relation (two variants each),
+/// what the day may bring and advice by personal day number, three areas by meter level.
+class Daily {
+  final Map<String, Map<String, List<String>>> mood;
+  final Map<int, List<String>> events, advice;
+  final Map<String, List<String>> love, work, energy;
+  final String birthday;
+  Daily.fromJson(Map<String, dynamic> j)
+    : mood = {
+        for (final s in (j['mood'] as Map<String, dynamic>).entries)
+          s.key: _lists(s.value),
+      },
+      events = _byNumber(j['events']),
+      advice = _byNumber(j['advice']),
+      love = _lists(j['love']),
+      work = _lists(j['work']),
+      energy = _lists(j['energy']),
+      birthday = j['birthday'];
+  static Map<String, List<String>> _lists(Map<String, dynamic> m) => {
+    for (final e in m.entries) e.key: List<String>.from(e.value),
+  };
+  static Map<int, List<String>> _byNumber(Map<String, dynamic> m) => {
+    for (final e in m.entries) int.parse(e.key): List<String>.from(e.value),
+  };
 }

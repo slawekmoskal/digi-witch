@@ -1,0 +1,106 @@
+[
+ {
+  "term": "Numerologie",
+  "definition": "Traditie waarin je aan getallen symbolische betekenissen toekent en ze berekent uit data of namen. In de app is het een hulpmiddel voor reflectie en vermaak, geen wetenschappelijke methode."
+ },
+ {
+  "term": "Reductie",
+  "definition": "De cijfers van een getal optellen tot er één cijfer overblijft, bijvoorbeeld 38 → 3 + 8 = 11 → 1 + 1 = 2. In de gebruikte conventie stopt de reductie bij meestergetallen, waar die zijn toegestaan."
+ },
+ {
+  "term": "Meestergetal",
+  "definition": "Afgesproken naam voor de getallen 11, 22 en 33, die in veel numerologische scholen niet verder worden gereduceerd. Het is een label uit de traditie, geen teken van superioriteit of bijzonderheid van de persoon."
+ },
+ {
+  "term": "Levenspad",
+  "definition": "Getal dat uit de volledige geboortedatum wordt berekend en in de traditie het algemene thema of de richting van het leven beschrijft. In de app tel je alle cijfers van de datum op en reduceer je met behoud van 11, 22 en 33."
+ },
+ {
+  "term": "Geboortedaggetal",
+  "definition": "Getal dat alleen uit de dag van de maand waarop iemand is geboren wordt berekend. De traditie koppelt het aan een natuurlijk talent of een manier van handelen; in de app blijven 11 en 22 behouden."
+ },
+ {
+  "term": "Expressiegetal",
+  "definition": "Getal dat uit alle letters van de volledige naam wordt berekend. Het beschrijft symbolisch hoe iemand zijn of haar vaardigheden naar buiten toe laat zien."
+ },
+ {
+  "term": "Zielsgetal (klinkergetal)",
+  "definition": "Getal dat uit de klinkers in de voor- en achternaam wordt berekend. In de traditie heeft het te maken met innerlijke motivaties en behoeften."
+ },
+ {
+  "term": "Persoonlijkheidsgetal",
+  "definition": "Getal dat uit de medeklinkers in de voor- en achternaam wordt berekend. Het staat symbolisch voor de eerste indruk en de buitenlaag die anderen zien."
+ },
+ {
+  "term": "Klinkers en medeklinkers in de gebruikte conventie",
+  "definition": "De app behandelt de letters A, E, I, O, U en Y als klinkers en alle andere als medeklinkers. Andere scholen gaan verschillend met de Y om, dus de uitkomsten kunnen verschillen."
+ },
+ {
+  "term": "Normalisatie van letters met accenten",
+  "definition": "Letters met accenten of trema worden vóór de berekening vervangen door hun basisletter, bijvoorbeeld ë → e, é → e, ï → i, ö → o. Poolse letters werken net zo: Ł → L, Ż → Z. Dat komt doordat de traditionele tabel alleen de 26 letters van het Latijnse alfabet kent."
+ },
+ {
+  "term": "Pythagoreïsche lettertabel",
+  "definition": "Een tegenwoordig populaire tabel die de letters A–Z cyclisch de waarden 1 tot 9 geeft (A = 1 … I = 9, J = 1 … R = 9, S = 1 … Z = 8). Ondanks de naam is het een modern systeem en geen werk van de oude Pythagoreeërs."
+ },
+ {
+  "term": "Persoonlijk jaar",
+  "definition": "Getal van 1 tot 9, berekend uit je geboortedag en -maand en een gekozen kalenderjaar. In de traditie beschrijft het het thema van dat jaar in een cyclus van negen jaar; in de app is het een uitnodiging tot reflectie, geen voorspelling."
+ },
+ {
+  "term": "Negenjarige cyclus",
+  "definition": "Idee dat persoonlijke jaren op elkaar volgen van 1 tot 9, waarna de cyclus opnieuw begint. Het is een symbolisch model dat helpt om je reflectie te ordenen."
+ },
+ {
+  "term": "Psychonumerologie",
+  "definition": "Naam van een stroming die getalsymboliek combineert met de taal van zelfreflectie. Het is geen psychologische of klinische methode en dient niet om te diagnosticeren."
+ },
+ {
+  "term": "Tarot",
+  "definition": "Een set van meestal 78 kaarten, oorspronkelijk gebruikt voor kaartspellen en sinds de 18e eeuw ook in esoterische praktijken. In de app zijn de kaarten beelden die tot reflectie uitnodigen."
+ },
+ {
+  "term": "Grote Arcana",
+  "definition": "De 22 troefkaarten van de tarot met eigen namen en beelden, zoals De Dwaas, De Magiër, De Zon. De traditie verbindt ze met brede levensthema's."
+ },
+ {
+  "term": "Kleine Arcana",
+  "definition": "56 kaarten verdeeld over vier kleuren, met kaarten van de aas tot de tien en de hofkaarten. De traditie verbindt ze met alledaagse zaken en situaties."
+ },
+ {
+  "term": "Kleur (in de tarot)",
+  "definition": "Een van de vier reeksen van de Kleine Arcana: Staven, Bekers, Zwaarden en Pentakels (Munten). Elke kleur heeft in de traditie een eigen symbolisch gebied."
+ },
+ {
+  "term": "Hofkaarten",
+  "definition": "Kaarten van de Kleine Arcana die personen voorstellen: Page, Ridder, Koningin en Koning. Ze worden gelezen als manieren van handelen of rollen, niet als concrete mensen."
+ },
+ {
+  "term": "Omgekeerde kaart",
+  "definition": "Een kaart die bij het leggen ondersteboven is komen te liggen. Sommige mensen lezen haar als een andere of gedempte invalshoek op het thema van de kaart, anderen gebruiken helemaal geen omgekeerde kaarten."
+ },
+ {
+  "term": "Legging",
+  "definition": "Een opstelling van meerdere kaarten waarbij elke positie een betekenis of vraag heeft, zoals achtergrond, uitdaging, mogelijke stap. In de app zijn de posities vragen om over na te denken, geen voorspellingen."
+ },
+ {
+  "term": "Rider-Waite-Smith-tarot",
+  "definition": "Een tarotspel dat in 1909 in Londen werd uitgegeven door uitgeverij Rider, samengesteld onder leiding van A. E. Waite en geïllustreerd door Pamela Colman Smith. De beelden ervan hebben veel latere spellen beïnvloed."
+ },
+ {
+  "term": "Tarocchi",
+  "definition": "De Italiaanse naam van de speelkaarten waaruit de tarot zich ontwikkelde, bekend sinds de 15e eeuw. Ze dienden oorspronkelijk voor een gezelschapsspel met troefkaarten."
+ },
+ {
+  "term": "Archetype",
+  "definition": "Universeel patroon van een figuur of situatie dat terugkomt in mythen, verhalen en cultuur, zoals de Held of de Wijze. In de app zijn archetypen een hulpmiddel voor reflectie, geen persoonlijkheidstypologie."
+ },
+ {
+  "term": "Schaduw (bij een archetype)",
+  "definition": "Afgesproken term voor de minder gunstige kanten van een patroon, die kunnen opkomen als de eigenschappen ervan worden overdreven. De beschrijving van de schaduw is bedoeld om over na te denken, niet om te oordelen."
+ },
+ {
+  "term": "Synchroniciteit",
+  "definition": "Begrip van C. G. Jung voor betekenisvolle samenvallingen van gebeurtenissen zonder oorzakelijk verband. In het kader van kaarten wordt het losjes gebruikt; het is geen bewijs dat voorspellingen werken."
+ }
+]

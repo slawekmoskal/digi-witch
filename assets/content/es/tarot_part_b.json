@@ -1,0 +1,1010 @@
+[
+ {
+  "id": "cups_01",
+  "name": "As de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 1,
+  "keywords": [
+   "corazón abierto",
+   "sentimiento nuevo",
+   "gratitud",
+   "fluir",
+   "ternura"
+  ],
+  "symbolism": "Una mano sale de una nube sosteniendo una copa de la que el agua cae en cinco chorros a un estanque lleno de nenúfares. Una paloma blanca desciende sobre la copa con un pequeño disco en el pico, y alrededor flotan gotitas como pétalos que caen.",
+  "upright": "El As de Copas habla de un momento en que los sentimientos empiezan a fluir con más libertad. Puede ser una relación nueva, una amistad renovada o simplemente una mirada más amable hacia ti. La carta te invita a recibir lo que llega sin prisa y sin juzgar. Merece la pena fijarte en lo que te gustaría compartir hoy con los demás.",
+  "reversed": "El As invertido puede sugerir que las emociones están presentes pero retenidas dentro, como si la copa estuviera tapada. A veces es necesidad de protección, a veces cansancio de dar. Un buen paso suele ser llenar primero tu propia copa.",
+  "reflection": [
+   "¿Qué sentimiento quiere que lo note hoy?",
+   "¿A quién o a qué puedo mostrar gratitud sin esperar nada a cambio?"
+  ],
+  "advice": "Abre tu corazón. Permítete sentir y recibir lo bueno: ahora puede empezar un sentimiento o una relación nueva.",
+  "adviceReversed": "Te estás cerrando a las emociones. Piensa qué temes, y date permiso para sentir.",
+  "astrology": "Agua — raíz del elemento"
+ },
+ {
+  "id": "cups_02",
+  "name": "Dos de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 2,
+  "keywords": [
+   "reciprocidad",
+   "encuentro",
+   "entendimiento",
+   "pareja",
+   "confianza"
+  ],
+  "symbolism": "Un joven y una joven están frente a frente e intercambian copas, como si se hicieran una promesa. Sobre ellos flota un bastón rodeado por dos serpientes y coronado por una cabeza de león alada, y al fondo se ve una casa tranquila entre colinas.",
+  "upright": "El Dos de Copas describe un vínculo basado en el equilibrio entre dar y recibir. No se trata solo de romance, sino de cualquier encuentro en el que ambas partes se sienten vistas. La carta sugiere que la sinceridad y la escucha atenta pueden acercar más que los grandes gestos. Es un buen momento para valorar a las personas con quienes compartes respeto mutuo.",
+  "reversed": "Invertida, la carta puede llamar la atención sobre un reparto desigual de la atención o sobre expectativas no dichas. También puede señalar que primero necesitas entenderte contigo.",
+  "reflection": [
+   "¿En qué relación me siento de verdad escuchado?",
+   "¿Qué necesito para dar y recibir con equilibrio?"
+  ],
+  "advice": "Apuesta por el entendimiento. Acércate y busca la reciprocidad: ahora hay buena energía en la relación.",
+  "adviceReversed": "Algo falta en la relación: equilibrio o sinceridad. Habladlo antes de que crezca la distancia.",
+  "astrology": "Agua · Venus en Cáncer"
+ },
+ {
+  "id": "cups_03",
+  "name": "Tres de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 3,
+  "keywords": [
+   "comunidad",
+   "alegría",
+   "celebración",
+   "amistad",
+   "apoyo"
+  ],
+  "symbolism": "Tres mujeres con túnicas de colores bailan en corro y alzan sus copas. A sus pies hay fruta madura, calabazas y uvas, que recuerdan el tiempo de la cosecha y las fiestas compartidas.",
+  "upright": "El Tres de Copas recuerda la fuerza de la comunidad y de la alegría compartida. Puede animarte a celebrar pequeños éxitos o a retomar el contacto con amistades. La carta subraya que el apoyo llega a menudo de forma ligera: una conversación, una risa, una comida juntos. Merece la pena preguntarte dónde te sientes parte de algo más grande.",
+  "reversed": "El Tres invertido puede hablar de exceso de compañía, o de sentirte un poco al margen del grupo. También puede ser una invitación a celebrar en silencio, a tu ritmo.",
+  "reflection": [
+   "¿Con quién me gustaría compartir mi último buen momento?",
+   "¿Dónde me siento parte de una comunidad, y dónde solo invitado?"
+  ],
+  "advice": "Reúnete con las personas que están de tu lado. La alegría compartida y el apoyo te ayudarán en este asunto.",
+  "adviceReversed": "Demasiada compañía, o los chismes, pueden estorbar. Elige en quién confías de verdad.",
+  "astrology": "Agua · Mercurio en Cáncer"
+ },
+ {
+  "id": "cups_04",
+  "name": "Cuatro de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 4,
+  "keywords": [
+   "contemplación",
+   "hastío",
+   "distancia",
+   "introspección",
+   "oportunidades pasadas por alto"
+  ],
+  "symbolism": "Un joven está sentado bajo un árbol con los brazos cruzados, mirando tres copas que hay en la hierba ante él. A un lado, una mano sale de una nube ofreciéndole una cuarta copa, que él no parece ver.",
+  "upright": "El Cuatro de Copas describe un estado de retiro en el que lo conocido ya no da alegría. Una pausa así puede ser necesaria para entender qué quieres de verdad. La carta sugiere con suavidad, sin embargo, que levantes la vista de vez en cuando, porque quizá algo nuevo te espera al lado. No tienes que aceptarlo enseguida; basta con verlo.",
+  "reversed": "Invertida, la carta puede significar salir poco a poco del bache y estar más abierto a propuestas. También puede sugerir que el retiro dura más de lo que necesitas.",
+  "reflection": [
+   "¿Qué de lo que me rodea ha dejado de alegrarme, y por qué?",
+   "¿Qué propuesta he podido pasar por alto últimamente?"
+  ],
+  "advice": "Te ofrecen algo y no lo ves. Mira a tu alrededor: la oportunidad puede estar más cerca de lo que crees.",
+  "adviceReversed": "Estás saliendo de la apatía, y eso está bien. Acepta ahora lo que hasta ahora rechazabas.",
+  "astrology": "Agua · Luna en Cáncer"
+ },
+ {
+  "id": "cups_05",
+  "name": "Cinco de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 5,
+  "keywords": [
+   "pena",
+   "decepción",
+   "pérdida",
+   "aceptación",
+   "lo que queda"
+  ],
+  "symbolism": "Una figura con una larga capa negra está inclinada sobre tres copas volcadas cuyo líquido se ha derramado. Detrás quedan dos copas llenas, y más lejos corre un río cruzado por un puente que lleva a una casa.",
+  "upright": "El Cinco de Copas da espacio a la tristeza por algo que no salió como se esperaba. La carta no pide sacudírsela rápido; más bien reconoce que la pena es parte natural de lo vivido. Al mismo tiempo recuerda las dos copas que siguen en pie. Cuando estés listo, podrás darte la vuelta y ver lo que aún tienes.",
+  "reversed": "El Cinco invertido puede indicar que el proceso de asumir la pérdida ya ha empezado y aparece más suavidad. A veces, sin embargo, apunta a una tristeza escondida que necesita expresarse en un lugar seguro.",
+  "reflection": [
+   "¿Qué pena me permito sentir, y cuál evito?",
+   "¿Qué cosa valiosa sigue conmigo, pese a lo derramado?"
+  ],
+  "advice": "Permítete sentir pena, pero no te quedes en ella. Date la vuelta: no todo se ha perdido.",
+  "adviceReversed": "Empiezas a levantarte tras la pérdida. Céntrate en lo que queda y da el primer paso adelante.",
+  "astrology": "Agua · Marte en Escorpio"
+ },
+ {
+  "id": "cups_06",
+  "name": "Seis de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 6,
+  "keywords": [
+   "recuerdos",
+   "inocencia",
+   "amabilidad",
+   "infancia",
+   "sencillez"
+  ],
+  "symbolism": "En el patio de un pueblo antiguo, un niño le da a una niña una copa llena de flores blancas. A su alrededor hay más vasijas con flores, y al fondo se aleja un guardia, como si vigilara este lugar tranquilo.",
+  "upright": "El Seis de Copas evoca la calidez de los recuerdos y los gestos sencillos de amabilidad. Puede animarte a retomar el contacto con alguien del pasado o a recordar qué te hacía feliz antes. La carta habla de dar sin cálculo, como hacen los niños. Merece la pena ver qué alegrías antiguas podrían revivir hoy de otra forma.",
+  "reversed": "Invertida, la carta puede indicar un apego excesivo al pasado o una idealización de lo que ya fue. También puede animarte a quedarte con lo bueno de las viejas lecciones y seguir adelante.",
+  "reflection": [
+   "¿Qué recuerdo me da hoy sensación de calidez?",
+   "¿Hay algo del pasado que ahora puedo dejar a un lado con suavidad?"
+  ],
+  "advice": "Recurre a lo que fue bueno en el pasado: la sencillez, la amabilidad, una vieja amistad. Puede ayudarte ahora.",
+  "adviceReversed": "No vivas en los recuerdos. Lo que fue no volverá de la misma forma: es hora de mirar adelante.",
+  "astrology": "Agua · Sol en Escorpio"
+ },
+ {
+  "id": "cups_07",
+  "name": "Siete de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 7,
+  "keywords": [
+   "imaginación",
+   "elección",
+   "sueños",
+   "ilusiones",
+   "muchas posibilidades"
+  ],
+  "symbolism": "Una silueta oscura está ante siete copas que flotan entre las nubes. Cada una contiene algo distinto: una cabeza, una figura velada y luminosa, una serpiente, un castillo, joyas, una corona de laurel y un dragón, como si cada copa prometiera un futuro diferente.",
+  "upright": "El Siete de Copas muestra la riqueza de la imaginación y los muchos caminos que se pueden soñar. Es un espacio hermoso, pero en el que es fácil perderse. La carta te invita a distinguir lo que de verdad te mueve de lo que solo brilla. Un paso pequeño y concreto puede ayudarte a comprobar qué sueño tiene vida.",
+  "reversed": "El Siete invertido puede significar que la niebla se disipa y te resulta más fácil elegir. También puede indicar un exceso de opciones, cuando conviene estrechar el campo de visión.",
+  "reflection": [
+   "¿Cuál de mis sueños es de verdad mío, y cuáles he tomado de otros?",
+   "¿Qué paso pequeño me ayudaría a probar la posibilidad elegida?"
+  ],
+  "advice": "Tienes muchas posibilidades, pero no todas son reales. Elige una opción concreta y separa los sueños de los planes.",
+  "adviceReversed": "La niebla se disipa y ya ves lo importante. Toma ahora la decisión.",
+  "astrology": "Agua · Venus en Escorpio"
+ },
+ {
+  "id": "cups_08",
+  "name": "Ocho de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 8,
+  "keywords": [
+   "partir",
+   "búsqueda",
+   "sentido más profundo",
+   "cambio de rumbo",
+   "valor"
+  ],
+  "symbolism": "Una figura con capa roja, apoyada en un bastón, se aleja hacia montañas y agua bajo un cielo nocturno en el que la luna tiene rostro humano. Detrás quedan ocho copas cuidadosamente colocadas en dos filas, con un hueco visible en la de arriba.",
+  "upright": "El Ocho de Copas habla del momento en que lo construido ya no basta al corazón. No se trata de un fracaso, sino de una necesidad de sentido más profundo. La carta puede apoyar la decisión de dejar un hábito, un papel o una creencia que ya no te sirve. Irse puede ser aquí una forma de respeto por ti.",
+  "reversed": "Invertida, la carta puede indicar duda: querer el cambio y temer dejar lo conocido. También puede ser una señal para mirar una vez más lo que dejas antes de partir.",
+  "reflection": [
+   "¿Qué busco que no encuentro donde estoy ahora?",
+   "¿Qué puedo dejar atrás con gratitud en lugar de con pesar?"
+  ],
+  "advice": "Aléjate de lo que ya no te nutre. Hace falta valor, pero vas en busca de algo más profundo.",
+  "adviceReversed": "Dudas entre irte y quedarte. Comprueba si huyes o si de verdad buscas algo mejor.",
+  "astrology": "Agua · Saturno en Piscis"
+ },
+ {
+  "id": "cups_09",
+  "name": "Nueve de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 9,
+  "keywords": [
+   "satisfacción",
+   "plenitud",
+   "placer",
+   "gratitud",
+   "comodidad"
+  ],
+  "symbolism": "Un hombre satisfecho está sentado en un banco de madera, con los brazos cruzados y la cabeza un poco alta. Detrás, sobre una mesa curva cubierta con un paño azul, hay una fila ordenada de nueve copas.",
+  "upright": "El Nueve de Copas describe la sensación de que todo va bien y tus deseos se han cumplido, al menos en parte. Es una invitación a permitirte alegría sin culpa. La carta recuerda también que la satisfacción sabe mejor cuando es consciente y no solo una casilla marcada. Detente un momento en lo que ya ha salido bien.",
+  "reversed": "El Nueve invertido puede indicar una satisfacción superficial o dependiente de señales externas. A veces sugiere preguntarte qué quieres de verdad, y no qué se supone que debes tener.",
+  "reflection": [
+   "¿Qué me da una satisfacción verdadera y tranquila?",
+   "¿Me permito disfrutar de lo que he logrado?"
+  ],
+  "advice": "La respuesta es sí: tu deseo tiene buenas posibilidades de cumplirse. Disfrútalo y valora lo que ya tienes.",
+  "adviceReversed": "La satisfacción exterior no basta. Piensa qué quieres de verdad, no solo qué se supone que debes tener.",
+  "astrology": "Agua · Júpiter en Piscis"
+ },
+ {
+  "id": "cups_10",
+  "name": "Diez de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 10,
+  "keywords": [
+   "armonía",
+   "familia",
+   "cercanía",
+   "hogar",
+   "paz interior"
+  ],
+  "symbolism": "Una pareja abrazada alza los brazos hacia un arcoíris en cuyo arco brillan diez copas. A su lado bailan dos niños, y a lo lejos se ve una casita junto a un río entre colinas verdes.",
+  "upright": "El Diez de Copas habla de la sensación de un hogar emocional: un lugar o unas personas con quienes puedes ser tú. No tiene por qué ser una familia en sentido tradicional, sino cualquier comunidad basada en el cuidado. La carta te anima a valorar la armonía cotidiana, aunque no sea perfecta. Merece la pena pensar qué aportas tú a esa paz compartida.",
+  "reversed": "Invertida, la carta puede señalar la distancia entre la imagen de un hogar ideal y la realidad. Puede ser una invitación a hablar con sinceridad de lo que necesita cada uno de tus seres queridos.",
+  "reflection": [
+   "¿Dónde, y con quién, me siento de verdad en casa?",
+   "¿Qué puedo hacer hoy para dar más calidez a mi entorno?"
+  ],
+  "advice": "Apuesta por la cercanía y la armonía. Lo que construyes con tus seres queridos es ahora lo más importante: cuídalo.",
+  "adviceReversed": "Tras la imagen de la familia o la relación ideal hay tensión. Hablad con sinceridad de vuestras necesidades.",
+  "astrology": "Agua · Marte en Piscis"
+ },
+ {
+  "id": "cups_11",
+  "name": "Paje de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 11,
+  "keywords": [
+   "curiosidad",
+   "sensibilidad",
+   "intuición",
+   "sorpresa",
+   "impulso creativo"
+  ],
+  "symbolism": "Un joven con una túnica de estampado floral está a la orilla del mar y sostiene una copa de la que asoma un pececillo. Lo mira con curiosidad, como si mantuviera con él una conversación silenciosa, y detrás ruedan olas suaves.",
+  "upright": "El Paje de Copas es una invitación a jugar con tus sentimientos y tu imaginación. Puede aparecer una idea inesperada, un sueño o una impresión que merezca apuntarse. La carta anima a la apertura y a un poco de ingenuidad infantil, en el mejor sentido. No todo tiene que tener sentido enseguida para ser valioso.",
+  "reversed": "El Paje invertido puede sugerir que la sensibilidad se retiene por miedo al juicio. También puede indicar inestabilidad emocional, con la que ayuda una estructura suave del día.",
+  "reflection": [
+   "¿Qué idea o sentimiento me ha sorprendido últimamente?",
+   "¿Dónde puedo permitirme más juego creativo?"
+  ],
+  "advice": "Escucha tu intuición y ábrete a los mensajes emocionales. Una pequeña chispa sensible puede convertirse en algo.",
+  "adviceReversed": "La inmadurez emocional o la hipersensibilidad te estorban. No te tomes todo como algo personal.",
+  "astrology": "Agua"
+ },
+ {
+  "id": "cups_12",
+  "name": "Caballero de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 12,
+  "keywords": [
+   "romanticismo",
+   "propuesta",
+   "idealismo",
+   "suavidad",
+   "seguir al corazón"
+  ],
+  "symbolism": "Un caballero con armadura y pequeñas alas en el casco y los talones avanza despacio en un caballo blanco, sosteniendo una copa ante sí como un regalo. Su caballo camina tranquilo, y al fondo corre un río y se alzan colinas suaves.",
+  "upright": "El Caballero de Copas lleva la energía de un corazón que quiere actuar. Puede significar una invitación, un gesto de cariño o un proyecto creativo llevado con pasión. La carta subraya el valor de la suavidad y la sinceridad en lo que ofreces. Conviene comprobar, eso sí, que tus ideales tengan también los pies en la tierra.",
+  "reversed": "El Caballero invertido puede indicar demasiado ensueño, o estados de ánimo que cambian de rumbo de un día para otro. También puede ser una señal para no prometer nada antes de sentir que es realista.",
+  "reflection": [
+   "¿Qué me gustaría ofrecer a alguien de todo corazón?",
+   "¿Están mis ideales anclados en el día a día?"
+  ],
+  "advice": "Sigue tu corazón: haz la propuesta, expresa tus sentimientos. El romanticismo y la sinceridad están ahora de tu parte.",
+  "adviceReversed": "No te dejes llevar por el idealismo. Comprueba que las promesas van acompañadas de hechos.",
+  "astrology": "Agua"
+ },
+ {
+  "id": "cups_13",
+  "name": "Reina de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 13,
+  "keywords": [
+   "empatía",
+   "intuición",
+   "cuidado",
+   "profundidad de sentimientos",
+   "calma"
+  ],
+  "symbolism": "La reina está sentada en un trono situado al borde del agua, con los pies casi tocándola. En las manos sostiene una copa cerrada y ricamente adornada, con asas en forma de ángeles, y la contempla pensativa; el trono está decorado con figuras de niños marinos y conchas.",
+  "upright": "La Reina de Copas encarna una sensibilidad madura, capaz de compadecerse sin perderse. La carta te anima a confiar en tus presentimientos y a darte tiempo para escuchar lo que pasa dentro de ti. También puede señalar a una persona junto a la que los demás se sienten seguros. Tu empatía es valiosa, sobre todo cuando te incluye a ti.",
+  "reversed": "Invertida, la carta puede significar asumir las emociones ajenas como propias o perder los límites. Puede ser una invitación a cuidar primero tus propias aguas interiores.",
+  "reflection": [
+   "¿Qué me dice hoy mi intuición?",
+   "¿Cómo puedo apoyar a otros sin perderme?"
+  ],
+  "advice": "Déjate guiar por la empatía, hacia los demás y hacia ti. Tu intuición te lleva bien.",
+  "adviceReversed": "Das demasiado a los demás y demasiado poco a ti. Pon límites emocionales sanos.",
+  "astrology": "Agua"
+ },
+ {
+  "id": "cups_14",
+  "name": "Rey de Copas",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 14,
+  "keywords": [
+   "equilibrio emocional",
+   "madurez",
+   "calma",
+   "diplomacia",
+   "serenidad"
+  ],
+  "symbolism": "El rey está sentado en un trono de piedra que parece flotar sobre un mar agitado. En una mano tiene una copa, en la otra un cetro; lleva al cuello un colgante con forma de pez, y al fondo navega un barco y salta del agua una criatura marina.",
+  "upright": "El Rey de Copas muestra que se puede sentir con profundidad y mantener la calma a la vez. Es la energía de alguien que no reprime las emociones, sino que las entiende y las maneja con sabiduría. La carta anima a un liderazgo suave y a conversaciones llevadas con amabilidad. A tu alrededor puede haber tormenta, y tú puedes seguir siendo tu propia isla.",
+  "reversed": "El Rey invertido puede indicar emociones controladas con demasiada rigidez que buscan salida. A veces es una señal para permitirte más sinceridad contigo.",
+  "reflection": [
+   "¿Cómo reacciono ante las olas emocionales de mi entorno?",
+   "¿De qué manera puedo ser para alguien un apoyo tranquilo y amable?"
+  ],
+  "advice": "Mantén la calma y la madurez. Domina tus emociones sin reprimirlas: esa es la clave de una buena decisión.",
+  "adviceReversed": "Las emociones toman el control, o están bajo llave. Encuentra una forma segura de expresarlas.",
+  "astrology": "Agua"
+ },
+ {
+  "id": "swords_01",
+  "name": "As de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 1,
+  "keywords": [
+   "claridad",
+   "verdad",
+   "avance decisivo",
+   "idea nueva",
+   "decisión"
+  ],
+  "symbolism": "Una mano sale de una nube empuñando una espada vertical cuya hoja atraviesa una corona. De la corona cuelgan ramas de olivo y de palma, caen pequeñas chispas alrededor, y abajo se extienden picos rocosos escarpados.",
+  "upright": "El As de Espadas trae un momento de claridad, cuando los pensamientos encajan de pronto en una imagen nítida. Puede ser una idea nueva, la comprensión de la situación o la disposición a llamar a las cosas por su nombre. La carta te anima a ser sincero contigo y a decir la verdad con reflexión. La claridad es una herramienta que sirve mejor unida a la amabilidad.",
+  "reversed": "El As invertido puede indicar pensamientos que dan vueltas sin rumbo, o una verdad que aún no quieres oír. También puede ser una señal para frenar antes de que se digan palabras cortantes demasiado deprisa.",
+  "reflection": [
+   "¿Qué se me ha aclarado últimamente?",
+   "¿Cómo puedo expresar mi verdad con respeto hacia los demás?"
+  ],
+  "advice": "Di la verdad y piensa con claridad. Un avance está cerca: una decisión bien dirigida cortará la confusión.",
+  "adviceReversed": "Tus pensamientos están enredados. Antes de decidir, reúne los hechos y sepáralos de tus preocupaciones.",
+  "astrology": "Aire — raíz del elemento"
+ },
+ {
+  "id": "swords_02",
+  "name": "Dos de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 2,
+  "keywords": [
+   "punto muerto",
+   "deliberación",
+   "calma interior",
+   "elección difícil",
+   "protección"
+  ],
+  "symbolism": "Una mujer con túnica blanca está sentada en un banco con los ojos vendados, sosteniendo dos espadas cruzadas sobre el pecho. Detrás se extiende un agua salpicada de rocas, y en el cielo se ve una fina media luna.",
+  "upright": "El Dos de Espadas describe un momento en que una elección parece difícil y la mente busca equilibrio. La venda puede significar el deseo de aislarse del caos para oír la propia voz. La carta permite un momento de reflexión, pero recuerda que el punto muerto no tiene por qué durar siempre. A veces basta quitarse la venda y mirar los hechos.",
+  "reversed": "Invertida, la carta puede indicar una tensión que por fin exige una decisión, o un exceso de información. También puede ser señal de que ya te sientes preparado para desbloquear la situación.",
+  "reflection": [
+   "¿Ante qué elección estoy detenido ahora?",
+   "¿Qué necesito saber para sentirme más seguro?"
+  ],
+  "advice": "Evitas una decisión tapándote los ojos. Quítate la venda: mira los hechos y elige.",
+  "adviceReversed": "La tensión crece y ya no puedes esperar. Toma una decisión, aunque sea imperfecta.",
+  "astrology": "Aire · Luna en Libra"
+ },
+ {
+  "id": "swords_03",
+  "name": "Tres de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 3,
+  "keywords": [
+   "pena",
+   "herida",
+   "reconocer el dolor",
+   "liberación",
+   "sinceridad con uno mismo"
+  ],
+  "symbolism": "Un corazón rojo atravesado por tres espadas flota ante nubes grises de las que cae lluvia. La imagen es sencilla y austera, sin figuras, como si concentrara toda la atención en un solo sentimiento.",
+  "upright": "El Tres de Espadas habla de un dolor que vale la pena reconocer en lugar de esconder. Puede referirse a una decepción, a palabras hirientes o a una sensación de pérdida, pero no decide nada definitivo. La lluvia de la carta es también una imagen de limpieza: las lágrimas pueden aliviar. Nombrar lo que duele suele ser el primer paso hacia la curación emocional.",
+  "reversed": "El Tres invertido puede indicar que la herida se cura poco a poco y vuelve la calma. A veces, sin embargo, apunta a una tristeza reprimida que necesita una conversación con alguien de confianza.",
+  "reflection": [
+   "¿Qué dolor necesita hoy mi reconocimiento?",
+   "¿Qué me ayuda a atravesar con suavidad los sentimientos difíciles?"
+  ],
+  "advice": "Reconoce el dolor en lugar de esconderlo. Permítete vivir la tristeza: es el primer paso para sanar.",
+  "adviceReversed": "La herida empieza a cerrarse. Déjala: deja de volver con el pensamiento a lo que dolió.",
+  "astrology": "Aire · Saturno en Libra"
+ },
+ {
+  "id": "swords_04",
+  "name": "Cuatro de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 4,
+  "keywords": [
+   "descanso",
+   "recuperación",
+   "silencio",
+   "contemplación",
+   "pausa"
+  ],
+  "symbolism": "La figura tallada de un caballero reposa sobre una tumba de piedra en una iglesia, con las manos juntas en oración. Sobre él, en la pared, cuelgan tres espadas apuntando hacia abajo, una cuarta yace horizontal bajo él, y una vidriera muestra una escena con figuras.",
+  "upright": "El Cuatro de Espadas te invita a detenerte y dar descanso a la mente. Tras un periodo de tensión, el silencio no es tiempo perdido, sino una forma de recuperar fuerzas. La carta anima a la calma, a la reflexión o simplemente a una pausa más larga de los estímulos. Lo que dejes un rato te esperará.",
+  "reversed": "Invertida, la carta puede indicar dificultad para soltar y estar siempre en alerta. También puede señalar que el descanso termina y vuelven poco a poco las ganas de actuar.",
+  "reflection": [
+   "¿Cuándo me permití por última vez un descanso de verdad?",
+   "¿Qué puedo dejar un rato para recuperar la claridad?"
+  ],
+  "advice": "Descansa. Antes del siguiente paso necesitas recuperarte y calma: no es tiempo perdido.",
+  "adviceReversed": "Tus fuerzas vuelven, y eso está bien. Pero no te lances enseguida al torbellino; vuelve poco a poco.",
+  "astrology": "Aire · Júpiter en Libra"
+ },
+ {
+  "id": "swords_05",
+  "name": "Cinco de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 5,
+  "keywords": [
+   "conflicto",
+   "límites",
+   "orgullo",
+   "el precio de ganar",
+   "retirada"
+  ],
+  "symbolism": "Un hombre con una leve sonrisa recoge espadas mientras dos figuras se alejan cabizbajas hacia el agua. Varias espadas yacen en el suelo, y nubes desgarradas cruzan el cielo.",
+  "upright": "El Cinco de Espadas pregunta por el precio de salirse con la suya. A veces ganar una discusión deja tras de sí frialdad y distancia. La carta te anima a pensar qué batallas merecen de verdad la pena. Retirarse no tiene por qué ser una derrota; puede ser una elección sabia.",
+  "reversed": "El Cinco invertido puede significar disposición a hacer las paces o a cerrar una vieja disputa. También puede indicar arrepentimiento por palabras que conviene corregir con calma.",
+  "reflection": [
+   "¿Hay alguna situación en la que me importa más ganar que comprender?",
+   "¿De qué disputa podría retirarme con dignidad?"
+  ],
+  "advice": "Piensa si esta victoria vale su precio. A veces es mejor dejar la discusión que perder la relación.",
+  "adviceReversed": "Es hora de terminar el conflicto. Tiende la mano, o márchate con dignidad.",
+  "astrology": "Aire · Venus en Acuario"
+ },
+ {
+  "id": "swords_06",
+  "name": "Seis de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 6,
+  "keywords": [
+   "transición",
+   "cambio",
+   "aguas más tranquilas",
+   "viaje",
+   "dejar atrás las dificultades"
+  ],
+  "symbolism": "Un barquero impulsa una barca con una pértiga; en ella va sentada una figura envuelta en una capa con un niño al lado. Seis espadas están clavadas en la barca; el agua está agitada a un lado y lisa al otro, y en el horizonte se perfila una orilla.",
+  "upright": "El Seis de Espadas describe un paso gradual de una época más dura hacia otra más tranquila. No todo queda atrás de golpe; algunos pensamientos viajan contigo. La carta recuerda que una transición puede ser silenciosa y lenta y aun así llevar adelante. Merece la pena valorar la ayuda que te permite seguir avanzando.",
+  "reversed": "Invertida, la carta puede indicar resistencia al cambio, o la sensación de volver siempre a la misma orilla. Puede animarte a comprobar qué guardas aún en la barca y qué podría quedarse atrás.",
+  "reflection": [
+   "¿De qué me alejo despacio, y hacia dónde voy?",
+   "¿Quién o qué me ayuda a atravesar esta etapa?"
+  ],
+  "advice": "Pasa a aguas más tranquilas. El cambio es necesario: deja atrás lo difícil.",
+  "adviceReversed": "El cambio es necesario, pero te resistes. Piensa qué te retiene en el sitio.",
+  "astrology": "Aire · Mercurio en Acuario"
+ },
+ {
+  "id": "swords_07",
+  "name": "Siete de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 7,
+  "keywords": [
+   "estrategia",
+   "astucia",
+   "motivos ocultos",
+   "independencia",
+   "evasión"
+  ],
+  "symbolism": "Un hombre sale de puntillas de un campamento de tiendas llevando cinco espadas en los brazos. Detrás quedan otras dos clavadas en el suelo, y él mira por encima del hombro con gesto satisfecho.",
+  "upright": "El Siete de Espadas te anima a mirar dónde actúas por tu cuenta y con qué medios. Puede ser una estrategia acertada, pero también la tentación de esquivar una conversación difícil. La carta pregunta por la sinceridad con los demás y contigo. A veces merece la pena detenerse a pensar qué te llevas de verdad y qué dejas atrás.",
+  "reversed": "El Siete invertido puede significar el deseo de salir del escondite y decir la verdad. También puede sugerir que intentas cargar con demasiado a la vez en lugar de pedir apoyo.",
+  "reflection": [
+   "¿Dónde elijo el atajo, y qué me lleva a hacerlo?",
+   "¿Hay algo que podría decir abiertamente?"
+  ],
+  "advice": "Actúa con inteligencia, pero con honestidad. Comprueba también que nadie juega sucio contigo.",
+  "adviceReversed": "Algo sale a la luz. Elige la sinceridad: esconderse cuesta más de lo que aporta.",
+  "astrology": "Aire · Luna en Acuario"
+ },
+ {
+  "id": "swords_08",
+  "name": "Ocho de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 8,
+  "keywords": [
+   "creencias limitantes",
+   "sensación de estar atrapado",
+   "miedo",
+   "una salida",
+   "perspectiva"
+  ],
+  "symbolism": "Una mujer con vestido largo está con los ojos vendados y los brazos atados sin apretar entre ocho espadas clavadas en un suelo pantanoso. Las espadas no la rodean del todo, y a lo lejos se alza un castillo sobre una colina.",
+  "upright": "El Ocho de Espadas muestra una situación en la que la limitación está tejida en gran parte de pensamientos. Las ataduras de la carta están flojas, y hay espacio entre las espadas. La carta te anima a comprobar qué creencias te mantienen en el sitio. Un pequeño movimiento, una pregunta o una conversación pueden resultar el comienzo de una salida.",
+  "reversed": "Invertida, la carta puede significar que la venda empieza a resbalar y ves más posibilidades. A veces, sin embargo, apunta a un miedo tan fuerte que conviene buscar el apoyo de alguien amable.",
+  "reflection": [
+   "¿Qué creencia sobre mí me mantiene en el sitio?",
+   "¿Cuál es el movimiento más pequeño que podría hacer hoy?"
+  ],
+  "advice": "La jaula está sobre todo en tu cabeza. Cuestiona la creencia que te limita: hay una salida.",
+  "adviceReversed": "Empiezas a liberarte del miedo. Sigue: cada paso será más fácil.",
+  "astrology": "Aire · Júpiter en Géminis"
+ },
+ {
+  "id": "swords_09",
+  "name": "Nueve de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 9,
+  "keywords": [
+   "ansiedad",
+   "pensamientos nocturnos",
+   "preocupación",
+   "sensibilidad",
+   "necesidad de consuelo"
+  ],
+  "symbolism": "Una figura está sentada en la cama a oscuras, con la cara oculta entre las manos. Nueve espadas cuelgan horizontales en la pared negra, la colcha está adornada con rosas y signos del zodiaco, y en el lateral de la cama hay tallada una escena de combate.",
+  "upright": "El Nueve de Espadas describe pensamientos que de noche parecen más grandes que de día. La ansiedad puede hacer mucho ruido, pero no siempre dice la verdad sobre la realidad. La carta te anima a escribir tus preocupaciones, nombrarlas y separar los hechos de lo que imaginas. Hablar con alguien cercano puede aliviarte más de lo que esperas.",
+  "reversed": "El Nueve invertido puede sugerir que la ansiedad empieza a ceder y tienes más distancia. También puede indicar preocupaciones guardadas en secreto, a las que les vendría bien decirse en voz alta.",
+  "reflection": [
+   "¿Cuál de mis preocupaciones es un hecho, y cuál imaginación?",
+   "¿Con quién puedo compartir lo que no me deja en paz?"
+  ],
+  "advice": "Tus miedos son más grandes que la realidad. Compártelos con alguien de confianza: a la luz del día se ven distintos.",
+  "adviceReversed": "Los peores miedos pierden fuerza. Permítete respirar, y cuida tu sueño y tu calma.",
+  "astrology": "Aire · Marte en Géminis"
+ },
+ {
+  "id": "swords_10",
+  "name": "Diez de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 10,
+  "keywords": [
+   "fin de una etapa",
+   "agotamiento",
+   "cierre",
+   "amanecer",
+   "nuevo comienzo"
+  ],
+  "symbolism": "Una figura yace boca abajo junto a un agua tranquila, con diez espadas clavadas en la espalda y un paño rojo sobre el cuerpo. El cielo encima es oscuro, pero cerca del horizonte se aclara en una franja dorada de amanecer.",
+  "upright": "El Diez de Espadas habla del momento en que una etapa termina y ya no se puede sostener. La imagen es fuerte, casi teatral, como para subrayar que no puede ir peor, así que puedes empezar a levantarte. La carta no anuncia una catástrofe; más bien te anima a reconocer tu agotamiento y soltar lo que ya ha cumplido su ciclo. En el horizonte ya amanece.",
+  "reversed": "Invertida, la carta puede significar levantarse poco a poco y recuperar fuerzas. También puede indicar aferrarse a algo que ya terminó, por miedo al vacío.",
+  "reflection": [
+   "¿Qué en mi vida ya ha terminado, aunque yo lo siga sosteniendo?",
+   "¿Cómo es mi amanecer cuando se cierre esta etapa?"
+  ],
+  "advice": "Es el fin de una etapa: no puede ir peor. Acéptalo y empieza de nuevo.",
+  "adviceReversed": "Te levantas poco a poco tras una época difícil. No vuelvas a lo que te hizo daño.",
+  "astrology": "Aire · Sol en Géminis"
+ },
+ {
+  "id": "swords_11",
+  "name": "Paje de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 11,
+  "keywords": [
+   "mente curiosa",
+   "atención",
+   "preguntas",
+   "aprendizaje",
+   "mirada fresca"
+  ],
+  "symbolism": "Una figura joven está en un alto desigual y ventoso, sosteniendo con ambas manos una espada alzada. Las nubes corren por el cielo, los pájaros vuelan en círculo y la figura mira a un lado, como si escuchara.",
+  "upright": "El Paje de Espadas es la energía de una mente curiosa que quiere entender y hace preguntas. La carta anima a aprender, observar y reunir información antes de sacar conclusiones. También puede indicar una oleada de ideas nuevas o ganas de tomar la palabra. La atención vale cuando va unida a la apertura.",
+  "reversed": "El Paje invertido puede significar dispersión, palabras precipitadas o chismes. Puede ser una señal para comprobar tus fuentes antes de repetir nada.",
+  "reflection": [
+   "¿Qué me gustaría averiguar ahora?",
+   "¿Escucho, o solo espero mi turno para hablar?"
+  ],
+  "advice": "Haz preguntas y reúne información. Mantente atento antes de tomar una decisión.",
+  "adviceReversed": "Cuidado con los chismes y las palabras precipitadas. Habla menos, escucha más.",
+  "astrology": "Aire"
+ },
+ {
+  "id": "swords_12",
+  "name": "Caballero de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 12,
+  "keywords": [
+   "determinación",
+   "acción rápida",
+   "celo",
+   "franqueza",
+   "ímpetu"
+  ],
+  "symbolism": "Un caballero con armadura carga al galope en un caballo blanco, con la espada en alto. Los árboles del fondo se doblan con el viento, y la misma ráfaga violenta desgarra las nubes y arrastra a los pájaros.",
+  "upright": "El Caballero de Espadas lleva un fuerte impulso de actuar y de defender su postura. Una energía así ayuda a romper el estancamiento y a declarar con claridad las intenciones. La carta recuerda, sin embargo, que la rapidez no siempre va de la mano del buen juicio. Merece la pena comprobar si sabes hacia dónde corres.",
+  "reversed": "Invertida, la carta puede indicar una prisa que dispersa tus fuerzas, o palabras demasiado cortantes. También puede significar un celo contenido que necesita una meta clara.",
+  "reflection": [
+   "¿Hacia dónde corro, y es esa dirección la mía?",
+   "¿Cómo puedo defender mi postura con firmeza, pero sin un tono hiriente?"
+  ],
+  "advice": "Actúa con decisión y rapidez: sabes con claridad lo que quieres. Solo no atropelles a nadie por el camino.",
+  "adviceReversed": "La prisa y las palabras duras podrían hacer daño. Frena y piensa antes de lanzarte.",
+  "astrology": "Aire"
+ },
+ {
+  "id": "swords_13",
+  "name": "Reina de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 13,
+  "keywords": [
+   "independencia",
+   "perspicacia",
+   "sinceridad",
+   "límites",
+   "experiencia"
+  ],
+  "symbolism": "La reina está sentada de perfil en un trono adornado con mariposas, sosteniendo una espada vertical en la mano derecha. Alza la mano izquierda, abierta, como si invitara a alguien o indicara el camino, y sobre ella vuela un pájaro solitario en el cielo despejado.",
+  "upright": "La Reina de Espadas es una figura que ve con claridad y habla con franqueza, a menudo por lo que ha vivido. La carta te anima a confiar en tu propio juicio y a poner límites sin justificarte de más. Su perspicacia no excluye la calidez; la mano abierta muestra disposición al diálogo. La experiencia puede convertirse en fuente de sabiduría en lugar de amargura.",
+  "reversed": "La Reina invertida puede indicar una frialdad usada como escudo, o un juicio demasiado duro sobre ti y los demás. Puede animarte a unir la claridad de pensamiento con la suavidad.",
+  "reflection": [
+   "¿Dónde necesito poner un límite más claro?",
+   "¿Cómo pueden mis experiencias enseñarme en lugar de cerrarme?"
+  ],
+  "advice": "Habla claro y pon límites. La perspicacia y la independencia te ayudarán a ver el asunto con claridad.",
+  "adviceReversed": "No seas demasiado duro, ni contigo ni con los demás. La sinceridad no tiene por qué herir.",
+  "astrology": "Aire"
+ },
+ {
+  "id": "swords_14",
+  "name": "Rey de Espadas",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 14,
+  "keywords": [
+   "autoridad intelectual",
+   "objetividad",
+   "principios",
+   "justicia",
+   "pensamiento claro"
+  ],
+  "symbolism": "El rey está sentado de frente en un trono alto, sosteniendo una espada algo inclinada respecto a la vertical. El respaldo del trono está adornado con mariposas y medias lunas, y detrás se ven algunos árboles y dos pájaros contra las nubes.",
+  "upright": "El Rey de Espadas encarna una mente que sopesa argumentos y se guía por principios. La carta anima a mirar la situación con imparcialidad y a decidir basándote en hechos. Es la energía de una comunicación responsable y meditada. La sabiduría aparece cuando la lógica sirve a las personas, y no solo a tener razón.",
+  "reversed": "Invertida, la carta puede significar convicciones rígidas, o el uso de argumentos para dominar a otros. También puede indicar un caos interior de pensamientos que necesita orden.",
+  "reflection": [
+   "¿Se basa mi decisión en hechos, o en miedos?",
+   "¿Cómo puedo unir los principios con la comprensión?"
+  ],
+  "advice": "Déjate guiar por la razón y los principios. Un análisis frío y objetivo dará el mejor resultado.",
+  "adviceReversed": "La lógica sola no basta. Ten en cuenta a las personas y las emociones a las que afecta la decisión.",
+  "astrology": "Aire"
+ },
+ {
+  "id": "pentacles_01",
+  "name": "As de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 1,
+  "keywords": [
+   "nueva oportunidad",
+   "arraigo",
+   "abundancia",
+   "lo concreto",
+   "potencial"
+  ],
+  "symbolism": "Una mano sale de una nube sosteniendo un gran oro dorado con una estrella de cinco puntas. Debajo se extiende un jardín lleno de lirios blancos, y un camino lleva a una puerta en un seto, tras el que se alzan montañas.",
+  "upright": "El As de Oros habla de la semilla de algo tangible: una nueva ocupación, una habilidad o un ritmo diario más sano. La carta te anima a valorar lo que es real y está disponible aquí y ahora. El potencial se vuelve algo duradero cuando se rodea de cuidado paciente. La puerta del jardín está abierta, pero tienes que cruzarla tú.",
+  "reversed": "El As invertido puede indicar una oportunidad que aún no ha madurado, o dificultad para convertir los planes en acción. Puede ser una señal para volver a lo básico y comprobar dónde estás.",
+  "reflection": [
+   "¿Qué semilla me gustaría plantar en mi día a día?",
+   "¿Qué puedo hacer en concreto para cuidar mis recursos?"
+  ],
+  "advice": "Aparece una oportunidad concreta: aprovéchala. Siembra la semilla invirtiendo tiempo, trabajo o dinero en algo duradero.",
+  "adviceReversed": "La oportunidad podría escaparse. Comprueba que planificas bien antes de invertir.",
+  "astrology": "Tierra — raíz del elemento"
+ },
+ {
+  "id": "pentacles_02",
+  "name": "Dos de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 2,
+  "keywords": [
+   "malabarismo",
+   "flexibilidad",
+   "equilibrio",
+   "prioridades",
+   "ritmo"
+  ],
+  "symbolism": "Un joven con un sombrero alto baila mientras hace malabares con dos oros unidos por una cinta en forma de ocho tumbado. Detrás, dos barcos se balancean sobre olas altas.",
+  "upright": "El Dos de Oros muestra el arte de mantener el equilibrio entre distintas obligaciones. La vida puede parecer un baile sobre una ola cambiante, y tú aprendes a moverte a su ritmo. La carta anima a la ligereza, pero también a mirar con sinceridad cuánto puedes llevar a la vez. La flexibilidad es una fuerza mientras no te quite el aliento.",
+  "reversed": "Invertida, la carta puede indicar demasiadas cosas en el aire y una sensación de sobrecarga. También puede animarte a dejar una de las bolas y decidir qué es lo más importante.",
+  "reflection": [
+   "¿Cuántas cosas intento mantener en el aire a la vez?",
+   "¿Qué podría dejar para recuperar la ligereza?"
+  ],
+  "advice": "Haces malabares con muchas cosas, y te las arreglas. Mantente flexible y fija tus prioridades.",
+  "adviceReversed": "Demasiado a la vez. Renuncia a algo antes de que algo se caiga.",
+  "astrology": "Tierra · Júpiter en Capricornio"
+ },
+ {
+  "id": "pentacles_03",
+  "name": "Tres de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 3,
+  "keywords": [
+   "cooperación",
+   "oficio",
+   "reconocimiento",
+   "plan",
+   "construir juntos"
+  ],
+  "symbolism": "En un interior gótico, un artesano subido a un banco trabaja en el arco de una bóveda. A su lado, dos figuras, una con hábito de monje y otra con un plano desplegado, comentan el avance de la obra, y sobre ellos hay tres oros tallados en la piedra.",
+  "upright": "El Tres de Oros destaca el valor de una cooperación en la que cada uno aporta su propio oficio. La carta te anima a compartir conocimientos y a escuchar a quienes ven las cosas desde otra perspectiva. Valorar el trabajo ajeno y el propio construye resultados duraderos. Es un buen momento para preguntarse cómo hacer algo mejor juntos.",
+  "reversed": "El Tres invertido puede señalar falta de coordinación en un equipo, o la sensación de que tu aportación pasa desapercibida. Puede animar a una conversación clara sobre papeles y expectativas.",
+  "reflection": [
+   "¿Con quién podría construir algo juntos?",
+   "¿Valoro mi propia aportación tanto como la de los demás?"
+  ],
+  "advice": "Trabaja en equipo. Tus habilidades unidas a las de otros darán un resultado sólido: pide apoyo u opinión.",
+  "adviceReversed": "La cooperación no funciona. Acordad con claridad quién se ocupa de qué.",
+  "astrology": "Tierra · Marte en Capricornio"
+ },
+ {
+  "id": "pentacles_04",
+  "name": "Cuatro de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 4,
+  "keywords": [
+   "seguridad",
+   "control",
+   "retener",
+   "estabilidad",
+   "prudencia"
+  ],
+  "symbolism": "Un hombre coronado está sentado en un banco de piedra, apretando con fuerza un oro contra el pecho. Otro oro descansa sobre su corona, sujeta dos con los pies, y detrás se extiende una ciudad.",
+  "upright": "El Cuatro de Oros habla de una necesidad de estabilidad y de proteger lo que tienes. Preocuparse por la seguridad es natural e importante. La carta te anima, sin embargo, a comprobar si te aferras solo a lo valioso o también a lo que solo ocupa espacio. A veces una mano abierta da más paz que un puño cerrado.",
+  "reversed": "Invertida, la carta puede indicar que se afloja un agarre firme y aparece la disposición a compartir. También puede significar oscilar entre demasiada prudencia y desprenderse demasiado rápido.",
+  "reflection": [
+   "¿A qué me aferro por miedo más que por necesidad?",
+   "¿Qué me da sensación de seguridad aparte de las cosas materiales?"
+  ],
+  "advice": "Protege lo que tienes, pero no aprietes demasiado el puño. Seguridad no es lo mismo que control.",
+  "adviceReversed": "Es hora de abrirte: compartir, gastar, soltar. Retener bloquea el flujo.",
+  "astrology": "Tierra · Sol en Capricornio"
+ },
+ {
+  "id": "pentacles_05",
+  "name": "Cinco de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 5,
+  "keywords": [
+   "tiempos difíciles",
+   "sentirse excluido",
+   "apoyo",
+   "perseverancia",
+   "pedir ayuda"
+  ],
+  "symbolism": "Dos figuras avanzan con esfuerzo por la nieve en una noche de invierno; una se apoya en muletas, la otra se envuelve en un chal raído. Pasan junto a una vidriera muy iluminada con cinco oros, al parecer sin verla.",
+  "upright": "El Cinco de Oros describe un periodo en el que puedes sentirte a la intemperie. La carta reconoce la dificultad, pero recuerda que las figuras caminan juntas, no solas. La luz de la ventana sugiere que el apoyo suele estar más cerca de lo que parece. Pedir ayuda no es debilidad, sino una forma de cuidarte.",
+  "reversed": "El Cinco invertido puede significar salir poco a poco de una época difícil y recuperar la sensación de pertenencia. También puede indicar dificultad para aceptar un apoyo que está disponible.",
+  "reflection": [
+   "¿Dónde puedo pedir el apoyo que necesito?",
+   "¿Quién camina a mi lado en los momentos más duros?"
+  ],
+  "advice": "Los tiempos difíciles no duran para siempre. Pide ayuda: el apoyo está más cerca de lo que crees.",
+  "adviceReversed": "Lo peor está pasando. Acepta la ayuda que alguien te ofrece.",
+  "astrology": "Tierra · Mercurio en Tauro"
+ },
+ {
+  "id": "pentacles_06",
+  "name": "Seis de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 6,
+  "keywords": [
+   "generosidad",
+   "compartir",
+   "equilibrio",
+   "intercambio",
+   "gratitud"
+  ],
+  "symbolism": "Un mercader rico sostiene una balanza en una mano y con la otra da monedas a uno de los dos mendigos arrodillados. Sobre la escena flotan seis oros.",
+  "upright": "El Seis de Oros habla de un flujo: a veces das, a veces recibes. La carta anima a una generosidad que no humilla y a aceptar ayuda sin vergüenza. La balanza en la mano del mercader recuerda la justicia y la medida. Merece la pena pensar dónde es justo el intercambio en tu vida y dónde necesita un ajuste.",
+  "reversed": "Invertida, la carta puede indicar un desequilibrio, por ejemplo dar por obligación, o una ayuda con condiciones. Puede animarte a replantear los límites en las relaciones basadas en el apoyo.",
+  "reflection": [
+   "¿Me resulta más fácil dar o recibir?",
+   "¿Dónde necesita más equilibrio el intercambio en mi vida?"
+  ],
+  "advice": "Da y recibe con equilibrio. La generosidad volverá a ti, pero no olvides recibir también.",
+  "adviceReversed": "Comprueba que el intercambio es justo. Una ayuda con obligaciones puede pesarte.",
+  "astrology": "Tierra · Luna en Tauro"
+ },
+ {
+  "id": "pentacles_07",
+  "name": "Siete de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 7,
+  "keywords": [
+   "paciencia",
+   "evaluar el progreso",
+   "crecimiento",
+   "invertir tiempo",
+   "pausa"
+  ],
+  "symbolism": "Un agricultor se apoya en la azada y mira un arbusto en el que han crecido siete oros entre las hojas. Su postura expresa cansancio y reflexión, como si midiera cuánto ha rendido su trabajo hasta ahora.",
+  "upright": "El Siete de Oros es un momento de pausa para mirar lo que ya ha crecido. El crecimiento puede ser lento y no siempre se ve de un día para otro. La carta anima a la paciencia y a valorar con sinceridad si la dirección aún te conviene. Descansar a mitad del trabajo forma parte del cultivo.",
+  "reversed": "El Siete invertido puede indicar impaciencia, o la sensación de que tu esfuerzo no da los resultados esperados. Puede ser una invitación a cambiar de método en lugar de rendirte.",
+  "reflection": [
+   "¿Qué ha crecido ya gracias a mi trabajo, aunque no lo haya notado?",
+   "¿Sigue siendo la dirección que llevo la adecuada para mí?"
+  ],
+  "advice": "Ten paciencia: la cosecha está creciendo. Valora lo que funciona e invierte donde ves crecimiento.",
+  "adviceReversed": "El esfuerzo no compensa. Cambia de método en lugar de trabajar aún más duro de la misma forma.",
+  "astrology": "Tierra · Saturno en Tauro"
+ },
+ {
+  "id": "pentacles_08",
+  "name": "Ocho de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 8,
+  "keywords": [
+   "maestría",
+   "práctica",
+   "concentración",
+   "diligencia",
+   "aprender un oficio"
+  ],
+  "symbolism": "Un artesano sentado en su banco de trabajo termina con paciencia otro oro con un cincel. Los discos acabados cuelgan uno sobre otro en un poste de madera, uno está a sus pies, y a lo lejos se ven los edificios de una ciudad.",
+  "upright": "El Ocho de Oros describe la alegría de mejorar a través de la repetición y la concentración. La carta valora el trabajo bien hecho, aunque nadie esté mirando. Puede animarte a aprender una habilidad nueva o a profundizar en la que ya tienes. La maestría nace de pasos pequeños y cotidianos.",
+  "reversed": "Invertida, la carta puede indicar un perfeccionismo que quita el gusto por el trabajo, o una rutina sin implicación. Puede animarte a recordar por qué aprendes.",
+  "reflection": [
+   "¿Qué habilidad me gustaría desarrollar paso a paso?",
+   "¿Trabajo con implicación, o solo por obligación?"
+  ],
+  "advice": "Céntrate en el oficio y practica. El trabajo constante y la atención al detalle darán resultados.",
+  "adviceReversed": "El perfeccionismo o la rutina te frenan. Recuerda por qué lo haces.",
+  "astrology": "Tierra · Sol en Virgo"
+ },
+ {
+  "id": "pentacles_09",
+  "name": "Nueve de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 9,
+  "keywords": [
+   "autosuficiencia",
+   "prosperidad",
+   "refinamiento",
+   "independencia",
+   "valorarse"
+  ],
+  "symbolism": "Una mujer con un vestido adornado con flores está en un viñedo lleno de uvas maduras y nueve oros. Un halcón encapuchado está posado en su mano enguantada, y un pequeño caracol se arrastra por la hierba a sus pies.",
+  "upright": "El Nueve de Oros habla de la satisfacción por lo que has construido con tu propio esfuerzo y paciencia. La carta te anima a disfrutar de un momento de calma y a valorar tu independencia. El halcón encapuchado recuerda el autocontrol y la capacidad de esperar. Puedes permitirte un pequeño placer sin tener que justificarlo.",
+  "reversed": "El Nueve invertido puede indicar dependencia del reconocimiento externo, o una soledad escondida tras una apariencia de autosuficiencia. Puede ser una invitación a compartir tu jardín con otros.",
+  "reflection": [
+   "¿De qué que he construido por mí mismo estoy orgulloso?",
+   "¿Cómo puedo disfrutar de lo que tengo sin compararme?"
+  ],
+  "advice": "Disfruta de los frutos de tu trabajo. Tienes todo el derecho a la independencia y a un poco de lujo.",
+  "adviceReversed": "Comprueba que tu independencia no sea soledad. Deja que alguien se acerque.",
+  "astrology": "Tierra · Venus en Virgo"
+ },
+ {
+  "id": "pentacles_10",
+  "name": "Diez de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 10,
+  "keywords": [
+   "legado",
+   "permanencia",
+   "generaciones juntas",
+   "raíces",
+   "el largo plazo"
+  ],
+  "symbolism": "Bajo un arco está sentado un anciano canoso con una rica capa, acariciando a dos perros blancos. A su lado hay una mujer joven, un hombre y un niño, y los diez oros están dispuestos en la imagen en forma de árbol ramificado; al fondo se ven los muros de una casa señorial y escudos.",
+  "upright": "El Diez de Oros dirige la atención a lo que dura más que una vida: historias familiares, tradiciones, valores y lugares compartidos. La carta te anima a pensar en lo que heredas y en lo que quieres transmitir. También habla de una sensación de arraigo y de una estabilidad construida a lo largo de los años. Los gestos cotidianos de cuidado se convierten con el tiempo en un legado.",
+  "reversed": "Invertida, la carta puede indicar tensiones en torno a las expectativas familiares, o la sensación de que las tradiciones te limitan. Puede animarte a elegir conscientemente qué quieres conservar de tu herencia.",
+  "reflection": [
+   "¿Qué valores he recibido de generaciones anteriores?",
+   "¿Qué me gustaría dejar para otros?"
+  ],
+  "advice": "Piensa a largo plazo. Construye algo duradero, para ti y para quienes vengan después.",
+  "adviceReversed": "Los asuntos familiares o económicos necesitan orden. No aplaces las conversaciones difíciles.",
+  "astrology": "Tierra · Mercurio en Virgo"
+ },
+ {
+  "id": "pentacles_11",
+  "name": "Paje de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 11,
+  "keywords": [
+   "aprendizaje",
+   "curiosidad",
+   "habilidades nuevas",
+   "concentración",
+   "un sueño práctico"
+  ],
+  "symbolism": "Una figura joven está en un prado verde, sosteniendo con solemnidad un oro y contemplándolo. Detrás se extienden un campo arado y algunos árboles, y el horizonte es tranquilo y amplio.",
+  "upright": "El Paje de Oros es la energía de un aprendiz que aborda el mundo con curiosidad y seriedad a la vez. La carta anima a aprender, experimentar y dar los primeros pasos en algo práctico. Las ideas toman forma cuando les dedicas atención día tras día. No tienes que saber hacerlo todo enseguida.",
+  "reversed": "El Paje invertido puede indicar que se aplaza el comienzo, o falta de concentración pese a las buenas intenciones. Puede ser una señal para elegir una sola cosa y empezar con un paso pequeño.",
+  "reflection": [
+   "¿Qué cosa práctica me gustaría aprender?",
+   "¿Qué primer paso pequeño puedo dar esta semana?"
+  ],
+  "advice": "Aprende. Una habilidad nueva o un curso práctico te abrirán camino: empieza por lo básico.",
+  "adviceReversed": "Empieza de una vez, en lugar de solo planear aprender. Basta un paso pequeño y regular.",
+  "astrology": "Tierra"
+ },
+ {
+  "id": "pentacles_12",
+  "name": "Caballero de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 12,
+  "keywords": [
+   "perseverancia",
+   "método",
+   "responsabilidad",
+   "rutina",
+   "fiabilidad"
+  ],
+  "symbolism": "Un caballero con armadura oscura está montado en un caballo robusto, completamente quieto, y sostiene un oro ante sí. Detrás se extiende un campo arado, y ramitas verdes adornan su casco y la cabeza del caballo.",
+  "upright": "El Caballero de Oros muestra la fuerza que nace de la perseverancia y la constancia. No es el más rápido, pero llega a su meta paso a paso. La carta te anima a valorar una rutina que construye y la responsabilidad por los compromisos adquiridos. Un ritmo lento suele ser el camino más seguro.",
+  "reversed": "Invertida, la carta puede indicar estancamiento en una rutina que ya no te sirve, o demasiada prudencia. Puede ser una invitación a dar un poco de frescura a tus hábitos diarios.",
+  "reflection": [
+   "¿Qué hábito diario me apoya de verdad?",
+   "¿Dónde se convierte mi prudencia en estancamiento?"
+  ],
+  "advice": "Trabaja con constancia y método. Despacio pero seguro llegarás a la meta: no tomes atajos.",
+  "adviceReversed": "Demasiado prudente, o demasiado monótono. Añade un poco de movimiento y cambio a la rutina.",
+  "astrology": "Tierra"
+ },
+ {
+  "id": "pentacles_13",
+  "name": "Reina de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 13,
+  "keywords": [
+   "cuidado",
+   "sabiduría práctica",
+   "hogar",
+   "naturaleza",
+   "ingenio"
+  ],
+  "symbolism": "La reina está sentada en un trono en un jardín lleno de rosas en flor, sosteniendo un oro y mirándolo con ternura. El trono está adornado con frutas talladas y cabezas de cabra, y en la esquina inferior de la imagen se agazapa un conejo.",
+  "upright": "La Reina de Oros encarna la calidez unida al sentido práctico. La carta te anima a cuidar tu entorno, tu cuerpo y tu ritmo diario de una forma que te dé sensación de arraigo. Habla de crear un espacio en el que tú y los demás os sintáis bien. Cuidarte importa aquí tanto como cuidar a tus seres queridos.",
+  "reversed": "Invertida, la carta puede indicar descuidarte mientras cuidas demasiado a los demás, o un apego excesivo al orden. Puede animarte a encontrar el equilibrio entre dar y descansar.",
+  "reflection": [
+   "¿Cómo puedo cuidar hoy mi espacio y el ritmo de mi día?",
+   "¿Me cuido con la misma ternura con que cuido a los demás?"
+  ],
+  "advice": "Ocúpate de lo básico en lo práctico: hogar, salud, presupuesto. Cuidar lo concreto te dará tranquilidad.",
+  "adviceReversed": "Cuidas de todos menos de ti. Busca tiempo y recursos para ti.",
+  "astrology": "Tierra"
+ },
+ {
+  "id": "pentacles_14",
+  "name": "Rey de Oros",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 14,
+  "keywords": [
+   "estabilidad",
+   "madurez",
+   "responsabilidad",
+   "generosidad",
+   "liderazgo práctico"
+  ],
+  "symbolism": "El rey está sentado en un trono adornado con cabezas de toro talladas, con un manto densamente cubierto por un estampado de vides y uvas. En una mano tiene un cetro, en la otra un oro, y detrás se alzan los muros de un castillo.",
+  "upright": "El Rey de Oros muestra una estabilidad madura, construida con paciencia y responsabilidad. La carta te anima a mirar con gratitud lo que has logrado crear y a pensar cómo podría servir también a otros. Es la energía de alguien capaz de crear condiciones seguras para sí y para su entorno. La verdadera riqueza incluye también el tiempo, las relaciones y la paz.",
+  "reversed": "El Rey invertido puede indicar una atención excesiva al control, o medir el valor solo por las posesiones. Puede ser una invitación a recordar para qué sirve lo que estás construyendo.",
+  "reflection": [
+   "¿Qué considero mi verdadera riqueza?",
+   "¿Cómo podría lo que he construido apoyar a otros?"
+  ],
+  "advice": "Apuesta por la estabilidad y las decisiones responsables. Actúa como quien construye para durar.",
+  "adviceReversed": "No dejes que el dinero o el estatus oculten lo importante. La seguridad no lo es todo.",
+  "astrology": "Tierra"
+ }
+]

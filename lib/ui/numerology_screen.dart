@@ -6,6 +6,7 @@ import '../engine/numerology.dart';
 import '../engine/tarot.dart';
 import 'astro_screens.dart';
 import 'tarot_screen.dart';
+import 'journal_screen.dart';
 import 'widgets.dart';
 
 /// Accepts "15.07.1990", "15-07-1990", "15071990" — digits only keyboard friendly.
@@ -119,7 +120,11 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
     final birth = s.birthDate;
     final showForm = birth == null || _editing;
     return Scaffold(
-      appBar: AppBar(title: Text(l.tabNumerology)),
+      appBar: AppBar(
+        title: Text(l.tabNumerology),
+        leadingWidth: topLeadingWidth,
+        leading: topLeading(context),
+      ),
       body: ListView(
         padding: pagePadding(context),
         children: [
@@ -162,7 +167,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
               inputFormatters: [DateMaskFormatter()],
               decoration: InputDecoration(
                 labelText: l.birthDate,
-                hintText: 'DD.MM.RRRR',
+                hintText: context.l.dateHint,
                 helperText: l.birthDateHelp,
                 errorText: _dateError,
               ),
@@ -264,6 +269,7 @@ List<NumerologyResult> profileResults(CalendarDate birth, String? name) {
   return [
     lifePath(birth),
     birthDay(birth),
+    personalDay(birth, CalendarDate.fromDateTime(now)),
     personalYear(birth, now.year),
     personalMonth(birth, now.year, now.month),
     if (n != null && n.isValid) ...[
@@ -275,16 +281,18 @@ List<NumerologyResult> profileResults(CalendarDate birth, String? name) {
   ];
 }
 
-/// Header for a saved profile: the three key numbers, large.
+/// Header for a saved profile: the three key numbers, large. In Numbers it offers editing;
+/// on Today it links to the full numerology instead.
 class ProfileNumbers extends StatelessWidget {
   final CalendarDate birth;
   final String? name;
-  final VoidCallback onEdit;
+  final VoidCallback? onEdit, onOpen;
   const ProfileNumbers(
     this.birth, {
     super.key,
     this.name,
-    required this.onEdit,
+    this.onEdit,
+    this.onOpen,
   });
 
   @override
@@ -329,11 +337,17 @@ class ProfileNumbers extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 8),
-          TextButton.icon(
-            icon: const Icon(Icons.edit_outlined),
-            onPressed: onEdit,
-            label: Text(l.editOrOther),
-          ),
+          if (onEdit != null)
+            TextButton.icon(
+              icon: const Icon(Icons.edit_outlined),
+              onPressed: onEdit,
+              label: Text(l.editOrOther),
+            ),
+          if (onOpen != null)
+            FilledButton.tonal(
+              onPressed: onOpen,
+              child: Text(l.fullNumerology),
+            ),
         ],
       ),
     );

@@ -1,0 +1,722 @@
+[
+ {
+  "symbol": "Achtervolgd worden",
+  "meaning": "Iets ontlopen wat je toch inhaalt.",
+  "reflection": "Wat zou er gebeuren als je je omdraaide en bleef staan?"
+ },
+ {
+  "symbol": "Appel",
+  "meaning": "Verleiding, kennis, gezondheid, de vrucht van je werk.",
+  "reflection": "Welke vrucht pluk je van je inspanningen?"
+ },
+ {
+  "symbol": "Auto",
+  "meaning": "Controle over de richting van je leven.",
+  "reflection": "Wie stuurt, jij of iemand anders?"
+ },
+ {
+  "symbol": "Bad",
+  "meaning": "Reiniging, herstel, zorg voor jezelf.",
+  "reflection": "Hoe kun je goed voor jezelf zorgen?"
+ },
+ {
+  "symbol": "Balkon",
+  "meaning": "Een blik van een afstand, de wens om je aan de wereld te tonen.",
+  "reflection": "Wat wil je van een grotere afstand zien?"
+ },
+ {
+  "symbol": "Bank",
+  "meaning": "Middelen, veiligheid, zorg voor wat je hebt opgebouwd.",
+  "reflection": "Waarop baseer je je gevoel van veiligheid?"
+ },
+ {
+  "symbol": "Beet",
+  "meaning": "Pijn door woorden, het gevoel aangevallen te worden.",
+  "reflection": "Wie of wat heeft je de laatste tijd gekwetst?"
+ },
+ {
+  "symbol": "Begraafplaats",
+  "meaning": "Afgesloten hoofdstukken, herinnering, afscheid.",
+  "reflection": "Wat is al voorbij en mag rusten?"
+ },
+ {
+  "symbol": "Begrafenis",
+  "meaning": "Het einde van een fase, afscheid van iets ouds.",
+  "reflection": "Wat is klaar om te gaan?"
+ },
+ {
+  "symbol": "Berg",
+  "meaning": "Uitdaging, doel, obstakel of een breder perspectief.",
+  "reflection": "Welke berg beklim je?"
+ },
+ {
+  "symbol": "Bijenkorf / bijen",
+  "meaning": "Vlijt, gemeenschap, vruchtbare samenwerking.",
+  "reflection": "Met wie vorm je een goed team?"
+ },
+ {
+  "symbol": "Bloed",
+  "meaning": "Levenskracht, familiebanden, verlies van energie.",
+  "reflection": "Wat neemt je krachten af?"
+ },
+ {
+  "symbol": "Bloemen",
+  "meaning": "Bloei, schoonheid, dankbaarheid, gevoelens.",
+  "reflection": "Wat bloeit er in je leven?"
+ },
+ {
+  "symbol": "Boom",
+  "meaning": "Groei, wortels, familie, stabiliteit.",
+  "reflection": "Waaruit put je kracht, zoals een boom uit zijn wortels?"
+ },
+ {
+  "symbol": "Boot",
+  "meaning": "Een reis door emoties, overgaan naar de overkant.",
+  "reflection": "Waarheen vaar je?"
+ },
+ {
+  "symbol": "Bos",
+  "meaning": "Het onbekende, natuur, intuïtie, soms verdwalen.",
+  "reflection": "Wat zoek je diep in het bos?"
+ },
+ {
+  "symbol": "Bos bij nacht",
+  "meaning": "Angst voor het onbekende, maar ook intuïtie.",
+  "reflection": "Waarop vertrouw je als je niets ziet?"
+ },
+ {
+  "symbol": "Brand",
+  "meaning": "Hevige emoties, crisis of transformatie.",
+  "reflection": "Wat vraagt dringend aandacht?"
+ },
+ {
+  "symbol": "Broer",
+  "meaning": "Rivaliteit, solidariteit of een eigenschap die je in hem ziet.",
+  "reflection": "Welke eigenschap van hem herken je in jezelf?"
+ },
+ {
+  "symbol": "Brug",
+  "meaning": "Overgang, begrip, verbinding van twee werelden.",
+  "reflection": "Welke twee zaken wil je verbinden?"
+ },
+ {
+  "symbol": "Bruiloft",
+  "meaning": "Verbinding, toewijding, twee delen van jezelf integreren.",
+  "reflection": "Wat wil je met jezelf verbinden?"
+ },
+ {
+  "symbol": "Bruiloftsfeest",
+  "meaning": "Vieren, verbinding, gemeenschap.",
+  "reflection": "Wat wil je vieren?"
+ },
+ {
+  "symbol": "Bus",
+  "meaning": "Een gezamenlijke weg met anderen, leven volgens andermans dienstregeling.",
+  "reflection": "Ga je waar jij heen wilt, of waar iedereen heen gaat?"
+ },
+ {
+  "symbol": "Cadeau",
+  "meaning": "Een verrassing, waardering, talent.",
+  "reflection": "Welke gave ontdek je in jezelf?"
+ },
+ {
+  "symbol": "Dakloosheid",
+  "meaning": "Gebrek aan houvast, het gevoel dat je geen eigen plek hebt.",
+  "reflection": "Waar voel je je echt thuis?"
+ },
+ {
+  "symbol": "Dans",
+  "meaning": "Vreugde, harmonie, expressie van het lichaam.",
+  "reflection": "Wanneer heb je jezelf voor het laatst vreugde gegund?"
+ },
+ {
+  "symbol": "Deur",
+  "meaning": "Een nieuwe mogelijkheid, een keuze, een overgang.",
+  "reflection": "Welke deur wil je openen en welke sluiten?"
+ },
+ {
+  "symbol": "Dieren",
+  "meaning": "De instincten en eigenschappen die je in je draagt.",
+  "reflection": "Van welk dier heb je gedroomd, en wat kenmerkt het?"
+ },
+ {
+  "symbol": "Dochter",
+  "meaning": "Jouw jongere, gevoelige kant of zorg voor de toekomst.",
+  "reflection": "Waar zorg je voor?"
+ },
+ {
+  "symbol": "Dood",
+  "meaning": "Het einde van een fase en het begin van een nieuwe, zelden letterlijk.",
+  "reflection": "Wat in je leven loopt ten einde?"
+ },
+ {
+  "symbol": "Doodskist",
+  "meaning": "Een afgesloten zaak, afscheid, angst voor het einde.",
+  "reflection": "Wat wil je waardig afsluiten?"
+ },
+ {
+  "symbol": "Doolhof",
+  "meaning": "Verdwaald zijn, de weg zoeken, een complexe situatie.",
+  "reflection": "Welke uitweg zoek je?"
+ },
+ {
+  "symbol": "Duisternis",
+  "meaning": "Het onbekende, angst of een ruimte die je nog niet begrijpt.",
+  "reflection": "Wat wil je nog niet zien?"
+ },
+ {
+  "symbol": "Eend",
+  "meaning": "Vrijheid om tussen werelden te bewegen, lichtheid.",
+  "reflection": "Waar heb je meer lichtheid nodig?"
+ },
+ {
+  "symbol": "Ei",
+  "meaning": "Potentieel, een begin, iets breekbaars om te beschermen.",
+  "reflection": "Wat breekbaars en veelbelovends bescherm je?"
+ },
+ {
+  "symbol": "Engel",
+  "meaning": "Behoefte aan zorg, steun of de overtuiging dat iemand over je waakt.",
+  "reflection": "Van wie of wat wil je vandaag steun?"
+ },
+ {
+  "symbol": "Ex-partner",
+  "meaning": "Onafgemaakte zaken of een eigenschap die je zoekt.",
+  "reflection": "Wat heeft die relatie je geleerd?"
+ },
+ {
+  "symbol": "Examen",
+  "meaning": "Beoordeling, angst om te falen, jezelf toetsen.",
+  "reflection": "Wie beoordeelt je echt: anderen of jij?"
+ },
+ {
+  "symbol": "Familie",
+  "meaning": "Wortels, banden, patronen die je meedraagt.",
+  "reflection": "Welk familiepatroon herhaal je?"
+ },
+ {
+  "symbol": "Fiets",
+  "meaning": "Evenwicht, zelf in beweging zijn, inspanning.",
+  "reflection": "Waar moet je je evenwicht vinden?"
+ },
+ {
+  "symbol": "Fles",
+  "meaning": "Opgesloten emoties, een boodschap om door te geven.",
+  "reflection": "Wat houd je dichtgekurkt?"
+ },
+ {
+  "symbol": "Geld",
+  "meaning": "Waarde, energie, gevoel van eigenwaarde.",
+  "reflection": "Hoeveel ben je volgens jou waard?"
+ },
+ {
+  "symbol": "Golf",
+  "meaning": "Sterke emoties die komen en gaan.",
+  "reflection": "Op welke golf van emoties vaar je nu mee?"
+ },
+ {
+  "symbol": "Goud",
+  "meaning": "Waarde, succes, wat kostbaar is in jou.",
+  "reflection": "Wat is jouw goud?"
+ },
+ {
+  "symbol": "Haar",
+  "meaning": "Kracht, identiteit, imago.",
+  "reflection": "Wat wil je veranderen in hoe je je presenteert?"
+ },
+ {
+  "symbol": "Hart",
+  "meaning": "Gevoelens, liefde, moed.",
+  "reflection": "Wat wil je hart echt?"
+ },
+ {
+  "symbol": "Hemel",
+  "meaning": "Hoop, ruimte, spiritualiteit.",
+  "reflection": "Wat wil je van het leven als er geen beperkingen zijn?"
+ },
+ {
+  "symbol": "Hond",
+  "meaning": "Loyaliteit, vriendschap, beschermingsinstinct.",
+  "reflection": "Aan wie ben je trouw, en wie is trouw aan jou?"
+ },
+ {
+  "symbol": "Honger",
+  "meaning": "Een onvervulde behoefte, niet alleen lichamelijk.",
+  "reflection": "Waar heb je honger naar in je leven?"
+ },
+ {
+  "symbol": "Honing",
+  "meaning": "Zoetheid, beloning voor werk, tederheid.",
+  "reflection": "Wat is jouw zoete beloning?"
+ },
+ {
+  "symbol": "Huis",
+  "meaning": "Jijzelf: de verschillende kamers zijn verschillende delen van je leven.",
+  "reflection": "Welke kamer van dit huis bezoek je het minst?"
+ },
+ {
+  "symbol": "IJs",
+  "meaning": "Bevroren gevoelens, kilte in een relatie, stilstand.",
+  "reflection": "Wat in jou is bevroren?"
+ },
+ {
+  "symbol": "Kaas",
+  "meaning": "Verleiding, beloning, een klein genoegen.",
+  "reflection": "Waar heb je zin in?"
+ },
+ {
+  "symbol": "Kasteel",
+  "meaning": "Een vesting, gevoel van veiligheid of isolatie.",
+  "reflection": "Waartegen verdedig je je?"
+ },
+ {
+  "symbol": "Kat",
+  "meaning": "Onafhankelijkheid, intuïtie, vrouwelijkheid, mysterie.",
+  "reflection": "Waar heb je meer onafhankelijkheid nodig?"
+ },
+ {
+  "symbol": "Kerk / tempel",
+  "meaning": "Spiritualiteit, geweten, waarden.",
+  "reflection": "Wat is voor jou heilig?"
+ },
+ {
+  "symbol": "Kikker",
+  "meaning": "Transformatie, reiniging, onverwachte schoonheid.",
+  "reflection": "Wat kan er nog in je veranderen?"
+ },
+ {
+  "symbol": "Kind",
+  "meaning": "Een nieuw begin, onschuld of je innerlijke kind.",
+  "reflection": "Wat heeft je innerlijke kind vandaag nodig?"
+ },
+ {
+  "symbol": "Kind op de arm",
+  "meaning": "Verantwoordelijkheid voor iets nieuws en kwetsbaars.",
+  "reflection": "Waar zorg je vandaag voor?"
+ },
+ {
+  "symbol": "Klok",
+  "meaning": "Het verstrijken van de tijd, deadlines, druk.",
+  "reflection": "Waar is het hoog tijd voor?"
+ },
+ {
+  "symbol": "Kroon",
+  "meaning": "Macht, erkenning, verantwoordelijkheid.",
+  "reflection": "Waar wil je je koning of koningin voelen?"
+ },
+ {
+  "symbol": "Kus",
+  "meaning": "Nabijheid, acceptatie, verbinding.",
+  "reflection": "Met wie of wat wil je dichterbij komen?"
+ },
+ {
+  "symbol": "Ladder",
+  "meaning": "Promotie, volgende fases, klimmen naar een doel.",
+  "reflection": "Welke sport wil je op?"
+ },
+ {
+  "symbol": "Lift",
+  "meaning": "Snelle stijgingen en dalingen, een niveauwisseling.",
+  "reflection": "Welke kant ga je op, omhoog of omlaag?"
+ },
+ {
+  "symbol": "Maan",
+  "meaning": "Intuïtie, cycli, het vrouwelijke, verborgen emoties.",
+  "reflection": "Wat voel je maar zeg je niet?"
+ },
+ {
+  "symbol": "Meer",
+  "meaning": "Rust, diepte van gevoelens, een spiegel van jezelf.",
+  "reflection": "Wat zie je als je diep in jezelf kijkt?"
+ },
+ {
+  "symbol": "Mes",
+  "meaning": "Afsnijden, een beslissing, scherpe woorden of een conflict.",
+  "reflection": "Wat wil je afsnijden?"
+ },
+ {
+  "symbol": "Modder",
+  "meaning": "Vastzitten, het gevoel dat dingen kleven en vertragen.",
+  "reflection": "Wat vertraagt je nu?"
+ },
+ {
+  "symbol": "Moeder",
+  "meaning": "Zorg, veiligheid, oorsprong, of het gebrek eraan.",
+  "reflection": "Hoe kun je jezelf vandaag omringen met zorg?"
+ },
+ {
+  "symbol": "Muis",
+  "meaning": "Kleine zorgen, verlegenheid, verborgen zaken.",
+  "reflection": "Welke kleine zorg is in je hoofd gegroeid?"
+ },
+ {
+  "symbol": "Muur",
+  "meaning": "Obstakel, grens, bescherming.",
+  "reflection": "Wat houdt je tegen, en is het bescherming of een gevangenis?"
+ },
+ {
+  "symbol": "Naaktheid",
+  "meaning": "Blootgesteld zijn, kwetsbaarheid, angst voor beoordeling.",
+  "reflection": "Waar voel je je te bloot?"
+ },
+ {
+  "symbol": "Oceaan",
+  "meaning": "Een oneindigheid aan emoties en mogelijkheden.",
+  "reflection": "Voel je je in die oneindigheid vrij of verloren?"
+ },
+ {
+  "symbol": "Oma",
+  "meaning": "Wijsheid van de familie, warmte, traditie of verlangen naar eenvoud.",
+  "reflection": "Welk advies zou oma je nu geven?"
+ },
+ {
+  "symbol": "Onweer",
+  "meaning": "Opgebouwde spanning die een uitweg zoekt.",
+  "reflection": "Welke emoties wachten om geuit te worden?"
+ },
+ {
+  "symbol": "Ooievaar",
+  "meaning": "Nieuw leven, een nieuw project of nieuws over verandering.",
+  "reflection": "Wat nieuws wil er in jou geboren worden?"
+ },
+ {
+  "symbol": "Oorlog",
+  "meaning": "Een groot conflict, uiterlijk of innerlijk.",
+  "reflection": "Met wie of wat voer je oorlog?"
+ },
+ {
+  "symbol": "Overleden dierbare",
+  "meaning": "Verlangen, herinnering, een onvoltooid gesprek.",
+  "reflection": "Wat wil je hem of haar zeggen?"
+ },
+ {
+  "symbol": "Paard",
+  "meaning": "Kracht, energie, vrijheid, de drang vooruit.",
+  "reflection": "Waarheen brengt je energie je?"
+ },
+ {
+  "symbol": "Paddenstoelen",
+  "meaning": "Iets wat in het verborgen groeit; een gave van de natuur of voorzichtigheid.",
+  "reflection": "Wat rijpt er in stilte?"
+ },
+ {
+  "symbol": "Raam",
+  "meaning": "Een blik op de wereld, perspectief, hoop.",
+  "reflection": "Wat zie je achter je raam?"
+ },
+ {
+  "symbol": "Rat",
+  "meaning": "Onrust, kleine verraden of vindingrijkheid.",
+  "reflection": "Wat knaagt aan je?"
+ },
+ {
+  "symbol": "Regen",
+  "meaning": "Reiniging, verdriet of voeding na droogte.",
+  "reflection": "Wat wil je van je afwassen?"
+ },
+ {
+  "symbol": "Regenboog",
+  "meaning": "Hoop na een moeilijke tijd, een belofte.",
+  "reflection": "Wat goeds kwam er na de storm?"
+ },
+ {
+  "symbol": "Rij",
+  "meaning": "Wachten op je beurt, geduld.",
+  "reflection": "Waar wacht je op?"
+ },
+ {
+  "symbol": "Rivier",
+  "meaning": "Het verstrijken van de tijd, voorbijgaan, de stroom van het leven.",
+  "reflection": "Vaar je met de stroom mee of ertegenin?"
+ },
+ {
+  "symbol": "Roos",
+  "meaning": "Liefde, schoonheid, maar ook doornen.",
+  "reflection": "Welke doornen heeft wat je liefhebt?"
+ },
+ {
+  "symbol": "Ruzie",
+  "meaning": "Spanning die in het wakker leven niet is uitgesproken.",
+  "reflection": "Wat wil je tegen iemand zeggen?"
+ },
+ {
+  "symbol": "Schat",
+  "meaning": "Verborgen waarde, talent, een ontdekking.",
+  "reflection": "Welke schat draag je in je?"
+ },
+ {
+  "symbol": "Schildpad",
+  "meaning": "Geduld, langzame vooruitgang, bescherming.",
+  "reflection": "Waar is het goed om te vertragen?"
+ },
+ {
+  "symbol": "Schoenen",
+  "meaning": "De weg die je gaat en je positie in de wereld.",
+  "reflection": "Passen je schoenen, je rol, je goed?"
+ },
+ {
+  "symbol": "Schommel",
+  "meaning": "Stemmingswisselingen, terug naar de kindertijd.",
+  "reflection": "Tussen wat twijfel je?"
+ },
+ {
+  "symbol": "School",
+  "meaning": "Leren, beoordeling, oude patronen en lessen.",
+  "reflection": "Welke les ben je nog aan het leren?"
+ },
+ {
+  "symbol": "Schreeuw",
+  "meaning": "Onuitgesproken emoties, behoefte om gehoord te worden.",
+  "reflection": "Wat wil je uitschreeuwen?"
+ },
+ {
+  "symbol": "Slaapverlamming / niet kunnen bewegen",
+  "meaning": "Hulpeloosheid in een bepaalde zaak. Lichamelijk vaak voor bij het ontwaken.",
+  "reflection": "Waar voel je je handen gebonden?"
+ },
+ {
+  "symbol": "Slang",
+  "meaning": "Transformatie, vernieuwing, verborgen angst of wijsheid.",
+  "reflection": "Welke huid ben je klaar af te werpen?"
+ },
+ {
+  "symbol": "Sleutel",
+  "meaning": "Een oplossing, toegang, het ontdekken van een geheim.",
+  "reflection": "Waarvoor zoek je een sleutel?"
+ },
+ {
+  "symbol": "Sneeuw",
+  "meaning": "Stilte, zuiverheid, tot rust komen, kilte.",
+  "reflection": "Waar heb je stilte nodig?"
+ },
+ {
+  "symbol": "Snoep",
+  "meaning": "Plezier, beloning, soms een vlucht voor het moeilijke.",
+  "reflection": "Waarmee beloon je jezelf vandaag?"
+ },
+ {
+  "symbol": "Spiegel",
+  "meaning": "Zelfbeeld, de waarheid over jezelf, hoe je jezelf ziet.",
+  "reflection": "Wat zie je in de spiegel, en wat wil je zien?"
+ },
+ {
+  "symbol": "Spin",
+  "meaning": "Geduld, een web weven, soms het gevoel gevangen te zitten.",
+  "reflection": "In welk web zit je verstrikt, of welk weef je?"
+ },
+ {
+  "symbol": "Stad",
+  "meaning": "Maatschappij, drukte, kansen en anonimiteit.",
+  "reflection": "Waar is jouw plek in de menigte?"
+ },
+ {
+  "symbol": "Steen",
+  "meaning": "Duurzaamheid, gewicht of een hard hart.",
+  "reflection": "Wat weegt als een steen op je?"
+ },
+ {
+  "symbol": "Sterren",
+  "meaning": "Dromen, hoop, begeleiding.",
+  "reflection": "Waar verlang je naar?"
+ },
+ {
+  "symbol": "Strand",
+  "meaning": "Rust, de grens tussen land en emoties.",
+  "reflection": "Wanneer gun je jezelf rust?"
+ },
+ {
+  "symbol": "Tanden verliezen",
+  "meaning": "Angst voor verlies, ouder worden, imago, een van de meest voorkomende dromen.",
+  "reflection": "Wat ben je bang te verliezen?"
+ },
+ {
+  "symbol": "Tas / koffer",
+  "meaning": "De bagage van ervaringen, wat je met je meedraagt.",
+  "reflection": "Wat kun je eindelijk neerleggen?"
+ },
+ {
+  "symbol": "Telefoon",
+  "meaning": "Communicatie, een bericht, contact met iemand.",
+  "reflection": "Wie wil je bellen?"
+ },
+ {
+  "symbol": "Thee",
+  "meaning": "Een pauze, troost, een gesprek met naasten.",
+  "reflection": "Wanneer heb je voor het laatst echt gerust?"
+ },
+ {
+  "symbol": "Tijd (te laat komen)",
+  "meaning": "Druk, het gevoel dat iets je ontglipt.",
+  "reflection": "Waar heb je echt tijd te kort voor?"
+ },
+ {
+  "symbol": "Tranen",
+  "meaning": "Opluchting, verdriet, reiniging.",
+  "reflection": "Wat wil beweend worden?"
+ },
+ {
+  "symbol": "Trein",
+  "meaning": "De richting van je leven, een dienstregeling, een weg waar je moeilijk vanaf kunt.",
+  "reflection": "Stap je in de juiste trein?"
+ },
+ {
+  "symbol": "Trouwring",
+  "meaning": "Toewijding, een relatie, trouw aan jezelf.",
+  "reflection": "Aan wat ben je trouw?"
+ },
+ {
+  "symbol": "Tuin",
+  "meaning": "Je leven als ruimte om te verzorgen.",
+  "reflection": "Wat in je tuin vraagt vandaag aandacht?"
+ },
+ {
+  "symbol": "Uil",
+  "meaning": "Wijsheid, intuïtie, zien in het donker.",
+  "reflection": "Wat weet je al, ook al geef je het nog niet toe?"
+ },
+ {
+  "symbol": "Vader",
+  "meaning": "Gezag, regels, bescherming, of het ontbreken ervan.",
+  "reflection": "Wiens goedkeuring zoek je nog steeds?"
+ },
+ {
+  "symbol": "Vakantie",
+  "meaning": "Behoefte aan rust en vrijheid.",
+  "reflection": "Wanneer plan je een echte pauze?"
+ },
+ {
+  "symbol": "Vallen",
+  "meaning": "Verlies van controle, onzekerheid, angst om te falen.",
+  "reflection": "Waar verlies je de grond onder je voeten?"
+ },
+ {
+  "symbol": "Veldslag",
+  "meaning": "Een innerlijk conflict of ruzie waarin je meedoet.",
+  "reflection": "Waar vecht je eigenlijk voor?"
+ },
+ {
+  "symbol": "Verdrinken",
+  "meaning": "Overweldigd zijn door emoties of verplichtingen.",
+  "reflection": "Wat overweldigt je?"
+ },
+ {
+  "symbol": "Verdwalen",
+  "meaning": "Gebrek aan richting, onzekerheid over een keuze.",
+  "reflection": "Welke weg zoek je?"
+ },
+ {
+  "symbol": "Verloren voorwerp",
+  "meaning": "Verlies van iets belangrijks: een ding, een relatie, een deel van jezelf.",
+  "reflection": "Waar verlang je naar?"
+ },
+ {
+  "symbol": "Verraad",
+  "meaning": "Angst om vertrouwen te verliezen, onzekerheid in een relatie.",
+  "reflection": "Wie vertrouw je, en jezelf ook?"
+ },
+ {
+  "symbol": "Vis",
+  "meaning": "Intuïtie, vruchtbaarheid, overvloed, diepte.",
+  "reflection": "Wat vis je uit je onderbewustzijn op?"
+ },
+ {
+  "symbol": "Vliegen",
+  "meaning": "Vrijheid, loskomen van beperkingen, ambitie.",
+  "reflection": "Waarvan wil je loskomen?"
+ },
+ {
+  "symbol": "Vliegtuig",
+  "meaning": "Ambities, snelle verandering, verre doelen.",
+  "reflection": "Waarheen wil je vliegen?"
+ },
+ {
+  "symbol": "Vlinder",
+  "meaning": "Transformatie, lichtheid, de schoonheid van vluchtige momenten.",
+  "reflection": "Welke verandering maak je door?"
+ },
+ {
+  "symbol": "Vluchten",
+  "meaning": "Een probleem of emotie ontwijken.",
+  "reflection": "Waarvoor vlucht je?"
+ },
+ {
+  "symbol": "Vogel",
+  "meaning": "Vrijheid, een boodschap, spirituele verlangens.",
+  "reflection": "Welke boodschap wil je overbrengen of ontvangen?"
+ },
+ {
+  "symbol": "Vuil",
+  "meaning": "Iets wat je als wanordelijk of beschamend ziet.",
+  "reflection": "Wat wil je uit je leven kwijt?"
+ },
+ {
+  "symbol": "Vuur",
+  "meaning": "Passie, woede, transformatie, reiniging.",
+  "reflection": "Wat brandt er in jou?"
+ },
+ {
+  "symbol": "Water",
+  "meaning": "Emoties en het onbewuste: helder is rust, troebel is onrust.",
+  "reflection": "Hoe is het water van je emoties nu?"
+ },
+ {
+  "symbol": "Werk",
+  "meaning": "Verplichtingen, ambities, de stress van elke dag.",
+  "reflection": "Neemt werk te veel ruimte van je in?"
+ },
+ {
+  "symbol": "Wind",
+  "meaning": "Verandering, beweging, iets wat je niet kunt tegenhouden.",
+  "reflection": "Welke wind van verandering voel je?"
+ },
+ {
+  "symbol": "Wit",
+  "meaning": "Zuiverheid, een nieuw begin, maar ook leegte om te beschrijven.",
+  "reflection": "Wat wil je met een schone lei beginnen?"
+ },
+ {
+  "symbol": "Woestijn",
+  "meaning": "Eenzaamheid, verdorring, maar ook reiniging.",
+  "reflection": "Wat mis je, zoals water in de woestijn?"
+ },
+ {
+  "symbol": "Wolf",
+  "meaning": "Instinct, kracht, loyaliteit aan de roedel of dreiging.",
+  "reflection": "Ben je een eenzame wolf of zoek je een roedel?"
+ },
+ {
+  "symbol": "Wond",
+  "meaning": "Een kwetsuur die aandacht vraagt.",
+  "reflection": "Wat is nog niet genezen?"
+ },
+ {
+  "symbol": "Zee",
+  "meaning": "De omvang van gevoelens, het onbewuste, grenzeloze mogelijkheden.",
+  "reflection": "Hoe diep zijn je gevoelens in deze kwestie?"
+ },
+ {
+  "symbol": "Ziekenhuis",
+  "meaning": "Behoefte aan herstel, zorg, genezing.",
+  "reflection": "Wat heb je nodig om te genezen?"
+ },
+ {
+  "symbol": "Zon",
+  "meaning": "Vreugde, energie, helderheid, succes.",
+  "reflection": "Wat geeft je licht?"
+ },
+ {
+  "symbol": "Zus",
+  "meaning": "Nabijheid, rivaliteit of een eigenschap die je in haar ziet.",
+  "reflection": "Wat verbindt je met mensen die zo dichtbij zijn als een broer of zus?"
+ },
+ {
+  "symbol": "Zwangerschap",
+  "meaning": "Een rijpend idee, plan of een verandering die groeit.",
+  "reflection": "Wat rijpt er in jou?"
+ },
+ {
+  "symbol": "Zwarte kat",
+  "meaning": "Bijgeloof, angst voor pech of onafhankelijkheid en mysterie.",
+  "reflection": "Waar ben je bang voor zonder duidelijke reden?"
+ }
+]

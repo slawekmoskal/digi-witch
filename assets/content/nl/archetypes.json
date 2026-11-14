@@ -1,0 +1,134 @@
+[
+ {
+  "id": "niewinny",
+  "name": "De Onschuldige",
+  "summary": "De Onschuldige is het beeld van iemand die met vertrouwen en hoop naar de wereld kijkt. In deze set archetypen staat hij voor het verlangen naar eenvoud, oprechtheid en het goede.",
+  "gifts": "Zijn gave is optimisme, dat helpt om opnieuw te beginnen en de lichte kant van een situatie te zien. Hij brengt lichtheid in een groep, en het geloof dat inspanning de moeite waard is.",
+  "shadow": "In de schaduw kan vertrouwen veranderen in het mijden van lastige onderwerpen of doen alsof er geen probleem is. Soms ook in te veel rekenen op iemand anders die alles wel oplost.",
+  "reflection": [
+   "In welke situaties geeft je hoop je kracht?",
+   "Is er een onderwerp dat je liever niet ziet, terwijl je weet dat het de moeite waard is om ernaar te kijken?"
+  ]
+ },
+ {
+  "id": "odkrywca",
+  "name": "De Ontdekker",
+  "summary": "De Ontdekker is een figuur die op pad gaat om onbekende plekken, ideeën en zichzelf te leren kennen. Hij staat voor de behoefte aan authenticiteit en ruimte om zelf te zoeken.",
+  "gifts": "Zijn gave is nieuwsgierigheid en de moed om buiten bekende patronen te stappen. Hij brengt een frisse blik mee en inspireert anderen om hun horizon te verbreden.",
+  "shadow": "In de schaduw kan zoeken overgaan in voortdurend vluchten en moeite om wortel te schieten. Soms maakt onafhankelijkheid het ook lastig om nabijheid toe te laten.",
+  "reflection": [
+   "Wat zoek je op dit moment in je leven?",
+   "Brengen je omzwervingen, letterlijk of symbolisch, je ergens naartoe, of juist ergens vandaan?"
+  ]
+ },
+ {
+  "id": "medrzec",
+  "name": "De Wijze",
+  "summary": "De Wijze is het beeld van iemand die naar begrip streeft en kennis waardeert die uit ervaring en nadenken komt. Hij staat voor het zoeken naar de waarheid en het delen ervan met anderen.",
+  "gifts": "Zijn gave is rustige analyse, afstand en het vermogen om de bredere samenhang te zien. Hij helpt anderen hun gedachten te ordenen en de juiste vraag te stellen.",
+  "shadow": "In de schaduw kan te veel theoretiseren de plaats van handelen innemen, of de overtuiging dat je het altijd beter weet. Afstand wordt dan makkelijk voor kilte aangezien.",
+  "reflection": [
+   "Welke kennis of ervaring deel je het liefst met anderen?",
+   "Wanneer ben je voor het laatst van mening veranderd door nieuwe informatie?"
+  ]
+ },
+ {
+  "id": "bohater",
+  "name": "De Held",
+  "summary": "De Held is een figuur die uitdagingen aangaat en opkomt voor wat hij belangrijk vindt. Hij staat voor moed, vastberadenheid en bereidheid om moeite te doen.",
+  "gifts": "Zijn gave is volharding en het vermogen om zich in moeilijke momenten te mobiliseren. Hij kan anderen moed geven en laten zien dat obstakels stap voor stap te nemen zijn.",
+  "shadow": "In de schaduw kan moed veranderen in voortdurend de strijd zoeken of moeite hebben om moeheid toe te geven. Soms staat de Held zichzelf niet toe om hulp te vragen.",
+  "reflection": [
+   "Op welke uitdaging die je hebt doorstaan ben je vandaag trots?",
+   "Kun je uitrusten voordat je krachten op zijn?"
+  ]
+ },
+ {
+  "id": "buntownik",
+  "name": "De Rebel",
+  "summary": "De Rebel is het beeld van iemand die bestaande regels ter discussie stelt en zich niet neerlegt bij wat hij onrechtvaardig vindt. Hij staat voor de behoefte aan verandering en vrijheid van opgelegde patronen.",
+  "gifts": "Zijn gave is de moed om hardop te zeggen wat niet werkt, en de energie om stilstand te doorbreken. Hij helpt anderen te zien dat er andere mogelijkheden bestaan.",
+  "shadow": "In de schaduw kan verzet een doel op zich worden, zonder idee van wat je er in de plaats van wilt bouwen. Soms gaat er ook iets waardevols mee ten onder, samen met wat wel veranderd moest worden.",
+  "reflection": [
+   "Waartegen kom je in opstand, en wat zou je daarvoor in de plaats willen zetten?",
+   "Welke regel waar je het niet mee eens bent, heeft voor iemand toch zin?"
+  ]
+ },
+ {
+  "id": "mag",
+  "name": "De Magiër",
+  "summary": "De Magiër is een figuur die voor transformatie staat: visies omzetten in werkelijkheid en verborgen verbanden zien. In deze set betekent hij het geloof dat je bewust invloed kunt hebben op je eigen leven.",
+  "gifts": "Zijn gave is verbeeldingskracht in combinatie met daadkracht, en het zien van potentieel waar anderen het niet zien. Hij kan inspireren om vanuit een ander perspectief te kijken.",
+  "shadow": "In de schaduw kan de neiging opkomen om anderen te sturen of meer te beloven dan je kunt waarmaken. Soms vervangt het geloof in verandering het geduldige werk.",
+  "reflection": [
+   "Welke verandering wil je in je leven zien, en wat kun je daar concreet voor doen?",
+   "Is er in je plannen ruimte voor wat je niet kunt voorspellen?"
+  ]
+ },
+ {
+  "id": "towarzysz",
+  "name": "De Gewone Man",
+  "summary": "De Gewone Man, ook wel de Metgezel genoemd, is het beeld van iemand die erbij horen, gelijkheid en het gewone leven tussen mensen waardeert. Hij staat voor de behoefte om deel te zijn van een gemeenschap zonder zich boven anderen te plaatsen.",
+  "gifts": "Zijn gave is directheid, vriendelijkheid en het vermogen om anderen op hun gemak te stellen. Hij verbindt mensen rond gedeelde, alledaagse zaken.",
+  "shadow": "In de schaduw kan de wens om erbij te horen ertoe leiden dat je je eigen mening opgeeft, als je maar niet opvalt. Soms verdwijnen je eigen behoeften in de menigte.",
+  "reflection": [
+   "In welke groep voel je je echt thuis?",
+   "Wanneer heb je voor het laatst een mening geuit die afweek van die van de meerderheid?"
+  ]
+ },
+ {
+  "id": "kochanek",
+  "name": "De Minnaar",
+  "summary": "De Minnaar is een figuur die voor nabijheid, zinnelijkheid en verwondering over de schoonheid van het leven staat. In brede zin betekent hij hartstochtelijke betrokkenheid bij mensen, ideeën of passies.",
+  "gifts": "Zijn gave is het vermogen om gevoelens diep te beleven en te tonen, en het waarderen van schoonheid in het alledaagse. Hij kan een sfeer van warmte en betrokkenheid scheppen.",
+  "shadow": "In de schaduw kan het gebeuren dat je jezelf verliest in een relatie of afhankelijk wordt van de waardering van anderen. Soms vervormt de angst voor afwijzing wat je van jezelf laat zien.",
+  "reflection": [
+   "Wat of wie hou je van op een manier die je energie geeft?",
+   "Laat je in close relaties ook ruimte voor jezelf?"
+  ]
+ },
+ {
+  "id": "blazen",
+  "name": "De Nar",
+  "summary": "De Nar is het beeld van iemand die de wereld bekijkt door de bril van humor, spel en leven in het moment. Hij staat voor vreugde en het vermogen om de waarheid op een lichte manier te zeggen.",
+  "gifts": "Zijn gave is spanning wegnemen, creativiteit en het vermogen om dingen met een knipoog te bekijken. Hij herinnert anderen eraan dat het leven niet altijd serieus hoeft te zijn.",
+  "shadow": "In de schaduw kan een grap dienen om moeilijke emoties of verantwoordelijkheid te ontlopen. Soms kwetst humor in plaats van te verbinden.",
+  "reflection": [
+   "Wanneer heeft humor je door een moeilijke situatie heen geholpen?",
+   "Maak je soms een grapje terwijl je liever iets recht voor zijn raap zou zeggen?"
+  ]
+ },
+ {
+  "id": "opiekun",
+  "name": "De Zorgzame",
+  "summary": "De Zorgzame is een figuur die voor anderen zorgt, beschermt en steunt. Hij staat voor mededogen, vrijgevigheid en bereidheid om te helpen.",
+  "gifts": "Zijn gave is geduld, empathie en het vermogen om een gevoel van veiligheid te scheppen. Hij ziet wat anderen nodig hebben en antwoordt daar warm op.",
+  "shadow": "In de schaduw kan zorg overgaan in jezelf verwaarlozen of in dankbaarheid verwachten. Soms ontneemt hulp anderen de kans om het zelf te doen.",
+  "reflection": [
+   "Hoe zorg je voor jezelf als je veel aan anderen geeft?",
+   "Kun je hulp aannemen als iemand die aanbiedt?"
+  ]
+ },
+ {
+  "id": "tworca",
+  "name": "De Schepper",
+  "summary": "De Schepper is het beeld van iemand die aan verbeelding vorm geeft en dingen maakt die er eerst niet waren. Hij staat voor de behoefte om zichzelf in een blijvende vorm uit te drukken.",
+  "gifts": "Zijn gave is originaliteit, doorzettingsvermogen bij het uitwerken van een idee en het vermogen om mogelijkheden te zien. Hij inspireert anderen om hun eigen creativiteit te ontdekken.",
+  "shadow": "In de schaduw kan perfectionisme opkomen dat het werk nooit af laat komen, of een innerlijke criticus die ideeën smoort. Soms schuift creatief werk ook andere dingen aan de kant.",
+  "reflection": [
+   "Wat zou je willen maken als niemand het zou beoordelen?",
+   "Welk project wacht erop afgemaakt te worden, en wat houdt je tegen?"
+  ]
+ },
+ {
+  "id": "wladca",
+  "name": "De Heerser",
+  "summary": "De Heerser is een figuur die voor verantwoordelijkheid, orde en leiderschap staat. In deze set betekent hij zorg voor de stabiliteit van de gemeenschap en het nemen van beslissingen.",
+  "gifts": "Zijn gave is het vermogen om te organiseren, richting te geven en verantwoordelijkheid voor het geheel te nemen. Hij kan voorwaarden scheppen waarin anderen goed kunnen werken.",
+  "shadow": "In de schaduw kan verantwoordelijkheid veranderen in behoefte aan controle of moeite om het veld aan anderen te laten. Soms gaat de zorg voor orde ten koste van de mensen.",
+  "reflection": [
+   "Waarvoor voel je je in je leven verantwoordelijk?",
+   "Wat zou je aan anderen kunnen overlaten, zodat zij meer ruimte krijgen?"
+  ]
+ }
+]

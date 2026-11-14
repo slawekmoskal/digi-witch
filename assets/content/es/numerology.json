@@ -1,0 +1,604 @@
+{
+ "lifePath": {
+  "1": {
+   "title": "El camino de la independencia",
+   "text": "En la tradición numerológica, el camino de vida 1 describe el tema de aprender a valerse por uno mismo y a tomar decisiones en nombre propio. Como dirección general, puede significar situaciones repetidas en las que te toca empezar algo, marcar el rumbo o asumir el primer paso. Simbólicamente, este tema madura cuando la independencia va unida a la atención a los demás. Es una invitación a reflexionar, no una descripción de lo que tiene que pasar.",
+   "reflection": "¿En qué ámbitos de la vida prefieres elegir tu propio camino, y dónde prefieres seguir los pasos de otra persona?"
+  },
+  "2": {
+   "title": "El camino de la cooperación",
+   "text": "En esta convención, el camino de vida 2 se asocia a menudo con el tema de las relaciones, el entendimiento y los puentes entre personas. Como tema a largo plazo, puede recordar que muchas cosas maduran en el diálogo más que en solitario. El simbolismo del dos anima a buscar un equilibrio entre escuchar a los demás y expresar la propia opinión. Es más una pregunta sobre cómo estar con la gente que una respuesta hecha.",
+   "reflection": "¿Qué relaciones de tu vida te enseñan más sobre el equilibrio entre dar y recibir?"
+  },
+  "3": {
+   "title": "El camino de la expresión",
+   "text": "Como camino de vida, el tres simboliza en la tradición el tema de la expresión personal: con palabras, imágenes, humor o una forma de ser. Puede indicar un hilo que recorre toda la vida: descubrir qué quieres mostrar al mundo y de qué forma. Esta dirección se describe a menudo como ligera, aunque también pide paciencia para que las ideas tomen forma. Tómala como una inspiración para mirar tu creatividad en el sentido más amplio.",
+   "reflection": "¿Cuándo expresaste por última vez algo importante de una forma realmente tuya?"
+  },
+  "4": {
+   "title": "El camino de la construcción",
+   "text": "En el simbolismo de los números, el camino de vida 4 describe el tema de crear bases duraderas: estructuras, hábitos, lugares y relaciones en los que se puede confiar. Como dirección general, puede ir unido a vivir el valor de la constancia y del trabajo paciente. La tradición recuerda también que el orden está para servir a la vida, no para limitarla. Es un tema para reflexionar, no una receta del destino.",
+   "reflection": "¿Qué has construido paso a paso en tu vida y te satisface hoy?"
+  },
+  "5": {
+   "title": "El camino del cambio",
+   "text": "Como camino de vida, el cinco se asocia a menudo con el movimiento, la curiosidad por el mundo y el aprendizaje a través de la experiencia. Como tema amplio, puede significar que los cambios, los viajes o los nuevos papeles se convierten en puntos de referencia importantes. El simbolismo anima a unir la libertad con un sentido de dirección, para que el cambio tenga sentido para ti. Esta descripción es una sugerencia para pensar, no una predicción.",
+   "reflection": "¿Qué cambio de tu vida resultó con el tiempo más valioso de lo que parecía al principio?"
+  },
+  "6": {
+   "title": "El camino del cuidado",
+   "text": "En la tradición numerológica, el camino de vida 6 se relaciona con el tema de la responsabilidad, el cuidado y la creación de un espacio en el que los demás se sientan a gusto. Como tema vital, puede referirse al hogar, la comunidad, la belleza y la armonía cotidiana. El simbolismo del seis recuerda también que el cuidado te incluye a ti. Toma esta descripción como un espejo para reflexionar, no como una obligación.",
+   "reflection": "¿Cómo cuidas de los demás, y cómo dejas que alguien cuide de ti?"
+  },
+  "7": {
+   "title": "El camino de la búsqueda de sentido",
+   "text": "Como camino de vida, el siete simboliza en esta convención el tema de las preguntas, la reflexión y la búsqueda de una comprensión más profunda. Como dirección a largo plazo, puede ir unido a la necesidad de tiempo para pensar, aprender y sacar conclusiones propias. La tradición describe este tema como un camino en el que el silencio y la curiosidad son herramientas valiosas. Es una invitación a mirar lo que de verdad te interesa.",
+   "reflection": "¿Qué pregunta sobre la vida te acompaña desde hace tiempo y sigue ocupándote?"
+  },
+  "8": {
+   "title": "El camino de la capacidad de acción",
+   "text": "En el simbolismo de los números, el camino de vida 8 se describe a menudo como el tema de la influencia, la organización y la gestión sensata de recursos como el tiempo, la energía o el dinero. Como tema amplio, puede significar aprender a unir la ambición con la honestidad y el equilibrio. El ocho recuerda que la capacidad de acción tiene muchas formas, no solo materiales. Es una dirección para pensar, no una garantía de éxito ni de lo contrario.",
+   "reflection": "¿Qué significa para ti tener influencia sobre tu propia vida, y cómo se ve hoy en la práctica?"
+  },
+  "9": {
+   "title": "El camino del horizonte amplio",
+   "text": "Como camino de vida, el nueve simboliza en la tradición el tema de la apertura, la compasión y la mirada desde una perspectiva más amplia. Como tema vital, puede relacionarse con cerrar capítulos, sacar conclusiones y compartir lo aprendido. El simbolismo anima a una generosidad con el mundo que no se haga a costa de los propios límites. Esta descripción sirve para reflexionar y no decide nada.",
+   "reflection": "De todo lo que te ha enseñado la vida hasta ahora, ¿qué quieres compartir con los demás?"
+  },
+  "11": {
+   "title": "El camino de la inspiración",
+   "text": "En la tradición numerológica, el 11 lleva el nombre convencional de número maestro, lo que solo significa que no se reduce más y recibe un simbolismo propio. Como camino de vida, suele relacionarse con el tema de la intuición, las ideas y la inspiración a otros, y al mismo tiempo con la sensibilidad a los estímulos. Esta etiqueta no hace a nadie mejor ni más excepcional que los demás. Es solo otro lenguaje de descripción, que puedes tomar como punto de partida para una conversación contigo.",
+   "reflection": "¿Qué ideas o corazonadas vuelven una y otra vez a ti, y qué has hecho con ellas hasta ahora?"
+  },
+  "22": {
+   "title": "El camino de las grandes construcciones",
+   "text": "En esta tradición, el 22 es uno de los llamados números maestros, un valor destacado por convención que no se reduce. Como camino de vida, simboliza la unión de la visión con la acción práctica y la construcción de cosas que pueden servir a mucha gente. No es una promesa ni un deber de lograr grandes cosas, solo un tema para pensar. La acción a cualquier escala tiene valor, también la cotidiana y la doméstica.",
+   "reflection": "¿Qué idea te gustaría convertir en algo concreto, aunque sea a pequeña escala?"
+  },
+  "33": {
+   "title": "El camino de compartir el conocimiento",
+   "text": "En numerología, el 33 se destaca a menudo como número maestro; es una convención de la tradición, no una medida del valor de una persona. Como camino de vida, simboliza el tema del cuidado unido a la enseñanza, al apoyo a los demás y a la transmisión de la experiencia. La tradición añade que este tema pide una atención especial a los propios límites y al descanso. Toma esta descripción como inspiración, no como una tarea que cumplir.",
+   "reflection": "¿Qué te gusta enseñar a otros, y qué te gustaría aprender todavía?"
+  }
+ },
+ "birthDay": {
+  "1": {
+   "title": "El talento de la iniciativa",
+   "text": "En la tradición, el número del día de nacimiento 1 simboliza una inclinación natural a poner las cosas en marcha y a dar el primer paso. Este estilo puede notarse en la facilidad con la que haces una propuesta mientras otros aún dudan. Es la descripción de una forma de actuar más que un rasgo que debas encontrar en ti. Merece la pena comprobar en qué situaciones aparece de verdad este don en ti.",
+   "reflection": "¿En qué situaciones sueles dar tú el primer paso?"
+  },
+  "2": {
+   "title": "El talento de percibir",
+   "text": "Como número del día de nacimiento, el dos se asocia a menudo con un don para percibir estados de ánimo y matices en las relaciones. Este estilo puede notarse en la capacidad de rebajar tensiones o de ver lo que alguien necesita antes de que lo diga. En esta convención es un talento para la diplomacia y la escucha paciente. Piensa si lo reconoces en tu día a día.",
+   "reflection": "¿Cuándo resultó tu atención a los demás especialmente útil para alguien?"
+  },
+  "3": {
+   "title": "El talento de las palabras y la ligereza",
+   "text": "En la tradición, el número del día de nacimiento 3 simboliza un talento natural para contar, bromear y animar una conversación. Este estilo puede notarse en la facilidad para hacer contactos o en una forma creativa de abordar tareas corrientes. El tres recuerda que la ligereza también es una habilidad. Comprueba en qué momentos es más visible en ti.",
+   "reflection": "¿Qué forma de expresarte eliges con más gusto cuando nadie espera nada de ti?"
+  },
+  "4": {
+   "title": "El talento de ordenar",
+   "text": "Como número del día de nacimiento, el cuatro se asocia a menudo con un don para dar estructura a las cosas y llevarlas hasta el final. Este estilo natural puede notarse en la planificación, la fiabilidad y la atención al detalle. En el simbolismo de los números es el talento que convierte el caos en un plan. Piensa dónde te sirve mejor esta habilidad.",
+   "reflection": "¿Qué orden que pusiste tú facilitó la vida, a ti o a otros?"
+  },
+  "5": {
+   "title": "El talento de la flexibilidad",
+   "text": "En esta tradición, el número del día de nacimiento 5 simboliza facilidad para adaptarse a condiciones nuevas y aprender rápido. Este estilo puede notarse en la curiosidad, el ingenio ante lo inesperado y la apertura a gente nueva. El cinco es el talento de atravesar los cambios sin perder pie. Piensa cuándo lo usaste por última vez.",
+   "reflection": "¿Cómo sueles reaccionar cuando un plan cambia de repente?"
+  },
+  "6": {
+   "title": "El talento de crear calidez",
+   "text": "Como número del día de nacimiento, el seis se asocia a menudo con un don para crear un ambiente amable y cuidar el aspecto del entorno. Este estilo puede notarse en la hospitalidad, en recordar los pequeños gestos y en el sentido de la responsabilidad. En la tradición es el talento de hacer que los demás se sientan cuidados. Comprueba cómo es este don en tu día a día.",
+   "reflection": "¿Qué pequeño gesto de cuidado te sale con más naturalidad?"
+  },
+  "7": {
+   "title": "El talento de la perspicacia",
+   "text": "El número del día de nacimiento 7 simboliza una inclinación natural a analizar, hacer preguntas y mirar bajo la superficie. Este estilo puede notarse en el gusto por leer, investigar temas u observar en silencio. En esta convención es el talento de ver lo que a otros se les escapa con facilidad. Piensa dónde te da más satisfacción tu curiosidad.",
+   "reflection": "¿Qué tema puede absorberte tanto que pierdes la noción del tiempo?"
+  },
+  "8": {
+   "title": "El talento de organizar",
+   "text": "Como número del día de nacimiento, el ocho se asocia a menudo con un don para gestionar recursos y mirar las cosas de forma práctica. Este estilo puede notarse en la capacidad de coordinar acciones, negociar o planificar un presupuesto. En el simbolismo de los números es el talento de convertir intenciones en resultados medibles. Piensa en qué papeles te sientes mejor con ello.",
+   "reflection": "¿Cuándo lograste por última vez organizar algo que parecía difícil de abarcar?"
+  },
+  "9": {
+   "title": "El talento de la compasión",
+   "text": "En la tradición, el número del día de nacimiento 9 simboliza un don para la empatía y para entender distintos puntos de vista. Este estilo puede notarse en la apertura a personas de entornos diversos y en la disposición a ayudar. El nueve es el talento de ver el cuadro completo y reunir a la gente en torno a una causa común. Comprueba dónde está presente hoy esta capacidad en tu vida.",
+   "reflection": "¿Qué perspectiva, ajena al principio, se te hizo comprensible con el tiempo?"
+  },
+  "11": {
+   "title": "El talento de la intuición",
+   "text": "En esta convención, el número del día de nacimiento 11 no se reduce, como número maestro; es una etiqueta convencional de la tradición. Simboliza un talento para captar rápido el sentido de una situación y ver posibilidades inspiradoras. Este estilo puede notarse en asociaciones certeras o en la capacidad de entusiasmar a otros con una idea. No es una medida de excepcionalidad, solo una descripción posible.",
+   "reflection": "¿Cuándo te ayudó una corazonada a ver algo que antes no habías notado?"
+  },
+  "22": {
+   "title": "El talento de la planificación práctica",
+   "text": "La tradición no reduce el número del día de nacimiento 22, uno de los números maestros, y lo trata como una distinción simbólica convencional. Simboliza un talento para unir la visión con un plan concreto y llevar a cabo con paciencia proyectos de mayor envergadura. Este estilo puede notarse en la capacidad de dividir una gran meta en pasos pequeños. Es una descripción para pensar, no una expectativa sobre ti.",
+   "reflection": "¿Qué meta más grande lograste una vez dividir en pasos pequeños y factibles?"
+  }
+ },
+ "expression": {
+  "1": {
+   "title": "Expresión a través de la iniciativa",
+   "text": "El número de expresión 1, calculado a partir de tu nombre completo, describe en la tradición cómo muestras tus capacidades al mundo. Simboliza una forma de actuar que consiste en tomar las riendas, proponer una dirección y encontrar soluciones propias. Los demás quizá vean mejor tus capacidades cuando lideras o empiezas algo. Es la descripción de un estilo, no una evaluación de competencias.",
+   "reflection": "¿En qué tareas te gusta más mostrar lo que sabes hacer?"
+  },
+  "2": {
+   "title": "Expresión a través de la cooperación",
+   "text": "En esta convención, la expresión 2 simboliza mostrar tus capacidades sobre todo trabajando con otros. Tus habilidades pueden verse más cuando unes a la gente, medias o apoyas un proyecto común. La tradición lo describe como un talento que florece en equipo, aunque a veces se note menos que el trabajo individual. Esta forma de contribuir merece aprecio.",
+   "reflection": "¿Qué aportas a los proyectos comunes, aunque no siempre se vea?"
+  },
+  "3": {
+   "title": "Expresión a través de la comunicación",
+   "text": "En la tradición, el número de expresión 3 describe mostrar tus capacidades a través de las palabras, las imágenes, la actuación o el contacto con la gente. Tus habilidades pueden lucir más donde cuentan el mensaje, la imaginación y la capacidad de interesar a otros. El simbolismo del tres anima a dar a tus ideas una forma que pueda mostrarse. Es una inspiración, no una exigencia.",
+   "reflection": "¿De qué forma te gusta más compartir tus ideas con los demás?"
+  },
+  "4": {
+   "title": "Expresión a través de la fiabilidad",
+   "text": "La expresión 4 simboliza mostrar tus capacidades mediante un trabajo sólido y bien pensado. En esta convención, tus habilidades pueden verse más en resultados duraderos, ordenados y bien terminados. Quizá los demás te valoren porque se puede confiar en tu trabajo. Es la descripción de una forma de actuar que puedes comparar con tu experiencia.",
+   "reflection": "¿De qué trabajo, hecho con cuidado y hasta el final, estás especialmente satisfecho?"
+  },
+  "5": {
+   "title": "Expresión a través de la versatilidad",
+   "text": "En la tradición, el número de expresión 5 describe mostrar tus capacidades a través de la variedad, el cambio y el contacto con lo nuevo. Tus habilidades pueden lucir más en situaciones dinámicas que piden pensamiento rápido y flexibilidad. El simbolismo del cinco destaca un talento para llevar la experiencia de un ámbito a otro. Piensa si es así como trabajas.",
+   "reflection": "¿Qué habilidades de un ámbito has conseguido usar en otro completamente distinto?"
+  },
+  "6": {
+   "title": "Expresión a través de la responsabilidad",
+   "text": "En esta convención, la expresión 6 simboliza mostrar tus capacidades cuidando de las personas, los lugares y la calidad de la vida en común. Tus habilidades pueden verse más cuando arreglas algo, das consejo o creas un entorno armonioso. La tradición asocia también este número con el sentido de la belleza. Es una interpretación propuesta, no una definición de ti.",
+   "reflection": "¿En qué situaciones acuden los demás a ti con más frecuencia en busca de ayuda o consejo?"
+  },
+  "7": {
+   "title": "Expresión a través del análisis",
+   "text": "En la tradición, el número de expresión 7 describe mostrar tus capacidades mediante el conocimiento, la investigación y conclusiones bien pensadas. Tus habilidades pueden lucir más en tareas que piden concentración, precisión y pensamiento independiente. El simbolismo del siete apunta a alguien que muestra sus capacidades por la calidad más que por la cantidad. Es una descripción para contrastar con la realidad.",
+   "reflection": "¿Qué conocimiento o habilidad adquirido en silencio es hoy uno de tus puntos fuertes?"
+  },
+  "8": {
+   "title": "Expresión a través de la eficacia",
+   "text": "La expresión 8 simboliza mostrar tus capacidades organizando, dirigiendo y llevando los proyectos a un resultado medible. En esta convención, tus habilidades pueden verse sobre todo en papeles que exigen decisiones y responsabilidad sobre recursos. La tradición añade que la eficacia sirve mejor cuando va unida a la honestidad. Es la descripción de un estilo, no una predicción.",
+   "reflection": "¿Qué resultado de tu trabajo muestra mejor lo que sabes hacer?"
+  },
+  "9": {
+   "title": "Expresión a través de la apertura",
+   "text": "En la tradición, el número de expresión 9 describe mostrar tus capacidades mediante acciones de mayor alcance, que sirven a otros o unen a distintas comunidades. Tus habilidades pueden lucir más en un trabajo que pida empatía, tolerancia y amplitud de miras. El simbolismo del nueve destaca un talento para inspirar con el ejemplo. Piensa dónde se nota esto en lo que haces.",
+   "reflection": "¿De qué manera sirven tus habilidades a alguien que no seas tú?"
+  },
+  "11": {
+   "title": "Expresión a través de la inspiración",
+   "text": "En esta convención, la expresión 11 no se reduce, como número maestro; es una etiqueta convencional, no una distinción de la persona. Simboliza mostrar tus capacidades mediante ideas, visiones y la capacidad de conmover a otros. Tus habilidades pueden aparecer en papeles donde cuentan el mensaje y la sensibilidad. Conviene recordar que esta es solo una descripción posible.",
+   "reflection": "¿Cuándo inspiró por última vez algo que dijiste, o una idea tuya, a alguien a actuar?"
+  },
+  "22": {
+   "title": "Expresión a través de la realización de una visión",
+   "text": "En la tradición, el número de expresión 22 lleva el nombre convencional de número maestro y no se reduce más. Simboliza mostrar tus capacidades convirtiendo grandes ideas en soluciones prácticas. Tus habilidades pueden verse en la planificación, la construcción de sistemas y la coordinación de tareas complejas. Es una descripción simbólica, no una expectativa ni una evaluación.",
+   "reflection": "¿Qué idea quieres ver hecha realidad, y cuál sería el primer paso práctico?"
+  },
+  "33": {
+   "title": "Expresión a través del apoyo y la enseñanza",
+   "text": "En esta tradición, la expresión 33 es uno de los números maestros destacados por convención. Simboliza mostrar tus capacidades enseñando, cuidando y transmitiendo la experiencia con calidez. Tus habilidades pueden lucir donde el conocimiento se une al cuidado de otra persona. No es una medida de valor, solo una interpretación propuesta.",
+   "reflection": "¿A quién transmites lo que sabes, y cómo?"
+  }
+ },
+ "soulUrge": {
+  "1": {
+   "title": "Una necesidad de independencia",
+   "text": "El número del alma 1, calculado a partir de las vocales de tu nombre completo, describe en la tradición una motivación interior hacia la autodeterminación. Simboliza la necesidad de decidir por ti y de sentir que lo que haces nace de tu propia elección. Esta necesidad puede ser fuerte aunque no se vea desde fuera. Merece la pena preguntarte cuándo te sientes de verdad libre en tus decisiones.",
+   "reflection": "¿Qué te da la sensación interior de vivir según tus propias decisiones?"
+  },
+  "2": {
+   "title": "Una necesidad de cercanía",
+   "text": "En esta convención, el número de las vocales 2 simboliza una profunda necesidad de vínculo, reciprocidad y comprensión. La motivación interior puede ser un anhelo de armonía y de sentir que alguien está a tu lado. La tradición lo describe como un motor discreto pero importante de muchas decisiones. Piensa cómo atiendes hoy esta necesidad.",
+   "reflection": "¿Qué tipo de cercanía te nutre más?"
+  },
+  "3": {
+   "title": "Una necesidad de alegría y expresión",
+   "text": "El número del alma 3 describe una motivación interior a crear, a compartir emociones y a vivir la alegría. Simboliza la necesidad de espacio para el juego, la imaginación y la espontaneidad. En esta tradición es el anhelo de ser escuchado con tu propio estilo. Comprueba cuánto espacio tiene ahora en tu día a día.",
+   "reflection": "¿Qué te da una alegría verdadera, aunque nadie lo vea?"
+  },
+  "4": {
+   "title": "Una necesidad de estabilidad",
+   "text": "En la tradición, el número de las vocales 4 simboliza una necesidad interior de seguridad, previsibilidad y reglas claras. La motivación puede ser el deseo de que la vida se apoye en algo seguro y probado. Esta necesidad no tiene por qué significar rigidez; más bien, la necesidad de suelo firme bajo los pies. Merece la pena mirar qué te da esa sensación.",
+   "reflection": "¿Qué te hace sentir tranquilo y seguro en tu vida?"
+  },
+  "5": {
+   "title": "Una necesidad de libertad",
+   "text": "En esta convención, el número del alma 5 describe una motivación interior a explorar, experimentar y cambiar. Simboliza la necesidad de espacio, movimiento y posibilidad de elegir. Esta necesidad puede hacerse notar cuando el día a día se vuelve demasiado previsible. Piensa cómo te regalas una sensación de libertad.",
+   "reflection": "¿Qué experiencia nueva te gustaría regalarte?"
+  },
+  "6": {
+   "title": "Una necesidad de armonía y cuidado",
+   "text": "En la tradición, el número de las vocales 6 simboliza una motivación interior a cuidar de los demás y a crear a tu alrededor un mundo cálido y ordenado. El anhelo puede ser que tus seres queridos estén bien y que tu entorno sea coherente y bonito. La tradición recuerda que esta necesidad incluye cuidarte a ti. Comprueba si hay sitio para ti en ella.",
+   "reflection": "¿Qué necesitas para sentirte cuidado?"
+  },
+  "7": {
+   "title": "Una necesidad de comprensión",
+   "text": "El número del alma 7 describe una motivación interior a conocer la verdad, buscar sentido y comprender las cosas más a fondo. Simboliza la necesidad de tiempo para ti, de silencio y de espacio para tus propios pensamientos. En esta convención es un anhelo que a menudo guía la elección de lecturas, conversaciones e intereses. Piensa cómo cuidas ese espacio.",
+   "reflection": "¿Cuánto tiempo a la semana tienes solo para tus pensamientos, y te basta?"
+  },
+  "8": {
+   "title": "Una necesidad de influencia",
+   "text": "En la tradición, el número de las vocales 8 simboliza una motivación interior a alcanzar metas y a sentir que tus acciones tienen efectos reales. El anhelo puede ser de reconocimiento, de independencia material o de poder dar forma a tu entorno. La tradición anima a mirar los valores que hay detrás de esta necesidad. Es una pregunta sobre la motivación, no sobre los resultados.",
+   "reflection": "¿Qué tipo de logro te da la satisfacción más profunda, y por qué?"
+  },
+  "9": {
+   "title": "Una necesidad de sentido compartido",
+   "text": "El número del alma 9 describe una motivación interior a actuar por algo más grande que los propios asuntos. Simboliza la necesidad de sentir que tu vida se une al bien de otras personas o del mundo. En esta convención es un anhelo idealista que conviene equilibrar con el cuidado de uno mismo. Piensa dónde le encuentras hoy una salida.",
+   "reflection": "¿Por qué te gustaría trabajar si nada te frenara?"
+  },
+  "11": {
+   "title": "Una necesidad de inspiración",
+   "text": "En la tradición, el número de las vocales 11 no se reduce, como número maestro; es una convención, no un juicio. Simboliza una necesidad interior de sentido, de inspiración y de contacto con ideas que mueven algo. La motivación puede ser el deseo de que la vida tenga una dimensión más allá de lo cotidiano. Merece la pena comprobar de dónde sacas esa inspiración.",
+   "reflection": "¿Qué te ha inspirado de verdad últimamente, y por qué?"
+  },
+  "22": {
+   "title": "Una necesidad de una obra duradera",
+   "text": "En esta convención, el número del alma 22 es uno de los números maestros destacados por convención. Simboliza un anhelo interior de crear algo duradero que también importe a otros. La motivación puede ser la necesidad de unir los sueños con la acción práctica. Es la descripción de una necesidad, no un deber de lograr grandes cosas.",
+   "reflection": "¿Qué te gustaría dejar tras de ti, a gran o pequeña escala?"
+  },
+  "33": {
+   "title": "Una necesidad de servir a los demás",
+   "text": "En la tradición, el número de las vocales 33 se destaca a menudo como número maestro, lo que es un nombre convencional. Simboliza una motivación interior a apoyar a otros, suavizar tensiones entre las personas y transmitir calidez. Esta necesidad puede ser fuerte; por eso la tradición recuerda el equilibrio entre dar y descansar. Piensa cómo cuidas ese equilibrio.",
+   "reflection": "¿Cómo reconoces el momento en que necesitas cuidarte antes de cuidar de los demás?"
+  }
+ },
+ "personality": {
+  "1": {
+   "title": "Una impresión de decisión",
+   "text": "El número de personalidad 1, calculado a partir de las consonantes de tu nombre completo, describe en la tradición la primera impresión que puedes causar. Simboliza una capa exterior asociada a la seguridad, la franqueza y la disposición a actuar. Los demás pueden verte como alguien que sabe lo que quiere, aunque por dentro a veces sea distinto. Es una descripción de la fachada, no del conjunto.",
+   "reflection": "¿Coincide cómo te ven las personas que acabas de conocer con cómo te sientes por dentro?"
+  },
+  "2": {
+   "title": "Una impresión de suavidad",
+   "text": "En esta convención, la personalidad 2 simboliza la imagen exterior de alguien tranquilo, cortés y accesible. La primera impresión puede inspirar confianza y animar a otros a abrirse. La tradición señala que esta capa suele percibirse como delicada, aunque no dice nada de la fuerza interior. Merece la pena comparar esta descripción con la experiencia.",
+   "reflection": "¿Qué palabras oyes con más frecuencia cuando te describen tras un primer encuentro?"
+  },
+  "3": {
+   "title": "Una impresión de sociabilidad",
+   "text": "En la tradición, el número de personalidad 3 describe la primera impresión de alguien alegre, hablador y lleno de color. Esta capa exterior puede atraer la atención y facilitar conocer gente. El simbolismo del tres sugiere que los demás ven sobre todo tu expresividad, no necesariamente tus vivencias más profundas. Es la descripción de una imagen, no del interior.",
+   "reflection": "¿Qué muestras a la gente al principio de conoceros, y qué revelas solo después?"
+  },
+  "4": {
+   "title": "Una impresión de solidez",
+   "text": "La personalidad 4 simboliza la imagen exterior de alguien práctico, organizado y digno de confianza. La primera impresión puede sugerir que se puede contar contigo. En esta convención es una capa asociada a la seriedad y al sentido práctico, lo que no excluye la calidez ni el humor. Comprueba si es así en tu caso.",
+   "reflection": "¿Se sorprende a veces la gente cuando te conoce mejor? ¿De qué?"
+  },
+  "5": {
+   "title": "Una impresión de energía",
+   "text": "En la tradición, el número de personalidad 5 describe la primera impresión de alguien vivo, curioso y abierto a lo nuevo. Esta capa exterior puede asociarse al movimiento, la soltura y la facilidad para hablar con todo tipo de personas. El simbolismo del cinco habla de cómo te ven, no de quién eres en conjunto. Merece la pena contrastarlo con cómo te sientes tú.",
+   "reflection": "¿En qué entorno sientes que tu imagen encaja mejor con quién eres?"
+  },
+  "6": {
+   "title": "Una impresión de bondad",
+   "text": "En esta convención, la personalidad 6 simboliza la imagen exterior de alguien cálido, atento y responsable. La primera impresión puede hacer que otros acudan a ti con gusto con una petición o una confidencia. La tradición añade que conviene equilibrar esta imagen expresando con claridad tus propios límites. Es la descripción de una capa exterior, no una obligación.",
+   "reflection": "¿Cómo reaccionas cuando alguien espera de ti un apoyo para el que ahora no tienes fuerzas?"
+  },
+  "7": {
+   "title": "Una impresión de reserva",
+   "text": "En la tradición, el número de personalidad 7 describe la primera impresión de alguien tranquilo, reflexivo y algo distante. Esta capa exterior puede despertar curiosidad o respeto, pero también hacer que la gente necesite tiempo para conocerte. El simbolismo del siete no habla de frialdad, sino de elegir con cuidado cuándo mostrarse. Compáralo con tu propia experiencia.",
+   "reflection": "¿A quién, y en qué condiciones, te dejas conocer más de cerca?"
+  },
+  "8": {
+   "title": "Una impresión de autoridad",
+   "text": "La personalidad 8 simboliza la imagen exterior de alguien competente, decidido y que domina la situación. La primera impresión puede hacer que otros vean en ti a alguien capaz de dirigir y decidir. En esta convención es una capa asociada a la fuerza, lo que no significa falta de sensibilidad. Es una descripción de la fachada; merece la pena comprobar qué hay detrás.",
+   "reflection": "¿Te ha ayudado alguna vez la imagen de persona fuerte, y te ha estorbado alguna vez?"
+  },
+  "9": {
+   "title": "Una impresión de apertura",
+   "text": "En la tradición, el número de personalidad 9 describe la primera impresión de alguien tolerante, comprensivo y amable con todo tipo de personas. Esta capa exterior puede facilitarte el contacto con gente de entornos diferentes. El simbolismo del nueve asocia esta imagen con la generosidad y la amplitud de miras. Es solo una descripción, que puedes comprobar en la práctica.",
+   "reflection": "¿Qué crees que hace que la gente se sienta cómoda, o incómoda, a tu lado?"
+  },
+  "11": {
+   "title": "Una impresión de singularidad",
+   "text": "En esta convención, la personalidad 11 no se reduce, como número maestro; es una etiqueta convencional de la tradición. Simboliza la primera impresión de alguien singular, sensible y un poco distinto de su entorno. Los demás pueden recordarte tras un solo encuentro, aunque no siempre te entiendan enseguida. Esta etiqueta no dice nada del valor de una persona.",
+   "reflection": "¿Por qué te recuerda la gente, y es algo que te gusta de ti?"
+  },
+  "22": {
+   "title": "Una impresión de sentido práctico",
+   "text": "En la tradición, el número de personalidad 22 se destaca a menudo como número maestro, lo que es pura convención descriptiva. Simboliza la imagen exterior de alguien serio, competente y capaz de grandes proyectos. La primera impresión puede inspirar confianza en asuntos prácticos. Es una descripción de la capa exterior, no una expectativa sobre ti.",
+   "reflection": "¿Sientes a veces presión por estar a la altura de la impresión que causas?"
+  },
+  "33": {
+   "title": "Una impresión de calidez y sabiduría",
+   "text": "En la tradición, la personalidad 33 es uno de los números maestros destacados por convención. Simboliza la primera impresión de alguien cálido, paciente y dispuesto a ayudar, a quien los demás acuden con gusto en busca de consejo. Esta imagen puede invitar a la cercanía; por eso la tradición recuerda cuidar los propios límites. Es una descripción simbólica, no una definición de ti.",
+   "reflection": "¿Cómo haces saber a los demás que necesitas espacio para ti?"
+  }
+ },
+ "personalYear": {
+  "1": {
+   "title": "Un año de nuevos comienzos",
+   "text": "En la tradición numerológica, el año personal 1 es el comienzo simbólico de un nuevo ciclo de nueve años. Puedes verlo como una invitación a pensar qué quieres empezar, qué iniciativa tomar o qué intención proponerte. No es una predicción de acontecimientos, sino un tema propuesto para los próximos meses. Si lo aprovechas, y cómo, lo decides tú.",
+   "reflection": "¿Qué intención nueva te gustaría sembrar este año?"
+  },
+  "2": {
+   "title": "Un año de paciencia y relaciones",
+   "text": "En esta convención, el año personal 2 simboliza un tiempo para cuidar lo sembrado y prestar atención a las relaciones. Puedes verlo como un estímulo a la cooperación, la conversación y un ritmo más tranquilo. La tradición asocia este año con la maduración de asuntos a los que no les gustan las prisas. Es un tema para reflexionar, no un anuncio de acontecimientos.",
+   "reflection": "¿A qué relación o colaboración quieres dedicar más atención este año?"
+  },
+  "3": {
+   "title": "Un año de expresión",
+   "text": "En la tradición, el año personal 3 es una invitación a la creatividad, a los encuentros y a compartirte con los demás. Puedes verlo como una ocasión para dar más espacio a la alegría, las pasiones y la comunicación. El simbolismo del tres anima a la ligereza, pero también a dar a las ideas una forma acabada. Lo que tomes de esta invitación lo decides tú.",
+   "reflection": "¿Qué forma de expresarte quieres desarrollar o renovar este año?"
+  },
+  "4": {
+   "title": "Un año de poner orden",
+   "text": "En esta convención, el año personal 4 simboliza un tiempo para construir cimientos: planes, hábitos y estructuras. Puedes verlo como un estímulo al trabajo constante, a ordenar tus asuntos y a cuidar lo que te da estabilidad. La tradición no habla aquí de una carga, sino más bien de la satisfacción de una base sólida. Es un tema propuesto, no un pronóstico.",
+   "reflection": "¿Qué parte de tu vida pide ser ordenada, y por dónde podrías empezar?"
+  },
+  "5": {
+   "title": "Un año de movimiento",
+   "text": "En la tradición, el año personal 5 se asocia con el cambio, la frescura y la ampliación de horizontes. Puedes verlo como una invitación a probar algo nuevo, a conocer otros lugares o personas, a airear tus costumbres. El simbolismo anima a elegir los cambios de forma consciente, no por el cambio en sí. Es un tema para pensar, no un anuncio de grandes giros.",
+   "reflection": "¿Qué hábito renovarías con gusto o cambiarías por algo nuevo?"
+  },
+  "6": {
+   "title": "Un año de cuidado y cercanía",
+   "text": "En esta convención, el año personal 6 simboliza un tiempo para dirigir la atención al hogar, a los seres queridos y a la calidad del día a día. Puedes verlo como una invitación a cultivar los vínculos, cuidar tu entorno y revisar tus compromisos. La tradición recuerda que el cuidado incluye cuidarte a ti. En qué centrarte lo eliges tú.",
+   "reflection": "¿Cómo quieres cuidar este año de las personas y el lugar más cercanos, tú incluido?"
+  },
+  "7": {
+   "title": "Un año de reflexión",
+   "text": "En la tradición, el año personal 7 es una invitación a la reflexión, al aprendizaje y a mirarte a un ritmo más tranquilo. Puedes verlo como una ocasión para leer, profundizar en un tema o hacer sitio al silencio. El simbolismo del siete anima a hacer preguntas, sin presión por encontrar respuestas rápidas. Es un tema propuesto, no una predicción.",
+   "reflection": "¿Qué quieres descubrir o aprender este año, solo para ti?"
+  },
+  "8": {
+   "title": "Un año de capacidad de acción",
+   "text": "En esta convención, el año personal 8 simboliza un tiempo para mirar tus metas, tus recursos y cómo los gestionas. Puedes verlo como un estímulo para tomar decisiones, ordenar tus finanzas o planificar los siguientes pasos en el trabajo. La tradición no promete aquí el éxito; más bien sugiere el tema de la responsabilidad por los propios actos. Es una invitación a reflexionar.",
+   "reflection": "¿Qué meta quieres tomarte en serio este año, y cómo sabrás que te acercas a ella?"
+  },
+  "9": {
+   "title": "Un año de culminación",
+   "text": "En la tradición, el año personal 9 es el final simbólico de un ciclo de nueve años. Puedes verlo como una invitación a hacer balance, cerrar asuntos y despedirte conscientemente de lo que ya no te sirve. El simbolismo del nueve une este tiempo con la gratitud y con hacer sitio a lo nuevo. Es un tema para pensar, no el anuncio de una pérdida.",
+   "reflection": "¿Qué quieres cerrar con gratitud este año para hacer sitio a algo nuevo?"
+  }
+ },
+ "personalDay": {
+  "1": {
+   "title": "Un día de iniciativa",
+   "text": "El número del día 1 favorece los comienzos. Da el primer paso en un asunto que espera; hoy el valor y la decisión salen con más facilidad.",
+   "reflection": "¿Qué puedo empezar hoy, aunque sea a pequeña escala?"
+  },
+  "2": {
+   "title": "Un día de cooperación",
+   "text": "El número del día 2 es tiempo de relaciones y paciencia. Escucha, suaviza, busca acuerdo: no todo hay que conquistarlo luchando.",
+   "reflection": "¿Con quién merece la pena hablar hoy, con calma y sin prisa?"
+  },
+  "3": {
+   "title": "Un día de expresión",
+   "text": "El número del día 3 favorece la conversación, la creatividad y la alegría. Muestra lo que piensas y sientes; la ligereza ayudará más que la seriedad.",
+   "reflection": "¿Cómo puedo expresarme hoy?"
+  },
+  "4": {
+   "title": "Un día de poner orden",
+   "text": "El número del día 4 es para el trabajo de base. Haz un plan, ordena, ocúpate de lo práctico; los resultados llegarán después.",
+   "reflection": "¿Qué me pide hoy constancia?"
+  },
+  "5": {
+   "title": "Un día de cambio",
+   "text": "El número del día 5 trae movimiento y sorpresas. Sé flexible y prueba algo nuevo, pero no hagas nada a ciegas.",
+   "reflection": "¿A qué cambio estoy abierto hoy?"
+  },
+  "6": {
+   "title": "Un día de cuidado",
+   "text": "El número del día 6 dirige la atención al hogar, a los seres queridos y a la responsabilidad. Cuida de alguien, y de ti.",
+   "reflection": "¿A quién, incluido yo, puedo mostrar cuidado hoy?"
+  },
+  "7": {
+   "title": "Un día de reflexión",
+   "text": "El número del día 7 favorece el silencio, el aprendizaje y la reflexión. Menos hacer, más escucharte.",
+   "reflection": "¿A qué pregunta busco hoy respuesta dentro de mí?"
+  },
+  "8": {
+   "title": "Un día de capacidad de acción",
+   "text": "El número del día 8 trae la energía de la acción, el dinero y las decisiones. Un buen día para asuntos prácticos y para poner límites.",
+   "reflection": "¿Qué decisión puedo tomar hoy desde una posición de fuerza?"
+  },
+  "9": {
+   "title": "Un día de culminación",
+   "text": "El número del día 9 favorece terminar, perdonar y ordenar. Cierra un asunto para hacer sitio a lo nuevo.",
+   "reflection": "¿Qué puedo terminar o soltar hoy?"
+  }
+ },
+ "relation": {
+  "1": {
+   "title": "Una pareja de líderes",
+   "text": "Número de la relación 1: dos personalidades fuertes que pueden poner en marcha mucho juntas. El desafío: no competir, sino fijar una dirección común.",
+   "reflection": "¿Quién de los dos lleva la iniciativa, y lo hemos hablado?"
+  },
+  "2": {
+   "title": "Una pareja de compañeros",
+   "text": "Número de la relación 2: sensibilidad, ternura y necesidad de cercanía. La fuerza es la comprensión; el desafío, la dependencia y evitar los conflictos.",
+   "reflection": "¿Nos decimos lo que de verdad necesitamos?"
+  },
+  "3": {
+   "title": "Una pareja de alegría",
+   "text": "Número de la relación 3: muchas conversaciones, humor y diversión compartida. El desafío: no huir de los temas difíciles refugiándose en la ligereza.",
+   "reflection": "¿De qué evitamos hablar en serio?"
+  },
+  "4": {
+   "title": "Una pareja de constructores",
+   "text": "Número de la relación 4: estabilidad, planes comunes, sensación de seguridad. El desafío: una rutina que apaga la espontaneidad.",
+   "reflection": "¿Qué cosa nueva podríamos probar juntos?"
+  },
+  "5": {
+   "title": "Una pareja de aventura",
+   "text": "Número de la relación 5: movimiento, cambio, libertad y pasión. El desafío: la inconstancia y la necesidad de estímulos continuos.",
+   "reflection": "¿Cuánta libertad necesita cada uno?"
+  },
+  "6": {
+   "title": "Una pareja de cuidadores",
+   "text": "Número de la relación 6: cuidado, hogar, familia y responsabilidad. El desafío: el sacrificio propio y las expectativas demasiado altas.",
+   "reflection": "¿Cuidamos de nosotros tan bien como de los demás?"
+  },
+  "7": {
+   "title": "Una pareja de buscadores",
+   "text": "Número de la relación 7: un vínculo profundo y reflexivo, una búsqueda de sentido compartida. El desafío: cerrarse y lo que no se dice.",
+   "reflection": "¿Qué compartimos solo en pensamiento?"
+  },
+  "8": {
+   "title": "Una pareja de poder",
+   "text": "Número de la relación 8: ambición, metas comunes, éxito material. El desafío: la lucha por el control y olvidar la ternura.",
+   "reflection": "¿Ganamos juntos, o el uno contra el otro?"
+  },
+  "9": {
+   "title": "Una pareja de idealistas",
+   "text": "Número de la relación 9: compasión, horizontes amplios, valores compartidos. El desafío: ideales que se alejan de la vida cotidiana.",
+   "reflection": "¿Cómo se ven nuestros valores un martes cualquiera?"
+  }
+ },
+ "personalMonth": {
+  "1": {
+   "title": "Un mes de arranque",
+   "text": "El mes personal 1 favorece los proyectos nuevos y las decisiones. Un buen momento para empezar lo que vienes aplazando; la energía está del lado de la iniciativa.",
+   "reflection": "¿Qué empezaré este mes?"
+  },
+  "2": {
+   "title": "Un mes de relaciones",
+   "text": "El mes personal 2 dirige la atención a la cooperación y la paciencia. Las cosas maduran más despacio, pero las relaciones pueden profundizarse.",
+   "reflection": "¿Con quién quiero entenderme mejor este mes?"
+  },
+  "3": {
+   "title": "Un mes de expresión",
+   "text": "El mes personal 3 es tiempo de encuentros, creatividad y alegría. Es más fácil hablar de ti y compartir ideas.",
+   "reflection": "¿Cómo quiero expresarme este mes?"
+  },
+  "4": {
+   "title": "Un mes de trabajo",
+   "text": "El mes personal 4 significa orden, planes y trabajo constante. Menos fuegos artificiales, más cimientos sólidos.",
+   "reflection": "¿Qué construiré paso a paso?"
+  },
+  "5": {
+   "title": "Un mes de cambio",
+   "text": "El mes personal 5 trae movimiento, novedades y sorpresas. Un buen momento para viajar, aprender y ser flexible.",
+   "reflection": "¿A qué cambio me abriré?"
+  },
+  "6": {
+   "title": "Un mes de hogar",
+   "text": "El mes personal 6 trata del hogar, los seres queridos y la responsabilidad. Más cuidado, también para ti.",
+   "reflection": "¿Cómo cuidaré de mis seres queridos y de mí?"
+  },
+  "7": {
+   "title": "Un mes de reflexión",
+   "text": "El mes personal 7 favorece el silencio, el aprendizaje y la reflexión. Las respuestas llegan más en la calma que a la carrera.",
+   "reflection": "¿Qué quiero descubrir sobre mí?"
+  },
+  "8": {
+   "title": "Un mes de capacidad de acción",
+   "text": "El mes personal 8 favorece lo concreto: trabajo, dinero y decisiones. Un buen momento para tomar las riendas.",
+   "reflection": "¿Qué meta concreta alcanzaré?"
+  },
+  "9": {
+   "title": "Un mes de culminación",
+   "text": "El mes personal 9 es tiempo de hacer balance y cerrar asuntos. Haz sitio a lo nuevo; pronto empieza otro ciclo.",
+   "reflection": "¿Qué terminaré este mes?"
+  }
+ },
+ "maturity": {
+  "1": {
+   "title": "La madurez de la independencia",
+   "text": "Con los años necesitas cada vez más independencia y un camino propio. La segunda mitad de la vida favorece el liderazgo y el valor.",
+   "reflection": "¿Dónde quiero ser más independiente?"
+  },
+  "2": {
+   "title": "La madurez de la colaboración",
+   "text": "Con el tiempo, las relaciones, la cooperación y la suavidad ganan valor. La madurez trae la capacidad de unir a las personas.",
+   "reflection": "¿Qué relaciones quiero cultivar en el futuro?"
+  },
+  "3": {
+   "title": "La madurez creativa",
+   "text": "Con los años es más fácil expresarse: con palabras, arte, humor. La madurez favorece la alegría y el contacto con los demás.",
+   "reflection": "¿Cómo quiero crear en los próximos años?"
+  },
+  "4": {
+   "title": "La madurez del constructor",
+   "text": "Con los años valoras la estabilidad y el orden. La madurez trae los resultados duraderos del trabajo paciente.",
+   "reflection": "¿Qué cosa duradera quiero dejar?"
+  },
+  "5": {
+   "title": "La madurez de la libertad",
+   "text": "Con los años anhelas más el movimiento, la aventura y el cambio que la calma. La madurez es un tiempo para redescubrir el mundo.",
+   "reflection": "¿Qué quiero ver y vivir todavía?"
+  },
+  "6": {
+   "title": "La madurez del cuidador",
+   "text": "Con los años la familia, el hogar y el cuidado de los demás importan cada vez más. La madurez trae el papel de apoyo para tus seres queridos.",
+   "reflection": "¿Para quién quiero ser un apoyo?"
+  },
+  "7": {
+   "title": "La madurez del sabio",
+   "text": "Con los años crece la necesidad de comprender, aprender y de espiritualidad. La madurez favorece las preguntas profundas.",
+   "reflection": "¿Qué pregunta quiero explorar?"
+  },
+  "8": {
+   "title": "La madurez de la capacidad de acción",
+   "text": "Con los años llegan la influencia, la responsabilidad y la capacidad de dirigir. La madurez favorece cumplir tus ambiciones.",
+   "reflection": "¿Qué influencia quiero tener en el mundo?"
+  },
+  "9": {
+   "title": "La madurez del humanista",
+   "text": "Con los años el bien común y compartir la experiencia importan cada vez más. La madurez trae una mirada amplia.",
+   "reflection": "¿Qué quiero compartir con los demás?"
+  },
+  "11": {
+   "title": "La madurez de la inspiración",
+   "text": "Número maestro 11: con los años crecen la intuición y la capacidad de inspirar a otros. Es importante cuidar tu sensibilidad.",
+   "reflection": "¿A quién quiero inspirar, y con qué?"
+  },
+  "22": {
+   "title": "La madurez de los grandes planes",
+   "text": "Número maestro 22: la madurez puede traer proyectos que sirven a mucha gente. Eso requiere paciencia y realismo.",
+   "reflection": "¿Qué gran plan quiero convertir en algo concreto?"
+  },
+  "33": {
+   "title": "La madurez del maestro",
+   "text": "Número maestro 33: con los años llega la necesidad de enseñar y apoyar a otros. Recuerda también tus propios límites.",
+   "reflection": "¿Qué quiero enseñar a los demás?"
+  }
+ },
+ "house": {
+  "1": {
+   "title": "Una casa de independencia",
+   "text": "Un lugar que favorece la independencia y los nuevos comienzos; bueno para quien empieza algo propio.",
+   "reflection": "¿Qué cosa nueva quiero empezar aquí?"
+  },
+  "2": {
+   "title": "Una casa de pareja",
+   "text": "Un lugar que favorece la cercanía, la calma y la vida en pareja.",
+   "reflection": "¿Cómo cuidamos aquí el uno del otro?"
+  },
+  "3": {
+   "title": "Una casa de encuentros",
+   "text": "Un lugar lleno de conversaciones, invitados y creatividad; aquí rara vez hay silencio.",
+   "reflection": "¿A quién quiero recibir aquí más a menudo?"
+  },
+  "4": {
+   "title": "Una casa de estabilidad",
+   "text": "Un lugar que favorece el orden, el trabajo y la sensación de seguridad.",
+   "reflection": "¿Qué me da aquí sensación de seguridad?"
+  },
+  "5": {
+   "title": "Una casa de movimiento",
+   "text": "Un lugar de cambio, viajes y movimiento constante; aquí es difícil aburrirse.",
+   "reflection": "¿Cuánto cambio necesito en mi entorno?"
+  },
+  "6": {
+   "title": "Una casa familiar",
+   "text": "Un lugar de cuidado, calidez y familia; un buen hogar para niños y animales.",
+   "reflection": "¿Cómo creo aquí un ambiente cálido?"
+  },
+  "7": {
+   "title": "Una casa de silencio",
+   "text": "Un lugar que favorece la quietud, el estudio y la meditación.",
+   "reflection": "¿Dónde está aquí mi rincón tranquilo?"
+  },
+  "8": {
+   "title": "Una casa de éxito",
+   "text": "Un lugar que favorece el trabajo, la ambición y los asuntos económicos.",
+   "reflection": "¿Cómo apoya este lugar mis metas?"
+  },
+  "9": {
+   "title": "Una casa abierta",
+   "text": "Un lugar hospitalario, abierto a los demás y a la ayuda.",
+   "reflection": "¿A quién quiero dar cobijo aquí?"
+  }
+ }
+}

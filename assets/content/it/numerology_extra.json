@@ -1,0 +1,221 @@
+{
+ "square": {
+  "1": {
+   "title": "Carattere",
+   "levels": [
+    "Nessun 1: costruisci la forza di volontà in modo consapevole, e allenare l'assertività ripaga.",
+    "Un solo 1: un carattere gentile; cedi facilmente agli altri.",
+    "Due 1: un carattere equilibrato. Sai difendere la tua posizione senza forzare.",
+    "Tre: una forte volontà e il bisogno di guidare; attenzione all'ostinazione.",
+    "Quattro o più: una volontà molto forte, che si trasforma facilmente in ostinazione e voglia di controllare gli altri. Vale la pena esercitare la flessibilità."
+   ]
+  },
+  "2": {
+   "title": "Energia",
+   "levels": [
+    "Nessun 2: trai energia dagli altri e dal riposo, quindi prenditi cura del tuo recupero.",
+    "Un solo 2: energia sufficiente per la vita di tutti i giorni, ma facile da perdere quando c'è troppo da fare.",
+    "Due 2: una buona riserva di energia e sensibilità verso ciò che ti circonda.",
+    "Tre: molta energia, che ha bisogno di uno sfogo per non trasformarsi in nervosismo.",
+    "Quattro o più: un'energia enorme che può sfociare in ipersensibilità; servono movimento e riposo."
+   ]
+  },
+  "3": {
+   "title": "Curiosità",
+   "levels": [
+    "Nessun 3: impari nella pratica, con l'esperienza più che dai libri.",
+    "Un solo 3: una curiosità verso il mondo che ha bisogno di un obiettivo concreto.",
+    "Due 3: un talento per le scienze esatte, l'ordine e l'analisi.",
+    "Tre: la mente forte di un ricercatore; imparare cose nuove ti riesce facile.",
+    "Quattro o più: una mente da scienziato, a volte troppo immersa nell'analisi. Aiuta tornare al concreto."
+   ]
+  },
+  "4": {
+   "title": "Salute",
+   "levels": [
+    "Nessun 4: la tradizione parla del bisogno di curare in modo particolare la forma fisica, con il movimento e un ritmo quotidiano.",
+    "Un solo 4: una resistenza media che le buone abitudini possono rafforzare facilmente.",
+    "Due 4: buona forma fisica e resilienza.",
+    "Tre: grande resistenza fisica, spesso l'amore per lo sport.",
+    "Quattro o più: grande resistenza fisica; fai attenzione a non sovraccaricare il corpo."
+   ]
+  },
+  "5": {
+   "title": "Intuizione",
+   "levels": [
+    "Nessun 5: le decisioni è meglio prenderle dopo averci pensato e con un piano.",
+    "Un solo 5: l'intuizione funziona, ma a volte i dubbi la coprono.",
+    "Due 5: una buona intuizione unita alla logica; giudichi le situazioni con precisione.",
+    "Tre: forti presentimenti; vale la pena fidarsene, ma controlla i fatti.",
+    "Quattro o più: un'intuizione notevole. Fidati, ma non rinunciare ai fatti."
+   ]
+  },
+  "6": {
+   "title": "Lavoro",
+   "levels": [
+    "Nessun 6: ti senti meglio nel lavoro mentale che in quello fisico.",
+    "Un solo 6: il lavoro fisico tende a essere una necessità più che un piacere.",
+    "Due 6: mani abili, un talento per l'artigianato e le cose pratiche.",
+    "Tre: il bisogno di creare qualcosa di concreto; il lavoro ti dà equilibrio.",
+    "Quattro o più: un forte bisogno di lavoro fisico e di fare cose; fai fatica a stare con le mani in mano."
+   ]
+  },
+  "7": {
+   "title": "Talento",
+   "levels": [
+    "Nessun 7: il successo viene dalla perseveranza, non dal caso.",
+    "Un solo 7: un talento nascosto che vale la pena scoprire.",
+    "Due 7: un talento evidente e «fortuna» in ciò che fai.",
+    "Tre: molti talenti; ciò che conta è sceglierne uno e svilupparlo.",
+    "Quattro o più: molti talenti, ma anche la tendenza a disperdere gli sforzi. Scegli una strada."
+   ]
+  },
+  "8": {
+   "title": "Dovere",
+   "levels": [
+    "Nessun 8: un approccio rilassato agli obblighi; le regole chiare aiutano.",
+    "Un solo 8: la responsabilità arriva con l'età e l'esperienza.",
+    "Due 8: un forte senso del dovere e cura per gli altri.",
+    "Tre: grande responsabilità. Ricorda di non portare tutto da solo.",
+    "Quattro o più: un senso del dovere molto forte. Ricorda che non devi salvare tutti."
+   ]
+  },
+  "9": {
+   "title": "Memoria",
+   "levels": [
+    "Nessun 9: ricordi meglio facendo che ascoltando.",
+    "Un solo 9: una buona memoria che l'esercizio sviluppa.",
+    "Due 9: una mente acuta e una buona memoria.",
+    "Tre: una memoria eccezionale e un pensiero rapido.",
+    "Quattro o più: una memoria e una prontezza straordinarie; vale la pena dare riposo alla mente."
+   ]
+  }
+ },
+ "pinnacles": {
+  "1": {
+   "title": "Apice dell'indipendenza",
+   "text": "Una fase in cui ti reggi sulle tue gambe: decisioni, iniziativa, il coraggio di andare per la tua strada. Come usarla: prendi le tue decisioni e avvia cose nuove, anche quando non sei sicuro."
+  },
+  "2": {
+   "title": "Apice della cooperazione",
+   "text": "Una fase di relazioni e di partnership: pazienza, diplomazia, costruire ponti tra le persone. Come usarla: investi nelle relazioni, ascolta e impara a lavorare con gli altri. Il successo arriverà attraverso le persone."
+  },
+  "3": {
+   "title": "Apice dell'espressione",
+   "text": "Una fase di creatività, contatti e gioia; un buon momento per mostrare al mondo ciò che hai da dire. Come usarla: crea, scrivi, esibisciti, incontra persone. La tua espressione apre porte."
+  },
+  "4": {
+   "title": "Apice della costruzione",
+   "text": "Una fase di fondamenta: stabilità, casa, finanze, impegno costante che ripaga. Come usarla: costruisci basi solide, come studi, risparmi e una casa. La pazienza ripaga."
+  },
+  "5": {
+   "title": "Apice del cambiamento",
+   "text": "Una fase di movimento, di viaggi e di nuove esperienze: molti cambiamenti, poca noia. Come usarla: viaggia, impara, cambia le cose, ma scegli cambiamenti che abbiano senso."
+  },
+  "6": {
+   "title": "Apice della cura",
+   "text": "Una fase di famiglia, casa e responsabilità verso gli altri; relazioni e impegni importanti. Come usarla: abbi cura della casa e delle persone care, ma non dimenticare i tuoi bisogni."
+  },
+  "7": {
+   "title": "Apice della ricerca",
+   "text": "Una fase di riflessione, di studio e di approfondimento di te stesso, con più domande sul senso che sul comfort. Come usarla: concediti tempo per lo studio, la riflessione e la spiritualità. Le risposte verranno da dentro."
+  },
+  "8": {
+   "title": "Apice dell'azione",
+   "text": "Una fase di carriera, influenza e denaro; un tempo per obiettivi ambiziosi e per una gestione matura delle risorse. Come usarla: poniti obiettivi ambiziosi e gestisci le tue risorse con saggezza. È un tempo di influenza."
+  },
+  "9": {
+   "title": "Apice del compimento",
+   "text": "Una fase di ampia visione, di condivisione dell'esperienza e di chiusura di vecchi capitoli. Come usarla: condividi la tua esperienza, aiuta gli altri e chiudi ciò che ha fatto il suo corso."
+  }
+ },
+ "challenges": {
+  "0": {
+   "title": "Sfida della scelta",
+   "text": "Non c'è un unico tema; la sfida è scegliere che cosa vuoi imparare. Tutte le strade sono aperte. Consiglio: ascolta la tua intuizione quando scegli. Nessuna strada ti è imposta."
+  },
+  "1": {
+   "title": "Sfida dell'indipendenza",
+   "text": "Imparare a esprimerti e a porre dei confini, senza cedere e senza arroccarti. Consiglio: esercitati a dire «voglio» e «non voglio», con calma ma con fermezza."
+  },
+  "2": {
+   "title": "Sfida della sensibilità",
+   "text": "Imparare a non prendere tutto sul personale e a non rinunciare a te stesso in nome della quiete. Consiglio: non assumere l'umore degli altri; anche i tuoi bisogni contano."
+  },
+  "3": {
+   "title": "Sfida dell'espressione",
+   "text": "Imparare a parlare dei sentimenti e a mostrare i tuoi lavori creativi nonostante le critiche. Consiglio: condividi ciò che crei prima che sia perfetto."
+  },
+  "4": {
+   "title": "Sfida dell'ordine",
+   "text": "Imparare la disciplina e la pazienza, senza rigidità e senza caos. Consiglio: piccoli passi regolari invece di slanci e caos."
+  },
+  "5": {
+   "title": "Sfida della libertà",
+   "text": "Imparare a usare la libertà con saggezza, senza scappare e senza mollare tutto di colpo. Consiglio: prima di fuggire verso qualcosa di nuovo, controlla da che cosa stai scappando."
+  },
+  "6": {
+   "title": "Sfida della responsabilità",
+   "text": "Imparare a prendersi cura degli altri senza controllarli e senza dimenticare se stessi. Consiglio: aiuta, ma non salvare le persone contro la loro volontà, e non controllare."
+  },
+  "7": {
+   "title": "Sfida della fiducia",
+   "text": "Imparare l'apertura e la fiducia in se stessi, negli altri e nella vita. Consiglio: fidati di qualcuno abbastanza da dirgli ciò che pensi davvero."
+  },
+  "8": {
+   "title": "Sfida del potere e del denaro",
+   "text": "Imparare un rapporto sano con il denaro, l'ambizione e il controllo. Consiglio: denaro e potere sono strumenti. Chiediti a che cosa devono servire."
+  }
+ },
+ "karmicDebts": {
+  "13": {
+   "title": "Debito karmico 13",
+   "text": "Nella tradizione numerologica il 13 rappresenta una lezione di lavoro e perseveranza: le scorciatoie facili funzionano raramente, mentre l'impegno paziente porta risultati duraturi."
+  },
+  "14": {
+   "title": "Debito karmico 14",
+   "text": "Il 14 è una lezione di misura e libertà: imparare a godere della libertà senza eccessi e senza fuggire dagli impegni."
+  },
+  "16": {
+   "title": "Debito karmico 16",
+   "text": "Il 16 è una lezione di umiltà e di ricostruzione: a volte qualcosa deve crollare perché al suo posto ne nasca qualcosa di più vero."
+  },
+  "19": {
+   "title": "Debito karmico 19",
+   "text": "Il 19 è una lezione di autonomia che non esclude il chiedere aiuto: la forza cresce quando lasci che gli altri ti sostengano."
+  }
+ },
+ "karmicLessons": {
+  "1": "Lezione 1: imparare a credere in te stesso e a prendere decisioni senza guardare agli altri.",
+  "2": "Lezione 2: imparare la pazienza, la collaborazione e l'ascolto.",
+  "3": "Lezione 3: imparare a esprimerti e a condividere la gioia.",
+  "4": "Lezione 4: imparare a essere metodico, ordinato e a portare le cose a termine.",
+  "5": "Lezione 5: imparare la flessibilità e l'apertura al cambiamento.",
+  "6": "Lezione 6: imparare ad assumerti la responsabilità delle persone care, e di te stesso.",
+  "7": "Lezione 7: imparare a fidarti della tua intuizione e a ritagliare tempo per la riflessione.",
+  "8": "Lezione 8: imparare un rapporto sano con il denaro e con il tuo potere.",
+  "9": "Lezione 9: imparare la compassione e a guardare oltre le tue faccende."
+ },
+ "keywords": {
+  "1": "inizio, coraggio, indipendenza",
+  "2": "cooperazione, pazienza, dolcezza",
+  "3": "gioia, creatività, conversazione",
+  "4": "ordine, stabilità, lavoro",
+  "5": "cambiamento, movimento, libertà",
+  "6": "casa, cura, armonia",
+  "7": "riflessione, intuizione, conoscenza",
+  "8": "azione, successo, responsabilità",
+  "9": "compimento, compassione, ampia visione"
+ },
+ "dayColors": {
+  "1": "rosso",
+  "2": "arancione",
+  "3": "giallo",
+  "4": "verde",
+  "5": "azzurro",
+  "6": "indaco",
+  "7": "viola",
+  "8": "rosa",
+  "9": "oro"
+ }
+}

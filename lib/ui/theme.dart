@@ -52,7 +52,7 @@ ThemeData buildTheme(Brightness b) {
     titleLarge: _serif(base.titleLarge, 25),
     titleMedium: _serif(base.titleMedium, 21),
     bodyLarge: base.bodyLarge?.copyWith(height: 1.45),
-    bodyMedium: base.bodyMedium?.copyWith(fontSize: 15, height: 1.45),
+    bodyMedium: base.bodyMedium?.copyWith(fontSize: 16, height: 1.5),
   );
   final radius = BorderRadius.circular(20);
   return ThemeData(

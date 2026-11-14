@@ -1,0 +1,479 @@
+{
+ "elements": {
+  "fire": "Vuur",
+  "earth": "Aarde",
+  "air": "Lucht",
+  "water": "Water"
+ },
+ "signs": [
+  {
+   "id": "aries",
+   "name": "Ram",
+   "locative": "Ram",
+   "dates": "21 mrt – 19 apr",
+   "text": "De Ram is het eerste teken van de dierenriem en vuur in zijn zuiverste vorm: moed, initiatief en de behoefte om hier en nu te handelen. Hij voelt zich het best als hij kan beginnen; geduld en afmaken liggen hem minder.",
+   "color": "rood",
+   "stone": "diamant, carneool",
+   "day": "dinsdag",
+   "planet": "Mars",
+   "love": "In de liefde is de Ram direct en gepassioneerd: hij houdt van veroveren en toont snel zijn gevoelens. Hij heeft een partner nodig die zijn tempo niet vreest, en leert dat nabijheid ook geduld vraagt.",
+   "work": "In werk komt hij het best tot zijn recht waar initiatief telt: hij start projecten, leidt, neemt de strijd aan. Routine put hem uit; het is goed iemand naast je te hebben die de details afmaakt.",
+   "wellbeing": "Zijn energie ontlaadt hij met beweging. Sport, korte intensieve uitdagingen en bewust afremmen voordat vermoeidheid in irritatie omslaat, doen hem goed."
+  },
+  {
+   "id": "taurus",
+   "name": "Stier",
+   "locative": "Stier",
+   "dates": "20 apr – 20 mei",
+   "text": "De Stier is aarde die rust, comfort en het duurzame waardeert. Hij is geduldig en trouw, bouwt langzaam maar solide. Zijn uitdaging is koppigheid en tegenzin tegen verandering.",
+   "color": "groen, roze",
+   "stone": "smaragd, rozenkwarts",
+   "day": "vrijdag",
+   "planet": "Venus",
+   "love": "In de liefde is de Stier trouw, tederzinnig en zinnelijk. Hij toont zijn gevoelens met daden, zoals zorg, een maaltijd, aanwezigheid, en heeft behoefte aan een gevoel van bestendigheid.",
+   "work": "In werk is hij volhardend en degelijk; hij maakt dingen af. Hij voelt zich thuis in financiën, ambacht, tuinieren en overal waar je resultaat ziet.",
+   "wellbeing": "Natuur, goed eten en een vast dagritme doen hem goed. Let op stilstand: zachte beweging en een andere omgeving geven hem zijn lichtheid terug."
+  },
+  {
+   "id": "gemini",
+   "name": "Tweelingen",
+   "locative": "Tweelingen",
+   "dates": "21 mei – 20 jun",
+   "text": "De Tweelingen zijn lucht in beweging: nieuwsgierigheid, gesprek, snel feiten verbinden. Ze leggen makkelijk contact en leren snel nieuwe dingen. De uitdaging is verstrooidheid en moeite om één weg te kiezen.",
+   "color": "geel",
+   "stone": "agaat, citrien",
+   "day": "woensdag",
+   "planet": "Mercurius",
+   "love": "In de liefde hebben de Tweelingen gesprek en lichtheid nodig. Ze worden verliefd op een geest; verveling is de grootste bedreiging voor een relatie.",
+   "work": "In werk blinken ze uit in communicatie, media, handel en onderwijs. Ze houden van veel projecten tegelijk; de sleutel is prioriteiten kiezen.",
+   "wellbeing": "Hun geest werkt non-stop, dus ze hebben momenten van stilte en offline zijn nodig. Ademhalen, wandelen en minder prikkels in de avond helpen."
+  },
+  {
+   "id": "cancer",
+   "name": "Kreeft",
+   "locative": "Kreeft",
+   "dates": "21 jun – 22 jul",
+   "text": "De Kreeft is water dat beschermt: thuis, naasten, een gevoel van veiligheid. Hij is gevoelig, zorgzaam en heeft een goed emotioneel geheugen. De uitdaging is zich in zijn schild terugtrekken als iets pijn doet.",
+   "color": "zilver, wit",
+   "stone": "parel, maansteen",
+   "day": "maandag",
+   "planet": "Maan",
+   "love": "In de liefde is de Kreeft zorgzaam en toegewijd; hij maakt een thuis waar naasten zich veilig voelen. Hij heeft geruststelling en tederheid nodig, ook al vraagt hij er niet altijd om.",
+   "work": "In werk doet hij het goed waar zorg telt: in verzorging, onderwijs, horeca, werken met mensen. Hij werkt goed in teams die op een gezin lijken.",
+   "wellbeing": "Zijn welzijn hangt sterk van emoties af. Thuis, water, dierbaren en gevoelens benoemen in plaats van ze in het schild te verbergen, helpen hem."
+  },
+  {
+   "id": "leo",
+   "name": "Leeuw",
+   "locative": "Leeuw",
+   "dates": "23 jul – 22 aug",
+   "text": "De Leeuw is vuur dat straalt: vrijgevigheid, creativiteit en de behoefte om gezien te worden. Hij geeft anderen warmte en moed. De uitdaging is trots en moeite met kritiek aannemen.",
+   "color": "goud, oranje",
+   "stone": "robijn, barnsteen",
+   "day": "zondag",
+   "planet": "Zon",
+   "love": "In de liefde is de Leeuw vrijgevig, romantisch en loyaal. Hij heeft bewondering en waardering nodig en geeft in ruil veel warmte.",
+   "work": "In werk leidt en presenteert hij graag: hij is goed in leiderschap, kunst, verkoop en overal waar je kunt opvallen.",
+   "wellbeing": "Zijn energie haalt hij uit vreugde en creativiteit. Het is goed als hij voor zijn hart en rug zorgt, ook figuurlijk: rust van de rol van de sterke."
+  },
+  {
+   "id": "virgo",
+   "name": "Maagd",
+   "locative": "Maagd",
+   "dates": "23 aug – 22 sep",
+   "text": "De Maagd is aarde in de details: orde, degelijkheid en de wens behulpzaam te zijn. Hij ziet wat beter kan. De uitdaging is perfectionisme en te streng oordelen over jezelf.",
+   "color": "beige, marineblauw",
+   "stone": "saffier, jaspis",
+   "day": "woensdag",
+   "planet": "Mercurius",
+   "love": "In de liefde toont de Maagd gevoelens door zorg en hulp. Ze kan terughoudend zijn, maar is erg toegewijd; ze heeft een partner nodig die haar dagelijkse oplettendheid waardeert.",
+   "work": "In werk is ze nauwkeurig, analytisch en degelijk. Ze doet het goed in gezondheid, analyse, redactie, organisatie, overal waar details tellen.",
+   "wellbeing": "Ze maakt zich makkelijk zorgen, dus orde, routine en perfectionisme bewust loslaten helpen. Ze reageert goed op gezond eten en wandelingen."
+  },
+  {
+   "id": "libra",
+   "name": "Weegschaal",
+   "locative": "Weegschaal",
+   "dates": "23 sep – 22 okt",
+   "text": "De Weegschaal is lucht die evenwicht zoekt: harmonie, rechtvaardigheid en schoonheid in relaties. Ze kan ruzies sussen. De uitdaging is beslissingen uitstellen om niemand te kwetsen.",
+   "color": "pastelblauw, roze",
+   "stone": "opaal, lapis lazuli",
+   "day": "vrijdag",
+   "planet": "Venus",
+   "love": "In de liefde zoekt de Weegschaal partnerschap, harmonie en schoonheid. Ze is romantisch en tactvol, maar moet oppassen dat ze zichzelf niet opgeeft voor de lieve vrede.",
+   "work": "In werk doet ze het goed in diplomatie, recht, design en klantcontact. Ze werkt het best in een duo of team.",
+   "wellbeing": "Een esthetische omgeving, kunst en evenwicht tussen werk en rust doen haar goed. Conflicten putten haar uit, het is goed te leren “nee” te zeggen."
+  },
+  {
+   "id": "scorpio",
+   "name": "Schorpioen",
+   "locative": "Schorpioen",
+   "dates": "23 okt – 21 nov",
+   "text": "De Schorpioen is diep water: intensiteit, loyaliteit en scherpzinnigheid. Hij is niet tevreden met de oppervlakte. De uitdaging is jaloezie en moeite met loslaten.",
+   "color": "bordeauxrood, zwart",
+   "stone": "topaas, obsidiaan",
+   "day": "dinsdag",
+   "planet": "Mars en Pluto",
+   "love": "In de liefde is de Schorpioen intens, gepassioneerd en loyaal tot het einde. Hij heeft diep vertrouwen nodig; verraad vergeeft hij heel moeilijk.",
+   "work": "In werk is hij scherpzinnig en volhardend: hij doet het goed in onderzoek, psychologie, financiën, geneeskunde en overal waar je tot de kern moet komen.",
+   "wellbeing": "Sterke emoties kun je beter verwerken dan onderdrukken. Intensieve beweging, water en een gesprek met een vertrouwd iemand helpen."
+  },
+  {
+   "id": "sagittarius",
+   "name": "Boogschutter",
+   "locative": "Boogschutter",
+   "dates": "22 nov – 21 dec",
+   "text": "De Boogschutter is vuur dat zin zoekt: reizen, kennis, vrijheid en optimisme. Hij steekt anderen aan met enthousiasme. De uitdaging is ongeduld en te snel beloftes doen.",
+   "color": "paars",
+   "stone": "turkoois, amethist",
+   "day": "donderdag",
+   "planet": "Jupiter",
+   "love": "In de liefde heeft de Boogschutter vrijheid en gedeeld avontuur nodig. Hij is eerlijk, warm en optimistisch; jaloezie en controle verdraagt hij slecht.",
+   "work": "In werk doet hij het goed in reizen, onderwijs, uitgeverijen, sport en overal waar zin en groeiperspectief is.",
+   "wellbeing": "Beweging en ruimte geven hem energie: wandelen, sport, nieuwe plekken. Let op overdrijven, in eten, beloftes en tempo."
+  },
+  {
+   "id": "capricorn",
+   "name": "Steenbok",
+   "locative": "Steenbok",
+   "dates": "22 dec – 19 jan",
+   "text": "De Steenbok is aarde die de top beklimt: ambitie, verantwoordelijkheid en volharding. Hij denkt op lange termijn. De uitdaging is werken ten koste van rust en nabijheid.",
+   "color": "bruin, grijs",
+   "stone": "granaat, onyx",
+   "day": "zaterdag",
+   "planet": "Saturnus",
+   "love": "In de liefde is de Steenbok serieus, verantwoordelijk en loyaal. Hij toont gevoelens door zorg voor de toekomst; hij heeft tijd nodig om zich te openen.",
+   "work": "In werk is hij ambitieus, volhardend en goed georganiseerd. Hij doet het goed in management, financiën, administratie en projecten op lange termijn.",
+   "wellbeing": "Hij werkt zich makkelijk te veel af ten koste van rust. Een regelmatig ritme, bergen, stilte en zichzelf plezier gunnen zonder schuldgevoel helpen."
+  },
+  {
+   "id": "aquarius",
+   "name": "Waterman",
+   "locative": "Waterman",
+   "dates": "20 jan – 18 feb",
+   "text": "De Waterman is lucht die naar de toekomst kijkt: onafhankelijkheid, originaliteit en denken aan de gemeenschap. Hij gaat graag zijn eigen weg. De uitdaging is emotionele afstand.",
+   "color": "turkoois",
+   "stone": "amethist, aquamarijn",
+   "day": "zaterdag",
+   "planet": "Saturnus en Uranus",
+   "love": "In de liefde heeft de Waterman vriendschap en vrijheid nodig. Hij is loyaal en open, maar toont emoties op zijn eigen manier, meer via gedeelde ideeën dan tedere woorden.",
+   "work": "In werk doet hij het goed in technologie, wetenschap, maatschappelijk werk en overal waar je nieuwe oplossingen kunt bedenken.",
+   "wellbeing": "Het hoofd werkt snel, het lichaam wordt soms vergeten. Beweging, contact met mensen met dezelfde waarden en tijd voor eigen projecten helpen."
+  },
+  {
+   "id": "pisces",
+   "name": "Vissen",
+   "locative": "Vissen",
+   "dates": "19 feb – 20 mrt",
+   "text": "De Vissen zijn water zonder oevers: empathie, verbeelding en spiritualiteit. Ze voelen meer dan ze zeggen. De uitdaging is vluchten uit de werkelijkheid en gebrek aan grenzen.",
+   "color": "zeeblauw, lavendel",
+   "stone": "aquamarijn, amethist",
+   "day": "donderdag",
+   "planet": "Jupiter en Neptunus",
+   "love": "In de liefde zijn de Vissen romantisch, empathisch en toegewijd. Ze worden makkelijk verliefd en idealiseren; ze hebben een partner nodig die hen een gevoel van veiligheid geeft.",
+   "work": "In werk doen ze het goed in kunst, anderen helpen, therapie, muziek en spiritualiteit, waar verbeelding en mededogen tellen.",
+   "wellbeing": "Ze nemen de stemmingen van hun omgeving op, dus ze hebben stilte en grenzen nodig. Water, slaap, kunst en minder contact met wat hen overweldigt helpen."
+  }
+ ],
+ "chinese": [
+  {
+   "id": "rat",
+   "name": "Rat",
+   "text": "Slim, vindingrijk en sociaal, ziet snel kansen.",
+   "long": "De Rat opent de Chinese dierenriem. Het is het teken van slimheid, vindingrijkheid en snel denken, hij ziet een kans waar anderen een probleem zien. Hij is sociaal en voelt zich goed onder mensen, al kiest hij zijn naasten zorgvuldig. Uitdaging: nervositeit en de neiging om voorraad aan te leggen.",
+   "love": "In de liefde is de Rat tederzinnig en toegewijd, al is hij in het begin voorzichtig. Hij waardeert een partner die slim en loyaal is.",
+   "work": "In werk doet hij het goed in zaken, handel en overal waar je snel een kans moet zien."
+  },
+  {
+   "id": "ox",
+   "name": "Os",
+   "text": "Geduldig, hardwerkend en betrouwbaar, komt stap voor stap bij zijn doel.",
+   "long": "De Os staat voor hard werken, geduld en betrouwbaarheid. Hij werkt methodisch, houdt niet van haast of verrassingen, maar als hij iets belooft, houdt hij zijn woord. Uitdaging: koppigheid en moeite om hulp te vragen.",
+   "love": "In de liefde is de Os trouw en standvastig, hij toont gevoelens met daden en niet met woorden.",
+   "work": "In werk is hij betrouwbaar: hij doet het goed in beroepen die geduld, precisie en verantwoordelijkheid vragen."
+  },
+  {
+   "id": "tiger",
+   "name": "Tijger",
+   "text": "Moedig, energiek en onafhankelijk, schuwt uitdagingen niet.",
+   "long": "De Tijger staat voor moed, energie en behoefte aan onafhankelijkheid. Hij houdt van uitdagingen en komt op voor de zwakkeren. Hij kan opvliegend en ongeduldig zijn, maar zijn enthousiasme sleept anderen mee.",
+   "love": "In de liefde is de Tijger gepassioneerd en spontaan; hij heeft een partner nodig die hem ruimte geeft.",
+   "work": "In werk voelt hij zich goed als leider, ondernemer of waar moed telt."
+  },
+  {
+   "id": "rabbit",
+   "name": "Konijn",
+   "text": "Zachtaardig, tactvol en gevoelig voor schoonheid, houdt van rust.",
+   "long": "Het Konijn (in Vietnam de Kat) staat voor tact, zachtheid en gevoel voor schoonheid. Hij vermijdt conflicten en waardeert rust en goede relaties. Uitdaging: moeilijke beslissingen vermijden en overdreven voorzichtigheid.",
+   "love": "In de liefde is het Konijn tederzinnig, romantisch en zoekt een rustige, harmonieuze relatie.",
+   "work": "In werk doet het het goed in diplomatie, kunst, design en werken met mensen."
+  },
+  {
+   "id": "dragon",
+   "name": "Draak",
+   "text": "Charismatisch, ambitieus en zelfverzekerd, houdt van grote plannen.",
+   "long": "De Draak is het enige mythische dier van de dierenriem, een symbool van kracht, geluk en charisma. Hij heeft grote plannen en de energie om ze uit te voeren. Uitdaging: trots en ongeduld met de zwaktes van anderen.",
+   "love": "In de liefde is de Draak vol passie en royaal, maar heeft bewondering en vrijheid nodig.",
+   "work": "In werk streeft hij naar grote doelen, hij doet het goed in leiderschap en projecten met zwier."
+  },
+  {
+   "id": "snake",
+   "name": "Slang",
+   "text": "Wijs, intuïtief en bedachtzaam, ziet meer dan hij laat zien.",
+   "long": "De Slang staat voor wijsheid, intuïtie en elegantie. Ze denkt voor ze handelt en ziet meer dan ze zegt. Uitdaging: geslotenheid en achterdocht.",
+   "love": "In de liefde is de Slang zinnelijk en loyaal, maar jaloers op wat belangrijk is.",
+   "work": "In werk doet ze het goed in analyse, strategie, financiën en overal waar scherpzinnigheid telt."
+  },
+  {
+   "id": "horse",
+   "name": "Paard",
+   "text": "Vrije geest, energiek en eerlijk, heeft beweging en ruimte nodig.",
+   "long": "Het Paard is een vrije geest: energie, eerlijkheid en behoefte aan beweging. Het zit graag midden in het gebeuren en handelt snel. Uitdaging: ongeduld en moeite om begonnen zaken af te maken.",
+   "love": "In de liefde is het Paard eerlijk en enthousiast; het heeft gedeelde avonturen en vrijheid nodig.",
+   "work": "In werk voelt het zich goed in beweging: reizen, verkoop, sport en projecten met tempo."
+  },
+  {
+   "id": "goat",
+   "name": "Geit",
+   "text": "Creatief, zachtaardig en empathisch, voelt zich goed in harmonie.",
+   "long": "De Geit (of het Schaap) staat voor creativiteit, zachtheid en empathie. Ze heeft harmonie en een veilige omgeving nodig om te bloeien. Uitdaging: piekeren en afhankelijkheid van de mening van anderen.",
+   "love": "In de liefde is de Geit zacht en zorgzaam; ze heeft veiligheid en tederheid nodig.",
+   "work": "In werk doet ze het goed in kunst, zorg, creatief werk en teams met een fijne sfeer."
+  },
+  {
+   "id": "monkey",
+   "name": "Aap",
+   "text": "Vindingrijk, geestig en nieuwsgierig naar de wereld, leert snel.",
+   "long": "De Aap staat voor vindingrijkheid, humor en nieuwsgierigheid naar de wereld. Hij leert snel en vindt ongewone oplossingen. Uitdaging: verstrooidheid en de neiging bochten af te snijden.",
+   "love": "In de liefde is de Aap grappig en vindingrijk; verveling ziet hij als grootste vijand.",
+   "work": "In werk doet hij het goed in technologie, handel, entertainment en overal waar je buiten de lijntjes moet denken."
+  },
+  {
+   "id": "rooster",
+   "name": "Haan",
+   "text": "Hardwerkend, eerlijk en nauwkeurig, houdt van orde en duidelijke regels.",
+   "long": "De Haan staat voor eerlijkheid, vlijt en zorg voor details. Hij houdt van orde en zegt rechtuit wat hij denkt. Uitdaging: kritisch zijn en perfectionisme.",
+   "love": "In de liefde is de Haan trouw en zorgzaam, al kan hij kritisch zijn, hij toont gevoelens door zorg voor details.",
+   "work": "In werk doet hij het goed in organisatie, boekhouding, het leger, geneeskunde en beroepen die nauwkeurigheid vragen."
+  },
+  {
+   "id": "dog",
+   "name": "Hond",
+   "text": "Loyaal, eerlijk en beschermend, kiest de kant van de zwakkeren.",
+   "long": "De Hond staat voor loyaliteit, eerlijkheid en rechtvaardigheidsgevoel. Hij is een toegewijde vriend en beschermer van zijn naasten. Uitdaging: onrust en pessimisme.",
+   "love": "In de liefde is de Hond een van de trouwste tekens, eerlijk en toegewijd.",
+   "work": "In werk doet hij het goed in beroepen rond hulp, recht, beveiliging en onderwijs."
+  },
+  {
+   "id": "pig",
+   "name": "Varken",
+   "text": "Royaal, vriendelijk en opgewekt, weet van het leven te genieten.",
+   "long": "Het Varken (of Wild zwijn) staat voor vrijgevigheid, vriendelijkheid en levensvreugde. Het vertrouwt mensen en kan genieten. Uitdaging: naïviteit en moeite om nee te zeggen.",
+   "love": "In de liefde is het Varken royaal, warm en romantisch; het vertrouwt makkelijk.",
+   "work": "In werk doet het het goed in horeca, zorg, kunst en werken met mensen, waar vriendelijkheid telt."
+  }
+ ],
+ "phases": [
+  {
+   "name": "Nieuwe maan",
+   "text": "Nieuwe maan is de tijd van zaaien. Stel een intentie, begin iets in stilte, je hoeft het nog aan niemand te laten zien."
+  },
+  {
+   "name": "Wassende sikkel",
+   "text": "De Maan groeit, de energie neemt toe. Een goede tijd voor eerste stappen en verzamelen wat je nodig hebt."
+  },
+  {
+   "name": "Eerste kwartier",
+   "text": "Het eerste kwartier brengt de eerste obstakels. Geef niet op: neem een besluit en handel ondanks de weerstand."
+  },
+  {
+   "name": "Wassende Maan",
+   "text": "De Maan is bijna vol. Werk de details af, verbeter wat niet werkt, het resultaat is dichtbij."
+  },
+  {
+   "name": "Volle Maan",
+   "text": "De volle Maan verlicht alles en versterkt emoties. Je ziet de resultaten van je handelen, vier het, maar beslis niet in een opwelling."
+  },
+  {
+   "name": "Afnemende Maan",
+   "text": "Na de volle Maan komt de tijd voor dankbaarheid en delen. Maak de balans op: wat heb je geleerd?"
+  },
+  {
+   "name": "Laatste kwartier",
+   "text": "Het laatste kwartier is een tijd van opruimen. Laat los wat niet nodig is: rond af, geef weg, gooi weg."
+  },
+  {
+   "name": "Afnemende sikkel",
+   "text": "De Maan dooft voor de nieuwe maan. Vertraag, rust uit en word stil, de nieuwe cyclus begint zo."
+  }
+ ],
+ "today": {
+  "same": [
+   "De Maan loopt vandaag door het teken van jouw element: je voelt je meer jezelf. Handel op je eigen manier en leg het niet uit.",
+   "Vandaag vertrouw je makkelijker op je gevoel. Een goede dag voor zaken die jouw natuurlijke sterke kanten vragen.",
+   "De energie van de dag stroomt in jouw ritme. Gebruik dat voor iets wat je al lang uitstelt."
+  ],
+  "supportive": [
+   "De dag zit mee: wat je doet, stuit op minder weerstand dan anders. Een goed moment voor gesprekken en nieuwe contacten.",
+   "Je omgeving steunt je vandaag. Vraag om hulp of stel samenwerking voor, je hoort vaker “ja” dan anders.",
+   "Een lichte, gunstige dag. Kies voor beweging, ideeën uitwisselen en kleine genoegens."
+  ],
+  "neutral": [
+   "Een rustige dag zonder duidelijke wind, hoeveel je eruit haalt hangt van jou af. Kies voor één concrete zaak.",
+   "Vandaag duwt niets je in een bepaalde richting. Een goed moment om rustig orde op zaken te stellen.",
+   "Een gewone dag waarop volhouden telt. Kleine stappen leveren meer op dan grote gebaren."
+  ],
+  "tense": [
+   "Vandaag kan het voelen alsof de wereld in een ander ritme speelt dan jij. Vecht er niet tegen, vertraag en kies wat echt belangrijk is.",
+   "Een gespannen dag, er zijn sneller misverstanden. Haal adem voordat je scherp antwoordt.",
+   "De energie van de dag is je vreemd, wat vermoeiend kan zijn. Zorg voor jezelf en neem geen grote beslissingen op basis van je stemming."
+  ]
+ },
+ "caution": {
+  "1": "Let op koppigheid en alleen handelen, je hoeft niet alles zelf te doen.",
+  "2": "Let op overdreven meegaandheid, jouw mening telt ook.",
+  "3": "Let op verstrooidheid en loze beloftes, maak af wat je begonnen bent.",
+  "4": "Let op starheid, een plan is belangrijk, maar laat ruimte voor verandering.",
+  "5": "Let op overhaaste beslissingen en impulsieve uitgaven.",
+  "6": "Let op dat je niet de problemen van anderen op je neemt, help, maar red niet met geweld.",
+  "7": "Let op jezelf afsluiten en te veel analyseren.",
+  "8": "Let op werken boven je krachten en strijden om controle, rust is ook productief.",
+  "9": "Let op vasthouden aan wat al voorbij is, laat het gaan."
+ },
+ "compat": {
+  "same": "Hetzelfde element: jullie begrijpen elkaar zonder woorden en hebben een vergelijkbaar ritme. Let op dat jullie elkaars zwaktes niet versterken.",
+  "supportive": "Elementen die elkaar steunen: het ene wakkert het andere aan of geeft het grond. Jullie vullen elkaar vanzelf aan.",
+  "neutral": "Verschillende elementen, maar zonder conflict: ieder heeft een eigen wereld. De relatie vraagt nieuwsgierigheid naar het andere.",
+  "tense": "Elementen in spanning: jullie hebben verschillende behoeften en tempo. Dat is geen belemmering, maar vraagt om gesprek en begrip, jullie kunnen veel van elkaar leren."
+ },
+ "moonSigns": [
+  "Maan in Ram: emoties vlammen snel op en doven snel. Je hebt handelen nodig om je goed te voelen, niets doen put meer uit dan inspanning. Boosheid komt makkelijk, maar je draagt het niet na. Beweging en zelf kunnen beslissen helpen je.",
+  "Maan in Stier: je hebt rust, comfort en voorspelbaarheid nodig. Veiligheid bouw je op via tastbare dingen: huis, eten, aanraking, een vast dagritme. Veranderingen kosten je tijd. In evenwicht geef je anderen een enorm gevoel van stabiliteit.",
+  "Maan in Tweelingen: gevoelens verwerk je door erover te praten. Je hebt prikkels, nieuwsgierigheid en iemand nodig om gedachten mee uit te wisselen. Stemmingen wisselen snel. Schrijven, praten en lichtheid helpen je.",
+  "Maan in Kreeft: dit is de natuurlijke plek van de Maan, diepe gevoeligheid, behoefte aan nabijheid en thuis. Je voelt de stemmingen van anderen sterk en onthoudt oude emoties. Als iets pijn doet, trek je je terug in je schild. Een veilige plek en naasten helpen je.",
+  "Maan in Leeuw: je hebt behoefte om gezien en gewaardeerd te worden. Emoties toon je warm en met zwier; een gekwetst hart slaat snel om in trots. Je geeft anderen veel hart. Creativiteit, spel en oprechte erkenning helpen je.",
+  "Maan in Maagd: rust vind je in orde en het gevoel dat je nodig bent. Emoties vertaal je vaak naar zorg voor het concrete en analyse. Je maakt je makkelijk zorgen. Routine, werken met je handen en mildheid voor je eigen fouten helpen je.",
+  "Maan in Weegschaal: je hebt harmonie en partnerschap nodig. Conflicten brengen je uit balans, dus je geeft makkelijk toe om rust te houden. Schoonheid in je omgeving is belangrijk. Een gesprek onder vier ogen en je eigen behoeften benoemen helpen je.",
+  "Maan in Schorpioen: je voelt intens en diep, maar laat weinig zien. Vertrouwen bouw je langzaam op en loyaliteit is alles voor je. Loslaten is moeilijk. Eerlijkheid, privacy en emoties omzetten in actie helpen je.",
+  "Maan in Boogschutter: je hebt vrijheid, ruimte en zin nodig. Optimisme helpt je door moeilijke momenten heen, soms ten koste van het doorleven ervan. Beperkingen verdraag je slecht. Reizen, leren en het gevoel dat je leven een richting heeft helpen je.",
+  "Maan in Steenbok: emoties houd je onder controle en je denkt eerst aan verplichtingen. Veiligheid geeft je een plan en het gevoel dat je de situatie in de hand hebt. Je vraagt zelden om hulp. Erkenning voor je inspanning en tijd alleen voor jezelf helpen je.",
+  "Maan in Waterman: je hebt onafhankelijkheid en vriendschap meer nodig dan tederheid voor de show. Emoties wil je eerst begrijpen en pas daarna voelen. Je voelt je goed in een groep, maar op je eigen voorwaarden. Ruimte en mensen die je anders-zijn accepteren helpen je.",
+  "Maan in Vissen: een zeer empathische Maan, je neemt de stemmingen van je omgeving op. Je hebt stilte, kunst of spiritualiteit nodig om bij jezelf terug te komen. Je raakt makkelijk ontroerd en leeft mee. Grenzen, slaap en creativiteit helpen je."
+ ],
+ "ascSigns": [
+  "Ascendant in Ram: op het eerste gezicht energie, directheid en snel tempo. Mensen zien in jou iemand die handelt voordat hij nadenkt. Je stapt moedig nieuwe situaties in. Pas op dat haast niet overkomt als gebrek aan interesse in anderen.",
+  "Ascendant in Stier: op het eerste gezicht rust, geduld en een aangename aanwezigheid. Je wekt de indruk van iemand stabiels en betrouwbaars. Nieuwe situaties wen je langzaam. Je kracht is volharding en goede smaak.",
+  "Ascendant in Tweelingen: op het eerste gezicht nieuwsgierigheid, een levendig gezicht en lichtheid in gesprek. Je lijkt jonger en beweeglijker dan je bent. Je legt makkelijk contact. Pas op voor verstrooidheid.",
+  "Ascendant in Kreeft: op het eerste gezicht zachtheid en voorzichtigheid. Eerst voel je de sfeer aan en dan pas open je je. Mensen voelen warmte bij je. Je bescherming is soms reserve tegenover vreemden.",
+  "Ascendant in Leeuw: op het eerste gezicht zelfvertrouwen en warmte. Je trekt makkelijk aandacht, ook als je er niet naar streeft. Je hebt iets theatraals. Pas op dat trots je gevoeligheid niet verbergt.",
+  "Ascendant in Maagd: op het eerste gezicht bescheidenheid, oplettendheid en verzorgdheid. Je wekt de indruk van iemand die weet wat hij doet. Je ziet details die anderen missen. Pas op voor een te strenge zelfbeoordeling.",
+  "Ascendant in Weegschaal: op het eerste gezicht beleefdheid, charme en zorg voor vorm. Mensen voelen zich bij je op hun gemak. Je verzacht spanningen vanzelf. Pas op dat je niet met alles instemt voor de lieve vrede.",
+  "Ascendant in Schorpioen: op het eerste gezicht geheimzinnigheid en een intense blik. Je bent moeilijk te doorgronden, en daar voel je je goed bij. Je hebt een sterke aanwezigheid. Vertrouwen geef je geleidelijk.",
+  "Ascendant in Boogschutter: op het eerste gezicht openheid, humor en enthousiasme. Je lijkt iemand die altijd avontuur zoekt. Je steekt anderen makkelijk aan met optimisme. Pas op voor beloftes in het vuur van het moment.",
+  "Ascendant in Steenbok: op het eerste gezicht ernst, zelfbeheersing en volwassenheid. Mensen vertrouwen je snel verantwoordelijkheid toe. Met de jaren word je vaak lichter en opener. Pas op dat je niet alles alleen draagt.",
+  "Ascendant in Waterman: op het eerste gezicht originaliteit en lichte afstand. Je valt op, ook als je dat niet van plan bent. Je bent vriendelijk voor iedereen, maar dichtbij voor enkelen. Je kracht is onafhankelijk denken.",
+  "Ascendant in Vissen: op het eerste gezicht zachtheid, dromerigheid en gevoeligheid. Mensen vertrouwen je makkelijk hun zaken toe. Je voelt stemmingen goed aan. Je hebt grenzen nodig om de emoties van anderen niet over te nemen."
+ ],
+ "elements5": {
+  "wood": {
+   "name": "Hout",
+   "adj": "Houten",
+   "text": "Hout staat voor groei, vrijgevigheid en samenwerking. Houtmensen groeien samen met anderen en denken aan de toekomst."
+  },
+  "fire": {
+   "name": "Vuur",
+   "adj": "Vurige",
+   "text": "Vuur staat voor passie, enthousiasme en moed. Vuurmensen steken anderen aan met energie, maar branden snel op."
+  },
+  "earth": {
+   "name": "Aarde",
+   "adj": "Aardse",
+   "text": "Aarde staat voor stabiliteit, verstand en zorg. Aardemensen zijn een steun voor anderen en bouwen voor jaren."
+  },
+  "metal": {
+   "name": "Metaal",
+   "adj": "Metalen",
+   "text": "Metaal staat voor vastberadenheid, principes en wilskracht. Metaalmensen zijn consequent en schuwen moeilijke beslissingen niet."
+  },
+  "water": {
+   "name": "Water",
+   "adj": "Water",
+   "text": "Water staat voor intuïtie, flexibiliteit en wijsheid. Watermensen passen zich aan de omstandigheden aan en voelen anderen goed aan."
+  }
+ },
+ "yearForecast": {
+  "same": "Dit is jouw jaar, het jaar van je eigen teken (běnmìngnián). De traditie raadt daarin voorzichtigheid aan: meer aandacht, minder risico. Een goede tijd om terug te keren naar jezelf en je wortels.",
+  "friend": "Het jaar van je “geheime vriend”. De traditie spreekt van steun die stilletjes komt, het is goed hulp en uitnodigingen aan te nemen.",
+  "trine": "Het jaar van een teken uit je trio van bondgenoten. Gunstig voor handelen, samenwerking en het uitvoeren van plannen, de energie van het jaar ligt je na.",
+  "clash": "Het jaar van het tegenovergestelde teken (chōng). De traditie kondigt veranderingen en spanningen aan, forceer zaken liever niet en zie veranderingen als kans.",
+  "neutral": "Een neutraal jaar voor jouw teken. Geen bijzondere wind in de rug, maar ook geen obstakels, veel hangt af van jouw beslissingen."
+ },
+ "chineseCompat": {
+  "same": "Hetzelfde teken: jullie begrijpen elkaar goed, maar versterken ook makkelijk elkaars zwaktes.",
+  "friend": "Geheime vrienden: volgens de traditie een van de beste stellen, ze steunen elkaar.",
+  "trine": "Hetzelfde trio van bondgenoten: vergelijkbare waarden en natuurlijke harmonie.",
+  "clash": "Tegenovergestelde tekens: ze trekken elkaar aan en botsen, veel leren, maar ook wrijving.",
+  "neutral": "Neutraal stel: geen bijzondere harmonie en geen conflict, alles hangt van jullie af."
+ },
+ "dayTypes": {
+  "fire": {
+   "name": "Vruchtdag",
+   "text": "Maan in een Vuurteken: in de tuinbouwtraditie een goede dag voor fruitplanten en het oogsten van fruit."
+  },
+  "earth": {
+   "name": "Worteldag",
+   "text": "Maan in een Aardeteken: een goede dag voor wortelgroenten, verplanten en werk in de grond."
+  },
+  "air": {
+   "name": "Bloemdag",
+   "text": "Maan in een Luchtteken: een goede dag voor bloeiende planten en bloemen snijden voor de vaas."
+  },
+  "water": {
+   "name": "Bladdag",
+   "text": "Maan in een Waterteken: een goede dag voor kruiden, sla en water geven."
+  }
+ },
+ "haircut": {
+  "waxing": "De Maan neemt toe: volgens de traditie groeit haar na het knippen sneller aan.",
+  "waning": "De Maan neemt af: volgens de traditie houdt een kapsel na het knippen langer zijn vorm."
+ },
+ "mercury": "Mercurius retrograde: vanaf de Aarde lijkt hij aan de hemel terug te lopen. In de astrologische traditie is dit een tijd voor herhalen, verbeteren en terugkeren naar oude zaken, en niet om haastig contracten te tekenen. Controleer berichten en plannen twee keer.",
+ "transits": {
+  "moonInSun": "De Maan staat vandaag in je Zonneteken. Emoties en behoeften liggen dichter aan de oppervlakte, een goede dag om iets voor jezelf te doen.",
+  "moonInMoon": "De Maan is teruggekeerd naar het teken waarin ze stond bij je geboorte (Maanterugkeer). De traditie spreekt van een dag van emotionele vernieuwing, merk op wat je echt nodig hebt.",
+  "moonInAsc": "De Maan loopt door het teken van je ascendant. Aan jou is meer te zien wat je voelt, anderen kunnen het vandaag makkelijker aanvoelen.",
+  "moonOpposite": "De Maan staat in het teken tegenover je Zon. Er is sneller spanning tussen wat jij wilt en wat anderen willen, zoek een compromis.",
+  "sunSeason": "De Zon staat in je teken, het is jouw tijd van het jaar. Een goed moment om het afgelopen jaar samen te vatten en een nieuwe richting te bepalen.",
+  "mercuryInSun": "Mercurius loopt terug in je Zonneteken. Herhalingen en misverstanden kunnen jou meer raken dan anderen, controleer twee keer wat je zegt en tekent."
+ },
+ "rituals": {
+  "new": {
+   "title": "Nieuwemaanritueel",
+   "text": "De nieuwe maan is het begin van de maancyclus, traditioneel de tijd om intenties te zaaien. Ga even in stilte zitten en schrijf op wat je de komende maand wilt beginnen of in jezelf wilt ontwikkelen.",
+   "prompts": [
+    "Wat wil ik in deze cyclus beginnen?",
+    "Welke ene kleine stap zet ik deze week?",
+    "Wat heb ik nodig om te slagen?"
+   ]
+  },
+  "full": {
+   "title": "Volle-maanritueel",
+   "text": "De volle maan is het hoogtepunt van de cyclus, een tijd van oogsten, dankbaarheid en loslaten. Keer terug naar de intentie van de nieuwe maan en kijk wat er is gebeurd.",
+   "prompts": [
+    "Waarvoor ben ik vandaag dankbaar?",
+    "Wat is er gelukt sinds de nieuwe maan?",
+    "Wat wil ik loslaten voordat een nieuwe cyclus begint?"
+   ]
+  }
+ },
+ "week": {
+  "same": "De Zon loopt nu door het teken van jouw element, een week waarin je makkelijker jezelf kunt zijn en je plannen kunt uitvoeren. Gebruik haar voor zaken die jouw sterke kanten vragen.",
+  "supportive": "De Zon staat in een teken van een element dat je steunt. De week is gunstig voor contacten, samenwerking en nieuwe ideeën, minder weerstand, meer stroming.",
+  "neutral": "De Zon staat in een teken van een element dat neutraal voor je is. Een rustige week waarin veel afhangt van je volharding, kies voor één belangrijke zaak.",
+  "tense": "De Zon staat in een teken van een element dat in een ander ritme werkt dan jij. De week kan geduld en compromissen vragen, forceer zaken niet."
+ },
+ "eclipseText": {
+  "solar": "De zonsverduistering valt op nieuwe maan. In de traditie is het een krachtig nieuw begin, een tijd voor een intentie die langer betekenis heeft.",
+  "lunar": "De maansverduistering valt op volle maan. In de traditie is het een tijd van afrondingen en dingen die aan het licht komen, een goed moment om iets af te sluiten."
+ }
+}

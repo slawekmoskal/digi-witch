@@ -41,7 +41,7 @@ class SectionTitle extends StatelessWidget {
   const SectionTitle(this.text, {super.key});
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.only(top: 20, bottom: 8),
+    padding: const EdgeInsets.only(top: gap * 2, bottom: gap / 2),
     child: Semantics(
       header: true,
       child: Text(text, style: Theme.of(context).textTheme.titleMedium),
@@ -53,18 +53,29 @@ class SectionTitle extends StatelessWidget {
 class LabeledBlock extends StatelessWidget {
   final String label;
   final Widget child;
-  const LabeledBlock(this.label, this.child, {super.key});
+
+  /// Label and content on the centre axis (hero sections such as the day's numbers).
+  final bool centered;
+  const LabeledBlock(
+    this.label,
+    this.child, {
+    super.key,
+    this.centered = false,
+  });
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.only(top: 16),
+    padding: const EdgeInsets.only(top: 24),
     child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: centered
+          ? CrossAxisAlignment.center
+          : CrossAxisAlignment.start,
       children: [
         // Section label: a step above body text (15) so it reads as a heading.
         Semantics(
           header: true,
           child: Text(
             label.toUpperCase(),
+            textAlign: centered ? TextAlign.center : null,
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w700,
@@ -91,10 +102,56 @@ Path starPath(Offset c, double r) {
   return p..close();
 }
 
+/// The app's one spacing: page sides and the gap between blocks (each block carries half
+/// of it above and below). Change it here, not per screen.
+const gap = 12.0;
+
 /// List padding for tab pages: content scrolls under the floating nav bar,
 /// so the bottom inset (bar height) is added to the usual margin.
-EdgeInsets pagePadding(BuildContext c) =>
-    EdgeInsets.fromLTRB(16, 8, 16, 24 + MediaQuery.paddingOf(c).bottom);
+EdgeInsets pagePadding(BuildContext c, {double maxWidth = 720}) {
+  final side = _side(c, maxWidth);
+  return EdgeInsets.fromLTRB(
+    side,
+    gap / 2,
+    side,
+    24 + MediaQuery.paddingOf(c).bottom,
+  );
+}
+
+/// Padding for pushed screens: [gap] all round, with the same reading-width limit.
+EdgeInsets screenPadding(BuildContext c) {
+  final side = _side(c, 720);
+  return EdgeInsets.fromLTRB(
+    side,
+    gap,
+    side,
+    gap + MediaQuery.paddingOf(c).bottom,
+  );
+}
+
+/// From this window width (foldables unfolded, tablets, landscape) the bottom bar becomes
+/// a rail on the right and content keeps a comfortable reading width.
+bool isWide(BuildContext c) =>
+    MediaQuery.sizeOf(c).width - MediaQuery.paddingOf(c).horizontal >= 600;
+const railWidth = 84.0;
+
+/// True when iOS shows the tabs itself in its vertical bar (iPhone Duo: the strip on the
+/// right with the clock). The system covers whatever the app draws there, so the app
+/// then draws no menu of its own.
+final nativeTabs = ValueNotifier<bool>(false);
+
+/// Height the system's bottom tab bar takes from the bottom of the screen (0 when it is
+/// hidden or at the side). The system does not put it in the safe area Flutter sees.
+final nativeBarInset = ValueNotifier<double>(0);
+
+/// Whether the tabs are the app's own rail on the right (a wide window).
+bool hasRail(BuildContext c) => isWide(c) && !nativeTabs.value;
+
+// Side margin that centres content of at most [maxWidth] in what the rail leaves.
+double _side(BuildContext c, double maxWidth) {
+  final w = MediaQuery.sizeOf(c).width - (hasRail(c) ? railWidth : 0);
+  return max(gap, (w - maxWidth) / 2);
+}
 
 /// Ornamental double gold frame with star corners — the "tarot card" container.
 class TarotFrame extends StatelessWidget {
@@ -104,7 +161,7 @@ class TarotFrame extends StatelessWidget {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 8),
+      margin: const EdgeInsets.symmetric(vertical: gap / 2),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(26),
         gradient: LinearGradient(
@@ -123,7 +180,7 @@ class TarotFrame extends StatelessWidget {
       child: CustomPaint(
         foregroundPainter: _FramePainter(cs.tertiary),
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(28, 30, 28, 24),
+          padding: const EdgeInsets.fromLTRB(20, 26, 20, 20),
           child: child,
         ),
       ),
@@ -143,19 +200,19 @@ class _FramePainter extends CustomPainter {
     final outer = RRect.fromRectAndRadius(
       Offset.zero & s,
       const Radius.circular(26),
-    ).deflate(7);
+    ).deflate(3);
     canvas.drawRRect(outer, line..strokeWidth = 1.4);
     canvas.drawRRect(outer.deflate(5), line..strokeWidth = 0.7);
     final fill = Paint()..color = color;
     for (final c in [
-      const Offset(20, 20),
-      Offset(s.width - 20, 20),
-      Offset(20, s.height - 20),
-      Offset(s.width - 20, s.height - 20),
+      const Offset(16, 16),
+      Offset(s.width - 16, 16),
+      Offset(16, s.height - 16),
+      Offset(s.width - 16, s.height - 16),
     ]) {
       canvas.drawPath(starPath(c, 7), fill);
     }
-    canvas.drawPath(starPath(Offset(s.width / 2, 12), 5), fill);
+    canvas.drawPath(starPath(Offset(s.width / 2, 8), 5), fill);
   }
 
   @override
@@ -313,3 +370,69 @@ class SaveReflectionButton extends StatelessWidget {
     ),
   );
 }
+
+/// A shortcut tile: icon, title, subtitle (may be empty), action.
+typedef Tile = (IconData, String, String, VoidCallback);
+
+/// Shortcut tiles in rows of [columns] with equal heights; a short last row keeps tile widths.
+class TileGrid extends StatelessWidget {
+  final List<Tile> tiles;
+  final int columns;
+  const TileGrid(this.tiles, {super.key, this.columns = 2});
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    Widget tile(Tile x) => Expanded(
+      child: Card(
+        margin: EdgeInsets.zero,
+        child: InkWell(
+          onTap: x.$4,
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Icon(
+                  x.$1,
+                  color: Theme.of(context).colorScheme.tertiary,
+                  size: 28,
+                ),
+                const SizedBox(height: 8),
+                Text(x.$2, style: t.titleMedium?.copyWith(fontSize: 19)),
+                if (x.$3.isNotEmpty) ...[
+                  const SizedBox(height: 2),
+                  Text(x.$3, style: t.bodySmall),
+                ],
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+    return Column(
+      children: [
+        for (var i = 0; i < tiles.length; i += columns)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: IntrinsicHeight(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  for (var j = i; j < i + columns; j++) ...[
+                    if (j > i) const SizedBox(width: 10),
+                    j < tiles.length
+                        ? tile(tiles[j])
+                        : const Expanded(child: SizedBox()),
+                  ],
+                ],
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+void pushScreen(BuildContext context, Widget w) =>
+    Navigator.of(context).push(MaterialPageRoute(builder: (_) => w));

@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "Le Mat",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "nouveau départ",
+   "spontanéité",
+   "confiance",
+   "curiosité",
+   "légèreté"
+  ],
+  "symbolism": "Un jeune personnage aux vêtements colorés se tient au bord d’une falaise, le visage tourné vers le ciel, comme s’il ne remarquait pas le vide. D’une main il tient une rose blanche, sur l’épaule il porte un bâton avec un petit baluchon, et un petit chien blanc bondit à ses pieds. Derrière lui brille un soleil éclatant et l’on aperçoit des sommets enneigés.",
+  "upright": "Le Mat vous invite à regarder la situation avec un regard neuf, sans le poids des idées reçues. C’est l’énergie du premier pas, où il y a plus de curiosité que de plan. La carte peut suggérer qu’il vaut la peine de vous accorder le droit de ne pas savoir et d’apprendre en chemin. Le chien aux pieds du Mat rappelle que l’ouverture va bien avec un peu de vigilance.",
+  "reversed": "Le Mat renversé peut indiquer une hésitation avant le départ ou, au contraire, une précipitation qui néglige des signaux importants. C’est parfois une invitation à vérifier si la peur de se tromper ne vous ôte pas la joie d’essayer.",
+  "reflection": [
+   "Que deviendrait possible si vous n’aviez pas à connaître la fin à l’avance ?",
+   "Quel petit pas vers l’inconnu vous tente en ce moment ?"
+  ],
+  "advice": "C’est un bon moment pour un nouveau départ. Faites le premier pas même sans connaître tout le chemin : fiez-vous à votre intuition et à votre curiosité, en regardant simplement où vous mettez les pieds.",
+  "adviceReversed": "Arrêtez-vous un instant avant de sauter. Vérifiez si l’hésitation vient du bon sens ou de la peur de vous tromper, et seulement ensuite partez.",
+  "astrology": "Air"
+ },
+ {
+  "id": "major_01",
+  "name": "Le Bateleur",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "capacité d’agir",
+   "concentration",
+   "compétences",
+   "initiative",
+   "communication"
+  ],
+  "symbolism": "Un personnage en robe blanche et manteau rouge lève une baguette vers le ciel d’une main et désigne la terre de l’autre. Au-dessus de sa tête flotte le signe de l’infini, et sur la table reposent une coupe, une épée, un denier et un bâton : les signes des quatre éléments. Toute la scène est encadrée de roses et de lys en fleurs.",
+  "upright": "Le Bateleur parle d’un moment où vous avez plus de ressources à portée de main qu’il n’y paraît. La carte vous encourage à joindre la pensée à l’action et à donner à vos intentions une forme concrète. C’est un bon moment pour remarquer vos talents et les utiliser consciemment. Le geste qui désigne à la fois le haut et le bas rappelle d’unir la vision à la pratique du quotidien.",
+  "reversed": "Renversée, l’énergie du Bateleur peut se disperser : beaucoup d’idées, mais pas de direction. C’est aussi un signal pour vérifier si vos paroles et vos intentions concordent.",
+  "reflection": [
+   "De quelles compétences disposez-vous déjà, même si vous les remarquez rarement ?",
+   "Quelle pensée attend d’être transformée en un premier geste concret ?"
+  ],
+  "advice": "Vous avez tout ce qu’il faut pour commencer. Prenez les choses en main, concentrez-vous sur un seul objectif et agissez.",
+  "adviceReversed": "Avant d’agir, examinez vos intentions. Une énergie dispersée ou une tentative de manipuler la situation ne vous apportera pas ce que vous voulez.",
+  "astrology": "Mercure"
+ },
+ {
+  "id": "major_02",
+  "name": "La Grande Prêtresse",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "intuition",
+   "silence",
+   "savoir intérieur",
+   "mystère",
+   "patience"
+  ],
+  "symbolism": "Une femme vêtue de bleu est assise entre deux colonnes, l’une sombre et l’autre claire, marquées des lettres B et J. Sur ses genoux, elle tient un rouleau à moitié caché, un croissant de lune repose à ses pieds et derrière elle pend un voile orné de grenades. Elle porte une couronne qui évoque les phases de la Lune.",
+  "upright": "La Grande Prêtresse vous invite à écouter ce qui est discret et non dit. Toutes les réponses ne viennent pas par l’analyse ; certaines mûrissent dans le silence. La carte peut suggérer de faire une pause avant une décision et de vous donner le temps de sentir la situation. C’est un espace pour faire confiance à votre propre ressenti.",
+  "reversed": "La Grande Prêtresse renversée peut indiquer une intuition couverte par le bruit du quotidien ou par l’avis des autres. Elle signifie parfois aussi un repli excessif sur soi, alors qu’une conversation pourrait soulager.",
+  "reflection": [
+   "Que vous dit votre voix intérieure quand vous faites taire un instant votre entourage ?",
+   "Pour quoi avez-vous besoin de plus de temps avant de décider ?"
+  ],
+  "advice": "La réponse est déjà en vous. Ne décidez pas dans la précipitation : faites silence et écoutez votre intuition avant d’interroger les autres.",
+  "adviceReversed": "Cessez de couvrir votre voix intérieure par l’avis des autres. Accordez-vous un moment de calme et vous verrez ce que vous ressentez vraiment.",
+  "astrology": "Lune"
+ },
+ {
+  "id": "major_03",
+  "name": "L’Impératrice",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "abondance",
+   "soin",
+   "créativité",
+   "sensualité",
+   "croissance"
+  ],
+  "symbolism": "Une femme en robe à motif de grenades repose sur des coussins moelleux au milieu de blés mûrissants. Elle porte une couronne de douze étoiles, et près d’elle se dresse un bouclier en forme de cœur portant le signe de Vénus. À l’arrière-plan coule un ruisseau et bruisse une forêt dense.",
+  "upright": "L’Impératrice rappelle ce qui grandit quand il reçoit attention et tendresse : des projets, des relations, et le soin de vous-même aussi. La carte vous encourage à apprécier le plaisir des choses simples. Elle peut être une invitation à créer sans la pression de la perfection. C’est une énergie de générosité qui vous inclut aussi.",
+  "reversed": "Renversée, cette énergie peut se traduire par un don au-delà de vos forces ou par l’oubli de vos propres besoins. Elle peut aussi signaler un blocage créatif, que le repos dénoue mieux que la pression.",
+  "reflection": [
+   "Qu’est-ce qui, dans votre vie, a besoin d’un soin patient en ce moment pour grandir ?",
+   "Comment pouvez-vous prendre soin de vous aujourd’hui comme vous prenez soin des autres ?"
+  ],
+  "advice": "Prenez soin de ce que vous voulez voir grandir : vous-même, une relation, une idée. Agissez avec attention et patience, et l’affaire prendra forme d’elle-même.",
+  "adviceReversed": "Il est difficile de donner aux autres quand vos propres forces s’épuisent. Commencez par prendre soin de vous, puis du reste.",
+  "astrology": "Vénus"
+ },
+ {
+  "id": "major_04",
+  "name": "L’Empereur",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "structure",
+   "responsabilité",
+   "stabilité",
+   "limites",
+   "direction"
+  ],
+  "symbolism": "Un souverain barbu, en armure et manteau rouge, est assis sur un trône de pierre orné de têtes de bélier. D’une main il tient un sceptre surmonté d’un ankh, de l’autre un globe d’or. Derrière lui se dressent des montagnes nues couleur de rouille.",
+  "upright": "L’Empereur parle d’un ordre qui donne un sentiment de sécurité et permet d’agir sereinement. La carte peut vous encourager à fixer des règles claires, des limites ou un plan. C’est aussi une invitation à assumer la responsabilité de votre propre domaine d’influence. Une bonne structure n’a pas besoin d’être rigide ; elle peut être un appui.",
+  "reversed": "L’Empereur renversé peut indiquer un excès de contrôle ou, au contraire, un manque de points d’appui stables. Il vaut la peine de se demander si les règles actuelles vous servent encore ou vous limitent seulement.",
+  "reflection": [
+   "Quelle limite ou quelle règle vous aiderait à vous sentir plus en sécurité ?",
+   "Où le contrôle vous soutient-il, et où commence-t-il à vous restreindre ?"
+  ],
+  "advice": "Mettez de l’ordre. Fixez des règles claires, faites un plan et assumez la décision : la stabilité vous donnera l’avantage.",
+  "adviceReversed": "Trop de contrôle peut étouffer la situation. Assouplissez les règles rigides ou, si la structure manque, construisez-la enfin.",
+  "astrology": "Bélier"
+ },
+ {
+  "id": "major_05",
+  "name": "Le Hiérophant",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "tradition",
+   "apprentissage",
+   "communauté",
+   "valeurs",
+   "guidance"
+  ],
+  "symbolism": "Un prêtre en robe rouge et triple couronne est assis entre deux colonnes de pierre et lève la main pour bénir. Des clés croisées reposent à ses pieds, et devant lui s’agenouillent deux disciples en robes ornées de roses et de lys.",
+  "upright": "Le Hiérophant renvoie au savoir transmis de génération en génération et aux communautés qui donnent un sentiment d’appartenance. La carte peut suggérer de puiser dans l’expérience d’un maître, d’un mentor ou d’une méthode éprouvée. C’est aussi l’occasion de réfléchir aux valeurs qui sont vraiment les vôtres. La tradition peut être un pont, non un mur.",
+  "reversed": "Le Hiérophant renversé peut vous inviter à interroger des règles acceptées sans réfléchir. Il indique parfois le besoin de trouver votre propre voie en dehors des sentiers battus.",
+  "reflection": [
+   "Auprès de qui pourriez-vous apprendre quelque chose en ce moment ?",
+   "Quelles convictions reçues des autres gagneraient à être repensées aujourd’hui ?"
+  ],
+  "advice": "Suivez une voie qui a fait ses preuves. Demandez conseil à une personne expérimentée ou appuyez-vous sur des principes qui ont déjà fonctionné.",
+  "adviceReversed": "Vous n’êtes pas obligé de tout faire comme « il faut ». Demandez-vous quelles règles sont les vôtres et lesquelles ne sont qu’héritées.",
+  "astrology": "Taureau"
+ },
+ {
+  "id": "major_06",
+  "name": "Les Amoureux",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "choix",
+   "relation",
+   "valeurs",
+   "proximité",
+   "cohérence"
+  ],
+  "symbolism": "Une femme et un homme nus se tiennent dans un jardin, et au-dessus d’eux, dans les nuages, plane un ange ailé aux bras ouverts. Derrière la femme pousse un arbre fruitier autour duquel s’enroule un serpent, derrière l’homme un arbre aux feuilles semblables à des flammes. Entre eux, au loin, se dresse une montagne solitaire.",
+  "upright": "Les Amoureux parlent de proximité, mais aussi de choix qui naissent de ce qui compte pour nous. La carte peut concerner une relation où l’honnêteté et la réciprocité comptent. Elle peut aussi inviter à une décision fidèle à vos valeurs, même si elle demande du courage. L’harmonie entre le cœur et les actes donne un sentiment d’ordre intérieur.",
+  "reversed": "Renversée, la carte peut indiquer un écart entre ce que vous désirez et ce que vous choisissez. Elle peut aussi être une invitation à une conversation honnête sur les attentes dans une relation.",
+  "reflection": [
+   "Quel choix serait le plus fidèle à ce à quoi vous tenez vraiment ?",
+   "De quoi avez-vous besoin pour vous sentir pleinement vous-même dans une relation ?"
+  ],
+  "advice": "Vous êtes face à un choix. Choisissez selon vos valeurs, non selon la facilité. Misez sur ce qui compte vraiment pour vous.",
+  "adviceReversed": "Quelque chose ne colle pas : le cœur veut une chose et vos actes en disent une autre. Avant de décider, nommez honnêtement ce que vous voulez.",
+  "astrology": "Gémeaux"
+ },
+ {
+  "id": "major_07",
+  "name": "Le Chariot",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "détermination",
+   "direction",
+   "avancer",
+   "maîtrise de soi",
+   "assurance"
+  ],
+  "symbolism": "Un guerrier en armure ornée de croissants de lune se tient dans un char de pierre sous un dais semé d’étoiles. Le char est tiré par deux sphinx, l’un noir et l’autre blanc, qui regardent dans des directions différentes. Derrière lui s’élèvent les murs d’une ville et coule une rivière.",
+  "upright": "Le Chariot décrit l’énergie d’un mouvement concentré, où des forces différentes sont dirigées dans un seul sens. La carte peut encourager la persévérance et une définition claire du but. Il ne s’agit pas de combattre les obstacles, mais de garder calmement le cap. La victoire, ici, consiste souvent à maîtriser ses contradictions intérieures.",
+  "reversed": "Le Chariot renversé peut suggérer que des forces tirent en sens contraires et qu’il est difficile de démarrer. C’est parfois un signal pour ralentir et vérifier si le but choisi est toujours le bon.",
+  "reflection": [
+   "Où allez-vous exactement, et comment saurez-vous que c’est le bon chemin ?",
+   "Quels besoins contradictoires pourriez-vous réconcilier au lieu de les combattre ?"
+  ],
+  "advice": "Avancez. Fixez une direction, tenez-la et ne vous laissez pas distraire : la détermination vous mènera au but.",
+  "adviceReversed": "Vous tirez dans deux directions à la fois. Décidez où vous allez avant d’accélérer.",
+  "astrology": "Cancer"
+ },
+ {
+  "id": "major_08",
+  "name": "La Force",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "force douce",
+   "courage",
+   "patience",
+   "sang-froid",
+   "compassion"
+  ],
+  "symbolism": "Une femme en robe blanche, ceinte d’une guirlande de fleurs, tient calmement entre ses mains la gueule d’un lion. Au-dessus de sa tête flotte le signe de l’infini. L’animal semble apprivoisé, et la scène se déroule sur fond de douces collines et d’un ciel jaune lumineux.",
+  "upright": "La Force montre une puissance qui n’a besoin ni de cris ni de violence. La carte vous encourage à traiter vos émotions et vos instincts avec douceur, non pour les étouffer mais pour les apprivoiser. C’est un courage qui naît de la patience et de la bienveillance envers soi. Le calme convainc souvent ici plus que la pression.",
+  "reversed": "Renversée, la carte peut indiquer un doute sur votre propre force ou une difficulté à apaiser la frustration. Il vaut alors la peine de vous traiter avec la patience que vous montrez aux personnes que vous aimez.",
+  "reflection": [
+   "Quelle émotion a besoin aujourd’hui de compréhension plutôt que de combat ?",
+   "Où votre douceur pourrait-elle se révéler une force ?"
+  ],
+  "advice": "Agissez avec une force douce. Le calme, la patience et le courage obtiendront plus que la pression. Vous en êtes capable.",
+  "adviceReversed": "Vous doutez de vous plus que nécessaire. Rappelez-vous ce que vous avez déjà surmonté, et soyez plus doux avec vous-même.",
+  "astrology": "Lion"
+ },
+ {
+  "id": "major_09",
+  "name": "L’Ermite",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "réflexion",
+   "solitude choisie",
+   "sagesse",
+   "retrait",
+   "quête"
+  ],
+  "symbolism": "Un vieil homme en manteau gris à capuche se tient sur un sommet enneigé. D’une main il lève une lanterne où brille une étoile à six branches ; de l’autre il s’appuie sur un long bâton. Son regard est tourné vers le bas, comme s’il éclairait le chemin de ceux qui le suivent.",
+  "upright": "L’Ermite vous invite à vous arrêter et à regarder en vous. Le temps passé dans le silence peut aider à distinguer l’important de ce qui est seulement bruyant. La carte ne signifie pas se couper des autres, mais faire consciemment de la place à ses propres pensées. La lumière de la lanterne suffit pour voir le pas suivant.",
+  "reversed": "L’Ermite renversé peut suggérer que le retrait commence à ressembler à de l’isolement. C’est parfois l’inverse : fuir le silence parce qu’il est difficile d’affronter ses propres questions.",
+  "reflection": [
+   "Qu’apprenez-vous sur vous-même quand vous êtes dans le silence ?",
+   "Quel pas suivant voyez-vous à la lumière que vous avez déjà ?"
+  ],
+  "advice": "Éloignez-vous un moment de l’agitation. Réfléchissez à l’affaire seul : la réponse viendra de l’intérieur, pas de l’extérieur.",
+  "adviceReversed": "Le retrait dure depuis trop longtemps. Il est temps d’aller vers les autres et de partager ce que vous savez au fond de vous.",
+  "astrology": "Vierge"
+ },
+ {
+  "id": "major_10",
+  "name": "La Roue de Fortune",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "cycles",
+   "changement",
+   "hasard",
+   "rythme",
+   "retournement"
+  ],
+  "symbolism": "Une grande roue couverte de lettres et de signes alchimiques tourne dans le ciel. À son sommet est assis un sphinx tenant une épée, un serpent descend le long d’un côté et un personnage à tête de chacal remonte par en dessous. Dans les coins, sur des nuages, des créatures ailées (un ange, un aigle, un lion et un taureau) se penchent sur des livres.",
+  "upright": "La Roue de Fortune rappelle que la vie avance par cycles et qu’aucune situation ne reste la même pour toujours. La carte vous encourage à remarquer ce qui change en ce moment et à réfléchir à la façon de vous y accorder. Tout ne dépend pas de nous, mais notre attitude reste entre nos mains. Le changement peut révéler des possibilités qu’on ne voyait pas auparavant.",
+  "reversed": "Renversée, la carte peut indiquer une résistance au changement, ou le sentiment que le même schéma revient sans cesse. C’est une invitation à chercher la partie du cycle que l’on peut consciemment rompre ou transformer.",
+  "reflection": [
+   "Quel schéma récurrent remarquez-vous dans votre vie ?",
+   "Sur quoi pouvez-vous agir même quand les circonstances changent ?"
+  ],
+  "advice": "La situation change, et c’est un bon moment pour suivre le mouvement. Saisissez l’occasion qui se présente : la roue tourne.",
+  "adviceReversed": "Ne luttez pas contre ce sur quoi vous n’avez pas de prise. Concentrez-vous sur ce que vous pouvez faire, et attendez que le cycle tourne.",
+  "astrology": "Jupiter"
+ },
+ {
+  "id": "major_11",
+  "name": "La Justice",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "équilibre",
+   "équité",
+   "cause et effet",
+   "clarté",
+   "responsabilité"
+  ],
+  "symbolism": "Un personnage en robe rouge est assis sur un trône entre deux colonnes, derrière lesquelles pend un voile pourpre. D’une main il tient une épée à double tranchant levée, de l’autre une balance en équilibre. Une chaussure blanche dépasse sous la robe, et le regard est calme et direct.",
+  "upright": "La Justice vous invite à regarder honnêtement la situation, en tenant compte de tous ses aspects. La carte parle du lien entre les choix et leurs conséquences. C’est peut-être le bon moment pour nommer les faits et décider selon votre propre sens de l’équité. La clarté apporte souvent un soulagement, même quand elle demande d’être honnête avec soi.",
+  "reversed": "La Justice renversée peut indiquer une difficulté à assumer la responsabilité, ou le sentiment que quelque chose reste déséquilibré. Il vaut la peine de vérifier si votre jugement sur la situation n’est pas trop sévère, envers les autres ou envers vous-même.",
+  "reflection": [
+   "À quoi ressemblerait cette situation si vous la regardiez sous tous les angles ?",
+   "De quoi voulez-vous prendre la responsabilité, et qu’est-ce qui n’est pas à vous de porter ?"
+  ],
+  "advice": "Agissez avec équité et pesez tous les aspects. Une décision fondée sur les faits et la vérité donnera un résultat juste.",
+  "adviceReversed": "Quelque chose est déséquilibré. Vérifiez que vous êtes tout à fait honnête avec vous-même et avec les autres avant de juger.",
+  "astrology": "Balance"
+ },
+ {
+  "id": "major_12",
+  "name": "Le Pendu",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "suspension",
+   "nouvelle perspective",
+   "lâcher-prise",
+   "pause",
+   "acceptation"
+  ],
+  "symbolism": "Un homme est suspendu la tête en bas, attaché par un pied à une poutre de bois en forme de T d’où poussent des feuilles. Son autre jambe est pliée en croix, et ses mains sont cachées derrière son dos. Une auréole brille autour de sa tête, et son visage reste calme.",
+  "upright": "Le Pendu décrit un temps de suspension qui peut apporter un regard entièrement nouveau. Quand l’action ne donne pas de résultats, il est souvent utile de s’arrêter et de regarder les choses sous un autre angle. La carte vous encourage à lâcher le besoin de solutions immédiates. La compréhension mûrit souvent dans une apparente immobilité.",
+  "reversed": "Le Pendu renversé peut indiquer une impatience face à la pause, ou le fait de rester suspendu plus longtemps que nécessaire. C’est aussi une invitation à remarquer ce que vous pouvez maintenant lâcher pour avancer.",
+  "reflection": [
+   "Que verrez-vous si vous regardez cette affaire du côté exactement opposé ?",
+   "À quoi pouvez-vous renoncer pour faire de la place au nouveau ?"
+  ],
+  "advice": "Ne vous pressez pas. Arrêtez-vous et regardez l’affaire sous un autre angle : lâcher prise peut vous apporter plus que lutter.",
+  "adviceReversed": "L’attente ne sert plus. Si vous êtes coincé dans la suspension, il est temps de décider et d’avancer.",
+  "astrology": "Eau"
+ },
+ {
+  "id": "major_13",
+  "name": "La Mort",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "transformation",
+   "fin d’une étape",
+   "changement",
+   "renouveau",
+   "lâcher-prise"
+  ],
+  "symbolism": "Un personnage en armure noire monte un cheval blanc et porte une bannière noire ornée d’une rose blanche. Devant lui se tiennent ou s’agenouillent des gens de toutes conditions, du souverain à l’enfant, chacun réagissant différemment à son arrivée. À l’arrière-plan, entre deux tours, le soleil se lève.",
+  "upright": "Au tarot, la Mort symbolise la fin d’un chapitre et le passage au suivant, non une fin physique. La carte parle d’une transformation qui libère de l’espace, comme l’automne prépare le sol pour le printemps. Elle peut vous encourager à dire adieu à des habitudes, des rôles ou des convictions qui ont fait leur temps. Le soleil levant à l’arrière-plan rappelle qu’après une fin vient un nouveau commencement.",
+  "reversed": "La Mort renversée peut indiquer une résistance à un changement qui mûrit de toute façon de l’intérieur. C’est parfois une invitation à laisser partir quelque chose en douceur, au lieu de le maintenir en vie de force.",
+  "reflection": [
+   "Quelle étape de votre vie arrive naturellement à sa fin ?",
+   "Qu’est-ce qui pourrait apparaître si vous faisiez de la place après ce qui s’en va ?"
+  ],
+  "advice": "Fermez ce qui est terminé. Laissez partir l’ancienne étape : c’est seulement ainsi qu’il y aura de la place pour le nouveau.",
+  "adviceReversed": "Vous vous accrochez à quelque chose qui est déjà passé. Le changement viendra de toute façon, et ce sera plus facile si vous cessez d’y résister.",
+  "astrology": "Scorpion"
+ },
+ {
+  "id": "major_14",
+  "name": "La Tempérance",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "harmonie",
+   "équilibre",
+   "patience",
+   "alliance",
+   "mesure"
+  ],
+  "symbolism": "Un ange ailé en robe blanche verse de l’eau d’une coupe à l’autre, un pied sur la rive et l’autre dans un ruisseau. Sur sa poitrine se trouve un triangle inscrit dans un carré. Des iris jaunes poussent tout près, et un chemin mène vers des montagnes au-dessus desquelles brille un arc de lumière.",
+  "upright": "La Tempérance parle de l’art d’unir les contraires et de chercher le juste milieu. La carte encourage une action calme et progressive plutôt que des solutions extrêmes. Il peut s’agir d’équilibrer travail et repos, ou raison et émotion. L’harmonie n’est pas un état figé, mais un accord constant et attentif.",
+  "reversed": "Renversée, la carte peut indiquer un manque d’équilibre : un excès dans un domaine au détriment d’un autre. C’est un signal pour voir où une douce correction des proportions est nécessaire.",
+  "reflection": [
+   "Quels deux domaines de votre vie ont besoin d’un meilleur équilibre en ce moment ?",
+   "Qu’est-ce qui pourrait changer si vous agissiez à petits pas patients ?"
+  ],
+  "advice": "Cherchez le juste milieu. Unissez les contraires et agissez calmement, pas à pas : la mesure est votre force en ce moment.",
+  "adviceReversed": "Vous exagérez quelque chose, que ce soit le travail, les émotions ou les attentes. Rétablissez l’équilibre avant de commencer quoi que ce soit de nouveau.",
+  "astrology": "Sagittaire"
+ },
+ {
+  "id": "major_15",
+  "name": "Le Diable",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "attachement",
+   "tentation",
+   "schémas",
+   "ombre",
+   "prise de conscience"
+  ],
+  "symbolism": "Un personnage cornu aux ailes de chauve-souris est assis sur un piédestal sombre, levant une main et tenant de l’autre une torche abaissée. Deux personnages nus, avec de petites cornes et des queues, sont enchaînés au piédestal. Les chaînes autour de leur cou sont lâches : ils pourraient les retirer.",
+  "upright": "Le Diable vous invite à regarder ce qui vous tient prisonnier : habitudes, convictions ou dépendances. La carte n’est pas un verdict, mais l’occasion de prendre conscience de mécanismes qui agissent hors de votre attention. Les chaînes lâches rappellent que beaucoup de limites peuvent se desserrer dès qu’on les nomme. C’est aussi un espace pour une rencontre honnête avec votre propre ombre.",
+  "reversed": "Le Diable renversé peut signifier le début d’une libération d’un schéma, ou le moment où un attachement devient clairement visible. C’est une invitation à reconquérir votre liberté avec douceur mais constance.",
+  "reflection": [
+   "Quelle habitude ou quelle conviction vous limite plus que vous ne voulez l’admettre ?",
+   "Qu’est-ce qui changerait si cette chaîne se révélait plus lâche qu’elle n’en a l’air ?"
+  ],
+  "advice": "Voyez ce qui vous retient : une habitude, une peur, une dépendance. Nommez-la honnêtement ; la chaîne est plus lâche qu’il n’y paraît.",
+  "adviceReversed": "Vous avez une chance de vous libérer. Faites le premier pas pour sortir du schéma qui vous nuit : c’est plus facile maintenant qu’avant.",
+  "astrology": "Capricorne"
+ },
+ {
+  "id": "major_16",
+  "name": "La Tour",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "changement soudain",
+   "remise en question",
+   "éveil",
+   "libération",
+   "vérité"
+  ],
+  "symbolism": "Une haute tour sur un pic rocheux est frappée par la foudre, qui fait tomber sa couronne. Des flammes jaillissent des fenêtres, et deux personnages tombent sur fond de ciel sombre. De petites étincelles en forme de la lettre hébraïque yod flottent tout autour.",
+  "upright": "La Tour décrit le moment où quelque chose qui semblait stable demande soudain à être réévalué. Un tel changement peut surprendre, mais il révèle souvent une vérité qui était cachée. La carte vous encourage à vérifier quelles structures ont été bâties sur des fondations fragiles. Une fois les choses éclaircies, il y a de la place pour quelque chose de plus authentique.",
+  "reversed": "La Tour renversée peut indiquer un changement nécessaire que l’on repousse, ou une transformation qui se fait plus à l’intérieur qu’à l’extérieur. C’est parfois le signe qu’on peut reconstruire progressivement avant que la tension ne s’accumule.",
+  "reflection": [
+   "Quelle conviction ou quel arrangement mérite aujourd’hui un examen honnête ?",
+   "Que pourrait-on bâtir à la place de ce qui ne fonctionne plus ?"
+  ],
+  "advice": "N’étayez pas ce qui s’effondre. Acceptez le changement et construisez quelque chose sur des fondations plus solides.",
+  "adviceReversed": "Vous évitez un changement inévitable. Mieux vaut l’affronter maintenant, à vos conditions, qu’attendre le choc.",
+  "astrology": "Mars"
+ },
+ {
+  "id": "major_17",
+  "name": "L’Étoile",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "espoir",
+   "renouveau",
+   "calme",
+   "inspiration",
+   "confiance"
+  ],
+  "symbolism": "Une femme nue est agenouillée au bord d’un bassin et verse l’eau de deux cruches, l’une dans l’eau, l’autre sur la terre. Au-dessus d’elle brille une grande étoile à huit branches entourée de sept plus petites. Un oiseau s’est posé sur un arbre à l’arrière-plan.",
+  "upright": "L’Étoile apporte un sentiment de répit et d’espoir paisible. La carte vous invite à vous reposer et à reconstruire la confiance en vous et dans le monde. C’est un bon moment pour des rêves qui n’ont pas besoin d’être réalisés tout de suite pour vous donner de la force. La simplicité de la scène rappelle que vous pouvez vous montrer sans masques.",
+  "reversed": "Renversée, l’Étoile peut indiquer une fatigue ou un espoir qui s’est terni pour un temps. C’est une invitation à chercher de petites sources de lumière et à vous donner le temps de récupérer.",
+  "reflection": [
+   "Qu’est-ce qui vous donne aujourd’hui un sentiment d’espoir, même petit ?",
+   "Comment pouvez-vous prendre soin de votre repos dans les jours à venir ?"
+  ],
+  "advice": "Ayez de l’espoir et agissez à partir de lui. Le pire est passé : donnez-vous le temps de récupérer et regardez l’avenir avec confiance.",
+  "adviceReversed": "Avez-vous perdu la foi que les choses peuvent s’améliorer ? Commencez par un petit pas qui vous redonnera un sentiment de sens.",
+  "astrology": "Verseau"
+ },
+ {
+  "id": "major_18",
+  "name": "La Lune",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "incertitude",
+   "imagination",
+   "rêves",
+   "l’inconscient",
+   "pressentiments"
+  ],
+  "symbolism": "Une lune au visage humain brille sur un paysage nocturne, et des gouttes de lumière en tombent. Un chien et un loup hurlent vers elle de part et d’autre d’un chemin qui serpente entre deux tours vers des collines lointaines. Au premier plan, une écrevisse sort de l’eau.",
+  "upright": "La Lune décrit un état où tout n’est pas clair et où l’imagination propose différentes versions des événements. La carte vous encourage à regarder avec curiosité les rêves, les pressentiments et les peurs, sans les prendre aussitôt pour des faits. C’est un temps pour avancer prudemment, pas à pas. L’incertitude est souvent une étape qui précède la compréhension.",
+  "reversed": "La Lune renversée peut suggérer que le brouillard commence à se lever, ou que les peurs prennent un pouvoir disproportionné. Il vaut la peine de séparer ce qui est connu de ce que l’imagination ajoute.",
+  "reflection": [
+   "Dans cette situation, qu’est-ce qui est un fait, et qu’est-ce qui est votre interprétation ?",
+   "Quel rêve ou quel pressentiment vous revient ces derniers temps ?"
+  ],
+  "advice": "Tout n’est pas clair en ce moment, et c’est normal. Ne prenez pas de décision définitive dans le brouillard ; fiez-vous à votre intuition, mais vérifiez les faits.",
+  "adviceReversed": "Le brouillard commence à se lever. Nommez vos peurs : beaucoup se révéleront plus petites qu’elles ne paraissaient.",
+  "astrology": "Poissons"
+ },
+ {
+  "id": "major_19",
+  "name": "Le Soleil",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "joie",
+   "clarté",
+   "chaleur",
+   "ouverture",
+   "réussite"
+  ],
+  "symbolism": "Un enfant nu, une couronne de fleurs et une plume rouge sur la tête, chevauche joyeusement un cheval blanc en tenant une grande bannière rouge. Au-dessus rayonne un soleil au visage humain, et des tournesols fleurissent derrière un muret.",
+  "upright": "Le Soleil apporte l’énergie de la clarté et de la joie simple. La carte vous encourage à profiter de ce qui est bon et à partager votre chaleur avec les autres. Elle peut décrire un moment où les choses deviennent claires et où l’action vient facilement. C’est aussi une invitation à renouer avec une spontanéité d’enfant.",
+  "reversed": "Renversée, la joie du Soleil peut être atténuée ou difficile à accepter pleinement. C’est parfois aussi un signal pour ne pas feindre la gaieté quand un moment d’honnêteté est nécessaire.",
+  "reflection": [
+   "Qu’est-ce qui vous donne une joie vraie et simple ?",
+   "Comment pouvez-vous vous accorder plus de légèreté cette semaine ?"
+  ],
+  "advice": "La réponse est oui. Agissez ouvertement, avec joie et confiance : c’est un bon moment pour vous montrer.",
+  "adviceReversed": "La joie est proche, mais quelque chose la voile. Autorisez-vous à profiter de ce que vous avez déjà au lieu d’attendre le moment parfait.",
+  "astrology": "Soleil"
+ },
+ {
+  "id": "major_20",
+  "name": "Le Jugement",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "éveil",
+   "appel intérieur",
+   "bilan",
+   "renaissance",
+   "pardon"
+  ],
+  "symbolism": "Un ange surgit des nuages et souffle dans une trompette à laquelle est accroché un drapeau à croix rouge. En bas, de cercueils ouverts flottant sur l’eau, se lèvent des personnages nus (des adultes et un enfant), les bras tendus vers le haut. On aperçoit des montagnes enneigées à l’arrière-plan.",
+  "upright": "Le Jugement décrit un moment d’éveil où votre propre chemin devient plus clair qu’avant. La carte vous encourage à faire le bilan de vos expériences et à en tirer des conclusions sans jugement sévère. Ce peut être un appel intérieur à reprendre quelque chose qui compte depuis longtemps. C’est aussi un espace pour vous pardonner et pardonner aux autres.",
+  "reversed": "Renversée, la carte peut indiquer un jugement trop critique envers vous-même, ou un appel intérieur que vous étouffez. Il vaut la peine de vous demander ce qui vous empêche de répondre à ce qui vous appelle.",
+  "reflection": [
+   "Vers quoi ressentez-vous un appel intérieur ?",
+   "Que pouvez-vous vous pardonner pour avancer le cœur plus léger ?"
+  ],
+  "advice": "Vous avez entendu un appel intérieur : répondez-y. Faites le bilan du passé, pardonnez-vous et prenez la décision.",
+  "adviceReversed": "Vous vous jugez trop durement ou vous repoussez une décision importante. N’attendez plus de signe : le signe est déjà là.",
+  "astrology": "Feu"
+ },
+ {
+  "id": "major_21",
+  "name": "Le Monde",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "plénitude",
+   "intégration",
+   "achèvement",
+   "unité",
+   "nouveau cycle"
+  ],
+  "symbolism": "Un personnage, vêtu seulement d’une écharpe pourpre, danse à l’intérieur d’une couronne ovale de feuillage en tenant deux bâtons. La couronne est nouée en haut et en bas par des rubans rouges, et dans les coins de la carte apparaissent les têtes d’un ange, d’un aigle, d’un lion et d’un taureau.",
+  "upright": "Le Monde décrit un sentiment de plénitude et l’achèvement d’une étape importante. La carte vous invite à apprécier le chemin parcouru et la façon dont différentes expériences se sont réunies en un tout cohérent. C’est un bon moment pour célébrer et pour la gratitude. La fin d’un cycle prépare naturellement le terrain du suivant.",
+  "reversed": "Renversé, le Monde peut indiquer des affaires inachevées ou une difficulté à clore une étape. C’est une invitation à remarquer ce qui manque encore pour se sentir complet.",
+  "reflection": [
+   "Qu’accomplissez-vous déjà sans encore l’apprécier pleinement ?",
+   "Que faut-il clore avant de commencer le chapitre suivant ?"
+  ],
+  "advice": "Menez l’affaire à son terme et appréciez ce que vous avez accompli. Cette étape est achevée : vous pouvez passer sereinement à la suivante.",
+  "adviceReversed": "Il manque le dernier pas vers l’achèvement. Terminez ce que vous avez commencé avant d’entreprendre autre chose.",
+  "astrology": "Saturne"
+ },
+ {
+  "id": "wands_01",
+  "name": "As de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "étincelle",
+   "inspiration",
+   "potentiel",
+   "enthousiasme",
+   "nouvelle initiative"
+  ],
+  "symbolism": "Une main sort d’un nuage et tient un bâton solide et feuillu, d’où tombent de petites feuilles. En dessous s’étend un paysage verdoyant avec une rivière, et un château se dresse sur une colline lointaine.",
+  "upright": "L’As de Bâtons est l’étincelle d’une idée nouvelle ou un élan d’enthousiasme. La carte vous encourage à remarquer ce qui vous anime en ce moment et à lui donner sa chance. À ce stade, l’enthousiasme compte plus qu’un plan achevé. Le potentiel est là et attend la première action.",
+  "reversed": "L’As renversé peut indiquer une idée qui n’a pas encore trouvé d’issue, ou une baisse passagère de motivation. Il vaut parfois mieux attendre que l’étincelle mûrisse plutôt que de la forcer.",
+  "reflection": [
+   "Quelle idée vous enthousiasme le plus ?",
+   "Quel est le plus petit pas qui lui permettrait de voir le jour ?"
+  ],
+  "advice": "Vous avez une étincelle : agissez tant qu’elle est vive. Lancez le projet, passez l’appel, notez-le. L’inspiration a besoin de mouvement.",
+  "adviceReversed": "L’enthousiasme retombe avant de devenir action. Faites une petite chose aujourd’hui au lieu d’attendre le moment parfait.",
+  "astrology": "Feu — racine de l’élément"
+ },
+ {
+  "id": "wands_02",
+  "name": "Deux de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "planification",
+   "perspective",
+   "décision",
+   "horizon",
+   "ambition"
+  ],
+  "symbolism": "Un homme au chapeau rouge se tient sur les remparts d’un château, un petit globe à la main, et contemple la mer et la terre. Un bâton est fixé au mur, il tient l’autre dans sa main. Un blason aux roses et lys croisés est gravé dans la pierre.",
+  "upright": "Le Deux de Bâtons décrit un moment de planification et d’examen de possibilités plus vastes. Vous avez déjà une certaine base, et la question est maintenant de savoir où aller ensuite. La carte vous encourage à penser l’avenir avec audace et à choisir consciemment une direction. C’est le temps de la vision qui précède le mouvement.",
+  "reversed": "Renversée, la carte peut indiquer une hésitation entre la sécurité et la nouveauté, ou une planification qui ne se transforme jamais en action. Il vaut la peine de vous demander de quoi vous avez besoin pour vous sentir prêt.",
+  "reflection": [
+   "À quoi ressemble l’horizon vers lequel vous voulez vous diriger ?",
+   "Qu’est-ce qui vous retient sur les remparts au lieu de vous laisser partir ?"
+  ],
+  "advice": "Planifiez la prochaine étape et regardez plus loin que d’habitude. La décision vous appartient : choisissez la perspective la plus large.",
+  "adviceReversed": "La peur de l’inconnu vous retient dans votre zone de confort. Réfléchissez à ce que vous perdez à ne pas en sortir.",
+  "astrology": "Feu · Mars en Bélier"
+ },
+ {
+  "id": "wands_03",
+  "name": "Trois de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "croissance",
+   "attente",
+   "expansion",
+   "prévoyance",
+   "premiers résultats"
+  ],
+  "symbolism": "Un personnage en manteau se tient sur une colline, de dos, appuyé sur l’un des trois bâtons plantés dans le sol. Il contemple une baie dorée où voguent des navires. L’horizon est vaste et ouvert.",
+  "upright": "Le Trois de Bâtons parle d’un temps où les premières actions sont faites et où l’on peut observer leur développement. La carte encourage une vue plus large et une attente patiente des résultats. Elle peut suggérer de vous ouvrir à de nouveaux contacts ou à de nouveaux domaines. C’est la joie de voir quelque chose commencer à prendre forme.",
+  "reversed": "Renversée, la carte peut indiquer de l’impatience quand les résultats arrivent plus lentement que prévu. Elle peut aussi inviter à ajuster le plan à la lumière d’informations nouvelles.",
+  "reflection": [
+   "Qu’est-ce qui est déjà en mouvement et a maintenant besoin de temps ?",
+   "Quelles nouvelles possibilités voit-on depuis l’endroit où vous êtes ?"
+  ],
+  "advice": "Ce que vous avez semé commence à pousser. Voyez plus grand, préparez-vous à davantage et soyez patient : les résultats sont en route.",
+  "adviceReversed": "Les retards ne signifient pas l’échec. Vérifiez le plan, corrigez le cap et n’abandonnez pas trop tôt.",
+  "astrology": "Feu · Soleil en Bélier"
+ },
+ {
+  "id": "wands_04",
+  "name": "Quatre de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "célébration",
+   "communauté",
+   "foyer",
+   "stabilité",
+   "joie"
+  ],
+  "symbolism": "Quatre bâtons reliés par une guirlande de fleurs et de fruits forment une sorte de portail. Derrière, deux personnages lèvent des bouquets, et l’on aperçoit un groupe de gens et un château à l’arrière-plan. La scène est festive et chaleureuse.",
+  "upright": "Le Quatre de Bâtons vous invite à vous arrêter et à apprécier ce qui a déjà été construit. C’est l’énergie de la fête partagée, de l’appartenance et d’un port sûr. La carte peut concerner une étape importante qui mérite d’être marquée. La joie partagée avec les autres renforce les liens.",
+  "reversed": "Renversée, la carte peut suggérer qu’il est difficile de s’arrêter et de célébrer, ou que le sentiment de communauté a été mis à mal. Il vaut la peine de chercher un lieu et des personnes auprès de qui souffler.",
+  "reflection": [
+   "Qu’est-ce qui mérite d’être célébré aujourd’hui ?",
+   "Où, et avec qui, vous sentez-vous chez vous ?"
+  ],
+  "advice": "Célébrez ce qui a réussi et partagez-le avec vos proches. Un terrain stable vous permettra d’aller plus loin.",
+  "adviceReversed": "Quelque chose trouble le sentiment de sécurité à la maison ou dans l’équipe. Parlez-en ouvertement au lieu de faire comme si tout allait bien.",
+  "astrology": "Feu · Vénus en Bélier"
+ },
+ {
+  "id": "wands_05",
+  "name": "Cinq de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "compétition",
+   "désaccord",
+   "tension",
+   "affrontement",
+   "énergie de groupe"
+  ],
+  "symbolism": "Cinq jeunes hommes vêtus de couleurs différentes brandissent des bâtons, comme dans une mêlée chaotique ou un jeu. Aucun ne semble blessé, et leurs gestes se croisent dans tous les sens.",
+  "upright": "Le Cinq de Bâtons décrit une situation où de nombreux avis et énergies s’entrechoquent. Un tel conflit n’est pas forcément destructeur ; il peut être un échange créatif qui affûte les idées. La carte vous encourage à remarquer s’il s’agit d’un but commun ou seulement de prendre le dessus. Une bonne communication peut transformer le chaos en coopération.",
+  "reversed": "Renversée, la carte peut indiquer l’évitement du conflit à tout prix, ou une tension qui s’est déplacée vers l’intérieur. C’est parfois une invitation à chercher l’accord plutôt que la victoire.",
+  "reflection": [
+   "De quoi s’agit-il vraiment dans cette dispute ?",
+   "Comment pouvez-vous exprimer votre avis tout en écoutant les autres ?"
+  ],
+  "advice": "Une divergence d’opinions n’a pas à être une guerre. Dites ce que vous pensez, mais écoutez les autres : quelque chose de créatif peut naître de la tension.",
+  "adviceReversed": "Vous évitez le conflit ou vous vous y épuisez. Mettez les choses au clair et mettez fin à une dispute qui ne sert à rien.",
+  "astrology": "Feu · Saturne en Lion"
+ },
+ {
+  "id": "wands_06",
+  "name": "Six de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "reconnaissance",
+   "succès",
+   "confiance en soi",
+   "estime",
+   "victoire"
+  ],
+  "symbolism": "Un cavalier couronné de laurier monte un cheval blanc et tient un bâton auquel est attachée une seconde couronne. Des gens marchent autour de lui, bâtons levés, comme pour l’accueillir à son retour.",
+  "upright": "Le Six de Bâtons parle d’estime et d’un résultat visible des efforts fournis. La carte vous encourage à accepter la reconnaissance sans fausse modestie. Elle rappelle aussi que le succès est souvent l’œuvre de nombreuses personnes. La confiance en soi peut devenir un appui pour les autres.",
+  "reversed": "Renversée, la carte peut indiquer une difficulté à accepter les éloges, ou une forte dépendance à l’opinion des autres. Il vaut la peine de réfléchir à la façon d’apprécier vous-même votre travail.",
+  "reflection": [
+   "Quelle réussite de votre part mérite d’être reconnue ?",
+   "Dans quelle mesure votre estime de vous dépend-elle de ce que pensent les autres ?"
+  ],
+  "advice": "Vous avez tout à fait le droit d’être fier de vous. Montrez vos réussites : la reconnaissance est méritée et ouvrira d’autres portes.",
+  "adviceReversed": "Ne faites pas dépendre votre valeur des applaudissements. Appréciez-vous, même si les autres ne l’ont pas encore fait.",
+  "astrology": "Feu · Jupiter en Lion"
+ },
+ {
+  "id": "wands_07",
+  "name": "Sept de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "tenir bon",
+   "persévérance",
+   "courage",
+   "limites",
+   "conviction"
+  ],
+  "symbolism": "Un jeune homme se tient sur une hauteur, un bâton entre les mains, repoussant six autres bâtons qui se dressent vers lui d’en bas. Il porte deux chaussures différentes, ce qui suggère la hâte ou la surprise.",
+  "upright": "Le Sept de Bâtons décrit une situation où il vaut la peine de défendre ses convictions. La carte encourage la persévérance et l’expression claire de ce qui compte. La position en hauteur rappelle que vous avez un certain avantage : savoir ou expérience. Défendre ses limites peut se faire calmement et avec respect.",
+  "reversed": "Renversée, la carte peut indiquer la lassitude de devoir toujours se défendre, ou le doute sur l’intérêt de ce combat. Il vaut parfois mieux choisir les causes qui méritent vraiment d’être défendues.",
+  "reflection": [
+   "Que voulez-vous défendre, même si les autres pensent autrement ?",
+   "Quelles disputes méritent votre énergie, et lesquelles pouvez-vous laisser ?"
+  ],
+  "advice": "Tenez bon. Vous avez toutes les raisons de garder votre position : ne cédez pas simplement parce que c’est difficile.",
+  "adviceReversed": "Vous n’avez pas à vous battre sur tous les fronts. Choisissez ce qui vaut vraiment la peine, et laissez le reste.",
+  "astrology": "Feu · Mars en Lion"
+ },
+ {
+  "id": "wands_08",
+  "name": "Huit de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "vitesse",
+   "mouvement",
+   "nouvelles",
+   "élan",
+   "progrès rapide"
+  ],
+  "symbolism": "Huit bâtons volent en diagonale dans un ciel clair, parallèles entre eux, comme s’ils se dirigeaient vers le sol. En dessous s’étend un paysage paisible avec une rivière et une colline. Il n’y a aucun personnage sur la carte.",
+  "upright": "Le Huit de Bâtons apporte l’énergie d’un mouvement rapide et d’affaires qui s’accélèrent. La carte peut concerner des nouvelles, des conversations ou des questions qui se débloquent enfin. Elle vous encourage à agir avec décision tant que l’élan est de votre côté. C’est un temps où la pensée se change vite en action.",
+  "reversed": "Renversée, la carte peut indiquer des retards, des confusions dans la communication ou trop de choses à la fois. Il vaut la peine de ralentir et de décider ce qui compte le plus en ce moment.",
+  "reflection": [
+   "Qu’est-ce qui s’accélère dans votre vie en ce moment ?",
+   "Comment veiller à ce que la hâte ne vous enlève pas votre clarté ?"
+  ],
+  "advice": "Les choses s’accélèrent : agissez vite et ne tardez pas à répondre. C’est un temps pour le mouvement, pas pour la délibération.",
+  "adviceReversed": "La précipitation mène au chaos, ou tout est bloqué. Ralentissez, mettez de l’ordre, et seulement ensuite accélérez.",
+  "astrology": "Feu · Mercure en Sagittaire"
+ },
+ {
+  "id": "wands_09",
+  "name": "Neuf de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "vigilance",
+   "persévérance",
+   "résilience",
+   "dernier effort",
+   "expérience"
+  ],
+  "symbolism": "Un homme à la tête bandée se tient appuyé sur un bâton et jette un regard méfiant de côté. Derrière lui s’alignent huit bâtons comme une palissade. Sa posture montre de la fatigue, mais aussi de la disponibilité.",
+  "upright": "Le Neuf de Bâtons parle de persévérance après un long effort. La carte rappelle que beaucoup de choses sont déjà derrière vous et que vous pouvez vous appuyer sur l’expérience acquise. La vigilance peut aider, mais il vaut la peine de vérifier qu’elle ne se change pas en tension permanente. La résilience grandit aussi par le repos.",
+  "reversed": "Renversée, la carte peut suggérer l’épuisement ou une méfiance excessive envers votre entourage. C’est un bon moment pour demander du soutien et baisser la garde là où c’est sans danger.",
+  "reflection": [
+   "Qu’avez-vous déjà traversé, et que vous a-t-il appris ?",
+   "Où pouvez-vous vous accorder du repos plutôt qu’une vigilance constante ?"
+  ],
+  "advice": "Vous êtes près du but : tenez encore un peu. Restez vigilant, mais ne laissez pas la fatigue vous ôter la foi.",
+  "adviceReversed": "Vous vous défendez contre quelque chose qui ne vous menace plus. Reposez-vous et acceptez de l’aide au lieu de monter la garde sans fin.",
+  "astrology": "Feu · Lune en Sagittaire"
+ },
+ {
+  "id": "wands_10",
+  "name": "Dix de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "fardeau",
+   "responsabilité",
+   "effort",
+   "trop de tâches",
+   "déléguer"
+  ],
+  "symbolism": "Un homme courbé porte dix bâtons dans ses bras, qui lui bouchent la vue. Il avance péniblement vers une maison visible au loin.",
+  "upright": "Le Dix de Bâtons décrit le poids de nombreux engagements portés en même temps. La carte vous encourage à regarder lesquels sont vraiment les vôtres et lesquels ont été pris par habitude. Le but est proche, mais la façon de porter la charge peut rendre le trajet plus pénible. Trier et répartir les tâches peut soulager.",
+  "reversed": "Renversée, la carte peut indiquer le moment où le fardeau devient trop lourd, ou la disposition à en déposer une partie. C’est une invitation à demander de l’aide et à dire « non ».",
+  "reflection": [
+   "Laquelle de vos responsabilités actuelles pourriez-vous déposer ou confier ?",
+   "À quoi ressemblerait le chemin vers votre but si la charge était plus légère ?"
+  ],
+  "advice": "Vous portez trop. Confiez certaines tâches, demandez de l’aide ou déposez ce qui n’est pas à vous.",
+  "adviceReversed": "Il est temps de vous délester. Dites « non » à ce que vous n’êtes pas obligé de porter, et tout deviendra plus léger.",
+  "astrology": "Feu · Saturne en Sagittaire"
+ },
+ {
+  "id": "wands_11",
+  "name": "Valet de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "curiosité",
+   "enthousiasme",
+   "découverte",
+   "nouvelles",
+   "ardeur de la jeunesse"
+  ],
+  "symbolism": "Un jeune homme en tunique ornée de salamandres se tient dans un paysage désertique et regarde avec curiosité le bâton qu’il tient devant lui. Trois collines semblables à des pyramides s’élèvent à l’arrière-plan.",
+  "upright": "Le Valet de Bâtons apporte l’énergie d’un élève curieux qui veut essayer quelque chose de nouveau. La carte vous encourage à explorer des idées sans la pression de résultats immédiats. Elle peut concerner une nouvelle inspirante ou une passion naissante. L’enthousiasme est ici la ressource la plus précieuse.",
+  "reversed": "Renversé, le Valet peut indiquer un enthousiasme dispersé ou une impatience qui abandonne les idées trop vite. Il vaut la peine de choisir une étincelle et de lui laisser un peu de temps.",
+  "reflection": [
+   "Qu’avez-vous envie d’apprendre simplement parce que cela vous intéresse ?",
+   "Quelle idée mérite davantage votre attention ?"
+  ],
+  "advice": "Soyez curieux et essayez quelque chose de nouveau. Le premier pas enthousiaste compte plus qu’un plan parfait.",
+  "adviceReversed": "Vous commencez beaucoup de choses et en finissez peu. Choisissez-en une et menez-la à terme.",
+  "astrology": "Feu"
+ },
+ {
+  "id": "wands_12",
+  "name": "Cavalier de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "courage",
+   "aventure",
+   "élan",
+   "action",
+   "passion"
+  ],
+  "symbolism": "Un chevalier en armure et tunique jaune ornée de salamandres galope sur un cheval cabré en levant un bâton. Les plumes de son casque ressemblent à des flammes, et un désert aux collines en forme de pyramides s’étend derrière lui.",
+  "upright": "Le Cavalier de Bâtons est l’énergie de l’action audacieuse et du goût de l’aventure. La carte vous encourage à suivre votre passion et à prendre l’initiative. Son enthousiasme est souvent contagieux et peut entraîner les autres. Il vaut la peine de se rappeler, toutefois, que l’élan doit aller de pair avec une direction.",
+  "reversed": "Renversée, l’énergie du Cavalier peut se changer en précipitation qui saute des étapes importantes. C’est parfois un signal pour s’arrêter et vérifier si le feu ne s’éteint pas trop vite.",
+  "reflection": [
+   "De quelle aventure rêvez-vous ?",
+   "Comment pouvez-vous unir votre enthousiasme à la patience ?"
+  ],
+  "advice": "Partez avec audace : le courage et l’énergie sont de votre côté. Agissez, sans oublier où vous allez.",
+  "adviceReversed": "L’impulsivité pourrait vous coûter cher. Réfléchissez à votre geste avant de le faire : la vitesse n’est pas tout.",
+  "astrology": "Feu"
+ },
+ {
+  "id": "wands_13",
+  "name": "Reine de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "confiance en soi",
+   "chaleur",
+   "charisme",
+   "indépendance",
+   "créativité"
+  ],
+  "symbolism": "La reine est assise sur un trône orné de lions, tenant un bâton d’une main et un tournesol de l’autre. Un chat noir est assis à ses pieds. Sa posture est ouverte et détendue.",
+  "upright": "La Reine de Bâtons unit chaleur et confiance en soi. La carte vous encourage à vous exprimer authentiquement et à partager votre énergie. C’est l’attitude de quelqu’un qui connaît sa valeur et qui soutient en même temps les autres. La créativité s’épanouit quand vous vous autorisez à rayonner.",
+  "reversed": "Renversée, la carte peut indiquer un moment de doute de soi, ou une énergie qui devient trop dominante. Il vaut la peine de chercher l’équilibre entre le soin de soi et la présence aux autres.",
+  "reflection": [
+   "Dans quelles situations vous sentez-vous le plus vous-même ?",
+   "Comment pouvez-vous montrer votre chaleur aujourd’hui sans vous diminuer ?"
+  ],
+  "advice": "Faites-vous confiance et montrez-vous tel que vous êtes. Votre assurance et votre chaleur conquerront les autres.",
+  "adviceReversed": "Quelque chose sape votre confiance en vous. Reconstruisez-la en commençant par ce en quoi vous êtes vraiment bon.",
+  "astrology": "Feu"
+ },
+ {
+  "id": "wands_14",
+  "name": "Roi de Bâtons",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "vision",
+   "direction",
+   "inspirer les autres",
+   "audace",
+   "responsabilité"
+  ],
+  "symbolism": "Le roi est assis sur un trône orné de lions et de salamandres, tenant un bâton en fleurs. Une petite salamandre est tapie à ses pieds. Son regard est tourné de côté, comme si ses pensées couraient déjà vers l’avenir.",
+  "upright": "Le Roi de Bâtons incarne une direction mûre fondée sur la vision et l’inspiration. La carte vous encourage à décider dans la perspective d’un objectif à long terme. C’est l’énergie de quelqu’un qui sait enthousiasmer les autres tout en assumant la responsabilité de la direction. L’audace va ici de pair avec l’expérience.",
+  "reversed": "Renversée, la carte peut indiquer de l’impatience envers les autres, ou une vision qui ignore les besoins de l’entourage. Il vaut la peine de vérifier que la direction ne se change pas en imposition de sa propre volonté.",
+  "reflection": [
+   "Quelle vision voulez-vous poursuivre sur le long terme ?",
+   "Comment pouvez-vous inspirer les autres au lieu de les pousser ?"
+  ],
+  "advice": "Prenez la tête. Vous avez une vision : partagez-la et assumez la direction, et les autres vous suivront.",
+  "adviceReversed": "N’imposez pas votre vision par la force. Le meilleur chef écoute : invitez les autres à décider avec vous.",
+  "astrology": "Feu"
+ }
+]

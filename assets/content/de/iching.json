@@ -1,0 +1,898 @@
+[
+ {
+  "n": 1,
+  "name": "Das Schöpferische (Himmel)",
+  "text": "Reine Energie des Handelns, Initiative und eine Kraft, die nichts braucht, um in Gang zu kommen.",
+  "advice": "Handle mutig und beständig, aber mit Maß: Kraft ohne Richtung verbrennt sich selbst.",
+  "lines": [
+   "Die Kraft ist noch verborgen. Handle nicht vorschnell; bereite dich vor.",
+   "Erste Ergebnisse sind sichtbar; such Menschen, von denen du lernen kannst.",
+   "Viel Arbeit und Anspannung. Bleib wachsam, aber reib dich nicht auf.",
+   "Du stehst vor einer Wahl: springen oder warten. Beides ist gut, wenn es aufrichtig ist.",
+   "Die Fülle der Möglichkeiten. Handle im großen Maßstab und such die Unterstützung der Weisen.",
+   "Übertriebener Stolz: Wer zu hoch steigt, beginnt es zu bereuen."
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Das Empfangende (Erde)",
+  "text": "Offenheit, Geduld und eine Nachgiebigkeit, die etwas wachsen lässt.",
+  "advice": "Führe jetzt nicht. Folge, unterstütze, lass die Dinge reifen.",
+  "lines": [
+   "Der erste Reif kündigt den Winter an. Achte auf kleine Zeichen, bevor sie wachsen.",
+   "Sei schlicht und aufrichtig; Natürlichkeit bringt Erfolg.",
+   "Arbeite im Hintergrund, ohne Anerkennung zu suchen; die Ergebnisse kommen.",
+   "Zeit, Mund und Geldbeutel zu schließen. Vorsicht schützt vor Fehlern.",
+   "Bescheidenheit in einer wichtigen Rolle bringt großes Heil.",
+   "Ein Kampf gegensätzlicher Kräfte: Wenn beide Seiten sturer werden, verlieren beide."
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Die Anfangsschwierigkeit",
+  "text": "Das Chaos der ersten Schritte: Alles keimt, aber noch hat sich nichts gefestigt.",
+  "advice": "Lass dich von der Verwirrung nicht abschrecken. Bitte um Hilfe und erzwinge kein Tempo.",
+  "lines": [
+   "Ein Hindernis zu Beginn. Halte inne, aber gib das Ziel nicht auf.",
+   "Hilfe kommt, wenn auch nicht sofort. Nimm sie nicht aus den falschen Händen an.",
+   "Ohne Führung verirrt man sich leicht. Besser loslassen, als blind weiterzugehen.",
+   "Nimm die Hilfe an, um die du bittest; Zusammenarbeit bringt jetzt Fortschritt.",
+   "Du hast Mittel, kannst sie aber noch nicht voll nutzen. Kleine Schritte.",
+   "Entmutigung und Tränen. Das ist nicht das Ende, nur der Grund, von dem du dich abstößt."
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Die Jugendtorheit",
+  "text": "Du weißt noch nicht alles, und genau das ist der Ausgangspunkt fürs Lernen.",
+  "advice": "Frag, lerne von Erfahrenen, tu nicht so, als wärst du Experte.",
+  "lines": [
+   "Ein wenig Disziplin hilft beim Lernen, aber verschließ dich nicht in Strenge.",
+   "Geduld mit dem Unwissen anderer ist ein Zeichen von Reife.",
+   "Jag nicht dem nach, was nur glänzt; halte dich an das Wesentliche.",
+   "Stur unwissend zu bleiben, führt zur Beschämung. Öffne dich dem Lernen.",
+   "Kindliche Offenheit bringt Erfolg.",
+   "Wenn jemand korrigiert werden muss, tu es, um zu schützen, nicht um zu strafen."
+  ]
+ },
+ {
+  "n": 5,
+  "name": "Das Warten",
+  "text": "Die Sache reift; der Regen wird kommen, aber nicht jetzt.",
+  "advice": "Warte ruhig und voller Vertrauen. Bereite dich vor, statt ungeduldig zu werden.",
+  "lines": [
+   "Du wartest fern der Gefahr. Bleib ruhig und bei deinem gewohnten Rhythmus.",
+   "Kleines Gerede und Unruhe. Reagiere nicht, und es geht vorüber.",
+   "Du wartest im Schlamm und ziehst Ärger an; sei vorsichtig.",
+   "An einem schwierigen Ort: Komm ruhig und ohne Panik heraus.",
+   "Warten an einem reich gedeckten Tisch. Genieße den Moment und verlier das Ziel nicht aus den Augen.",
+   "Unerwartete Gäste. Empfange sie mit Respekt, und sie werden helfen."
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Der Streit",
+  "text": "Spannung, widerstreitende Ansprüche, die Gefahr eines Konflikts.",
+  "advice": "Such eine Einigung auf halbem Weg. Treib den Streit nicht um jeden Preis bis zum Ende.",
+  "lines": [
+   "Zieh den Streit nicht in die Länge; ein paar erklärende Worte genügen.",
+   "Sich aus einem Kampf zurückzuziehen, den man nicht gewinnen kann, ist Weisheit, keine Schande.",
+   "Halte dich an das, was dir nach altem Recht zusteht, und greif nicht nach mehr.",
+   "Gib den Streit auf und kehr zur Ruhe zurück; du gewinnst mehr.",
+   "Ein gerecht beigelegter Streit bringt Heil.",
+   "Ein mit Gewalt gewonnener Streit bringt einen Lohn, der leicht verloren geht."
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Das Heer",
+  "text": "Organisierte Kraft, Disziplin und ein gemeinsames Ziel.",
+  "advice": "Ordnung und gute Führung sind nötig. Handle im Team und mit Plan.",
+  "lines": [
+   "Die Ordnung zu Beginn entscheidet alles; ohne sie kommt die Niederlage.",
+   "Eine Führung mitten im Team, nah an den Menschen: Vertrauen bringt Erfolg.",
+   "Zu viele geben zugleich Befehle, und das führt zum Scheitern.",
+   "Ein rechtzeitiger Rückzug ist kein Fehler.",
+   "Handle gegen die Bedrohung, aber übergib das Kommando den Erfahrenen.",
+   "Gib nach dem Sieg die Aufgaben den Weisen, nicht denen, die nur laut sind."
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Das Zusammenhalten",
+  "text": "Verbindung mit anderen, Gemeinschaft, Zugehörigkeit.",
+  "advice": "Such Verbündete und wecke Vertrauen. Zögere nicht, dich anzuschließen.",
+  "lines": [
+   "Aufrichtigkeit von Anfang an schafft echte Einheit.",
+   "Nähe, die von innen kommt. Wahre deine eigene Würde.",
+   "Achte darauf, an wen du dich bindest; nicht jeder passt zu dir.",
+   "Offene Treue zu jemandem, der sie verdient, bringt Gutes.",
+   "Eine wahre Führung zieht an und zwingt nicht.",
+   "Ein zu später Anschluss kann unmöglich werden. Zögere nicht."
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Des Kleinen Zähmungskraft",
+  "text": "Kleine Hindernisse bremsen, halten aber nicht auf.",
+  "advice": "Handle sanft und in kleinen Schritten. Noch ist nicht die Zeit für große Gesten.",
+  "lines": [
+   "Kehr auf deinen eigenen Weg zurück; das ist kein Fehler.",
+   "Andere kehren mit dir zurück; gemeinsame Rückkehr bringt Heil.",
+   "Der Wagen verliert ein Rad: Ein Streit blockiert den Fortschritt. Erst die Einigung.",
+   "Aufrichtigkeit vertreibt Angst und Schaden.",
+   "Treue verbindet Menschen und verteilt den Reichtum.",
+   "Der Regen ist gekommen. Zeit zu ruhen und nicht weiter zu drängen."
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Das Auftreten",
+  "text": "Vorsichtige Schritte in einer heiklen Lage, wie auf den Schwanz eines Tigers treten.",
+  "advice": "Bewahre Takt und Höflichkeit. Gute Umgangsformen schützen dich vor Ärger.",
+  "lines": [
+   "Ein schlichter, bescheidener Weg. Geh ihn, und es geschieht kein Schaden.",
+   "Ein ruhiger, ebener Weg, gut für alle, die keine Aufmerksamkeit suchen.",
+   "Du überschätzt deine Kraft und kannst dich verletzen.",
+   "Vorsicht an einem gefährlichen Ort bringt am Ende Erfolg.",
+   "Entschlossenheit ist nötig, aber auch das Bewusstsein für das Risiko.",
+   "Blick auf deine Schritte zurück: Was kommt, folgt aus ihnen."
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Der Friede",
+  "text": "Die Harmonie von Himmel und Erde: eine günstige Zeit.",
+  "advice": "Nutze die gute Zeit, baue auf und teile. Denk daran, dass sich auch das Glück wandelt.",
+  "lines": [
+   "Gutes kommt zusammen; handle mit anderen.",
+   "Sei nachsichtig mit den Schwächeren und vergiss die Fernen nicht.",
+   "Es gibt keine Ebene ohne Gefälle. Denk in guten Zeiten daran.",
+   "Begegne anderen ohne Überlegenheit; Aufrichtigkeit verbindet.",
+   "Eine gute Verbindung bringt Segen.",
+   "Die Mauer stürzt in den Graben zurück. Wende jetzt keine Gewalt an; ordne deine eigenen Angelegenheiten."
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Die Stockung",
+  "text": "Die Dinge fließen nicht, und Verständigung ist schwer zu erreichen.",
+  "advice": "Dräng nicht. Bewahre deine Werte und warte ab, ohne dich auf schlechte Abmachungen einzulassen.",
+  "lines": [
+   "Zieh dich mit denen zurück, die dir ähnlich sind, und bewahre deine Werte.",
+   "Ertrage geduldig, was schwer ist, und lass dich nicht auf schlechte Abmachungen ein.",
+   "Verborgene Scham im Inneren. Gesteh sie dir ein.",
+   "Handle im Einklang mit dem Höheren, und die Stockung beginnt sich zu lösen.",
+   "Die Stockung endet, aber Vorsicht: Noch ist alles zerbrechlich.",
+   "Die Stockung wendet sich: erst Schwierigkeit, dann Freude."
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Gemeinschaft mit Menschen",
+  "text": "Menschen finden sich um ein gemeinsames Ziel zusammen.",
+  "advice": "Handle offen und such das Verbindende, nicht das Trennende.",
+  "lines": [
+   "Gemeinschaft am Tor: Offenheit für alle ohne Ausnahme.",
+   "Gemeinschaft nur im eigenen Kreis führt zur Beschämung.",
+   "Versteckte Waffen und Misstrauen: Jahrelang wird nichts Gutes daraus.",
+   "Du ersteigst die Mauer, greifst aber nicht an. Rechtzeitig innezuhalten ist Heil.",
+   "Erst Tränen, dann Lachen: Eine echte Verbindung überwindet Hindernisse.",
+   "Gemeinschaft am Rand: Du bereust nichts, auch wenn das Ziel noch nicht erreicht ist."
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Der Besitz von Großem",
+  "text": "Fülle, Erfolg, vieles in deinen Händen.",
+  "advice": "Sei großzügig und bescheiden: Wohlstand hat Bestand, wenn er auch anderen dient.",
+  "lines": [
+   "Du besitzt viel, aber ohne Stolz; so vermeidest du Fehler.",
+   "Ein großer Wagen zum Beladen: Du hast die Mittel, etwas Wichtiges zu tun.",
+   "Teile, was du hast; Eigennutz zerstört den Wohlstand.",
+   "Prahle nicht; Bescheidenheit schützt den Reichtum.",
+   "Aufrichtigkeit, verbunden mit Würde, bringt Achtung.",
+   "Unterstützung von oben: Alles ist günstig."
+  ]
+ },
+ {
+  "n": 15,
+  "name": "Die Bescheidenheit",
+  "text": "Eine Kraft, die es nicht nötig hat, sich zu zeigen.",
+  "advice": "Stell dich nicht über andere. Bescheidenheit gleicht Ungleiches aus und öffnet Türen.",
+  "lines": [
+   "Doppelt bescheiden überquerst du das große Wasser.",
+   "Bescheidenheit, die sich nach außen zeigt, bringt Heil.",
+   "Fleißige Bescheidenheit bringt die Dinge zur Vollendung.",
+   "Bescheidenheit im Handeln: Alles gelingt.",
+   "Bescheidenheit heißt nicht Passivität; manchmal musst du entschlossen handeln.",
+   "Bescheidenheit dir selbst gegenüber: Bring zuerst deine eigenen Angelegenheiten in Ordnung."
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Die Begeisterung",
+  "text": "Eine freudige Energie, die andere mitreißt.",
+  "advice": "Verbreite deinen Eifer, aber bereite den Boden: Begeisterung braucht einen Plan.",
+  "lines": [
+   "Mit deiner Begeisterung zu prahlen, bringt Unheil.",
+   "Fest wie ein Fels: Erkenne den Moment und lass dich nicht mitreißen.",
+   "Hoffnungsvoll nach oben zu schauen, ohne zu handeln, führt zur Reue.",
+   "Die Quelle der Begeisterung: Du ziehst Menschen durch Aufrichtigkeit an.",
+   "Eine lange Krankheit ohne Tod: anhaltender Druck, der dich nicht bricht.",
+   "Blinde Begeisterung. Wenn du dich änderst, vermeidest du Fehler."
+  ]
+ },
+ {
+  "n": 17,
+  "name": "Die Nachfolge",
+  "text": "Sich dem Lauf der Dinge und jemandem, der führt, anpassen.",
+  "advice": "Folge dem, was richtig ist, nicht dem, was bequem ist.",
+  "lines": [
+   "Die Lage ändert sich. Verlass das Haus und such den Kontakt zu anderen.",
+   "Du hältst am Kleinen fest und verlierst das Große. Wähle weise.",
+   "Du hältst am Großen fest und verlierst das Kleine, und das ist gut.",
+   "Nachfolge mit verborgener Absicht. Sei ehrlich zu dir selbst.",
+   "Aufrichtigkeit gegenüber dem Guten bringt Heil.",
+   "Eine tiefe Bindung, die schwer zu lösen ist. Bleib bei ihr."
+  ]
+ },
+ {
+  "n": 18,
+  "name": "Die Arbeit am Verdorbenen",
+  "text": "Etwas Vernachlässigtes muss in Ordnung gebracht werden.",
+  "advice": "Kümmere dich um die Ursache des Problems, nicht um die Symptome. Eine Reparatur braucht Überlegung vorher und nachher.",
+  "lines": [
+   "Du bringst in Ordnung, was der Vater verdorben hat: schwer, aber gut.",
+   "Du bringst in Ordnung, was die Mutter verdorben hat: tu es behutsam.",
+   "Du reparierst zu heftig: ein wenig Reue, aber kein großer Fehler.",
+   "Das Verdorbene zu dulden, führt zur Beschämung.",
+   "Die Reparatur bringt Anerkennung.",
+   "Du dienst keinen Königen; du pflegst deine eigenen Werte."
+  ]
+ },
+ {
+  "n": 19,
+  "name": "Die Annäherung",
+  "text": "Etwas Gutes kommt näher; eine Zeit des Wachstums.",
+  "advice": "Nutze diese Zeit, aber denk daran, dass jede Jahreszeit vergeht.",
+  "lines": [
+   "Gemeinsame Annäherung: Beharrlichkeit bringt Heil.",
+   "Gemeinsame Annäherung: Alles ist günstig.",
+   "Eine zu leichte und bequeme Annäherung. Bemerke es und ändere es.",
+   "Eine vollständige Annäherung: kein Fehler.",
+   "Eine weise Annäherung, einer Führung würdig.",
+   "Eine großherzige Annäherung: Heil."
+  ]
+ },
+ {
+  "n": 20,
+  "name": "Die Betrachtung",
+  "text": "Der Blick von oben, Beobachtung, Verstehen.",
+  "advice": "Halte inne und schau hin. Dein Beispiel sagt mehr als Worte.",
+  "lines": [
+   "Du schaust wie ein Kind: genug für Einfache, zu wenig für Weise.",
+   "Du schaust durch einen Spalt: ein zu enger Blick.",
+   "Betrachte dein eigenes Leben und entscheide, ob du vorangehst oder zurücktrittst.",
+   "Du betrachtest den Glanz anderer: Zeit, Gast an einem wichtigen Tisch zu werden.",
+   "Betrachte dich selbst. Wenn du aufrichtig bist, gibt es keinen Fehler.",
+   "Betrachte dein Leben aus der Distanz."
+  ]
+ },
+ {
+  "n": 21,
+  "name": "Das Durchbeißen",
+  "text": "Ein Hindernis, das entschlossen durchbrochen werden muss.",
+  "advice": "Benenne das Problem und löse es fest, aber gerecht.",
+  "lines": [
+   "Eine kleine Strafe zu Beginn verhindert ein größeres Übel.",
+   "Du beißt zu tief, aber das ist kein Fehler.",
+   "Zähe Speise und Gift: ein wenig Beschämung, kein großer Schaden.",
+   "Ein harter Knochen: Beharrlichkeit in Schwierigkeiten bringt Nutzen.",
+   "Gold im getrockneten Fleisch: Sei gerecht und fest.",
+   "Eine zu spät gelernte Lektion: Du hörst nicht zu, also zahlst du."
+  ]
+ },
+ {
+  "n": 22,
+  "name": "Die Anmut",
+  "text": "Schönheit, Form, Eleganz.",
+  "advice": "Achte auf die Form, aber verwechsle sie nicht mit dem Inhalt. Wichtiges braucht mehr als Schmuck.",
+  "lines": [
+   "Schmücke deine Schritte: Wähl den bescheidenen Weg zu Fuß, nicht die Kutsche.",
+   "Den Bart schmücken: Form ohne Inhalt bedeutet nichts.",
+   "Schönheit und Feuchtigkeit: Halte an deinen Werten fest, dann wird es gut.",
+   "Schlichtheit oder Pracht? Weiß ist schöner als jeder Schmuck.",
+   "Ein bescheidenes Geschenk aus aufrichtigem Herzen hat Wert.",
+   "Schlichtes Weiß: kein Schmuck, kein Fehler."
+  ]
+ },
+ {
+  "n": 23,
+  "name": "Die Zersplitterung",
+  "text": "Alte Strukturen zerfallen.",
+  "advice": "Beginne jetzt nichts Großes. Warte ab und pflege die Fundamente.",
+  "lines": [
+   "Das Bettbein zerfällt: Der Einsturz beginnt am Fundament.",
+   "Der Zerfall erreicht den Bettrahmen. Bleib wachsam.",
+   "Entferne dich von dem, was zerfällt: keine Schuld.",
+   "Der Zerfall berührt dich. Halte inne und schütze, was du kannst.",
+   "Gunst für die, die treu geblieben sind: Besserung naht.",
+   "Eine große Frucht, die nicht gegessen wird: Nach dem Zerfall kommt die Erneuerung."
+  ]
+ },
+ {
+  "n": 24,
+  "name": "Die Wiederkehr",
+  "text": "Der Wendepunkt: Nach der Dunkelheit kehrt das Licht zurück.",
+  "advice": "Lass das Neue langsam wachsen. Kehr zu dem zurück, was für dich richtig ist.",
+  "lines": [
+   "Eine Rückkehr aus nicht weiter Ferne: keine Reue, großes Heil.",
+   "Eine stille Rückkehr: gut.",
+   "Wiederholte Rückkehr: gefährlich, aber kein Fehler.",
+   "Du gehst mit anderen, kehrst aber allein zurück: Das ist dein Weg.",
+   "Eine edle Rückkehr: keine Reue.",
+   "Eine verpasste Rückkehr: Unglück. Kehr zurück, solange du kannst."
+  ]
+ },
+ {
+  "n": 25,
+  "name": "Die Unschuld",
+  "text": "Handeln ohne Hintergedanken; Einfachheit.",
+  "advice": "Sei aufrichtig und spontan. Berechnung schadet jetzt.",
+  "lines": [
+   "Unschuldiges Handeln bringt Heil.",
+   "Rechne nicht mit der Ernte, bevor du säst; tu, was zu tun ist.",
+   "Unverdientes Unglück: Es geht vorüber.",
+   "Bleib bei der Unschuld: kein Fehler.",
+   "Eine Krankheit ohne eigene Schuld: Erzwinge keine Heilung; sie vergeht von selbst.",
+   "Ungeordnetes Handeln bringt jetzt Schaden. Warte ab."
+  ]
+ },
+ {
+  "n": 26,
+  "name": "Des Großen Zähmungskraft",
+  "text": "Gespeicherte Energie, Wissen und Mittel.",
+  "advice": "Nutze, was du gelernt hast. Eine gute Zeit für große Vorhaben.",
+  "lines": [
+   "Gefahr. Halte inne.",
+   "Ein Wagen ohne Achse. Brich jetzt nicht auf.",
+   "Ein gutes Pferd läuft: Übe und sei bereit für den Weg.",
+   "Ein Brett auf den Hörnern eines jungen Stiers: Beuge vor, bevor es zu spät ist.",
+   "Ein verschnittener Eber: Lenke die Kraft auf Umwegen, nicht frontal.",
+   "Der Weg zum Himmel ist offen: großer Erfolg."
+  ]
+ },
+ {
+  "n": 27,
+  "name": "Die Ernährung",
+  "text": "Achte darauf, womit du dich nährst: Körper, Geist, Worte.",
+  "advice": "Achte auf das, was du aufnimmst und was du anderen gibst.",
+  "lines": [
+   "Du lässt deine eigene Weisheit zurück und schaust neidisch auf andere: ein Fehler.",
+   "Du suchst Nahrung bei den falschen Menschen: Das lohnt sich nicht.",
+   "Du nährst dich von dem, was dir schadet: Ändere deine Gewohnheiten.",
+   "Du suchst Halt bei denen, die weiser sind als du: gut.",
+   "Für große Aufgaben bist du noch nicht bereit; bleib bei deinen Leuten.",
+   "Eine Quelle der Nahrung für andere: große Verantwortung und Heil."
+  ]
+ },
+ {
+  "n": 28,
+  "name": "Des Großen Übergewicht",
+  "text": "Die Last übersteigt deine Kraft; der Balken biegt sich.",
+  "advice": "Handle schnell, aber umsichtig: Verringere die Last, bevor etwas bricht.",
+  "lines": [
+   "Vorsicht zu Beginn: Leg eine weiße Matte unter.",
+   "Ein alter Baum treibt Schösslinge: Neues Leben ist möglich.",
+   "Der Balken biegt sich bis zum Bruch. Dräng nicht.",
+   "Der Balken wird gestützt: gut, aber nutze es nicht aus.",
+   "Ein alter Baum blüht: eine kurze Wirkung ohne Tiefe.",
+   "Du watest durch Wasser, das dir über den Kopf geht: ein Wagnis, aber keine Schuld."
+  ]
+ },
+ {
+  "n": 29,
+  "name": "Das Abgründige",
+  "text": "Gefahr; eine Schwierigkeit, die immer wiederkehrt.",
+  "advice": "Fließe wie Wasser: stetig und ohne Panik. Bewahre deine innere Aufrichtigkeit.",
+  "lines": [
+   "Ein Abgrund im Abgrund: Du fällst tiefer. Halte inne.",
+   "Gefahr. Begnüge dich mit kleinen Schritten.",
+   "Ringsum Abgrund. Handle nicht; warte.",
+   "Schlichte Aufrichtigkeit genügt, selbst ein bescheidenes Geschenk.",
+   "Der Abgrund läuft nicht über: Die Dinge gleichen sich aus.",
+   "Lange in Schwierigkeiten verstrickt. Such geduldig den Ausweg."
+  ]
+ },
+ {
+  "n": 30,
+  "name": "Das Haftende (Feuer)",
+  "text": "Helligkeit, Klarheit, Abhängigkeit von dem, was dich trägt.",
+  "advice": "Strahle, aber denk daran, woher du deine Kraft schöpfst. Pflege deine Quellen.",
+  "lines": [
+   "Ungeordnete Schritte. Bleib ernst und aufmerksam.",
+   "Goldenes Licht: großes Heil.",
+   "Das Licht der untergehenden Sonne: Versöhne dich mit der Vergänglichkeit.",
+   "Ein plötzliches Licht erlischt bald. Lass dich nicht mitreißen.",
+   "Tränen und Seufzer: Aufrichtige Reue bringt eine Wende.",
+   "Der König zieht aus: Beseitige die Ursache und schone das Übrige."
+  ]
+ },
+ {
+  "n": 31,
+  "name": "Die Einwirkung",
+  "text": "Gegenseitige Anziehung, Werbung, Einfluss.",
+  "advice": "Sei offen und empfänglich. Echter Einfluss braucht keinen Druck.",
+  "lines": [
+   "Einwirkung in den Zehen: bisher nur eine Absicht, noch ohne Wirkung.",
+   "Einwirkung in den Waden: Beweg dich nicht vorschnell.",
+   "Einwirkung in den Schenkeln: anderen gedankenlos folgen.",
+   "Beharrlichkeit und eine aufrichtige Absicht: Die Einwirkung wirkt.",
+   "Einwirkung im Nacken: keine Reue, aber auch keine Tiefe.",
+   "Einwirkung im Kiefer: Worte allein genügen nicht."
+  ]
+ },
+ {
+  "n": 32,
+  "name": "Die Dauer",
+  "text": "Beständigkeit, Treue, Ausdauer.",
+  "advice": "Halte an der gewählten Richtung fest: Dauer heißt nicht Stillstand.",
+  "lines": [
+   "Du willst zu schnell Beständigkeit: Daraus wird nichts.",
+   "Die Reue verschwindet; du hältst Maß.",
+   "Ein unbeständiger Charakter bringt Beschämung.",
+   "Eine Jagd ohne Wild: Du suchst am falschen Ort.",
+   "Beständigkeit, die in einem gut ist und in anderem schlecht. Sei beweglich.",
+   "Ständige Unruhe: Daraus entsteht nichts Dauerhaftes."
+  ]
+ },
+ {
+  "n": 33,
+  "name": "Der Rückzug",
+  "text": "Ein weiser Rückzug, wenn gegnerische Kräfte wachsen.",
+  "advice": "Zieh dich rechtzeitig und mit Würde zurück. Das ist keine Flucht, sondern Strategie.",
+  "lines": [
+   "Am Ende des Rückzugs droht Gefahr. Handle nicht.",
+   "Halte fest: Treue bringt Sicherheit.",
+   "Ein Rückzug, der an andere gebunden ist: schwer, aber nötig.",
+   "Ein freiwilliger Rückzug, heilsam für die Weisen.",
+   "Ein freundlicher Rückzug: gut.",
+   "Ein heiterer Rückzug: Alles ist günstig."
+  ]
+ },
+ {
+  "n": 34,
+  "name": "Des Großen Macht",
+  "text": "Macht in voller Kraft, aber leicht zu missbrauchen.",
+  "advice": "Setz deine Kraft mit Bedacht und im Einklang mit dem Richtigen ein.",
+  "lines": [
+   "Kraft in den Beinen: Eine überstürzte Bewegung bringt Ärger.",
+   "Beharrlichkeit bringt Heil.",
+   "Der Widder stößt gegen den Zaun und verfängt sich mit den Hörnern. Wende keine Gewalt an.",
+   "Der Zaun öffnet sich: Der Weg ist frei.",
+   "Der Widder geht ohne Mühe verloren: keine Reue.",
+   "Der Widder steckt im Zaun fest. Gesteh dir die Schwierigkeit ein, dann findest du den Ausweg."
+  ]
+ },
+ {
+  "n": 35,
+  "name": "Der Fortschritt",
+  "text": "Rasches Wachstum, Anerkennung, die aufgehende Sonne.",
+  "advice": "Geh voran, aber teile das Licht mit anderen.",
+  "lines": [
+   "Der Fortschritt ist blockiert. Bleib ruhig und voller Vertrauen.",
+   "Fortschritt in Traurigkeit: Unterstützung kommt von einem nahen Menschen.",
+   "Alle stimmen zu: Die Reue verschwindet.",
+   "Fortschritt wie ein Hamster: Gier ist gefährlich.",
+   "Sorg dich nicht um Gewinn und Verlust; handle.",
+   "Fortschritt mit Hörnern: Nutze sie nur gegen dich selbst."
+  ]
+ },
+ {
+  "n": 36,
+  "name": "Die Verfinsterung des Lichts",
+  "text": "Eine schwere Zeit, in der es besser ist, nicht alles zu zeigen.",
+  "advice": "Schütze dein Licht im Inneren. Sei vorsichtig, aber gib deine Grundsätze nicht auf.",
+  "lines": [
+   "Das Licht verdunkelt sich auf der Flucht. Geh, auch wenn du hungrig bist.",
+   "Verwundet, aber nicht besiegt: Such schnell Hilfe.",
+   "Jagd im Süden: Du fängst den Anführer, aber eile nicht.",
+   "Du dringst ins Herz der Dunkelheit: Du verstehst und gehst.",
+   "Verbirg dein Licht wie der weise Jizi, und du wirst bestehen.",
+   "Die Dunkelheit steigt auf ihren Gipfel und fällt von selbst."
+  ]
+ },
+ {
+  "n": 37,
+  "name": "Die Sippe",
+  "text": "Zuhause, Rollen, gegenseitige Fürsorge.",
+  "advice": "Bring nahe Beziehungen in Ordnung: Alles andere beginnt dort.",
+  "lines": [
+   "Klare Regeln in der Familie von Anfang an.",
+   "Sorge um Haus und Mahlzeiten: Beharrlichkeit bringt Heil.",
+   "Zu streng oder zu nachlässig? Lieber ein wenig Strenge.",
+   "Der Wohlstand der Familie: großes Heil.",
+   "Ein König im eigenen Haus: Fürchte dich nicht; es wird gut.",
+   "Aufrichtigkeit und Würde: Heil am Ende."
+  ]
+ },
+ {
+  "n": 38,
+  "name": "Der Gegensatz",
+  "text": "Unterschiede, auseinanderlaufende Richtungen.",
+  "advice": "Einigung ist in kleinen Dingen möglich. Erwarte keine Einigung in allem.",
+  "lines": [
+   "Ein verlorenes Pferd kommt von selbst zurück. Lauf ihm nicht nach.",
+   "Du triffst deinen Herrn in einer engen Gasse: kein Fehler.",
+   "Der Wagen gehemmt, der Ochse aufgehalten: ein schwerer Anfang, ein gutes Ende.",
+   "Allein im Gegensatz: Du begegnest einem verwandten Geist.",
+   "Die Reue verschwindet: Ein Freund beißt durch die Haut.",
+   "Du siehst Feinde, wo keine sind. Senke den Bogen: Es sind Verbündete."
+  ]
+ },
+ {
+  "n": 39,
+  "name": "Das Hemmnis",
+  "text": "Der Weg ist versperrt.",
+  "advice": "Halte inne, schau auf dich selbst und bitte um Hilfe. Manchmal ist es besser, außen herum zu gehen, als durchzubrechen.",
+  "lines": [
+   "Vorangehen: Hindernisse. Zurückkommen: Anerkennung.",
+   "Hindernis um Hindernis, aber nicht durch eigene Schuld.",
+   "Vorangehen: Hindernisse. Kehr zu deinen Leuten zurück.",
+   "Vorangehen: Hindernisse. Zurückkommen: Verbindung.",
+   "Große Hindernisse: Freunde kommen.",
+   "Vorangehen: Hindernisse. Zurückkommen: großes Heil."
+  ]
+ },
+ {
+  "n": 40,
+  "name": "Die Befreiung",
+  "text": "Erleichterung nach der Anspannung; der Sturm zieht vorüber.",
+  "advice": "Vergib, lass los und kehr ins gewöhnliche Leben zurück. Zieh den Kampf nicht in die Länge.",
+  "lines": [
+   "Kein Fehler. Ruhe nach einer schweren Zeit.",
+   "Drei Füchse gefangen, ein goldener Pfeil: Ehrlichkeit siegt.",
+   "Du trägst eine Last und fährst in der Kutsche – das lockt Diebe an. Prahle nicht.",
+   "Befrei dich von schlechter Gesellschaft, dann kommt Besseres.",
+   "Befreiung durch eine innere Wandlung.",
+   "Ein Falke, von der Mauer geschossen: Das Hindernis ist beseitigt."
+  ]
+ },
+ {
+  "n": 41,
+  "name": "Die Minderung",
+  "text": "Auf etwas muss verzichtet oder etwas verringert werden.",
+  "advice": "Vereinfache und verzichte auf das Überflüssige: Weniger kann mehr geben.",
+  "lines": [
+   "Beende deine eigene Arbeit und hilf anderen schnell, aber mit Maß.",
+   "Hilf, ohne dich selbst zu verlieren.",
+   "Drei gehen zusammen, und einer geht fort; einer geht allein und findet einen Gefährten.",
+   "Verringere deine Fehler, und die Freude kommt bald.",
+   "Jemand beschenkt dich unerwartet. Nimm es an.",
+   "Mehrung ohne Verlust: gut."
+  ]
+ },
+ {
+  "n": 42,
+  "name": "Die Mehrung",
+  "text": "Wachstum, Unterstützung, günstiger Wind.",
+  "advice": "Nutze die Gelegenheit, um zu wachsen und anderen zu helfen.",
+  "lines": [
+   "Zeit für ein großes Werk: großes Heil.",
+   "Jemand bereichert dich: Beharrlichkeit bringt Heil.",
+   "Bereicherung durch Schwierigkeiten: Aufrichtigkeit schützt.",
+   "Vermittlung in einer guten Sache: lohnend.",
+   "Ein aufrichtiges Herz: Frag nicht; das Heil ist gewiss.",
+   "Niemand bereichert dich, und jemand könnte dir schaden. Ändere deine Haltung."
+  ]
+ },
+ {
+  "n": 43,
+  "name": "Der Durchbruch",
+  "text": "Entschlossenheit, Entscheidung, ein Ausweg aus der Sackgasse.",
+  "advice": "Sprich die Wahrheit klar, aber ohne Aggression aus. Sei bereit für die Folgen.",
+  "lines": [
+   "Ein zu starker Anfang: Scheitern.",
+   "Wachsamkeit in der Nacht: Fürchte dich nicht.",
+   "Entschlossenheit im Zorn: Bewahre die Fassung.",
+   "Keine Haut an den Schenkeln: Du gehst mit Mühe. Hör auf Rat.",
+   "Unkraut verlangt Entschlossenheit: Handle in der Mitte des Weges.",
+   "Keine Warnung: Das Ende kommt plötzlich."
+  ]
+ },
+ {
+  "n": 44,
+  "name": "Das Entgegenkommen",
+  "text": "Eine unerwartete Begegnung, eine Versuchung.",
+  "advice": "Achte darauf, was du in dein Leben lässt. Nicht alles, was anzieht, ist gut.",
+  "lines": [
+   "Halte es sofort auf: eine eherne Bremse.",
+   "Ein Fisch im Beutel: Du hast es in der Hand. Teile ihn nicht mit den Gästen.",
+   "Keine Haut an den Schenkeln: Schwierigkeiten, aber kein großer Fehler.",
+   "Kein Fisch im Beutel: Du verlierst den Kontakt zu den Menschen.",
+   "Eine Melone unter der Weide: Verborgene Schönheit reift.",
+   "Begegnung mit Hörnern: Beschämung, aber keine Schuld."
+  ]
+ },
+ {
+  "n": 45,
+  "name": "Die Sammlung",
+  "text": "Menschen versammeln sich; ein gemeinsames Ziel.",
+  "advice": "Bring andere um Werte zusammen und sei auf Unvorhergesehenes vorbereitet.",
+  "lines": [
+   "Unsichere Aufrichtigkeit: Die Sammlung kommt zustande und zerfällt wieder. Ruf um Hilfe.",
+   "Lass dich mitziehen: Heil.",
+   "Sammlung mit einem Seufzer: ein wenig Beschämung. Geh weiter.",
+   "Großes Heil: kein Fehler.",
+   "Sammlung mit Autorität: Stärke das Vertrauen.",
+   "Tränen und Seufzer: kein Fehler."
+  ]
+ },
+ {
+  "n": 46,
+  "name": "Das Empordringen",
+  "text": "Allmähliches Wachstum, wie ein Baum aus der Erde.",
+  "advice": "Geh Schritt für Schritt. Mühe jetzt bringt ein dauerhaftes Ergebnis.",
+  "lines": [
+   "Aufsteigen mit Vertrauen: großes Heil.",
+   "Aufrichtigkeit genügt, selbst ein bescheidenes Opfer.",
+   "Du steigst in eine leere Stadt auf: keine Hindernisse.",
+   "Der König bringt auf dem Berg ein Opfer dar: Heil.",
+   "Beharrlichkeit: Du steigst Stufe um Stufe.",
+   "Aufsteigen im Dunkeln: Beharrlichkeit ist entscheidend."
+  ]
+ },
+ {
+  "n": 47,
+  "name": "Die Bedrängnis",
+  "text": "Erschöpfung, Enge.",
+  "advice": "Verlier nicht den Glauben. Sprich weniger und handle klug: Diese Zeit macht dich stärker.",
+  "lines": [
+   "Du sitzt niedergeschlagen unter einem kahlen Baum. Verlass das Tal.",
+   "Bedrängnis bei Speise und Trank. Warte; Hilfe kommt.",
+   "Bedrängt von einem Stein: Du stützt dich auf das, was dich verletzt.",
+   "Hilfe kommt langsam: Beschämung, aber ein gutes Ende.",
+   "Bedrängt von den Mächtigen: Die Freude kommt langsam.",
+   "Bedrängt von Ranken: Handle, und die Reue vergeht."
+  ]
+ },
+ {
+  "n": 48,
+  "name": "Der Brunnen",
+  "text": "Eine unerschöpfliche Quelle, ein Gemeingut.",
+  "advice": "Pflege deine Quellen und teile sie. Geh in die Tiefe, statt anderswohin zu ziehen.",
+  "lines": [
+   "Ein schlammiger Brunnen: Niemand trinkt daraus.",
+   "Ein Brunnen mit kleinen Fischen und ein gesprungener Krug: vergeudetes Potenzial.",
+   "Ein klarer Brunnen, der ungenutzt bleibt: schade.",
+   "Der Brunnen wird ausgebessert: kein Fehler.",
+   "Klares, kaltes Wasser: Trink.",
+   "Ein Brunnen, offen für alle: großes Heil."
+  ]
+ },
+ {
+  "n": 49,
+  "name": "Die Umwälzung",
+  "text": "Veränderung, Umbruch, die alte Haut abstreifen.",
+  "advice": "Verändere, wenn die Zeit gekommen ist und wenn du erklären kannst, warum.",
+  "lines": [
+   "In gelbe Rindshaut gehüllt: Verändere jetzt nichts.",
+   "Der Tag der Veränderung ist gekommen: Handle.",
+   "Eine zu schnelle Veränderung schadet. Besprich sie dreimal.",
+   "Die Reue verschwindet: Veränderung aus Überzeugung.",
+   "Der große Mensch verändert sich wie ein Tiger: deutlich.",
+   "Der edle Mensch verändert sich wie ein Panther, aber übertreib es nicht."
+  ]
+ },
+ {
+  "n": 50,
+  "name": "Der Tiegel",
+  "text": "Wandlung, Nahrung, Kultur.",
+  "advice": "Pflege, was wertvoll ist. Gute Ergebnisse brauchen Zeit und Feuer.",
+  "lines": [
+   "Der Tiegel umgestürzt: Räum das Alte aus, um Platz zu schaffen.",
+   "Der Tiegel ist voll: Die Neider kommen nicht heran.",
+   "Der Griff des Tiegels ist verändert: eine vorübergehende Schwierigkeit.",
+   "Ein Bein des Tiegels ist gebrochen: Überlastung.",
+   "Gelbe Griffe, goldene Ringe: günstig.",
+   "Ringe aus Jade: großes Heil."
+  ]
+ },
+ {
+  "n": 51,
+  "name": "Das Erregende (Donner)",
+  "text": "Ein plötzliches Ereignis, ein Schock.",
+  "advice": "Bleib ruhig. Der Schock vergeht, und was er dich gelehrt hat, bleibt.",
+  "lines": [
+   "Der Donner kommt: erst Angst, dann Lachen.",
+   "Donner in der Gefahr: Du verlierst etwas, bekommst es aber zurück.",
+   "Der Donner verunsichert dich. Handle, um Unheil abzuwenden.",
+   "Donner im Schlamm: Lähmung.",
+   "Donner hier und dort: Gefahr, aber du verlierst nichts.",
+   "Der Donner bringt Chaos. Beweg dich jetzt nicht."
+  ]
+ },
+ {
+  "n": 52,
+  "name": "Das Stillehalten (Berg)",
+  "text": "Ruhe, Stille, Meditation.",
+  "advice": "Halte inne. Handle, wenn es Zeit zum Handeln ist, und steh still, wenn es Zeit zum Stillstehen ist.",
+  "lines": [
+   "Halte die Füße still: Fang nicht an, was du nicht beendest.",
+   "Halte die Waden still: Du kannst denen, denen du folgst, nicht helfen.",
+   "Halte die Hüften still: Starrheit ist gefährlich.",
+   "Halte den Rumpf still: innere Ruhe.",
+   "Halte den Kiefer still: Sprich mit Bedacht.",
+   "Edles Stillehalten: Heil."
+  ]
+ },
+ {
+  "n": 53,
+  "name": "Die Entwicklung",
+  "text": "Langsamer, sicherer Fortschritt.",
+  "advice": "Eile nicht: Gute Dinge wachsen langsam.",
+  "lines": [
+   "Die Wildgans nähert sich dem Ufer: Jugend in Gefahr.",
+   "Die Gans auf dem Felsen: Iss und trink in Frieden.",
+   "Die Gans auf der Hochebene: Ein Mann zieht fort und kehrt nicht zurück.",
+   "Die Gans im Baum: Sie findet einen Ast.",
+   "Die Gans auf dem Hügel: drei Jahre ohne Kind, aber der Sieg.",
+   "Die Gans nähert sich den Wolken: Ihre Federn dienen bei Zeremonien."
+  ]
+ },
+ {
+  "n": 54,
+  "name": "Das heiratende Mädchen",
+  "text": "Eine Lage, in der du nicht alles in der Hand hast.",
+  "advice": "Pass dich mit Würde an und denk an das langfristige Ziel.",
+  "lines": [
+   "Die zweite Frau: Auch ein lahmes Bein kommt voran.",
+   "Der Einäugige kann sehen: Bewahre deine Einsamkeit.",
+   "Eine Dienerin: Warte, bis du an der Reihe bist.",
+   "Eine aufgeschobene Heirat: Die Zeit wird kommen.",
+   "Die bescheidene Braut: schöner als jeder Schmuck.",
+   "Ein leerer Korb: Er bringt nichts."
+  ]
+ },
+ {
+  "n": 55,
+  "name": "Die Fülle",
+  "text": "Fülle, der Höhepunkt, wie die Sonne am Mittag.",
+  "advice": "Genieße die Fülle, ohne zu fürchten, dass sie vergeht, und bereite dich klug auf Veränderung vor.",
+  "lines": [
+   "Du triffst deinesgleichen: zehn Tage lang kein Fehler.",
+   "Die Fülle verdeckt die Sonne: Misstrauen. Aufrichtigkeit hilft.",
+   "Die Fülle verhüllt: eine verlorene Hand, keine Schuld.",
+   "Du triffst einen Herrscher: Heil.",
+   "Strahlende Talente kommen: Heil.",
+   "Ein Haus, bis zum Rand gefüllt: Einsamkeit hinter den Mauern."
+  ]
+ },
+ {
+  "n": 56,
+  "name": "Der Wanderer",
+  "text": "Reisen, Fremdheit, Unbeständigkeit.",
+  "advice": "Sei an einem neuen Ort höflich und vorsichtig. Schlag nicht zu schnell Wurzeln.",
+  "lines": [
+   "Der Wanderer, der sich mit Kleinigkeiten abgibt, zieht Ärger auf sich.",
+   "Der Wanderer in der Herberge findet einen Diener.",
+   "Der Wanderer brennt die Herberge nieder und verliert den Diener.",
+   "Der Wanderer hat ein Obdach, aber ein unruhiges Herz.",
+   "Der Pfeil trifft ins Ziel: Lob und eine Stellung.",
+   "Der Vogel verbrennt sein eigenes Nest: erst Lachen, dann Weinen."
+  ]
+ },
+ {
+  "n": 57,
+  "name": "Das Sanfte (Wind)",
+  "text": "Sanftes, aber stetiges Durchdringen.",
+  "advice": "Handle sanft und beharrlich: Steter Tropfen höhlt den Stein.",
+  "lines": [
+   "Vor und zurück: Disziplin hilft.",
+   "Sanftheit unter dem Bett: Such nach den Ursachen.",
+   "Wiederholte Sanftheit: Beschämung.",
+   "Die Reue verschwindet: drei Arten von Wild.",
+   "Beharrlichkeit: Heil nach der Veränderung.",
+   "Sanftheit unter dem Bett: Verlust."
+  ]
+ },
+ {
+  "n": 58,
+  "name": "Das Heitere (See)",
+  "text": "Fröhlichkeit, Gespräch, Freude.",
+  "advice": "Teile deine Freude mit anderen, aber verwechsle sie nicht mit Maßlosigkeit.",
+  "lines": [
+   "Harmonische Freude: Heil.",
+   "Aufrichtige Freude: Heil.",
+   "Erzwungene Freude: Unheil.",
+   "Freude, um die gefeilscht wird: ständige Unsicherheit.",
+   "Vertrauen in das, was zerstört: Gefahr.",
+   "Verführerische Freude: Sei vorsichtig."
+  ]
+ },
+ {
+  "n": 59,
+  "name": "Die Auflösung",
+  "text": "Erstarrung und Spaltungen lösen sich.",
+  "advice": "Lass los, was trennt. Ein gemeinsames Ziel bringt die Menschen wieder zusammen.",
+  "lines": [
+   "Hilfe mit der Kraft eines Pferdes: Heil.",
+   "Auflösung: Du eilst zu dem, was dich stützt.",
+   "Das Selbst auflösen: keine Reue.",
+   "Die Gruppe auflösen: großes Heil.",
+   "Einen großen Schrei auflösen: kein Fehler.",
+   "Das Blut auflösen: keine Schuld."
+  ]
+ },
+ {
+  "n": 60,
+  "name": "Die Beschränkung",
+  "text": "Grenzen, Maß, Regeln.",
+  "advice": "Setz vernünftige Grenzen, aber nicht so eng, dass sie ersticken.",
+  "lines": [
+   "Du verlässt den Hof nicht: kein Fehler.",
+   "Du gehst nicht aus dem Tor: Unheil.",
+   "Keine Grenzen: Reue.",
+   "Gelassene Beschränkung: Erfolg.",
+   "Angenehme Beschränkung: Heil.",
+   "Bittere Beschränkung: Beharrlichkeit ist gefährlich."
+  ]
+ },
+ {
+  "n": 61,
+  "name": "Innere Wahrheit",
+  "text": "Eine Aufrichtigkeit, die überzeugt.",
+  "advice": "Sei ehrlich zu dir und zu anderen. Die Wahrheit erreicht selbst die Sturen.",
+  "lines": [
+   "Ruhige Bereitschaft: Heil.",
+   "Ein Kranich ruft im Schatten, und seine Jungen antworten.",
+   "Du findest einen Gefährten: bald die Trommel, bald Weinen.",
+   "Der Mond ist fast voll: Das Pferd geht fort.",
+   "Aufrichtigkeit verbindet: kein Fehler.",
+   "Eine Hahnenfeder fliegt zum Himmel empor: Beharrlichkeit ist gefährlich."
+  ]
+ },
+ {
+  "n": 62,
+  "name": "Des Kleinen Übergewicht",
+  "text": "Eine Zeit für kleine Dinge, nicht für große.",
+  "advice": "Kümmere dich um die Details und sei bescheiden. Zieh jetzt nicht zu hoch.",
+  "lines": [
+   "Der Vogel fliegt: Unheil.",
+   "Du gehst am Ahnen vorbei und triffst die Ahnin: kein Fehler.",
+   "Sei nicht übervorsichtig; jemand könnte dich verletzen.",
+   "Kein Fehler. Geh nicht voran.",
+   "Dichte Wolken und kein Regen: Nimm, was in der Höhle ist.",
+   "Du begegnest nicht; du gehst vorbei. Der Vogel fliegt davon."
+  ]
+ },
+ {
+  "n": 63,
+  "name": "Nach der Vollendung",
+  "text": "Etwas ist erreicht; alles ist an seinem Platz.",
+  "advice": "Ruh dich nicht auf deinen Lorbeeren aus. Pflege das Erreichte, denn am Ende geht Ordnung leicht verloren.",
+  "lines": [
+   "Du bremst die Räder: kein Fehler.",
+   "Die Frau verliert ihren Schleier. Such nicht; nach sieben Tagen kehrt er zurück.",
+   "Der große Ahn greift an und siegt nach drei Jahren.",
+   "Risse im Boot: Halte den ganzen Tag Wache.",
+   "Der Nachbar im Osten schlachtet einen Ochsen; ein kleineres Opfer aus aufrichtigem Herzen zählt mehr.",
+   "Du machst dir den Kopf nass: Gefahr."
+  ]
+ },
+ {
+  "n": 64,
+  "name": "Vor der Vollendung",
+  "text": "Ein Übergang; noch nicht das Ende.",
+  "advice": "Der letzte Schritt braucht die meiste Aufmerksamkeit. Feiere nicht zu früh.",
+  "lines": [
+   "Du machst dir den Schwanz nass: Beschämung.",
+   "Du bremst die Räder: Beharrlichkeit bringt Heil.",
+   "Vor der Vollendung bringt Handeln Unheil, doch überquere das Wasser.",
+   "Beharrlichkeit: Heil; die Reue verschwindet.",
+   "Das Licht der Weisen: Heil.",
+   "Du trinkst Wein voller Vertrauen: kein Fehler, aber übertreib es nicht."
+  ]
+ }
+]

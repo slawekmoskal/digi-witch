@@ -1,0 +1,898 @@
+[
+ {
+  "n": 1,
+  "name": "Le Créateur (le Ciel)",
+  "text": "Pure énergie d’action, d’initiative, et une force qui n’a besoin de rien pour se mettre en mouvement.",
+  "advice": "Agissez avec audace et constance, mais avec mesure : la force sans direction se consume elle-même.",
+  "lines": [
+   "La force est encore cachée. N’agissez pas à la hâte ; préparez-vous.",
+   "Les premiers résultats sont visibles ; cherchez des personnes auprès de qui apprendre.",
+   "Beaucoup de travail et de tension. Restez vigilant, mais ne vous épuisez pas.",
+   "Vous êtes face à un choix : sauter ou attendre. Les deux sont bons s’ils sont sincères.",
+   "La plénitude des possibles. Agissez en grand et cherchez l’appui des sages.",
+   "L’orgueil poussé trop loin : qui monte trop haut commence à le regretter."
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Le Réceptif (la Terre)",
+  "text": "Ouverture, patience et une docilité qui laisse quelque chose grandir.",
+  "advice": "Ne dirigez pas maintenant. Suivez, soutenez, laissez mûrir.",
+  "lines": [
+   "La première gelée annonce l’hiver. Remarquez les petits signes avant qu’ils ne grandissent.",
+   "Soyez simple et sincère ; le naturel apportera le succès.",
+   "Travaillez dans l’ombre sans chercher la reconnaissance ; les résultats viendront.",
+   "Le moment de fermer la bouche et la bourse. La prudence protège des erreurs.",
+   "La modestie dans un rôle important apporte une grande fortune.",
+   "Un combat de forces opposées : quand les deux camps s’entêtent, les deux perdent."
+  ]
+ },
+ {
+  "n": 3,
+  "name": "La Difficulté initiale",
+  "text": "Le chaos des premiers pas : tout germe, mais rien n’est encore stabilisé.",
+  "advice": "Ne vous laissez pas décourager par la confusion. Demandez de l’aide et ne forcez pas le rythme.",
+  "lines": [
+   "Un obstacle au départ. Arrêtez-vous, mais n’abandonnez pas le but.",
+   "L’aide arrive, mais pas tout de suite. Ne l’acceptez pas de mauvaises mains.",
+   "Sans guide, on s’égare facilement. Mieux vaut renoncer qu’avancer à l’aveugle.",
+   "Acceptez l’aide que vous demandez ; la coopération fait avancer maintenant.",
+   "Vous avez des ressources mais ne pouvez pas encore les utiliser pleinement. De petits pas.",
+   "Découragement et larmes. Ce n’est pas la fin, seulement le fond sur lequel prendre appui."
+  ]
+ },
+ {
+  "n": 4,
+  "name": "La Folie juvénile",
+  "text": "Vous ne savez pas encore tout, et c’est le point de départ pour apprendre.",
+  "advice": "Posez des questions, apprenez des personnes expérimentées, ne jouez pas l’expert.",
+  "lines": [
+   "Un peu de discipline aide à apprendre, mais ne vous enfermez pas dans la sévérité.",
+   "La patience envers l’ignorance des autres est un signe de maturité.",
+   "Ne courez pas après ce qui ne fait que briller ; tenez-vous à l’essentiel.",
+   "S’obstiner dans l’ignorance mène à l’humiliation. Ouvrez-vous à l’apprentissage.",
+   "L’ouverture d’un enfant apporte le succès.",
+   "Quand il faut corriger quelqu’un, faites-le pour protéger, non pour punir."
+  ]
+ },
+ {
+  "n": 5,
+  "name": "L’Attente",
+  "text": "L’affaire mûrit ; la pluie viendra, mais pas maintenant.",
+  "advice": "Attendez calmement et avec confiance. Préparez-vous au lieu de vous impatienter.",
+  "lines": [
+   "Vous attendez loin du danger. Restez calme et gardez vos habitudes.",
+   "Petits ragots et inquiétude. Ne réagissez pas et cela passera.",
+   "Vous attendez dans la boue et vous attirez les ennuis ; soyez prudent.",
+   "Dans un endroit difficile : sortez-en calmement, sans panique.",
+   "L’attente devant une table bien garnie. Savourez le moment sans perdre le but de vue.",
+   "Des invités inattendus. Recevez-les avec respect et ils vous aideront."
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Le Conflit",
+  "text": "Tension, revendications divergentes, risque de conflit.",
+  "advice": "Cherchez un accord à mi-chemin. Ne menez pas la dispute jusqu’au bout à tout prix.",
+  "lines": [
+   "Ne prolongez pas la dispute ; quelques mots d’explication suffisent.",
+   "Se retirer d’un combat qu’on ne peut gagner est sagesse, non honte.",
+   "Tenez-vous à ce qui vous revient par tradition et ne cherchez pas davantage.",
+   "Renoncez à la dispute et revenez au calme ; vous y gagnerez plus.",
+   "Une dispute réglée équitablement apporte la fortune.",
+   "Une dispute gagnée par la force apporte une récompense vite perdue."
+  ]
+ },
+ {
+  "n": 7,
+  "name": "L’Armée",
+  "text": "Une force organisée, de la discipline et un but commun.",
+  "advice": "L’ordre et une bonne direction sont nécessaires. Agissez en équipe et avec un plan.",
+  "lines": [
+   "L’ordre au départ décide de tout ; sans lui, la défaite.",
+   "Un chef au milieu de l’équipe, proche des gens : la confiance apporte le succès.",
+   "Trop de gens donnent des ordres à la fois, et cela mène à l’échec.",
+   "Se retirer à temps n’est pas une erreur.",
+   "Agissez contre la menace, mais confiez le commandement aux plus expérimentés.",
+   "Après la victoire, confiez les tâches aux sages, non à ceux qui ne font que crier."
+  ]
+ },
+ {
+  "n": 8,
+  "name": "La Solidarité",
+  "text": "S’unir aux autres, la communauté, l’appartenance.",
+  "advice": "Cherchez des alliés et inspirez confiance. Ne tardez pas à vous joindre.",
+  "lines": [
+   "La sincérité dès le départ bâtit une véritable unité.",
+   "Une proximité qui vient de l’intérieur. Gardez votre dignité.",
+   "Faites attention à qui vous vous liez ; tout le monde ne vous convient pas.",
+   "Une loyauté ouverte envers quelqu’un qui en est digne apporte du bien.",
+   "Un vrai chef attire et ne contraint pas.",
+   "Se joindre trop tard peut se révéler impossible. Ne tardez pas."
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Le Pouvoir d’apprivoisement du petit",
+  "text": "De petits obstacles ralentissent les choses sans les arrêter.",
+  "advice": "Agissez avec douceur et à petits pas. Ce n’est pas encore le temps des grands gestes.",
+  "lines": [
+   "Revenez à votre propre chemin ; ce n’est pas une erreur.",
+   "D’autres reviennent avec vous ; revenir ensemble porte chance.",
+   "La charrette perd une roue : une querelle bloque le progrès. D’abord l’accord.",
+   "La sincérité éloigne la peur et le mal.",
+   "La loyauté unit les gens et partage la richesse.",
+   "La pluie est venue. Le temps de se reposer et de ne plus pousser."
+  ]
+ },
+ {
+  "n": 10,
+  "name": "La Marche",
+  "text": "Des pas prudents dans une situation délicate, comme marcher sur la queue d’un tigre.",
+  "advice": "Gardez tact et courtoisie. Les bonnes manières vous protègent des ennuis.",
+  "lines": [
+   "Un chemin simple et modeste. Suivez-le et aucun mal ne viendra.",
+   "Un chemin calme et plat, bon pour ceux qui ne cherchent pas l’attention.",
+   "Vous surestimez vos forces et risquez de vous blesser.",
+   "La prudence en un lieu dangereux finit par apporter le succès.",
+   "La résolution est nécessaire, mais aussi la conscience du risque.",
+   "Regardez vos pas en arrière : ce qui vient en découle."
+  ]
+ },
+ {
+  "n": 11,
+  "name": "La Paix",
+  "text": "L’harmonie du ciel et de la terre : un temps favorable.",
+  "advice": "Profitez de la bonne période, construisez et partagez. Rappelez-vous que la chance change aussi.",
+  "lines": [
+   "Les bonnes choses vont ensemble ; agissez avec les autres.",
+   "Soyez compréhensif envers les plus faibles et n’oubliez pas ceux qui sont loin.",
+   "Il n’y a pas de plaine sans pente. Souvenez-vous-en dans les bons moments.",
+   "Allez vers les autres sans supériorité ; la sincérité unit.",
+   "Une bonne union apporte la bénédiction.",
+   "Le rempart retombe dans le fossé. N’usez pas de la force maintenant ; mettez de l’ordre dans vos affaires."
+  ]
+ },
+ {
+  "n": 12,
+  "name": "La Stagnation",
+  "text": "Les choses ne circulent pas, et l’entente est difficile.",
+  "advice": "Ne forcez pas. Gardez vos valeurs et attendez sans vous laisser entraîner dans de mauvais arrangements.",
+  "lines": [
+   "Retirez-vous avec ceux qui vous ressemblent, et gardez vos valeurs.",
+   "Supportez patiemment ce qui est difficile, et n’entrez pas dans de mauvais arrangements.",
+   "Une honte cachée à l’intérieur. Avouez-la-vous.",
+   "Agissez en accord avec ce qui est plus haut, et la stagnation commencera à céder.",
+   "La stagnation prend fin, mais prudence : tout est encore fragile.",
+   "La stagnation se renverse : d’abord la difficulté, puis la joie."
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Communauté avec les hommes",
+  "text": "Les gens se rassemblent autour d’un but commun.",
+  "advice": "Agissez ouvertement et cherchez ce qui unit, non ce qui divise.",
+  "lines": [
+   "Communauté à la porte : ouverture à tous sans exception.",
+   "Une communauté limitée à son propre cercle mène à l’humiliation.",
+   "Armes cachées et méfiance : rien de bon n’en sortira pendant des années.",
+   "Vous montez sur le rempart mais n’attaquez pas. S’arrêter à temps porte chance.",
+   "D’abord les larmes, puis le rire : un vrai lien surmonte les obstacles.",
+   "Communauté aux confins : vous ne regrettez rien, même si le but n’est pas encore atteint."
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Le Grand Avoir",
+  "text": "Abondance, succès, beaucoup de choses entre vos mains.",
+  "advice": "Soyez généreux et modeste : la prospérité dure quand elle sert aussi les autres.",
+  "lines": [
+   "Vous possédez beaucoup, mais sans orgueil ; vous évitez l’erreur.",
+   "Un grand chariot à charger : vous avez les moyens de faire quelque chose d’important.",
+   "Partagez ce que vous avez ; l’égoïsme détruira la prospérité.",
+   "Ne vous vantez pas ; la modestie protège la richesse.",
+   "La sincérité jointe à la dignité inspire le respect.",
+   "Un appui d’en haut : tout est favorable."
+  ]
+ },
+ {
+  "n": 15,
+  "name": "L’Humilité",
+  "text": "Une force qui n’a pas besoin de se montrer.",
+  "advice": "Ne vous placez pas au-dessus des autres. L’humilité égalise ce qui est inégal et ouvre des portes.",
+  "lines": [
+   "Doublement humble, vous traverserez la grande eau.",
+   "Une humilité qui se manifeste au-dehors porte chance.",
+   "Une humilité laborieuse mène les choses à leur terme.",
+   "L’humilité dans l’action : tout va bien.",
+   "L’humilité n’est pas la passivité ; il faut parfois agir avec fermeté.",
+   "L’humilité envers soi-même : mettez d’abord de l’ordre dans vos propres affaires."
+  ]
+ },
+ {
+  "n": 16,
+  "name": "L’Enthousiasme",
+  "text": "Une énergie joyeuse qui entraîne les autres.",
+  "advice": "Répandez votre élan, mais préparez le terrain : l’enthousiasme a besoin d’un plan.",
+  "lines": [
+   "Se vanter de son enthousiasme porte malheur.",
+   "Ferme comme un roc : reconnaissez le moment et ne vous laissez pas emporter.",
+   "Lever les yeux avec espoir sans agir mène au regret.",
+   "La source de l’enthousiasme : vous attirez les gens par la sincérité.",
+   "Une longue maladie sans mort : une pression durable qui ne vous brise pas.",
+   "Un enthousiasme aveugle. Si vous changez, vous éviterez l’erreur."
+  ]
+ },
+ {
+  "n": 17,
+  "name": "La Suite",
+  "text": "S’adapter au cours des choses et à quelqu’un qui guide.",
+  "advice": "Suivez ce qui est juste, non ce qui est commode.",
+  "lines": [
+   "La situation change. Sortez de chez vous et cherchez le contact avec les autres.",
+   "Vous tenez au petit et perdez le grand. Choisissez sagement.",
+   "Vous tenez au grand et perdez le petit, et c’est bien.",
+   "Suivre avec une intention cachée. Soyez honnête avec vous-même.",
+   "La sincérité envers le bien porte chance.",
+   "Un lien profond, difficile à rompre. Restez-y fidèle."
+  ]
+ },
+ {
+  "n": 18,
+  "name": "Le Travail sur ce qui est corrompu",
+  "text": "Quelque chose de négligé demande à être remis en ordre.",
+  "advice": "Traitez la source du problème, non les symptômes. Une réparation demande réflexion avant et après.",
+  "lines": [
+   "Vous réparez ce que le père a gâté : difficile, mais bon.",
+   "Vous réparez ce que la mère a gâté : faites-le avec douceur.",
+   "Vous réparez avec trop de force : un peu de regret, mais pas de grande erreur.",
+   "Tolérer ce qui est gâté mène à l’humiliation.",
+   "La réparation apporte la reconnaissance.",
+   "Vous ne servez pas les rois ; vous prenez soin de vos propres valeurs."
+  ]
+ },
+ {
+  "n": 19,
+  "name": "L’Approche",
+  "text": "Quelque chose de bon approche ; un temps de croissance.",
+  "advice": "Profitez de cette période, mais rappelez-vous que chaque saison passe.",
+  "lines": [
+   "S’approcher ensemble : la persévérance porte chance.",
+   "S’approcher ensemble : tout est favorable.",
+   "Une approche trop facile et confortable. Remarquez-le et changez.",
+   "Une approche complète : pas d’erreur.",
+   "Une approche sage, digne d’un chef.",
+   "Une approche généreuse : la fortune."
+  ]
+ },
+ {
+  "n": 20,
+  "name": "La Contemplation",
+  "text": "La vue d’en haut, l’observation, la compréhension.",
+  "advice": "Arrêtez-vous et regardez. Votre exemple en dit plus que les mots.",
+  "lines": [
+   "Vous regardez comme un enfant : bien pour les simples, insuffisant pour les sages.",
+   "Vous regardez par une fente : une vue trop étroite.",
+   "Regardez votre propre vie et décidez d’avancer ou de reculer.",
+   "Vous contemplez la splendeur des autres : le temps de devenir l’invité d’une table importante.",
+   "Regardez-vous vous-même. Si vous êtes droit, pas d’erreur.",
+   "Regardez votre vie avec du recul."
+  ]
+ },
+ {
+  "n": 21,
+  "name": "Mordre au travers",
+  "text": "Un obstacle qu’il faut franchir avec détermination.",
+  "advice": "Nommez le problème et résolvez-le fermement mais équitablement.",
+  "lines": [
+   "Une petite sanction au début évite un plus grand mal.",
+   "Vous mordez trop profond, mais ce n’est pas une erreur.",
+   "Une nourriture coriace et du poison : un peu de honte, pas de grand mal.",
+   "Un os dur : persévérer dans la difficulté est profitable.",
+   "De l’or dans la viande séchée : soyez juste et ferme.",
+   "Une leçon apprise trop tard : vous n’écoutez pas, alors vous payez."
+  ]
+ },
+ {
+  "n": 22,
+  "name": "La Grâce",
+  "text": "Beauté, forme, élégance.",
+  "advice": "Soignez la forme, mais ne la confondez pas avec le fond. Les choses importantes demandent plus que des ornements.",
+  "lines": [
+   "Ornez vos pas : choisissez le chemin modeste à pied, non la voiture.",
+   "Orner sa barbe : la forme sans le fond ne signifie rien.",
+   "Beauté et humidité : tenez-vous à vos valeurs et tout ira bien.",
+   "Simplicité ou splendeur ? Le blanc est plus beau que les ornements.",
+   "Un modeste présent d’un cœur sincère a de la valeur.",
+   "Le blanc simple : pas d’ornements, pas d’erreur."
+  ]
+ },
+ {
+  "n": 23,
+  "name": "L’Éclatement",
+  "text": "Les vieilles structures s’effritent.",
+  "advice": "N’entreprenez rien de grand maintenant. Attendez et prenez soin des fondations.",
+  "lines": [
+   "Le pied du lit s’effrite : l’effondrement commence par la base.",
+   "L’effondrement atteint le cadre du lit. Restez vigilant.",
+   "Éloignez-vous de ce qui s’effrite : pas de faute.",
+   "L’effondrement vous touche. Arrêtez-vous et protégez ce que vous pouvez.",
+   "Faveur pour ceux qui sont restés fidèles : une amélioration approche.",
+   "Un grand fruit qui n’est pas mangé : après l’effondrement vient le renouveau."
+  ]
+ },
+ {
+  "n": 24,
+  "name": "Le Retour",
+  "text": "Le tournant : la lumière revient après l’obscurité.",
+  "advice": "Laissez le nouveau grandir lentement. Revenez à ce qui est juste pour vous.",
+  "lines": [
+   "Un retour de pas très loin : pas de regret, grande fortune.",
+   "Un retour paisible : c’est bien.",
+   "Des retours répétés : dangereux, mais pas d’erreur.",
+   "Vous marchez avec les autres mais revenez seul : c’est votre chemin.",
+   "Un retour noble : pas de regret.",
+   "Un retour manqué : malheur. Revenez tant que vous le pouvez."
+  ]
+ },
+ {
+  "n": 25,
+  "name": "L’Innocence",
+  "text": "Agir sans arrière-pensées ; la simplicité.",
+  "advice": "Soyez sincère et spontané. Les calculs nuisent maintenant.",
+  "lines": [
+   "Une action innocente porte chance.",
+   "Ne comptez pas sur la récolte avant d’avoir semé ; faites ce qu’il y a à faire.",
+   "Un malheur immérité : il passera.",
+   "Restez dans l’innocence : pas d’erreur.",
+   "Une maladie dont vous n’êtes pas responsable : ne forcez pas la guérison ; elle passera d’elle-même.",
+   "Agir sans ordre maintenant cause du tort. Attendez."
+  ]
+ },
+ {
+  "n": 26,
+  "name": "Le Pouvoir d’apprivoisement du grand",
+  "text": "Énergie, savoir et ressources accumulés.",
+  "advice": "Utilisez ce que vous avez appris. Un bon moment pour de grandes entreprises.",
+  "lines": [
+   "Danger. Arrêtez-vous.",
+   "Un chariot sans essieu. Ne partez pas maintenant.",
+   "Un bon cheval court : entraînez-vous, et soyez prêt pour la route.",
+   "Une planche sur les cornes d’un jeune taureau : prévenez avant qu’il ne soit trop tard.",
+   "Un sanglier castré : dirigez la force de biais, non de front.",
+   "La route du ciel est ouverte : grand succès."
+  ]
+ },
+ {
+  "n": 27,
+  "name": "Les Commissures des lèvres (L’Alimentation)",
+  "text": "Faire attention à ce dont on se nourrit : corps, esprit, paroles.",
+  "advice": "Soyez attentif à ce que vous absorbez et à ce que vous donnez aux autres.",
+  "lines": [
+   "Vous délaissez votre propre sagesse et regardez les autres avec envie : une erreur.",
+   "Vous cherchez votre nourriture auprès des mauvaises personnes : cela n’en vaut pas la peine.",
+   "Vous nourrir de ce qui vous nuit : changez vos habitudes.",
+   "Vous cherchez appui auprès de plus sages que vous : c’est bien.",
+   "Vous n’êtes pas encore prêt pour de grandes tâches ; restez parmi les vôtres.",
+   "Une source de nourriture pour les autres : grande responsabilité et fortune."
+  ]
+ },
+ {
+  "n": 28,
+  "name": "La Prépondérance du grand",
+  "text": "Le poids dépasse vos forces ; la poutre ploie.",
+  "advice": "Agissez vite mais avec prudence : allégez la charge avant que quelque chose ne casse.",
+  "lines": [
+   "La prudence au départ : posez une natte blanche dessous.",
+   "Un vieil arbre fait des pousses : une vie nouvelle est possible.",
+   "La poutre ploie jusqu’à rompre. Ne forcez pas.",
+   "La poutre est étayée : c’est bien, mais n’en profitez pas.",
+   "Un vieil arbre fleurit : un effet bref, sans profondeur.",
+   "Vous traversez une eau qui vous submerge : un risque, mais pas de faute."
+  ]
+ },
+ {
+  "n": 29,
+  "name": "L’Insondable",
+  "text": "Le danger ; une difficulté qui revient sans cesse.",
+  "advice": "Coulez comme l’eau : régulièrement et sans panique. Gardez votre sincérité intérieure.",
+  "lines": [
+   "Un abîme dans l’abîme : vous tombez plus bas. Arrêtez-vous.",
+   "Danger. Contentez-vous de petits pas.",
+   "L’abîme est tout autour. N’agissez pas ; attendez.",
+   "Une sincérité simple suffit, même un modeste présent.",
+   "L’abîme ne déborde pas : les choses vont s’équilibrer.",
+   "Longtemps empêtré dans les difficultés. Cherchez patiemment l’issue."
+  ]
+ },
+ {
+  "n": 30,
+  "name": "Ce qui s’attache (le Feu)",
+  "text": "Clarté, lumière, dépendance envers ce qui vous soutient.",
+  "advice": "Brillez, mais rappelez-vous où vous puisez votre force. Prenez soin de vos sources.",
+  "lines": [
+   "Des pas désordonnés. Restez sérieux et attentif.",
+   "Une lumière dorée : grande fortune.",
+   "La lumière du soleil couchant : faites la paix avec l’éphémère.",
+   "Une lumière soudaine s’éteint vite. Ne vous laissez pas emporter.",
+   "Larmes et soupirs : un regret sincère amène un changement.",
+   "Le roi part en campagne : éliminez la cause et épargnez le reste."
+  ]
+ },
+ {
+  "n": 31,
+  "name": "L’Influence",
+  "text": "Attirance mutuelle, cour, influence.",
+  "advice": "Soyez ouvert et réceptif. Une vraie influence n’a pas besoin de pression.",
+  "lines": [
+   "L’influence dans les orteils : pour l’instant une intention, sans effet encore.",
+   "L’influence dans les mollets : ne bougez pas à la hâte.",
+   "L’influence dans les cuisses : suivre les autres sans réfléchir.",
+   "Persévérance et intention sincère : l’influence agit.",
+   "L’influence dans la nuque : pas de regret, mais pas de profondeur non plus.",
+   "L’influence dans la mâchoire : les mots seuls ne suffisent pas."
+  ]
+ },
+ {
+  "n": 32,
+  "name": "La Durée",
+  "text": "Constance, fidélité, endurance.",
+  "advice": "Tenez-vous à la direction choisie : durer ne veut pas dire rester immobile.",
+  "lines": [
+   "Vous voulez la permanence trop vite : il n’en sortira rien.",
+   "Le regret disparaît ; vous gardez la mesure.",
+   "Un caractère inconstant apporte la honte.",
+   "Une chasse sans gibier : vous cherchez au mauvais endroit.",
+   "Une constance bonne en une chose et mauvaise en une autre. Soyez souple.",
+   "Une agitation constante : rien de durable n’en sortira."
+  ]
+ },
+ {
+  "n": 33,
+  "name": "La Retraite",
+  "text": "Un retrait sage quand les forces adverses grandissent.",
+  "advice": "Retirez-vous à temps et avec dignité. Ce n’est pas une fuite, mais une stratégie.",
+  "lines": [
+   "À la queue de la retraite, il y a danger. N’agissez pas.",
+   "Tenez bon : la loyauté apporte la sécurité.",
+   "Une retraite liée aux autres : difficile, mais nécessaire.",
+   "Une retraite volontaire, bénéfique pour les sages.",
+   "Une retraite amicale : c’est bien.",
+   "Une retraite joyeuse : tout est favorable."
+  ]
+ },
+ {
+  "n": 34,
+  "name": "La Puissance du grand",
+  "text": "Une puissance à son comble, mais facile à mal employer.",
+  "advice": "Usez de votre force avec soin et en accord avec ce qui est juste.",
+  "lines": [
+   "La force dans les jambes : un geste précipité apporte des ennuis.",
+   "La persévérance porte chance.",
+   "Le bélier donne des coups de corne dans la haie et s’y empêtre. N’usez pas de la force.",
+   "La haie s’ouvre : la voie est libre.",
+   "Le bélier se perd sans difficulté : pas de regret.",
+   "Le bélier est coincé dans la haie. Reconnaissez la difficulté, et vous trouverez l’issue."
+  ]
+ },
+ {
+  "n": 35,
+  "name": "Le Progrès",
+  "text": "Croissance rapide, reconnaissance, le soleil levant.",
+  "advice": "Avancez, mais partagez la lumière avec les autres.",
+  "lines": [
+   "Le progrès est bloqué. Restez calme et confiant.",
+   "Progrès dans la tristesse : le soutien viendra d’un proche.",
+   "Tout le monde approuve : le regret disparaît.",
+   "Progresser comme un hamster : l’avidité est dangereuse.",
+   "Ne vous souciez pas des gains et des pertes ; agissez.",
+   "Progresser avec des cornes : ne les utilisez que contre vous-même."
+  ]
+ },
+ {
+  "n": 36,
+  "name": "L’Obscurcissement de la lumière",
+  "text": "Une période difficile, où il vaut mieux ne pas tout montrer.",
+  "advice": "Protégez votre lumière intérieure. Soyez prudent, mais n’abandonnez pas vos principes.",
+  "lines": [
+   "La lumière s’obscurcit dans la fuite. Partez, même affamé.",
+   "Blessé mais pas vaincu : cherchez vite de l’aide.",
+   "La chasse au sud : vous attraperez le chef, mais ne vous pressez pas.",
+   "Vous pénétrez au cœur des ténèbres : vous comprendrez, et vous partirez.",
+   "Cachez votre lumière, comme le sage Jizi, et vous tiendrez.",
+   "Les ténèbres montent à leur sommet et retombent d’elles-mêmes."
+  ]
+ },
+ {
+  "n": 37,
+  "name": "La Famille",
+  "text": "Le foyer, les rôles, le soin mutuel.",
+  "advice": "Mettez de l’ordre dans vos relations proches : tout le reste commence là.",
+  "lines": [
+   "Des règles claires dans la famille dès le début.",
+   "Le soin du foyer et des repas : la persévérance porte chance.",
+   "Trop strict ou trop laxiste ? Mieux vaut un peu de rigueur.",
+   "La prospérité de la famille : grande fortune.",
+   "Un roi dans sa propre maison : n’ayez pas peur ; tout ira bien.",
+   "Sincérité et dignité : la fortune au bout du compte."
+  ]
+ },
+ {
+  "n": 38,
+  "name": "L’Opposition",
+  "text": "Différences, directions divergentes.",
+  "advice": "L’accord est possible dans les petites choses. N’attendez pas d’accord sur tout.",
+  "lines": [
+   "Un cheval perdu reviendra de lui-même. Ne le poursuivez pas.",
+   "Vous rencontrez votre seigneur dans une ruelle étroite : pas d’erreur.",
+   "Le chariot retenu, le bœuf arrêté : un début difficile, une bonne fin.",
+   "Seul dans l’opposition : vous rencontrerez une âme sœur.",
+   "Le regret disparaît : un ami mord à travers la peau.",
+   "Vous voyez des ennemis là où il n’y en a pas. Baissez votre arc : ce sont des alliés."
+  ]
+ },
+ {
+  "n": 39,
+  "name": "L’Obstacle",
+  "text": "Le chemin est barré.",
+  "advice": "Arrêtez-vous, faites le point sur vous-même et demandez de l’aide. Il vaut parfois mieux contourner que forcer le passage.",
+  "lines": [
+   "Aller de l’avant : des obstacles. Revenir : la reconnaissance.",
+   "Obstacle après obstacle, mais pas par votre faute.",
+   "Aller de l’avant : des obstacles. Revenez vers les vôtres.",
+   "Aller de l’avant : des obstacles. Revenir : l’union.",
+   "De grands obstacles : des amis arrivent.",
+   "Aller de l’avant : des obstacles. Revenir : grande fortune."
+  ]
+ },
+ {
+  "n": 40,
+  "name": "La Libération",
+  "text": "Le soulagement après la tension ; l’orage passe.",
+  "advice": "Pardonnez, lâchez prise et revenez à la vie ordinaire. Ne prolongez pas le combat.",
+  "lines": [
+   "Pas d’erreur. Le repos après une période difficile.",
+   "Trois renards pris, une flèche d’or : l’honnêteté l’emporte.",
+   "Vous portez une charge et roulez en voiture, ce qui attire les voleurs. Ne faites pas étalage.",
+   "Libérez-vous des mauvaises fréquentations, et le meilleur viendra.",
+   "Une libération par un changement intérieur.",
+   "Un faucon abattu sur le rempart : l’obstacle est levé."
+  ]
+ },
+ {
+  "n": 41,
+  "name": "La Diminution",
+  "text": "Il faut renoncer à quelque chose ou le réduire.",
+  "advice": "Simplifiez et renoncez au superflu : moins peut donner plus.",
+  "lines": [
+   "Terminez votre propre travail et aidez vite les autres, mais avec mesure.",
+   "Aidez sans vous perdre.",
+   "Trois marchent ensemble et l’un s’en va ; un marche seul et trouve un compagnon.",
+   "Diminuez vos défauts et la joie viendra vite.",
+   "Quelqu’un vous enrichit de façon inattendue. Acceptez-le.",
+   "Augmentation sans perte : c’est bien."
+  ]
+ },
+ {
+  "n": 42,
+  "name": "L’Augmentation",
+  "text": "Croissance, soutien, vent favorable.",
+  "advice": "Saisissez l’occasion de grandir et d’aider les autres.",
+  "lines": [
+   "Le temps d’une grande œuvre : grande fortune.",
+   "Quelqu’un vous enrichit : la persévérance porte chance.",
+   "Enrichissement par les difficultés : la sincérité protège.",
+   "Servir d’intermédiaire pour une bonne cause : cela en vaut la peine.",
+   "Un cœur sincère : ne demandez pas ; la fortune est certaine.",
+   "Personne ne vous enrichit, et quelqu’un pourrait vous nuire. Changez d’attitude."
+  ]
+ },
+ {
+  "n": 43,
+  "name": "La Percée",
+  "text": "Résolution, décision, sortie d’impasse.",
+  "advice": "Dites clairement la vérité, mais sans agressivité. Soyez prêt aux conséquences.",
+  "lines": [
+   "Un départ trop fort : l’échec.",
+   "La vigilance dans la nuit : n’ayez pas peur.",
+   "La résolution dans la colère : gardez votre sang-froid.",
+   "Pas de peau sur les cuisses : vous marchez avec peine. Écoutez les conseils.",
+   "Les mauvaises herbes demandent de la résolution : agissez au milieu du chemin.",
+   "Aucun avertissement : la fin arrive soudainement."
+  ]
+ },
+ {
+  "n": 44,
+  "name": "Venir à la rencontre",
+  "text": "Une rencontre inattendue, une tentation.",
+  "advice": "Faites attention à ce que vous laissez entrer dans votre vie. Tout ce qui attire n’est pas bon.",
+  "lines": [
+   "Arrêtez-le tout de suite : un frein de bronze.",
+   "Un poisson dans le panier : vous avez la maîtrise. Ne le partagez pas avec les invités.",
+   "Pas de peau sur les cuisses : des difficultés, mais pas de grande erreur.",
+   "Pas de poisson dans le panier : vous perdez le contact avec les gens.",
+   "Un melon sous le saule : une beauté cachée mûrit.",
+   "Une rencontre avec des cornes : humiliation, mais pas de faute."
+  ]
+ },
+ {
+  "n": 45,
+  "name": "Le Rassemblement",
+  "text": "Les gens se réunissent ; un but commun.",
+  "advice": "Rassemblez les autres autour de valeurs, et soyez prêt à l’imprévu.",
+  "lines": [
+   "Une sincérité incertaine : le rassemblement se fait puis se défait. Appelez à l’aide.",
+   "Laissez-vous entraîner : la fortune.",
+   "Un rassemblement dans un soupir : un peu de honte. Continuez.",
+   "Grande fortune : pas d’erreur.",
+   "Un rassemblement avec autorité : renforcez la confiance.",
+   "Larmes et soupirs : pas d’erreur."
+  ]
+ },
+ {
+  "n": 46,
+  "name": "La Poussée vers le haut",
+  "text": "Une croissance progressive, comme un arbre qui sort de terre.",
+  "advice": "Avancez pas à pas. L’effort d’aujourd’hui donnera un résultat durable.",
+  "lines": [
+   "Monter avec confiance : grande fortune.",
+   "La sincérité suffit, même une modeste offrande.",
+   "Vous montez vers une ville vide : aucun obstacle.",
+   "Le roi fait une offrande sur la montagne : la fortune.",
+   "La persévérance : vous montez marche après marche.",
+   "Monter dans l’obscurité : la persévérance est essentielle."
+  ]
+ },
+ {
+  "n": 47,
+  "name": "L’Accablement",
+  "text": "Épuisement, contrainte.",
+  "advice": "Ne perdez pas la foi. Parlez moins et agissez avec sagesse : cette période vous rendra plus fort.",
+  "lines": [
+   "Vous êtes assis, abattu, sous un arbre dénudé. Quittez la vallée.",
+   "Accablé au milieu de la nourriture et de la boisson. Attendez ; l’aide viendra.",
+   "Accablé par une pierre : vous vous appuyez sur ce qui vous blesse.",
+   "L’aide arrive lentement : de la honte, mais une bonne fin.",
+   "Accablé par les puissants : la joie vient lentement.",
+   "Accablé par les lianes : agissez, et le regret passera."
+  ]
+ },
+ {
+  "n": 48,
+  "name": "Le Puits",
+  "text": "Une source inépuisable, un bien commun.",
+  "advice": "Prenez soin de vos sources et partagez-les. Allez en profondeur au lieu d’aller ailleurs.",
+  "lines": [
+   "Un puits boueux : personne n’y boit.",
+   "Un puits avec de petits poissons et une cruche fêlée : un potentiel gâché.",
+   "Un puits clair laissé inutilisé : dommage.",
+   "On répare le puits : pas d’erreur.",
+   "Une eau claire et fraîche : buvez.",
+   "Un puits ouvert à tous : grande fortune."
+  ]
+ },
+ {
+  "n": 49,
+  "name": "La Révolution",
+  "text": "Changement, bouleversement, la mue de la vieille peau.",
+  "advice": "Changez quand le moment est venu, et quand vous pouvez expliquer pourquoi.",
+  "lines": [
+   "Enveloppé dans une peau de bœuf jaune : ne changez rien maintenant.",
+   "Le jour du changement est arrivé : agissez.",
+   "Un changement trop rapide nuit. Parlez-en trois fois.",
+   "Le regret disparaît : un changement par conviction.",
+   "Le grand homme change comme un tigre : de façon nette.",
+   "Le noble change comme une panthère, mais sans excès."
+  ]
+ },
+ {
+  "n": 50,
+  "name": "Le Chaudron",
+  "text": "Transformation, nourriture, culture.",
+  "advice": "Cultivez ce qui a de la valeur. Les bons résultats demandent du temps et du feu.",
+  "lines": [
+   "Le chaudron renversé : videz l’ancien pour faire de la place.",
+   "Le chaudron est plein : les envieux ne peuvent l’atteindre.",
+   "L’anse du chaudron est modifiée : une difficulté passagère.",
+   "Un pied du chaudron est cassé : une surcharge.",
+   "Des anses jaunes, des anneaux d’or : c’est favorable.",
+   "Des anneaux de jade : grande fortune."
+  ]
+ },
+ {
+  "n": 51,
+  "name": "L’Éveilleur (le Tonnerre)",
+  "text": "Un événement soudain, un choc.",
+  "advice": "Restez calme. Le choc passe, et ce qu’il vous a appris demeure.",
+  "lines": [
+   "Le tonnerre arrive : la peur, puis le rire.",
+   "Le tonnerre dans le danger : vous perdez quelque chose, mais le retrouvez.",
+   "Le tonnerre vous déstabilise. Agissez pour éviter le malheur.",
+   "Le tonnerre dans la boue : la paralysie.",
+   "Le tonnerre ici et là : danger, mais vous ne perdez rien.",
+   "Le tonnerre amène le chaos. Ne bougez pas maintenant."
+  ]
+ },
+ {
+  "n": 52,
+  "name": "L’Immobilisation (la Montagne)",
+  "text": "Calme, immobilité, méditation.",
+  "advice": "Arrêtez-vous. Agissez quand il est temps d’agir, et restez immobile quand il est temps de l’être.",
+  "lines": [
+   "Gardez les pieds immobiles : ne commencez pas ce que vous ne finirez pas.",
+   "Gardez les mollets immobiles : vous ne pouvez aider ceux que vous suivez.",
+   "Gardez les hanches immobiles : la rigidité est dangereuse.",
+   "Gardez le tronc immobile : le calme intérieur.",
+   "Gardez la mâchoire immobile : parlez avec soin.",
+   "Une noble immobilité : la fortune."
+  ]
+ },
+ {
+  "n": 53,
+  "name": "Le Développement progressif",
+  "text": "Un progrès lent et sûr.",
+  "advice": "Ne vous pressez pas : les bonnes choses grandissent lentement.",
+  "lines": [
+   "L’oie sauvage s’approche du rivage : la jeunesse en danger.",
+   "L’oie sur un rocher : mangez et buvez en paix.",
+   "L’oie sur le plateau : un homme part et ne revient pas.",
+   "L’oie dans un arbre : elle trouvera une branche.",
+   "L’oie sur la colline : trois ans sans enfant, mais la victoire.",
+   "L’oie s’approche des nuages : ses plumes servent aux cérémonies."
+  ]
+ },
+ {
+  "n": 54,
+  "name": "L’Épousée",
+  "text": "Une situation dont vous n’avez pas toute la maîtrise.",
+  "advice": "Adaptez-vous avec dignité, et gardez en tête le but à long terme.",
+  "lines": [
+   "La seconde épouse : même une jambe boiteuse avance.",
+   "Le borgne voit : gardez votre solitude.",
+   "Une servante : attendez votre tour.",
+   "Un mariage retardé : le moment viendra.",
+   "La mariée modeste : plus belle que les parures.",
+   "Un panier vide : il n’apporte rien."
+  ]
+ },
+ {
+  "n": 55,
+  "name": "L’Abondance",
+  "text": "La plénitude, le sommet, comme le soleil à midi.",
+  "advice": "Profitez de la plénitude sans craindre qu’elle passe, et préparez-vous sagement au changement.",
+  "lines": [
+   "Vous rencontrez votre égal : pas d’erreur pendant dix jours.",
+   "La plénitude cache le soleil : la méfiance. La sincérité aide.",
+   "La plénitude voile : une main perdue, pas de faute.",
+   "Vous rencontrez un souverain : la fortune.",
+   "Des talents brillants arrivent : la fortune.",
+   "Une maison pleine à ras bord : la solitude derrière les murs."
+  ]
+ },
+ {
+  "n": 56,
+  "name": "Le Voyageur",
+  "text": "Voyage, étrangeté, impermanence.",
+  "advice": "Soyez courtois et prudent dans un lieu nouveau. Ne vous enracinez pas trop vite.",
+  "lines": [
+   "Le voyageur occupé de bagatelles s’attire des ennuis.",
+   "Le voyageur à l’auberge trouve un serviteur.",
+   "Le voyageur brûle l’auberge et perd son serviteur.",
+   "Le voyageur a un abri, mais un cœur inquiet.",
+   "La flèche atteint la cible : des éloges et une place.",
+   "L’oiseau brûle son propre nid : d’abord le rire, puis les pleurs."
+  ]
+ },
+ {
+  "n": 57,
+  "name": "Le Doux (le Vent)",
+  "text": "Une pénétration douce mais constante.",
+  "advice": "Agissez avec douceur et persévérance : la goutte d’eau creuse la pierre.",
+  "lines": [
+   "En avant et en arrière : la discipline aide.",
+   "La douceur sous le lit : cherchez les causes.",
+   "Une douceur répétée : la honte.",
+   "Le regret disparaît : trois sortes de gibier.",
+   "La persévérance : la fortune après le changement.",
+   "La douceur sous le lit : une perte."
+  ]
+ },
+ {
+  "n": 58,
+  "name": "Le Serein (le Lac)",
+  "text": "Gaieté, conversation, plaisir.",
+  "advice": "Partagez votre joie avec les autres, mais ne la confondez pas avec la complaisance.",
+  "lines": [
+   "Une joie harmonieuse : la fortune.",
+   "Une joie sincère : la fortune.",
+   "Une joie forcée : le malheur.",
+   "Une joie marchandée : une incertitude constante.",
+   "Se fier à ce qui détruit : danger.",
+   "Une joie séductrice : prenez garde."
+  ]
+ },
+ {
+  "n": 59,
+  "name": "La Dissolution",
+  "text": "Dissoudre la rigidité et les divisions.",
+  "advice": "Lâchez ce qui divise. Un but commun rassemblera de nouveau les gens.",
+  "lines": [
+   "Une aide avec la force d’un cheval : la fortune.",
+   "La dissolution : vous courez vers ce qui vous soutient.",
+   "Dissoudre le moi : pas de regret.",
+   "Dissoudre le groupe : grande fortune.",
+   "Dissoudre un grand cri : pas d’erreur.",
+   "Dissoudre le sang : pas de faute."
+  ]
+ },
+ {
+  "n": 60,
+  "name": "La Limitation",
+  "text": "Limites, mesure, règles.",
+  "advice": "Fixez des limites raisonnables, mais pas si étroites qu’elles étouffent.",
+  "lines": [
+   "Vous ne quittez pas la cour : pas d’erreur.",
+   "Vous ne franchissez pas la porte : le malheur.",
+   "Pas de limites : le regret.",
+   "Une limitation paisible : le succès.",
+   "Une limitation agréable : la fortune.",
+   "Une limitation amère : la persévérance est dangereuse."
+  ]
+ },
+ {
+  "n": 61,
+  "name": "La Vérité intérieure",
+  "text": "Une sincérité qui convainc.",
+  "advice": "Soyez honnête avec vous-même et avec les autres. La vérité atteint même les têtus.",
+  "lines": [
+   "Une disponibilité calme : la fortune.",
+   "Une grue crie à l’ombre et ses petits lui répondent.",
+   "Vous trouvez un compagnon : tantôt le tambour, tantôt les pleurs.",
+   "La lune est presque pleine : le cheval s’en va.",
+   "La sincérité unit : pas d’erreur.",
+   "Une plume de coq s’envole vers le ciel : la persévérance est dangereuse."
+  ]
+ },
+ {
+  "n": 62,
+  "name": "La Prépondérance du petit",
+  "text": "Un temps pour les petites choses, non pour les grandes.",
+  "advice": "Occupez-vous des détails et soyez modeste. Ne visez pas trop haut maintenant.",
+  "lines": [
+   "L’oiseau s’envole : le malheur.",
+   "Vous dépassez l’ancêtre et rencontrez l’aïeule : pas d’erreur.",
+   "Ne soyez pas trop prudent ; quelqu’un pourrait vous blesser.",
+   "Pas d’erreur. N’avancez pas.",
+   "Des nuages épais et pas de pluie : prenez ce qui est dans la grotte.",
+   "Vous ne rencontrez pas ; vous passez. L’oiseau s’envole."
+  ]
+ },
+ {
+  "n": 63,
+  "name": "Après l’accomplissement",
+  "text": "Quelque chose est accompli ; tout est à sa place.",
+  "advice": "Ne vous reposez pas sur vos lauriers. Prenez soin de ce qui est acquis, car l’ordre se perd facilement à la fin.",
+  "lines": [
+   "Vous freinez les roues : pas d’erreur.",
+   "La femme perd son voile. Ne le cherchez pas ; il reviendra dans sept jours.",
+   "Le grand ancêtre attaque, et vainc au bout de trois ans.",
+   "Des fissures dans la barque : veillez toute la journée.",
+   "Le voisin de l’est sacrifie un bœuf ; une offrande plus modeste d’un cœur sincère compte davantage.",
+   "Vous vous mouillez la tête : danger."
+  ]
+ },
+ {
+  "n": 64,
+  "name": "Avant l’accomplissement",
+  "text": "Une transition ; ce n’est pas encore la fin.",
+  "advice": "Le dernier pas demande le plus d’attention. Ne célébrez pas trop tôt.",
+  "lines": [
+   "Vous vous mouillez la queue : la honte.",
+   "Vous freinez les roues : la persévérance porte chance.",
+   "Avant l’accomplissement, agir porte malheur, mais traversez l’eau.",
+   "La persévérance : la fortune ; le regret disparaît.",
+   "La lumière des sages : la fortune.",
+   "Vous buvez du vin en confiance : pas d’erreur, mais sans excès."
+  ]
+ }
+]

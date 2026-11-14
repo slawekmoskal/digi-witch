@@ -1,0 +1,1010 @@
+[
+ {
+  "id": "cups_01",
+  "name": "Asso di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 1,
+  "keywords": [
+   "cuore aperto",
+   "nuovo sentimento",
+   "gratitudine",
+   "flusso",
+   "tenerezza"
+  ],
+  "symbolism": "Una mano esce da una nuvola reggendo una coppa, dalla quale l'acqua scorre in cinque rivoli in una pozza piena di ninfee. Una colomba bianca scende sul calice con un piccolo disco nel becco, e tutt'intorno fluttuano minuscole gocce simili a petali che cadono.",
+  "upright": "L'Asso di Coppe parla di un momento in cui i sentimenti cominciano a scorrere più liberamente. Può essere una nuova relazione, un'amicizia che si rinnova o semplicemente uno sguardo più dolce su di te. La carta ti invita ad accogliere ciò che viene senza fretta e senza giudicare. Vale la pena notare che cosa vorresti condividere oggi con gli altri.",
+  "reversed": "L'Asso rovesciato può suggerire che le emozioni ci sono ma sono trattenute dentro, come se il calice fosse coperto. A volte è un bisogno di protezione, a volte la stanchezza di dare. Un buon passo è spesso riempire prima la tua coppa.",
+  "reflection": [
+   "Quale sentimento vorrebbe essere notato da me oggi?",
+   "A chi o a che cosa posso mostrare gratitudine senza aspettarmi nulla in cambio?"
+  ],
+  "advice": "Apri il cuore. Lasciati sentire e accogliere ciò che è buono: un nuovo sentimento o una nuova relazione può iniziare ora.",
+  "adviceReversed": "Ti stai chiudendo alle emozioni. Pensa a che cosa temi, e concediti il permesso di sentire.",
+  "astrology": "Acqua — radice dell'elemento"
+ },
+ {
+  "id": "cups_02",
+  "name": "Due di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 2,
+  "keywords": [
+   "reciprocità",
+   "incontro",
+   "comprensione",
+   "partnership",
+   "fiducia"
+  ],
+  "symbolism": "Un giovane e una giovane stanno uno di fronte all'altra e si scambiano le coppe, come per fare una promessa. Sopra di loro fluttua un bastone avvolto da due serpenti e coronato da una testa di leone alato, e sullo sfondo si vede una casa tranquilla tra le colline.",
+  "upright": "Il Due di Coppe descrive un legame basato su un equilibrio tra dare e prendere. Non riguarda solo il romanticismo ma ogni incontro in cui entrambe le parti si sentono viste. La carta suggerisce che l'onestà e l'ascolto attento possono avvicinare le persone più dei grandi gesti. È un buon momento per apprezzare le persone con cui condividi un rispetto reciproco.",
+  "reversed": "Rovesciata, la carta può richiamare l'attenzione su una quota di attenzione diseguale o su aspettative non dette. Può anche segnalare che prima devi metterti d'accordo con te stesso.",
+  "reflection": [
+   "In quale relazione mi sento davvero ascoltato?",
+   "Di che cosa ho bisogno per dare e ricevere in equilibrio?"
+  ],
+  "advice": "Punta sulla comprensione. Tendi la mano e cerca la reciprocità: nella relazione c'è una buona energia in questo momento.",
+  "adviceReversed": "Qualcosa manca nella relazione: equilibrio o onestà. Parlane prima che la distanza cresca.",
+  "astrology": "Acqua · Venere in Cancro"
+ },
+ {
+  "id": "cups_03",
+  "name": "Tre di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 3,
+  "keywords": [
+   "comunità",
+   "gioia",
+   "festa",
+   "amicizia",
+   "sostegno"
+  ],
+  "symbolism": "Tre donne in vesti colorate danzano in cerchio e alzano in alto le coppe. Ai loro piedi giacciono frutti maturi, zucche e uva, che fanno pensare al tempo del raccolto e al banchettare insieme.",
+  "upright": "Il Tre di Coppe ricorda la forza della comunità e della gioia condivisa con gli altri. Può incoraggiarti a festeggiare i piccoli successi o a rimetterti in contatto con gli amici. La carta sottolinea che il sostegno arriva spesso in forma leggera: una conversazione, una risata, un pasto condiviso. Vale la pena chiedersi dove ti senti parte di qualcosa di più grande.",
+  "reversed": "Il Tre rovesciato può parlare di troppa compagnia, o di sentirsi un po' in disparte dal gruppo. Può anche essere un invito a festeggiare in silenzio, ai tuoi ritmi.",
+  "reflection": [
+   "Con chi vorrei condividere il mio ultimo bel momento?",
+   "Dove mi sento parte di una comunità, e dove solo un ospite?"
+  ],
+  "advice": "Incontra le persone che stanno dalla tua parte. La gioia condivisa e il sostegno ti aiuteranno in questa faccenda.",
+  "adviceReversed": "Troppa compagnia, o i pettegolezzi, possono essere d'intralcio. Scegli di chi ti fidi davvero.",
+  "astrology": "Acqua · Mercurio in Cancro"
+ },
+ {
+  "id": "cups_04",
+  "name": "Quattro di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 4,
+  "keywords": [
+   "contemplazione",
+   "stanchezza",
+   "distanza",
+   "introspezione",
+   "occasioni trascurate"
+  ],
+  "symbolism": "Un giovane siede sotto un albero con le braccia conserte, guardando tre coppe poste sull'erba davanti a lui. Da un lato una mano esce da una nuvola offrendo una quarta coppa, che lui non sembra notare.",
+  "upright": "Il Quattro di Coppe descrive uno stato di ritiro in cui ciò che è familiare non dà più gioia. Una pausa così può essere necessaria per capire che cosa vuoi davvero. La carta però suggerisce con dolcezza di alzare ogni tanto lo sguardo, perché qualcosa di nuovo potrebbe aspettarti accanto a te. Non devi accettarlo subito; basta notarlo.",
+  "reversed": "Rovesciata, la carta può significare l'uscire lentamente da un'abitudine e l'essere più aperti alle offerte. Può anche suggerire che il ritiro dura più a lungo di quanto serva.",
+  "reflection": [
+   "Che cosa intorno a me ha smesso di darmi gioia, e perché?",
+   "Quale offerta potrei aver trascurato di recente?"
+  ],
+  "advice": "Ti viene offerto qualcosa ma non te ne accorgi. Guardati intorno: l'occasione potrebbe essere più vicina di quanto pensi.",
+  "adviceReversed": "Stai uscendo dall'apatia, ed è un bene. Ora accetta ciò che finora hai rifiutato.",
+  "astrology": "Acqua · Luna in Cancro"
+ },
+ {
+  "id": "cups_05",
+  "name": "Cinque di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 5,
+  "keywords": [
+   "dolore",
+   "delusione",
+   "perdita",
+   "accettazione",
+   "ciò che resta"
+  ],
+  "symbolism": "Una figura in un lungo mantello nero sta china su tre coppe rovesciate da cui si è versato il liquido. Dietro la figura stanno altre due coppe ancora piene, e più lontano scorre un fiume, attraversato da un ponte che porta a una casa.",
+  "upright": "Il Cinque di Coppe dà spazio alla tristezza per qualcosa che non è andato come si sperava. La carta non ti dice di scrollartela di dosso in fretta; riconosce piuttosto che il dolore è una parte naturale del vivere le cose. Allo stesso tempo ricorda le due coppe ancora in piedi. Quando sarai pronto, potrai voltarti e vedere ciò che ti resta.",
+  "reversed": "Il Cinque rovesciato può segnalare che il processo di accettazione della perdita è già in corso e che compare più dolcezza. A volte, però, indica una tristezza nascosta nel profondo che ha bisogno di essere espressa in sicurezza.",
+  "reflection": [
+   "Quale dolore mi permetto di sentire, e quale evito?",
+   "Che cosa di valore è ancora con me, nonostante ciò che si è versato?"
+  ],
+  "advice": "Concediti di soffrire, ma non fermarti lì. Voltati: non tutto è stato perduto.",
+  "adviceReversed": "Stai cominciando a rimetterti in piedi dopo la perdita. Concentrati su ciò che resta e fai il primo passo avanti.",
+  "astrology": "Acqua · Marte in Scorpione"
+ },
+ {
+  "id": "cups_06",
+  "name": "Sei di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 6,
+  "keywords": [
+   "ricordi",
+   "innocenza",
+   "gentilezza",
+   "infanzia",
+   "semplicità"
+  ],
+  "symbolism": "Nel cortile di un vecchio villaggio un ragazzo porge a una ragazza una coppa piena di fiori bianchi. Intorno a loro stanno altri vasi di fiori, e sullo sfondo una guardia si allontana, come a vegliare su questo luogo tranquillo.",
+  "upright": "Il Sei di Coppe evoca il calore dei ricordi e dei semplici gesti di gentilezza. Può incoraggiarti a rimetterti in contatto con qualcuno del passato, o a ricordare che cosa ti rendeva felice. La carta parla del dare senza calcolo, come fanno i bambini. Vale la pena controllare quali vecchie gioie potrebbero tornare a vivere oggi in una forma nuova.",
+  "reversed": "Rovesciata, la carta può indicare l'aggrapparsi troppo al passato, o l'idealizzare ciò che non c'è più. Può anche incoraggiarti a prendere ciò che c'era di buono nelle vecchie lezioni e ad andare avanti.",
+  "reflection": [
+   "Quale ricordo mi dà oggi un senso di calore?",
+   "C'è qualcosa del passato che ora posso mettere da parte con dolcezza?"
+  ],
+  "advice": "Attingi a ciò che c'era di buono nel passato: la semplicità, la gentilezza, una vecchia amicizia. Possono aiutarti adesso.",
+  "adviceReversed": "Non vivere nei ricordi. Ciò che è stato non tornerà nella stessa forma: è ora di guardare avanti.",
+  "astrology": "Acqua · Sole in Scorpione"
+ },
+ {
+  "id": "cups_07",
+  "name": "Sette di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 7,
+  "keywords": [
+   "immaginazione",
+   "scelta",
+   "sogni",
+   "illusioni",
+   "molte possibilità"
+  ],
+  "symbolism": "Una sagoma scura sta davanti a sette coppe sospese tra le nuvole. Ciascuna contiene qualcosa di diverso: una testa, una figura velata e luminosa, un serpente, un castello, gioielli, una corona d'alloro e un drago, come se ogni calice promettesse un futuro diverso.",
+  "upright": "Il Sette di Coppe mostra la ricchezza dell'immaginazione e i molti sentieri che puoi sognare. È uno spazio bellissimo, ma in cui è facile perdersi. La carta ti invita a distinguere ciò che ti commuove davvero da ciò che luccica soltanto. Un piccolo passo concreto può aiutarti a verificare quale sogno abbia vita.",
+  "reversed": "Il Sette rovesciato può significare che la nebbia si sta diradando e per te è più facile scegliere. Può anche indicare un sovraccarico di opzioni, quando vale la pena restringere il campo visivo.",
+  "reflection": [
+   "Quale dei miei sogni è davvero mio, e quali ho preso dagli altri?",
+   "Quale piccolo passo mi aiuterebbe a mettere alla prova la possibilità che ho scelto?"
+  ],
+  "advice": "Hai molte possibilità, ma non tutte sono reali. Scegli un'opzione concreta e separa i sogni dai progetti.",
+  "adviceReversed": "La nebbia si sta diradando e puoi già vedere ciò che conta. Ora prendi la decisione.",
+  "astrology": "Acqua · Venere in Scorpione"
+ },
+ {
+  "id": "cups_08",
+  "name": "Otto di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 8,
+  "keywords": [
+   "andarsene",
+   "ricerca",
+   "senso più profondo",
+   "cambio di direzione",
+   "coraggio"
+  ],
+  "symbolism": "Una figura con un mantello rosso, appoggiata a un bastone, si allontana verso montagne e acqua sotto un cielo notturno in cui la luna ha un volto umano. Dietro la figura restano otto coppe disposte con cura in due file, con un evidente vuoto nella fila superiore.",
+  "upright": "L'Otto di Coppe parla del momento in cui ciò che è stato costruito non basta più al cuore. Non si tratta di fallimento ma del bisogno di un senso più profondo. La carta può sostenere la decisione di allontanarsi da un'abitudine, da un ruolo o da una convinzione che non ti serve più. Qui andarsene può essere una forma di rispetto per te stesso.",
+  "reversed": "Rovesciata, la carta può indicare esitazione: volere il cambiamento e avere paura di lasciare il familiare. Può anche essere un segnale per guardare ancora una volta ciò che lasci prima di partire.",
+  "reflection": [
+   "Che cosa cerco che non riesco a trovare dove sono adesso?",
+   "Che cosa posso lasciarmi alle spalle con gratitudine anziché con rimpianto?"
+  ],
+  "advice": "Allontanati da ciò che non ti nutre più. Ci vuole coraggio, ma stai andando in cerca di qualcosa di più profondo.",
+  "adviceReversed": "Sei diviso tra l'andartene e il restare. Controlla se stai scappando o se cerchi davvero qualcosa di meglio.",
+  "astrology": "Acqua · Saturno in Pesci"
+ },
+ {
+  "id": "cups_09",
+  "name": "Nove di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 9,
+  "keywords": [
+   "appagamento",
+   "realizzazione",
+   "piacere",
+   "gratitudine",
+   "agio"
+  ],
+  "symbolism": "Un uomo soddisfatto siede su una panca di legno con le braccia conserte e la testa un po' alzata. Dietro di lui, su un tavolo curvo coperto da un panno azzurro, sta una fila regolare di nove coppe.",
+  "upright": "Il Nove di Coppe descrive la sensazione che le cose vadano bene e che i tuoi desideri siano stati esauditi, almeno in parte. È un invito a concederti la gioia senza sensi di colpa. La carta ricorda anche che la soddisfazione ha un sapore più pieno quando è consapevole, non solo spuntata da una lista. Fermati un momento su ciò che è già andato bene.",
+  "reversed": "Il Nove rovesciato può indicare un appagamento superficiale o che dipende da segni esteriori. A volte suggerisce di chiederti che cosa vuoi davvero, anziché ciò che dovresti avere.",
+  "reflection": [
+   "Che cosa mi dà una soddisfazione vera e tranquilla?",
+   "Mi concedo di godere di ciò che ho raggiunto?"
+  ],
+  "advice": "La risposta è sì: il tuo desiderio ha buone possibilità di realizzarsi. Goditelo e apprezza ciò che hai già.",
+  "adviceReversed": "L'appagamento esteriore non basta. Pensa a ciò che vuoi davvero, non solo a ciò che dovresti avere.",
+  "astrology": "Acqua · Giove in Pesci"
+ },
+ {
+  "id": "cups_10",
+  "name": "Dieci di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 10,
+  "keywords": [
+   "armonia",
+   "famiglia",
+   "vicinanza",
+   "casa",
+   "pace emotiva"
+  ],
+  "symbolism": "Una coppia sta abbracciata e alza le braccia verso un arcobaleno, nel cui arco brillano dieci coppe. Accanto a loro due bambini danzano, e in lontananza si vede una piccola casa vicino a un fiume tra verdi colline.",
+  "upright": "Il Dieci di Coppe parla del senso di una casa emotiva: un luogo o delle persone con cui puoi essere te stesso. Non deve essere una famiglia in senso tradizionale, ma qualunque comunità costruita sulla cura. La carta ti incoraggia ad apprezzare l'armonia di ogni giorno, anche se non è perfetta. Vale la pena pensare a che cosa porti tu stesso a quella pace condivisa.",
+  "reversed": "Rovesciata, la carta può richiamare l'attenzione sulla distanza tra l'immagine di una casa ideale e la realtà. Può essere un invito a una conversazione onesta su ciò di cui ciascuna delle persone care ha bisogno.",
+  "reflection": [
+   "Dove, e con chi, mi sento davvero a casa?",
+   "Che cosa posso fare oggi per portare più calore a chi mi sta intorno?"
+  ],
+  "advice": "Punta sulla vicinanza e sull'armonia. Ciò che stai costruendo con le persone care conta di più in questo momento: abbine cura.",
+  "adviceReversed": "Dietro l'immagine della famiglia o della relazione ideale c'è tensione. Parla con onestà dei tuoi bisogni.",
+  "astrology": "Acqua · Marte in Pesci"
+ },
+ {
+  "id": "cups_11",
+  "name": "Fante di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 11,
+  "keywords": [
+   "curiosità",
+   "sensibilità",
+   "intuizione",
+   "sorpresa",
+   "impulso creativo"
+  ],
+  "symbolism": "Un giovane in una tunica a motivi floreali sta sulla riva del mare con una coppa da cui fa capolino un pesciolino. Lo guarda con curiosità, come se tenesse con lui una conversazione silenziosa, e dolci onde si rincorrono dietro di lui.",
+  "upright": "Il Fante di Coppe è un invito a giocare con i tuoi sentimenti e la tua immaginazione. Può comparire un'idea inattesa, un sogno o un'impressione che vale la pena annotare. La carta incoraggia l'apertura e un po' di ingenuità infantile, nel senso migliore del termine. Non tutto deve avere subito un senso per essere prezioso.",
+  "reversed": "Il Fante rovesciato può suggerire che la sensibilità venga trattenuta per paura del giudizio. Può anche indicare un'instabilità emotiva, in cui aiuta una struttura gentile della giornata.",
+  "reflection": [
+   "Quale idea o sentimento mi ha sorpreso di recente?",
+   "Dove posso concedermi più gioco creativo?"
+  ],
+  "advice": "Ascolta la tua intuizione e sii aperto ai messaggi emotivi. Una piccola scintilla sensibile può trasformarsi in qualcosa.",
+  "adviceReversed": "L'immaturità emotiva o l'ipersensibilità sono d'intralcio. Non prendere tutto sul personale.",
+  "astrology": "Acqua"
+ },
+ {
+  "id": "cups_12",
+  "name": "Cavaliere di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 12,
+  "keywords": [
+   "romanticismo",
+   "offerta",
+   "idealismo",
+   "dolcezza",
+   "seguire il cuore"
+  ],
+  "symbolism": "Un cavaliere in armatura con piccole ali sull'elmo e sui talloni cavalca lentamente un cavallo bianco, tenendo davanti a sé una coppa come un dono. Il suo cavallo avanza con calma, e sullo sfondo scorre un fiume e si alzano dolci colline.",
+  "upright": "Il Cavaliere di Coppe porta l'energia di un cuore che vuole agire. Può significare un invito, un gesto d'affetto o un progetto creativo portato avanti con passione. La carta sottolinea il valore della dolcezza e della sincerità in ciò che offri. Vale però la pena controllare che anche i tuoi ideali abbiano un terreno sotto i piedi.",
+  "reversed": "Il Cavaliere rovesciato può indicare troppo sognare a occhi aperti, o umori che cambiano direzione di giorno in giorno. Può anche essere un segnale a non fare promesse prima di sentire che siano realistiche.",
+  "reflection": [
+   "Che cosa vorrei offrire a qualcuno con tutto il cuore?",
+   "I miei ideali sono radicati nella vita di ogni giorno?"
+  ],
+  "advice": "Segui il tuo cuore: fai l'offerta, esprimi i tuoi sentimenti. Il romanticismo e la sincerità sono dalla tua parte in questo momento.",
+  "adviceReversed": "Non lasciarti trasportare dall'idealismo. Controlla se le promesse sono sostenute dai fatti.",
+  "astrology": "Acqua"
+ },
+ {
+  "id": "cups_13",
+  "name": "Regina di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 13,
+  "keywords": [
+   "empatia",
+   "intuizione",
+   "accudimento",
+   "profondità del sentire",
+   "calma"
+  ],
+  "symbolism": "La regina siede su un trono posto proprio sul bordo dell'acqua, con i piedi quasi a contatto con essa. Tra le mani tiene una coppa riccamente decorata e chiusa, con manici a forma di angeli, e la guarda pensierosa; il trono è decorato con figure di bambini del mare e conchiglie.",
+  "upright": "La Regina di Coppe incarna una sensibilità matura che sa provare compassione senza perdersi. La carta ti incoraggia a fidarti dei presentimenti e a darti il tempo di ascoltare ciò che accade dentro. Può anche indicare una persona accanto alla quale gli altri si sentono al sicuro. La tua empatia è preziosa, soprattutto quando include anche te.",
+  "reversed": "Rovesciata, la carta può significare il far proprie le emozioni altrui o il perdere i propri confini. Può essere un invito a prenderti cura prima delle tue acque interiori.",
+  "reflection": [
+   "Che cosa mi dice oggi la mia intuizione?",
+   "Come posso sostenere gli altri senza perdere me stesso?"
+  ],
+  "advice": "Lasciati guidare dall'empatia, verso gli altri e verso te stesso. La tua intuizione ti sta guidando bene.",
+  "adviceReversed": "Dai agli altri troppo e a te stesso troppo poco. Poni sani confini emotivi.",
+  "astrology": "Acqua"
+ },
+ {
+  "id": "cups_14",
+  "name": "Re di Coppe",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 14,
+  "keywords": [
+   "equilibrio emotivo",
+   "maturità",
+   "calma",
+   "diplomazia",
+   "compostezza"
+  ],
+  "symbolism": "Il re siede su un trono di pietra che sembra galleggiare su un mare mosso. In una mano tiene una coppa, nell'altra uno scettro; al collo porta un pendente a forma di pesce, e sullo sfondo naviga una nave e una creatura marina balza fuori dall'acqua.",
+  "upright": "Il Re di Coppe mostra che si può sentire profondamente e restare calmi allo stesso tempo. È l'energia di chi non reprime le emozioni ma le comprende e le gestisce con saggezza. La carta incoraggia una guida gentile e conversazioni condotte con benevolenza. Intorno a te può esserci tempesta, e tu puoi restare la tua isola.",
+  "reversed": "Il Re rovesciato può indicare emozioni tenute sotto un controllo troppo stretto, che cercano una via d'uscita. A volte è un segnale per concederti più onestà con te stesso.",
+  "reflection": [
+   "Come reagisco alle onde emotive intorno a me?",
+   "In che modo posso essere un sostegno calmo e gentile per qualcuno?"
+  ],
+  "advice": "Resta calmo e maturo. Padroneggia le tue emozioni senza reprimerle: è la chiave per una buona decisione.",
+  "adviceReversed": "Le emozioni stanno prendendo il sopravvento, oppure sono chiuse a chiave. Trova un modo sicuro per esprimerle.",
+  "astrology": "Acqua"
+ },
+ {
+  "id": "swords_01",
+  "name": "Asso di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 1,
+  "keywords": [
+   "chiarezza",
+   "verità",
+   "svolta",
+   "nuova idea",
+   "decisione"
+  ],
+  "symbolism": "Una mano emerge da una nuvola stringendo una spada eretta la cui lama trafigge una corona. Dalla corona pendono rametti di olivo e di palma, tutt'intorno cadono piccole scintille, e sotto si stendono aspre cime rocciose.",
+  "upright": "L'Asso di Spade porta un momento di chiarezza, in cui i pensieri si compongono di colpo in un quadro limpido. Può essere una nuova idea, una comprensione della situazione o la disponibilità a chiamare le cose con il loro nome. La carta ti incoraggia a essere onesto con te stesso e a dire la verità con riflessione. La chiarezza è uno strumento che serve al meglio quando è unita alla gentilezza.",
+  "reversed": "L'Asso rovesciato può indicare pensieri che girano senza direzione, o una verità che non vuoi ancora sentire. Può anche essere un segnale a rallentare prima che parole taglienti vengano dette troppo in fretta.",
+  "reflection": [
+   "Che cosa mi è diventato chiaro di recente?",
+   "Come posso esprimere la mia verità con rispetto per gli altri?"
+  ],
+  "advice": "Di' la verità e pensa con chiarezza. Una svolta è vicina: una decisione ben mirata taglierà la confusione.",
+  "adviceReversed": "I tuoi pensieri sono aggrovigliati. Prima di decidere, raccogli i fatti e separali dalle tue preoccupazioni.",
+  "astrology": "Aria — radice dell'elemento"
+ },
+ {
+  "id": "swords_02",
+  "name": "Due di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 2,
+  "keywords": [
+   "stallo",
+   "riflessione",
+   "quiete interiore",
+   "scelta difficile",
+   "protezione"
+  ],
+  "symbolism": "Una donna in veste bianca siede su una panca, con gli occhi bendati, tenendo due spade incrociate contro il petto. Dietro di lei si stende uno specchio d'acqua punteggiato di rocce, e in cielo si vede una sottile luna crescente.",
+  "upright": "Il Due di Spade descrive un momento in cui una scelta sembra difficile e la mente cerca equilibrio. La benda può significare il desiderio di isolarsi dal caos per sentire la propria voce. La carta concede un momento di riflessione, ma ricorda che lo stallo non deve durare per sempre. A volte basta alzare la benda e guardare i fatti.",
+  "reversed": "Rovesciata, la carta può indicare una tensione che finalmente richiede una decisione, o un eccesso di informazioni. Può anche segnalare che ti senti già pronto a sbloccare la situazione.",
+  "reflection": [
+   "Davanti a quale scelta mi sto fermando in questo momento?",
+   "Che cosa devo sapere per sentirmi più sicuro?"
+  ],
+  "advice": "Eviti una decisione coprendoti gli occhi. Togli la benda: guarda i fatti e scegli.",
+  "adviceReversed": "La tensione cresce e non puoi più aspettare. Prendi una decisione, anche imperfetta.",
+  "astrology": "Aria · Luna in Bilancia"
+ },
+ {
+  "id": "swords_03",
+  "name": "Tre di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 3,
+  "keywords": [
+   "dolore",
+   "ferita",
+   "riconoscere la sofferenza",
+   "liberazione",
+   "onestà con se stessi"
+  ],
+  "symbolism": "Un cuore rosso trafitto da tre spade fluttua contro nuvole grigie da cui cade la pioggia. L'immagine è semplice e spoglia, senza figure, come se concentrasse tutta l'attenzione su un solo sentimento.",
+  "upright": "Il Tre di Spade parla di un dolore che vale la pena riconoscere invece di nasconderlo. Può riguardare una delusione, parole che hanno ferito o un senso di perdita, ma non decide nulla di definitivo. La pioggia sulla carta è anche un'immagine di purificazione: le lacrime possono portare sollievo. Dare un nome a ciò che fa male è spesso il primo passo verso la guarigione emotiva.",
+  "reversed": "Il Tre rovesciato può segnalare che la ferita sta lentamente guarendo e che ritorna più calma. A volte, però, indica una tristezza repressa che ha bisogno di una conversazione con una persona di cui ti fidi.",
+  "reflection": [
+   "Quale dolore ha bisogno oggi del mio riconoscimento?",
+   "Che cosa mi aiuta ad attraversare con dolcezza i sentimenti difficili?"
+  ],
+  "advice": "Riconosci il dolore invece di nasconderlo. Concediti di vivere la tristezza: è il primo passo verso la guarigione.",
+  "adviceReversed": "La ferita comincia a rimarginarsi. Lascialo fare: smetti di tornare con il pensiero a ciò che ti ha ferito.",
+  "astrology": "Aria · Saturno in Bilancia"
+ },
+ {
+  "id": "swords_04",
+  "name": "Quattro di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 4,
+  "keywords": [
+   "riposo",
+   "recupero",
+   "silenzio",
+   "contemplazione",
+   "una pausa"
+  ],
+  "symbolism": "La figura scolpita di un cavaliere riposa su una tomba di pietra in una chiesa, con le mani giunte in preghiera. Sopra di lui, sulla parete, pendono tre spade rivolte verso il basso, una quarta giace in orizzontale sotto di lui, e una vetrata mostra una scena con delle figure.",
+  "upright": "Il Quattro di Spade ti invita a fermarti e a far riposare la mente. Dopo un periodo di tensione, il silenzio non è tempo sprecato ma un modo di riprendere le forze. La carta incoraggia la quiete, la riflessione o semplicemente una pausa più lunga dagli stimoli. Ciò che metti giù per un po' ti aspetterà.",
+  "reversed": "Rovesciata, la carta può indicare difficoltà a lasciar andare e a restare sempre in allerta. Può anche segnalare che il riposo sta finendo e il desiderio di agire sta lentamente tornando.",
+  "reflection": [
+   "Quando mi sono concesso un vero riposo l'ultima volta?",
+   "Che cosa posso posare per un po' per ritrovare chiarezza?"
+  ],
+  "advice": "Riposa. Prima del prossimo passo servono recupero e quiete: non è tempo sprecato.",
+  "adviceReversed": "Le tue forze stanno tornando, ed è un bene. Ma non gettarti subito nel vortice; rientra gradualmente.",
+  "astrology": "Aria · Giove in Bilancia"
+ },
+ {
+  "id": "swords_05",
+  "name": "Cinque di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 5,
+  "keywords": [
+   "conflitto",
+   "confini",
+   "orgoglio",
+   "il prezzo della vittoria",
+   "ritirata"
+  ],
+  "symbolism": "Un uomo con un lieve sorriso raccoglie delle spade mentre due figure si allontanano, curve, verso l'acqua. Diverse spade giacciono a terra, e nuvole frastagliate solcano il cielo.",
+  "upright": "Il Cinque di Spade interroga sul prezzo pagato per averla vinta. A volte vincere una discussione lascia dietro di sé freddezza e distanza. La carta ti incoraggia a riflettere su quali battaglie valga davvero la pena combattere. Ritirarsi non deve essere una sconfitta; può essere una scelta saggia.",
+  "reversed": "Il Cinque rovesciato può significare la disponibilità a far pace o a chiudere una vecchia disputa. Può anche indicare il rimpianto per parole che vale la pena rimettere a posto con calma.",
+  "reflection": [
+   "C'è una situazione in cui vincere conta per me più che capire?",
+   "Da quale disputa potrei ritirarmi con dignità?"
+  ],
+  "advice": "Valuta se questa vittoria valga il suo prezzo. A volte è meglio lasciar cadere la discussione che perdere la relazione.",
+  "adviceReversed": "È ora di chiudere il conflitto. Tendi la mano, oppure vai via con dignità.",
+  "astrology": "Aria · Venere in Acquario"
+ },
+ {
+  "id": "swords_06",
+  "name": "Sei di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 6,
+  "keywords": [
+   "transizione",
+   "cambiamento",
+   "acque più calme",
+   "viaggio",
+   "lasciarsi alle spalle le difficoltà"
+  ],
+  "symbolism": "Un traghettatore spinge una barca con una pertica, e in essa siede una figura in mantello con accanto un bambino. Sei spade stanno erette nella barca; l'acqua da un lato è mossa e dall'altro liscia, e all'orizzonte si profila una riva.",
+  "upright": "Il Sei di Spade descrive un passaggio graduale da un periodo più duro a uno più calmo. Non tutto viene lasciato indietro in una volta; alcuni pensieri viaggiano con te. La carta ricorda che una transizione può essere silenziosa e lenta e portare comunque avanti. Vale la pena apprezzare l'aiuto che ti permette di continuare a muoverti.",
+  "reversed": "Rovesciata, la carta può indicare resistenza al cambiamento, o la sensazione di tornare sempre alla stessa riva. Può incoraggiarti a controllare che cosa tieni ancora nella barca e che cosa potresti lasciare a terra.",
+  "reflection": [
+   "Da che cosa mi sto allontanando lentamente, e dove sto andando?",
+   "Chi o che cosa mi sta aiutando in questo periodo?"
+  ],
+  "advice": "Passa ad acque più calme. Il cambiamento è necessario: lasciati alle spalle ciò che è difficile.",
+  "adviceReversed": "Il cambiamento è necessario, ma gli opponi resistenza. Pensa a che cosa ti tiene fermo.",
+  "astrology": "Aria · Mercurio in Acquario"
+ },
+ {
+  "id": "swords_07",
+  "name": "Sette di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 7,
+  "keywords": [
+   "strategia",
+   "astuzia",
+   "motivi nascosti",
+   "indipendenza",
+   "evitamento"
+  ],
+  "symbolism": "Un uomo esce di soppiatto in punta di piedi da un accampamento di tende, portando cinque spade tra le braccia. Altre due restano conficcate nel terreno dietro di lui, e lui getta uno sguardo oltre la spalla con un'espressione compiaciuta.",
+  "upright": "Il Sette di Spade ti incoraggia a guardare dove agisci da solo, e con quali mezzi. Può essere una saggia strategia, ma anche la tentazione di schivare una conversazione difficile. La carta interroga sull'onestà verso gli altri e verso te stesso. A volte vale la pena fermarsi a considerare che cosa stai davvero prendendo e che cosa lasci indietro.",
+  "reversed": "Il Sette rovesciato può significare il desiderio di uscire dal nascondiglio e dire la verità. Può anche suggerire che stai cercando di portare troppo in una volta invece di chiedere sostegno.",
+  "reflection": [
+   "Dove scelgo la scorciatoia, e che cosa mi spinge a farlo?",
+   "C'è qualcosa che potrei dire apertamente?"
+  ],
+  "advice": "Agisci con astuzia, ma con onestà. Controlla anche che nessuno giochi in modo scorretto con te.",
+  "adviceReversed": "Qualcosa sta venendo alla luce. Scegli l'onestà: nascondersi costa più di quanto guadagna.",
+  "astrology": "Aria · Luna in Acquario"
+ },
+ {
+  "id": "swords_08",
+  "name": "Otto di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 8,
+  "keywords": [
+   "convinzioni limitanti",
+   "sentirsi in trappola",
+   "paura",
+   "una via d'uscita",
+   "prospettiva"
+  ],
+  "symbolism": "Una donna in un lungo abito sta con gli occhi bendati e le braccia legate in modo lasco tra otto spade piantate in un terreno paludoso. Le spade non la chiudono in un cerchio completo, e in lontananza su una collina si erge un castello.",
+  "upright": "L'Otto di Spade mostra una situazione in cui la restrizione è in gran parte intessuta di pensieri. I legami sulla carta sono lenti, e tra le spade c'è spazio. La carta ti incoraggia a controllare quali convinzioni ti tengono bloccato. Un piccolo movimento, una domanda o una conversazione possono rivelarsi l'inizio di una via d'uscita.",
+  "reversed": "Rovesciata, la carta può significare che la benda comincia a scivolare e vedi più possibilità. A volte, però, indica una paura così forte che vale la pena cercare sostegno in qualcuno di gentile.",
+  "reflection": [
+   "Quale convinzione su di me mi tiene bloccato?",
+   "Qual è il più piccolo movimento che potrei fare oggi?"
+  ],
+  "advice": "La gabbia è per lo più nella tua testa. Metti in discussione la convinzione che ti limita: una via d'uscita c'è.",
+  "adviceReversed": "Stai cominciando a liberarti dalla paura. Continua: ogni passo sarà più facile.",
+  "astrology": "Aria · Giove in Gemelli"
+ },
+ {
+  "id": "swords_09",
+  "name": "Nove di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 9,
+  "keywords": [
+   "ansia",
+   "pensieri notturni",
+   "preoccupazione",
+   "sensibilità",
+   "bisogno di conforto"
+  ],
+  "symbolism": "Una figura siede sul letto nel buio, con il volto nascosto tra le mani. Nove spade pendono orizzontali dalla parete nera, la trapunta è decorata con rose e segni zodiacali, e sul lato del letto è scolpita una scena di combattimento.",
+  "upright": "Il Nove di Spade descrive pensieri che di notte sembrano più grandi che di giorno. L'ansia può essere rumorosa, ma non sempre dice la verità sulla realtà. La carta ti incoraggia a scrivere le tue preoccupazioni, a nominarle e a separare i fatti da ciò che immagini. Parlare con qualcuno di vicino può dare più sollievo di quanto ti aspetti.",
+  "reversed": "Il Nove rovesciato può suggerire che l'ansia stia cominciando ad allentarsi e che tu abbia più distanza. Può anche indicare preoccupazioni tenute segrete, che trarrebbero giovamento dall'essere dette ad alta voce.",
+  "reflection": [
+   "Quale delle mie preoccupazioni è un fatto, e quale è immaginazione?",
+   "Con chi posso condividere ciò che non mi dà pace?"
+  ],
+  "advice": "Le tue paure sono più grandi della realtà. Condividile con qualcuno di cui ti fidi: alla luce del giorno hanno un altro aspetto.",
+  "adviceReversed": "Le paure peggiori stanno perdendo il loro potere. Concediti di respirare, e abbi cura del tuo sonno e della tua pace.",
+  "astrology": "Aria · Marte in Gemelli"
+ },
+ {
+  "id": "swords_10",
+  "name": "Dieci di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 10,
+  "keywords": [
+   "fine di una fase",
+   "esaurimento",
+   "chiusura",
+   "alba",
+   "nuovo inizio"
+  ],
+  "symbolism": "Una figura giace a faccia in giù vicino a un'acqua calma, con dieci spade conficcate nella schiena e un panno rosso gettato sul corpo. Il cielo sopra è scuro, ma vicino all'orizzonte si schiarisce in una fascia dorata d'alba.",
+  "upright": "Il Dieci di Spade parla del momento in cui una fase finisce e non può più essere tenuta in piedi. L'immagine è vivida, quasi teatrale, come per sottolineare che peggio di così non può andare, quindi puoi cominciare a rialzarti. La carta non predice una catastrofe; ti incoraggia piuttosto a riconoscere il tuo esaurimento e a lasciar andare ciò che ha fatto il suo corso. All'orizzonte l'alba sta già spuntando.",
+  "reversed": "Rovesciata, la carta può significare il rialzarsi gradualmente e il riprendere le forze. Può anche indicare l'aggrapparsi a qualcosa che è già finito, per paura del vuoto.",
+  "reflection": [
+   "Che cosa nella mia vita è già finito, anche se continuo a tenerlo in piedi?",
+   "Che aspetto ha la mia alba dopo la chiusura di questa fase?"
+  ],
+  "advice": "Questa è la fine di una fase: peggio di così non andrà. Accettala e ricomincia.",
+  "adviceReversed": "Ti stai lentamente rialzando dopo un tempo duro. Non tornare a ciò che ti ha fatto male.",
+  "astrology": "Aria · Sole in Gemelli"
+ },
+ {
+  "id": "swords_11",
+  "name": "Fante di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 11,
+  "keywords": [
+   "mente curiosa",
+   "prontezza",
+   "domande",
+   "apprendimento",
+   "uno sguardo fresco"
+  ],
+  "symbolism": "Una giovane figura sta su un'altura irregolare e ventosa con una spada alzata in entrambe le mani. Le nuvole corrono nel cielo, gli uccelli volteggiano in alto, e la figura guarda da un lato come in ascolto.",
+  "upright": "Il Fante di Spade è l'energia di una mente curiosa che vuole capire e fa domande. La carta incoraggia a imparare, a osservare e a raccogliere informazioni prima di trarre conclusioni. Può anche indicare un'ondata di nuove idee o il desiderio di prendere la parola. La prontezza è preziosa quando va insieme all'apertura.",
+  "reversed": "Il Fante rovesciato può significare distrazione, parole affrettate o pettegolezzi. Può essere un segnale per controllare le fonti prima di ripetere qualcosa.",
+  "reflection": [
+   "Che cosa vorrei scoprire in questo momento?",
+   "Sto ascoltando, o aspetto solo il mio turno per parlare?"
+  ],
+  "advice": "Fai domande e raccogli informazioni. Resta vigile prima di prendere una decisione.",
+  "adviceReversed": "Attenzione ai pettegolezzi e alle parole affrettate. Parla meno, ascolta di più.",
+  "astrology": "Aria"
+ },
+ {
+  "id": "swords_12",
+  "name": "Cavaliere di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 12,
+  "keywords": [
+   "determinazione",
+   "azione rapida",
+   "zelo",
+   "franchezza",
+   "slancio"
+  ],
+  "symbolism": "Un cavaliere in armatura carica al galoppo su un cavallo bianco, con la spada alzata. Gli alberi sullo sfondo si piegano al vento, e la stessa raffica violenta strappa le nuvole e gli uccelli.",
+  "upright": "Il Cavaliere di Spade porta un forte impulso ad agire e a difendere la propria posizione. Un'energia così aiuta a rompere la stagnazione e a dichiarare con chiarezza le tue intenzioni. La carta ricorda però che la velocità non va sempre di pari passo con il buon giudizio. Vale la pena controllare se sai dove stai correndo.",
+  "reversed": "Rovesciata, la carta può indicare una fretta che disperde le forze, o parole dette in modo troppo tagliente. Può anche significare uno zelo trattenuto che ha bisogno di una meta chiara.",
+  "reflection": [
+   "Dove sto correndo, e quella direzione è davvero mia?",
+   "Come posso esprimere il mio punto di vista con fermezza ma senza un tono che ferisca?"
+  ],
+  "advice": "Agisci con decisione e rapidità: sai chiaramente che cosa vuoi. Solo, non calpestare gli altri lungo la strada.",
+  "adviceReversed": "La fretta e le parole taglienti potrebbero fare danno. Rallenta e rifletti prima di partire.",
+  "astrology": "Aria"
+ },
+ {
+  "id": "swords_13",
+  "name": "Regina di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 13,
+  "keywords": [
+   "indipendenza",
+   "intuito",
+   "onestà",
+   "confini",
+   "esperienza"
+  ],
+  "symbolism": "La regina siede di profilo su un trono decorato con farfalle, reggendo una spada eretta nella mano destra. Alza la sinistra, aperta, come per invitare qualcuno o indicare la via, e un solo uccello vola nel cielo limpido sopra di lei.",
+  "upright": "La Regina di Spade è una figura che vede con chiarezza e parla in modo schietto, spesso per ciò che ha vissuto. La carta ti incoraggia a fidarti del tuo giudizio e a porre confini senza troppe spiegazioni. Il suo intuito non esclude il calore; la mano aperta mostra la disponibilità a parlare. L'esperienza può diventare fonte di saggezza invece che di amarezza.",
+  "reversed": "Rovesciata, la Regina può indicare una freddezza usata come scudo, o un giudicare troppo severamente te stesso e gli altri. Può incoraggiarti a unire la chiarezza di pensiero alla dolcezza.",
+  "reflection": [
+   "Dove devo porre un confine più chiaro?",
+   "Come possono le mie esperienze insegnarmi invece di chiudermi?"
+  ],
+  "advice": "Parla in modo schietto e poni dei confini. L'intuito e l'indipendenza ti aiuteranno a vedere chiaramente la questione.",
+  "adviceReversed": "Non essere troppo duro, con te stesso o con gli altri. L'onestà non deve far male.",
+  "astrology": "Aria"
+ },
+ {
+  "id": "swords_14",
+  "name": "Re di Spade",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 14,
+  "keywords": [
+   "autorevolezza intellettuale",
+   "oggettività",
+   "princìpi",
+   "giustizia",
+   "pensiero chiaro"
+  ],
+  "symbolism": "Il re siede di fronte su un alto trono, reggendo una spada leggermente inclinata rispetto alla verticale. Lo schienale del trono è decorato con farfalle e lune crescenti, e dietro di lui si scorgono alcuni alberi e due uccelli contro le nuvole.",
+  "upright": "Il Re di Spade incarna una mente che pesa gli argomenti e si lascia guidare dai princìpi. La carta incoraggia uno sguardo imparziale sulla situazione e decisioni basate sui fatti. È l'energia di una comunicazione responsabile e ponderata. La saggezza compare quando la logica serve le persone, non solo l'avere ragione.",
+  "reversed": "Rovesciata, la carta può significare convinzioni rigide, o l'uso degli argomenti per dominare gli altri. Può anche indicare un caos interiore di pensieri che ha bisogno di essere messo in ordine.",
+  "reflection": [
+   "La mia decisione si basa sui fatti o sulle paure?",
+   "Come posso unire i princìpi alla comprensione?"
+  ],
+  "advice": "Lasciati guidare dalla ragione e dai princìpi. Un'analisi fredda e oggettiva darà il miglior risultato.",
+  "adviceReversed": "La sola logica non basta. Tieni conto delle persone e delle emozioni su cui la decisione ha effetto.",
+  "astrology": "Aria"
+ },
+ {
+  "id": "pentacles_01",
+  "name": "Asso di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 1,
+  "keywords": [
+   "nuova opportunità",
+   "radicamento",
+   "abbondanza",
+   "il concreto",
+   "potenziale"
+  ],
+  "symbolism": "Una mano esce da una nuvola reggendo un grande denaro d'oro inscritto con una stella a cinque punte. Sotto si stende un giardino pieno di gigli bianchi, e un sentiero conduce a un cancello in una siepe, oltre il quale si innalzano le montagne.",
+  "upright": "L'Asso di Denari parla del seme di qualcosa di tangibile: una nuova occupazione, un'abilità o un ritmo quotidiano più sano. La carta ti incoraggia ad apprezzare ciò che è reale e disponibile qui e ora. Il potenziale diventa qualcosa di duraturo quando è circondato da cure pazienti. Il cancello del giardino è aperto, ma devi attraversarlo tu.",
+  "reversed": "L'Asso rovesciato può indicare un'opportunità non ancora maturata, o difficoltà a trasformare i piani in azione. Può essere un segnale per tornare alle basi e controllare a che punto sei.",
+  "reflection": [
+   "Quale seme vorrei piantare nella mia vita quotidiana?",
+   "Che cosa di concreto posso fare per prendermi cura delle mie risorse?"
+  ],
+  "advice": "Si presenta un'opportunità concreta: coglila. Pianta il seme investendo tempo, lavoro o denaro in qualcosa di duraturo.",
+  "adviceReversed": "L'opportunità potrebbe sfuggirti. Controlla di pianificare bene prima di investire.",
+  "astrology": "Terra — radice dell'elemento"
+ },
+ {
+  "id": "pentacles_02",
+  "name": "Due di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 2,
+  "keywords": [
+   "giocoleria",
+   "flessibilità",
+   "equilibrio",
+   "priorità",
+   "ritmo"
+  ],
+  "symbolism": "Un giovane con un alto cappello danza facendo il giocoliere con due denari uniti da un nastro a forma di otto coricato. Dietro di lui due navi dondolano su onde alte.",
+  "upright": "Il Due di Denari mostra l'arte di mantenere l'equilibrio tra doveri diversi. La vita può sembrare un ballo su un'onda mutevole, e stai imparando a muoverti al suo ritmo. La carta incoraggia la leggerezza, ma anche uno sguardo onesto su quanto puoi portare in una volta. La flessibilità è una forza finché non ti lascia senza fiato.",
+  "reversed": "Rovesciata, la carta può indicare troppe cose in aria e una sensazione di sovraccarico. Può anche incoraggiarti a posare una delle palle e a decidere che cosa conta di più.",
+  "reflection": [
+   "Quante cose sto cercando di tenere in aria contemporaneamente?",
+   "Che cosa potrei posare per riavere la mia leggerezza?"
+  ],
+  "advice": "Stai facendo il giocoliere con molte cose, e ce la fai. Resta flessibile e stabilisci le tue priorità.",
+  "adviceReversed": "Troppo tutto insieme. Rinuncia a qualcosa prima che qualcosa cada.",
+  "astrology": "Terra · Giove in Capricorno"
+ },
+ {
+  "id": "pentacles_03",
+  "name": "Tre di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 3,
+  "keywords": [
+   "cooperazione",
+   "maestria artigiana",
+   "riconoscimento",
+   "progetto",
+   "costruire insieme"
+  ],
+  "symbolism": "In un interno gotico un artigiano sta su una panca lavorando all'arco di una volta. Accanto a lui due figure, una in abito monacale e l'altra con un progetto srotolato, discutono l'avanzare del lavoro, e tre denari sono scolpiti nella pietra sopra di loro.",
+  "upright": "Il Tre di Denari sottolinea il valore della cooperazione in cui ciascuno porta la propria abilità. La carta ti incoraggia a condividere le conoscenze e ad ascoltare chi vede le cose da una prospettiva diversa. Apprezzare il lavoro altrui e il proprio costruisce risultati duraturi. È un buon momento per chiedersi come si potrebbe fare meglio insieme.",
+  "reversed": "Il Tre rovesciato può segnalare una mancanza di coordinamento in un gruppo, o la sensazione che il tuo contributo passi inosservato. Può incoraggiare una conversazione chiara su ruoli e aspettative.",
+  "reflection": [
+   "Con chi potrei costruire qualcosa insieme?",
+   "Do valore al mio contributo quanto a quello degli altri?"
+  ],
+  "advice": "Lavorate insieme. Le tue capacità unite a quelle degli altri daranno un risultato solido: chiedi sostegno o un parere.",
+  "adviceReversed": "La cooperazione non funziona. Mettetevi d'accordo con chiarezza su chi è responsabile di che cosa.",
+  "astrology": "Terra · Marte in Capricorno"
+ },
+ {
+  "id": "pentacles_04",
+  "name": "Quattro di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 4,
+  "keywords": [
+   "sicurezza",
+   "controllo",
+   "tenersi stretto",
+   "stabilità",
+   "cautela"
+  ],
+  "symbolism": "Un uomo coronato siede su una panca di pietra, stringendo forte un denaro al petto. Un altro denaro poggia sulla sua corona, ne tiene giù altri due con i piedi, e dietro di lui si estende una città.",
+  "upright": "Il Quattro di Denari parla del bisogno di stabilità e di proteggere ciò che hai. Preoccuparsi della sicurezza è naturale e importante. La carta ti incoraggia però a controllare se ti tieni stretto a ciò che è prezioso, o anche a ciò che occupa soltanto spazio. A volte aprire la mano dà più pace che stringerla.",
+  "reversed": "Rovesciata, la carta può indicare l'allentarsi di una presa stretta e la disponibilità a condividere. Può anche significare un oscillare tra troppa cautela e un dare via troppo in fretta.",
+  "reflection": [
+   "A che cosa mi aggrappo per paura più che per bisogno?",
+   "Che cosa mi dà un senso di sicurezza oltre alle cose materiali?"
+  ],
+  "advice": "Metti al sicuro ciò che hai, ma non stringere troppo il pugno. La sicurezza non è la stessa cosa del controllo.",
+  "adviceReversed": "È ora di aprirti: condividi, spendi, lascia andare. Tenersi stretti blocca il flusso.",
+  "astrology": "Terra · Sole in Capricorno"
+ },
+ {
+  "id": "pentacles_05",
+  "name": "Cinque di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 5,
+  "keywords": [
+   "tempi duri",
+   "sentirsi esclusi",
+   "sostegno",
+   "perseveranza",
+   "chiedere aiuto"
+  ],
+  "symbolism": "Due figure arrancano nella neve in una notte d'inverno; una si appoggia a delle stampelle, l'altra si avvolge in uno scialle stracciato. Passano davanti a una vetrata luminosa che mostra cinque denari, apparentemente senza accorgersene.",
+  "upright": "Il Cinque di Denari descrive un periodo in cui puoi sentirti lasciato al freddo. La carta riconosce la difficoltà, ma ricorda che le figure camminano insieme, non da sole. La luce della finestra suggerisce che il sostegno è spesso più vicino di quanto sembri. Chiedere aiuto non è una debolezza ma un modo di prendersi cura di sé.",
+  "reversed": "Il Cinque rovesciato può significare l'uscire lentamente da un periodo duro e il riacquistare un senso di appartenenza. Può anche indicare difficoltà ad accettare un sostegno disponibile.",
+  "reflection": [
+   "Dove posso chiedere il sostegno di cui ho bisogno?",
+   "Chi cammina accanto a me nei momenti più difficili?"
+  ],
+  "advice": "I tempi duri non durano per sempre. Chiedi aiuto: il sostegno è più vicino di quanto pensi.",
+  "adviceReversed": "Il peggio sta passando. Accetta l'aiuto che qualcuno ti offre.",
+  "astrology": "Terra · Mercurio in Toro"
+ },
+ {
+  "id": "pentacles_06",
+  "name": "Sei di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 6,
+  "keywords": [
+   "generosità",
+   "condivisione",
+   "equilibrio",
+   "scambio",
+   "gratitudine"
+  ],
+  "symbolism": "Un ricco mercante regge una bilancia in una mano e con l'altra dà delle monete a uno di due mendicanti inginocchiati. Sei denari fluttuano sopra la scena.",
+  "upright": "Il Sei di Denari parla di un flusso: a volte dai, a volte ricevi. La carta incoraggia una generosità che non umilia e l'accettare aiuto senza vergogna. La bilancia in mano al mercante ricorda l'equità e la proporzione. Vale la pena pensare dove, nella tua vita, lo scambio sia equo e dove vada aggiustato.",
+  "reversed": "Rovesciata, la carta può indicare uno squilibrio, per esempio il dare per dovere, o un aiuto che arriva con delle condizioni. Può incoraggiarti a ripensare i confini nelle relazioni basate sul sostegno.",
+  "reflection": [
+   "Mi è più facile dare o ricevere?",
+   "Dove, nella mia vita, lo scambio ha bisogno di più equilibrio?"
+  ],
+  "advice": "Dai e ricevi in equilibrio. La generosità tornerà a te, ma non dimenticare di prendere anche tu.",
+  "adviceReversed": "Controlla che lo scambio sia equo. Un aiuto con degli obblighi può appesantirti.",
+  "astrology": "Terra · Luna in Toro"
+ },
+ {
+  "id": "pentacles_07",
+  "name": "Sette di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 7,
+  "keywords": [
+   "pazienza",
+   "valutare i progressi",
+   "crescita",
+   "investire tempo",
+   "una pausa"
+  ],
+  "symbolism": "Un contadino si appoggia alla zappa e guarda un cespuglio su cui sono cresciuti sette denari tra le foglie. La sua postura esprime stanchezza e pensosità, come se misurasse quanto il suo lavoro ha reso finora.",
+  "upright": "Il Sette di Denari è un momento di pausa per guardare ciò che è già cresciuto. La crescita può essere lenta e non sempre visibile giorno per giorno. La carta incoraggia la pazienza e una valutazione onesta se la direzione ti vada ancora bene. Riposare a metà del lavoro fa parte della coltivazione.",
+  "reversed": "Il Sette rovesciato può indicare impazienza, o la sensazione che il tuo sforzo non porti i risultati che ti aspettavi. Può essere un invito a cambiare il modo di lavorare invece di arrenderti.",
+  "reflection": [
+   "Che cosa è già cresciuto grazie al mio lavoro, anche se non me ne sono accorto?",
+   "La direzione in cui sto andando è ancora giusta per me?"
+  ],
+  "advice": "Sii paziente: il raccolto sta crescendo. Valuta che cosa funziona e investi dove vedi crescita.",
+  "adviceReversed": "Lo sforzo non sta ripagando. Cambia il metodo invece di lavorare ancora più duramente nello stesso modo.",
+  "astrology": "Terra · Saturno in Toro"
+ },
+ {
+  "id": "pentacles_08",
+  "name": "Otto di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 8,
+  "keywords": [
+   "maestria",
+   "pratica",
+   "concentrazione",
+   "diligenza",
+   "imparare un mestiere"
+  ],
+  "symbolism": "Un artigiano siede a un banco di lavoro rifinendo con pazienza un altro denaro con lo scalpello. I dischi finiti pendono uno sopra l'altro da un palo di legno, uno giace ai suoi piedi, e in lontananza si vedono gli edifici di una città.",
+  "upright": "L'Otto di Denari descrive la gioia di migliorare attraverso la ripetizione e la concentrazione. La carta dà valore al lavoro fatto con cura, anche quando nessuno sta guardando. Può incoraggiarti a imparare una nuova abilità o ad approfondirne una che già possiedi. La maestria nasce da piccoli passi quotidiani.",
+  "reversed": "Rovesciata, la carta può indicare un perfezionismo che toglie il piacere al lavoro, o una routine senza impegno. Può incoraggiarti a ricordare perché stai imparando.",
+  "reflection": [
+   "Quale abilità vorrei sviluppare passo dopo passo?",
+   "Lavoro con impegno, o solo per dovere?"
+  ],
+  "advice": "Concentrati sul mestiere ed esercitati. Un lavoro costante e l'attenzione ai dettagli porteranno risultati.",
+  "adviceReversed": "Il perfezionismo o la routine ti trattengono. Ricorda a te stesso perché lo stai facendo.",
+  "astrology": "Terra · Sole in Vergine"
+ },
+ {
+  "id": "pentacles_09",
+  "name": "Nove di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 9,
+  "keywords": [
+   "autosufficienza",
+   "prosperità",
+   "raffinatezza",
+   "indipendenza",
+   "apprezzare se stessi"
+  ],
+  "symbolism": "Una donna in una veste decorata di fiori sta in una vigna piena di uva matura e di nove denari. Un falco incappucciato è posato sulla sua mano guantata, e una piccola lumaca striscia nell'erba ai suoi piedi.",
+  "upright": "Il Nove di Denari parla della soddisfazione per ciò che hai costruito con il tuo impegno e la tua pazienza. La carta ti incoraggia a goderti un momento di calma e ad apprezzare la tua indipendenza. Il falco incappucciato ricorda l'autocontrollo e la capacità di aspettare. Puoi concederti un piccolo piacere senza doverlo giustificare.",
+  "reversed": "Il Nove rovesciato può indicare una dipendenza dal riconoscimento esterno, o una solitudine nascosta dietro una mostra di autosufficienza. Può essere un invito a condividere il tuo giardino con gli altri.",
+  "reflection": [
+   "Di che cosa che ho costruito da solo vado fiero?",
+   "Come posso godere di ciò che ho senza paragonarmi?"
+  ],
+  "advice": "Goditi i frutti del tuo lavoro. Hai tutto il diritto all'indipendenza e a un po' di lusso.",
+  "adviceReversed": "Controlla che la tua indipendenza non sia solitudine. Lascia che qualcuno si avvicini.",
+  "astrology": "Terra · Venere in Vergine"
+ },
+ {
+  "id": "pentacles_10",
+  "name": "Dieci di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 10,
+  "keywords": [
+   "eredità",
+   "permanenza",
+   "generazioni insieme",
+   "radici",
+   "il lungo periodo"
+  ],
+  "symbolism": "Sotto un arco siede un vecchio dai capelli grigi in un ricco mantello, accarezzando due cani bianchi. Accanto a lui stanno una giovane donna, un uomo e un bambino, e i dieci denari sono disposti nell'immagine a forma di albero ramificato; sullo sfondo si vedono le mura di una dimora e degli stemmi.",
+  "upright": "Il Dieci di Denari rivolge la tua attenzione a ciò che dura più di una sola vita: storie di famiglia, tradizioni, valori e luoghi condivisi. La carta ti incoraggia a riflettere su ciò che erediti e su ciò che vuoi trasmettere. Parla anche di un senso di radicamento e di una stabilità costruita negli anni. I gesti quotidiani di cura diventano col tempo un'eredità.",
+  "reversed": "Rovesciata, la carta può indicare tensioni legate alle aspettative familiari, o la sensazione che le tradizioni ti limitino. Può incoraggiarti a scegliere consapevolmente che cosa vuoi conservare della tua eredità.",
+  "reflection": [
+   "Quali valori ho ricevuto dalle generazioni precedenti?",
+   "Che cosa vorrei lasciare agli altri?"
+  ],
+  "advice": "Pensa a lungo termine. Costruisci qualcosa di duraturo, per te e per chi verrà dopo di te.",
+  "adviceReversed": "Le questioni familiari o finanziarie hanno bisogno di essere messe in ordine. Non rimandare le conversazioni difficili.",
+  "astrology": "Terra · Mercurio in Vergine"
+ },
+ {
+  "id": "pentacles_11",
+  "name": "Fante di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 11,
+  "keywords": [
+   "apprendimento",
+   "curiosità",
+   "nuove abilità",
+   "concentrazione",
+   "un sogno pratico"
+  ],
+  "symbolism": "Una giovane figura sta in un prato verde, reggendo con solennità un denaro e guardandolo. Dietro si stendono un campo arato e qualche albero, e l'orizzonte è calmo e ampio.",
+  "upright": "Il Fante di Denari è l'energia di uno studente che si accosta al mondo con curiosità e serietà insieme. La carta incoraggia a imparare, a sperimentare e a fare i primi passi in qualcosa di pratico. Le idee prendono forma quando dai loro attenzione giorno dopo giorno. Non devi saper fare tutto subito.",
+  "reversed": "Il Fante rovesciato può indicare il rimandare l'inizio, o una mancanza di concentrazione nonostante le buone intenzioni. Può essere un segnale per scegliere una cosa e cominciare con un piccolo passo.",
+  "reflection": [
+   "Che cosa di pratico vorrei imparare?",
+   "Quale primo piccolo passo posso fare questa settimana?"
+  ],
+  "advice": "Impara. Una nuova abilità o un corso pratico ti apriranno la strada: parti dalle basi.",
+  "adviceReversed": "Inizia finalmente, invece di limitarti a progettare di imparare. Basta un piccolo passo regolare.",
+  "astrology": "Terra"
+ },
+ {
+  "id": "pentacles_12",
+  "name": "Cavaliere di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 12,
+  "keywords": [
+   "perseveranza",
+   "metodo",
+   "responsabilità",
+   "routine",
+   "affidabilità"
+  ],
+  "symbolism": "Un cavaliere in armatura scura siede su un cavallo massiccio che sta perfettamente fermo, reggendo davanti a sé un denaro. Dietro di lui si stende un campo arato, e rametti verdi decorano il suo elmo e la testa del cavallo.",
+  "upright": "Il Cavaliere di Denari mostra la forza che nasce dalla perseveranza e dalla costanza. Non è il più veloce, ma raggiunge la meta passo dopo passo. La carta ti incoraggia ad apprezzare una routine che costruisce e la responsabilità per gli impegni che hai preso. Un ritmo lento è spesso la via più sicura.",
+  "reversed": "Rovesciata, la carta può indicare l'essere bloccati in una routine che non ti serve più, o troppa cautela. Può essere un invito a portare un po' di freschezza nelle abitudini quotidiane.",
+  "reflection": [
+   "Quale abitudine quotidiana mi sostiene davvero?",
+   "Dove la mia cautela diventa stagnazione?"
+  ],
+  "advice": "Lavora con costanza e metodo. Lentamente ma con sicurezza raggiungerai la meta: non prendere scorciatoie.",
+  "adviceReversed": "Troppo prudente, o troppo monotono. Aggiungi un po' di movimento e di cambiamento alla routine.",
+  "astrology": "Terra"
+ },
+ {
+  "id": "pentacles_13",
+  "name": "Regina di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 13,
+  "keywords": [
+   "cura",
+   "saggezza pratica",
+   "casa",
+   "natura",
+   "intraprendenza"
+  ],
+  "symbolism": "La regina siede su un trono in un giardino pieno di rose in fiore, reggendo un denaro e guardandolo con tenerezza. Il trono è decorato con frutti scolpiti e teste di capra, e un coniglio sta accovacciato nell'angolo in basso dell'immagine.",
+  "upright": "La Regina di Denari incarna il calore unito al buon senso pratico. La carta ti incoraggia a prenderti cura di ciò che ti circonda, del tuo corpo e del tuo ritmo quotidiano in un modo che ti dia un senso di radicamento. Parla del creare uno spazio in cui tu e gli altri possiate sentirvi a vostro agio. Qui prendersi cura di sé conta quanto prendersi cura delle persone care.",
+  "reversed": "Rovesciata, la carta può indicare il trascurare se stessi curandosi troppo degli altri, o un attaccamento troppo forte all'ordine. Può incoraggiarti a trovare un equilibrio tra il dare e il riposare.",
+  "reflection": [
+   "Come posso prendermi cura oggi del mio spazio e del ritmo della mia giornata?",
+   "Mi prendo cura di me con la stessa tenerezza con cui mi prendo cura degli altri?"
+  ],
+  "advice": "Prenditi cura delle basi pratiche: casa, salute, budget. La cura delle cose concrete ti darà pace.",
+  "adviceReversed": "Ti prendi cura di tutti tranne che di te. Trova tempo e risorse per te stesso.",
+  "astrology": "Terra"
+ },
+ {
+  "id": "pentacles_14",
+  "name": "Re di Denari",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 14,
+  "keywords": [
+   "stabilità",
+   "maturità",
+   "responsabilità",
+   "generosità",
+   "leadership pratica"
+  ],
+  "symbolism": "Il re siede su un trono decorato con teste di toro scolpite, in una veste fittamente coperta da un motivo di viti e di uva. In una mano tiene uno scettro, nell'altra un denaro, e dietro di lui si innalzano le mura di un castello.",
+  "upright": "Il Re di Denari mostra una stabilità matura, costruita con pazienza e responsabilità. La carta ti incoraggia a guardare con gratitudine ciò che sei riuscito a creare e a pensare come potrebbe servire anche gli altri. È l'energia di chi sa creare condizioni sicure per sé e per chi lo circonda. La vera ricchezza comprende anche il tempo, le relazioni e la pace.",
+  "reversed": "Il Re rovesciato può indicare troppa concentrazione sul controllo, o il misurare il valore solo in base ai possessi. Può essere un invito a ricordare a che cosa servono le cose che stai costruendo.",
+  "reflection": [
+   "Che cosa considero la mia vera ricchezza?",
+   "Come potrebbe ciò che ho costruito sostenere gli altri?"
+  ],
+  "advice": "Punta sulla stabilità e su decisioni responsabili. Agisci come chi costruisce per durare.",
+  "adviceReversed": "Non lasciare che il denaro o lo status oscurino ciò che conta. La sicurezza non è tutto.",
+  "astrology": "Terra"
+ }
+]

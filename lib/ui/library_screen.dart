@@ -2,7 +2,15 @@ import 'package:flutter/material.dart';
 
 import '../data/content.dart';
 import 'tarot_screen.dart';
+import 'journal_screen.dart';
 import 'widgets.dart';
+
+/// App-bar action on every tab: the library (cards, articles, glossary, dreams) with search.
+Widget libraryButton(BuildContext context) => IconButton(
+  tooltip: context.l.tabLibrary,
+  icon: const Icon(Icons.menu_book_outlined),
+  onPressed: () => pushScreen(context, const LibraryScreen()),
+);
 
 class LibraryScreen extends StatefulWidget {
   const LibraryScreen({super.key});
@@ -168,7 +176,7 @@ class ArticleView extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: Text(a.title)),
     body: ListView(
-      padding: const EdgeInsets.all(16),
+      padding: screenPadding(context),
       children: [
         for (final p in a.body.split(RegExp(r'\n\s*\n')))
           Padding(
@@ -189,7 +197,7 @@ class ArchetypeView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(a.name)),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: screenPadding(context),
         children: [
           Text(a.summary),
           LabeledBlock(l.archetypeGifts, Text(a.gifts)),
@@ -238,7 +246,9 @@ class DreamTile extends StatelessWidget {
 }
 
 class DreamScreen extends StatefulWidget {
-  const DreamScreen({super.key});
+  /// As a bottom-bar tab it opens with "what did you dream?" and the symbol of the day.
+  final bool tab;
+  const DreamScreen({super.key, this.tab = false});
   @override
   State<DreamScreen> createState() => _DreamScreenState();
 }
@@ -252,10 +262,40 @@ class _DreamScreenState extends State<DreamScreen> {
         .where((d) => _q.isEmpty || d.symbol.toLowerCase().contains(_q))
         .toList();
     return Scaffold(
-      appBar: AppBar(title: Text(l.dreams)),
+      appBar: AppBar(
+        title: Text(widget.tab ? l.tabDreams : l.dreams),
+        leadingWidth: widget.tab ? topLeadingWidth : null,
+        leading: widget.tab ? topLeading(context) : null,
+      ),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: widget.tab ? pagePadding(context) : const EdgeInsets.all(16),
         children: [
+          if (widget.tab)
+            TarotFrame(
+              child: Column(
+                children: [
+                  Text(
+                    l.dreamAsk,
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.headlineSmall,
+                  ),
+                  const SizedBox(height: 6),
+                  Text(l.dreamAskHint, textAlign: TextAlign.center),
+                  const SizedBox(height: 12),
+                  FilledButton.icon(
+                    icon: const Icon(Icons.edit_note),
+                    label: Text(l.dreamSave),
+                    onPressed: () => pushScreen(
+                      context,
+                      EntryEditor(
+                        promptText: l.dreamAsk,
+                        ref: {'type': 'dream', 'label': l.dreamEntry},
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           Text(l.dreamsIntro, style: Theme.of(context).textTheme.bodySmall),
           const SizedBox(height: 12),
           TextField(
@@ -270,6 +310,19 @@ class _DreamScreenState extends State<DreamScreen> {
               padding: const EdgeInsets.only(top: 16),
               child: Text(l.dreamsEmpty),
             ),
+          if (widget.tab && _q.isEmpty) ...[
+            SectionTitle(l.dreamOfDay),
+            // Rotates by day of the year, like the prompt of the day.
+            Card(
+              child: DreamTile(
+                context.content.dreams[DateTime.now()
+                        .difference(DateTime(DateTime.now().year))
+                        .inDays %
+                    context.content.dreams.length],
+              ),
+            ),
+            SectionTitle(l.dreamsAll),
+          ],
           for (final d in list) DreamTile(d),
         ],
       ),

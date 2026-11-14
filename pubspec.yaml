@@ -45,6 +45,7 @@ dependencies:
   flutter_local_notifications: ^23.0.0
   timezone: ^0.11.2
   flutter_timezone: ^5.1.1
+  home_widget: ^0.10.0
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +72,14 @@ flutter:
   generate: true
   assets:
     - assets/content/
+    - assets/content/en/
+    - assets/content/de/
+    - assets/content/fr/
+    - assets/content/es/
+    - assets/content/uk/
+    - assets/content/it/
+    - assets/content/pt/
+    - assets/content/nl/
     - assets/cards/
     - assets/fonts/OFL.txt
   fonts:

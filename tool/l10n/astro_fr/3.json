@@ -1,0 +1,51 @@
+{
+"moonSigns": [
+"Lune en Bélier : les émotions s’enflamment vite et retombent vite. Vous avez besoin d’action pour vous sentir bien ; l’inaction vous fatigue plus que l’effort. La colère vient facilement, mais vous n’êtes pas rancunier. Le mouvement et la liberté de décider par vous-même vous aident.",
+"Lune en Taureau : vous avez besoin de calme, de confort et de prévisibilité. Vous construisez votre sécurité par des choses tangibles : le foyer, la nourriture, le toucher, un rythme quotidien stable. Le changement vous demande du temps. Quand vous êtes en équilibre, vous donnez aux autres un immense sentiment de stabilité.",
+"Lune en Gémeaux : vous traversez vos émotions en en parlant. Vous avez besoin de stimulation, de curiosité et de quelqu’un avec qui échanger. Les humeurs changent vite. L’écriture, la conversation et la légèreté vous aident.",
+"Lune en Cancer : c’est la demeure naturelle de la Lune, avec une sensibilité profonde et un besoin de proximité et de foyer. Vous ressentez fortement l’humeur des autres et gardez la mémoire des émotions anciennes. Quand quelque chose fait mal, vous vous repliez dans votre carapace. Un lieu sûr et des proches vous aident.",
+"Lune en Lion : vous avez besoin d’être vu et apprécié. Vous exprimez vos émotions avec chaleur et générosité ; un cœur blessé se change vite en fierté. Vous donnez beaucoup de cœur aux autres. La créativité, le jeu et une reconnaissance sincère vous aident.",
+"Lune en Vierge : l’ordre et le sentiment d’être utile vous apaisent. Vous transformez souvent vos émotions en soin des choses pratiques et en analyse. Vous vous inquiétez facilement. La routine, le travail manuel et l’indulgence envers vos propres erreurs vous aident.",
+"Lune en Balance : vous avez besoin d’harmonie et de partenariat. Les conflits vous déstabilisent, alors vous cédez facilement pour préserver la paix. Un bel environnement compte pour vous. Les conversations en tête-à-tête et le fait de nommer vos propres besoins vous aident.",
+"Lune en Scorpion : vous ressentez intensément et profondément, mais montrez peu. Vous bâtissez la confiance lentement, et la loyauté compte plus que tout. Lâcher prise vous est difficile. L’honnêteté, l’intimité et le fait de transformer l’émotion en action vous aident.",
+"Lune en Sagittaire : vous avez besoin de liberté, d’espace et de sens. L’optimisme vous porte dans les moments difficiles, parfois au prix de ne pas vraiment les vivre. Vous supportez mal les restrictions. Les voyages, l’apprentissage et le sentiment que votre vie a une direction vous aident.",
+"Lune en Capricorne : vous gardez vos émotions sous contrôle et pensez d’abord à vos obligations. Un plan et le sentiment de maîtriser la situation vous rassurent. Vous demandez rarement de l’aide. La reconnaissance de vos efforts et du temps rien que pour vous vous aident.",
+"Lune en Verseau : vous avez besoin d’indépendance et d’amitié plus que de démonstrations de tendresse. Vous aimez comprendre une émotion avant de la ressentir. Vous êtes à l’aise en groupe, mais selon vos propres règles. L’espace et des personnes qui acceptent votre différence vous aident.",
+"Lune en Poissons : une Lune très empathique ; vous absorbez l’humeur de votre entourage. Vous avez besoin de calme, d’art ou de spiritualité pour revenir à vous. Vous êtes facilement ému et prompt à la compassion. Les limites, le sommeil et la créativité vous aident."
+],
+"ascSigns": [
+"Ascendant Bélier : au premier regard, énergie, franchise et rythme rapide. On voit en vous quelqu’un qui agit avant de réfléchir. Vous entrez avec audace dans les situations nouvelles. Veillez à ce que la hâte ne passe pas pour un manque d’intérêt envers les autres.",
+"Ascendant Taureau : au premier regard, calme, patience et présence agréable. Vous paraissez stable et digne de confiance. Vous vous habituez lentement aux situations nouvelles. Votre force est la persévérance et le bon goût.",
+"Ascendant Gémeaux : au premier regard, curiosité, expressions vives et aisance dans la conversation. Vous paraissez plus jeune et plus agité que vous ne l’êtes. Vous nouez facilement le contact. Méfiez-vous de la dispersion.",
+"Ascendant Cancer : au premier regard, douceur et prudence. Vous sentez d’abord l’atmosphère avant de vous ouvrir. Les gens ressentent de la chaleur auprès de vous. La réserve envers les inconnus est souvent votre protection.",
+"Ascendant Lion : au premier regard, assurance et chaleur. Vous attirez facilement l’attention, même sans la chercher. Il y a en vous quelque chose de la scène. Veillez à ce que la fierté ne cache pas votre sensibilité.",
+"Ascendant Vierge : au premier regard, modestie, attention et soin. Vous donnez l’impression de savoir ce que vous faites. Vous remarquez des détails qui échappent aux autres. Méfiez-vous d’un jugement trop sévère envers vous-même.",
+"Ascendant Balance : au premier regard, courtoisie, charme et souci de la forme. Les gens se sentent bien auprès de vous. Vous apaisez naturellement les tensions. Veillez à ne pas tout accepter pour avoir la paix.",
+"Ascendant Scorpion : au premier regard, mystère et regard intense. Vous êtes difficile à cerner, et cela vous convient. Vous avez une forte présence. Vous accordez votre confiance peu à peu.",
+"Ascendant Sagittaire : au premier regard, ouverture, humour et enthousiasme. Vous semblez toujours en quête d’aventure. Votre optimisme est contagieux. Méfiez-vous des promesses faites dans le feu de l’action.",
+"Ascendant Capricorne : au premier regard, sérieux, sang-froid et maturité. On vous confie vite des responsabilités. Avec l’âge, vous devenez souvent plus léger et plus ouvert. Veillez à ne pas tout porter seul.",
+"Ascendant Verseau : au premier regard, originalité et légère distance. Vous vous démarquez même sans le vouloir. Aimable avec tous, proche de peu. Votre force est la pensée indépendante.",
+"Ascendant Poissons : au premier regard, douceur, rêverie et sensibilité. Les gens se confient volontiers à vous. Vous lisez bien les humeurs. Vous avez besoin de limites pour ne pas prendre sur vous les émotions des autres."
+],
+"elements5": {
+"wood": {"name": "Bois", "adj": "de Bois", "text": "Le Bois, c’est la croissance, la générosité et la coopération. Les personnes du Bois grandissent avec les autres et pensent à l’avenir."},
+"fire": {"name": "Feu", "adj": "de Feu", "text": "Le Feu, c’est la passion, l’enthousiasme et le courage. Les personnes du Feu transmettent leur énergie aux autres, mais s’épuisent facilement."},
+"earth": {"name": "Terre", "adj": "de Terre", "text": "La Terre, c’est la stabilité, le bon sens et le soin. Les personnes de la Terre sont un appui pour les autres et construisent pour durer."},
+"metal": {"name": "Métal", "adj": "de Métal", "text": "Le Métal, c’est la détermination, les principes et la volonté. Les personnes du Métal sont cohérentes et ne craignent pas les décisions difficiles."},
+"water": {"name": "Eau", "adj": "d’Eau", "text": "L’Eau, c’est l’intuition, la souplesse et la sagesse. Les personnes de l’Eau s’adaptent aux circonstances et comprennent bien les autres."}
+},
+"yearForecast": {
+"same": "C’est votre année, celle de votre propre signe (běnmìngnián). La tradition y conseille la prudence : plus d’attention, moins de risques. Un bon moment pour revenir à vous-même et à vos racines.",
+"friend": "L’année de votre « ami secret ». La tradition parle d’un soutien qui arrive discrètement ; il vaut donc la peine d’accepter l’aide et les invitations.",
+"trine": "L’année d’un signe de votre trigone des alliés. Elle favorise l’action, la coopération et la réalisation des projets ; l’énergie de l’année est proche de la vôtre.",
+"clash": "L’année de votre signe opposé (chōng). La tradition annonce des changements et des tensions. Mieux vaut ne rien forcer et voir le changement comme une occasion.",
+"neutral": "Une année neutre pour votre signe. Ni vent favorable particulier ni obstacles : beaucoup dépend de vos propres décisions."
+},
+"chineseCompat": {
+"same": "Le même signe : vous vous comprenez bien, mais vous renforcez aussi facilement vos faiblesses mutuelles.",
+"friend": "Amis secrets : selon la tradition, c’est l’une des meilleures associations, chacun soutenant l’autre.",
+"trine": "Le même trigone des alliés : des valeurs semblables et une harmonie naturelle.",
+"clash": "Signes opposés : ils s’attirent et s’affrontent. Beaucoup à apprendre, mais aussi des frictions.",
+"neutral": "Une association neutre : ni harmonie particulière ni conflit. Tout dépend de vous deux."
+}
+}

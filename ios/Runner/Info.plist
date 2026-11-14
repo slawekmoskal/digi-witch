@@ -79,5 +79,17 @@
 			<string>cstr6suwn9.skadnetwork</string>
 		</dict>
 	</array>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>pl</string>
+		<string>en</string>
+		<string>de</string>
+		<string>fr</string>
+		<string>es</string>
+		<string>uk</string>
+		<string>it</string>
+		<string>pt</string>
+		<string>nl</string>
+	</array>
 </dict>
 </plist>

@@ -1,3 +1,55 @@
 .idea/
 build/
 .dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android
+.gradle/
+local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS / Xcode
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.p8
+*.mobileprovision
+
+# Logs
+*.log
+
+# AI temporary files
+.claude/settings.local.json

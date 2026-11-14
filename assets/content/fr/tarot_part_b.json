@@ -1,0 +1,1010 @@
+[
+ {
+  "id": "cups_01",
+  "name": "As de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 1,
+  "keywords": [
+   "cœur ouvert",
+   "sentiment nouveau",
+   "gratitude",
+   "fluidité",
+   "tendresse"
+  ],
+  "symbolism": "Une main sort d’un nuage et tient une coupe d’où l’eau s’écoule en cinq filets dans un bassin couvert de nénuphars. Une colombe blanche descend vers le vase, un petit disque dans le bec, et de minuscules gouttes flottent tout autour comme des pétales qui tombent.",
+  "upright": "L’As de Coupes parle d’un moment où les sentiments commencent à couler plus librement. Ce peut être une nouvelle relation, une amitié renouvelée ou simplement un regard plus doux sur vous-même. La carte vous invite à accueillir ce qui vient sans hâte et sans jugement. Il vaut la peine de remarquer ce que vous aimeriez partager avec les autres aujourd’hui.",
+  "reversed": "L’As renversé peut suggérer que les émotions sont présentes mais retenues à l’intérieur, comme si le vase était couvert. C’est parfois un besoin de protection, parfois la lassitude de donner. Un bon pas consiste souvent à remplir d’abord sa propre coupe.",
+  "reflection": [
+   "Quel sentiment aimerait être remarqué par moi aujourd’hui ?",
+   "À qui ou à quoi puis-je montrer de la gratitude sans rien attendre en retour ?"
+  ],
+  "advice": "Ouvrez votre cœur. Autorisez-vous à ressentir et à recevoir ce qui est bon : un nouveau sentiment ou une nouvelle relation peut commencer maintenant.",
+  "adviceReversed": "Vous vous fermez aux émotions. Demandez-vous ce que vous craignez, et autorisez-vous à ressentir.",
+  "astrology": "Eau — racine de l’élément"
+ },
+ {
+  "id": "cups_02",
+  "name": "Deux de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 2,
+  "keywords": [
+   "réciprocité",
+   "rencontre",
+   "entente",
+   "partenariat",
+   "confiance"
+  ],
+  "symbolism": "Un jeune homme et une jeune femme se font face et échangent des coupes, comme pour sceller une promesse. Au-dessus d’eux flotte un bâton enlacé de deux serpents et surmonté d’une tête de lion ailé, et l’on aperçoit à l’arrière-plan une maison paisible entre des collines.",
+  "upright": "Le Deux de Coupes décrit un lien fondé sur l’équilibre entre donner et recevoir. Il ne s’agit pas seulement d’amour, mais de toute rencontre où chacun se sent vu. La carte suggère que l’honnêteté et l’écoute attentive peuvent rapprocher davantage que les grands gestes. C’est un bon moment pour apprécier les personnes avec qui vous partagez un respect mutuel.",
+  "reversed": "Renversée, la carte peut attirer l’attention sur une attention inégalement partagée ou sur des attentes non dites. Elle peut aussi signaler qu’il faut d’abord vous entendre avec vous-même.",
+  "reflection": [
+   "Dans quelle relation me sens-je vraiment écouté ?",
+   "De quoi ai-je besoin pour donner et recevoir avec équilibre ?"
+  ],
+  "advice": "Misez sur l’entente. Faites un pas vers l’autre et cherchez la réciprocité : il y a une bonne énergie dans la relation en ce moment.",
+  "adviceReversed": "Il manque quelque chose dans la relation : l’équilibre ou l’honnêteté. Parlez-en avant que la distance ne grandisse.",
+  "astrology": "Eau · Vénus en Cancer"
+ },
+ {
+  "id": "cups_03",
+  "name": "Trois de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 3,
+  "keywords": [
+   "communauté",
+   "joie",
+   "célébration",
+   "amitié",
+   "soutien"
+  ],
+  "symbolism": "Trois femmes en robes colorées dansent en cercle et lèvent haut leurs coupes. À leurs pieds reposent des fruits mûrs, des citrouilles et du raisin, qui évoquent le temps des récoltes et les fêtes partagées.",
+  "upright": "Le Trois de Coupes rappelle la force de la communauté et de la joie partagée. Il peut vous encourager à célébrer de petits succès ou à reprendre contact avec des amis. La carte souligne que le soutien prend souvent une forme légère : une conversation, un rire, un repas partagé. Il vaut la peine de vous demander où vous vous sentez partie de quelque chose de plus grand.",
+  "reversed": "Le Trois renversé peut parler d’un trop-plein de compagnie, ou du sentiment d’être un peu à l’écart du groupe. Ce peut aussi être une invitation à célébrer discrètement, à votre rythme.",
+  "reflection": [
+   "Avec qui aimerais-je partager mon dernier bon moment ?",
+   "Où me sens-je membre d’une communauté, et où seulement invité ?"
+  ],
+  "advice": "Retrouvez les personnes qui sont de votre côté. La joie partagée et le soutien vous aideront dans cette affaire.",
+  "adviceReversed": "Trop de compagnie, ou des commérages, peuvent gêner. Choisissez à qui vous faites vraiment confiance.",
+  "astrology": "Eau · Mercure en Cancer"
+ },
+ {
+  "id": "cups_04",
+  "name": "Quatre de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 4,
+  "keywords": [
+   "contemplation",
+   "lassitude",
+   "distance",
+   "introspection",
+   "occasions négligées"
+  ],
+  "symbolism": "Un jeune homme est assis sous un arbre, les bras croisés, et regarde trois coupes posées devant lui dans l’herbe. Sur le côté, une main sort d’un nuage et lui offre une quatrième coupe, qu’il ne semble pas remarquer.",
+  "upright": "Le Quatre de Coupes décrit un état de retrait où ce qui est familier n’apporte plus de joie. Une telle pause peut être nécessaire pour comprendre ce que vous voulez vraiment. La carte suggère doucement, toutefois, de lever les yeux de temps en temps, car quelque chose de nouveau attend peut-être à côté de vous. Vous n’êtes pas obligé de l’accepter tout de suite ; il suffit de le remarquer.",
+  "reversed": "Renversée, la carte peut signifier une sortie progressive de la morosité et une plus grande ouverture aux propositions. Elle peut aussi suggérer que le retrait dure plus longtemps que vous n’en avez besoin.",
+  "reflection": [
+   "Qu’est-ce qui, autour de moi, a cessé de me réjouir, et pourquoi ?",
+   "Quelle proposition ai-je peut-être négligée ces derniers temps ?"
+  ],
+  "advice": "On vous offre quelque chose, mais vous ne le voyez pas. Regardez autour de vous : l’occasion est peut-être plus proche que vous ne le pensez.",
+  "adviceReversed": "Vous sortez de l’apathie, et c’est bien. Acceptez maintenant ce que vous refusiez jusqu’ici.",
+  "astrology": "Eau · Lune en Cancer"
+ },
+ {
+  "id": "cups_05",
+  "name": "Cinq de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 5,
+  "keywords": [
+   "chagrin",
+   "déception",
+   "perte",
+   "acceptation",
+   "ce qui reste"
+  ],
+  "symbolism": "Un personnage dans un long manteau noir se tient courbé au-dessus de trois coupes renversées dont le liquide s’est répandu. Derrière lui se tiennent deux coupes encore pleines, et plus loin coule une rivière traversée par un pont qui mène à une maison.",
+  "upright": "Le Cinq de Coupes donne de la place à la tristesse pour ce qui ne s’est pas passé comme espéré. La carte ne demande pas de vite la secouer ; elle reconnaît plutôt que le chagrin fait naturellement partie de ce que l’on vit. En même temps, elle rappelle les deux coupes encore debout. Quand vous serez prêt, vous pourrez vous retourner et voir ce que vous avez encore.",
+  "reversed": "Le Cinq renversé peut signaler que le travail d’acceptation de la perte est déjà en cours et que plus de douceur apparaît. Il indique parfois, cependant, une tristesse enfouie qui a besoin de s’exprimer en sécurité.",
+  "reflection": [
+   "Quel chagrin est-ce que je m’autorise à ressentir, et lequel est-ce que j’évite ?",
+   "Qu’est-ce qui, de précieux, est encore avec moi malgré ce qui s’est répandu ?"
+  ],
+  "advice": "Autorisez-vous à avoir du chagrin, mais n’y restez pas. Retournez-vous : tout n’est pas perdu.",
+  "adviceReversed": "Vous commencez à vous relever après la perte. Concentrez-vous sur ce qui reste et faites le premier pas en avant.",
+  "astrology": "Eau · Mars en Scorpion"
+ },
+ {
+  "id": "cups_06",
+  "name": "Six de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 6,
+  "keywords": [
+   "souvenirs",
+   "innocence",
+   "bienveillance",
+   "enfance",
+   "simplicité"
+  ],
+  "symbolism": "Dans la cour d’un vieux village, un garçon tend à une fille une coupe remplie de fleurs blanches. D’autres vases fleuris les entourent, et à l’arrière-plan un garde s’éloigne, comme s’il veillait sur ce lieu paisible.",
+  "upright": "Le Six de Coupes évoque la chaleur des souvenirs et de simples gestes de bienveillance. Il peut vous encourager à reprendre contact avec quelqu’un du passé, ou à vous rappeler ce qui vous rendait heureux autrefois. La carte parle d’un don sans calcul, comme le font les enfants. Il vaut la peine de voir quelles joies anciennes pourraient revivre aujourd’hui sous une forme nouvelle.",
+  "reversed": "Renversée, la carte peut indiquer un attachement trop fort au passé, ou l’idéalisation de ce qui est révolu. Elle peut aussi vous encourager à garder le meilleur des leçons d’hier et à avancer.",
+  "reflection": [
+   "Quel souvenir me donne aujourd’hui un sentiment de chaleur ?",
+   "Y a-t-il quelque chose du passé que je peux maintenant mettre doucement de côté ?"
+  ],
+  "advice": "Puisez dans ce qui était bon autrefois : la simplicité, la bienveillance, une vieille amitié. Cela peut vous aider maintenant.",
+  "adviceReversed": "Ne vivez pas dans vos souvenirs. Ce qui a été ne reviendra pas sous la même forme : il est temps de regarder devant.",
+  "astrology": "Eau · Soleil en Scorpion"
+ },
+ {
+  "id": "cups_07",
+  "name": "Sept de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 7,
+  "keywords": [
+   "imagination",
+   "choix",
+   "rêves",
+   "illusions",
+   "nombreuses possibilités"
+  ],
+  "symbolism": "Une silhouette sombre se tient devant sept coupes qui flottent dans les nuages. Chacune contient quelque chose de différent : une tête, une figure voilée et lumineuse, un serpent, un château, des bijoux, une couronne de laurier et un dragon, comme si chaque vase promettait un autre avenir.",
+  "upright": "Le Sept de Coupes montre la richesse de l’imagination et les nombreux chemins que l’on peut rêver. C’est un bel espace, mais où l’on se perd facilement. La carte vous invite à distinguer ce qui vous touche vraiment de ce qui ne fait que briller. Un petit pas concret peut aider à vérifier quel rêve a de la vie en lui.",
+  "reversed": "Le Sept renversé peut signifier que le brouillard se dissipe et que le choix devient plus facile. Il peut aussi indiquer une surabondance d’options, quand il vaut la peine de resserrer son champ de vision.",
+  "reflection": [
+   "Lequel de mes rêves est vraiment le mien, et lesquels ai-je repris des autres ?",
+   "Quel petit pas m’aiderait à tester la possibilité que j’ai choisie ?"
+  ],
+  "advice": "Vous avez beaucoup de possibilités, mais toutes ne sont pas réelles. Choisissez une option concrète et séparez les rêves des projets.",
+  "adviceReversed": "Le brouillard se dissipe et vous voyez déjà ce qui compte. Prenez maintenant la décision.",
+  "astrology": "Eau · Vénus en Scorpion"
+ },
+ {
+  "id": "cups_08",
+  "name": "Huit de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 8,
+  "keywords": [
+   "départ",
+   "quête",
+   "sens plus profond",
+   "changement de direction",
+   "courage"
+  ],
+  "symbolism": "Un personnage en manteau rouge, appuyé sur un bâton, s’éloigne vers des montagnes et de l’eau sous un ciel nocturne où la lune a un visage humain. Derrière lui restent huit coupes soigneusement disposées en deux rangées, avec un vide bien visible dans la rangée du haut.",
+  "upright": "Le Huit de Coupes parle du moment où ce qui a été construit ne suffit plus au cœur. Il ne s’agit pas d’un échec, mais d’un besoin de sens plus profond. La carte peut soutenir la décision de quitter une habitude, un rôle ou une conviction qui ne vous sert plus. Partir peut être ici une forme de respect de soi.",
+  "reversed": "Renversée, la carte peut indiquer une hésitation : vouloir le changement tout en ayant peur de quitter le familier. Elle peut aussi être un signal pour regarder encore une fois ce que vous laissez avant de partir.",
+  "reflection": [
+   "Que cherché-je que je ne trouve pas là où je suis maintenant ?",
+   "Que puis-je laisser derrière moi avec gratitude plutôt qu’avec regret ?"
+  ],
+  "advice": "Quittez ce qui ne vous nourrit plus. Cela demande du courage, mais vous partez en quête de quelque chose de plus profond.",
+  "adviceReversed": "Vous êtes partagé entre partir et rester. Vérifiez si vous fuyez ou si vous cherchez vraiment mieux.",
+  "astrology": "Eau · Saturne en Poissons"
+ },
+ {
+  "id": "cups_09",
+  "name": "Neuf de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 9,
+  "keywords": [
+   "contentement",
+   "plénitude",
+   "plaisir",
+   "gratitude",
+   "confort"
+  ],
+  "symbolism": "Un homme satisfait est assis sur un banc de bois, les bras croisés et la tête légèrement relevée. Derrière lui, sur une table arrondie couverte d’une étoffe bleue, s’aligne une rangée régulière de neuf coupes.",
+  "upright": "Le Neuf de Coupes décrit le sentiment que tout va bien et que vos souhaits se sont réalisés, au moins en partie. C’est une invitation à vous autoriser la joie sans culpabilité. La carte rappelle aussi que la satisfaction a plus de saveur quand elle est consciente, et pas seulement cochée sur une liste. Attardez-vous un instant sur ce qui a déjà réussi.",
+  "reversed": "Le Neuf renversé peut indiquer un contentement superficiel ou dépendant de signes extérieurs. Il suggère parfois de vous demander ce que vous voulez vraiment, plutôt que ce que vous êtes censé avoir.",
+  "reflection": [
+   "Qu’est-ce qui me donne une satisfaction vraie et tranquille ?",
+   "Est-ce que je m’autorise à profiter de ce que j’ai accompli ?"
+  ],
+  "advice": "La réponse est oui : votre souhait a de bonnes chances de se réaliser. Profitez-en et appréciez ce que vous avez déjà.",
+  "adviceReversed": "Le contentement extérieur ne suffit pas. Demandez-vous ce que vous voulez vraiment, et pas seulement ce que vous êtes censé avoir.",
+  "astrology": "Eau · Jupiter en Poissons"
+ },
+ {
+  "id": "cups_10",
+  "name": "Dix de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 10,
+  "keywords": [
+   "harmonie",
+   "famille",
+   "proximité",
+   "foyer",
+   "paix intérieure"
+  ],
+  "symbolism": "Un couple enlacé lève les bras vers un arc-en-ciel dans lequel brillent dix coupes. À côté, deux enfants dansent, et l’on aperçoit au loin une petite maison au bord d’une rivière, entre des collines verdoyantes.",
+  "upright": "Le Dix de Coupes parle du sentiment d’un foyer émotionnel : un lieu ou des personnes auprès de qui vous pouvez être vous-même. Ce n’est pas forcément une famille au sens traditionnel, mais toute communauté fondée sur le soin. La carte vous encourage à apprécier l’harmonie du quotidien, même imparfaite. Il vaut la peine de réfléchir à ce que vous apportez vous-même à cette paix partagée.",
+  "reversed": "Renversée, la carte peut attirer l’attention sur l’écart entre l’image d’un foyer idéal et la réalité. Ce peut être une invitation à une conversation honnête sur ce dont chacun de vos proches a besoin.",
+  "reflection": [
+   "Où, et avec qui, me sens-je vraiment chez moi ?",
+   "Que puis-je faire aujourd’hui pour apporter plus de chaleur à mon entourage ?"
+  ],
+  "advice": "Misez sur la proximité et l’harmonie. Ce que vous construisez avec vos proches compte le plus en ce moment : prenez-en soin.",
+  "adviceReversed": "Derrière l’image de la famille ou de la relation idéale se cache une tension. Parlez honnêtement de vos besoins.",
+  "astrology": "Eau · Mars en Poissons"
+ },
+ {
+  "id": "cups_11",
+  "name": "Valet de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 11,
+  "keywords": [
+   "curiosité",
+   "sensibilité",
+   "intuition",
+   "surprise",
+   "élan créatif"
+  ],
+  "symbolism": "Un jeune homme en tunique à motif floral se tient au bord de la mer et tient une coupe d’où sort un petit poisson. Il le regarde avec curiosité, comme s’il menait avec lui une conversation silencieuse, et de douces vagues roulent derrière lui.",
+  "upright": "Le Valet de Coupes est une invitation à jouer avec vos sentiments et votre imagination. Une idée inattendue, un rêve ou une impression qui mérite d’être notée peut surgir. La carte encourage l’ouverture et un peu de naïveté enfantine, au meilleur sens du terme. Tout n’a pas besoin d’avoir un sens immédiat pour avoir de la valeur.",
+  "reversed": "Le Valet renversé peut suggérer que la sensibilité est retenue par peur du jugement. Il peut aussi indiquer une instabilité émotionnelle, qu’une douce structure de la journée peut aider.",
+  "reflection": [
+   "Quelle idée ou quel sentiment m’a surpris ces derniers temps ?",
+   "Où puis-je m’autoriser davantage de jeu créatif ?"
+  ],
+  "advice": "Écoutez votre intuition et soyez ouvert aux messages émotionnels. Une petite étincelle sensible peut devenir quelque chose.",
+  "adviceReversed": "L’immaturité émotionnelle ou l’hypersensibilité vous gênent. Ne prenez pas tout personnellement.",
+  "astrology": "Eau"
+ },
+ {
+  "id": "cups_12",
+  "name": "Cavalier de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 12,
+  "keywords": [
+   "romantisme",
+   "offre",
+   "idéalisme",
+   "douceur",
+   "suivre son cœur"
+  ],
+  "symbolism": "Un chevalier en armure, avec de petites ailes à son casque et à ses talons, avance lentement sur un cheval blanc en tenant une coupe devant lui comme un présent. Son cheval marche calmement, et à l’arrière-plan coule une rivière et s’élèvent de douces collines.",
+  "upright": "Le Cavalier de Coupes porte l’énergie d’un cœur qui veut agir. Il peut signifier une invitation, un geste d’affection ou un projet créatif mené avec passion. La carte souligne la valeur de la douceur et de la sincérité dans ce que vous offrez. Il vaut la peine de vérifier, toutefois, que vos idéaux ont aussi les pieds sur terre.",
+  "reversed": "Le Cavalier renversé peut indiquer trop de rêverie, ou des humeurs qui changent de direction d’un jour à l’autre. Il peut aussi être un signal pour ne pas faire de promesses avant de sentir qu’elles sont réalistes.",
+  "reflection": [
+   "Qu’aimerais-je offrir à quelqu’un du fond du cœur ?",
+   "Mes idéaux sont-ils ancrés dans le quotidien ?"
+  ],
+  "advice": "Suivez votre cœur : faites l’offre, exprimez vos sentiments. Le romantisme et la sincérité sont de votre côté en ce moment.",
+  "adviceReversed": "Ne vous laissez pas emporter par l’idéalisme. Vérifiez que les promesses sont suivies d’actes.",
+  "astrology": "Eau"
+ },
+ {
+  "id": "cups_13",
+  "name": "Reine de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 13,
+  "keywords": [
+   "empathie",
+   "intuition",
+   "soin",
+   "profondeur des sentiments",
+   "calme"
+  ],
+  "symbolism": "La reine est assise sur un trône posé au bord de l’eau, ses pieds la touchant presque. Elle tient une coupe fermée richement ornée, aux anses en forme d’anges, et la contemple pensivement ; le trône est décoré de figures d’enfants marins et de coquillages.",
+  "upright": "La Reine de Coupes incarne une sensibilité mûre, capable de compassion sans se perdre. La carte vous encourage à faire confiance à vos pressentiments et à vous donner le temps d’écouter ce qui se passe en vous. Elle peut aussi désigner une personne auprès de qui les autres se sentent en sécurité. Votre empathie est précieuse, surtout quand elle vous inclut.",
+  "reversed": "Renversée, la carte peut signifier prendre les émotions des autres pour les siennes, ou perdre ses limites. C’est une invitation à prendre soin d’abord de vos propres eaux intérieures.",
+  "reflection": [
+   "Que me dit mon intuition aujourd’hui ?",
+   "Comment puis-je soutenir les autres sans me perdre ?"
+  ],
+  "advice": "Laissez-vous guider par l’empathie, envers les autres et envers vous-même. Votre intuition vous conduit bien.",
+  "adviceReversed": "Vous donnez trop aux autres et trop peu à vous-même. Posez des limites émotionnelles saines.",
+  "astrology": "Eau"
+ },
+ {
+  "id": "cups_14",
+  "name": "Roi de Coupes",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 14,
+  "keywords": [
+   "équilibre émotionnel",
+   "maturité",
+   "calme",
+   "diplomatie",
+   "sang-froid"
+  ],
+  "symbolism": "Le roi est assis sur un trône de pierre qui semble flotter sur une mer agitée. D’une main il tient une coupe, de l’autre un sceptre ; il porte au cou un pendentif en forme de poisson, et à l’arrière-plan vogue un navire et un animal marin bondit hors de l’eau.",
+  "upright": "Le Roi de Coupes montre qu’on peut ressentir profondément tout en restant calme. C’est l’énergie de quelqu’un qui ne réprime pas les émotions, mais les comprend et les gère avec sagesse. La carte encourage une direction douce et des conversations menées avec bienveillance. Autour de vous, la mer peut être agitée, et vous pouvez rester votre propre île.",
+  "reversed": "Le Roi renversé peut indiquer des émotions trop étroitement contrôlées, qui cherchent une issue. C’est parfois un signal pour vous autoriser plus d’honnêteté envers vous-même.",
+  "reflection": [
+   "Comment est-ce que je réagis aux vagues émotionnelles autour de moi ?",
+   "De quelle façon puis-je être pour quelqu’un un appui calme et bienveillant ?"
+  ],
+  "advice": "Restez calme et mûr. Maîtrisez vos émotions sans les réprimer : c’est la clé d’une bonne décision.",
+  "adviceReversed": "Les émotions prennent le dessus, ou elles sont mises sous clé. Trouvez une façon sûre de les exprimer.",
+  "astrology": "Eau"
+ },
+ {
+  "id": "swords_01",
+  "name": "As d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 1,
+  "keywords": [
+   "clarté",
+   "vérité",
+   "percée",
+   "idée nouvelle",
+   "décision"
+  ],
+  "symbolism": "Une main sort d’un nuage et serre une épée dressée dont la lame traverse une couronne. Des rameaux d’olivier et de palmier pendent de la couronne, de petites étincelles tombent tout autour, et des sommets rocheux escarpés s’étendent en dessous.",
+  "upright": "L’As d’Épées apporte un moment de clarté où les pensées s’assemblent soudain en une image nette. Ce peut être une idée nouvelle, la compréhension d’une situation, ou la disposition à appeler les choses par leur nom. La carte vous encourage à être honnête avec vous-même et à dire la vérité avec réflexion. La clarté est un outil qui sert au mieux quand elle s’allie à la bienveillance.",
+  "reversed": "L’As renversé peut indiquer des pensées qui tournent sans direction, ou une vérité que vous ne voulez pas encore entendre. Ce peut aussi être un signal pour ralentir avant que des mots tranchants ne soient prononcés trop vite.",
+  "reflection": [
+   "Qu’est-ce qui est devenu clair pour moi récemment ?",
+   "Comment puis-je exprimer ma vérité dans le respect des autres ?"
+  ],
+  "advice": "Dites la vérité et pensez clairement. Une percée est proche : une décision bien ciblée tranchera la confusion.",
+  "adviceReversed": "Vos pensées sont embrouillées. Avant de décider, rassemblez les faits et séparez-les de vos inquiétudes.",
+  "astrology": "Air — racine de l’élément"
+ },
+ {
+  "id": "swords_02",
+  "name": "Deux d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 2,
+  "keywords": [
+   "impasse",
+   "délibération",
+   "calme intérieur",
+   "choix difficile",
+   "protection"
+  ],
+  "symbolism": "Une femme en robe blanche est assise sur un banc, les yeux bandés, tenant deux épées croisées contre sa poitrine. Derrière elle s’étend une eau parsemée de rochers, et un fin croissant de lune se voit dans le ciel.",
+  "upright": "Le Deux d’Épées décrit un moment où un choix semble difficile et où l’esprit cherche l’équilibre. Le bandeau peut signifier le désir de se couper du chaos pour entendre sa propre voix. La carte permet un temps de réflexion, mais rappelle que l’impasse ne doit pas durer éternellement. Il suffit parfois d’ôter le bandeau et de regarder les faits.",
+  "reversed": "Renversée, la carte peut indiquer une tension qui exige enfin une décision, ou un excès d’informations. Ce peut aussi être le signe que vous vous sentez déjà prêt à sortir de l’impasse.",
+  "reflection": [
+   "Devant quel choix suis-je arrêté en ce moment ?",
+   "Que dois-je savoir pour me sentir plus sûr ?"
+  ],
+  "advice": "Vous évitez une décision en vous couvrant les yeux. Ôtez le bandeau : regardez les faits et choisissez.",
+  "adviceReversed": "La tension monte, et vous ne pouvez plus attendre. Prenez une décision, même imparfaite.",
+  "astrology": "Air · Lune en Balance"
+ },
+ {
+  "id": "swords_03",
+  "name": "Trois d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 3,
+  "keywords": [
+   "chagrin",
+   "blessure",
+   "reconnaître la douleur",
+   "libération",
+   "honnêteté envers soi"
+  ],
+  "symbolism": "Un cœur rouge transpercé par trois épées flotte devant des nuages gris d’où tombe la pluie. L’image est simple et dépouillée, sans personnages, comme si elle concentrait toute l’attention sur un seul sentiment.",
+  "upright": "Le Trois d’Épées parle d’une douleur qu’il vaut mieux reconnaître que cacher. Elle peut concerner une déception, des mots blessants ou un sentiment de perte, mais elle ne décide rien de définitif. La pluie sur la carte est aussi une image de purification : les larmes peuvent soulager. Nommer ce qui fait mal est souvent le premier pas vers la guérison émotionnelle.",
+  "reversed": "Le Trois renversé peut signaler que la blessure guérit lentement et que le calme revient. Il indique parfois, cependant, une tristesse refoulée qui a besoin d’une conversation avec une personne de confiance.",
+  "reflection": [
+   "Quelle douleur a besoin aujourd’hui de ma reconnaissance ?",
+   "Qu’est-ce qui m’aide à traverser en douceur les sentiments difficiles ?"
+  ],
+  "advice": "Reconnaissez la douleur au lieu de la cacher. Autorisez-vous à vivre la tristesse : c’est le premier pas vers la guérison.",
+  "adviceReversed": "La blessure commence à guérir. Laissez-la faire : cessez de revenir en pensée à ce qui a fait mal.",
+  "astrology": "Air · Saturne en Balance"
+ },
+ {
+  "id": "swords_04",
+  "name": "Quatre d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 4,
+  "keywords": [
+   "repos",
+   "récupération",
+   "silence",
+   "contemplation",
+   "pause"
+  ],
+  "symbolism": "La statue d’un chevalier repose sur un tombeau de pierre dans une église, les mains jointes en prière. Au-dessus de lui, au mur, pendent trois épées pointées vers le bas, une quatrième est couchée sous lui, et un vitrail montre une scène avec des personnages.",
+  "upright": "Le Quatre d’Épées vous invite à vous arrêter et à reposer votre esprit. Après une période de tension, le silence n’est pas une perte de temps mais un moyen de reprendre des forces. La carte encourage le calme, la réflexion, ou simplement une pause plus longue loin des sollicitations. Ce que vous posez un moment vous attendra.",
+  "reversed": "Renversée, la carte peut indiquer une difficulté à lâcher prise et à rester sans cesse sur le qui-vive. Elle peut aussi signaler que le repos touche à sa fin et que l’envie d’agir revient peu à peu.",
+  "reflection": [
+   "Quand me suis-je accordé un vrai repos pour la dernière fois ?",
+   "Que puis-je poser un moment pour retrouver la clarté ?"
+  ],
+  "advice": "Reposez-vous. Avant la prochaine étape, vous avez besoin de récupération et de calme : ce n’est pas du temps perdu.",
+  "adviceReversed": "Vos forces reviennent, et c’est bien. Mais ne vous jetez pas tout de suite dans le tourbillon ; revenez progressivement.",
+  "astrology": "Air · Jupiter en Balance"
+ },
+ {
+  "id": "swords_05",
+  "name": "Cinq d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 5,
+  "keywords": [
+   "conflit",
+   "limites",
+   "orgueil",
+   "le prix de la victoire",
+   "retrait"
+  ],
+  "symbolism": "Un homme au léger sourire ramasse des épées tandis que deux personnages s’éloignent, voûtés, vers l’eau. Plusieurs épées gisent au sol, et des nuages déchirés strient le ciel.",
+  "upright": "Le Cinq d’Épées interroge sur le prix payé pour imposer sa volonté. Gagner une dispute laisse parfois derrière soi froideur et distance. La carte vous encourage à réfléchir aux combats qui valent vraiment la peine d’être menés. Se retirer n’est pas forcément une défaite ; ce peut être un choix sage.",
+  "reversed": "Le Cinq renversé peut signifier une disposition à faire la paix ou à clore une vieille dispute. Il peut aussi indiquer le regret de paroles qu’il vaut la peine de rectifier calmement.",
+  "reflection": [
+   "Y a-t-il une situation où gagner compte plus pour moi que comprendre ?",
+   "De quelle dispute pourrais-je me retirer dignement ?"
+  ],
+  "advice": "Demandez-vous si cette victoire vaut son prix. Il vaut parfois mieux laisser tomber la dispute que perdre la relation.",
+  "adviceReversed": "Il est temps de mettre fin au conflit. Tendez la main, ou partez dignement.",
+  "astrology": "Air · Vénus en Verseau"
+ },
+ {
+  "id": "swords_06",
+  "name": "Six d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 6,
+  "keywords": [
+   "transition",
+   "changement",
+   "eaux plus calmes",
+   "voyage",
+   "laisser les difficultés derrière soi"
+  ],
+  "symbolism": "Un passeur pousse une barque à l’aide d’une perche ; un personnage enveloppé d’un manteau y est assis avec un enfant à ses côtés. Six épées sont dressées dans la barque ; l’eau est agitée d’un côté et lisse de l’autre, et une rive se profile à l’horizon.",
+  "upright": "Le Six d’Épées décrit le passage progressif d’une période plus difficile vers une période plus calme. Tout ne reste pas derrière d’un coup ; certaines pensées voyagent avec vous. La carte rappelle qu’une transition peut être lente et silencieuse et pourtant mener en avant. Il vaut la peine d’apprécier l’aide qui vous permet d’avancer.",
+  "reversed": "Renversée, la carte peut indiquer une résistance au changement, ou le sentiment de revenir sans cesse sur la même rive. Elle peut vous encourager à vérifier ce que vous gardez encore dans la barque et ce qui pourrait rester derrière.",
+  "reflection": [
+   "De quoi est-ce que je m’éloigne lentement, et vers où vais-je ?",
+   "Qui ou quoi m’aide à traverser cette période ?"
+  ],
+  "advice": "Passez vers des eaux plus calmes. Le changement est nécessaire : laissez derrière vous ce qui est difficile.",
+  "adviceReversed": "Le changement est nécessaire, mais vous y résistez. Demandez-vous ce qui vous retient sur place.",
+  "astrology": "Air · Mercure en Verseau"
+ },
+ {
+  "id": "swords_07",
+  "name": "Sept d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 7,
+  "keywords": [
+   "stratégie",
+   "ruse",
+   "motifs cachés",
+   "autonomie",
+   "évitement"
+  ],
+  "symbolism": "Un homme s’éloigne sur la pointe des pieds d’un campement de tentes en emportant cinq épées dans ses bras. Deux autres restent plantées dans le sol derrière lui, et il jette un regard satisfait par-dessus son épaule.",
+  "upright": "Le Sept d’Épées vous encourage à regarder où vous agissez seul, et par quels moyens. Ce peut être une stratégie avisée, mais aussi la tentation d’esquiver une conversation difficile. La carte interroge sur l’honnêteté envers les autres et envers vous-même. Il vaut parfois la peine de s’arrêter pour réfléchir à ce que l’on emporte vraiment et à ce que l’on laisse.",
+  "reversed": "Le Sept renversé peut signifier le désir de sortir de l’ombre et de dire la vérité. Il peut aussi suggérer que vous essayez de porter trop de choses à la fois au lieu de demander du soutien.",
+  "reflection": [
+   "Où est-ce que je choisis le raccourci, et qu’est-ce qui m’y pousse ?",
+   "Y a-t-il quelque chose que je pourrais dire ouvertement ?"
+  ],
+  "advice": "Agissez habilement, mais honnêtement. Vérifiez aussi que personne ne joue de façon déloyale avec vous.",
+  "adviceReversed": "Quelque chose remonte à la surface. Choisissez l’honnêteté : se cacher coûte plus que cela ne rapporte.",
+  "astrology": "Air · Lune en Verseau"
+ },
+ {
+  "id": "swords_08",
+  "name": "Huit d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 8,
+  "keywords": [
+   "croyances limitantes",
+   "sentiment d’être piégé",
+   "peur",
+   "une issue",
+   "perspective"
+  ],
+  "symbolism": "Une femme en robe longue se tient les yeux bandés, les bras lâchement liés, parmi huit épées plantées dans un sol marécageux. Les épées ne l’enferment pas en cercle complet, et un château se dresse sur une colline au loin.",
+  "upright": "Le Huit d’Épées montre une situation où la contrainte est en grande partie tissée de pensées. Les liens sur la carte sont lâches, et il y a de l’espace entre les épées. La carte vous encourage à vérifier quelles croyances vous maintiennent sur place. Un petit mouvement, une question ou une conversation peut se révéler le début d’une issue.",
+  "reversed": "Renversée, la carte peut signifier que le bandeau commence à glisser et que vous voyez plus de possibilités. Elle indique parfois, cependant, une peur si forte qu’il vaut la peine de chercher le soutien d’une personne bienveillante.",
+  "reflection": [
+   "Quelle croyance sur moi-même me maintient sur place ?",
+   "Quel est le plus petit mouvement que je pourrais faire aujourd’hui ?"
+  ],
+  "advice": "La cage est surtout dans votre tête. Remettez en question la croyance qui vous limite : il y a une issue.",
+  "adviceReversed": "Vous commencez à vous libérer de la peur. Continuez : chaque pas sera plus facile.",
+  "astrology": "Air · Jupiter en Gémeaux"
+ },
+ {
+  "id": "swords_09",
+  "name": "Neuf d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 9,
+  "keywords": [
+   "anxiété",
+   "pensées nocturnes",
+   "inquiétude",
+   "sensibilité",
+   "besoin de réconfort"
+  ],
+  "symbolism": "Un personnage est assis dans son lit dans l’obscurité, le visage caché dans les mains. Neuf épées pendent horizontalement sur le mur noir, l’édredon est orné de roses et de signes du zodiaque, et une scène de combat est sculptée sur le côté du lit.",
+  "upright": "Le Neuf d’Épées décrit des pensées qui semblent plus grandes la nuit que le jour. L’anxiété peut être bruyante, mais elle ne dit pas toujours la vérité sur la réalité. La carte vous encourage à noter vos inquiétudes, à les nommer et à séparer les faits de ce que vous imaginez. Parler à un proche peut soulager plus que vous ne le pensez.",
+  "reversed": "Le Neuf renversé peut suggérer que l’anxiété commence à s’apaiser et que vous avez plus de recul. Il peut aussi indiquer des soucis gardés secrets, qui gagneraient à être dits à voix haute.",
+  "reflection": [
+   "Laquelle de mes inquiétudes est un fait, et laquelle est imagination ?",
+   "Avec qui puis-je partager ce qui ne me laisse pas en paix ?"
+  ],
+  "advice": "Vos peurs sont plus grandes que la réalité. Partagez-les avec une personne de confiance : à la lumière du jour, elles paraissent différentes.",
+  "adviceReversed": "Les pires peurs perdent de leur force. Autorisez-vous à respirer et prenez soin de votre sommeil et de votre calme.",
+  "astrology": "Air · Mars en Gémeaux"
+ },
+ {
+  "id": "swords_10",
+  "name": "Dix d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 10,
+  "keywords": [
+   "fin d’une étape",
+   "épuisement",
+   "clôture",
+   "aube",
+   "nouveau départ"
+  ],
+  "symbolism": "Un personnage gît face contre terre au bord d’une eau calme, dix épées plantées dans le dos et un tissu rouge jeté sur le corps. Le ciel au-dessus est sombre, mais près de l’horizon il s’éclaircit en une bande dorée d’aube.",
+  "upright": "Le Dix d’Épées parle du moment où une étape prend fin et ne peut plus être maintenue. L’image est frappante, presque théâtrale, comme pour souligner que cela ne peut pas être pire, et qu’on peut donc commencer à se relever. La carte n’annonce pas de catastrophe ; elle vous encourage plutôt à reconnaître votre épuisement et à lâcher ce qui a fait son temps. À l’horizon, l’aube se lève déjà.",
+  "reversed": "Renversée, la carte peut signifier qu’on se relève progressivement et qu’on reprend des forces. Elle peut aussi indiquer l’attachement à quelque chose qui est déjà fini, par peur du vide.",
+  "reflection": [
+   "Qu’est-ce qui, dans ma vie, est déjà fini même si je le maintiens encore ?",
+   "À quoi ressemble mon aube une fois cette étape close ?"
+  ],
+  "advice": "C’est la fin d’une étape : cela ne peut pas être pire. Acceptez-le et recommencez.",
+  "adviceReversed": "Vous vous relevez lentement après une période difficile. Ne revenez pas à ce qui vous a blessé.",
+  "astrology": "Air · Soleil en Gémeaux"
+ },
+ {
+  "id": "swords_11",
+  "name": "Valet d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 11,
+  "keywords": [
+   "esprit curieux",
+   "vigilance",
+   "questions",
+   "apprentissage",
+   "regard neuf"
+  ],
+  "symbolism": "Un jeune personnage se tient sur une hauteur inégale et venteuse, tenant à deux mains une épée levée. Les nuages filent dans le ciel, des oiseaux tournoient au-dessus, et le personnage regarde de côté comme s’il écoutait.",
+  "upright": "Le Valet d’Épées est l’énergie d’un esprit curieux qui veut comprendre et pose des questions. La carte encourage à apprendre, observer et rassembler des informations avant de conclure. Elle peut aussi indiquer un afflux d’idées nouvelles ou l’envie de prendre la parole. La vigilance a de la valeur quand elle va de pair avec l’ouverture.",
+  "reversed": "Le Valet renversé peut signifier la dispersion, des paroles hâtives ou des commérages. C’est un signal pour vérifier vos sources avant de répéter quoi que ce soit.",
+  "reflection": [
+   "Qu’aimerais-je découvrir en ce moment ?",
+   "Est-ce que j’écoute, ou est-ce que j’attends seulement mon tour de parler ?"
+  ],
+  "advice": "Posez des questions et rassemblez des informations. Restez attentif avant de prendre une décision.",
+  "adviceReversed": "Méfiez-vous des commérages et des paroles hâtives. Parlez moins, écoutez davantage.",
+  "astrology": "Air"
+ },
+ {
+  "id": "swords_12",
+  "name": "Cavalier d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 12,
+  "keywords": [
+   "détermination",
+   "action rapide",
+   "zèle",
+   "franchise",
+   "fougue"
+  ],
+  "symbolism": "Un chevalier en armure charge au galop sur un cheval blanc, l’épée levée haut. Les arbres à l’arrière-plan ploient sous le vent, et la même rafale violente déchire les nuages et emporte les oiseaux.",
+  "upright": "Le Cavalier d’Épées porte une forte impulsion à agir et à défendre sa position. Une telle énergie aide à briser l’immobilisme et à affirmer clairement ses intentions. La carte rappelle toutefois que la vitesse ne va pas toujours de pair avec le discernement. Il vaut la peine de vérifier si vous savez vers où vous vous précipitez.",
+  "reversed": "Renversée, la carte peut indiquer une précipitation qui disperse vos forces, ou des paroles trop tranchantes. Elle peut aussi signifier un zèle retenu qui a besoin d’un but clair.",
+  "reflection": [
+   "Vers où est-ce que je me précipite, et cette direction est-elle la mienne ?",
+   "Comment puis-je affirmer mon point de vue fermement, mais sans ton blessant ?"
+  ],
+  "advice": "Agissez avec décision et rapidité : vous savez clairement ce que vous voulez. Mais n’écrasez personne en chemin.",
+  "adviceReversed": "La précipitation et les mots durs pourraient nuire. Ralentissez et réfléchissez avant de vous élancer.",
+  "astrology": "Air"
+ },
+ {
+  "id": "swords_13",
+  "name": "Reine d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 13,
+  "keywords": [
+   "indépendance",
+   "perspicacité",
+   "honnêteté",
+   "limites",
+   "expérience"
+  ],
+  "symbolism": "La reine est assise de profil sur un trône orné de papillons, tenant une épée droite dans la main droite. Elle lève la main gauche, ouverte, comme pour inviter quelqu’un ou indiquer le chemin, et un oiseau solitaire vole dans le ciel clair au-dessus d’elle.",
+  "upright": "La Reine d’Épées est une figure qui voit clair et parle franchement, souvent grâce à ce qu’elle a vécu. La carte vous encourage à faire confiance à votre propre jugement et à poser des limites sans trop vous justifier. Sa perspicacité n’exclut pas la chaleur ; la main ouverte montre une disposition au dialogue. L’expérience peut devenir une source de sagesse plutôt que d’amertume.",
+  "reversed": "La Reine renversée peut indiquer une froideur utilisée comme bouclier, ou un jugement trop sévère envers soi et les autres. Elle peut vous encourager à unir la clarté de pensée à la douceur.",
+  "reflection": [
+   "Où ai-je besoin de poser une limite plus claire ?",
+   "Comment mes expériences peuvent-elles m’enseigner plutôt que me fermer ?"
+  ],
+  "advice": "Parlez franchement et posez des limites. La perspicacité et l’indépendance vous aideront à voir clairement l’affaire.",
+  "adviceReversed": "Ne soyez pas trop dur, ni envers vous ni envers les autres. L’honnêteté n’a pas besoin de blesser.",
+  "astrology": "Air"
+ },
+ {
+  "id": "swords_14",
+  "name": "Roi d’Épées",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 14,
+  "keywords": [
+   "autorité intellectuelle",
+   "objectivité",
+   "principes",
+   "justice",
+   "pensée claire"
+  ],
+  "symbolism": "Le roi est assis de face sur un haut trône, tenant une épée légèrement inclinée par rapport à la verticale. Le dossier du trône est orné de papillons et de croissants de lune, et derrière lui on aperçoit quelques arbres et deux oiseaux sur fond de nuages.",
+  "upright": "Le Roi d’Épées incarne un esprit qui pèse les arguments et se laisse guider par des principes. La carte encourage un regard impartial sur la situation et des décisions fondées sur les faits. C’est l’énergie d’une communication responsable et réfléchie. La sagesse apparaît quand la logique sert les personnes, et non seulement le fait d’avoir raison.",
+  "reversed": "Renversée, la carte peut signifier des convictions rigides, ou l’usage d’arguments pour dominer les autres. Elle peut aussi indiquer un chaos intérieur de pensées qui a besoin d’être mis en ordre.",
+  "reflection": [
+   "Ma décision repose-t-elle sur des faits, ou sur des peurs ?",
+   "Comment puis-je unir principes et compréhension ?"
+  ],
+  "advice": "Laissez-vous guider par la raison et les principes. Une analyse froide et objective donnera le meilleur résultat.",
+  "adviceReversed": "La logique seule ne suffit pas. Tenez compte des personnes et des émotions que la décision touche.",
+  "astrology": "Air"
+ },
+ {
+  "id": "pentacles_01",
+  "name": "As de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 1,
+  "keywords": [
+   "nouvelle occasion",
+   "ancrage",
+   "abondance",
+   "le concret",
+   "potentiel"
+  ],
+  "symbolism": "Une main sort d’un nuage et tient un grand denier d’or gravé d’une étoile à cinq branches. En dessous s’étend un jardin plein de lys blancs, et un chemin mène à une porte dans une haie, derrière laquelle se dressent des montagnes.",
+  "upright": "L’As de Deniers parle de la graine de quelque chose de tangible : une nouvelle activité, une compétence ou un rythme quotidien plus sain. La carte vous encourage à apprécier ce qui est réel et disponible ici et maintenant. Le potentiel devient durable quand on l’entoure d’un soin patient. La porte du jardin est ouverte, mais c’est à vous de la franchir.",
+  "reversed": "L’As renversé peut indiquer une occasion qui n’a pas encore mûri, ou une difficulté à transformer les projets en actes. C’est un signal pour revenir aux bases et vérifier où vous en êtes.",
+  "reflection": [
+   "Quelle graine aimerais-je planter dans mon quotidien ?",
+   "Que puis-je faire concrètement pour prendre soin de mes ressources ?"
+  ],
+  "advice": "Une occasion concrète se présente : saisissez-la. Semez la graine en investissant du temps, du travail ou de l’argent dans quelque chose de durable.",
+  "adviceReversed": "L’occasion pourrait vous échapper. Vérifiez que vous planifiez bien avant d’investir.",
+  "astrology": "Terre — racine de l’élément"
+ },
+ {
+  "id": "pentacles_02",
+  "name": "Deux de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 2,
+  "keywords": [
+   "jonglage",
+   "souplesse",
+   "équilibre",
+   "priorités",
+   "rythme"
+  ],
+  "symbolism": "Un jeune homme au haut chapeau danse en jonglant avec deux deniers reliés par un ruban en forme de huit couché. Derrière lui, deux navires tanguent sur de hautes vagues.",
+  "upright": "Le Deux de Deniers montre l’art de garder l’équilibre entre différentes obligations. La vie peut ressembler à une danse sur une vague mouvante, et vous apprenez à bouger à son rythme. La carte encourage la légèreté, mais aussi un regard honnête sur ce que vous pouvez porter à la fois. La souplesse est une force tant qu’elle ne vous coupe pas le souffle.",
+  "reversed": "Renversée, la carte peut indiquer trop de choses en l’air et un sentiment de surcharge. Elle peut aussi vous encourager à poser l’une des balles et à décider ce qui compte le plus.",
+  "reflection": [
+   "Combien de choses est-ce que j’essaie de garder en l’air à la fois ?",
+   "Que pourrais-je poser pour retrouver ma légèreté ?"
+  ],
+  "advice": "Vous jonglez avec beaucoup de choses, et vous vous en sortez. Restez souple et fixez vos priorités.",
+  "adviceReversed": "Trop de choses à la fois. Renoncez à quelque chose avant que quelque chose ne tombe.",
+  "astrology": "Terre · Jupiter en Capricorne"
+ },
+ {
+  "id": "pentacles_03",
+  "name": "Trois de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 3,
+  "keywords": [
+   "coopération",
+   "savoir-faire",
+   "reconnaissance",
+   "plan",
+   "construire ensemble"
+  ],
+  "symbolism": "Dans un intérieur gothique, un artisan debout sur un banc travaille à l’arc d’une voûte. À ses côtés, deux personnages, l’un en habit de moine, l’autre tenant un plan déroulé, discutent de l’avancement des travaux, et trois deniers sont sculptés dans la pierre au-dessus d’eux.",
+  "upright": "Le Trois de Deniers souligne la valeur d’une coopération où chacun apporte son propre savoir-faire. La carte vous encourage à partager vos connaissances et à écouter ceux qui voient les choses autrement. Apprécier le travail des autres et le vôtre bâtit des résultats durables. C’est un bon moment pour se demander comment faire mieux ensemble.",
+  "reversed": "Le Trois renversé peut signaler un manque de coordination dans une équipe, ou le sentiment que votre contribution passe inaperçue. Il peut encourager une conversation claire sur les rôles et les attentes.",
+  "reflection": [
+   "Avec qui pourrais-je construire quelque chose ensemble ?",
+   "Est-ce que j’apprécie ma propre contribution autant que celle des autres ?"
+  ],
+  "advice": "Travaillez ensemble. Vos compétences unies à celles des autres donneront un résultat solide : demandez du soutien ou un avis.",
+  "adviceReversed": "La coopération ne fonctionne pas. Convenez clairement de qui est responsable de quoi.",
+  "astrology": "Terre · Mars en Capricorne"
+ },
+ {
+  "id": "pentacles_04",
+  "name": "Quatre de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 4,
+  "keywords": [
+   "sécurité",
+   "contrôle",
+   "rétention",
+   "stabilité",
+   "prudence"
+  ],
+  "symbolism": "Un homme couronné est assis sur un banc de pierre et serre fort un denier contre sa poitrine. Un autre denier repose sur sa couronne, il en tient deux de ses pieds, et une ville s’étend derrière lui.",
+  "upright": "Le Quatre de Deniers parle d’un besoin de stabilité et de protection de ce que l’on possède. Le souci de la sécurité est naturel et important. La carte vous encourage toutefois à vérifier si vous ne vous accrochez qu’à ce qui est précieux, ou aussi à ce qui prend seulement de la place. Une main ouverte apporte parfois plus de paix qu’un poing serré.",
+  "reversed": "Renversée, la carte peut indiquer un relâchement de la prise et une disposition au partage. Elle peut aussi signifier une oscillation entre trop de prudence et un don trop rapide.",
+  "reflection": [
+   "À quoi est-ce que je m’accroche par peur plutôt que par besoin ?",
+   "Qu’est-ce qui me donne un sentiment de sécurité en dehors des choses matérielles ?"
+  ],
+  "advice": "Protégez ce que vous avez, mais ne serrez pas trop le poing. La sécurité n’est pas la même chose que le contrôle.",
+  "adviceReversed": "Il est temps de vous ouvrir : partager, dépenser, lâcher. Retenir bloque le flux.",
+  "astrology": "Terre · Soleil en Capricorne"
+ },
+ {
+  "id": "pentacles_05",
+  "name": "Cinq de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 5,
+  "keywords": [
+   "temps difficiles",
+   "sentiment d’exclusion",
+   "soutien",
+   "persévérance",
+   "demander de l’aide"
+  ],
+  "symbolism": "Deux personnages avancent péniblement dans la neige par une nuit d’hiver ; l’un s’appuie sur des béquilles, l’autre s’enveloppe dans un châle déchiré. Ils passent devant un vitrail vivement éclairé montrant cinq deniers, apparemment sans le remarquer.",
+  "upright": "Le Cinq de Deniers décrit une période où vous pouvez vous sentir laissé dehors, dans le froid. La carte reconnaît la difficulté, mais rappelle que les personnages marchent ensemble, pas seuls. La lumière de la fenêtre suggère que le soutien est souvent plus proche qu’il n’y paraît. Demander de l’aide n’est pas une faiblesse, mais une façon de prendre soin de soi.",
+  "reversed": "Le Cinq renversé peut signifier une sortie progressive d’une période difficile et le retour d’un sentiment d’appartenance. Il peut aussi indiquer une difficulté à accepter un soutien disponible.",
+  "reflection": [
+   "Où puis-je demander le soutien dont j’ai besoin ?",
+   "Qui marche à mes côtés dans les moments plus durs ?"
+  ],
+  "advice": "Les temps difficiles ne durent pas toujours. Demandez de l’aide : le soutien est plus proche que vous ne le pensez.",
+  "adviceReversed": "Le pire est en train de passer. Acceptez l’aide que quelqu’un vous offre.",
+  "astrology": "Terre · Mercure en Taureau"
+ },
+ {
+  "id": "pentacles_06",
+  "name": "Six de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 6,
+  "keywords": [
+   "générosité",
+   "partage",
+   "équilibre",
+   "échange",
+   "gratitude"
+  ],
+  "symbolism": "Un riche marchand tient une balance d’une main et, de l’autre, donne des pièces à l’un des deux mendiants agenouillés. Six deniers flottent au-dessus de la scène.",
+  "upright": "Le Six de Deniers parle d’un flux : tantôt on donne, tantôt on reçoit. La carte encourage une générosité qui n’humilie pas, et l’acceptation de l’aide sans honte. La balance dans la main du marchand rappelle l’équité et la mesure. Il vaut la peine de réfléchir à l’endroit où l’échange est juste dans votre vie, et à celui où il demande un ajustement.",
+  "reversed": "Renversée, la carte peut indiquer un déséquilibre, par exemple un don par devoir, ou une aide assortie de conditions. Elle peut vous encourager à repenser les limites dans les relations fondées sur le soutien.",
+  "reflection": [
+   "Est-il plus facile pour moi de donner ou de recevoir ?",
+   "Où, dans ma vie, l’échange a-t-il besoin de plus d’équilibre ?"
+  ],
+  "advice": "Donnez et recevez avec équilibre. La générosité vous reviendra, mais n’oubliez pas de recevoir aussi.",
+  "adviceReversed": "Vérifiez que l’échange est équitable. Une aide assortie d’obligations peut vous peser.",
+  "astrology": "Terre · Lune en Taureau"
+ },
+ {
+  "id": "pentacles_07",
+  "name": "Sept de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 7,
+  "keywords": [
+   "patience",
+   "évaluer les progrès",
+   "croissance",
+   "investir du temps",
+   "pause"
+  ],
+  "symbolism": "Un cultivateur s’appuie sur sa houe et regarde un buisson où sept deniers ont poussé parmi les feuilles. Sa posture exprime la fatigue et la réflexion, comme s’il mesurait ce que son travail a rapporté jusqu’ici.",
+  "upright": "Le Sept de Deniers est un moment de pause pour regarder ce qui a déjà poussé. La croissance peut être lente et pas toujours visible d’un jour à l’autre. La carte encourage la patience et une évaluation honnête : la direction vous convient-elle encore ? Se reposer au milieu du travail fait partie de la culture.",
+  "reversed": "Le Sept renversé peut indiquer de l’impatience, ou le sentiment que votre effort n’apporte pas les résultats attendus. C’est une invitation à changer de méthode plutôt qu’à abandonner.",
+  "reflection": [
+   "Qu’est-ce qui a déjà poussé grâce à mon travail, sans que je l’aie remarqué ?",
+   "La direction que je suis me convient-elle encore ?"
+  ],
+  "advice": "Soyez patient : la récolte pousse. Évaluez ce qui fonctionne et investissez là où vous voyez de la croissance.",
+  "adviceReversed": "L’effort ne paie pas. Changez de méthode au lieu de travailler encore plus dur de la même façon.",
+  "astrology": "Terre · Saturne en Taureau"
+ },
+ {
+  "id": "pentacles_08",
+  "name": "Huit de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 8,
+  "keywords": [
+   "maîtrise",
+   "pratique",
+   "concentration",
+   "application",
+   "apprendre un métier"
+  ],
+  "symbolism": "Un artisan assis à son établi termine patiemment un nouveau denier au ciseau. Les disques achevés sont accrochés les uns au-dessus des autres à un poteau de bois, un autre repose à ses pieds, et l’on aperçoit au loin les bâtiments d’une ville.",
+  "upright": "Le Huit de Deniers décrit la joie de progresser par la répétition et la concentration. La carte valorise le travail bien fait, même quand personne ne regarde. Elle peut vous encourager à apprendre une nouvelle compétence ou à approfondir celle que vous avez. La maîtrise naît de petits pas quotidiens.",
+  "reversed": "Renversée, la carte peut indiquer un perfectionnisme qui ôte le plaisir du travail, ou une routine sans engagement. Elle peut vous encourager à vous rappeler pourquoi vous apprenez.",
+  "reflection": [
+   "Quelle compétence aimerais-je développer pas à pas ?",
+   "Est-ce que je travaille avec engagement, ou seulement par devoir ?"
+  ],
+  "advice": "Concentrez-vous sur votre métier et pratiquez. Un travail régulier et l’attention aux détails apporteront des résultats.",
+  "adviceReversed": "Le perfectionnisme ou la routine vous freinent. Rappelez-vous pourquoi vous le faites.",
+  "astrology": "Terre · Soleil en Vierge"
+ },
+ {
+  "id": "pentacles_09",
+  "name": "Neuf de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 9,
+  "keywords": [
+   "autonomie",
+   "prospérité",
+   "raffinement",
+   "indépendance",
+   "s’apprécier soi-même"
+  ],
+  "symbolism": "Une femme en robe ornée de fleurs se tient dans une vigne chargée de raisin mûr et de neuf deniers. Un faucon chaperonné est posé sur sa main gantée, et un petit escargot rampe dans l’herbe à ses pieds.",
+  "upright": "Le Neuf de Deniers parle de la satisfaction de ce que vous avez bâti par votre propre effort et votre patience. La carte vous encourage à profiter d’un moment de calme et à apprécier votre indépendance. Le faucon chaperonné rappelle la maîtrise de soi et la capacité d’attendre. Vous pouvez vous accorder un petit plaisir sans avoir à le justifier.",
+  "reversed": "Le Neuf renversé peut indiquer une dépendance à la reconnaissance extérieure, ou une solitude cachée derrière une apparence d’autonomie. C’est une invitation à partager votre jardin avec les autres.",
+  "reflection": [
+   "De quoi, que j’ai construit seul, suis-je fier ?",
+   "Comment puis-je profiter de ce que j’ai sans me comparer ?"
+  ],
+  "advice": "Profitez des fruits de votre travail. Vous avez tout à fait droit à l’indépendance et à un peu de luxe.",
+  "adviceReversed": "Vérifiez que votre indépendance n’est pas de la solitude. Laissez quelqu’un s’approcher.",
+  "astrology": "Terre · Vénus en Vierge"
+ },
+ {
+  "id": "pentacles_10",
+  "name": "Dix de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 10,
+  "keywords": [
+   "héritage",
+   "permanence",
+   "générations ensemble",
+   "racines",
+   "le long terme"
+  ],
+  "symbolism": "Sous une arcade est assis un vieillard aux cheveux gris dans un riche manteau, qui caresse deux chiens blancs. À côté se tiennent une jeune femme, un homme et un enfant, et les dix deniers sont disposés sur l’image en forme d’arbre ramifié ; on aperçoit à l’arrière-plan les murs d’une demeure et des blasons.",
+  "upright": "Le Dix de Deniers tourne l’attention vers ce qui dure plus longtemps qu’une vie : histoires familiales, traditions, valeurs et lieux partagés. La carte vous encourage à réfléchir à ce dont vous héritez et à ce que vous voulez transmettre. Elle parle aussi d’un sentiment d’enracinement et d’une stabilité construite au fil des années. Les gestes de soin du quotidien deviennent avec le temps un héritage.",
+  "reversed": "Renversée, la carte peut indiquer des tensions autour des attentes familiales, ou le sentiment que les traditions vous enferment. Elle peut vous encourager à choisir consciemment ce que vous voulez garder de votre héritage.",
+  "reflection": [
+   "Quelles valeurs ai-je reçues des générations précédentes ?",
+   "Que voudrais-je laisser derrière moi pour les autres ?"
+  ],
+  "advice": "Pensez à long terme. Construisez quelque chose de durable, pour vous et pour ceux qui viendront après vous.",
+  "adviceReversed": "Les affaires familiales ou financières demandent à être mises en ordre. Ne repoussez pas les conversations difficiles.",
+  "astrology": "Terre · Mercure en Vierge"
+ },
+ {
+  "id": "pentacles_11",
+  "name": "Valet de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 11,
+  "keywords": [
+   "apprentissage",
+   "curiosité",
+   "nouvelles compétences",
+   "concentration",
+   "un rêve concret"
+  ],
+  "symbolism": "Un jeune personnage se tient dans une prairie verte, tenant solennellement un denier qu’il contemple. Derrière s’étendent un champ labouré et quelques arbres, et l’horizon est calme et vaste.",
+  "upright": "Le Valet de Deniers est l’énergie d’un élève qui aborde le monde avec curiosité et sérieux à la fois. La carte encourage à apprendre, à expérimenter et à faire les premiers pas dans quelque chose de pratique. Les idées prennent forme quand vous leur accordez de l’attention jour après jour. Vous n’avez pas à tout savoir faire tout de suite.",
+  "reversed": "Le Valet renversé peut indiquer un démarrage remis à plus tard, ou un manque de concentration malgré de bonnes intentions. C’est un signal pour choisir une seule chose et commencer par un petit pas.",
+  "reflection": [
+   "Quelle chose pratique aimerais-je apprendre ?",
+   "Quel premier petit pas puis-je faire cette semaine ?"
+  ],
+  "advice": "Apprenez. Une nouvelle compétence ou une formation pratique vous ouvrira la voie : commencez par les bases.",
+  "adviceReversed": "Commencez enfin, au lieu de seulement prévoir d’apprendre. Un petit pas régulier suffit.",
+  "astrology": "Terre"
+ },
+ {
+  "id": "pentacles_12",
+  "name": "Cavalier de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 12,
+  "keywords": [
+   "persévérance",
+   "méthode",
+   "responsabilité",
+   "routine",
+   "fiabilité"
+  ],
+  "symbolism": "Un chevalier en armure sombre est assis sur un cheval massif, parfaitement immobile, et tient un denier devant lui. Un champ labouré s’étend derrière lui, et des rameaux verts ornent son casque et la tête du cheval.",
+  "upright": "Le Cavalier de Deniers montre la force qui naît de la persévérance et de la constance. Il n’est pas le plus rapide, mais il atteint son but pas à pas. La carte vous encourage à apprécier une routine qui construit, et la responsabilité des engagements pris. Un rythme lent est souvent le chemin le plus sûr.",
+  "reversed": "Renversée, la carte peut indiquer l’enlisement dans une routine qui ne vous sert plus, ou un excès de prudence. C’est une invitation à apporter un peu de fraîcheur à vos habitudes quotidiennes.",
+  "reflection": [
+   "Quelle habitude quotidienne me soutient vraiment ?",
+   "Où ma prudence se change-t-elle en immobilisme ?"
+  ],
+  "advice": "Travaillez de façon régulière et méthodique. Lentement mais sûrement, vous atteindrez votre but : ne prenez pas de raccourcis.",
+  "adviceReversed": "Trop prudent, ou trop monotone. Ajoutez un peu de mouvement et de changement à la routine.",
+  "astrology": "Terre"
+ },
+ {
+  "id": "pentacles_13",
+  "name": "Reine de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 13,
+  "keywords": [
+   "soin",
+   "sagesse pratique",
+   "foyer",
+   "nature",
+   "débrouillardise"
+  ],
+  "symbolism": "La reine est assise sur un trône dans un jardin plein de roses en fleurs, tenant un denier qu’elle regarde avec tendresse. Le trône est orné de fruits sculptés et de têtes de chèvre, et un lapin est tapi dans le coin inférieur de l’image.",
+  "upright": "La Reine de Deniers incarne la chaleur unie au bon sens pratique. La carte vous encourage à prendre soin de votre environnement, de votre corps et de votre rythme quotidien d’une façon qui vous donne un sentiment d’ancrage. Elle parle de créer un espace où vous et les autres pouvez vous sentir bien. Le soin de soi compte ici autant que le soin des proches.",
+  "reversed": "Renversée, la carte peut indiquer un oubli de soi au profit d’un soin excessif des autres, ou un attachement trop fort à l’ordre. Elle peut vous encourager à trouver l’équilibre entre donner et vous reposer.",
+  "reflection": [
+   "Comment puis-je prendre soin aujourd’hui de mon espace et du rythme de ma journée ?",
+   "Est-ce que je prends soin de moi avec autant de tendresse que des autres ?"
+  ],
+  "advice": "Occupez-vous des bases pratiques : foyer, santé, budget. Le soin des choses concrètes vous apportera la tranquillité.",
+  "adviceReversed": "Vous prenez soin de tout le monde sauf de vous. Trouvez du temps et des ressources pour vous-même.",
+  "astrology": "Terre"
+ },
+ {
+  "id": "pentacles_14",
+  "name": "Roi de Deniers",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 14,
+  "keywords": [
+   "stabilité",
+   "maturité",
+   "responsabilité",
+   "générosité",
+   "direction pratique"
+  ],
+  "symbolism": "Le roi est assis sur un trône orné de têtes de taureau sculptées, dans une robe densément couverte d’un motif de vignes et de raisins. D’une main il tient un sceptre, de l’autre un denier, et les murs d’un château s’élèvent derrière lui.",
+  "upright": "Le Roi de Deniers montre une stabilité mûre, construite avec patience et responsabilité. La carte vous encourage à regarder avec gratitude ce que vous avez réussi à créer, et à réfléchir à la façon dont cela pourrait servir aussi les autres. C’est l’énergie de quelqu’un capable de créer des conditions sûres pour lui-même et pour son entourage. La vraie richesse comprend aussi le temps, les relations et la paix.",
+  "reversed": "Le Roi renversé peut indiquer une trop grande focalisation sur le contrôle, ou le fait de mesurer la valeur seulement aux possessions. C’est une invitation à vous rappeler à quoi sert ce que vous construisez.",
+  "reflection": [
+   "Qu’est-ce que je considère comme ma vraie richesse ?",
+   "Comment ce que j’ai construit pourrait-il soutenir les autres ?"
+  ],
+  "advice": "Misez sur la stabilité et les décisions responsables. Agissez comme quelqu’un qui construit pour durer.",
+  "adviceReversed": "Ne laissez pas l’argent ou le statut voiler l’essentiel. La sécurité n’est pas tout.",
+  "astrology": "Terre"
+ }
+]

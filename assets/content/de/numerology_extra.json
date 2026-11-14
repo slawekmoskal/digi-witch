@@ -1,0 +1,109 @@
+{
+  "square": {
+    "1": {"title": "Charakter", "levels": [
+      "Keine Einsen: Willenskraft baust du bewusst auf, und es lohnt sich, Durchsetzungsvermögen zu üben.",
+      "Eine 1: ein sanfter Charakter; du gibst anderen leicht nach.",
+      "Zwei Einsen: ein ausgeglichener Charakter. Du kannst zu deinem Standpunkt stehen, ohne etwas zu erzwingen.",
+      "Drei: ein starker Wille und das Bedürfnis zu führen; hüte dich vor Sturheit.",
+      "Vier oder mehr: ein sehr starker Wille, der leicht in Sturheit und den Wunsch umschlägt, andere zu kontrollieren. Es lohnt sich, Flexibilität zu üben."]},
+    "2": {"title": "Energie", "levels": [
+      "Keine Zweien: Energie schöpfst du aus anderen Menschen und aus Ruhe, also achte auf deine Erholung.",
+      "Eine 2: genug Energie für den Alltag, die aber schnell schwindet, wenn zu viel los ist.",
+      "Zwei Zweien: eine gute Energiereserve und Feingefühl für deine Umgebung.",
+      "Drei: viel Energie, die ein Ventil braucht, damit sie nicht in Nervosität umschlägt.",
+      "Vier oder mehr: enorme Energie, die in Überempfindlichkeit kippen kann; Bewegung und Ruhe sind nötig."]},
+    "3": {"title": "Neugier", "levels": [
+      "Keine Dreien: Du lernst in der Praxis, eher durch Erfahrung als aus Büchern.",
+      "Eine 3: Neugier auf die Welt, die ein konkretes Ziel braucht.",
+      "Zwei Dreien: eine Begabung für exakte Wissenschaften, Ordnung und Analyse.",
+      "Drei: der starke Verstand eines Forschers; Neues zu lernen fällt dir leicht.",
+      "Vier oder mehr: ein wissenschaftlicher Geist, manchmal zu tief in der Analyse. Es hilft, zum Konkreten zurückzukehren."]},
+    "4": {"title": "Gesundheit", "levels": [
+      "Keine Vieren: Die Tradition spricht davon, besonders auf die eigene Fitness zu achten – mit Bewegung und einem festen Tagesrhythmus.",
+      "Eine 4: durchschnittliche Ausdauer, die sich mit guten Gewohnheiten leicht stärken lässt.",
+      "Zwei Vieren: gute Fitness und Widerstandskraft.",
+      "Drei: große körperliche Ausdauer, oft Freude am Sport.",
+      "Vier oder mehr: große körperliche Ausdauer; achte darauf, deinen Körper nicht zu überlasten."]},
+    "5": {"title": "Intuition", "levels": [
+      "Keine Fünfen: Entscheidungen triffst du besser nach Überlegung und mit Plan.",
+      "Eine 5: Die Intuition funktioniert, aber Zweifel übertönen sie manchmal.",
+      "Zwei Fünfen: gute Intuition, verbunden mit Logik; du schätzt Situationen treffend ein.",
+      "Drei: starke Ahnungen; ihnen zu vertrauen lohnt sich, aber prüfe die Fakten.",
+      "Vier oder mehr: bemerkenswerte Intuition. Vertrau ihr, aber verzichte nicht auf die Fakten."]},
+    "6": {"title": "Arbeit", "levels": [
+      "Keine Sechsen: Geistige Arbeit liegt dir mehr als körperliche.",
+      "Eine 6: Körperliche Arbeit ist eher Notwendigkeit als Vergnügen.",
+      "Zwei Sechsen: geschickte Hände, ein Talent für Handwerk und praktische Dinge.",
+      "Drei: das Bedürfnis, etwas Greifbares zu schaffen; Arbeit gibt dir Gleichgewicht.",
+      "Vier oder mehr: ein starkes Bedürfnis nach körperlicher Arbeit und nach dem Herstellen von Dingen; Untätigkeit fällt dir schwer."]},
+    "7": {"title": "Talent", "levels": [
+      "Keine Siebenen: Erfolg kommt durch Ausdauer, nicht durch Zufall.",
+      "Eine 7: ein verborgenes Talent, das es zu entdecken lohnt.",
+      "Zwei Siebenen: ein deutliches Talent und „Glück“ bei dem, was du tust.",
+      "Drei: viele Talente; wichtig ist, eines zu wählen und zu entwickeln.",
+      "Vier oder mehr: viele Talente, aber auch die Neigung, dich zu verzetteln. Wähle einen Weg."]},
+    "8": {"title": "Pflicht", "levels": [
+      "Keine Achten: ein lockerer Umgang mit Verpflichtungen; klare Regeln helfen.",
+      "Eine 8: Verantwortungsgefühl wächst mit Alter und Erfahrung.",
+      "Zwei Achten: ein ausgeprägtes Pflichtgefühl und Fürsorge für andere.",
+      "Drei: große Verantwortung. Denk daran, nicht alles allein zu tragen.",
+      "Vier oder mehr: ein sehr starkes Pflichtgefühl. Denk daran, dass du nicht alle retten musst."]},
+    "9": {"title": "Gedächtnis", "levels": [
+      "Keine Neunen: Du merkst dir Dinge besser durch Tun als durch Zuhören.",
+      "Eine 9: ein gutes Gedächtnis, das durch Übung wächst.",
+      "Zwei Neunen: ein scharfer Verstand und ein gutes Gedächtnis.",
+      "Drei: ein außergewöhnliches Gedächtnis und schnelles Denken.",
+      "Vier oder mehr: ein herausragendes Gedächtnis und große Schärfe; gönn deinem Kopf auch Ruhe."]}
+  },
+  "pinnacles": {
+    "1": {"title": "Gipfel der Unabhängigkeit", "text": "Ein Abschnitt, in dem du auf eigenen Füßen stehst: Entscheidungen, Initiative, der Mut, den eigenen Weg zu gehen. So nutzt du ihn: Triff eigene Entscheidungen und beginne Neues, auch wenn du dir nicht sicher bist."},
+    "2": {"title": "Gipfel der Zusammenarbeit", "text": "Ein Abschnitt der Beziehungen und Partnerschaft: Geduld, Diplomatie, Brücken zwischen Menschen bauen. So nutzt du ihn: Investiere in Beziehungen, hör zu und lerne, mit anderen zusammenzuarbeiten. Erfolg kommt über Menschen."},
+    "3": {"title": "Gipfel des Ausdrucks", "text": "Ein Abschnitt der Kreativität, der Kontakte und der Freude; eine gute Zeit, der Welt zu zeigen, was du zu sagen hast. So nutzt du ihn: Erschaffe, schreibe, tritt auf, triff Menschen. Dein Ausdruck öffnet Türen."},
+    "4": {"title": "Gipfel des Aufbaus", "text": "Ein Abschnitt der Grundlagenarbeit: Stabilität, Zuhause, Finanzen, stetige Mühe, die sich auszahlt. So nutzt du ihn: Leg solide Fundamente wie Ausbildung, Rücklagen und ein Zuhause. Geduld zahlt sich aus."},
+    "5": {"title": "Gipfel der Veränderung", "text": "Ein Abschnitt der Bewegung, des Reisens und neuer Erfahrungen: viel Wandel, wenig Langeweile. So nutzt du ihn: Reise, lerne, verändere – aber wähle Veränderungen, die Sinn ergeben."},
+    "6": {"title": "Gipfel der Fürsorge", "text": "Ein Abschnitt von Familie, Zuhause und Verantwortung für andere; wichtige Beziehungen und Verpflichtungen. So nutzt du ihn: Kümmere dich um dein Zuhause und deine Liebsten, aber vergiss deine eigenen Bedürfnisse nicht."},
+    "7": {"title": "Gipfel der Suche", "text": "Ein Abschnitt der Besinnung, des Lernens und der Vertiefung in dich selbst, mit mehr Fragen nach dem Sinn als nach Bequemlichkeit. So nutzt du ihn: Nimm dir Zeit für Studium, Nachdenken und Spiritualität. Die Antworten kommen von innen."},
+    "8": {"title": "Gipfel der Tatkraft", "text": "Ein Abschnitt von Karriere, Einfluss und Geld; eine Zeit für ehrgeizige Ziele und einen reifen Umgang mit Ressourcen. So nutzt du ihn: Setz dir ehrgeizige Ziele und verwalte deine Mittel klug. Dies ist eine Zeit des Einflusses."},
+    "9": {"title": "Gipfel der Vollendung", "text": "Ein Abschnitt des weiten Blicks, des Teilens von Erfahrung und des Abschließens alter Kapitel. So nutzt du ihn: Teile deine Erfahrung, hilf anderen und schließe ab, was seinen Lauf genommen hat."}
+  },
+  "challenges": {
+    "0": {"title": "Herausforderung der Wahl", "text": "Es gibt kein einzelnes Thema; die Herausforderung besteht darin zu wählen, was du lernen möchtest. Alle Wege stehen offen. Tipp: Hör bei der Wahl auf deine Intuition. Kein Weg ist dir vorgegeben."},
+    "1": {"title": "Herausforderung der Unabhängigkeit", "text": "Lernen, dich auszudrücken und Grenzen zu setzen – ohne nachzugeben und ohne dich festzubeißen. Tipp: Übe, „ich will“ und „ich will nicht“ zu sagen, ruhig, aber bestimmt."},
+    "2": {"title": "Herausforderung der Empfindsamkeit", "text": "Lernen, nicht alles persönlich zu nehmen und dich nicht um des lieben Friedens willen aufzugeben. Tipp: Übernimm nicht die Stimmungen anderer; deine Bedürfnisse zählen auch."},
+    "3": {"title": "Herausforderung des Ausdrucks", "text": "Lernen, über Gefühle zu sprechen und deine kreative Arbeit trotz Kritik zu zeigen. Tipp: Teile, was du erschaffst, bevor es perfekt ist."},
+    "4": {"title": "Herausforderung der Ordnung", "text": "Disziplin und Geduld lernen, ohne Starrheit und ohne Chaos. Tipp: kleine, regelmäßige Schritte statt Kraftakten und Durcheinander."},
+    "5": {"title": "Herausforderung der Freiheit", "text": "Lernen, Freiheit klug zu nutzen, ohne wegzulaufen und ohne alles auf einmal hinzuwerfen. Tipp: Bevor du in etwas Neues flüchtest, prüfe, wovor du flüchtest."},
+    "6": {"title": "Herausforderung der Verantwortung", "text": "Lernen, für andere zu sorgen, ohne sie zu kontrollieren und ohne dich selbst zu vergessen. Tipp: Hilf, aber rette niemanden gegen seinen Willen und kontrolliere nicht."},
+    "7": {"title": "Herausforderung des Vertrauens", "text": "Offenheit und Vertrauen lernen – in dich selbst, in andere und ins Leben. Tipp: Vertrau jemandem so sehr, dass du sagst, was du wirklich denkst."},
+    "8": {"title": "Herausforderung von Macht und Geld", "text": "Einen gesunden Umgang mit Geld, Ehrgeiz und Kontrolle lernen. Tipp: Geld und Macht sind Werkzeuge. Frag dich, wozu sie dienen sollen."}
+  },
+  "karmicDebts": {
+    "13": {"title": "Karmische Schuld 13", "text": "In der numerologischen Tradition steht die 13 für eine Lektion in Arbeit und Ausdauer: Bequeme Abkürzungen funktionieren selten, geduldige Mühe bringt dauerhafte Ergebnisse."},
+    "14": {"title": "Karmische Schuld 14", "text": "Die 14 ist eine Lektion in Maß und Freiheit: lernen, die Freiheit ohne Übermaß zu genießen und ohne vor Verpflichtungen zu fliehen."},
+    "16": {"title": "Karmische Schuld 16", "text": "Die 16 ist eine Lektion in Demut und Neuaufbau: Manchmal muss etwas zerfallen, damit etwas Wahreres an seine Stelle treten kann."},
+    "19": {"title": "Karmische Schuld 19", "text": "Die 19 ist eine Lektion in Selbstständigkeit, die das Bitten um Hilfe nicht ausschließt: Die Stärke wächst, wenn du dich von anderen unterstützen lässt."}
+  },
+  "karmicLessons": {
+    "1": "Lektion 1: lernen, an dich zu glauben und Entscheidungen zu treffen, ohne auf andere zu schauen.",
+    "2": "Lektion 2: Geduld, Zusammenarbeit und Zuhören lernen.",
+    "3": "Lektion 3: lernen, dich auszudrücken und Freude zu teilen.",
+    "4": "Lektion 4: lernen, systematisch und ordentlich zu sein und Dinge zu Ende zu bringen.",
+    "5": "Lektion 5: Flexibilität und Offenheit für Veränderung lernen.",
+    "6": "Lektion 6: lernen, Verantwortung für deine Liebsten zu übernehmen – und für dich selbst.",
+    "7": "Lektion 7: lernen, deiner Intuition zu vertrauen und dir Zeit zum Nachdenken zu nehmen.",
+    "8": "Lektion 8: einen gesunden Umgang mit Geld und deiner eigenen Kraft lernen.",
+    "9": "Lektion 9: Mitgefühl lernen und über die eigenen Angelegenheiten hinausblicken."
+  },
+  "keywords": {
+    "1": "Anfang, Mut, Unabhängigkeit",
+    "2": "Zusammenarbeit, Geduld, Sanftheit",
+    "3": "Freude, Kreativität, Gespräch",
+    "4": "Ordnung, Stabilität, Arbeit",
+    "5": "Veränderung, Bewegung, Freiheit",
+    "6": "Zuhause, Fürsorge, Harmonie",
+    "7": "Besinnung, Intuition, Wissen",
+    "8": "Tatkraft, Erfolg, Verantwortung",
+    "9": "Vollendung, Mitgefühl, der weite Blick"
+  },
+  "dayColors": {"1": "Rot", "2": "Orange", "3": "Gelb", "4": "Grün", "5": "Blau", "6": "Indigo", "7": "Violett", "8": "Rosa", "9": "Gold"}
+}

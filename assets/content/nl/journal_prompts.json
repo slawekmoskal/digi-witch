@@ -1,0 +1,167 @@
+[
+ {
+  "id": "p01",
+  "category": "ogolne",
+  "text": "Wat heeft je vandaag een beetje rust of vreugde gegeven?"
+ },
+ {
+  "id": "p02",
+  "category": "ogolne",
+  "text": "Welke gedachte komt de laatste dagen steeds terug, en wat wil je ermee doen?"
+ },
+ {
+  "id": "p03",
+  "category": "ogolne",
+  "text": "Waarvoor kun je jezelf vandaag bedanken?"
+ },
+ {
+  "id": "p04",
+  "category": "ogolne",
+  "text": "Welke kleine verandering zou je komende week prettiger kunnen maken?"
+ },
+ {
+  "id": "p05",
+  "category": "ogolne",
+  "text": "Wat heb je de laatste tijd geleerd, al is het iets kleins?"
+ },
+ {
+  "id": "p06",
+  "category": "ogolne",
+  "text": "Welke waarde is belangrijk voor je, en hoe kwam die vandaag naar voren in je keuzes?"
+ },
+ {
+  "id": "p07",
+  "category": "ogolne",
+  "text": "Als je je huidige levensfase in één beeld zou moeten beschrijven, wat zou dat zijn?"
+ },
+ {
+  "id": "p08",
+  "category": "ogolne",
+  "text": "Waar wil je de komende maand meer aandacht aan geven?"
+ },
+ {
+  "id": "p09",
+  "category": "rodzina",
+  "text": "Welk gebruik uit je ouderlijk huis vind je het mooist, en waarom?"
+ },
+ {
+  "id": "p10",
+  "category": "rodzina",
+  "text": "Welke uitspraak of welk spreekwoord hoorde je vaak in je familie? Wat vind je er nu van?"
+ },
+ {
+  "id": "p11",
+  "category": "rodzina",
+  "text": "Hoe werden feestdagen in je familie gevierd? Wat wil je behouden, en wat op je eigen manier doen?"
+ },
+ {
+  "id": "p12",
+  "category": "rodzina",
+  "text": "Hoe werd er bij jou thuis over geld gepraat, als dat al gebeurde? Hoe wil jij erover praten?"
+ },
+ {
+  "id": "p13",
+  "category": "rodzina",
+  "text": "Welke overtuiging over werk of plichten heb je van huis meegekregen, en in hoeverre is die nu van jou?"
+ },
+ {
+  "id": "p14",
+  "category": "rodzina",
+  "text": "Welke rol heb je meestal bij familiebijeenkomsten? Zit die je goed?"
+ },
+ {
+  "id": "p15",
+  "category": "rodzina",
+  "text": "Hoe zou je je grenzen tegenover naasten willen aangeven, op een manier die voor jou goed voelt?"
+ },
+ {
+  "id": "p16",
+  "category": "rodzina",
+  "text": "Welk familieverhaal of welke anekdote vertel je graag aan anderen?"
+ },
+ {
+  "id": "p17",
+  "category": "rodzina",
+  "text": "Welk gerecht, welke geur of welk liedje doet je aan thuis denken? Wat roept het op?"
+ },
+ {
+  "id": "p18",
+  "category": "rodzina",
+  "text": "Welke eigenschap of vaardigheid van iemand in je familie waardeer je, en zou je zelf willen ontwikkelen?"
+ },
+ {
+  "id": "p19",
+  "category": "rodzina",
+  "text": "Welk familiegebruik zou je willen veranderen of vervangen door iets nieuws? Hoe zou dat eruit kunnen zien?"
+ },
+ {
+  "id": "p20",
+  "category": "rodzina",
+  "text": "Welke waarden, in je eigen woorden, wil je doorgeven of koesteren in je omgeving?"
+ },
+ {
+  "id": "p21",
+  "category": "rodzina",
+  "text": "Hoe lieten ze in jouw familie waardering of blijdschap zien? Welke manieren liggen jou na aan het hart?"
+ },
+ {
+  "id": "p22",
+  "category": "rodzina",
+  "text": "Als je er zin in hebt: welk gesprek met iemand dichtbij zou je ooit willen voeren, en waarover?"
+ },
+ {
+  "id": "p23",
+  "category": "tarot",
+  "text": "Welk beeld, welke kleur of welk detail op de getrokken kaart viel je als eerste op?"
+ },
+ {
+  "id": "p24",
+  "category": "tarot",
+  "text": "Als de figuur op de kaart je één vraag kon stellen, welke zou dat zijn?"
+ },
+ {
+  "id": "p25",
+  "category": "tarot",
+  "text": "Aan welke situatie in je leven doet de kaart van vandaag je denken?"
+ },
+ {
+  "id": "p26",
+  "category": "tarot",
+  "text": "Als de kaart omgekeerd lag: wat zou het voor jou kunnen betekenen om het thema van een andere kant te bekijken?"
+ },
+ {
+  "id": "p27",
+  "category": "tarot",
+  "text": "Welk gevoel riep de kaart bij je op, en waar zou dat vandaan kunnen komen?"
+ },
+ {
+  "id": "p28",
+  "category": "tarot",
+  "text": "Wat uit de symboliek van deze kaart wil je meenemen voor de rest van de dag?"
+ },
+ {
+  "id": "p29",
+  "category": "liczby",
+  "text": "Welke beschrijving uit je getallenprofiel past het best bij je, en welke het minst? Waarom?"
+ },
+ {
+  "id": "p30",
+  "category": "liczby",
+  "text": "Hoe begrijp je het thema van je persoonlijke jaar, en wat wil je er in de praktijk mee?"
+ },
+ {
+  "id": "p31",
+  "category": "liczby",
+  "text": "Riep de reflectievraag bij je levenspad een herinnering op? Beschrijf die."
+ },
+ {
+  "id": "p32",
+  "category": "liczby",
+  "text": "Waarin verschilt hoe anderen je zien van wat je van binnen voelt, en hielpen de getalbeschrijvingen om dat te benoemen?"
+ },
+ {
+  "id": "p33",
+  "category": "liczby",
+  "text": "Als je zelf een getal voor deze maand mocht kiezen, welk zou dat zijn, en waarom?"
+ }
+]

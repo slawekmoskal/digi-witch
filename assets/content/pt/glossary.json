@@ -1,0 +1,106 @@
+[
+ {
+  "term": "Numerologia",
+  "definition": "A tradição de atribuir significados simbólicos aos números e de calculá-los a partir de datas ou nomes. Neste app, é tratada como ferramenta de reflexão e entretenimento, não como método científico."
+ },
+ {
+  "term": "Redução",
+  "definition": "Somar os algarismos de um número até restar um só, p. ex. 38 → 3 + 8 = 11 → 1 + 1 = 2. Na convenção usada aqui, a redução para nos números mestres onde eles são permitidos."
+ },
+ {
+  "term": "Número mestre",
+  "definition": "Nome convencional dos números 11, 22 e 33, que muitas escolas de numerologia não reduzem mais. É um rótulo da tradição, não sinal de que uma pessoa seja superior ou excepcional."
+ },
+ {
+  "term": "Caminho de vida",
+  "definition": "Número calculado a partir da data de nascimento completa, que na tradição descreve o tema ou a direção geral de uma vida. O app soma todos os algarismos da data e depois reduz a soma, mantendo 11, 22 e 33."
+ },
+ {
+  "term": "Número do dia de nascimento",
+  "definition": "Número calculado a partir do dia do mês em que alguém nasceu. A tradição o associa a um talento natural ou a um estilo de agir; o app mantém 11 e 22."
+ },
+ {
+  "term": "Número de expressão",
+  "definition": "Número calculado a partir de todas as letras do nome completo. Descreve, de forma simbólica, como alguém mostra suas habilidades ao mundo exterior."
+ },
+ {
+  "term": "Número da alma (número das vogais)",
+  "definition": "Número calculado a partir das vogais do nome completo. Na tradição, refere-se a motivações e necessidades interiores."
+ },
+ {
+  "term": "Número de personalidade",
+  "definition": "Número calculado a partir das consoantes do nome completo. Simboliza a primeira impressão e a camada exterior que os outros veem."
+ },
+ {
+  "term": "Vogais e consoantes nesta convenção",
+  "definition": "O app trata as letras A, E, I, O, U e Y como vogais e todas as outras como consoantes. Outras escolas tratam a letra Y de outro modo, por isso os resultados podem diferir."
+ },
+ {
+  "term": "Normalização das letras acentuadas",
+  "definition": "Substituir as letras com sinais diacríticos por seus equivalentes básicos antes do cálculo, p. ex. Á → A, Ã → A, Ç → C, Ü → U (e também Ł → L, no caso de nomes poloneses). Isso porque a tabela tradicional cobre apenas as 26 letras do alfabeto latino."
+ },
+ {
+  "term": "Tabela pitagórica de letras",
+  "definition": "A tabela mais usada hoje, que atribui às letras de A a Z valores de 1 a 9 em ciclo repetido (A = 1 … I = 9, J = 1 … R = 9, S = 1 … Z = 8). Apesar do nome, é um sistema moderno, não obra dos antigos pitagóricos."
+ },
+ {
+  "term": "Ano pessoal",
+  "definition": "Número de 1 a 9 calculado a partir do dia e do mês de nascimento e de um ano civil escolhido. Na tradição, descreve o tema daquele ano dentro de um ciclo de nove anos; no app, é um convite à reflexão, não uma previsão."
+ },
+ {
+  "term": "Ciclo de nove anos",
+  "definition": "A ideia de que os anos pessoais se sucedem de 1 a 9, e depois o ciclo recomeça. É um modelo simbólico que dá estrutura à reflexão."
+ },
+ {
+  "term": "Psiconumerologia",
+  "definition": "Nome de uma corrente de interpretação que combina o simbolismo dos números com a linguagem da autorreflexão. Não é um método psicológico nem clínico e não serve para diagnóstico."
+ },
+ {
+  "term": "Tarô",
+  "definition": "Um baralho de, em geral, 78 cartas, usado originalmente em jogos e, desde o século XVIII, também em práticas esotéricas. No app, as cartas são imagens que estimulam a reflexão."
+ },
+ {
+  "term": "Arcanos Maiores",
+  "definition": "As 22 cartas de trunfo do tarô, cada uma com nome e imagem próprios, p. ex. O Louco, O Mago, O Sol. A tradição as associa aos grandes temas da vida."
+ },
+ {
+  "term": "Arcanos Menores",
+  "definition": "56 cartas divididas em quatro naipes, com cartas do ás ao dez e as cartas da corte. A tradição as associa a assuntos e situações do dia a dia."
+ },
+ {
+  "term": "Naipe (no tarô)",
+  "definition": "Uma das quatro séries dos Arcanos Menores: Paus (Bastões), Copas (Cálices), Espadas e Ouros (Moedas, Discos). Na tradição, cada naipe tem uma área simbólica atribuída."
+ },
+ {
+  "term": "Cartas da corte",
+  "definition": "As cartas dos Arcanos Menores que mostram figuras: Pajem (Valete), Cavaleiro, Rainha e Rei. Costumam ser lidas como estilos de agir ou papéis, e não como pessoas concretas."
+ },
+ {
+  "term": "Carta invertida",
+  "definition": "Carta que sai de cabeça para baixo ao ser colocada na mesa. Algumas pessoas a leem como uma versão diferente ou atenuada do tema da carta; outras não usam as inversões."
+ },
+ {
+  "term": "Tiragem",
+  "definition": "Disposição de várias cartas em que cada posição tem um significado ou uma pergunta atribuída, p. ex. contexto, desafio, passo possível. No app, as posições são perguntas para reflexão, não previsões."
+ },
+ {
+  "term": "Baralho Rider–Waite–Smith",
+  "definition": "Baralho de tarô publicado em Londres em 1909 pela editora Rider, preparado sob a direção de A. E. Waite e ilustrado por Pamela Colman Smith. Suas imagens influenciaram muitos baralhos posteriores."
+ },
+ {
+  "term": "Tarocchi",
+  "definition": "Nome italiano das cartas de jogo das quais o tarô se desenvolveu, conhecidas desde o século XV. Originalmente serviam a um jogo social com cartas de trunfo."
+ },
+ {
+  "term": "Arquétipo",
+  "definition": "Padrão universal de caráter ou de situação que se repete em mitos, histórias e na cultura, p. ex. o Herói ou o Sábio. No app, os arquétipos são uma ferramenta de reflexão, não uma tipologia de personalidade."
+ },
+ {
+  "term": "Sombra (na descrição de um arquétipo)",
+  "definition": "Termo convencional para os lados menos úteis de um padrão, que podem surgir quando seus traços são exagerados. A descrição da sombra existe para estimular o pensamento, não o julgamento."
+ },
+ {
+  "term": "Sincronicidade",
+  "definition": "Termo introduzido por C. G. Jung para coincidências significativas de eventos sem relação causal. No contexto das cartas, costuma ser usado de forma livre; não é prova de que a adivinhação funcione."
+ }
+]

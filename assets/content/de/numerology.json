@@ -1,0 +1,604 @@
+{
+ "lifePath": {
+  "1": {
+   "title": "Der Weg der Unabhängigkeit",
+   "text": "In der numerologischen Tradition beschreibt die Lebenszahl 1 das Thema, auf eigenen Füßen stehen zu lernen und Entscheidungen im eigenen Namen zu treffen. Als grobe Richtung kann sie wiederkehrende Situationen bedeuten, in denen du etwas beginnen, die Richtung vorgeben oder Verantwortung für den ersten Schritt übernehmen musst. Symbolisch reift dieses Thema, wenn Unabhängigkeit mit Achtsamkeit für andere einhergeht. Es ist eine Einladung zum Nachdenken, keine Beschreibung dessen, was geschehen muss.",
+   "reflection": "In welchen Lebensbereichen wählst du am liebsten deinen eigenen Weg, und wo folgst du lieber den Spuren anderer?"
+  },
+  "2": {
+   "title": "Der Weg der Zusammenarbeit",
+   "text": "In dieser Konvention wird die Lebenszahl 2 oft mit dem Thema Beziehungen, Verständigung und Brücken zwischen Menschen verbunden. Als langfristiges Thema kann sie daran erinnern, dass vieles eher im Dialog als allein reift. Die Symbolik der Zwei ermutigt dich, ein Gleichgewicht zwischen dem Zuhören und dem Äußern der eigenen Meinung zu suchen. Sie ist eher eine Frage danach, wie man mit Menschen sein kann, als eine fertige Antwort.",
+   "reflection": "Welche Beziehungen in deinem Leben lehren dich am meisten über das Gleichgewicht zwischen Geben und Nehmen?"
+  },
+  "3": {
+   "title": "Der Weg des Ausdrucks",
+   "text": "Als Lebenszahl steht die Drei in der Tradition für das Thema Selbstausdruck: durch Worte, Bilder, Humor oder eine Art zu sein. Sie kann auf einen lebenslangen roten Faden hinweisen, zu entdecken, was du der Welt zeigen möchtest und in welcher Form. Diese Richtung wird oft als leicht beschrieben, braucht aber auch Geduld, bis Ideen Gestalt annehmen. Nimm sie als Anregung, deine Kreativität im weitesten Sinn zu betrachten.",
+   "reflection": "Wann hast du zuletzt etwas Wichtiges auf eine Weise ausgedrückt, die wirklich deine eigene war?"
+  },
+  "4": {
+   "title": "Der Weg des Aufbauens",
+   "text": "In der Zahlensymbolik beschreibt die Lebenszahl 4 das Thema, dauerhafte Grundlagen zu schaffen: Strukturen, Gewohnheiten, Orte und Beziehungen, auf die man sich verlassen kann. Als allgemeine Richtung kann sie damit verbunden sein, den Wert von Beständigkeit und geduldiger Arbeit zu erfahren. Die Tradition erinnert auch daran, dass Ordnung dem Leben dienen soll, nicht es einengen. Es ist ein Thema zum Nachdenken, kein Rezept für das Schicksal.",
+   "reflection": "Was hast du in deinem Leben Schritt für Schritt aufgebaut, worüber du dich heute freust?"
+  },
+  "5": {
+   "title": "Der Weg der Veränderung",
+   "text": "Als Lebenszahl wird die Fünf oft mit Bewegung, Neugier auf die Welt und Lernen durch Erfahrung verbunden. Als weites Thema kann sie bedeuten, dass Veränderungen, Reisen oder neue Rollen zu wichtigen Bezugspunkten werden. Die Symbolik ermutigt dich, Freiheit mit einem Gespür für Richtung zu verbinden, damit Veränderung für dich Sinn ergibt. Diese Beschreibung ist ein Vorschlag zum Nachdenken, keine Vorhersage.",
+   "reflection": "Welche Veränderung in deinem Leben hat sich mit der Zeit als wertvoller erwiesen, als es zunächst schien?"
+  },
+  "6": {
+   "title": "Der Weg der Fürsorge",
+   "text": "In der numerologischen Tradition ist die Lebenszahl 6 mit dem Thema Verantwortung, Fürsorge und dem Schaffen eines Raumes verbunden, in dem sich andere wohlfühlen können. Als Lebensthema kann sie Zuhause, Gemeinschaft, Schönheit und Harmonie im Alltag betreffen. Die Symbolik der Sechs erinnert auch daran, dass Fürsorge dich selbst einschließt. Nimm diese Beschreibung als Spiegel zum Nachdenken, nicht als Verpflichtung.",
+   "reflection": "Wie sorgst du für andere, und wie lässt du zu, dass jemand für dich sorgt?"
+  },
+  "7": {
+   "title": "Der Weg der Sinnsuche",
+   "text": "Als Lebenszahl steht die Sieben in dieser Konvention für das Thema Fragen, Besinnung und die Suche nach tieferem Verstehen. Als langfristige Richtung kann sie mit dem Bedürfnis nach Zeit zum Nachdenken, Lernen und für eigene Schlüsse verbunden sein. Die Tradition beschreibt dieses Thema als einen Weg, auf dem Stille und Wissbegier wertvolle Werkzeuge sind. Es ist eine Einladung, darauf zu schauen, was dich wirklich interessiert.",
+   "reflection": "Welche Lebensfrage begleitet dich schon lange und beschäftigt dich noch immer?"
+  },
+  "8": {
+   "title": "Der Weg der Tatkraft",
+   "text": "In der Zahlensymbolik wird die Lebenszahl 8 oft als Thema von Einfluss, Organisation und klugem Umgang mit Ressourcen wie Zeit, Energie oder Geld beschrieben. Als weites Thema kann sie bedeuten zu lernen, wie man Ehrgeiz mit Ehrlichkeit und Ausgeglichenheit verbindet. Die Acht erinnert daran, dass Tatkraft viele Formen hat, nicht nur materielle. Es ist eine Richtung zum Nachdenken, keine Garantie für Erfolg oder dessen Ausbleiben.",
+   "reflection": "Was bedeutet es für dich, Einfluss auf dein eigenes Leben zu haben, und wie sieht das heute praktisch aus?"
+  },
+  "9": {
+   "title": "Der Weg des weiten Horizonts",
+   "text": "Als Lebenszahl steht die Neun in der Tradition für das Thema Offenheit, Mitgefühl und den Blick aus einer weiteren Perspektive. Als Lebensthema kann sie mit dem Abschließen von Kapiteln, dem Ziehen von Schlüssen und dem Teilen des Gelernten verbunden sein. Die Symbolik ermutigt zu einer Großzügigkeit gegenüber der Welt, die nicht auf Kosten der eigenen Grenzen geht. Diese Beschreibung dient dem Nachdenken und entscheidet nichts.",
+   "reflection": "Was von allem, was dich das Leben bisher gelehrt hat, möchtest du mit anderen teilen?"
+  },
+  "11": {
+   "title": "Der Weg der Inspiration",
+   "text": "In der numerologischen Tradition trägt die 11 den üblichen Namen einer Meisterzahl, was nur bedeutet, dass sie nicht weiter reduziert wird und eine eigene Symbolik erhält. Als Lebenszahl wird sie oft mit dem Thema Intuition, Ideen und Inspiration für andere verbunden und zugleich mit Empfindlichkeit für Reize. Diese Bezeichnung macht niemanden besser oder außergewöhnlicher als andere. Sie ist nur eine andere Sprache der Beschreibung, die du als Ausgangspunkt für ein Gespräch mit dir selbst nehmen kannst.",
+   "reflection": "Welche Ideen oder Ahnungen kehren immer wieder zu dir zurück, und was hast du bisher mit ihnen gemacht?"
+  },
+  "22": {
+   "title": "Der Weg der großen Bauwerke",
+   "text": "In dieser Tradition ist die 22 eine der sogenannten Meisterzahlen, ein durch Konvention hervorgehobener Wert, der nicht reduziert wird. Als Lebenszahl steht sie für die Verbindung von Vision und praktischem Handeln und für das Bauen von Dingen, die vielen Menschen dienen können. Sie ist kein Versprechen und keine Pflicht, Großes zu leisten, nur ein Thema zum Nachdenken. Handeln in jedem Maßstab hat Wert, auch das alltägliche und häusliche.",
+   "reflection": "Welche Idee möchtest du in etwas Konkretes verwandeln, und sei es im Kleinen?"
+  },
+  "33": {
+   "title": "Der Weg des geteilten Wissens",
+   "text": "In der Numerologie wird die 33 oft als Meisterzahl hervorgehoben; das ist eine Konvention der Tradition, kein Maß für den Wert eines Menschen. Als Lebenszahl steht sie für das Thema Fürsorge, verbunden mit Lehren, dem Unterstützen anderer und dem Weitergeben von Erfahrung. Die Tradition fügt hinzu, dass dieses Thema besondere Aufmerksamkeit für die eigenen Grenzen und für Erholung verlangt. Nimm diese Beschreibung als Anregung, nicht als zu erfüllende Aufgabe.",
+   "reflection": "Was bringst du anderen gern bei, und was möchtest du selbst noch lernen?"
+  }
+ },
+ "birthDay": {
+  "1": {
+   "title": "Das Talent der Initiative",
+   "text": "In der Tradition steht die Geburtstagszahl 1 für eine natürliche Neigung, Dinge anzustoßen und den ersten Schritt zu tun. Dieser Stil kann sich in der Leichtigkeit zeigen, mit der du einen Vorschlag machst, während andere noch zögern. Es ist eher die Beschreibung einer Handlungsweise als eine Eigenschaft, die du in dir finden musst. Es lohnt sich zu prüfen, in welchen Situationen diese Gabe bei dir tatsächlich auftaucht.",
+   "reflection": "In welchen Situationen machst du meist den ersten Schritt?"
+  },
+  "2": {
+   "title": "Das Talent des Gespürs",
+   "text": "Als Geburtstagszahl wird die Zwei oft mit einer Gabe verbunden, Stimmungen und Nuancen in Beziehungen zu erspüren. Dieser Stil kann sich in der Fähigkeit zeigen, Spannungen zu lösen oder zu bemerken, was jemand braucht, bevor er es sagt. In dieser Konvention ist es ein Talent für Diplomatie und geduldiges Zuhören. Überlege, ob du es in deinem Alltag wiedererkennst.",
+   "reflection": "Wann hat sich deine Aufmerksamkeit für andere für jemanden als besonders hilfreich erwiesen?"
+  },
+  "3": {
+   "title": "Das Talent der Worte und der Leichtigkeit",
+   "text": "In der Tradition steht die Geburtstagszahl 3 für ein natürliches Talent, zu erzählen, zu scherzen und ein Gespräch zu beleben. Dieser Stil kann sich in der Leichtigkeit zeigen, mit der du Kontakte knüpfst, oder in einer kreativen Herangehensweise an gewöhnliche Aufgaben. Die Drei erinnert daran, dass auch Leichtigkeit eine Fähigkeit ist. Prüfe, in welchen Momenten sie bei dir am sichtbarsten ist.",
+   "reflection": "Welche Art, dich auszudrücken, wählst du am liebsten, wenn niemand etwas von dir erwartet?"
+  },
+  "4": {
+   "title": "Das Talent des Ordnens",
+   "text": "Als Geburtstagszahl wird die Vier oft mit einer Gabe verbunden, Dingen Struktur zu geben und sie zu Ende zu bringen. Dieser natürliche Stil kann sich in Planung, Zuverlässigkeit und Liebe zum Detail zeigen. In der Zahlensymbolik ist es das Talent, das Chaos in einen Plan verwandelt. Überlege, wo dir diese Fähigkeit am besten dient.",
+   "reflection": "Welche Ordnung, die du geschaffen hast, hat dir oder anderen das Leben leichter gemacht?"
+  },
+  "5": {
+   "title": "Das Talent der Beweglichkeit",
+   "text": "In dieser Tradition steht die Geburtstagszahl 5 für die Leichtigkeit, sich neuen Bedingungen anzupassen und schnell zu lernen. Dieser Stil kann sich in Neugier, Findigkeit in unerwarteten Situationen und Offenheit für neue Menschen zeigen. Die Fünf ist das Talent, durch Veränderungen zu gehen, ohne den Halt zu verlieren. Überlege, wann du es zuletzt genutzt hast.",
+   "reflection": "Wie reagierst du meist, wenn sich ein Plan plötzlich ändert?"
+  },
+  "6": {
+   "title": "Das Talent, Wärme zu schaffen",
+   "text": "Als Geburtstagszahl wird die Sechs oft mit einer Gabe verbunden, eine freundliche Atmosphäre zu schaffen und auf das Aussehen der Umgebung zu achten. Dieser Stil kann sich in Gastfreundschaft, im Erinnern kleiner Gesten und in Verantwortungsgefühl zeigen. In der Tradition ist es das Talent, anderen das Gefühl zu geben, umsorgt zu sein. Prüfe, wie diese Gabe in deinem Alltag aussieht.",
+   "reflection": "Welche kleine fürsorgliche Geste fällt dir am leichtesten?"
+  },
+  "7": {
+   "title": "Das Talent der Einsicht",
+   "text": "Die Geburtstagszahl 7 steht für eine natürliche Neigung, zu analysieren, Fragen zu stellen und unter die Oberfläche zu schauen. Dieser Stil kann sich in der Liebe zum Lesen, zum Erforschen von Themen oder zum stillen Beobachten zeigen. In dieser Konvention ist es das Talent, zu bemerken, was anderen leicht entgeht. Überlege, wo dir deine Wissbegier die meiste Zufriedenheit schenkt.",
+   "reflection": "Welches Thema kann dich so fesseln, dass du die Zeit vergisst?"
+  },
+  "8": {
+   "title": "Das Talent der Organisation",
+   "text": "Als Geburtstagszahl wird die Acht oft mit einer Gabe verbunden, Ressourcen zu verwalten und Dinge praktisch zu sehen. Dieser Stil kann sich in der Fähigkeit zeigen, Abläufe zu koordinieren, zu verhandeln oder ein Budget zu planen. In der Zahlensymbolik ist es das Talent, Absichten in messbare Ergebnisse zu verwandeln. Überlege, in welchen Rollen du dich damit am wohlsten fühlst.",
+   "reflection": "Wann ist es dir zuletzt gelungen, etwas zu organisieren, das schwer greifbar schien?"
+  },
+  "9": {
+   "title": "Das Talent des Mitgefühls",
+   "text": "In der Tradition steht die Geburtstagszahl 9 für eine Gabe der Empathie und des Verstehens unterschiedlicher Sichtweisen. Dieser Stil kann sich in Offenheit für Menschen aus verschiedenen Lebenswelten und in Hilfsbereitschaft zeigen. Die Neun ist das Talent, das größere Bild zu sehen und Menschen um eine gemeinsame Sache zu versammeln. Prüfe, wo diese Fähigkeit heute in deinem Leben da ist.",
+   "reflection": "Wessen Sichtweise, die dir zuerst fremd war, ist dir mit der Zeit verständlich geworden?"
+  },
+  "11": {
+   "title": "Das Talent der intuitiven Einsicht",
+   "text": "In dieser Konvention bleibt die Geburtstagszahl 11 als Meisterzahl unreduziert; das ist eine übliche Bezeichnung der Tradition. Sie steht für ein Talent, den Sinn einer Situation schnell zu erfassen und inspirierende Möglichkeiten zu sehen. Dieser Stil kann sich in treffenden Assoziationen zeigen oder in der Fähigkeit, andere für eine Idee zu begeistern. Es ist kein Maß für Außergewöhnlichkeit, nur eine mögliche Beschreibung.",
+   "reflection": "Wann hat dir eine Ahnung geholfen, etwas zu sehen, das du vorher nicht bemerkt hattest?"
+  },
+  "22": {
+   "title": "Das Talent des praktischen Planens",
+   "text": "Die Tradition lässt die Geburtstagszahl 22 als eine der Meisterzahlen unreduziert und versteht das als übliche symbolische Unterscheidung. Sie steht für ein Talent, Vision mit einem konkreten Plan zu verbinden und größere Vorhaben geduldig umzusetzen. Dieser Stil kann sich in der Fähigkeit zeigen, ein großes Ziel in kleine Schritte zu zerlegen. Es ist eine Beschreibung zum Nachdenken, keine Erwartung an dich.",
+   "reflection": "Welches größere Ziel ist es dir einmal gelungen, in kleine, machbare Schritte zu zerlegen?"
+  }
+ },
+ "expression": {
+  "1": {
+   "title": "Ausdruck durch Initiative",
+   "text": "Die Ausdruckszahl 1, errechnet aus deinem vollständigen Namen, beschreibt in der Tradition, wie du deine Fähigkeiten nach außen zeigst. Sie steht für ein Handeln, bei dem du die Dinge selbst in die Hand nimmst, eine Richtung vorschlägst und eigene Lösungen findest. Andere sehen deine Fähigkeiten vielleicht am deutlichsten, wenn du führst oder etwas beginnst. Es ist die Beschreibung eines Stils, keine Bewertung von Kompetenz.",
+   "reflection": "Bei welchen Aufgaben zeigst du am liebsten, was du kannst?"
+  },
+  "2": {
+   "title": "Ausdruck durch Zusammenarbeit",
+   "text": "In dieser Konvention steht die Ausdruckszahl 2 dafür, die eigenen Fähigkeiten vor allem in der Arbeit mit anderen zu zeigen. Deine Fähigkeiten sind vielleicht am sichtbarsten, wenn du Menschen zusammenbringst, vermittelst oder ein gemeinsames Projekt unterstützt. Die Tradition beschreibt es als ein Talent, das im Team aufblüht, auch wenn es manchmal weniger bemerkt wird als Einzelarbeit. Diese Form des Beitrags verdient Wertschätzung.",
+   "reflection": "Was trägst du zu gemeinsamen Vorhaben bei, auch wenn es nicht immer sichtbar ist?"
+  },
+  "3": {
+   "title": "Ausdruck durch Kommunikation",
+   "text": "In der Tradition beschreibt die Ausdruckszahl 3, die eigenen Fähigkeiten durch Worte, Bilder, Auftritte oder Kontakt mit Menschen zu zeigen. Deine Fähigkeiten kommen vielleicht dort am vollsten zur Geltung, wo Botschaft, Vorstellungskraft und die Fähigkeit, andere zu interessieren, zählen. Die Symbolik der Drei ermutigt dich, deinen Ideen eine Form zu geben, die sich zeigen lässt. Das ist eine Anregung, keine Anforderung.",
+   "reflection": "In welcher Form teilst du deine Ideen am liebsten mit anderen?"
+  },
+  "4": {
+   "title": "Ausdruck durch Verlässlichkeit",
+   "text": "Die Ausdruckszahl 4 steht dafür, die eigenen Fähigkeiten durch solide, durchdachte Arbeit zu zeigen. In dieser Konvention sind deine Fähigkeiten vielleicht am sichtbarsten in Ergebnissen, die dauerhaft, geordnet und gut zu Ende gebracht sind. Andere schätzen dich vielleicht, weil man sich auf deine Arbeit verlassen kann. Es ist die Beschreibung einer Handlungsweise, die du mit deiner eigenen Erfahrung vergleichen kannst.",
+   "reflection": "Auf welche sorgfältig und bis zum Ende erledigte Arbeit bist du besonders stolz?"
+  },
+  "5": {
+   "title": "Ausdruck durch Vielseitigkeit",
+   "text": "In der Tradition beschreibt die Ausdruckszahl 5, die eigenen Fähigkeiten durch Abwechslung, Veränderung und Kontakt mit Neuem zu zeigen. Deine Fähigkeiten kommen vielleicht am besten in dynamischen Situationen zur Geltung, die schnelles Denken und Beweglichkeit verlangen. Die Symbolik der Fünf betont ein Talent, Erfahrungen von einem Bereich in einen anderen zu übertragen. Überlege, ob du so arbeitest.",
+   "reflection": "Welche Fähigkeiten aus einem Bereich konntest du in einem ganz anderen nutzen?"
+  },
+  "6": {
+   "title": "Ausdruck durch Verantwortung",
+   "text": "In dieser Konvention steht die Ausdruckszahl 6 dafür, die eigenen Fähigkeiten durch Fürsorge für Menschen, Orte und die Qualität des gemeinsamen Lebens zu zeigen. Deine Fähigkeiten sind vielleicht am sichtbarsten, wenn du etwas in Ordnung bringst, Rat gibst oder eine harmonische Umgebung schaffst. Die Tradition verbindet diese Zahl auch mit Sinn für Schönheit. Es ist ein Deutungsvorschlag, keine Definition von dir.",
+   "reflection": "In welchen Situationen wenden sich andere am häufigsten mit der Bitte um Hilfe oder Rat an dich?"
+  },
+  "7": {
+   "title": "Ausdruck durch Analyse",
+   "text": "In der Tradition beschreibt die Ausdruckszahl 7, die eigenen Fähigkeiten durch Wissen, Forschung und gut überlegte Schlüsse zu zeigen. Deine Fähigkeiten kommen vielleicht am vollsten bei Aufgaben zur Geltung, die Konzentration, Genauigkeit und eigenständiges Denken verlangen. Die Symbolik der Sieben weist auf jemanden hin, der seine Fähigkeiten eher durch Qualität als durch Menge zeigt. Es ist eine Beschreibung, die du mit der Wirklichkeit vergleichen kannst.",
+   "reflection": "Welches in der Stille erworbene Wissen oder Können ist heute eine deiner Stärken?"
+  },
+  "8": {
+   "title": "Ausdruck durch Wirksamkeit",
+   "text": "Die Ausdruckszahl 8 steht dafür, die eigenen Fähigkeiten zu zeigen, indem du organisierst, lenkst und Vorhaben zu einem messbaren Ergebnis bringst. In dieser Konvention sind deine Fähigkeiten vielleicht vor allem in Rollen sichtbar, die Entscheidungen und Verantwortung für Ressourcen verlangen. Die Tradition fügt hinzu, dass Wirksamkeit am besten dient, wenn sie mit Ehrlichkeit einhergeht. Es ist die Beschreibung eines Stils, keine Vorhersage.",
+   "reflection": "Welches Ergebnis deiner Arbeit zeigt am besten, was du kannst?"
+  },
+  "9": {
+   "title": "Ausdruck durch Offenheit",
+   "text": "In der Tradition beschreibt die Ausdruckszahl 9, die eigenen Fähigkeiten durch Handeln mit größerer Reichweite zu zeigen, das anderen dient oder verschiedene Gemeinschaften verbindet. Deine Fähigkeiten kommen vielleicht am besten in einer Arbeit zur Geltung, die Einfühlungsvermögen, Toleranz und einen weiten Blick verlangt. Die Symbolik der Neun betont ein Talent, durch das eigene Beispiel zu inspirieren. Überlege, wo sich das in deinem Tun zeigt.",
+   "reflection": "Wie dienen deine Fähigkeiten jemand anderem als dir selbst?"
+  },
+  "11": {
+   "title": "Ausdruck durch Inspiration",
+   "text": "In dieser Konvention bleibt die Ausdruckszahl 11 als Meisterzahl unreduziert; das ist eine übliche Bezeichnung, keine Auszeichnung der Person. Sie steht dafür, die eigenen Fähigkeiten durch Ideen, Visionen und die Fähigkeit zu zeigen, andere zu bewegen. Deine Fähigkeiten können sich in Rollen zeigen, in denen Botschaft und Feingefühl zählen. Es lohnt sich daran zu denken, dass dies nur eine mögliche Beschreibung ist.",
+   "reflection": "Wann hat etwas, das du gesagt hast, oder eine deiner Ideen zuletzt jemanden zum Handeln inspiriert?"
+  },
+  "22": {
+   "title": "Ausdruck durch das Verwirklichen einer Vision",
+   "text": "In der Tradition trägt die Ausdruckszahl 22 den üblichen Namen einer Meisterzahl und wird nicht weiter reduziert. Sie steht dafür, die eigenen Fähigkeiten zu zeigen, indem man große Ideen in praktische Lösungen verwandelt. Deine Fähigkeiten können in der Planung, im Aufbau von Systemen und in der Koordination komplexer Aufgaben sichtbar werden. Es ist eine symbolische Beschreibung, keine Erwartung und keine Bewertung.",
+   "reflection": "Welche Idee möchtest du verwirklicht sehen, und was wäre der erste praktische Schritt?"
+  },
+  "33": {
+   "title": "Ausdruck durch Unterstützung und Lehre",
+   "text": "In dieser Tradition ist die Ausdruckszahl 33 eine der durch Konvention hervorgehobenen Meisterzahlen. Sie steht dafür, die eigenen Fähigkeiten durch Lehren, Fürsorge und das warmherzige Weitergeben von Erfahrung zu zeigen. Deine Fähigkeiten kommen vielleicht dort zur Geltung, wo sich Wissen mit Sorge um einen anderen Menschen verbindet. Es ist kein Maß für Wert, nur ein Deutungsvorschlag.",
+   "reflection": "Wem und wie gibst du weiter, was du weißt?"
+  }
+ },
+ "soulUrge": {
+  "1": {
+   "title": "Ein Bedürfnis nach Unabhängigkeit",
+   "text": "Die Seelenzahl 1, errechnet aus den Vokalen deines vollständigen Namens, beschreibt in der Tradition einen inneren Antrieb zur Selbstbestimmung. Sie steht für das Bedürfnis, selbst zu entscheiden und zu spüren, dass das, was du tust, aus deiner eigenen Wahl kommt. Dieses Bedürfnis kann stark sein, auch wenn es von außen nicht sichtbar ist. Es lohnt sich zu fragen, wann du dich in deinen Entscheidungen wirklich frei fühlst.",
+   "reflection": "Was gibt dir das innere Gefühl, nach deinen eigenen Entscheidungen zu leben?"
+  },
+  "2": {
+   "title": "Ein Bedürfnis nach Nähe",
+   "text": "In dieser Konvention steht die Vokalzahl 2 für ein tiefes Bedürfnis nach Verbindung, Gegenseitigkeit und Verstandenwerden. Der innere Antrieb kann eine Sehnsucht nach Harmonie und nach dem Gefühl sein, dass jemand an deiner Seite ist. Die Tradition beschreibt es als eine stille, aber wichtige Triebkraft vieler Entscheidungen. Überlege, wie du dieses Bedürfnis heute erfüllst.",
+   "reflection": "Welche Art von Nähe nährt dich am meisten?"
+  },
+  "3": {
+   "title": "Ein Bedürfnis nach Freude und Ausdruck",
+   "text": "Die Seelenzahl 3 beschreibt einen inneren Antrieb, zu erschaffen, Gefühle zu teilen und Freude zu erleben. Sie steht für das Bedürfnis nach Raum für Spiel, Fantasie und Spontaneität. In dieser Tradition ist es die Sehnsucht, im eigenen Stil gehört zu werden. Prüfe, wie viel Raum es gerade in deinem Alltag hat.",
+   "reflection": "Was schenkt dir echte Freude, auch wenn niemand es sieht?"
+  },
+  "4": {
+   "title": "Ein Bedürfnis nach Stabilität",
+   "text": "In der Tradition steht die Vokalzahl 4 für ein inneres Bedürfnis nach Sicherheit, Vorhersehbarkeit und klaren Regeln. Der Antrieb kann der Wunsch sein, dass das Leben auf etwas Sicherem und Bewährtem ruht. Das muss nicht Starrheit bedeuten, eher ein Bedürfnis nach festem Boden unter den Füßen. Es lohnt sich hinzuschauen, was dir dieses Gefühl gibt.",
+   "reflection": "Was lässt dich in deinem Leben ruhig und sicher fühlen?"
+  },
+  "5": {
+   "title": "Ein Bedürfnis nach Freiheit",
+   "text": "In dieser Konvention beschreibt die Seelenzahl 5 einen inneren Antrieb, zu entdecken, zu erleben und zu verändern. Sie steht für das Bedürfnis nach Raum, Bewegung und der Möglichkeit zu wählen. Dieses Bedürfnis kann sich bemerkbar machen, wenn der Alltag zu vorhersehbar wird. Überlege, wie du dir ein Gefühl von Freiheit schenkst.",
+   "reflection": "Welche neue Erfahrung möchtest du dir schenken?"
+  },
+  "6": {
+   "title": "Ein Bedürfnis nach Harmonie und Fürsorge",
+   "text": "In der Tradition steht die Vokalzahl 6 für einen inneren Antrieb, für andere zu sorgen und eine warme, geordnete Welt um dich herum zu schaffen. Die Sehnsucht kann darin bestehen, dass es deinen Liebsten gut geht und deine Umgebung stimmig und schön ist. Die Tradition erinnert daran, dass dieses Bedürfnis die Sorge um dich selbst einschließt. Prüfe, ob darin Platz für dich ist.",
+   "reflection": "Was brauchst du, um dich umsorgt zu fühlen?"
+  },
+  "7": {
+   "title": "Ein Bedürfnis nach Verstehen",
+   "text": "Die Seelenzahl 7 beschreibt einen inneren Antrieb, die Wahrheit zu erkennen, nach Sinn zu suchen und die Dinge tiefer zu verstehen. Sie steht für ein Bedürfnis nach Zeit für dich, nach Stille und nach Raum für eigene Gedanken. In dieser Konvention ist es eine Sehnsucht, die oft deine Wahl von Lektüre, Gesprächen und Interessen lenkt. Überlege, wie du diesen Raum pflegst.",
+   "reflection": "Wie viel Zeit pro Woche hast du nur für deine eigenen Gedanken, und reicht sie dir?"
+  },
+  "8": {
+   "title": "Ein Bedürfnis nach Einfluss",
+   "text": "In der Tradition steht die Vokalzahl 8 für einen inneren Antrieb, Ziele zu erreichen und zu spüren, dass dein Handeln echte Wirkung hat. Die Sehnsucht kann Anerkennung, materielle Unabhängigkeit oder die Möglichkeit sein, deine Umgebung zu gestalten. Die Tradition ermutigt dich, auf die Werte hinter diesem Bedürfnis zu schauen. Es ist eine Frage nach der Motivation, nicht nach Ergebnissen.",
+   "reflection": "Welche Art von Erfolg schenkt dir die tiefste Zufriedenheit, und warum?"
+  },
+  "9": {
+   "title": "Ein Bedürfnis nach gemeinsamem Sinn",
+   "text": "Die Seelenzahl 9 beschreibt einen inneren Antrieb, für etwas zu handeln, das größer ist als die eigenen Angelegenheiten. Sie steht für das Bedürfnis zu spüren, dass dein Leben mit dem Wohl anderer Menschen oder der Welt verbunden ist. In dieser Konvention ist es eine idealistische Sehnsucht, die man mit Sorge um sich selbst ausbalancieren sollte. Überlege, wo du heute ein Ventil dafür findest.",
+   "reflection": "Wofür würdest du dich gern einsetzen, wenn dich nichts zurückhielte?"
+  },
+  "11": {
+   "title": "Ein Bedürfnis nach Inspiration",
+   "text": "In der Tradition bleibt die Vokalzahl 11 als Meisterzahl unreduziert; das ist eine Konvention, kein Urteil. Sie steht für ein inneres Bedürfnis nach Sinn, Inspiration und Kontakt mit Ideen, die etwas bewegen. Der Antrieb kann der Wunsch sein, dass das Leben eine Dimension jenseits des Alltags hat. Es lohnt sich zu prüfen, woraus du diese Inspiration schöpfst.",
+   "reflection": "Was hat dich in letzter Zeit wirklich inspiriert, und warum?"
+  },
+  "22": {
+   "title": "Ein Bedürfnis nach einem bleibenden Werk",
+   "text": "In dieser Konvention ist die Seelenzahl 22 eine der durch Konvention hervorgehobenen Meisterzahlen. Sie steht für eine innere Sehnsucht, etwas Bleibendes zu schaffen, das auch für andere Bedeutung hat. Der Antrieb kann das Bedürfnis sein, Träume mit praktischem Handeln zu verbinden. Es ist die Beschreibung eines Bedürfnisses, keine Pflicht, Großes zu leisten.",
+   "reflection": "Was möchtest du hinterlassen, im Großen oder im Kleinen?"
+  },
+  "33": {
+   "title": "Ein Bedürfnis, anderen zu dienen",
+   "text": "In der Tradition wird die Vokalzahl 33 oft als Meisterzahl hervorgehoben, was eine übliche Bezeichnung ist. Sie steht für einen inneren Antrieb, andere zu unterstützen, Spannungen zwischen Menschen zu lösen und Wärme weiterzugeben. Dieses Bedürfnis kann stark sein, darum erinnert die Tradition an das Gleichgewicht zwischen Geben und Ruhen. Überlege, wie du dieses Gleichgewicht pflegst.",
+   "reflection": "Woran erkennst du den Moment, in dem du zuerst für dich sorgen musst, bevor du für andere sorgst?"
+  }
+ },
+ "personality": {
+  "1": {
+   "title": "Ein Eindruck von Entschlossenheit",
+   "text": "Die Persönlichkeitszahl 1, errechnet aus den Konsonanten deines vollständigen Namens, beschreibt in der Tradition den ersten Eindruck, den du machen kannst. Sie steht für eine äußere Schicht, die mit Selbstvertrauen, Direktheit und Handlungsbereitschaft verbunden wird. Andere sehen in dir vielleicht jemanden, der weiß, was er will, auch wenn es innen manchmal anders ist. Es ist eine Beschreibung der Fassade, nicht des Ganzen.",
+   "reflection": "Stimmt das Bild, das neue Bekannte von dir haben, mit dem überein, wie du dich innerlich fühlst?"
+  },
+  "2": {
+   "title": "Ein Eindruck von Sanftheit",
+   "text": "In dieser Konvention steht die Persönlichkeitszahl 2 für das äußere Bild eines ruhigen, höflichen und zugänglichen Menschen. Der erste Eindruck kann Vertrauen wecken und andere ermutigen, sich zu öffnen. Die Tradition merkt an, dass diese Schicht oft als zart wahrgenommen wird, auch wenn sie nichts über innere Stärke sagt. Es lohnt sich, diese Beschreibung mit der Erfahrung zu vergleichen.",
+   "reflection": "Welche Worte hörst du am häufigsten, wenn Menschen dich nach einer ersten Begegnung beschreiben?"
+  },
+  "3": {
+   "title": "Ein Eindruck von Geselligkeit",
+   "text": "In der Tradition beschreibt die Persönlichkeitszahl 3 den ersten Eindruck eines fröhlichen, gesprächigen und farbenfrohen Menschen. Diese äußere Schicht kann Aufmerksamkeit wecken und es leichter machen, Bekanntschaften zu schließen. Die Symbolik der Drei legt nahe, dass andere vor allem deine Ausdruckskraft sehen, nicht unbedingt deine tieferen Erfahrungen. Es ist die Beschreibung eines Bildes, nicht des Inneren.",
+   "reflection": "Was zeigst du Menschen zu Beginn einer Bekanntschaft, und was offenbarst du erst später?"
+  },
+  "4": {
+   "title": "Ein Eindruck von Solidität",
+   "text": "Die Persönlichkeitszahl 4 steht für das äußere Bild eines sachlichen, organisierten und vertrauenswürdigen Menschen. Der erste Eindruck kann nahelegen, dass man sich auf dich verlassen kann. In dieser Konvention ist es eine Schicht, die mit Ernsthaftigkeit und Praxissinn verbunden wird, was Wärme und Humor nicht ausschließt. Prüfe, ob es bei dir so ist.",
+   "reflection": "Sind Menschen manchmal überrascht, wenn sie dich besser kennenlernen? Wovon?"
+  },
+  "5": {
+   "title": "Ein Eindruck von Energie",
+   "text": "In der Tradition beschreibt die Persönlichkeitszahl 5 den ersten Eindruck eines lebhaften, neugierigen und für Neues offenen Menschen. Diese äußere Schicht kann mit Bewegung, Leichtigkeit und Unbefangenheit im Gespräch mit ganz unterschiedlichen Menschen verbunden werden. Die Symbolik der Fünf spricht davon, wie man dich sieht, nicht davon, wer du als Ganzes bist. Es lohnt sich, das mit deinem eigenen Gefühl zu vergleichen.",
+   "reflection": "In welcher Umgebung hast du das Gefühl, dass dein Bild am besten zu dem passt, wer du bist?"
+  },
+  "6": {
+   "title": "Ein Eindruck von Güte",
+   "text": "In dieser Konvention steht die Persönlichkeitszahl 6 für das äußere Bild eines warmherzigen, fürsorglichen und verantwortungsvollen Menschen. Der erste Eindruck kann dazu führen, dass andere gern mit einer Bitte oder einem Anliegen zu dir kommen. Die Tradition fügt hinzu, dass es sich lohnt, dieses Bild durch klares Benennen deiner eigenen Grenzen auszugleichen. Es ist die Beschreibung einer äußeren Schicht, keine Verpflichtung.",
+   "reflection": "Wie reagierst du, wenn jemand Unterstützung von dir erwartet, für die du gerade keine Kraft hast?"
+  },
+  "7": {
+   "title": "Ein Eindruck von Zurückhaltung",
+   "text": "In der Tradition beschreibt die Persönlichkeitszahl 7 den ersten Eindruck eines ruhigen, nachdenklichen und etwas distanzierten Menschen. Diese äußere Schicht kann Neugier oder Respekt wecken, aber auch bedeuten, dass Menschen Zeit brauchen, um dich kennenzulernen. Die Symbolik der Sieben spricht nicht von Kälte, eher von Wählerischkeit darin, sich zu zeigen. Vergleiche das mit deiner eigenen Erfahrung.",
+   "reflection": "Wem und unter welchen Bedingungen lässt du dich näher kennenlernen?"
+  },
+  "8": {
+   "title": "Ein Eindruck von Autorität",
+   "text": "Die Persönlichkeitszahl 8 steht für das äußere Bild eines kompetenten, entschlossenen Menschen, der die Lage im Griff hat. Der erste Eindruck kann dazu führen, dass andere in dir jemanden sehen, der führen und entscheiden kann. In dieser Konvention ist es eine Schicht, die mit Stärke verbunden wird, was keinen Mangel an Feingefühl bedeuten muss. Es ist eine Beschreibung der Fassade; es lohnt sich zu prüfen, was dahinterliegt.",
+   "reflection": "Hat dir das Bild eines starken Menschen schon einmal geholfen, und stand es dir auch schon im Weg?"
+  },
+  "9": {
+   "title": "Ein Eindruck von Offenheit",
+   "text": "In der Tradition beschreibt die Persönlichkeitszahl 9 den ersten Eindruck eines toleranten, verständnisvollen und allen Menschen gegenüber freundlichen Menschen. Diese äußere Schicht kann es dir leicht machen, mit Menschen aus verschiedenen Lebenswelten in Kontakt zu kommen. Die Symbolik der Neun verbindet dieses Bild mit Großzügigkeit und einem weiten Blick. Es ist nur eine Beschreibung, die du in der Praxis prüfen kannst.",
+   "reflection": "Wodurch fühlen sich Menschen deiner Meinung nach in deiner Nähe wohl oder unwohl?"
+  },
+  "11": {
+   "title": "Ein Eindruck von Eigenheit",
+   "text": "In dieser Konvention bleibt die Persönlichkeitszahl 11 als Meisterzahl unreduziert; das ist eine übliche Bezeichnung der Tradition. Sie steht für den ersten Eindruck eines unverwechselbaren, empfindsamen und ein wenig anderen Menschen. Andere erinnern sich vielleicht schon nach einer Begegnung an dich, verstehen dich aber nicht immer sofort. Diese Bezeichnung sagt nichts über den Wert eines Menschen.",
+   "reflection": "Wodurch bleibst du Menschen in Erinnerung, und magst du das an dir?"
+  },
+  "22": {
+   "title": "Ein Eindruck von Praxissinn",
+   "text": "In der Tradition wird die Persönlichkeitszahl 22 oft als Meisterzahl hervorgehoben, was reine Konvention der Beschreibung ist. Sie steht für das äußere Bild eines ernsthaften, kompetenten und zu großen Vorhaben fähigen Menschen. Der erste Eindruck kann in praktischen Dingen Vertrauen wecken. Es ist eine Beschreibung der äußeren Schicht, keine Erwartung an dich.",
+   "reflection": "Spürst du manchmal Druck, dem Eindruck gerecht zu werden, den du auf andere machst?"
+  },
+  "33": {
+   "title": "Ein Eindruck von Wärme und Weisheit",
+   "text": "In der Tradition ist die Persönlichkeitszahl 33 eine der durch Konvention hervorgehobenen Meisterzahlen. Sie steht für den ersten Eindruck eines warmherzigen, geduldigen und hilfsbereiten Menschen, zu dem andere gern um Rat kommen. Dieses Bild kann Nähe einladen, darum erinnert die Tradition daran, auf die eigenen Grenzen zu achten. Es ist eine symbolische Beschreibung, keine Definition von dir.",
+   "reflection": "Wie zeigst du anderen, wann du Raum für dich brauchst?"
+  }
+ },
+ "personalYear": {
+  "1": {
+   "title": "Ein Jahr neuer Anfänge",
+   "text": "In der numerologischen Tradition ist das persönliche Jahr 1 der symbolische Beginn eines neuen Neunjahreszyklus. Du kannst es als Einladung verstehen zu überlegen, was du beginnen, welche Initiative du ergreifen oder welche Absicht du dir setzen möchtest. Es ist keine Vorhersage von Ereignissen, sondern ein vorgeschlagenes Thema für die kommenden Monate. Ob und wie du es aufgreifst, entscheidest du.",
+   "reflection": "Welche eine neue Absicht möchtest du in diesem Jahr säen?"
+  },
+  "2": {
+   "title": "Ein Jahr der Geduld und der Beziehungen",
+   "text": "In dieser Konvention steht das persönliche Jahr 2 für eine Zeit, das Gesäte zu pflegen und auf Beziehungen zu achten. Du kannst es als Ermutigung zu Zusammenarbeit, Gespräch und einem ruhigeren Tempo verstehen. Die Tradition verbindet dieses Jahr mit dem Reifen von Dingen, die sich nicht gern drängen lassen. Es ist ein Thema zum Nachdenken, keine Ankündigung von Ereignissen.",
+   "reflection": "Welcher Beziehung oder Zusammenarbeit möchtest du in diesem Jahr mehr Aufmerksamkeit schenken?"
+  },
+  "3": {
+   "title": "Ein Jahr des Ausdrucks",
+   "text": "In der Tradition ist das persönliche Jahr 3 eine Einladung zu Kreativität, Begegnungen und dazu, dich anderen mitzuteilen. Du kannst es als Gelegenheit verstehen, Freude, Leidenschaften und Kommunikation mehr Raum zu geben. Die Symbolik der Drei ermutigt zur Leichtigkeit, aber auch dazu, Ideen in eine fertige Form zu bringen. Was du von dieser Einladung annimmst, entscheidest du.",
+   "reflection": "Welche Art, dich auszudrücken, möchtest du in diesem Jahr entwickeln oder erneuern?"
+  },
+  "4": {
+   "title": "Ein Jahr des Ordnens",
+   "text": "In dieser Konvention steht das persönliche Jahr 4 für eine Zeit, Grundlagen zu bauen: Pläne, Gewohnheiten und Strukturen. Du kannst es als Ermutigung zu stetiger Arbeit verstehen, dazu, deine Angelegenheiten zu ordnen und für das zu sorgen, was dir Stabilität gibt. Die Tradition spricht hier nicht von einer Last, eher von der Zufriedenheit über ein solides Fundament. Es ist ein vorgeschlagenes Thema, keine Prognose.",
+   "reflection": "Was in deinem Leben möchte geordnet werden, und wo könntest du anfangen?"
+  },
+  "5": {
+   "title": "Ein Jahr der Bewegung",
+   "text": "In der Tradition wird das persönliche Jahr 5 mit Veränderung, Frische und der Erweiterung des Horizonts verbunden. Du kannst es als Einladung verstehen, etwas Neues auszuprobieren, andere Orte oder Menschen kennenzulernen, deine Gewohnheiten zu lüften. Die Symbolik ermutigt dich, Veränderungen bewusst zu wählen, nicht um der Veränderung willen. Es ist ein Thema zum Nachdenken, keine Ankündigung von Umbrüchen.",
+   "reflection": "Welche Gewohnheit würdest du gern auffrischen oder gegen etwas Neues tauschen?"
+  },
+  "6": {
+   "title": "Ein Jahr der Fürsorge und der Nähe",
+   "text": "In dieser Konvention steht das persönliche Jahr 6 für eine Zeit, die Aufmerksamkeit auf Zuhause, Liebste und die Qualität des Alltags zu richten. Du kannst es als Einladung verstehen, Bindungen zu pflegen, dich um deine Umgebung zu kümmern und auf deine Verpflichtungen zu schauen. Die Tradition erinnert daran, dass Fürsorge die Sorge um dich selbst einschließt. Worauf du dich konzentrierst, entscheidest du.",
+   "reflection": "Wie möchtest du in diesem Jahr für die Menschen und den Ort sorgen, die dir am nächsten sind, dich selbst eingeschlossen?"
+  },
+  "7": {
+   "title": "Ein Jahr der Besinnung",
+   "text": "In der Tradition ist das persönliche Jahr 7 eine Einladung zum Nachdenken, Lernen und dazu, dich in ruhigerem Tempo selbst zu betrachten. Du kannst es als Gelegenheit verstehen zu lesen, dich in ein Thema zu vertiefen oder Raum für Stille zu schaffen. Die Symbolik der Sieben ermutigt dazu, Fragen zu stellen, ohne Druck, schnell Antworten zu finden. Es ist ein vorgeschlagenes Thema, keine Vorhersage.",
+   "reflection": "Was möchtest du in diesem Jahr herausfinden oder lernen, nur für dich?"
+  },
+  "8": {
+   "title": "Ein Jahr der Tatkraft",
+   "text": "In dieser Konvention steht das persönliche Jahr 8 für eine Zeit, auf deine Ziele, deine Ressourcen und deinen Umgang damit zu schauen. Du kannst es als Ermutigung verstehen, Entscheidungen zu treffen, deine Finanzen zu ordnen oder die nächsten beruflichen Schritte zu planen. Die Tradition verspricht hier keinen Erfolg; eher legt sie das Thema der Verantwortung für das eigene Handeln nahe. Es ist eine Einladung zum Nachdenken.",
+   "reflection": "Welches Ziel möchtest du in diesem Jahr ernst nehmen, und woran merkst du, dass du ihm näherkommst?"
+  },
+  "9": {
+   "title": "Ein Jahr der Vollendung",
+   "text": "In der Tradition ist das persönliche Jahr 9 das symbolische Ende eines Neunjahreszyklus. Du kannst es als Einladung verstehen, Bilanz zu ziehen, Dinge abzuschließen und dich bewusst von dem zu verabschieden, was dir nicht mehr dient. Die Symbolik der Neun verbindet diese Zeit mit Dankbarkeit und damit, Platz für Neues zu schaffen. Es ist ein Thema zum Nachdenken, keine Ankündigung eines Verlusts.",
+   "reflection": "Was möchtest du in diesem Jahr mit Dankbarkeit abschließen, um Platz für Neues zu schaffen?"
+  }
+ },
+ "personalDay": {
+  "1": {
+   "title": "Ein Tag der Initiative",
+   "text": "Die Tageszahl 1 begünstigt Anfänge. Tu den ersten Schritt in einer Sache, die schon wartet; Mut und Entschlossenheit fallen heute leichter.",
+   "reflection": "Was kann ich heute beginnen, und sei es im Kleinen?"
+  },
+  "2": {
+   "title": "Ein Tag der Zusammenarbeit",
+   "text": "Die Tageszahl 2 ist eine Zeit für Beziehungen und Geduld. Hör zu, glätte Wogen, such Einigung: Nicht alles muss erkämpft werden.",
+   "reflection": "Mit wem lohnt es sich heute zu sprechen, ruhig und ohne Eile?"
+  },
+  "3": {
+   "title": "Ein Tag des Ausdrucks",
+   "text": "Die Tageszahl 3 begünstigt Gespräche, Kreativität und Freude. Zeig, was du denkst und fühlst; Leichtigkeit hilft mehr als Ernst.",
+   "reflection": "Wie kann ich mich heute ausdrücken?"
+  },
+  "4": {
+   "title": "Ein Tag des Ordnens",
+   "text": "Die Tageszahl 4 ist für Grundlagenarbeit da. Mach einen Plan, ordne die Dinge, kümmere dich um das Praktische; die Ergebnisse kommen später.",
+   "reflection": "Was verlangt heute Beständigkeit von mir?"
+  },
+  "5": {
+   "title": "Ein Tag der Veränderung",
+   "text": "Die Tageszahl 5 bringt Bewegung und Überraschungen. Sei beweglich und probier etwas Neues, aber tu nichts blindlings.",
+   "reflection": "Für welche Veränderung bin ich heute offen?"
+  },
+  "6": {
+   "title": "Ein Tag der Fürsorge",
+   "text": "Die Tageszahl 6 lenkt die Aufmerksamkeit auf Zuhause, Liebste und Verantwortung. Kümmere dich um jemanden – und um dich selbst.",
+   "reflection": "Wem, mich eingeschlossen, kann ich heute Fürsorge zeigen?"
+  },
+  "7": {
+   "title": "Ein Tag der Besinnung",
+   "text": "Die Tageszahl 7 begünstigt Stille, Lernen und Nachdenken. Weniger tun, mehr in dich hineinhören.",
+   "reflection": "Auf welche Frage suche ich heute in mir eine Antwort?"
+  },
+  "8": {
+   "title": "Ein Tag der Tatkraft",
+   "text": "Die Tageszahl 8 bringt die Energie von Handeln, Geld und Entscheidungen. Ein guter Tag für praktische Dinge und um Grenzen zu setzen.",
+   "reflection": "Welche Entscheidung kann ich heute aus einer Position der Stärke treffen?"
+  },
+  "9": {
+   "title": "Ein Tag der Vollendung",
+   "text": "Die Tageszahl 9 begünstigt Abschließen, Verzeihen und Aufräumen. Schließ eine Sache ab, um Platz für Neues zu schaffen.",
+   "reflection": "Was kann ich heute beenden oder loslassen?"
+  }
+ },
+ "relation": {
+  "1": {
+   "title": "Ein Paar von Anführern",
+   "text": "Beziehungszahl 1: zwei starke Persönlichkeiten, die gemeinsam viel anstoßen können. Die Herausforderung: nicht zu konkurrieren, sondern eine gemeinsame Richtung festzulegen.",
+   "reflection": "Wer von uns führt, und haben wir uns darauf verständigt?"
+  },
+  "2": {
+   "title": "Ein Paar von Partnern",
+   "text": "Beziehungszahl 2: Empfindsamkeit, Zärtlichkeit und ein Bedürfnis nach Nähe. Die Stärke ist das Verständnis; die Herausforderung sind Abhängigkeit und das Vermeiden von Konflikten.",
+   "reflection": "Sagen wir einander, was wir wirklich brauchen?"
+  },
+  "3": {
+   "title": "Ein Paar der Freude",
+   "text": "Beziehungszahl 3: viele Gespräche, Humor und gemeinsamer Spaß. Die Herausforderung: nicht vor schwierigen Themen in die Leichtigkeit zu flüchten.",
+   "reflection": "Worüber vermeiden wir, ernsthaft zu sprechen?"
+  },
+  "4": {
+   "title": "Ein Paar von Baumeistern",
+   "text": "Beziehungszahl 4: Stabilität, gemeinsame Pläne, ein Gefühl von Sicherheit. Die Herausforderung: eine Routine, die die Spontaneität dämpft.",
+   "reflection": "Was Neues könnten wir gemeinsam ausprobieren?"
+  },
+  "5": {
+   "title": "Ein Paar des Abenteuers",
+   "text": "Beziehungszahl 5: Bewegung, Veränderung, Freiheit und Leidenschaft. Die Herausforderung: Unbeständigkeit und das Bedürfnis nach ständiger Anregung.",
+   "reflection": "Wie viel Freiheit braucht jeder von uns?"
+  },
+  "6": {
+   "title": "Ein Paar von Fürsorgenden",
+   "text": "Beziehungszahl 6: Fürsorge, Zuhause, Familie und Verantwortung. Die Herausforderung: Selbstaufopferung und zu hohe Erwartungen.",
+   "reflection": "Sorgen wir für uns selbst so gut wie für andere?"
+  },
+  "7": {
+   "title": "Ein Paar von Suchenden",
+   "text": "Beziehungszahl 7: eine tiefe, nachdenkliche Verbindung und eine gemeinsame Suche nach Sinn. Die Herausforderung: Verschlossenheit und Unausgesprochenes.",
+   "reflection": "Was teilen wir miteinander nur in Gedanken?"
+  },
+  "8": {
+   "title": "Ein Paar der Stärke",
+   "text": "Beziehungszahl 8: Ehrgeiz, gemeinsame Ziele, materieller Erfolg. Die Herausforderung: ein Kampf um Kontrolle und das Vergessen der Zärtlichkeit.",
+   "reflection": "Gewinnen wir gemeinsam oder gegeneinander?"
+  },
+  "9": {
+   "title": "Ein Paar von Idealisten",
+   "text": "Beziehungszahl 9: Mitgefühl, weiter Horizont, gemeinsame Werte. Die Herausforderung: Ideale, die sich vom Alltag entfernen.",
+   "reflection": "Wie sehen unsere Werte an einem ganz gewöhnlichen Dienstag aus?"
+  }
+ },
+ "personalMonth": {
+  "1": {
+   "title": "Ein Monat des Beginnens",
+   "text": "Der persönliche Monat 1 begünstigt neue Projekte und Entscheidungen. Ein guter Moment, etwas zu beginnen, das du aufgeschoben hast; die Energie ist auf der Seite der Initiative.",
+   "reflection": "Was beginne ich in diesem Monat?"
+  },
+  "2": {
+   "title": "Ein Monat der Beziehungen",
+   "text": "Der persönliche Monat 2 lenkt die Aufmerksamkeit auf Zusammenarbeit und Geduld. Die Dinge reifen langsamer, aber Beziehungen können sich vertiefen.",
+   "reflection": "Mit wem möchte ich mich in diesem Monat besser verstehen?"
+  },
+  "3": {
+   "title": "Ein Monat des Ausdrucks",
+   "text": "Der persönliche Monat 3 ist eine Zeit für Begegnungen, Kreativität und Freude. Es fällt leichter, über dich zu sprechen und Ideen zu teilen.",
+   "reflection": "Wie möchte ich mich in diesem Monat ausdrücken?"
+  },
+  "4": {
+   "title": "Ein Monat der Arbeit",
+   "text": "Der persönliche Monat 4 bedeutet Aufräumen, Pläne und stetige Arbeit. Weniger Feuerwerk, mehr solides Fundament.",
+   "reflection": "Was baue ich Schritt für Schritt auf?"
+  },
+  "5": {
+   "title": "Ein Monat der Veränderung",
+   "text": "Der persönliche Monat 5 bringt Bewegung, Neues und Überraschungen. Eine gute Zeit für Reisen, Lernen und Beweglichkeit.",
+   "reflection": "Für welche Veränderung öffne ich mich?"
+  },
+  "6": {
+   "title": "Ein Monat des Zuhauses",
+   "text": "Im persönlichen Monat 6 geht es um Zuhause, Liebste und Verantwortung. Mehr Fürsorge, auch für dich selbst.",
+   "reflection": "Wie sorge ich für meine Liebsten und für mich?"
+  },
+  "7": {
+   "title": "Ein Monat der Besinnung",
+   "text": "Der persönliche Monat 7 begünstigt Stille, Lernen und Nachdenken. Antworten kommen eher in der Ruhe als im Laufen.",
+   "reflection": "Was möchte ich über mich herausfinden?"
+  },
+  "8": {
+   "title": "Ein Monat der Tatkraft",
+   "text": "Der persönliche Monat 8 begünstigt das Konkrete: Arbeit, Geld und Entscheidungen. Eine gute Zeit, die Dinge selbst in die Hand zu nehmen.",
+   "reflection": "Welches konkrete Ziel erreiche ich?"
+  },
+  "9": {
+   "title": "Ein Monat der Vollendung",
+   "text": "Im persönlichen Monat 9 geht es darum, Bilanz zu ziehen und Dinge abzuschließen. Schaff Platz für Neues; bald beginnt ein weiterer Zyklus.",
+   "reflection": "Was bringe ich in diesem Monat zu Ende?"
+  }
+ },
+ "maturity": {
+  "1": {
+   "title": "Die Reife der Unabhängigkeit",
+   "text": "Mit den Jahren brauchst du immer mehr Unabhängigkeit und einen eigenen Weg. Die zweite Lebenshälfte begünstigt Führung und Mut.",
+   "reflection": "Wo möchte ich unabhängiger sein?"
+  },
+  "2": {
+   "title": "Die Reife der Partnerschaft",
+   "text": "Mit der Zeit gewinnen Beziehungen, Zusammenarbeit und Sanftheit an Wert. Die Reife bringt die Fähigkeit, Menschen zusammenzubringen.",
+   "reflection": "Welche Beziehungen möchte ich künftig pflegen?"
+  },
+  "3": {
+   "title": "Die schöpferische Reife",
+   "text": "Mit den Jahren fällt es leichter, dich auszudrücken: durch Worte, Kunst, Humor. Die Reife begünstigt Freude und den Kontakt mit anderen.",
+   "reflection": "Wie möchte ich in den kommenden Jahren schöpferisch sein?"
+  },
+  "4": {
+   "title": "Die Reife des Baumeisters",
+   "text": "Mit den Jahren schätzt du Stabilität und Ordnung. Die Reife bringt die bleibenden Ergebnisse geduldiger Arbeit.",
+   "reflection": "Was Bleibendes möchte ich hinterlassen?"
+  },
+  "5": {
+   "title": "Die Reife der Freiheit",
+   "text": "Mit den Jahren sehnst du dich eher nach Bewegung, Abenteuer und Veränderung als nach Ruhe. Die Reife ist eine Zeit, die Welt neu zu entdecken.",
+   "reflection": "Was möchte ich noch sehen und erleben?"
+  },
+  "6": {
+   "title": "Die Reife der Fürsorge",
+   "text": "Mit den Jahren werden Familie, Zuhause und die Sorge um andere immer wichtiger. Die Reife bringt die Rolle einer Stütze für deine Liebsten.",
+   "reflection": "Für wen möchte ich eine Stütze sein?"
+  },
+  "7": {
+   "title": "Die Reife des Weisen",
+   "text": "Mit den Jahren wächst das Bedürfnis nach Verstehen, Lernen und Spiritualität. Die Reife begünstigt tiefe Fragen.",
+   "reflection": "Welcher Frage möchte ich nachgehen?"
+  },
+  "8": {
+   "title": "Die Reife der Tatkraft",
+   "text": "Mit den Jahren kommen Einfluss, Verantwortung und die Fähigkeit zu lenken. Die Reife begünstigt das Verwirklichen deiner Ambitionen.",
+   "reflection": "Welchen Einfluss möchte ich auf die Welt haben?"
+  },
+  "9": {
+   "title": "Die Reife des Humanisten",
+   "text": "Mit den Jahren werden das Gemeinwohl und das Teilen von Erfahrung immer wichtiger. Die Reife bringt einen weiten Blick.",
+   "reflection": "Was möchte ich mit anderen teilen?"
+  },
+  "11": {
+   "title": "Die Reife der Inspiration",
+   "text": "Meisterzahl 11: Mit den Jahren wachsen Intuition und die Fähigkeit, andere zu inspirieren. Wichtig ist, auf deine Empfindsamkeit zu achten.",
+   "reflection": "Wen möchte ich inspirieren, und womit?"
+  },
+  "22": {
+   "title": "Die Reife der großen Pläne",
+   "text": "Meisterzahl 22: Die Reife kann Projekte bringen, die vielen Menschen dienen. Das braucht Geduld und Realismus.",
+   "reflection": "Welchen großen Plan möchte ich in etwas Konkretes verwandeln?"
+  },
+  "33": {
+   "title": "Die Reife des Lehrers",
+   "text": "Meisterzahl 33: Mit den Jahren kommt das Bedürfnis, andere zu lehren und zu unterstützen. Denk auch an deine eigenen Grenzen.",
+   "reflection": "Was möchte ich anderen beibringen?"
+  }
+ },
+ "house": {
+  "1": {
+   "title": "Ein Haus der Unabhängigkeit",
+   "text": "Ein Ort, der Unabhängigkeit und Neuanfänge begünstigt; gut für Menschen, die etwas Eigenes beginnen.",
+   "reflection": "Was Neues möchte ich hier beginnen?"
+  },
+  "2": {
+   "title": "Ein Haus der Partnerschaft",
+   "text": "Ein Ort, der Nähe, Ruhe und das Leben zu zweit begünstigt.",
+   "reflection": "Wie sorgen wir hier füreinander?"
+  },
+  "3": {
+   "title": "Ein Haus der Begegnungen",
+   "text": "Ein Ort voller Gespräche, Gäste und Kreativität; hier ist es selten still.",
+   "reflection": "Wen möchte ich hier öfter willkommen heißen?"
+  },
+  "4": {
+   "title": "Ein Haus der Stabilität",
+   "text": "Ein Ort, der Ordnung, Arbeit und ein Gefühl von Sicherheit begünstigt.",
+   "reflection": "Was gibt mir hier ein Gefühl von Sicherheit?"
+  },
+  "5": {
+   "title": "Ein Haus der Bewegung",
+   "text": "Ein Ort der Veränderung, des Reisens und ständiger Bewegung; hier wird es kaum langweilig.",
+   "reflection": "Wie viel Veränderung brauche ich in meiner Umgebung?"
+  },
+  "6": {
+   "title": "Ein Familienhaus",
+   "text": "Ein Ort der Fürsorge, Wärme und Familie; ein gutes Zuhause für Kinder und Tiere.",
+   "reflection": "Wie schaffe ich hier eine warme Atmosphäre?"
+  },
+  "7": {
+   "title": "Ein Haus der Stille",
+   "text": "Ein Ort, der Ruhe, Lernen und Meditation begünstigt.",
+   "reflection": "Wo ist hier meine stille Ecke?"
+  },
+  "8": {
+   "title": "Ein Haus des Erfolgs",
+   "text": "Ein Ort, der Arbeit, Ehrgeiz und finanzielle Angelegenheiten begünstigt.",
+   "reflection": "Wie unterstützt dieser Ort meine Ziele?"
+  },
+  "9": {
+   "title": "Ein offenes Haus",
+   "text": "Ein gastfreundlicher Ort, offen für andere und für Hilfe.",
+   "reflection": "Wem möchte ich hier Obdach geben?"
+  }
+ }
+}

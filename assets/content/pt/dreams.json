@@ -1,0 +1,722 @@
+[
+ {
+  "symbol": "Ente querido que já partiu",
+  "meaning": "Saudade, lembrança, uma conversa que ficou inacabada.",
+  "reflection": "O que você quer dizer a essa pessoa?"
+ },
+ {
+  "symbol": "Avião",
+  "meaning": "Ambições, mudanças rápidas, metas distantes.",
+  "reflection": "Para onde você quer voar?"
+ },
+ {
+  "symbol": "Anjo",
+  "meaning": "Necessidade de cuidado e apoio, ou a sensação de que alguém olha por você.",
+  "reflection": "De quem ou do quê você gostaria de receber apoio hoje?"
+ },
+ {
+  "symbol": "Animais",
+  "meaning": "Os instintos e as qualidades que você carrega dentro de si.",
+  "reflection": "Com qual animal você sonhou, e o que o distingue?"
+ },
+ {
+  "symbol": "Maçã",
+  "meaning": "Tentação, conhecimento, saúde, o fruto do seu trabalho.",
+  "reflection": "Que frutos você colhe dos seus esforços?"
+ },
+ {
+  "symbol": "Discussão",
+  "meaning": "Uma tensão que não foi dita em voz alta na vida desperta.",
+  "reflection": "O que você quer dizer a alguém?"
+ },
+ {
+  "symbol": "Bebê no colo",
+  "meaning": "Responsabilidade por algo novo e delicado.",
+  "reflection": "De que você está cuidando hoje?"
+ },
+ {
+  "symbol": "Bolsa / mala",
+  "meaning": "A bagagem da experiência; o que você leva consigo.",
+  "reflection": "O que você pode finalmente largar?"
+ },
+ {
+  "symbol": "Sacada",
+  "meaning": "Uma vista de longe; o desejo de se mostrar ao mundo.",
+  "reflection": "O que você quer ver de mais longe?"
+ },
+ {
+  "symbol": "Banco",
+  "meaning": "Recursos, segurança, cuidado com o que você construiu.",
+  "reflection": "Em que se apoia a sua sensação de segurança?"
+ },
+ {
+  "symbol": "Banho",
+  "meaning": "Purificação, recuperação, cuidado consigo mesmo.",
+  "reflection": "Como você pode cuidar de si?"
+ },
+ {
+  "symbol": "Batalha",
+  "meaning": "Um conflito interno ou uma disputa em que você está envolvido.",
+  "reflection": "Pelo que você realmente está lutando?"
+ },
+ {
+  "symbol": "Praia",
+  "meaning": "Descanso; a fronteira entre a terra firme e a emoção.",
+  "reflection": "Quando você vai se permitir descansar?"
+ },
+ {
+  "symbol": "Colmeia / abelhas",
+  "meaning": "Dedicação ao trabalho, comunidade, cooperação frutífera.",
+  "reflection": "Com quem você forma uma boa equipe?"
+ },
+ {
+  "symbol": "Ser perseguido",
+  "meaning": "Evitar algo que, mesmo assim, alcança você.",
+  "reflection": "O que aconteceria se você se virasse e enfrentasse?"
+ },
+ {
+  "symbol": "Traição",
+  "meaning": "Medo de perder a confiança; incerteza em uma relação.",
+  "reflection": "Em quem você confia, e confia também em si?"
+ },
+ {
+  "symbol": "Bicicleta",
+  "meaning": "Equilíbrio, mover-se com a própria força, esforço.",
+  "reflection": "Onde você precisa encontrar o seu equilíbrio?"
+ },
+ {
+  "symbol": "Pássaro",
+  "meaning": "Liberdade, uma mensagem, aspirações espirituais.",
+  "reflection": "Que mensagem você quer enviar ou receber?"
+ },
+ {
+  "symbol": "Mordida",
+  "meaning": "Ser ferido por palavras; a sensação de estar sendo atacado.",
+  "reflection": "Quem ou o que feriu você ultimamente?"
+ },
+ {
+  "symbol": "Gato preto",
+  "meaning": "Superstição e medo de azar, ou independência e mistério.",
+  "reflection": "Do que você tem medo sem uma razão clara?"
+ },
+ {
+  "symbol": "Sangue",
+  "meaning": "Força vital, laços de família, perda de energia.",
+  "reflection": "O que está drenando as suas forças?"
+ },
+ {
+  "symbol": "Barco",
+  "meaning": "Uma viagem pelas emoções; a travessia para a outra margem.",
+  "reflection": "Para onde você está navegando?"
+ },
+ {
+  "symbol": "Garrafa",
+  "meaning": "Emoções guardadas e trancadas; uma mensagem a ser transmitida.",
+  "reflection": "O que você mantém tampado?"
+ },
+ {
+  "symbol": "Ponte",
+  "meaning": "Uma travessia, um entendimento, a união de dois mundos.",
+  "reflection": "Que duas coisas você quer reunir?"
+ },
+ {
+  "symbol": "Irmão",
+  "meaning": "Rivalidade, solidariedade, ou uma qualidade que você vê nele.",
+  "reflection": "Qual qualidade dele você reconhece em si?"
+ },
+ {
+  "symbol": "Ônibus",
+  "meaning": "Uma viagem compartilhada com outros; viver segundo o horário de outra pessoa.",
+  "reflection": "Você está indo aonde quer ir ou aonde todo mundo está indo?"
+ },
+ {
+  "symbol": "Borboleta",
+  "meaning": "Transformação, leveza, a beleza dos momentos passageiros.",
+  "reflection": "Que transformação você está vivendo?"
+ },
+ {
+  "symbol": "Carro",
+  "meaning": "O controle sobre a direção da sua vida.",
+  "reflection": "Quem está dirigindo: você ou outra pessoa?"
+ },
+ {
+  "symbol": "Castelo",
+  "meaning": "Uma fortaleza, uma sensação de segurança, ou isolamento.",
+  "reflection": "Do que você está se defendendo?"
+ },
+ {
+  "symbol": "Gato",
+  "meaning": "Independência, intuição, feminilidade, mistério.",
+  "reflection": "Onde você precisa de mais independência?"
+ },
+ {
+  "symbol": "Cemitério",
+  "meaning": "Capítulos encerrados, memória, despedida.",
+  "reflection": "O que já terminou e pode descansar em paz?"
+ },
+ {
+  "symbol": "Queijo",
+  "meaning": "Tentação, recompensa, um pequeno prazer.",
+  "reflection": "O que você está com vontade de ter?"
+ },
+ {
+  "symbol": "Criança",
+  "meaning": "Um novo começo, inocência, ou a sua criança interior.",
+  "reflection": "De que a sua criança interior precisa hoje?"
+ },
+ {
+  "symbol": "Igreja / templo",
+  "meaning": "Espiritualidade, consciência, valores.",
+  "reflection": "O que é sagrado para você?"
+ },
+ {
+  "symbol": "Cidade",
+  "meaning": "Sociedade, agitação, oportunidade e anonimato.",
+  "reflection": "Onde está o seu lugar na multidão?"
+ },
+ {
+  "symbol": "Relógio",
+  "meaning": "A passagem do tempo, prazos, pressão.",
+  "reflection": "Para o que já está mais que na hora?"
+ },
+ {
+  "symbol": "Caixão",
+  "meaning": "Um assunto encerrado, uma despedida, medo do fim.",
+  "reflection": "O que você quer encerrar com dignidade?"
+ },
+ {
+  "symbol": "Coroa",
+  "meaning": "Poder, reconhecimento, responsabilidade.",
+  "reflection": "Onde você quer se sentir rei ou rainha?"
+ },
+ {
+  "symbol": "Dançar",
+  "meaning": "Alegria, harmonia, o corpo se expressando.",
+  "reflection": "Quando foi a última vez que você se permitiu a alegria?"
+ },
+ {
+  "symbol": "Escuridão",
+  "meaning": "O desconhecido, o medo, ou um espaço que você ainda não compreende.",
+  "reflection": "O que você ainda não quer ver?"
+ },
+ {
+  "symbol": "Filha",
+  "meaning": "O seu lado mais jovem e sensível, ou o cuidado com o futuro.",
+  "reflection": "De que você está cuidando?"
+ },
+ {
+  "symbol": "Morte",
+  "meaning": "O fim de uma etapa e o começo de outra; raramente é literal.",
+  "reflection": "O que está terminando na sua vida?"
+ },
+ {
+  "symbol": "Deserto",
+  "meaning": "Solidão e aridez, mas também purificação.",
+  "reflection": "Do que você sente falta, como de água no deserto?"
+ },
+ {
+  "symbol": "Sujeira",
+  "meaning": "Algo que você considera desarrumado ou vergonhoso.",
+  "reflection": "O que você quer tirar da sua vida?"
+ },
+ {
+  "symbol": "Cachorro",
+  "meaning": "Lealdade, amizade, o instinto de proteger.",
+  "reflection": "A quem você é leal, e quem é leal a você?"
+ },
+ {
+  "symbol": "Porta",
+  "meaning": "Uma nova oportunidade, uma escolha, uma passagem.",
+  "reflection": "Que porta você quer abrir, e qual quer fechar?"
+ },
+ {
+  "symbol": "Afogamento",
+  "meaning": "Ser tomado pelas emoções ou pelas obrigações.",
+  "reflection": "O que está sufocando você?"
+ },
+ {
+  "symbol": "Pato",
+  "meaning": "Mover-se livremente entre mundos; leveza.",
+  "reflection": "Onde você precisa de mais leveza?"
+ },
+ {
+  "symbol": "Ovo",
+  "meaning": "Potencial, um começo, algo frágil que precisa de proteção.",
+  "reflection": "Que coisa frágil e promissora você está protegendo?"
+ },
+ {
+  "symbol": "Ex-parceiro",
+  "meaning": "Assuntos inacabados, ou uma qualidade que você procura.",
+  "reflection": "O que essa relação lhe ensinou?"
+ },
+ {
+  "symbol": "Prova",
+  "meaning": "Ser julgado, medo de fracassar, pôr-se à prova.",
+  "reflection": "Quem realmente julga você: os outros ou você mesmo?"
+ },
+ {
+  "symbol": "Queda",
+  "meaning": "Perda de controle, insegurança, medo de falhar.",
+  "reflection": "Onde você está perdendo o chão?"
+ },
+ {
+  "symbol": "Família",
+  "meaning": "Raízes, laços, os padrões que você carrega.",
+  "reflection": "Que padrão da família você está repetindo?"
+ },
+ {
+  "symbol": "Pai",
+  "meaning": "Autoridade, regras, proteção, ou a falta delas.",
+  "reflection": "A aprovação de quem você ainda procura?"
+ },
+ {
+  "symbol": "Fogo",
+  "meaning": "Paixão, raiva, transformação, purificação.",
+  "reflection": "O que está queimando em você?"
+ },
+ {
+  "symbol": "Peixe",
+  "meaning": "Intuição, fertilidade, abundância, profundidade.",
+  "reflection": "O que você está pescando do seu subconsciente?"
+ },
+ {
+  "symbol": "Flores",
+  "meaning": "Florescimento, beleza, gratidão, sentimentos.",
+  "reflection": "O que está florescendo na sua vida?"
+ },
+ {
+  "symbol": "Voar",
+  "meaning": "Liberdade, romper limites, ambição.",
+  "reflection": "De que você quer se libertar?"
+ },
+ {
+  "symbol": "Floresta",
+  "meaning": "O desconhecido, a natureza, a intuição, às vezes estar perdido.",
+  "reflection": "O que você procura no fundo da floresta?"
+ },
+ {
+  "symbol": "Floresta à noite",
+  "meaning": "Medo do desconhecido, mas também intuição.",
+  "reflection": "Em que você confia quando não consegue ver nada?"
+ },
+ {
+  "symbol": "Sapo",
+  "meaning": "Transformação, purificação, uma beleza que não é óbvia.",
+  "reflection": "O que em você ainda pode se transformar?"
+ },
+ {
+  "symbol": "Funeral",
+  "meaning": "O fim de uma etapa; a despedida de algo antigo.",
+  "reflection": "O que está pronto para partir?"
+ },
+ {
+  "symbol": "Jardim",
+  "meaning": "A sua vida como um espaço a ser cultivado.",
+  "reflection": "O que no seu jardim precisa de atenção hoje?"
+ },
+ {
+  "symbol": "Estar perdido",
+  "meaning": "Falta de direção; incerteza sobre uma escolha.",
+  "reflection": "Que caminho você está procurando?"
+ },
+ {
+  "symbol": "Presente",
+  "meaning": "Uma surpresa, reconhecimento, um talento.",
+  "reflection": "Que dom você está descobrindo em si?"
+ },
+ {
+  "symbol": "Ouro",
+  "meaning": "Valor, sucesso, o que há de precioso em você.",
+  "reflection": "Qual é o seu ouro?"
+ },
+ {
+  "symbol": "Avó",
+  "meaning": "Sabedoria da família, carinho, tradição, ou saudade da simplicidade.",
+  "reflection": "Que conselho a sua avó lhe daria agora?"
+ },
+ {
+  "symbol": "Cabelo",
+  "meaning": "Força, identidade, imagem.",
+  "reflection": "O que você quer mudar na forma como se apresenta?"
+ },
+ {
+  "symbol": "Coração",
+  "meaning": "Sentimentos, amor, coragem.",
+  "reflection": "O que o seu coração realmente deseja?"
+ },
+ {
+  "symbol": "Férias",
+  "meaning": "Necessidade de descanso e de liberdade.",
+  "reflection": "Quando você vai planejar uma pausa de verdade?"
+ },
+ {
+  "symbol": "Estar sem casa",
+  "meaning": "Falta de apoio; a sensação de não ter um lugar seu.",
+  "reflection": "Onde você realmente se sente em casa?"
+ },
+ {
+  "symbol": "Mel",
+  "meaning": "Doçura, a recompensa do trabalho, ternura.",
+  "reflection": "Qual é a sua doce recompensa?"
+ },
+ {
+  "symbol": "Cavalo",
+  "meaning": "Força, energia, liberdade, impulso para a frente.",
+  "reflection": "Para onde a sua energia está levando você?"
+ },
+ {
+  "symbol": "Hospital",
+  "meaning": "Necessidade de recuperação, cuidado, cura.",
+  "reflection": "Do que você precisa para melhorar?"
+ },
+ {
+  "symbol": "Casa",
+  "meaning": "Você mesmo: os diferentes cômodos são diferentes partes da sua vida.",
+  "reflection": "Qual cômodo dessa casa você visita menos?"
+ },
+ {
+  "symbol": "Incêndio em casa",
+  "meaning": "Emoções violentas, uma crise ou uma transformação.",
+  "reflection": "O que precisa de atenção urgente?"
+ },
+ {
+  "symbol": "Fome",
+  "meaning": "Uma necessidade não atendida, e não só física.",
+  "reflection": "Do que você tem fome na vida?"
+ },
+ {
+  "symbol": "Gelo",
+  "meaning": "Sentimentos congelados, frieza em uma relação, estagnação.",
+  "reflection": "O que congelou em você?"
+ },
+ {
+  "symbol": "Chave",
+  "meaning": "Uma solução, acesso, a revelação de um segredo.",
+  "reflection": "Para o que você procura a chave?"
+ },
+ {
+  "symbol": "Beijo",
+  "meaning": "Proximidade, aceitação, ligação.",
+  "reflection": "De quem ou do quê você quer se aproximar?"
+ },
+ {
+  "symbol": "Faca",
+  "meaning": "Cortar, uma decisão, palavras duras ou conflito.",
+  "reflection": "O que você quer cortar?"
+ },
+ {
+  "symbol": "Escada",
+  "meaning": "Ascensão, etapas sucessivas, subir em direção a uma meta.",
+  "reflection": "A que degrau você quer chegar?"
+ },
+ {
+  "symbol": "Lago",
+  "meaning": "Calma, profundidade de sentimento, um reflexo de si mesmo.",
+  "reflection": "O que você vê ao olhar fundo dentro de si?"
+ },
+ {
+  "symbol": "Elevador",
+  "meaning": "Subidas e descidas rápidas; mudança de nível.",
+  "reflection": "Para onde você está indo: para cima ou para baixo?"
+ },
+ {
+  "symbol": "Objeto perdido",
+  "meaning": "A perda de algo importante: uma coisa, uma relação, uma parte de si.",
+  "reflection": "Do que você sente falta?"
+ },
+ {
+  "symbol": "Labirinto",
+  "meaning": "Estar perdido, procurar o caminho, uma situação complicada.",
+  "reflection": "Que saída você está procurando?"
+ },
+ {
+  "symbol": "Espelho",
+  "meaning": "Autoestima, a verdade sobre si, o modo como você se vê.",
+  "reflection": "O que você vê no espelho, e o que quer ver?"
+ },
+ {
+  "symbol": "Dinheiro",
+  "meaning": "Valor, energia, valor próprio.",
+  "reflection": "Quanto você acha que vale?"
+ },
+ {
+  "symbol": "Lua",
+  "meaning": "Intuição, ciclos, o feminino, emoções escondidas.",
+  "reflection": "O que você sente, mas não diz?"
+ },
+ {
+  "symbol": "Mãe",
+  "meaning": "Cuidado, segurança, a origem, ou a falta disso.",
+  "reflection": "Como você pode se cercar de cuidado hoje?"
+ },
+ {
+  "symbol": "Montanha",
+  "meaning": "Um desafio, uma meta, um obstáculo ou uma visão mais ampla.",
+  "reflection": "Qual montanha você está escalando?"
+ },
+ {
+  "symbol": "Rato",
+  "meaning": "Pequenas preocupações, timidez, assuntos escondidos.",
+  "reflection": "Qual pequena preocupação cresceu na sua mente?"
+ },
+ {
+  "symbol": "Lama",
+  "meaning": "Estar preso; a sensação de que tudo gruda e desacelera.",
+  "reflection": "O que está atrasando você agora?"
+ },
+ {
+  "symbol": "Cogumelos",
+  "meaning": "Algo que cresce longe das vistas; um presente da natureza, ou um pedido de cautela.",
+  "reflection": "O que está amadurecendo em silêncio?"
+ },
+ {
+  "symbol": "Nudez",
+  "meaning": "Exposição, vulnerabilidade, medo de ser julgado.",
+  "reflection": "Onde você se sente exposto demais?"
+ },
+ {
+  "symbol": "Oceano",
+  "meaning": "Uma imensidão de emoções e possibilidades.",
+  "reflection": "Nessa imensidão, você se sente livre ou perdido?"
+ },
+ {
+  "symbol": "Coruja",
+  "meaning": "Sabedoria, intuição, enxergar no escuro.",
+  "reflection": "O que você já sabe, embora ainda não tenha admitido?"
+ },
+ {
+  "symbol": "Gravidez",
+  "meaning": "Uma ideia, um plano ou uma mudança que amadurece e cresce.",
+  "reflection": "O que está amadurecendo em você?"
+ },
+ {
+  "symbol": "Fila",
+  "meaning": "Esperar a sua vez; paciência.",
+  "reflection": "O que você está esperando?"
+ },
+ {
+  "symbol": "Chuva",
+  "meaning": "Purificação, tristeza, ou alimento depois de uma seca.",
+  "reflection": "O que você quer lavar de si?"
+ },
+ {
+  "symbol": "Arco-íris",
+  "meaning": "Esperança depois de um tempo difícil; uma promessa.",
+  "reflection": "O que de bom veio depois da tempestade?"
+ },
+ {
+  "symbol": "Ratazana",
+  "meaning": "Inquietação, pequenas traições, ou engenhosidade.",
+  "reflection": "O que está corroendo você?"
+ },
+ {
+  "symbol": "Rio",
+  "meaning": "A passagem do tempo, a transitoriedade, a correnteza da vida.",
+  "reflection": "Você vai a favor da correnteza ou contra ela?"
+ },
+ {
+  "symbol": "Rosa",
+  "meaning": "Amor e beleza, mas também espinhos.",
+  "reflection": "Que espinhos tem aquilo que você ama?"
+ },
+ {
+  "symbol": "Fugir",
+  "meaning": "Evitar um problema ou uma emoção.",
+  "reflection": "Do que você está fugindo?"
+ },
+ {
+  "symbol": "Escola",
+  "meaning": "Aprender, ser avaliado, velhos padrões e lições.",
+  "reflection": "Que lição você ainda está aprendendo?"
+ },
+ {
+  "symbol": "Grito",
+  "meaning": "Emoções não ditas; a necessidade de ser ouvido.",
+  "reflection": "O que você quer gritar?"
+ },
+ {
+  "symbol": "Mar",
+  "meaning": "A vastidão do sentimento, o inconsciente, possibilidades infinitas.",
+  "reflection": "Quão profundos são os seus sentimentos sobre isso?"
+ },
+ {
+  "symbol": "Sapatos",
+  "meaning": "O caminho que você percorre e o seu lugar no mundo.",
+  "reflection": "Os seus sapatos, o seu papel, servem bem em você?"
+ },
+ {
+  "symbol": "Irmã",
+  "meaning": "Proximidade, rivalidade, ou uma qualidade que você vê nela.",
+  "reflection": "O que liga você às pessoas que são tão próximas quanto irmãos?"
+ },
+ {
+  "symbol": "Céu",
+  "meaning": "Esperança, espaço, espiritualidade.",
+  "reflection": "O que você quer da vida quando não há limites?"
+ },
+ {
+  "symbol": "Paralisia do sono / não conseguir se mover",
+  "meaning": "Impotência diante de algo. Fisiologicamente comum ao acordar.",
+  "reflection": "Onde você sente que tem as mãos atadas?"
+ },
+ {
+  "symbol": "Cobra",
+  "meaning": "Transformação, renovação, medo ou sabedoria escondidos.",
+  "reflection": "De qual pele você está pronto para se desfazer?"
+ },
+ {
+  "symbol": "Neve",
+  "meaning": "Silêncio, pureza, quietude, frio.",
+  "reflection": "Onde você precisa de silêncio?"
+ },
+ {
+  "symbol": "Aranha",
+  "meaning": "Paciência, tecer uma teia, às vezes a sensação de estar preso.",
+  "reflection": "Em qual teia você está preso, ou qual está tecendo?"
+ },
+ {
+  "symbol": "Estrelas",
+  "meaning": "Sonhos, esperança, orientação.",
+  "reflection": "Do que você tem saudade?"
+ },
+ {
+  "symbol": "Pedra",
+  "meaning": "Permanência, um peso, ou um coração endurecido.",
+  "reflection": "O que pesa em você como uma pedra?"
+ },
+ {
+  "symbol": "Cegonha",
+  "meaning": "Vida nova, um novo projeto ou notícia de uma mudança.",
+  "reflection": "O que de novo quer nascer em você?"
+ },
+ {
+  "symbol": "Tempestade",
+  "meaning": "Tensão acumulada procurando uma saída.",
+  "reflection": "Quais emoções estão esperando para ser expressas?"
+ },
+ {
+  "symbol": "Sol",
+  "meaning": "Alegria, energia, clareza, sucesso.",
+  "reflection": "O que dá luz a você?"
+ },
+ {
+  "symbol": "Doces",
+  "meaning": "Prazer, recompensa, às vezes uma fuga do que é difícil.",
+  "reflection": "Como você está se recompensando hoje?"
+ },
+ {
+  "symbol": "Balanço",
+  "meaning": "Oscilações de humor; um retorno à infância.",
+  "reflection": "Entre o que você está oscilando?"
+ },
+ {
+  "symbol": "Chá",
+  "meaning": "Uma pausa, conforto, uma conversa com pessoas próximas.",
+  "reflection": "Quando foi a última vez que você descansou de verdade?"
+ },
+ {
+  "symbol": "Lágrimas",
+  "meaning": "Alívio, tristeza, purificação.",
+  "reflection": "O que está pedindo para ser chorado?"
+ },
+ {
+  "symbol": "Dentes caindo",
+  "meaning": "Medo de perda, do envelhecimento, de perder a sua imagem; um dos sonhos mais comuns.",
+  "reflection": "O que você tem medo de perder?"
+ },
+ {
+  "symbol": "Telefone",
+  "meaning": "Comunicação, uma mensagem, contato com alguém.",
+  "reflection": "Para quem você quer ligar?"
+ },
+ {
+  "symbol": "Tempo (estar atrasado)",
+  "meaning": "Pressão; a sensação de que algo está escapando de você.",
+  "reflection": "Do que você realmente não tem tempo?"
+ },
+ {
+  "symbol": "Tartaruga",
+  "meaning": "Paciência, progresso lento, proteção.",
+  "reflection": "Onde vale a pena desacelerar?"
+ },
+ {
+  "symbol": "Trem",
+  "meaning": "O rumo da sua vida, um horário, um trilho difícil de deixar.",
+  "reflection": "Você está embarcando no trem certo?"
+ },
+ {
+  "symbol": "Tesouro",
+  "meaning": "Valor escondido, um talento, uma descoberta.",
+  "reflection": "Que tesouro você carrega dentro de si?"
+ },
+ {
+  "symbol": "Árvore",
+  "meaning": "Crescimento, raízes, família, estabilidade.",
+  "reflection": "De onde você tira força, como uma árvore das raízes?"
+ },
+ {
+  "symbol": "Muro",
+  "meaning": "Um obstáculo, um limite, proteção.",
+  "reflection": "O que bloqueia você, e é uma proteção ou uma prisão?"
+ },
+ {
+  "symbol": "Guerra",
+  "meaning": "Um grande conflito, externo ou interno.",
+  "reflection": "Com quem ou com o quê você está em guerra?"
+ },
+ {
+  "symbol": "Água",
+  "meaning": "Emoções e o inconsciente: água limpa indica calma, água turva indica inquietação.",
+  "reflection": "Como está a água das suas emoções agora?"
+ },
+ {
+  "symbol": "Onda",
+  "meaning": "Emoções fortes que vão e vêm.",
+  "reflection": "Que onda de emoção você está surfando agora?"
+ },
+ {
+  "symbol": "Cerimônia de casamento",
+  "meaning": "União, compromisso, a reunião de duas partes de si.",
+  "reflection": "O que você quer reunir em si mesmo?"
+ },
+ {
+  "symbol": "Festa de casamento",
+  "meaning": "Celebração, união, comunidade.",
+  "reflection": "O que você quer celebrar?"
+ },
+ {
+  "symbol": "Aliança de casamento",
+  "meaning": "Compromisso, uma relação, ser fiel a si mesmo.",
+  "reflection": "A que você é fiel?"
+ },
+ {
+  "symbol": "Branco",
+  "meaning": "Pureza, um novo começo, mas também um vazio à espera de ser preenchido.",
+  "reflection": "O que você gostaria de começar do zero?"
+ },
+ {
+  "symbol": "Vento",
+  "meaning": "Mudança, movimento, algo que não pode ser detido.",
+  "reflection": "Que vento de mudança você sente?"
+ },
+ {
+  "symbol": "Janela",
+  "meaning": "Uma vista do mundo, perspectiva, esperança.",
+  "reflection": "O que você vê pela sua janela?"
+ },
+ {
+  "symbol": "Lobo",
+  "meaning": "Instinto, força, a lealdade da matilha, ou uma ameaça.",
+  "reflection": "Você é um lobo solitário ou procura uma matilha?"
+ },
+ {
+  "symbol": "Trabalho",
+  "meaning": "Obrigações, ambições, o estresse do dia a dia.",
+  "reflection": "O trabalho está ocupando espaço demais na sua vida?"
+ },
+ {
+  "symbol": "Ferida",
+  "meaning": "Uma mágoa que precisa de atenção.",
+  "reflection": "O que ainda não cicatrizou?"
+ }
+]

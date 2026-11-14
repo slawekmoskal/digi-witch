@@ -1,0 +1,366 @@
+{
+ "mood": {
+  "aries": {
+   "same": [
+    "Dziś możesz czuć przypływ energii i ochotę, żeby od razu działać. To Twój rytm: szybki, bezpośredni, bez zbędnych pytań.",
+    "Od rana może Cię nosić. Masz poczucie, że wiele da się załatwić jednym zdecydowanym ruchem, i zwykle się nie mylisz."
+   ],
+   "supportive": [
+    "Możesz dziś czuć się lżej i odważniej niż zwykle. Pomysły same proszą się o pierwszy krok.",
+    "Dzisiejsza energia dodaje Ci śmiałości. Łatwiej powiedzieć na głos to, co od dawna chodzi Ci po głowie."
+   ],
+   "neutral": [
+    "Wokół robi się szybciej, niż lubisz. Możesz czuć lekkie zniecierpliwienie cudzym pośpiechem, ale nie musi Cię to wytrącać z rytmu.",
+    "Dzień ma w sobie pośpiech, który nie jest Twój. Najlepiej poczujesz się, robiąc swoje we własnym tempie."
+   ],
+   "tense": [
+    "Możesz dziś mieć wrażenie, że świat jest za głośny i za szybki. Jeśli coś Cię ukłuje, to raczej cudzy pośpiech niż zła wola.",
+    "Dziś łatwo o rozdrażnienie, zwłaszcza gdy ktoś naciska. Chwila ciszy zrobi Ci lepiej niż natychmiastowa odpowiedź."
+   ]
+  },
+  "taurus": {
+   "same": [
+    "Możesz dziś czuć spokój i przyjemną pewność siebie. Dobrze Ci w tym, co znane, sprawdzone i namacalne.",
+    "To dzień, w którym czujesz grunt pod nogami. Drobne przyjemności smakują bardziej niż zwykle."
+   ],
+   "supportive": [
+    "Dziś możesz poczuć się bezpieczniej i spokojniej. Ciało i emocje łapią wspólny, wolniejszy rytm.",
+    "Dzień sprzyja wyciszeniu. Możesz czuć, że wreszcie nic nie musi dziać się natychmiast."
+   ],
+   "neutral": [
+    "Wszystko toczy się dziś wolniej, niż byś chciał(a). Możesz czuć niedosyt ruchu, ale też ulgę, że nikt nie popędza.",
+    "Dziś trudniej o zryw, łatwiej o cierpliwość. Możesz czuć się trochę jak na zaciągniętym hamulcu ręcznym."
+   ],
+   "tense": [
+    "Możesz dziś czuć się przytłoczony(-a) powolnością i tym, że nic nie chce drgnąć. To minie szybciej, jeśli nie będziesz się z tym siłować.",
+    "Dzień bywa dziś ciężki i mało lotny. Możesz czuć znużenie rzeczami, które zwykle Cię nie męczą."
+   ]
+  },
+  "gemini": {
+   "same": [
+    "Głowa pracuje dziś szybko i lekko. Możesz czuć ciekawość wszystkiego naraz i ochotę na rozmowy.",
+    "Dziś jesteś w swoim żywiole: słowa przychodzą łatwo, a skojarzenia same się układają."
+   ],
+   "supportive": [
+    "Możesz dziś czuć ożywienie i chęć kontaktu z ludźmi. Rozmowa dodaje Ci energii zamiast ją zabierać.",
+    "Dzień podsuwa pomysły i dobre riposty. Czujesz się bystrzej i swobodniej niż zwykle."
+   ],
+   "neutral": [
+    "Dzieje się dużo i szybko, a Ty możesz czuć, że to tylko powierzchnia. Nie musisz za wszystkim nadążać.",
+    "Dziś dużo słów, mało ciszy. Możesz czuć lekkie zmęczenie nadmiarem bodźców."
+   ],
+   "tense": [
+    "Możesz dziś czuć rozproszenie i irytację, że nic nie da się zrobić do końca. Pomaga jedna rzecz naraz.",
+    "Dzień jest gadatliwy i niespokojny. Jeśli czujesz się wybity(-a) z rytmu, to nie Twoja wina, tylko za dużo wątków naraz."
+   ]
+  },
+  "cancer": {
+   "same": [
+    "Emocje są dziś blisko skóry. Możesz czuć więcej czułości, ale też większą wrażliwość na drobiazgi.",
+    "Dziś dobrze Ci w domu i wśród swoich. Możesz czuć potrzebę ciepła, spokoju i zwyczajnej bliskości."
+   ],
+   "supportive": [
+    "Możesz dziś czuć się bardziej zaopiekowany(-a) i spokojny(-a). Łatwiej przyjąć czyjąś troskę i samemu ją okazać.",
+    "Dzień łagodnieje. Możesz czuć, że wreszcie wolno Ci zwolnić i pobyć blisko ważnych osób."
+   ],
+   "neutral": [
+    "Wokół jest dziś więcej emocji niż zwykle. Możesz czuć się trochę obok, ale to dobry moment, żeby kogoś uważnie wysłuchać.",
+    "Dziś ludzie biorą rzeczy bardziej do siebie. Możesz mieć wrażenie, że trzeba ważyć słowa."
+   ],
+   "tense": [
+    "Możesz dziś czuć się skrępowany(-a) cudzymi nastrojami. Nie musisz ich brać na siebie.",
+    "Dzień jest bardziej sentymentalny, niż lubisz. Jeśli czujesz zniecierpliwienie, daj sobie trochę przestrzeni."
+   ]
+  },
+  "leo": {
+   "same": [
+    "Dziś możesz czuć się pewnie i szczodrze. Masz ochotę się pokazać, pochwalić i sprawić komuś radość.",
+    "Jest w Tobie dziś dużo ciepła i odwagi. Możesz czuć, że to dobry dzień, by stanąć w pierwszym rzędzie."
+   ],
+   "supportive": [
+    "Możesz dziś czuć więcej radości i lekkości. Łatwiej o śmiech, komplement i dobry nastrój w towarzystwie.",
+    "Dzień dodaje Ci blasku. Możesz czuć, że ludzie chętniej Cię słuchają."
+   ],
+   "neutral": [
+    "Wokół dużo dziś dumy i wielkich gestów. Możesz czuć dystans, ale i odrobinę rozbawienia.",
+    "Dziś każdy chce być zauważony. Możesz czuć, że Twoja spokojna obecność waży więcej niż głośne słowa."
+   ],
+   "tense": [
+    "Możesz dziś czuć zmęczenie cudzą potrzebą uwagi. Nie musisz bić brawa, jeśli nie masz na to ochoty.",
+    "Dzień jest głośny i trochę teatralny. Jeśli czujesz się pominięty(-a), przypomnij sobie, że to nie konkurs."
+   ]
+  },
+  "virgo": {
+   "same": [
+    "Dziś możesz czuć przyjemność z porządkowania i poprawiania drobiazgów. Głowa jest jasna, ręce wiedzą, co robić.",
+    "To dzień, w którym szczegóły same wpadają Ci w oko. Możesz czuć spokój, gdy wszystko trafia na swoje miejsce."
+   ],
+   "supportive": [
+    "Możesz dziś czuć większe skupienie i spokój. Łatwiej zadbać o siebie w prostych, codziennych sprawach.",
+    "Dzień sprzyja porządkom, także w głowie. Możesz czuć ulgę, gdy nazwiesz rzeczy po imieniu."
+   ],
+   "neutral": [
+    "Wokół dużo dziś uwag i poprawek. Możesz czuć, że ktoś szuka dziury w całym, ale część tych uwag się przyda.",
+    "Dziś liczą się drobiazgi, do których nie masz serca. Możesz czuć lekkie znużenie szczegółami."
+   ],
+   "tense": [
+    "Możesz dziś czuć, że ktoś Cię ocenia albo że sam(a) oceniasz się zbyt surowo. Nie wszystko musi być idealne.",
+    "Dzień jest drobiazgowy i krytyczny. Jeśli czujesz napięcie, odpuść jedną rzecz, której nikt poza Tobą nie zauważy."
+   ]
+  },
+  "libra": {
+   "same": [
+    "Dziś możesz czuć potrzebę harmonii i dobrego towarzystwa. Rozmowy płyną gładko, a Ty łatwo znajdujesz właściwe słowa.",
+    "Jest w Tobie dziś lekkość i wyczucie. Możesz czuć, że potrafisz pogodzić nawet sprzeczne strony."
+   ],
+   "supportive": [
+    "Możesz dziś czuć się bardziej towarzysko i życzliwie. Łatwiej o komplement, kompromis i miły gest.",
+    "Dzień sprzyja spotkaniom. Możesz czuć, że w dwie osoby idzie dziś lepiej niż w pojedynkę."
+   ],
+   "neutral": [
+    "Wokół wszyscy dziś ważą słowa i szukają zgody. Możesz czuć, że to trochę za grzeczne, ale dzięki temu łatwiej o spokój.",
+    "Dziś trudno o jednoznaczne odpowiedzi. Możesz czuć niedosyt konkretu w rozmowach."
+   ],
+   "tense": [
+    "Możesz dziś czuć zniecierpliwienie, bo nikt nie chce podjąć decyzji. Ty nie musisz czekać na wszystkich.",
+    "Dzień jest pełen wahań i uprzejmości. Jeśli Cię to męczy, zajmij się tym, co zależy tylko od Ciebie."
+   ]
+  },
+  "scorpio": {
+   "same": [
+    "Dziś możesz czuć wszystko mocniej i głębiej. Trudno Cię zbyć byle czym, widzisz, co kryje się pod spodem.",
+    "Jest w Tobie dziś skupienie i determinacja. Możesz czuć, że chcesz dojść do sedna jednej ważnej sprawy."
+   ],
+   "supportive": [
+    "Możesz dziś czuć większą siłę i wytrwałość. Łatwiej Ci zająć się tym, co zwykle odkładasz, bo wymaga odwagi.",
+    "Dzień dodaje Ci przenikliwości. Możesz czuć, że lepiej niż zwykle wyczuwasz intencje innych."
+   ],
+   "neutral": [
+    "Wokół jest dziś gęściej od emocji i niedopowiedzeń. Możesz czuć, że lepiej nie drążyć wszystkiego naraz.",
+    "Dziś ludzie mówią mniej, niż myślą. Możesz czuć lekki niepokój, który mija, gdy zapytasz wprost."
+   ],
+   "tense": [
+    "Możesz dziś czuć napięcie i podejrzliwość, własną albo cudzą. Nie każda cisza coś znaczy.",
+    "Dzień jest intensywny i mało lekki. Jeśli czujesz, że coś Cię przytłacza, wyjdź na chwilę na powietrze."
+   ]
+  },
+  "sagittarius": {
+   "same": [
+    "Dziś możesz czuć optymizm i ochotę na coś większego niż codzienność. Ciągnie Cię dalej, wyżej, szerzej.",
+    "Jest w Tobie dziś swoboda i wiara, że się uda. Możesz czuć, że świat jest większy, niż wyglądał wczoraj."
+   ],
+   "supportive": [
+    "Możesz dziś czuć więcej entuzjazmu i ciekawości. Łatwiej o dobry humor i szeroki gest.",
+    "Dzień poszerza perspektywę. Możesz czuć, że stare zmartwienie nagle wygląda na mniejsze."
+   ],
+   "neutral": [
+    "Wokół dużo dziś wielkich planów i obietnic. Możesz czuć, że wolisz najpierw zobaczyć konkrety.",
+    "Dziś wszyscy patrzą daleko, a Ty możesz czuć, że ktoś powinien pilnować tego, co blisko. To też jest potrzebne."
+   ],
+   "tense": [
+    "Możesz dziś czuć się niezrozumiany(-a), gdy inni machają ręką na szczegóły i uczucia. Twoja uważność nie jest wadą.",
+    "Dzień jest głośny i beztroski. Jeśli czujesz, że nikt nie traktuje spraw poważnie, zadbaj o to, co ważne dla Ciebie."
+   ]
+  },
+  "capricorn": {
+   "same": [
+    "Dziś możesz czuć spokojną siłę i gotowość do pracy. Dobrze Ci, gdy wiesz, co jest do zrobienia i po co.",
+    "Jest w Tobie dziś rzeczowość i wytrwałość. Możesz czuć satysfakcję z każdej domkniętej sprawy."
+   ],
+   "supportive": [
+    "Możesz dziś czuć więcej stabilności i poczucia, że panujesz nad sytuacją. Plan dodaje Ci spokoju.",
+    "Dzień porządkuje emocje. Możesz czuć, że łatwiej Ci oddzielić to, co ważne, od tego, co tylko głośne."
+   ],
+   "neutral": [
+    "Wokół jest dziś poważniej i bardziej służbowo. Możesz czuć, że brakuje luzu, ale dzięki temu sprawy posuwają się naprzód.",
+    "Dziś liczą się obowiązki. Możesz czuć lekki opór, a potem ulgę, gdy zrobisz jedną rzecz, która ciążyła."
+   ],
+   "tense": [
+    "Możesz dziś czuć się ograniczany(-a) przez zasady i terminy. Nie wszystko musisz dźwigać dziś.",
+    "Dzień jest chłodny i wymagający. Jeśli czujesz presję, sprawdź, ile z niej naprawdę jest Twoje."
+   ]
+  },
+  "aquarius": {
+   "same": [
+    "Dziś możesz czuć swobodę myślenia i ochotę, by zrobić coś po swojemu. Dobrze Ci z ludźmi, którzy myślą podobnie.",
+    "Jest w Tobie dziś świeżość i dystans. Możesz czuć, że widzisz rozwiązanie tam, gdzie inni widzą mur."
+   ],
+   "supportive": [
+    "Możesz dziś czuć więcej wolności i lekkości. Łatwiej spojrzeć na sprawę z boku i spróbować czegoś nowego.",
+    "Dzień sprzyja przyjaźni i pomysłom. Możesz czuć, że dobrze Ci w grupie, w której każdy jest sobą."
+   ],
+   "neutral": [
+    "Wokół jest dziś chłodniej i bardziej rozumowo. Możesz czuć brak ciepła, ale też ulgę, że nikt nie dramatyzuje.",
+    "Dziś ludzie wolą idee od uczuć. Możesz czuć lekki dystans w rozmowach, który nie jest niechęcią."
+   ],
+   "tense": [
+    "Możesz dziś czuć, że wszystko jest zbyt zmienne i nieprzewidywalne. Trzymaj się jednej stałej rzeczy w ciągu dnia.",
+    "Dzień jest niespokojny i przekorny. Jeśli czujesz irytację cudzym „a ja zrobię inaczej”, nie musisz wygrywać tej dyskusji."
+   ]
+  },
+  "pisces": {
+   "same": [
+    "Dziś możesz czuć więcej niż zwykle: nastroje innych, muzykę, obrazy. Wyobraźnia pracuje, a serce jest miękkie.",
+    "Jest w Tobie dziś łagodność i intuicja. Możesz czuć, że odpowiedź przychodzi sama, gdy przestajesz jej szukać."
+   ],
+   "supportive": [
+    "Możesz dziś czuć większą wrażliwość i spokój. Łatwiej o współczucie, dla innych i dla siebie.",
+    "Dzień zmiękcza kanty. Możesz czuć, że wolno Ci pomarzyć i nie mieć na wszystko planu."
+   ],
+   "neutral": [
+    "Wokół jest dziś mgliście i nastrojowo. Możesz czuć, że trudno o jasne ustalenia, więc lepiej dopytać dwa razy.",
+    "Dziś ludzie są bardziej rozmarzeni niż konkretni. Możesz czuć lekkie rozleniwienie, które nie jest niczym złym."
+   ],
+   "tense": [
+    "Możesz dziś czuć zmęczenie i brak wyrazistości, jakby ktoś przykręcił Ci płomień. Daj sobie mniej zadań niż zwykle.",
+    "Dzień jest senny i niejasny. Jeśli czujesz frustrację, że nic nie idzie wprost, odłóż ważne rozmowy na jutro."
+   ]
+  }
+ },
+ "events": {
+  "1": [
+   "Może pojawić się okazja, żeby coś zacząć: propozycja, pomysł albo sprawa, która czeka na Twój ruch. Dziś pierwszy krok należy do Ciebie.",
+   "Ktoś może dziś czekać na Twoją decyzję. Sprawy ruszają z miejsca, gdy to Ty wychodzisz z inicjatywą.",
+   "Możliwy nowy wątek: nieznana dotąd osoba, temat albo zadanie. Warto powiedzieć „spróbuję”."
+  ],
+  "2": [
+   "Ważniejsza od planu może dziś okazać się rozmowa. Ktoś bliski może potrzebować Twojej uwagi albo sam zaproponować pomoc.",
+   "Możliwe, że ktoś poprosi Cię o zdanie albo o pośrednictwo. Dziś więcej zdziałasz we dwoje niż w pojedynkę.",
+   "Sprawa, na którą czekasz, może jeszcze nie dojrzeć. Za to czyjś drobny gest może poprawić Ci dzień."
+  ],
+  "3": [
+   "Możesz dziś dostać zaproszenie, wiadomość albo po prostu trafić na dobrą rozmowę. Dzień sprzyja spotkaniom i lekkim tematom.",
+   "Może przyjść pomysł, który warto od razu zapisać. Dziś łatwiej zwrócić na siebie uwagę tym, co mówisz i tworzysz.",
+   "Możliwa miła niespodzianka towarzyska: ktoś odezwie się po przerwie albo zaproponuje wspólne wyjście."
+  ],
+  "4": [
+   "Dzień może upłynąć pod znakiem konkretów: rachunki, terminy, sprawy do załatwienia. Każda domknięta rzecz da Ci dziś wyraźną ulgę.",
+   "Możliwe, że wróci zaległa sprawa i poprosi o uporządkowanie. Lepiej zająć się nią dziś niż nosić ją w głowie.",
+   "Ktoś może dziś liczyć na Twoją solidność. Drobna, rzetelnie wykonana praca zostanie zauważona."
+  ],
+  "5": [
+   "Plan może się dziś zmienić w ostatniej chwili. Jest duża szansa, że nowa wersja okaże się ciekawsza od starej.",
+   "Możliwa niespodziewana wiadomość, wyjazd albo spotkanie. Dzień lubi dziś ruch i krótkie decyzje.",
+   "Może trafić się coś nowego do spróbowania. Jeśli poczujesz ciekawość, pójdź za nią choćby o krok."
+  ],
+  "6": [
+   "Sprawy domowe i rodzinne mogą dziś wyjść na pierwszy plan. Ktoś bliski może potrzebować rady albo zwykłej obecności.",
+   "Możliwe, że ktoś poprosi Cię o pomoc. Dziś dobrze robi też to, co upiększa najbliższe otoczenie.",
+   "Dzień może przynieść ciepłą chwilę z bliskimi: wspólny posiłek, telefon, drobny gest, który znaczy więcej, niż wygląda."
+  ],
+  "7": [
+   "Dzień może być spokojniejszy na zewnątrz, a ciekawszy w środku. Możliwe, że trafisz na myśl, tekst albo rozmowę, która coś Ci wyjaśni.",
+   "Możesz dziś potrzebować więcej ciszy niż towarzystwa. Odpowiedź na pytanie, które nosisz, może przyjść przy okazji.",
+   "Ktoś może dziś nie zrozumieć Twojej potrzeby dystansu. Krótkie „potrzebuję chwili dla siebie” załatwi sprawę."
+  ],
+  "8": [
+   "Możliwa sprawa związana z pieniędzmi, pracą albo ważną decyzją. Dziś masz więcej siły przebicia, niż Ci się wydaje.",
+   "Ktoś może dziś oczekiwać od Ciebie konkretu: tak albo nie. Dzień sprzyja jasnym ustaleniom i stawianiu granic.",
+   "Może trafić się okazja, żeby zadbać o swoje interesy. Warto policzyć, zapytać o warunki, poprosić o to, co Ci się należy."
+  ],
+  "9": [
+   "Coś może się dziś naturalnie domknąć: sprawa, etap albo stary żal. To robi miejsce na nowe.",
+   "Możliwe, że ktoś z przeszłości się odezwie albo wróci dawny temat. Dziś łatwiej wybaczyć i odpuścić.",
+   "Dzień może przynieść okazję, żeby komuś pomóc bez oczekiwania czegokolwiek w zamian. Wróci to do Ciebie w dobrym nastroju."
+  ]
+ },
+ "love": {
+  "low": [
+   "W uczuciach dziś łatwo o nieporozumienie. Lepiej dopytać, niż się domyślać.",
+   "Bliskość może dziś wymagać więcej cierpliwości. Nie bierz do siebie cudzego gorszego humoru.",
+   "Dziś serce potrzebuje spokoju bardziej niż wielkich rozmów. Ważne tematy mogą poczekać."
+  ],
+  "mid": [
+   "W relacjach spokojnie, bez fajerwerków. Drobny gest zrobi dziś więcej niż wielkie słowa.",
+   "Uczucia płyną dziś równym nurtem. Dobry dzień, żeby po prostu pobyć razem albo odezwać się do kogoś ważnego.",
+   "W sprawach serca dzień jest zwyczajny, a przez to bezpieczny. Wystarczy uważność."
+  ],
+  "high": [
+   "W uczuciach dzień Ci sprzyja. Łatwiej powiedzieć, co czujesz, i usłyszeć to samo w odpowiedzi.",
+   "Dziś bliskość przychodzi naturalnie. Dobry moment na szczerą rozmowę, randkę albo pojednanie.",
+   "Serce jest dziś otwarte i odważne. Jeśli chcesz zrobić pierwszy krok, trudno o lepszy dzień."
+  ]
+ },
+ "work": {
+  "low": [
+   "W pracy dziś pod górkę: mniej skupienia, więcej drobnych przeszkód. Wybierz jedną rzecz i tylko ją dokończ.",
+   "Sprawy zawodowe mogą dziś iść wolniej, niż chcesz. To dobry dzień na przygotowania, nie na finały.",
+   "Dziś lepiej nie brać na siebie nowych zobowiązań. Porządki i poprawki zrobią więcej niż wielkie plany."
+  ],
+  "mid": [
+   "W pracy dzień jest równy. Systematyczność da dziś więcej niż zryw.",
+   "Sprawy zawodowe idą swoim torem. Jedno dobrze zrobione zadanie wystarczy, żeby zamknąć dzień z satysfakcją.",
+   "Dziś w obowiązkach ani wiatru w żagle, ani pod wiatr. Dobry czas na to, co wymaga cierpliwości."
+  ],
+  "high": [
+   "W pracy masz dziś dobrą passę. To czas na trudniejsze zadanie, rozmowę o warunkach albo odważną decyzję.",
+   "Sprawy zawodowe dziś same się układają. Warto wykorzystać ten rozpęd na coś, co długo czekało.",
+   "Dziś Twoja praca jest widoczna. Dobry moment, żeby pokazać efekty i poprosić o to, na czym Ci zależy."
+  ]
+ },
+ "energy": {
+  "low": [
+   "Sił jest dziś mniej niż zwykle. Zaplanuj krótszy dzień i wcześniejszy wieczór.",
+   "Ciało prosi dziś o łagodność. Spacer i sen zrobią więcej niż kolejna kawa.",
+   "Energia jest dziś na oszczędzaniu. Nie musisz nadrabiać: jutro pójdzie łatwiej."
+  ],
+  "mid": [
+   "Energii wystarczy na to, co ważne. Rozłóż siły i zrób przerwę, zanim poczujesz zmęczenie.",
+   "Dziś siły są w normie. Trochę ruchu doda Ci więcej, niż zabierze.",
+   "Energia jest dziś równa, bez zrywów i bez spadków. Dobry dzień na spokojne tempo."
+  ],
+  "high": [
+   "Energii masz dziś pod dostatkiem. Wykorzystaj ją na ruch albo sprawę, która wymaga odwagi.",
+   "Dziś siły dopisują. To dobry dzień na coś, co zwykle odkładasz, bo „nie mam siły”.",
+   "Masz dziś więcej zapału niż zwykle. Uważaj tylko, żeby nie rozdać go na dziesięć spraw naraz."
+  ]
+ },
+ "advice": {
+  "1": [
+   "Zrób dziś pierwszy krok, ale nie wszystko sam(a). Poproś o jedną rzecz kogoś, komu ufasz.",
+   "Zdecyduj dziś o jednej sprawie i nie wracaj do niej do wieczora.",
+   "Uważaj na upór. Jeśli ktoś ma lepszy pomysł, skorzystanie z niego to też Twoja decyzja."
+  ],
+  "2": [
+   "Zanim się dziś zgodzisz, sprawdź, czy naprawdę tego chcesz. Twoje zdanie też się liczy.",
+   "Wysłuchaj dziś kogoś do końca, bez podpowiadania rozwiązań. To wystarczy.",
+   "Nie spiesz się. To, co dziś dojrzewa powoli, jutro będzie trwalsze."
+  ],
+  "3": [
+   "Dokończ dziś jedną zaczętą rzecz, zanim weźmiesz się za następną.",
+   "Powiedz dziś komuś coś miłego na głos. Lekkość też jest prezentem.",
+   "Uważaj na obietnice rzucane w dobrym humorze. Obiecaj mniej, zrób więcej."
+  ],
+  "4": [
+   "Zrób dziś plan, ale zostaw w nim jedno puste miejsce na to, czego nie przewidzisz.",
+   "Zacznij od najnudniejszej sprawy z listy. Reszta dnia będzie lżejsza.",
+   "Uważaj na sztywność. Jeśli coś nie idzie po Twojemu, sprawdź, czy inna droga nie prowadzi w to samo miejsce."
+  ],
+  "5": [
+   "Zanim dziś zdecydujesz pod wpływem chwili, odczekaj godzinę. Dobre okazje nie uciekają tak szybko.",
+   "Zmień dziś jedną drobną rzecz w codziennej rutynie: trasę, kolejność, miejsce.",
+   "Uważaj na impulsywne wydatki. Włóż rzecz do koszyka i wróć do niej jutro."
+  ],
+  "6": [
+   "Pomóż dziś, ale nie ratuj na siłę. Zapytaj najpierw, czego ktoś naprawdę potrzebuje.",
+   "Zrób dziś jedną rzecz tylko dla siebie, zanim zajmiesz się innymi.",
+   "Uważaj, by nie brać na siebie cudzych zmartwień. Możesz współczuć i nie dźwigać."
+  ],
+  "7": [
+   "Znajdź dziś kwadrans ciszy bez telefonu. Głowa sama poukłada to, co ważne.",
+   "Nie analizuj dziś jednej sprawy po raz dziesiąty. Zapisz ją i odłóż kartkę.",
+   "Uważaj na zamykanie się w sobie. Jedna krótka wiadomość do kogoś bliskiego wystarczy."
+  ],
+  "8": [
+   "Zajmij się dziś jedną sprawą finansową albo zawodową, którą odkładasz. Potem odpocznij bez wyrzutów.",
+   "Powiedz dziś jasno, czego oczekujesz. Konkret oszczędza nerwów obu stronom.",
+   "Uważaj na pracę ponad siły. Odpoczynek też jest częścią wyniku."
+  ],
+  "9": [
+   "Oddaj, wyrzuć albo zakończ dziś jedną rzecz, która tylko zajmuje miejsce.",
+   "Odpuść dziś jedną urazę, choćby na próbę. Zobacz, czy zrobi się lżej.",
+   "Uważaj na trzymanie się tego, co już się skończyło. Podziękuj i pozwól temu odejść."
+  ]
+ },
+ "birthday": "Dziś Twoje urodziny: zaczyna się Twój nowy rok. To dobry dzień, żeby podziękować sobie za miniony i nazwać jedno życzenie na następny."
+}

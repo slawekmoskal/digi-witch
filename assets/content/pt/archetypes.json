@@ -1,0 +1,134 @@
+[
+ {
+  "id": "niewinny",
+  "name": "O Inocente",
+  "summary": "O Inocente é a imagem de quem olha para o mundo com confiança e esperança. Neste conjunto de arquétipos, simboliza o anseio por simplicidade, sinceridade e bondade.",
+  "gifts": "Seu dom é um otimismo que ajuda a recomeçar e a enxergar o lado bom de uma situação. Ele pode trazer leveza a um grupo e a crença de que o esforço vale a pena.",
+  "shadow": "Na sombra, a confiança pode virar fuga de assuntos difíceis ou a pretensão de que um problema não existe. Também pode haver dependência demais de que outra pessoa resolva tudo.",
+  "reflection": [
+   "Em quais situações a sua esperança lhe dá força?",
+   "Existe um assunto que você prefere não notar, embora saiba que ele merece um olhar mais atento?"
+  ]
+ },
+ {
+  "id": "odkrywca",
+  "name": "O Explorador",
+  "summary": "O Explorador é a figura que parte para descobrir lugares, ideias e a si mesmo. Simboliza a necessidade de autenticidade e de espaço para buscar de forma independente.",
+  "gifts": "Seu dom é a curiosidade e a coragem de sair de padrões conhecidos. Ele traz um olhar novo e inspira os outros a ampliar seus horizontes.",
+  "shadow": "Na sombra, a busca pode virar fuga constante e dificuldade de criar raízes. A independência também pode dificultar aceitar a proximidade.",
+  "reflection": [
+   "O que você está procurando na sua vida agora?",
+   "Suas viagens, literais ou simbólicas, levam você em direção a algo ou, antes, para longe de algo?"
+  ]
+ },
+ {
+  "id": "medrzec",
+  "name": "O Sábio",
+  "summary": "O Sábio é a imagem de quem busca compreensão e valoriza o conhecimento nascido da experiência e do pensamento. Simboliza a busca da verdade e o ato de compartilhá-la com os outros.",
+  "gifts": "Seu dom é a análise calma, o distanciamento e a capacidade de enxergar o contexto mais amplo. Ele pode ajudar os outros a organizar as ideias e a fazer a pergunta certa.",
+  "shadow": "Na sombra, pode haver teoria demais no lugar da ação, ou a convicção de sempre saber melhor. O distanciamento, então, pode ser confundido com frieza.",
+  "reflection": [
+   "Qual conhecimento ou experiência você mais gosta de passar adiante?",
+   "Quando foi a última vez que você mudou de opinião por causa de uma informação nova?"
+  ]
+ },
+ {
+  "id": "bohater",
+  "name": "O Herói",
+  "summary": "O Herói é a figura que enfrenta desafios e defende o que considera importante. Simboliza coragem, determinação e disposição para se esforçar.",
+  "gifts": "Seu dom é a perseverança e a capacidade de se reunir de forças nos momentos difíceis. Ele pode dar coragem aos outros e mostrar que os obstáculos se vencem passo a passo.",
+  "shadow": "Na sombra, a coragem pode virar uma busca constante por briga ou a dificuldade de admitir o cansaço. O Herói também pode não se permitir pedir ajuda.",
+  "reflection": [
+   "De qual desafio que você superou você se orgulha hoje?",
+   "Você consegue descansar antes que suas forças acabem?"
+  ]
+ },
+ {
+  "id": "buntownik",
+  "name": "O Rebelde",
+  "summary": "O Rebelde é a imagem de quem questiona as regras estabelecidas e não aceita o que considera injusto. Simboliza a necessidade de mudança e de liberdade diante de padrões impostos.",
+  "gifts": "Seu dom é a coragem de dizer em voz alta o que não funciona e a energia para romper a estagnação. Ele ajuda os outros a perceber que existem outras possibilidades.",
+  "shadow": "Na sombra, a oposição pode virar um fim em si mesma, sem ideia do que construir no lugar. Também pode acabar destruindo algo valioso junto com o que precisava mudar.",
+  "reflection": [
+   "Contra o que você se rebela, e o que gostaria de colocar no lugar?",
+   "Qual regra com a qual você não concorda, ainda assim, faz sentido para alguém?"
+  ]
+ },
+ {
+  "id": "mag",
+  "name": "O Mago",
+  "summary": "O Mago é a figura que simboliza a transformação: converter uma visão em realidade e enxergar conexões ocultas. Neste conjunto, representa a crença de que é possível moldar a própria vida de forma consciente.",
+  "gifts": "Seu dom é a imaginação aliada à capacidade de agir e de ver potencial onde os outros não veem. Ele pode inspirar uma mudança de perspectiva.",
+  "shadow": "Na sombra, pode haver o desejo de controlar os outros ou de prometer mais do que se pode cumprir. A crença na transformação também pode tomar o lugar do trabalho paciente.",
+  "reflection": [
+   "Que mudança você quer ver na sua vida, e o que exatamente você pode fazer por ela?",
+   "Há espaço nos seus planos para aquilo que não se pode prever?"
+  ]
+ },
+ {
+  "id": "towarzysz",
+  "name": "O Cara Comum",
+  "summary": "O Cara Comum, também chamado de gente como a gente, é a imagem de quem valoriza o pertencimento, a igualdade e a vida simples entre as pessoas. Simboliza a necessidade de fazer parte de uma comunidade sem se colocar acima dela.",
+  "gifts": "Seu dom é a franqueza, a gentileza e a capacidade de deixar os outros à vontade. Ele reúne as pessoas em torno de assuntos comuns do dia a dia.",
+  "shadow": "Na sombra, o desejo de pertencer pode levar a abrir mão da própria opinião só para não se destacar. As próprias necessidades também podem se perder na multidão.",
+  "reflection": [
+   "Em qual grupo você se sente verdadeiramente em casa?",
+   "Quando foi a última vez que você expressou uma opinião diferente da maioria?"
+  ]
+ },
+ {
+  "id": "kochanek",
+  "name": "O Amante",
+  "summary": "O Amante é a figura que simboliza a proximidade, a sensualidade e o deleite com a beleza da vida. Em sentido amplo, significa entrega apaixonada a pessoas, ideias ou paixões.",
+  "gifts": "Seu dom é a capacidade de sentir fundo e de mostrar os sentimentos, e de apreciar a beleza do cotidiano. Ele pode criar um clima de calor e de dedicação.",
+  "shadow": "Na sombra, pode haver a perda de si em uma relação ou a dependência da aprovação dos outros. O medo da rejeição também pode distorcer o que você mostra.",
+  "reflection": [
+   "O que ou quem você ama de um jeito que lhe dá energia?",
+   "Você deixa espaço para si mesmo nas relações próximas?"
+  ]
+ },
+ {
+  "id": "blazen",
+  "name": "O Bobo da Corte",
+  "summary": "O Bobo da Corte é a imagem de quem vê o mundo pelo humor, pela brincadeira e por viver o momento. Simboliza a alegria e a capacidade de dizer a verdade com leveza.",
+  "gifts": "Seu dom é aliviar a tensão, a criatividade e a capacidade de levar as coisas com leveza. Ele lembra aos outros que a vida nem sempre precisa ser séria.",
+  "shadow": "Na sombra, a piada pode servir para fugir de emoções difíceis ou de responsabilidades. O humor também pode ferir, em vez de aproximar as pessoas.",
+  "reflection": [
+   "Quando o humor ajudou você a atravessar uma situação difícil?",
+   "Às vezes você faz piada quando preferiria dizer algo com franqueza?"
+  ]
+ },
+ {
+  "id": "opiekun",
+  "name": "O Cuidador",
+  "summary": "O Cuidador é a figura que cuida dos outros, protege e apoia. Simboliza a compaixão, a generosidade e a disposição para ajudar.",
+  "gifts": "Seu dom é a paciência, a empatia e a capacidade de criar uma sensação de segurança. Ele percebe do que os outros precisam e responde com carinho.",
+  "shadow": "Na sombra, o cuidado pode virar descuido de si mesmo ou expectativa de gratidão. A ajuda também pode tirar dos outros a chance de se virarem sozinhos.",
+  "reflection": [
+   "Como você cuida de si quando dá muito aos outros?",
+   "Você consegue aceitar ajuda quando alguém a oferece?"
+  ]
+ },
+ {
+  "id": "tworca",
+  "name": "O Criador",
+  "summary": "O Criador é a imagem de quem dá forma à imaginação e faz coisas que não existiam antes. Simboliza a necessidade de se expressar de maneira duradoura.",
+  "gifts": "Seu dom é a originalidade, a persistência em aprimorar uma ideia e a capacidade de ver possibilidades. Ele inspira os outros a descobrir a própria criatividade.",
+  "shadow": "Na sombra, pode haver um perfeccionismo que não deixa a obra ser concluída, ou um crítico interno que sufoca as ideias. O trabalho criativo também pode empurrar outros assuntos para o lado.",
+  "reflection": [
+   "O que você gostaria de criar se ninguém estivesse julgando?",
+   "Qual projeto está esperando para ser concluído, e o que está segurando você?"
+  ]
+ },
+ {
+  "id": "wladca",
+  "name": "O Governante",
+  "summary": "O Governante é a figura que simboliza responsabilidade, ordem e a capacidade de liderar. Neste conjunto, representa o cuidado com a estabilidade de uma comunidade e a tomada de decisões.",
+  "gifts": "Seu dom é a capacidade de organizar, definir um rumo e assumir a responsabilidade pelo todo. Ele pode criar condições para que os outros se deem bem.",
+  "shadow": "Na sombra, a responsabilidade pode virar necessidade de controle ou dificuldade de abrir espaço para os outros. A preocupação com a ordem também pode esconder as pessoas de vista.",
+  "reflection": [
+   "Pelo que, na sua vida, você se sente responsável?",
+   "O que você poderia passar para os outros, para que eles tenham mais espaço?"
+  ]
+ }
+]

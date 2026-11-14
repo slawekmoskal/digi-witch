@@ -1,4 +1,5 @@
 import 'package:digi_witch/data/places.dart';
+import 'package:digi_witch/engine/lang.dart';
 import 'package:digi_witch/engine/numerology.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -64,4 +65,53 @@ void main() {
     expect(placeNamed('custom:abc'), isNull);
     expect(placeNamed('Atlantyda'), isNull);
   });
+
+  test(
+    'every country has a name in every language; Ukrainian names every city',
+    () {
+      final countries = {'Polska', for (final c in cities) ?c.country};
+      // English lists only names that differ from Polish (Austria, USA…); the others list all.
+      for (final MapEntry(key: lang, value: names) in countryNames.entries.skip(
+        1,
+      )) {
+        expect(countries.difference(names.keys.toSet()), isEmpty, reason: lang);
+      }
+      expect(
+        cities
+            .map((c) => c.name)
+            .toSet()
+            .difference(cityNames['uk']!.keys.toSet()),
+        isEmpty,
+      );
+      for (final m in cityNames.values) {
+        expect(
+          m.keys.toSet().difference(cities.map((c) => c.name).toSet()),
+          isEmpty,
+        );
+      }
+      appLang = 'de';
+      final warsaw = cities.firstWhere((c) => c.name == 'Warszawa');
+      final london = cities.firstWhere((c) => c.name == 'Londyn');
+      expect(placeDisplay(warsaw), 'Warschau (Polen)');
+      expect(placeDisplay(london), 'London (Vereinigtes Königreich)');
+      appLang = 'uk';
+      expect(placeDisplay(warsaw), 'Варшава (Польща)');
+      final munich = cities.firstWhere((c) => c.name == 'Monachium');
+      appLang = 'it';
+      expect(placeDisplay(munich), 'Monaco di Baviera (Germania)');
+      appLang = 'pt';
+      expect(placeDisplay(munich), 'Munique (Alemanha)');
+      appLang = 'nl';
+      expect(placeDisplay(munich), 'München (Duitsland)');
+      // The new languages name at least every city German does.
+      for (final l in ['it', 'pt', 'nl']) {
+        expect(
+          cityNames['de']!.keys.toSet().difference(cityNames[l]!.keys.toSet()),
+          isEmpty,
+          reason: l,
+        );
+      }
+      appLang = 'pl';
+    },
+  );
 }

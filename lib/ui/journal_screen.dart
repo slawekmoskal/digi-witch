@@ -6,7 +6,25 @@ import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../data/store.dart';
+import 'library_screen.dart';
 import 'widgets.dart';
+
+/// Width for [topLeading] in an AppBar (`leadingWidth`).
+const topLeadingWidth = 104.0;
+
+/// Left side of every tab's app bar: library and journal. The right side stays free
+/// for the tab's own actions (settings on Today).
+Widget topLeading(BuildContext context) => Row(
+  children: [
+    const SizedBox(width: 4),
+    libraryButton(context),
+    IconButton(
+      tooltip: context.l.tabJournal,
+      icon: const Icon(Icons.edit_note),
+      onPressed: () => pushScreen(context, const JournalScreen()),
+    ),
+  ],
+);
 
 class JournalScreen extends StatelessWidget {
   const JournalScreen({super.key});
@@ -29,6 +47,7 @@ class JournalScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(l.tabJournal),
         actions: [
+          libraryButton(context),
           if (entries.isNotEmpty)
             IconButton(
               tooltip: l.exportJournal,
@@ -37,18 +56,44 @@ class JournalScreen extends StatelessWidget {
             ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        icon: const Icon(Icons.add),
-        label: Text(l.newEntry),
-        onPressed: () =>
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (_) => const EntryEditor())),
-      ),
+      // The scaffold only clears the system inset; add the floating nav bar's height.
+      floatingActionButton: entries.isEmpty
+          ? null
+          : Padding(
+              padding: EdgeInsets.only(
+                bottom:
+                    (MediaQuery.paddingOf(context).bottom -
+                            MediaQuery.viewPaddingOf(context).bottom)
+                        .clamp(0, double.infinity),
+              ),
+              child: FloatingActionButton.extended(
+                icon: const Icon(Icons.add),
+                label: Text(l.newEntry),
+                onPressed: () => pushScreen(context, const EntryEditor()),
+              ),
+            ),
       body: entries.isEmpty
           ? Center(
               child: Padding(
                 padding: const EdgeInsets.all(32),
-                child: Text(l.journalEmpty, textAlign: TextAlign.center),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      Icons.edit_note,
+                      size: 56,
+                      color: Theme.of(context).colorScheme.tertiary,
+                    ),
+                    const SizedBox(height: 12),
+                    Text(l.journalEmpty, textAlign: TextAlign.center),
+                    const SizedBox(height: 16),
+                    FilledButton.icon(
+                      icon: const Icon(Icons.add),
+                      label: Text(l.firstEntry),
+                      onPressed: () => pushScreen(context, const EntryEditor()),
+                    ),
+                  ],
+                ),
               ),
             )
           : ListView(
@@ -175,7 +220,7 @@ class _EntryEditorState extends State<EntryEditor> {
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: screenPadding(context),
         children: [
           if (ref != null)
             LabeledBlock(l.linkedResult, Text('${ref['label']}')),

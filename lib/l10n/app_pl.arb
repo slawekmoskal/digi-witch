@@ -1,7 +1,7 @@
 {
   "@@locale": "pl",
   "appTitle": "Digi Witch",
-  "tabToday": "Dzisiaj",
+  "tabToday": "Dziś",
   "tabNumerology": "Liczby",
   "tabTarot": "Tarot",
   "tabLibrary": "Biblioteka",
@@ -86,7 +86,7 @@
   "birthDate": "Data urodzenia",
   "birthDateHelp": "Wpisz same cyfry, np. 15071990",
   "fullNameOptional": "Imię i nazwisko (opcjonalnie)",
-  "fullNameHelp": "Potrzebne tylko do liczb z liter. Polskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.",
+  "fullNameHelp": "Potrzebne tylko do liczb z liter. Polskie, niemieckie, francuskie i hiszpańskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.",
   "personalYearFor": "Rok osobisty dla:",
   "previousYear": "Poprzedni rok",
   "nextYear": "Następny rok",
@@ -627,7 +627,6 @@
       }
     }
   },
-  "luckyTap": "Stuknij liczbę, aby zobaczyć jej znaczenie.",
   "periodTitle": "Horoskop na tydzień i miesiąc",
   "explorePeriod": "Ważne dni i Twój miesiąc osobisty",
   "periodIntro": "Liczony z prawdziwego nieba: fazy Księżyca, zaćmienia, Merkury wsteczny, wejście Słońca w kolejny znak i dni, gdy Księżyc jest w Twoim znaku — plus Twoje liczby osobiste.",
@@ -716,5 +715,170 @@
         "type": "String"
       }
     }
-  }
+  },
+  "revealCard": "Odsłoń kartę",
+  "revealCardHint": "Stuknij kartę, aby zobaczyć, co przynosi dzień.",
+  "cardOfDayMore": "Więcej o karcie",
+  "moodQuestion": "Jak się dziś czujesz?",
+  "moodName": "{mood, select, 1{Ciężko} 2{Słabo} 3{Tak sobie} 4{Dobrze} other{Świetnie}}",
+  "@moodName": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "moodSaved": "Zapisane tylko na tym urządzeniu.",
+  "countdown": "{what} {days, plural, =0{dziś} =1{jutro} other{za {days} dni}}",
+  "@countdown": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "yourBirthday": "Twoje urodziny",
+  "notifMoon": "Księżyc w {sign}",
+  "@notifMoon": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDayNumber": "liczba dnia {n}",
+  "@notifDayNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "notifCard": "karta dnia czeka",
+  "tabStars": "Gwiazdy",
+  "starsMore": "Więcej z gwiazd",
+  "deckTitle": "Talia kart",
+  "fullHoroscope": "Cały horoskop",
+  "upcoming": "Nadchodzi",
+  "suggested": "Polecane dziś",
+  "suggestBigThree": "Dodaj godzinę i miejsce urodzenia — poznasz Księżyc i ascendent",
+  "dayNumberShort": "liczba dnia",
+  "dayColorShort": "kolor dnia",
+  "fullNumerology": "Pełna numerologia i portret",
+  "firstEntry": "Napisz pierwszą myśl",
+  "greetDay": "Dzień dobry",
+  "greetEvening": "Dobry wieczór",
+  "dayHoroscope": "Horoskop",
+  "dayNumbers": "Moje liczby",
+  "dayCard": "Karta",
+  "dayDone": "Na dziś gotowe.",
+  "tomorrowIs": "Jutro {what}.",
+  "@tomorrowIs": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "tomorrowMoon": "Jutro Księżyc w {sign}.",
+  "@tomorrowMoon": {
+    "placeholders": {
+      "sign": {
+        "type": "String"
+      }
+    }
+  },
+  "tomorrowNumber": "Jutro nowa karta i liczba dnia {n}.",
+  "@tomorrowNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tomorrowCard": "Jutro nowa karta dnia.",
+  "tabDreams": "Sny",
+  "dreamAsk": "Co Ci się dziś śniło?",
+  "dreamAskHint": "Zapisz sen, zanim się rozmyje, albo poszukaj symbolu poniżej.",
+  "dreamSave": "Zapisz sen",
+  "dreamEntry": "Sen",
+  "dreamOfDay": "Symbol dnia",
+  "dreamsAll": "Wszystkie symbole",
+  "widgetCardWaiting": "Czeka na odsłonięcie",
+  "widgetStale": "Stuknij, aby zobaczyć swój dzień",
+  "widgetCardSays": "Karta mówi: {advice}",
+  "@widgetCardSays": {
+    "placeholders": {
+      "advice": {
+        "type": "String"
+      }
+    }
+  },
+  "widgetNeedBirth": "Podaj datę urodzenia, a zobaczysz swój dzień.",
+  "language": "Język",
+  "dateHint": "DD.MM.RRRR",
+  "layTarot": "Postaw tarota",
+  "tarotWelcomeTitle": "Co dziś podpowiedzą karty?",
+  "tarotWelcomeBody": "Pomyśl o sprawie, która Cię zajmuje, wybierz rozkład i odkryj karty. Każdy rozkład to nowe spojrzenie. Wróć, gdy pojawi się kolejne pytanie.",
+  "seeDeck": "Zobacz talię kart",
+  "tarotWelcomeSetting": "Wstęp w zakładce Tarot",
+  "hide": "Ukryj",
+  "tapHint": "stuknij",
+  "dailyMood": "Jak możesz się dziś czuć",
+  "dailyEvents": "Co może Cię dziś spotkać",
+  "dailyAdvice": "Rada na dziś",
+  "energyLabel": "Energia",
+  "meterValue": "{label}: {n} z 5",
+  "@meterValue": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "cheerAll": "Piękny dzień — gwiazdy są po Twojej stronie",
+  "cheerLove": "Dobry dzień dla serca",
+  "cheerWork": "Dobry dzień na działanie",
+  "cheerEnergy": "Dzień pełen energii",
+  "@cheerAll": {
+    "description": "Today/widget headline from the day meters: all three are 4–5. Positive but true."
+  },
+  "cheerUpLove": "W miłości lepiej niż wczoraj",
+  "cheerUpWork": "W pracy lepiej niż wczoraj",
+  "cheerUpEnergy": "Więcej energii niż wczoraj",
+  "cheerNewMoon": "Nów — dobry czas na nowy zamiar",
+  "cheerWaxing": "Księżyc rośnie, a z nim Twoje plany",
+  "cheerFullMoon": "Pełnia — czas docenić to, co już masz",
+  "cheerWaning": "Księżyc maleje — łatwiej odpuścić to, co ciąży",
+  "cheerNewMoon2": "Nów — czysta karta. Zapisz na niej coś dobrego",
+  "cheerNewMoon3": "Nów — w ciszy rodzą się najlepsze pomysły",
+  "cheerWaxing2": "Księżyc przybywa — dobry czas, by dokładać małe kroki",
+  "cheerWaxing3": "Rosnący Księżyc sprzyja temu, co zaczynasz",
+  "cheerFullMoon2": "Pełnia — widać dziś więcej. Także to, co Ci się udało",
+  "cheerFullMoon3": "Pełnia — dobry wieczór, by świętować małe rzeczy",
+  "cheerWaning2": "Księżyc maleje — dobry czas na porządki i oddech",
+  "cheerWaning3": "Ubywający Księżyc sprzyja odpoczynkowi i domykaniu spraw",
+  "threeGood": "Zapisz trzy dobre rzeczy",
+  "threeGoodPrompt": "Trzy dobre rzeczy z tego tygodnia — i co sprawiło, że się wydarzyły:",
+  "moodReply": "{mood, select, 1{Ciężkie dni się zdarzają. Nie musisz dziś niczego nadrabiać.} 2{Słabszy dzień też jest w porządku. Wystarczy jeden mały krok.} 3{Zwykły dzień też się liczy.} 4{Dobrze to słyszeć.} other{Pięknie. Warto zapamiętać, co się na to złożyło.}}",
+  "@moodReply": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderAsk": "Chcesz, żeby karta dnia czekała na Ciebie rano?",
+  "reminderAskSub": "Jedno powiadomienie dziennie o 8:00, z treścią dnia. Godzinę zmienisz lub wyłączysz w Ustawieniach.",
+  "reminderYes": "Tak, przypominaj",
+  "reminderNo": "Nie, dziękuję",
+  "onboardBirthHint": "Nieobowiązkowo. Z datą od razu zobaczysz swój znak, horoskop i liczby.",
+  "lookBack": "Twoje dni",
+  "lookBackHint": "Karty dnia i nastrój, dzień po dniu. Zapisane tylko na tym urządzeniu."
 }

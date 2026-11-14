@@ -2,6 +2,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <application
+        android:localeConfig="@xml/locales_config"
         android:label="Digi Witch"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
@@ -26,6 +27,10 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <!-- A tap on a widget opens the app at that widget's place. -->
+            <intent-filter>
+                <action android:name="es.antonborri.home_widget.action.LAUNCH"/>
+            </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
@@ -39,6 +44,47 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
             </intent-filter>
+        </receiver>
+        <!-- Home-screen widgets (horoscope, card of the day, Moon, two large ones); data comes from the app via home_widget. -->
+        <receiver android:name=".HoroscopeWidgetProvider" android:exported="true" android:label="@string/horoscope_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/horoscope_widget_info"/>
+        </receiver>
+        <receiver android:name=".CardWidgetProvider" android:exported="true" android:label="@string/card_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/card_widget_info"/>
+        </receiver>
+        <receiver android:name=".MoonWidgetProvider" android:exported="true" android:label="@string/moon_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/moon_widget_info"/>
+        </receiver>
+        <receiver android:name=".DayLargeWidgetProvider" android:exported="true" android:label="@string/day_large_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/day_large_widget_info"/>
+        </receiver>
+        <receiver android:name=".ThoughtWidgetProvider" android:exported="true" android:label="@string/thought_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/thought_widget_info"/>
         </receiver>
         <!-- AdMob app ID: Google's TEST id unless -PADMOB_APP_ID_ANDROID=... is passed to the build. -->
         <meta-data

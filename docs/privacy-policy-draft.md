@@ -2,7 +2,7 @@
 
 > Szkic do uzupełnienia i konsultacji prawnej. Miejsca w [nawiasach] wymagają danych właściciela. Nie jest to opinia prawna.
 
-**Administrator:** [nazwa / imię i nazwisko, adres, NIP], kontakt: [pomoc@digi-witch.com].
+**Administrator:** [nazwa / imię i nazwisko, adres, NIP], kontakt: support@digi-witch.com.
 
 ## 1. Dane, które zostają na Twoim urządzeniu
 

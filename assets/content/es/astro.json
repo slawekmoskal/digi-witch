@@ -1,0 +1,479 @@
+{
+ "elements": {
+  "fire": "Fuego",
+  "earth": "Tierra",
+  "air": "Aire",
+  "water": "Agua"
+ },
+ "signs": [
+  {
+   "id": "aries",
+   "name": "Aries",
+   "locative": "Aries",
+   "dates": "21 mar – 19 abr",
+   "text": "Aries es el primer signo del zodiaco y el fuego en estado puro: valor, iniciativa y necesidad de actuar aquí y ahora. Es más feliz cuando empieza algo; la paciencia y el terminar le cuestan más.",
+   "color": "rojo",
+   "stone": "diamante, cornalina",
+   "day": "martes",
+   "planet": "Marte",
+   "love": "En el amor, Aries es directo y apasionado: le gusta conquistar y muestra sus sentimientos enseguida. Necesita a alguien que no tema su ritmo, y aprende que la cercanía también requiere paciencia.",
+   "work": "En el trabajo, Aries rinde mejor donde cuenta la iniciativa: lanzar proyectos, liderar, competir. La rutina le cansa; le viene bien tener al lado a alguien que remate los detalles.",
+   "wellbeing": "Aries descarga la energía con el movimiento. Le ayudan el deporte, los retos cortos e intensos y frenar a conciencia antes de que el cansancio se convierta en irritación."
+  },
+  {
+   "id": "taurus",
+   "name": "Tauro",
+   "locative": "Tauro",
+   "dates": "20 abr – 20 may",
+   "text": "Tauro es una tierra que valora la calma, la comodidad y lo duradero. Es paciente y fiel, y construye despacio pero con solidez. El desafío puede ser la terquedad y la resistencia al cambio.",
+   "color": "verde, rosa",
+   "stone": "esmeralda, cuarzo rosa",
+   "day": "viernes",
+   "planet": "Venus",
+   "love": "En el amor, Tauro es fiel, tierno y sensual. Muestra sus sentimientos con hechos, como un cuidado, una comida o simplemente estar ahí, y necesita sensación de constancia.",
+   "work": "En el trabajo, Tauro es constante y fiable, y lleva las cosas hasta el final. Se siente a gusto en las finanzas, la artesanía, la jardinería y en todo lo que deja un resultado visible.",
+   "wellbeing": "A Tauro le sientan bien la naturaleza, la buena comida y un ritmo diario. Debe tener cuidado con el estancamiento: un movimiento suave y un cambio de aires le devuelven la ligereza."
+  },
+  {
+   "id": "gemini",
+   "name": "Géminis",
+   "locative": "Géminis",
+   "dates": "21 may – 20 jun",
+   "text": "Géminis es el aire en movimiento: curiosidad, conversación, conexiones rápidas entre hechos. Hace contactos con facilidad y aprende rápido. El desafío es la dispersión y la dificultad para elegir un solo camino.",
+   "color": "amarillo",
+   "stone": "ágata, citrino",
+   "day": "miércoles",
+   "planet": "Mercurio",
+   "love": "En el amor, Géminis necesita conversación y ligereza. Se enamora de una mente; el aburrimiento es la mayor amenaza para la relación.",
+   "work": "En el trabajo, Géminis brilla en la comunicación, los medios, el comercio y la enseñanza. Le gustan muchos proyectos a la vez; la clave está en elegir prioridades.",
+   "wellbeing": "La mente no para nunca, así que Géminis necesita momentos de silencio y tiempo sin conexión. Le ayudan la respiración, un paseo y menos estímulos por la noche."
+  },
+  {
+   "id": "cancer",
+   "name": "Cáncer",
+   "locative": "Cáncer",
+   "dates": "21 jun – 22 jul",
+   "text": "Cáncer es un agua que protege: el hogar, los seres queridos, la sensación de seguridad. Es sensible y atento, con buena memoria emocional. El desafío es refugiarse en el caparazón cuando algo duele.",
+   "color": "plateado, blanco",
+   "stone": "perla, piedra de luna",
+   "day": "lunes",
+   "planet": "la Luna",
+   "love": "En el amor, Cáncer es atento y entregado, y crea un hogar en el que sus seres queridos se sienten seguros. Necesita que lo tranquilicen y ternura, aunque no siempre lo pida.",
+   "work": "En el trabajo, Cáncer rinde bien donde cuenta el cuidado: profesiones de ayuda, educación, gastronomía y trabajo con personas. Trabaja bien en equipos que parecen una familia.",
+   "wellbeing": "El bienestar de Cáncer depende mucho de las emociones. Le ayudan el hogar, el agua, las personas cercanas y poner nombre a sus sentimientos en lugar de esconderlos en el caparazón."
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "locative": "Leo",
+   "dates": "23 jul – 22 ago",
+   "text": "Leo es un fuego que brilla: generosidad, creatividad y necesidad de ser visto. Da a los demás calidez y valor. El desafío puede ser el orgullo y la dificultad para aceptar críticas.",
+   "color": "dorado, naranja",
+   "stone": "rubí, ámbar",
+   "day": "domingo",
+   "planet": "el Sol",
+   "love": "En el amor, Leo es generoso, romántico y leal. Necesita admiración y aprecio, y a cambio da mucha calidez.",
+   "work": "En el trabajo, a Leo le gusta liderar y estar en primer plano; rinde bien en la dirección, las artes, las ventas y donde pueda destacar.",
+   "wellbeing": "Leo saca energía de la alegría y la creatividad. Le conviene cuidar el corazón y la espalda, también en sentido figurado: descansar del papel de «el fuerte»."
+  },
+  {
+   "id": "virgo",
+   "name": "Virgo",
+   "locative": "Virgo",
+   "dates": "23 ago – 22 sep",
+   "text": "Virgo es la tierra en los detalles: orden, fiabilidad y deseo de ser útil. Ve lo que se podría mejorar. El desafío es el perfeccionismo y juzgarse con demasiada dureza.",
+   "color": "beige, azul marino",
+   "stone": "zafiro, jaspe",
+   "day": "miércoles",
+   "planet": "Mercurio",
+   "love": "En el amor, Virgo muestra sus sentimientos con cuidado y ayuda. Puede ser reservado, pero es profundamente entregado, y necesita a alguien que valore esa atención cotidiana.",
+   "work": "En el trabajo, Virgo es preciso, analítico y fiable; rinde bien en la salud, el análisis, la edición y la organización: donde cuentan los detalles.",
+   "wellbeing": "Virgo se preocupa con facilidad; le ayudan el orden, la rutina y soltar conscientemente el perfeccionismo. Le sientan bien una dieta sana y los paseos."
+  },
+  {
+   "id": "libra",
+   "name": "Libra",
+   "locative": "Libra",
+   "dates": "23 sep – 22 oct",
+   "text": "Libra es un aire que busca el equilibrio: armonía, justicia y belleza en las relaciones. Sabe calmar las disputas. El desafío es aplazar las decisiones para no ofender a nadie.",
+   "color": "azul pastel, rosa",
+   "stone": "ópalo, lapislázuli",
+   "day": "viernes",
+   "planet": "Venus",
+   "love": "En el amor, Libra busca compañerismo, armonía y belleza. Es romántica y tiene tacto, pero debe cuidar de no renunciar a sí misma por mantener la paz.",
+   "work": "En el trabajo, Libra rinde bien en la diplomacia, el derecho, el diseño y la atención al cliente. Trabaja mejor en pareja o en equipo.",
+   "wellbeing": "A Libra le sientan bien un entorno bonito, el arte y el equilibrio entre trabajo y descanso. Los conflictos la agotan, así que le conviene aprender a decir «no»."
+  },
+  {
+   "id": "scorpio",
+   "name": "Escorpio",
+   "locative": "Escorpio",
+   "dates": "23 oct – 21 nov",
+   "text": "Escorpio es agua profunda: intensidad, lealtad y perspicacia. Nunca se conforma con la superficie. El desafío pueden ser los celos y la dificultad para soltar.",
+   "color": "burdeos, negro",
+   "stone": "topacio, obsidiana",
+   "day": "martes",
+   "planet": "Marte y Plutón",
+   "love": "En el amor, Escorpio es intenso, apasionado y leal hasta el final. Necesita una confianza profunda y le cuesta muchísimo perdonar una traición.",
+   "work": "En el trabajo, Escorpio es perspicaz y tenaz; rinde bien en la investigación, la psicología, las finanzas, la medicina y donde haya que llegar al fondo del asunto.",
+   "wellbeing": "Las emociones fuertes es mejor trabajarlas que reprimirlas. Le ayudan el ejercicio intenso, el agua y hablar con alguien de confianza."
+  },
+  {
+   "id": "sagittarius",
+   "name": "Sagitario",
+   "locative": "Sagitario",
+   "dates": "22 nov – 21 dic",
+   "text": "Sagitario es un fuego en busca de sentido: viajes, conocimiento, libertad y optimismo. Contagia entusiasmo. El desafío es la impaciencia y las promesas hechas demasiado deprisa.",
+   "color": "morado",
+   "stone": "turquesa, amatista",
+   "day": "jueves",
+   "planet": "Júpiter",
+   "love": "En el amor, Sagitario necesita libertad y aventuras compartidas. Es sincero, cálido y optimista, y lleva mal los celos y el control.",
+   "work": "En el trabajo, Sagitario rinde bien en el turismo, la educación, la edición, el deporte y donde haya sentido y espacio para crecer.",
+   "wellbeing": "El movimiento y el espacio dan energía a Sagitario: senderismo, deporte, lugares nuevos. Debe tener cuidado con los excesos, en la comida, en las promesas y en el ritmo."
+  },
+  {
+   "id": "capricorn",
+   "name": "Capricornio",
+   "locative": "Capricornio",
+   "dates": "22 dic – 19 ene",
+   "text": "Capricornio es una tierra que sube a la cumbre: ambición, responsabilidad y perseverancia. Piensa a largo plazo. El desafío es el trabajo a costa del descanso y de la cercanía.",
+   "color": "marrón, gris",
+   "stone": "granate, ónice",
+   "day": "sábado",
+   "planet": "Saturno",
+   "love": "En el amor, Capricornio es serio, responsable y leal. Muestra sus sentimientos cuidando del futuro, y necesita tiempo para abrirse.",
+   "work": "En el trabajo, Capricornio es ambicioso, constante y bien organizado; rinde bien en la gestión, las finanzas, la administración y los proyectos a largo plazo.",
+   "wellbeing": "Capricornio trabaja de más con facilidad, a costa del descanso. Le ayudan un ritmo regular, la montaña, el silencio y permitirse placeres sin culpa."
+  },
+  {
+   "id": "aquarius",
+   "name": "Acuario",
+   "locative": "Acuario",
+   "dates": "20 ene – 18 feb",
+   "text": "Acuario es un aire que mira al futuro: independencia, originalidad y pensamiento en la comunidad. Le gusta seguir su propio camino. El desafío es la distancia emocional.",
+   "color": "turquesa",
+   "stone": "amatista, aguamarina",
+   "day": "sábado",
+   "planet": "Saturno y Urano",
+   "love": "En el amor, Acuario necesita amistad y libertad. Es leal y abierto, pero muestra sus emociones a su manera, más con ideas compartidas que con palabras tiernas.",
+   "work": "En el trabajo, Acuario rinde bien en la tecnología, la ciencia, el trabajo social y donde se puedan inventar soluciones nuevas.",
+   "wellbeing": "La cabeza va deprisa y el cuerpo se olvida con facilidad. Le ayudan el movimiento, el contacto con personas de valores afines y tiempo para sus propios proyectos."
+  },
+  {
+   "id": "pisces",
+   "name": "Piscis",
+   "locative": "Piscis",
+   "dates": "19 feb – 20 mar",
+   "text": "Piscis es un agua sin orillas: empatía, imaginación y espiritualidad. Siente más de lo que dice. El desafío es la huida de la realidad y la falta de límites.",
+   "color": "verde mar, lavanda",
+   "stone": "aguamarina, amatista",
+   "day": "jueves",
+   "planet": "Júpiter y Neptuno",
+   "love": "En el amor, Piscis es romántico, empático y entregado. Se enamora con facilidad e idealiza, y necesita a alguien que le dé sensación de seguridad.",
+   "work": "En el trabajo, Piscis rinde bien en las artes, la ayuda a los demás, la terapia, la música y la espiritualidad: donde cuentan la imaginación y la compasión.",
+   "wellbeing": "Piscis absorbe el estado de ánimo de su entorno, así que necesita calma y límites. Le ayudan el agua, el sueño, el arte y menos contacto con lo que le desborda."
+  }
+ ],
+ "chinese": [
+  {
+   "id": "rat",
+   "name": "Rata",
+   "text": "Ingeniosa, resolutiva y sociable; ve las oportunidades al vuelo.",
+   "long": "La Rata abre el zodiaco chino. Es el signo de la inteligencia, el ingenio y el pensamiento rápido, capaz de ver una oportunidad donde otros ven un problema. Es sociable y se siente a gusto entre la gente, aunque elige con cuidado a sus amistades íntimas. El desafío: el nerviosismo y la tendencia a acumular «por si acaso».",
+   "love": "En el amor, la Rata es tierna y entregada, aunque al principio prudente. Valora a una pareja inteligente y leal.",
+   "work": "En el trabajo, la Rata rinde bien en los negocios, el comercio y donde haya que detectar una oportunidad con rapidez."
+  },
+  {
+   "id": "ox",
+   "name": "Buey",
+   "text": "Paciente, trabajador y fiable; llega a la meta paso a paso.",
+   "long": "El Buey es laboriosidad, paciencia y fiabilidad. Trabaja con método y no le gustan las prisas ni las sorpresas, pero cumple la promesa que ha hecho. El desafío: la terquedad y la dificultad para pedir ayuda.",
+   "love": "En el amor, el Buey es fiel y constante, y muestra sus sentimientos más con hechos que con palabras.",
+   "work": "En el trabajo, el Buey es fiable y rinde bien en tareas que exigen paciencia, precisión y responsabilidad."
+  },
+  {
+   "id": "tiger",
+   "name": "Tigre",
+   "text": "Valiente, lleno de energía e independiente; no teme los desafíos.",
+   "long": "El Tigre es valor, energía y necesidad de independencia. Le gustan los desafíos y defiende a los más débiles. Puede ser impulsivo e impaciente, pero su entusiasmo arrastra a los demás.",
+   "love": "En el amor, el Tigre es apasionado y espontáneo, y necesita una pareja que le deje espacio.",
+   "work": "En el trabajo, el Tigre se siente a gusto como líder, como emprendedor o donde cuente el valor."
+  },
+  {
+   "id": "rabbit",
+   "name": "Conejo",
+   "text": "Suave, con tacto y sensible a la belleza; valora la paz.",
+   "long": "El Conejo (el Gato en Vietnam) es tacto, suavidad y sentido de la belleza. Evita los conflictos y valora la paz y las buenas relaciones. El desafío: esquivar las decisiones difíciles y pecar de precaución.",
+   "love": "En el amor, el Conejo es tierno y romántico, y busca una relación tranquila y armoniosa.",
+   "work": "En el trabajo, el Conejo rinde bien en la diplomacia, las artes, el diseño y el trabajo con personas."
+  },
+  {
+   "id": "dragon",
+   "name": "Dragón",
+   "text": "Carismático, ambicioso y seguro de sí; le gustan los grandes planes.",
+   "long": "El Dragón es el único animal mítico del zodiaco, símbolo de poder, buena suerte y carisma. Tiene grandes planes y la energía para llevarlos a cabo. El desafío: el orgullo y la impaciencia ante las debilidades ajenas.",
+   "love": "En el amor, el Dragón es apasionado y generoso, pero necesita admiración y libertad.",
+   "work": "En el trabajo, el Dragón apunta a grandes metas y rinde bien en la dirección y en proyectos de gran escala."
+  },
+  {
+   "id": "snake",
+   "name": "Serpiente",
+   "text": "Sabia, intuitiva y reflexiva; ve más de lo que muestra.",
+   "long": "La Serpiente es sabiduría, intuición y elegancia. Piensa antes de actuar y ve más de lo que dice. El desafío: el secretismo y la desconfianza.",
+   "love": "En el amor, la Serpiente es sensual y leal, pero celosa de lo que le importa.",
+   "work": "En el trabajo, la Serpiente rinde bien en el análisis, la estrategia, las finanzas y donde cuente la perspicacia."
+  },
+  {
+   "id": "horse",
+   "name": "Caballo",
+   "text": "Espíritu libre, enérgico y sincero; necesita movimiento y espacio.",
+   "long": "El Caballo es un espíritu libre: energía, sinceridad y necesidad de movimiento. Le gusta estar en el centro de las cosas y actúa deprisa. El desafío: la impaciencia y la dificultad para terminar lo empezado.",
+   "love": "En el amor, el Caballo es sincero y entusiasta, y necesita aventuras compartidas y libertad.",
+   "work": "En el trabajo, el Caballo es más feliz en movimiento: viajes, ventas, deporte y proyectos de ritmo rápido."
+  },
+  {
+   "id": "goat",
+   "name": "Cabra",
+   "text": "Creativa, suave y empática; se siente bien en la armonía.",
+   "long": "La Cabra (u Oveja) es creatividad, suavidad y empatía. Necesita armonía y un entorno seguro para florecer. El desafío: las preocupaciones y la dependencia de la opinión ajena.",
+   "love": "En el amor, la Cabra es suave y atenta, y necesita seguridad y ternura.",
+   "work": "En el trabajo, la Cabra rinde bien en las artes, el cuidado, el trabajo creativo y los equipos con buen ambiente."
+  },
+  {
+   "id": "monkey",
+   "name": "Mono",
+   "text": "Ingenioso, gracioso y curioso por el mundo; aprende rápido.",
+   "long": "El Mono es inventiva, ingenio y curiosidad por el mundo. Aprende rápido y encuentra soluciones poco habituales. El desafío: la dispersión y la tendencia a tomar atajos.",
+   "love": "En el amor, el Mono es divertido e ingenioso, y considera el aburrimiento su peor enemigo.",
+   "work": "En el trabajo, el Mono rinde bien en la tecnología, el comercio, el entretenimiento y donde haga falta pensar de forma poco convencional."
+  },
+  {
+   "id": "rooster",
+   "name": "Gallo",
+   "text": "Trabajador, honrado y preciso; le gustan el orden y las reglas claras.",
+   "long": "El Gallo es honradez, laboriosidad y atención al detalle. Le gusta el orden y dice claramente lo que piensa. El desafío: el espíritu crítico y el perfeccionismo.",
+   "love": "En el amor, el Gallo es fiel y atento, aunque a veces crítico; expresa sus sentimientos cuidando los detalles.",
+   "work": "En el trabajo, el Gallo rinde bien en la organización, la contabilidad, el ejército, la medicina y los trabajos que exigen precisión."
+  },
+  {
+   "id": "dog",
+   "name": "Perro",
+   "text": "Leal, honrado y protector; se pone del lado de los más débiles.",
+   "long": "El Perro es lealtad, honradez y sentido de la justicia. Es un amigo entregado y defensor de sus seres queridos. El desafío: la ansiedad y el pesimismo.",
+   "love": "En el amor, el Perro es uno de los signos más fieles: sincero y entregado.",
+   "work": "En el trabajo, el Perro rinde bien en profesiones relacionadas con la ayuda, el derecho, la protección y la educación."
+  },
+  {
+   "id": "pig",
+   "name": "Cerdo",
+   "text": "Generoso, bondadoso y alegre; sabe disfrutar de la vida.",
+   "long": "El Cerdo (o Jabalí) es generosidad, bondad y alegría de vivir. Confía en la gente y sabe disfrutar. El desafío: la ingenuidad y la dificultad para decir que no.",
+   "love": "En el amor, el Cerdo es generoso, cálido y romántico, y confía con facilidad.",
+   "work": "En el trabajo, el Cerdo rinde bien en la gastronomía y la hostelería, el cuidado, las artes y el trabajo con personas: donde cuenta la bondad."
+  }
+ ],
+ "phases": [
+  {
+   "name": "Luna nueva",
+   "text": "La luna nueva es tiempo de siembra. Formula una intención y empieza algo en silencio. Todavía no tienes que enseñárselo a nadie."
+  },
+  {
+   "name": "Luna creciente",
+   "text": "La Luna crece y la energía aumenta. Un buen momento para los primeros pasos y para reunir lo que necesitas."
+  },
+  {
+   "name": "Cuarto creciente",
+   "text": "El cuarto creciente trae los primeros obstáculos. No te rindas: toma una decisión y actúa pese a la resistencia."
+  },
+  {
+   "name": "Gibosa creciente",
+   "text": "La Luna está casi llena. Pule los detalles y arregla lo que no funciona. El resultado está cerca."
+  },
+  {
+   "name": "Luna llena",
+   "text": "La luna llena lo ilumina todo e intensifica las emociones. Verás los resultados de lo que has hecho. Celebra, pero no decidas en caliente."
+  },
+  {
+   "name": "Gibosa menguante",
+   "text": "Tras la luna llena llega el tiempo de la gratitud y de compartir. Haz balance de lo que has aprendido."
+  },
+  {
+   "name": "Cuarto menguante",
+   "text": "El cuarto menguante es tiempo de ordenar. Suelta lo que no necesitas: termínalo, regálalo, tíralo."
+  },
+  {
+   "name": "Luna menguante",
+   "text": "La Luna se apaga antes de la luna nueva. Baja el ritmo, descansa y haz silencio. Pronto empezará un nuevo ciclo."
+  }
+ ],
+ "today": {
+  "same": [
+   "Hoy la Luna recorre un signo de tu elemento y te sientes más tú. Haz las cosas a tu manera y no te disculpes por ello.",
+   "Hoy es más fácil confiar en tu instinto. Un buen día para lo que pide tus puntos fuertes naturales.",
+   "La energía del día va a tu ritmo. Aprovéchala para algo que llevas tiempo aplazando."
+  ],
+  "supportive": [
+   "El día está de tu parte: lo que haces encuentra menos resistencia de lo habitual. Un buen momento para conversaciones y contactos nuevos.",
+   "Tu entorno está hoy de buen humor. Pide ayuda o propón colaborar: oirás «sí» más a menudo que de costumbre.",
+   "Un día ligero y favorable. Apuesta por el movimiento, el intercambio de ideas y los pequeños placeres."
+  ],
+  "neutral": [
+   "Un día tranquilo, sin viento claro a favor: lo que saques de él depende de ti. Céntrate en una cosa concreta.",
+   "Hoy nada te empuja en ninguna dirección. Un buen momento para ordenar tus asuntos con calma.",
+   "Un día normal en el que cuenta la constancia. Los pequeños pasos llegarán más lejos que los grandes gestos."
+  ],
+  "tense": [
+   "Hoy quizá sientas que el mundo va a otro ritmo que el tuyo. No luches: baja el ritmo y elige qué importa de verdad.",
+   "Un día tenso, en el que surgen malentendidos con facilidad. Antes de responder con brusquedad, respira.",
+   "La energía del día te resulta ajena, y eso puede cansar. Cuídate y no tomes grandes decisiones llevado por el humor."
+  ]
+ },
+ "caution": {
+  "1": "Cuidado con la terquedad y con ir por libre. No tienes que hacerlo todo tú.",
+  "2": "Cuidado con ceder demasiado. Tu opinión también cuenta.",
+  "3": "Cuidado con la dispersión y las promesas vacías. Termina lo que has empezado.",
+  "4": "Cuidado con la rigidez. El plan importa, pero deja espacio al cambio.",
+  "5": "Cuidado con las decisiones precipitadas y las compras impulsivas.",
+  "6": "Cuidado con cargar con los problemas ajenos. Ayuda, pero no rescates a nadie contra su voluntad.",
+  "7": "Cuidado con encerrarte en ti y darle demasiadas vueltas a todo.",
+  "8": "Cuidado con el exceso de trabajo y la lucha por el control. Descansar también es productivo.",
+  "9": "Cuidado con aferrarte a lo que ya ha terminado. Déjalo ir."
+ },
+ "compat": {
+  "same": "El mismo elemento: os entendéis sin palabras y vais a un ritmo parecido. Tened cuidado de no reforzar vuestras debilidades.",
+  "supportive": "Elementos que se apoyan: uno enciende al otro o le da suelo firme. Os complementáis de forma natural.",
+  "neutral": "Elementos distintos, pero sin conflicto: cada uno tiene su propio mundo. La relación pide curiosidad por lo diferente.",
+  "tense": "Elementos en tensión: tenéis necesidades y ritmos distintos. No es un obstáculo, pero requiere diálogo y comprensión, y podéis aprender mucho el uno del otro."
+ },
+ "moonSigns": [
+  "Luna en Aries: las emociones se encienden y se apagan deprisa. Necesitas acción para sentirte bien; la inactividad te cansa más que el esfuerzo. El enfado llega con facilidad, pero no guardas rencor. Te ayudan el movimiento y poder decidir por ti mismo.",
+  "Luna en Tauro: necesitas calma, comodidad y previsibilidad. Construyes tu seguridad con cosas tangibles: el hogar, la comida, el contacto físico, un ritmo diario estable. El cambio te lleva tiempo. Cuando estás en equilibrio, das a los demás una enorme sensación de estabilidad.",
+  "Luna en Géminis: procesas los sentimientos hablando de ellos. Necesitas estímulos, curiosidad y alguien con quien intercambiar ideas. Los estados de ánimo cambian rápido. Te ayudan escribir, conversar y la ligereza.",
+  "Luna en Cáncer: es la casa natural de la Luna, con una sensibilidad profunda y necesidad de cercanía y hogar. Sientes con fuerza el ánimo de los demás y recuerdas emociones antiguas. Cuando algo duele, te refugias en tu caparazón. Te ayudan un lugar seguro y las personas cercanas.",
+  "Luna en Leo: necesitas que te vean y te aprecien. Expresas las emociones con calidez y a lo grande; un corazón herido se convierte pronto en orgullo. Das mucho corazón a los demás. Te ayudan la creatividad, el juego y el reconocimiento sincero.",
+  "Luna en Virgo: el orden y sentirte útil te dan paz. A menudo conviertes las emociones en cuidado de lo práctico y en análisis. Te preocupas con facilidad. Te ayudan la rutina, el trabajo manual y la indulgencia con tus propios errores.",
+  "Luna en Libra: necesitas armonía y compañía. Los conflictos te desequilibran, así que cedes con facilidad para mantener la paz. Un entorno bonito es importante para ti. Te ayudan las conversaciones a solas y poner nombre a tus propias necesidades.",
+  "Luna en Escorpio: sientes con intensidad y profundidad, pero muestras poco. Construyes la confianza despacio, y la lealtad lo es todo para ti. Te cuesta soltar. Te ayudan la sinceridad, la intimidad y convertir la emoción en acción.",
+  "Luna en Sagitario: necesitas libertad, espacio y sentido. El optimismo te ayuda en los momentos difíciles, a veces a costa de no vivirlos de verdad. Llevas mal las restricciones. Te ayudan los viajes, aprender y sentir que tu vida tiene una dirección.",
+  "Luna en Capricornio: mantienes las emociones bajo control y piensas primero en tus obligaciones. Un plan y la sensación de dominar la situación te dan seguridad. Rara vez pides ayuda. Te ayudan el reconocimiento de tu esfuerzo y tiempo solo para ti.",
+  "Luna en Acuario: necesitas independencia y amistad más que muestras de ternura. Te gusta entender una emoción antes de sentirla. Te sientes bien en grupo, pero con tus propias reglas. Te ayudan el espacio y personas que aceptan que eres diferente.",
+  "Luna en Piscis: una Luna muy empática; absorbes el ánimo de tu entorno. Necesitas silencio, arte o espiritualidad para volver a ti. Te emocionas con facilidad y sientes compasión enseguida. Te ayudan los límites, el sueño y la creatividad."
+ ],
+ "ascSigns": [
+  "Ascendente Aries: a primera vista, energía, franqueza y un ritmo rápido. Te ven como alguien que actúa antes de pensar. Entras con audacia en las situaciones nuevas. Cuida de que la prisa no parezca falta de interés por los demás.",
+  "Ascendente Tauro: a primera vista, calma, paciencia y una presencia agradable. Pareces estable y digno de confianza. Te acostumbras despacio a las situaciones nuevas. Tu fuerza es la constancia y el buen gusto.",
+  "Ascendente Géminis: a primera vista, curiosidad, expresividad y soltura al conversar. Pareces más joven e inquieto de lo que eres. Haces contactos con facilidad. Cuidado con la dispersión.",
+  "Ascendente Cáncer: a primera vista, suavidad y cautela. Primero captas el ambiente y solo después te abres. La gente siente calidez a tu lado. La reserva ante desconocidos suele ser tu protección.",
+  "Ascendente Leo: a primera vista, seguridad y calidez. Atraes la atención con facilidad, incluso sin buscarla. Tienes algo de escenario. Cuida de que el orgullo no oculte tu sensibilidad.",
+  "Ascendente Virgo: a primera vista, modestia, atención y pulcritud. Das la impresión de saber lo que haces. Ves detalles que a otros se les escapan. Cuidado con juzgarte con demasiada dureza.",
+  "Ascendente Libra: a primera vista, cortesía, encanto y cuidado de las formas. La gente se siente a gusto contigo. Suavizas las tensiones de forma natural. Cuida de no aceptarlo todo por tener paz.",
+  "Ascendente Escorpio: a primera vista, misterio y una mirada intensa. Cuesta descifrarte, y eso te parece bien. Tienes una presencia fuerte. Das tu confianza poco a poco.",
+  "Ascendente Sagitario: a primera vista, apertura, humor y entusiasmo. Pareces alguien que siempre busca aventura. Tu optimismo se contagia fácilmente. Cuidado con las promesas hechas en el calor del momento.",
+  "Ascendente Capricornio: a primera vista, seriedad, serenidad y madurez. Enseguida te confían responsabilidades. Con los años sueles volverte más ligero y abierto. Cuida de no cargar con todo tú solo.",
+  "Ascendente Acuario: a primera vista, originalidad y una ligera distancia. Destacas aunque no te lo propongas. Eres amable con todos, pero cercano con pocos. Tu fuerza es el pensamiento independiente.",
+  "Ascendente Piscis: a primera vista, suavidad, aire soñador y sensibilidad. La gente te hace confidencias con facilidad. Lees bien los estados de ánimo. Necesitas límites para no cargar con las emociones ajenas."
+ ],
+ "elements5": {
+  "wood": {
+   "name": "Madera",
+   "adj": "de Madera",
+   "text": "La Madera es crecimiento, generosidad y cooperación. Las personas de Madera crecen junto a otras y piensan en el futuro."
+  },
+  "fire": {
+   "name": "Fuego",
+   "adj": "de Fuego",
+   "text": "El Fuego es pasión, entusiasmo y valor. Las personas de Fuego contagian su energía, pero se queman con facilidad."
+  },
+  "earth": {
+   "name": "Tierra",
+   "adj": "de Tierra",
+   "text": "La Tierra es estabilidad, sentido común y cuidado. Las personas de Tierra son un apoyo para los demás y construyen para durar."
+  },
+  "metal": {
+   "name": "Metal",
+   "adj": "de Metal",
+   "text": "El Metal es determinación, principios y fuerza de voluntad. Las personas de Metal son coherentes y no temen las decisiones difíciles."
+  },
+  "water": {
+   "name": "Agua",
+   "adj": "de Agua",
+   "text": "El Agua es intuición, flexibilidad y sabiduría. Las personas de Agua se adaptan a las circunstancias y entienden bien a los demás."
+  }
+ },
+ "yearForecast": {
+  "same": "Es tu año, el año de tu propio signo (běnmìngnián). La tradición aconseja prudencia: más atención y menos riesgo. Un buen momento para volver a ti y a tus raíces.",
+  "friend": "El año de tu «amigo secreto». La tradición habla de un apoyo que llega en silencio, así que conviene aceptar la ayuda y las invitaciones.",
+  "trine": "El año de un signo de tu trígono de aliados. Favorece la acción, la cooperación y la realización de planes; la energía del año está cerca de la tuya.",
+  "clash": "El año de tu signo opuesto (chōng). La tradición anuncia cambios y tensiones. Mejor no forzar nada y ver el cambio como una oportunidad.",
+  "neutral": "Un año neutral para tu signo. Ni viento especialmente a favor ni obstáculos: mucho depende de tus propias decisiones."
+ },
+ "chineseCompat": {
+  "same": "El mismo signo: os entendéis bien, pero también reforzáis con facilidad vuestras debilidades.",
+  "friend": "Amigos secretos: según la tradición, una de las mejores combinaciones, en la que uno apoya al otro.",
+  "trine": "El mismo trígono de aliados: valores parecidos y una armonía natural.",
+  "clash": "Signos opuestos: se atraen y chocan. Mucho que aprender, pero también roces.",
+  "neutral": "Una combinación neutral: ni armonía especial ni conflicto. Todo depende de vosotros."
+ },
+ "dayTypes": {
+  "fire": {
+   "name": "Día de fruto",
+   "text": "Luna en un signo de Fuego: según la tradición hortícola, un buen día para las plantas de fruto y para recoger fruta."
+  },
+  "earth": {
+   "name": "Día de raíz",
+   "text": "Luna en un signo de Tierra: un buen día para las hortalizas de raíz, los trasplantes y trabajar la tierra."
+  },
+  "air": {
+   "name": "Día de flor",
+   "text": "Luna en un signo de Aire: un buen día para las plantas de flor y para cortar flores para un jarrón."
+  },
+  "water": {
+   "name": "Día de hoja",
+   "text": "Luna en un signo de Agua: un buen día para las hierbas aromáticas, las hojas de ensalada y el riego."
+  }
+ },
+ "haircut": {
+  "waxing": "La Luna está creciendo: según la tradición, el pelo vuelve a crecer más rápido tras el corte.",
+  "waning": "La Luna está menguando: según la tradición, un corte mantiene la forma más tiempo."
+ },
+ "mercury": "Mercurio retrógrado: visto desde la Tierra, parece moverse hacia atrás en el cielo. En la tradición astrológica es un tiempo para revisar, corregir y volver a asuntos antiguos, no para firmar contratos con prisas. Comprueba dos veces los mensajes y los planes.",
+ "transits": {
+  "moonInSun": "Hoy la Luna está en tu signo solar. Las emociones y necesidades están más a flor de piel: un buen día para hacer algo por ti.",
+  "moonInMoon": "La Luna ha vuelto al signo en el que estaba cuando naciste (retorno lunar). La tradición habla de un día de renovación emocional. Fíjate en lo que de verdad necesitas.",
+  "moonInAsc": "La Luna recorre el signo de tu ascendente. Lo que sientes se nota más, y los demás pueden percibirlo hoy con más facilidad.",
+  "moonOpposite": "La Luna está en el signo opuesto a tu Sol. Surgen con más facilidad tensiones entre lo que tú quieres y lo que quieren los demás. Busca un término medio.",
+  "sunSeason": "El Sol está en tu signo: es tu época del año. Un buen momento para hacer balance del último año y marcar un nuevo rumbo.",
+  "mercuryInSun": "Mercurio está retrógrado en tu signo solar. Las repeticiones y los malentendidos pueden afectarte más que a otros. Comprueba dos veces lo que dices y lo que firmas."
+ },
+ "rituals": {
+  "new": {
+   "title": "Ritual de luna nueva",
+   "text": "La luna nueva es el comienzo del ciclo lunar, tradicionalmente un tiempo para sembrar intenciones. Siéntate un momento con calma y escribe qué quieres empezar o desarrollar en ti durante el próximo mes.",
+   "prompts": [
+    "¿Qué quiero empezar en este ciclo?",
+    "¿Qué pequeño paso daré esta semana?",
+    "¿Qué necesito para lograrlo?"
+   ]
+  },
+  "full": {
+   "title": "Ritual de luna llena",
+   "text": "La luna llena es la cumbre del ciclo: un tiempo de cosecha, gratitud y desapego. Vuelve a tu intención de luna nueva y mira qué ha pasado.",
+   "prompts": [
+    "¿Qué agradezco hoy?",
+    "¿Qué ha ido bien desde la luna nueva?",
+    "¿Qué quiero soltar antes de que empiece el nuevo ciclo?"
+   ]
+  }
+ },
+ "week": {
+  "same": "El Sol recorre ahora un signo de tu elemento. Una semana en la que es más fácil ser tú y llevar a cabo tus planes. Aprovéchala para lo que pide tus puntos fuertes.",
+  "supportive": "El Sol está en un signo de un elemento que te apoya. La semana favorece los contactos, la cooperación y las ideas nuevas: menos resistencia y más fluidez.",
+  "neutral": "El Sol está en un signo de un elemento neutral para ti. Una semana tranquila en la que mucho depende de tu constancia. Céntrate en un asunto importante.",
+  "tense": "El Sol está en un signo de un elemento que va a otro ritmo que el tuyo. La semana puede pedir paciencia y concesiones. No fuerces nada."
+ },
+ "eclipseText": {
+  "solar": "Un eclipse solar coincide con la luna nueva. En la tradición es un comienzo poderoso: tiempo para una intención que importará durante más tiempo.",
+  "lunar": "Un eclipse lunar coincide con la luna llena. En la tradición es un tiempo de cierre y de cosas que salen a la luz: un buen momento para poner fin a algo."
+ }
+}

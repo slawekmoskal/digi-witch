@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../engine/lang.dart';
 import '../engine/numerology.dart';
 import '../engine/tarot.dart';
 import 'content.dart';
@@ -53,7 +54,9 @@ class AppStore extends ChangeNotifier {
   bool get onboarded => _p.getBool('onboarded') ?? false;
   set onboarded(bool v) => _set(() => _p.setBool('onboarded', v));
 
-  bool get isPro => _p.getBool('isPro') ?? false;
+  // Test builds for the owner (--dart-define=DEMO_PRO=true) behave as Pro: no ads, no consent form.
+  bool get isPro =>
+      const bool.fromEnvironment('DEMO_PRO') || (_p.getBool('isPro') ?? false);
   set isPro(bool v) => _set(() => _p.setBool('isPro', v));
 
   /// Daily reminder time in minutes after midnight; null = off (default).
@@ -67,8 +70,18 @@ class AppStore extends ChangeNotifier {
         : _p.setInt('reminderMinutes', v),
   );
 
+  /// The one-time offer of a morning reminder was answered (either way).
+  bool get reminderAsked => _p.getBool('reminderAsked') ?? false;
+  set reminderAsked(bool v) => _set(() => _p.setBool('reminderAsked', v));
+
+  bool get tarotWelcome => _p.getBool('tarotWelcome') ?? true;
+  set tarotWelcome(bool v) => _set(() => _p.setBool('tarotWelcome', v));
   bool get allowReversed => _p.getBool('allowReversed') ?? false;
   set allowReversed(bool v) => _set(() => _p.setBool('allowReversed', v));
+
+  /// 'system' (follow the phone) or a language code from [appLangs].
+  String get language => _p.getString('language') ?? 'system';
+  set language(String v) => _set(() => _p.setString('language', v));
 
   String get themeMode => _p.getString('themeMode') ?? 'system';
   set themeMode(String v) => _set(() => _p.setString('themeMode', v));
@@ -129,6 +142,52 @@ class AppStore extends ChangeNotifier {
     return card;
   }
 
+  /// Whether today's card was already turned face up (the daily tap-to-reveal).
+  bool cardRevealed(CalendarDate today) =>
+      _p.getString('cardRevealed') == today.iso;
+  void revealCard(CalendarDate today) => _set(() async {
+    await _p.setString('cardRevealed', today.iso);
+    final log = {
+      for (final e in cardLog.entries) e.key: e.value.toJson(),
+      today.iso: cardOfDay(today).toJson(),
+    };
+    // shortcut: keeps about a year of days; raise when a longer look-back is wanted.
+    if (log.length > 400) log.remove(log.keys.first);
+    await _p.setString('cardLog', jsonEncode(log));
+  });
+
+  /// The cards of the day that were turned, by ISO date, oldest first ("Your days").
+  Map<String, DrawnCard> get cardLog {
+    try {
+      return {
+        for (final e
+            in (jsonDecode(_p.getString('cardLog') ?? '{}') as Map).entries)
+          if (DrawnCard.fromJson(e.value) case final c
+              when deckIds.contains(c.cardId))
+            e.key as String: c,
+      };
+    } catch (_) {
+      return {}; // a corrupt value must not break Today
+    }
+  }
+
+  // ---- mood check-in ----
+  /// Mood per day, 1 (bad) … 5 (great), keyed by ISO date. Stays on the device.
+  Map<String, int> get moods {
+    try {
+      return (jsonDecode(_p.getString('moods') ?? '{}') as Map)
+          .cast<String, int>();
+    } catch (_) {
+      return {}; // a corrupt value must not break Today
+    }
+  }
+
+  void setMood(CalendarDate day, int? mood) {
+    final m = moods;
+    mood == null ? m.remove(day.iso) : m[day.iso] = mood;
+    _set(() => _p.setString('moods', jsonEncode(m)));
+  }
+
   List<DrawnCard> drawSpread(Spread s) =>
       draw(s, random: _random, allowReversed: allowReversed);
 
@@ -181,7 +240,21 @@ class AppStore extends ChangeNotifier {
       'journal',
       jsonEncode([for (final e in l) e.toJson()]),
     );
-    if (!ok) throw StateError('Nie udało się zapisać dziennika');
+    if (!ok) {
+      throw StateError(
+        tr(
+          pl: 'Nie udało się zapisać dziennika',
+          en: 'The journal could not be saved',
+          de: 'Das Tagebuch konnte nicht gespeichert werden',
+          fr: 'Le journal n’a pas pu être enregistré',
+          es: 'No se ha podido guardar el diario',
+          uk: 'Не вдалося зберегти щоденник',
+          it: 'Impossibile salvare il diario',
+          pt: 'Não foi possível salvar o diário',
+          nl: 'Het dagboek kon niet worden opgeslagen',
+        ),
+      );
+    }
     notifyListeners();
   }
 
@@ -221,6 +294,9 @@ class AppStore extends ChangeNotifier {
     'app': 'digi_witch',
     'exportedAt': DateTime.now().toIso8601String(),
     'entries': [for (final e in journal) e.toJson()],
+    if (moods.isNotEmpty) 'moods': moods,
+    if (cardLog.isNotEmpty)
+      'cards': {for (final e in cardLog.entries) e.key: e.value.toJson()},
     if (unreadableJournalData.isNotEmpty) 'unreadable': unreadableJournalData,
   });
 

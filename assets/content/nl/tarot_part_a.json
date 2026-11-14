@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "De Dwaas",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "nieuw begin",
+   "spontaniteit",
+   "vertrouwen",
+   "nieuwsgierigheid",
+   "lichtheid"
+  ],
+  "symbolism": "Een jonge figuur in kleurrijke kleding staat op de rand van een afgrond met het gezicht naar de hemel gekeerd, alsof hij de kloof niet opmerkt. In de ene hand houdt hij een witte roos, op zijn schouder draagt hij een stok met een klein bundeltje, en bij zijn voeten springt een klein wit hondje. Achter hem schijnt een heldere zon en zijn besneeuwde bergtoppen te zien.",
+  "upright": "De Dwaas nodigt uit om met een frisse blik naar de situatie te kijken, zonder het gewicht van eerdere aannames. Het is de energie van de eerste stap, met meer nieuwsgierigheid dan plan. De kaart kan suggereren dat het goed is jezelf het recht te geven om het niet te weten en onderweg te leren. Het hondje bij zijn voeten herinnert eraan dat openheid goed samengaat met een beetje oplettendheid.",
+  "reversed": "Een omgekeerde Dwaas kan wijzen op aarzeling voor de start, of juist op haast die belangrijke signalen overslaat. Soms is het een uitnodiging om te kijken of angst voor fouten je niet het plezier van uitproberen ontneemt.",
+  "reflection": [
+   "Wat zou er mogelijk zijn als je het einde niet van tevoren hoefde te kennen?",
+   "Welke kleine stap het onbekende in lijkt je nu aanlokkelijk?"
+  ],
+  "advice": "Dit is een goed moment voor een nieuw begin. Zet de eerste stap, ook als je de hele weg niet kent, vertrouw op intuïtie en nieuwsgierigheid, maar kijk wel waar je loopt.",
+  "adviceReversed": "Sta even stil voor je springt. Kijk of de aarzeling uit verstand komt of uit angst voor fouten, en ga dan pas.",
+  "astrology": "Lucht"
+ },
+ {
+  "id": "major_01",
+  "name": "De Magiër",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "daadkracht",
+   "focus",
+   "vaardigheden",
+   "initiatief",
+   "communicatie"
+  ],
+  "symbolism": "Een figuur in een wit gewaad en rode mantel heft met één hand een staf naar de hemel en wijst met de andere naar de aarde. Boven zijn hoofd staat het teken van oneindigheid, en op de tafel liggen een beker, een zwaard, een pentakel en een staf, de tekens van de vier elementen. Het hele tafereel wordt omringd door bloeiende rozen en lelies.",
+  "upright": "De Magiër spreekt over een moment waarop je meer middelen binnen handbereik hebt dan het lijkt. De kaart moedigt aan om denken en doen te verbinden en je voornemens een concrete vorm te geven. Het is een goed moment om je eigen talenten op te merken en ze bewust te gebruiken. Het gebaar dat tegelijk omhoog en omlaag wijst, herinnert eraan visie met de dagelijkse praktijk te verbinden.",
+  "reversed": "Omgekeerd kan de energie van de Magiër zich verspreiden, er zijn veel ideeën, maar er ontbreekt richting. Soms is het ook een signaal om te kijken of woorden en intenties met elkaar kloppen.",
+  "reflection": [
+   "Welke vaardigheden heb je al tot je beschikking, ook al merk je ze zelden op?",
+   "Welke gedachte wacht om in een eerste concrete stap te worden omgezet?"
+  ],
+  "advice": "Je hebt alles wat je nodig hebt om te beginnen. Neem zaken in eigen hand, richt je op één doel en handel.",
+  "adviceReversed": "Controleer je intenties voordat je gaat handelen. Verspreide energie of proberen de situatie te manipuleren brengt niet wat je wilt.",
+  "astrology": "Mercurius"
+ },
+ {
+  "id": "major_02",
+  "name": "De Hogepriesteres",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "intuïtie",
+   "stilte",
+   "innerlijke kennis",
+   "mysterie",
+   "geduld"
+  ],
+  "symbolism": "Een vrouw in blauwe gewaden zit tussen twee zuilen, een donkere en een lichte, gemerkt met de letters B en J. Op haar schoot houdt ze een half verborgen rol, aan haar voeten ligt een halve maan, en achter haar hangt een gordijn versierd met granaatappels. Op haar hoofd draagt ze een kroon die doet denken aan de maanfasen.",
+  "upright": "De Hogepriesteres nodigt uit om te luisteren naar wat stil en onuitgesproken is. Niet alle antwoorden komen door analyse, sommige rijpen in rust. De kaart kan suggereren dat het goed is stil te staan voor een beslissing en jezelf tijd te geven om de situatie aan te voelen. Het is een ruimte om je eigen gevoel te vertrouwen.",
+  "reversed": "Een omgekeerde Hogepriesteres kan wijzen op het overstemmen van intuïtie door de drukte van alledag of de meningen van anderen. Soms betekent ze ook je te sterk in jezelf terugtrekken, terwijl een gesprek verlichting kon brengen.",
+  "reflection": [
+   "Wat zegt je innerlijke stem als je de omgeving even stil maakt?",
+   "Waar heb je meer tijd voor nodig voordat je een besluit neemt?"
+  ],
+  "advice": "Het antwoord is al in jou. Neem geen overhaaste beslissing, word stil en luister naar je intuïtie voordat je anderen vraagt.",
+  "adviceReversed": "Stop met je innerlijke stem te overstemmen met de meningen van anderen. Geef jezelf een moment van stilte, en je zult zien wat je echt voelt.",
+  "astrology": "Maan"
+ },
+ {
+  "id": "major_03",
+  "name": "De Keizerin",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "overvloed",
+   "zorg",
+   "creativiteit",
+   "zinnelijkheid",
+   "groei"
+  ],
+  "symbolism": "Een vrouw in een jurk met granaatappelpatroon rust op zachte kussens te midden van rijpend graan. Op haar hoofd draagt ze een krans van twaalf sterren, en naast haar staat een hartvormig schild met het teken van Venus. Op de achtergrond stroomt een beek en ruist een dicht bos.",
+  "upright": "De Keizerin herinnert aan wat groeit als het aandacht en tederheid krijgt: projecten, relaties, en ook zorg voor jezelf. De kaart moedigt aan het plezier van eenvoudige dingen te waarderen. Ze kan een uitnodiging zijn om te scheppen zonder druk van perfectie. Het is de energie van vrijgevigheid, die ook jou omvat.",
+  "reversed": "Omgekeerd kan die energie zich uiten als geven boven je krachten of je eigen behoeften overslaan. Soms is het ook een signaal van een creatieve blokkade, die eerder door rust dan door druk verzacht wordt.",
+  "reflection": [
+   "Wat in je leven heeft nu geduldige zorg nodig om te kunnen groeien?",
+   "Hoe kun je vandaag voor jezelf zorgen zoals je voor anderen zorgt?"
+  ],
+  "advice": "Zorg voor wat je wilt laten groeien: jezelf, een relatie, een idee. Handel met zorg en geduld, en de zaak neemt vanzelf vorm aan.",
+  "adviceReversed": "Het is moeilijk aan anderen te geven als je zelf geen kracht meer hebt. Begin met voor jezelf zorgen, en zorg dan voor de rest.",
+  "astrology": "Venus"
+ },
+ {
+  "id": "major_04",
+  "name": "De Keizer",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "structuur",
+   "verantwoordelijkheid",
+   "stabiliteit",
+   "grenzen",
+   "leiderschap"
+  ],
+  "symbolism": "Een bebaarde heerser in harnas en rode mantel zit op een stenen troon versierd met ramskoppen. In de ene hand houdt hij een scepter met een ankh, in de andere een gouden bol. Achter hem rijzen strenge, roestkleurige bergen op.",
+  "upright": "De Keizer spreekt over orde die een gevoel van veiligheid geeft en je rustig laat handelen. De kaart kan aanmoedigen om duidelijke regels, grenzen of een plan te bepalen. Het is ook een uitnodiging om verantwoordelijkheid te nemen voor je eigen invloedsgebied. Een goede structuur hoeft niet star te zijn, ze kan een steun zijn.",
+  "reversed": "Een omgekeerde Keizer kan wijzen op overdreven controle of juist op het ontbreken van vaste steunpunten. Het is goed te vragen of de huidige regels nog dienen of je alleen nog belemmeren.",
+  "reflection": [
+   "Welke grens of regel zou je zekerder laten voelen?",
+   "Waar geeft controle je houvast, en waar begint ze je te beperken?"
+  ],
+  "advice": "Breng orde aan. Stel duidelijke regels, maak een plan en neem verantwoordelijkheid voor je besluit, stabiliteit geeft je een voorsprong.",
+  "adviceReversed": "Te veel controle kan een situatie verstikken. Versoepel starre regels of, als structuur ontbreekt, bouw haar eindelijk op.",
+  "astrology": "Ram"
+ },
+ {
+  "id": "major_05",
+  "name": "De Hogepriester",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "traditie",
+   "leren",
+   "gemeenschap",
+   "waarden",
+   "begeleiding"
+  ],
+  "symbolism": "Een geestelijke in rood gewaad en driedubbele kroon zit tussen twee stenen zuilen en heft zijn hand in een zegengebaar. Aan zijn voeten liggen gekruiste sleutels, en voor hem knielen twee leerlingen in gewaden versierd met rozen en lelies.",
+  "upright": "De Hogepriester verwijst naar kennis die van generatie op generatie wordt doorgegeven en naar gemeenschappen die een gevoel van erbij horen geven. De kaart kan suggereren dat je baat hebt bij de ervaring van een leraar, mentor of beproefde methode. Het is ook een kans om na te denken over welke waarden echt de jouwe zijn. Traditie kan een brug zijn, geen muur.",
+  "reversed": "Een omgekeerde Hogepriester kan uitnodigen om regels die zonder nadenken zijn overgenomen in twijfel te trekken. Soms wijst hij op de behoefte om je eigen weg te vinden buiten de gebaande paden.",
+  "reflection": [
+   "Van wie kun je nu iets leren?",
+   "Welke overtuigingen die je van anderen hebt overgenomen, is het goed vandaag opnieuw te overdenken?"
+  ],
+  "advice": "Maak gebruik van een beproefde weg. Vraag raad aan iemand met ervaring of steun op regels die zich al hebben bewezen.",
+  "adviceReversed": "Je hoeft niet alles te doen zoals het “hoort”. Vraag jezelf welke regels van jou zijn, en welke alleen geërfd.",
+  "astrology": "Stier"
+ },
+ {
+  "id": "major_06",
+  "name": "De Geliefden",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "keuze",
+   "relatie",
+   "waarden",
+   "nabijheid",
+   "samenhang"
+  ],
+  "symbolism": "Een naakte vrouw en man staan in een tuin, en boven hen in de wolken zweeft een gevleugelde engel met uitgestrekte armen. Achter de vrouw groeit een boom met vruchten waaromheen een slang kronkelt, achter de man een boom met vlammende bladeren. Tussen hen in de verte verheft zich een eenzame berg.",
+  "upright": "De Geliefden spreken over nabijheid, maar ook over keuzes die voortkomen uit wat voor ons belangrijk is. De kaart kan gaan over een relatie waarin oprechtheid en wederkerigheid tellen. Ze kan ook uitnodigen tot een besluit in lijn met je eigen waarden, ook als dat moed vraagt. Samenhang tussen hart en handelen geeft een gevoel van innerlijke orde.",
+  "reversed": "Omgekeerd kan de kaart wijzen op een kloof tussen wat je wenst en wat je kiest. Soms is ze ook een uitnodiging tot een eerlijk gesprek over verwachtingen in een relatie.",
+  "reflection": [
+   "Welke keuze zou het best overeenkomen met wat je echt waardeert?",
+   "Wat heb je nodig om je in een relatie helemaal jezelf te voelen?"
+  ],
+  "advice": "Je staat voor een keuze, kies volgens je waarden, niet uit gemak. Zet in op wat echt belangrijk voor je is.",
+  "adviceReversed": "Er klopt iets niet: je hart wil het ene en je daden zeggen het andere. Benoem eerlijk wat je wilt voordat je beslist.",
+  "astrology": "Tweelingen"
+ },
+ {
+  "id": "major_07",
+  "name": "De Zegewagen",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "vastberadenheid",
+   "richting",
+   "vooruitgang",
+   "zelfdiscipline",
+   "zekerheid"
+  ],
+  "symbolism": "Een krijger in een harnas versierd met halve manen staat in een stenen wagen onder een met sterren bezaaide baldakijn. De wagen wordt getrokken door twee sfinxen, een zwarte en een witte, die in verschillende richtingen kijken. Achter hem zijn stadsmuren en een stromende rivier te zien.",
+  "upright": "De Zegewagen beschrijft de energie van gerichte beweging, waarin verschillende krachten in één richting gestuurd worden. De kaart kan aanmoedigen tot volharding en een helder doel. Het gaat niet om vechten met obstakels, maar om rustig koers houden. De overwinning is hier soms het beheersen van innerlijke tegenstrijdigheden.",
+  "reversed": "Een omgekeerde Zegewagen kan suggereren dat krachten in tegengestelde richting trekken en het moeilijk is van zijn plek te komen. Soms is het een signaal om te vertragen en te kijken of het gekozen doel nog het juiste is.",
+  "reflection": [
+   "Waar ga je eigenlijk heen, en waaraan merk je dat het de goede weg is?",
+   "Welke tegenstrijdige behoeften kun je verzoenen in plaats van ermee te vechten?"
+  ],
+  "advice": "Ga vooruit. Bepaal een richting, houd je eraan en laat je niet afleiden, vastberadenheid brengt je bij je doel.",
+  "adviceReversed": "Je trekt tegelijk twee kanten op. Beslis waar je heen wilt voordat je gas geeft.",
+  "astrology": "Kreeft"
+ },
+ {
+  "id": "major_08",
+  "name": "Kracht",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "zachte kracht",
+   "moed",
+   "geduld",
+   "zelfbeheersing",
+   "mededogen"
+  ],
+  "symbolism": "Een vrouw in een wit gewaad, met een bloemenslinger om haar middel, omvat rustig met haar handen de bek van een leeuw. Boven haar hoofd zweeft het teken van oneindigheid. Het dier lijkt getemd, en het tafereel speelt zich af voor zachte heuvels en een heldere, gele hemel.",
+  "upright": "Kracht toont een kracht die geen geschreeuw of dwang nodig heeft. De kaart moedigt aan om zacht om te gaan met je eigen emoties en instincten, niet door ze te onderdrukken, maar door ze te temmen. Het is moed die voortkomt uit geduld en vriendelijkheid voor jezelf. Rust is hier overtuigender dan druk.",
+  "reversed": "Omgekeerd kan de kaart wijzen op twijfel aan je eigen krachten of moeite om frustratie te kalmeren. Het is dan goed jezelf met evenveel geduld te behandelen als je naasten.",
+  "reflection": [
+   "Welke emotie heeft vandaag eerder begrip dan strijd nodig?",
+   "Waar zou je zachtheid een kracht kunnen blijken?"
+  ],
+  "advice": "Handel met zachte kracht. Rust, geduld en moed doen meer dan druk, je kunt dit aan.",
+  "adviceReversed": "Je twijfelt meer aan jezelf dan nodig is. Herinner je wat je al hebt overwonnen en benader jezelf zachter.",
+  "astrology": "Leeuw"
+ },
+ {
+  "id": "major_09",
+  "name": "De Kluizenaar",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "reflectie",
+   "gekozen eenzaamheid",
+   "wijsheid",
+   "terugtrekken",
+   "zoeken"
+  ],
+  "symbolism": "Een oude man in een grijze mantel met capuchon staat op een besneeuwde top. In de ene hand heft hij een lantaarn waarin een zeszijdige ster schijnt, de andere steunt op een lange staf. Zijn blik is naar beneden gericht, alsof hij de weg verlicht voor wie hem volgen.",
+  "upright": "De Kluizenaar nodigt uit om stil te staan en naar binnen te kijken. Tijd in stilte kan helpen scheiden wat belangrijk is van wat alleen luid is. De kaart betekent geen afsnijden van mensen, maar bewust ruimte maken voor je eigen gedachten. Het licht van de lantaarn volstaat om de eerstvolgende stap te zien.",
+  "reversed": "Een omgekeerde Kluizenaar kan suggereren dat terugtrekken op isolatie is gaan lijken. Soms is het omgekeerd: vluchten voor stilte, omdat het moeilijk is je eigen vragen te ontmoeten.",
+  "reflection": [
+   "Wat leer je over jezelf als je in stilte bent?",
+   "Welke ene volgende stap zie je in het licht dat je al hebt?"
+  ],
+  "advice": "Trek je even terug uit de drukte. Overdenk de zaak in eenzaamheid, het antwoord komt van binnenuit, niet van buiten.",
+  "adviceReversed": "Het terugtrekken duurt al te lang. Tijd om naar mensen toe te gaan en te delen wat je in jezelf weet.",
+  "astrology": "Maagd"
+ },
+ {
+  "id": "major_10",
+  "name": "Rad van Fortuin",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "cycli",
+   "verandering",
+   "toeval",
+   "ritme",
+   "kentering"
+  ],
+  "symbolism": "Aan de hemel draait een groot wiel bedekt met letters en alchemistische tekens. Op de top zit een sfinx met een zwaard, langs de ene kant glijdt een slang naar beneden, en van onderen stijgt een figuur met een jakhalskop op. In de hoeken, op wolken, buigen gevleugelde wezens, een engel, een adelaar, een leeuw en een stier, zich over boeken.",
+  "upright": "Het Rad van Fortuin herinnert eraan dat het leven in cycli beweegt en geen situatie onveranderd blijft. De kaart moedigt aan op te merken wat er nu verandert en na te denken hoe je je erop kunt afstemmen. Niet alles hangt van ons af, maar invloed op je eigen houding blijft. Verandering kan mogelijkheden onthullen die eerder niet zichtbaar waren.",
+  "reversed": "Omgekeerd kan de kaart wijzen op verzet tegen verandering of het gevoel dat hetzelfde patroon steeds terugkomt. Het is een uitnodiging om een onderdeel van de cyclus te zoeken dat je bewust kunt doorbreken of omvormen.",
+  "reflection": [
+   "Welk terugkerend patroon zie je in je leven?",
+   "Waarop heb je invloed, ook als de omstandigheden veranderen?"
+  ],
+  "advice": "De situatie verandert en dit is een goed moment om mee te stromen. Benut de kans die zich aandient, het wiel draait.",
+  "adviceReversed": "Vecht niet tegen wat je niet in de hand hebt. Richt je op wat je kunt doen, en wacht tot de cyclus keert.",
+  "astrology": "Jupiter"
+ },
+ {
+  "id": "major_11",
+  "name": "Gerechtigheid",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "evenwicht",
+   "eerlijkheid",
+   "oorzaak en gevolg",
+   "helderheid",
+   "verantwoordelijkheid"
+  ],
+  "symbolism": "Een figuur in een rood gewaad zit op een troon tussen twee zuilen, waarachter een paars gordijn hangt. In de ene hand houdt ze een opgeheven tweesnijdend zwaard, in de andere een weegschaal met gelijke schalen. Onder het gewaad kijkt een witte schoen uit, en haar blik is kalm en direct.",
+  "upright": "Gerechtigheid nodigt uit om eerlijk naar de situatie te kijken, met alle kanten erbij. De kaart spreekt over het verband tussen keuzes en hun gevolgen. Dit kan een goed moment zijn om de feiten te benoemen en te beslissen in overeenstemming met je eigen gevoel voor degelijkheid. Helderheid brengt vaak opluchting, ook als ze eerlijkheid tegenover jezelf vraagt.",
+  "reversed": "Omgekeerde Gerechtigheid kan wijzen op moeite met het aannemen van verantwoordelijkheid of het gevoel dat iets uit balans blijft. Het is goed te kijken of je oordeel over de situatie niet te streng is, over anderen of over jezelf.",
+  "reflection": [
+   "Hoe zou deze situatie eruitzien als je er van alle kanten naar keek?",
+   "Waarvoor wil je verantwoordelijkheid nemen, en wat is niet van jou?"
+  ],
+  "advice": "Handel eerlijk en weeg alle kanten af. Een beslissing gebaseerd op feiten en waarheid brengt een rechtvaardige uitkomst.",
+  "adviceReversed": "Er is iets uit balans. Controleer of je tegenover jezelf en anderen helemaal eerlijk bent voordat je een oordeel velt.",
+  "astrology": "Weegschaal"
+ },
+ {
+  "id": "major_12",
+  "name": "De Gehangene",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "opschorting",
+   "nieuw perspectief",
+   "loslaten",
+   "pauze",
+   "acceptatie"
+  ],
+  "symbolism": "Een man hangt ondersteboven, met één voet vastgebonden aan een houten balk in de vorm van een T, waaruit bladeren groeien. Het andere been is gebogen en vormt een kruis, en zijn handen zijn achter zijn rug verborgen. Rond zijn hoofd straalt een aureool, en zijn gezicht blijft kalm.",
+  "upright": "De Gehangene beschrijft een tijd van opschorting die een heel nieuwe blik kan brengen. Wanneer handelen niets oplevert, helpt het soms stil te staan en dingen van een andere kant te bekijken. De kaart moedigt aan de behoefte aan onmiddellijke oplossingen los te laten. In schijnbare stilstand rijpt vaak begrip.",
+  "reversed": "Een omgekeerde Gehangene kan wijzen op ongeduld met de pauze of langer in de opschorting blijven dan nodig. Soms is het ook een uitnodiging om op te merken wat je al kunt loslaten om verder te gaan.",
+  "reflection": [
+   "Wat zie je als je deze zaak van de volkomen andere kant bekijkt?",
+   "Wat kun je opgeven om ruimte te maken voor iets nieuws?"
+  ],
+  "advice": "Haast je niet. Sta stil en bekijk de zaak van een andere kant, loslaten kan je meer geven dan vechten.",
+  "adviceReversed": "Wachten is niet langer nuttig. Als je in de opschorting zit, is het tijd om een besluit te nemen en verder te gaan.",
+  "astrology": "Water"
+ },
+ {
+  "id": "major_13",
+  "name": "De Dood",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "transformatie",
+   "afsluiting van een fase",
+   "verandering",
+   "vernieuwing",
+   "loslaten"
+  ],
+  "symbolism": "Een figuur in een zwart harnas rijdt op een wit paard en draagt een zwarte vlag met een witte roos. Voor hem staan en knielen mensen van verschillende standen, van heerser tot kind, en elk reageert anders op zijn komst. Op de achtergrond, tussen twee torens, komt de zon op.",
+  "upright": "De Dood in de tarot symboliseert het afsluiten van een hoofdstuk en de overgang naar het volgende, geen lichamelijk einde. De kaart spreekt over een verandering die ruimte vrijmaakt, zoals de herfst de grond voorbereidt op de lente. Ze kan aanmoedigen afscheid te nemen van gewoontes, rollen of overtuigingen die hun functie al hebben vervuld. De opkomende zon op de achtergrond herinnert eraan dat na het einde een nieuw begin komt.",
+  "reversed": "Een omgekeerde Dood kan wijzen op verzet tegen een verandering die toch van binnenuit rijpt. Soms is het een uitnodiging om iets zacht te laten gaan in plaats van het geforceerd vast te houden.",
+  "reflection": [
+   "Welke fase van je leven loopt van nature ten einde?",
+   "Wat zou er kunnen verschijnen als je ruimte maakt na wat gaat?"
+  ],
+  "advice": "Sluit af wat voorbij is. Laat de oude fase gaan, pas dan komt er ruimte voor het nieuwe.",
+  "adviceReversed": "Je houdt vast aan iets wat al voorbij is. De verandering komt toch, het gaat makkelijker als je je er niet tegen verzet.",
+  "astrology": "Schorpioen"
+ },
+ {
+  "id": "major_14",
+  "name": "Matigheid",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "harmonie",
+   "evenwicht",
+   "geduld",
+   "verbinden",
+   "mate"
+  ],
+  "symbolism": "Een gevleugelde engel in een wit gewaad giet water tussen twee bekers, met de ene voet op de oever en de andere in de stroom. Op zijn borst staat een driehoek in een vierkant. Ernaast groeien gele irissen, en een pad leidt naar bergen waarboven een lichtboog straalt.",
+  "upright": "Matigheid spreekt over de kunst om tegenstellingen te verbinden en de gulden middenweg te zoeken. De kaart moedigt rustig, geleidelijk handelen aan in plaats van extreme oplossingen. Ze kan gaan over het balanceren van werk en rust of van verstand en emoties. Harmonie is geen vaste toestand, maar voortdurend, oplettend bijstellen.",
+  "reversed": "Omgekeerd kan de kaart wijzen op gebrek aan evenwicht, een teveel op één gebied ten koste van een ander. Het is een signaal om te kijken waar een zachte bijstelling van de verhoudingen nodig is.",
+  "reflection": [
+   "Welke twee gebieden van je leven hebben nu een beter evenwicht nodig?",
+   "Wat zou er kunnen veranderen als je met kleine, geduldige stappen handelde?"
+  ],
+  "advice": "Zoek de gulden middenweg. Verbind tegenstellingen, handel rustig en stap voor stap, mate is nu je kracht.",
+  "adviceReversed": "Ergens overdrijf je, met werk, emoties of verwachtingen. Herstel het evenwicht voordat je iets nieuws begint.",
+  "astrology": "Boogschutter"
+ },
+ {
+  "id": "major_15",
+  "name": "De Duivel",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "gehechtheid",
+   "verleiding",
+   "patronen",
+   "schaduw",
+   "bewustwording"
+  ],
+  "symbolism": "Een gehoornde figuur met vleermuisvleugels zit op een donker voetstuk, met de ene hand opgeheven en in de andere een omlaag gehouden fakkel. Aan het voetstuk zijn twee naakte figuren geketend met kleine hoorns en staarten. De kettingen om hun nek zijn los, ze zouden ze kunnen afdoen.",
+  "upright": "De Duivel nodigt uit te kijken naar wat ons op zijn plaats houdt: gewoontes, overtuigingen of afhankelijkheden. De kaart is geen vonnis, maar een kans om je bewust te worden van mechanismen die buiten onze aandacht werken. De losse kettingen herinneren eraan dat veel beperkingen kunnen verslappen zodra ze benoemd worden. Het is ook een ruimte om eerlijk je eigen schaduw te ontmoeten.",
+  "reversed": "Een omgekeerde Duivel kan het begin van loskomen uit een patroon betekenen, of het moment waarop een gehechtheid duidelijk zichtbaar wordt. Soms is het een uitnodiging om zacht maar consequent je vrijheid terug te winnen.",
+  "reflection": [
+   "Welke gewoonte of overtuiging beperkt je meer dan je wilt toegeven?",
+   "Wat zou er veranderen als deze ketting losser bleek dan hij lijkt?"
+  ],
+  "advice": "Zie wat je vasthoudt: een gewoonte, angst, afhankelijkheid. Benoem het eerlijk, de ketting is losser dan hij lijkt.",
+  "adviceReversed": "Je hebt een kans om vrij te komen. Zet de eerste stap weg van het patroon dat je schaadt, nu is het makkelijker dan eerder.",
+  "astrology": "Steenbok"
+ },
+ {
+  "id": "major_16",
+  "name": "De Toren",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "plotselinge verandering",
+   "herziening",
+   "ontwaken",
+   "bevrijding",
+   "waarheid"
+  ],
+  "symbolism": "Een hoge toren op een rotsachtige top wordt getroffen door een bliksemschicht die de kroon eraf slaat. Uit de ramen slaan vlammen en twee figuren vallen naar beneden tegen een donkere hemel. Rondom zweven kleine vonken in de vorm van de Hebreeuwse letter jod.",
+  "upright": "De Toren beschrijft een moment waarop iets wat stabiel leek, plots om herziening vraagt. Zo'n verandering kan verrassen, maar legt vaak een waarheid bloot die tot dan toe verhuld was. De kaart moedigt aan te kijken welke structuren op wankele fundamenten zijn gebouwd. Na het opruimen is er ruimte voor iets authentiekers.",
+  "reversed": "Een omgekeerde Toren kan wijzen op het uitstellen van een noodzakelijke verandering of op een transformatie die meer van binnen dan van buiten plaatsvindt. Soms is het een signaal dat je iets geleidelijk kunt ombouwen voordat de spanning oploopt.",
+  "reflection": [
+   "Welke overtuiging of regeling vraagt vandaag om een eerlijke controle?",
+   "Wat zou er kunnen ontstaan op de plek van wat niet meer werkt?"
+  ],
+  "advice": "Stut niet wat instort. Accepteer de verandering en bouw iets op sterkere fundamenten.",
+  "adviceReversed": "Je ontwijkt een onvermijdelijke verandering. Beter nu onder je eigen voorwaarden onder ogen zien dan op een schok wachten.",
+  "astrology": "Mars"
+ },
+ {
+  "id": "major_17",
+  "name": "De Ster",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "hoop",
+   "vernieuwing",
+   "rust",
+   "inspiratie",
+   "vertrouwen"
+  ],
+  "symbolism": "Een naakte vrouw knielt aan de oever van een vijver en giet water uit twee kruiken, één in het water en één op het land. Boven haar straalt een grote achtpuntige ster omringd door zeven kleinere. In de boom op de achtergrond zit een vogel.",
+  "upright": "De Ster brengt een gevoel van verademing en stille hoop. De kaart nodigt uit om uit te rusten en vertrouwen in jezelf en de wereld op te bouwen. Het is een goede tijd voor dromen die niet meteen gerealiseerd hoeven te worden om kracht te geven. De eenvoud van dit tafereel herinnert eraan dat je jezelf zonder maskers kunt tonen.",
+  "reversed": "Omgekeerd kan de Ster wijzen op vermoeidheid of tijdelijk gedoofde hoop. Het is een uitnodiging om kleine bronnen van licht te zoeken en jezelf tijd te geven om te herstellen.",
+  "reflection": [
+   "Wat geeft je vandaag een gevoel van hoop, al is het klein?",
+   "Hoe kun je de komende dagen voor je rust zorgen?"
+  ],
+  "advice": "Heb hoop en handel vanuit die hoop. Het ergste is voorbij, geef jezelf tijd om te herstellen en kijk vol vertrouwen vooruit.",
+  "adviceReversed": "Ben je het geloof kwijtgeraakt dat het beter kan worden? Begin met een kleine stap die je het gevoel van zin teruggeeft.",
+  "astrology": "Waterman"
+ },
+ {
+  "id": "major_18",
+  "name": "De Maan",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "onzekerheid",
+   "verbeelding",
+   "dromen",
+   "onderbewustzijn",
+   "voorgevoelens"
+  ],
+  "symbolism": "Boven een nachtelijk landschap schijnt een maan met een menselijk gezicht, waaruit druppels licht vallen. Een hond en een wolf huilen ernaar aan weerszijden van een pad dat tussen twee torens naar verre heuvels slingert. Uit het water op de voorgrond kruipt een kreeft.",
+  "upright": "De Maan beschrijft een toestand waarin niet alles helder is en verbeelding verschillende versies van gebeurtenissen aanreikt. De kaart moedigt aan om met nieuwsgierigheid naar dromen, voorgevoelens en angsten te kijken, zonder ze meteen als feiten te behandelen. Het is een tijd om voorzichtig stap voor stap te gaan. Onduidelijkheid is vaak een fase die vooraf gaat aan begrip.",
+  "reversed": "Een omgekeerde Maan kan suggereren dat de mist begint op te trekken, of dat angsten een buitenproportionele macht krijgen. Het is goed te scheiden wat bekend is van wat de verbeelding invult.",
+  "reflection": [
+   "Wat is in deze situatie een feit, en wat jouw interpretatie?",
+   "Welke droom of welk voorgevoel komt de laatste tijd bij je terug?"
+  ],
+  "advice": "Niet alles is nu helder, en dat is oké. Neem geen definitieve beslissingen in de mist, vertrouw je intuïtie, maar controleer de feiten.",
+  "adviceReversed": "De mist begint op te trekken. Noem je angsten bij naam, veel ervan blijken kleiner dan ze leken.",
+  "astrology": "Vissen"
+ },
+ {
+  "id": "major_19",
+  "name": "De Zon",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "vreugde",
+   "helderheid",
+   "warmte",
+   "openheid",
+   "voorspoed"
+  ],
+  "symbolism": "Een naakt kind met een krans en een rode veer op zijn hoofd rijdt vrolijk op een wit paard en houdt een grote rode vlag. Boven hem schijnt een stralende zon met een gezicht, en achter een lage muur bloeien zonnebloemen.",
+  "upright": "De Zon brengt de energie van helderheid en eenvoudige vreugde. De kaart moedigt aan te genieten van wat goed is en je warmte met anderen te delen. Ze kan een moment beschrijven waarop dingen duidelijk worden en handelen met lichtheid komt. Het is ook een uitnodiging tot contact met kinderlijke spontaniteit.",
+  "reversed": "Omgekeerd kan de vreugde van de Zon gedempt zijn of moeilijk volledig te ontvangen. Soms is het ook een signaal om geen opgewektheid te veinzen als er behoefte is aan een moment van eerlijkheid.",
+  "reflection": [
+   "Wat geeft je echte, eenvoudige vreugde?",
+   "Hoe kun je jezelf deze week meer lichtheid gunnen?"
+  ],
+  "advice": "Het antwoord is positief. Handel openlijk, met vreugde en zelfvertrouwen, een goede tijd om je te laten zien.",
+  "adviceReversed": "De vreugde is dichtbij, alleen iets bedekt haar. Gun jezelf te genieten van wat je al hebt in plaats van op het perfecte moment te wachten.",
+  "astrology": "Zon"
+ },
+ {
+  "id": "major_20",
+  "name": "Het Oordeel",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "ontwaken",
+   "innerlijke roep",
+   "balans opmaken",
+   "wedergeboorte",
+   "vergeving"
+  ],
+  "symbolism": "Een engel verschijnt uit de wolken en blaast op een trompet waaraan een vlag met een rood kruis hangt. Daaronder rijzen uit open kisten die op het water drijven naakte figuren op, volwassenen en een kind, met de armen omhoog gestrekt. Op de achtergrond zijn besneeuwde bergen te zien.",
+  "upright": "Het Oordeel beschrijft een moment van ontwaken waarop je eigen weg duidelijker wordt dan eerder. De kaart moedigt aan om je ervaringen samen te vatten en er conclusies uit te trekken zonder strenge beoordeling. Het kan een innerlijke roep zijn om je bezig te houden met iets wat al lang belangrijk was. Het is ook een ruimte voor vergeving, van jezelf en van anderen.",
+  "reversed": "Een omgekeerde kaart kan wijzen op te kritisch oordelen over jezelf of op het overstemmen van de innerlijke roep. Het is goed te vragen wat je ervan weerhoudt te antwoorden op wat roept.",
+  "reflection": [
+   "Waartoe voel je een innerlijke roep?",
+   "Wat kun je jezelf vergeven om met een lichter hart verder te gaan?"
+  ],
+  "advice": "Je hebt de innerlijke roep gehoord, antwoord erop. Maak de balans van het verleden op, vergeef jezelf en neem een besluit.",
+  "adviceReversed": "Je oordeelt te streng over jezelf of stelt een belangrijke beslissing uit. Stop met wachten op een teken, dat teken is er al geweest.",
+  "astrology": "Vuur"
+ },
+ {
+  "id": "major_21",
+  "name": "De Wereld",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "vervulling",
+   "integratie",
+   "afronding",
+   "volheid",
+   "nieuwe cyclus"
+  ],
+  "symbolism": "Een figuur, slechts gehuld in een paarse sjerp, danst in een ovale bladerkrans en houdt twee staven in de handen. De krans is boven en onder met rode linten omwonden, en in de hoeken van de kaart verschijnen de koppen van een engel, een adelaar, een leeuw en een stier.",
+  "upright": "De Wereld beschrijft het gevoel van volheid en het afronden van een belangrijke fase. De kaart nodigt uit om de afgelegde weg te waarderen en te zien hoe verschillende ervaringen één geheel zijn geworden. Een goed moment om te vieren en dankbaar te zijn. Het afsluiten van één cyclus bereidt vanzelf de grond voor de volgende.",
+  "reversed": "Omgekeerd kan de Wereld wijzen op onafgemaakte zaken of moeite om een fase af te sluiten. Soms is ze een uitnodiging om op te merken wat er nog ontbreekt voor het gevoel van heelheid.",
+  "reflection": [
+   "Wat bereik je al, en waardeer je nog niet helemaal?",
+   "Wat moet worden afgerond voordat je aan het volgende hoofdstuk begint?"
+  ],
+  "advice": "Rond de zaak af en waardeer wat je hebt bereikt. Deze fase wordt voltooid, je kunt gerust naar de volgende gaan.",
+  "adviceReversed": "Er ontbreekt een laatste stap om af te sluiten. Maak af wat je begonnen bent voordat je aan iets nieuws begint.",
+  "astrology": "Saturnus"
+ },
+ {
+  "id": "wands_01",
+  "name": "Aas van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "vonk",
+   "inspiratie",
+   "potentieel",
+   "elan",
+   "nieuw initiatief"
+  ],
+  "symbolism": "Uit een wolk komt een hand tevoorschijn die een stevige, bebladerde staf vasthoudt waaruit kleine blaadjes vallen. Daaronder strekt zich een groen landschap uit met een rivier, en op een verre heuvel staat een kasteel.",
+  "upright": "De Aas van Staven is de vonk van een nieuw idee of een golf van enthousiasme. De kaart moedigt aan op te merken wat je nu tot leven wekt, en daar een kans aan te geven. In deze fase telt elan meer dan een kant-en-klaar plan. Het potentieel is er en wacht op de eerste actie.",
+  "reversed": "Een omgekeerde Aas kan wijzen op een idee dat nog geen uitweg heeft gevonden, of op een tijdelijke terugval van motivatie. Soms is het goed te wachten tot de vonk rijpt in plaats van haar af te dwingen.",
+  "reflection": [
+   "Welk idee wekt de meeste opwinding bij je?",
+   "Welke kleinste stap zou het laten bestaan?"
+  ],
+  "advice": "Je hebt een vonk, handel zolang ze heet is. Begin het project, bel, schrijf: inspiratie heeft beweging nodig.",
+  "adviceReversed": "Het elan dooft voordat het in actie overgaat. Doe vandaag één klein ding in plaats van op het perfecte moment te wachten.",
+  "astrology": "Vuur, de bron van het element"
+ },
+ {
+  "id": "wands_02",
+  "name": "Twee van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "plannen maken",
+   "perspectief",
+   "beslissing",
+   "horizon",
+   "ambitie"
+  ],
+  "symbolism": "Een man met een rode hoofdbedekking staat op de muren van een kasteel en houdt een kleine wereldbol vast terwijl hij naar zee en land kijkt. Eén staf is aan de muur bevestigd, de andere houdt hij in zijn hand. Op de steen staat een wapen met gekruiste rozen en lelies.",
+  "upright": "Twee van Staven beschrijft een moment van plannen maken en bredere mogelijkheden overwegen. Je hebt al een basis, en nu is de vraag waarheen verder. De kaart moedigt aan om moedig na te denken over de toekomst en bewust een richting te kiezen. Het is een tijd voor de visie die aan de beweging voorafgaat.",
+  "reversed": "Omgekeerd kan de kaart wijzen op aarzeling tussen veiligheid en het nieuwe, of op plannen die niet in actie overgaan. Het is goed te vragen wat je nodig hebt om je klaar te voelen.",
+  "reflection": [
+   "Hoe ziet de horizon eruit waar je naartoe wilt?",
+   "Wat houdt je op de muren in plaats van je te laten vertrekken?"
+  ],
+  "advice": "Plan de volgende stap en kijk verder dan gewoonlijk. De beslissing is aan jou, kies het bredere perspectief.",
+  "adviceReversed": "Angst voor het onbekende houdt je in je comfortzone. Bedenk wat je mist door er niet buiten te treden.",
+  "astrology": "Vuur · Mars in Ram"
+ },
+ {
+  "id": "wands_03",
+  "name": "Drie van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "ontwikkeling",
+   "verwachting",
+   "expansie",
+   "vooruitziende blik",
+   "eerste resultaten"
+  ],
+  "symbolism": "Een figuur in een mantel staat met de rug naar de kijker op een heuvel, leunend op een van de drie staven die in de grond zijn gestoken. Hij kijkt uit over een goudkleurige baai waarop schepen varen. De horizon is breed en open.",
+  "upright": "Drie van Staven spreekt over een tijd waarin de eerste acties zijn ondernomen en je kunt zien hoe ze zich ontwikkelen. De kaart moedigt aan breder te kijken en geduldig op de resultaten te wachten. Ze kan suggereren dat je openstaat voor nieuwe contacten of gebieden. Het is de vreugde dat iets vorm begint aan te nemen.",
+  "reversed": "Omgekeerd kan de kaart wijzen op ongeduld als resultaten trager komen dan verwacht. Soms is ze ook een uitnodiging om het plan bij te stellen in het licht van nieuwe informatie.",
+  "reflection": [
+   "Wat is al in gang gezet en heeft nu tijd nodig?",
+   "Welke nieuwe mogelijkheden zie je vanaf de plek waar je staat?"
+  ],
+  "advice": "Wat je hebt gezaaid, begint te groeien. Denk breder, bereid je voor op meer en wees geduldig, de resultaten komen.",
+  "adviceReversed": "Vertraging betekent geen mislukking. Controleer het plan, corrigeer de koers en geef niet te snel op.",
+  "astrology": "Vuur · Zon in Ram"
+ },
+ {
+  "id": "wands_04",
+  "name": "Vier van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "vieren",
+   "gemeenschap",
+   "thuis",
+   "stabiliteit",
+   "vreugde"
+  ],
+  "symbolism": "Vier staven, verbonden door een guirlande van bloemen en vruchten, vormen een soort poort. Daarachter heffen twee figuren boeketten omhoog, en op de achtergrond zijn een groep mensen en een kasteel te zien. Het tafereel heeft een feestelijk, warm karakter.",
+  "upright": "Vier van Staven nodigt uit om stil te staan en te waarderen wat al is opgebouwd. Het is de energie van samen vieren, erbij horen en een veilige haven. De kaart kan gaan over een belangrijke fase die het markeren waard is. Vreugde die met anderen wordt gedeeld, versterkt banden.",
+  "reversed": "Omgekeerd kan de kaart suggereren dat het moeilijk is stil te staan en te vieren, of dat het gevoel van gemeenschap is aangetast. Het is goed een plek en mensen te zoeken bij wie je kunt ademhalen.",
+  "reflection": [
+   "Wat verdient het vandaag gevierd te worden?",
+   "Waar en met wie voel je je thuis?"
+  ],
+  "advice": "Vier wat gelukt is en deel het met je naasten. Stabiele grond laat je verder gaan.",
+  "adviceReversed": "Iets verstoort het gevoel van veiligheid thuis of in het team. Praat er openlijk over in plaats van te doen alsof alles goed is.",
+  "astrology": "Vuur · Venus in Ram"
+ },
+ {
+  "id": "wands_05",
+  "name": "Vijf van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "rivaliteit",
+   "meningsverschil",
+   "spanning",
+   "botsing",
+   "groepsenergie"
+  ],
+  "symbolism": "Vijf jonge mannen in veelkleurige kleding zwaaien met staven alsof ze een chaotisch gevecht of spel voeren. Niemand lijkt gewond, en hun bewegingen kruisen elkaar in verschillende richtingen.",
+  "upright": "Vijf van Staven beschrijft een situatie waarin veel meningen en energieën botsen. Zo'n conflict hoeft niet destructief te zijn, het kan een creatieve uitwisseling zijn die ideeën scherp maakt. De kaart moedigt aan op te merken of het om een gemeenschappelijk doel gaat of alleen om voorrang. Goede communicatie kan chaos in samenwerking omzetten.",
+  "reversed": "Omgekeerd kan de kaart wijzen op conflicten koste wat kost vermijden of op spanning die naar binnen is verhuisd. Soms is het een uitnodiging om overeenstemming te zoeken in plaats van winst.",
+  "reflection": [
+   "Waar gaat dit conflict eigenlijk echt over?",
+   "Hoe kun je je mening geven en tegelijk naar anderen luisteren?"
+  ],
+  "advice": "Een meningsverschil hoeft geen oorlog te zijn. Zeg wat je denkt, maar luister naar anderen, uit de spanning kan iets creatiefs komen.",
+  "adviceReversed": "Je ontwijkt het conflict of het put je uit. Zet de zaak helder neer en beëindig een ruzie die nergens toe dient.",
+  "astrology": "Vuur · Saturnus in Leeuw"
+ },
+ {
+  "id": "wands_06",
+  "name": "Zes van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "erkenning",
+   "succes",
+   "zelfvertrouwen",
+   "waardering",
+   "overwinning"
+  ],
+  "symbolism": "Een ruiter met een lauwerkrans rijdt op een wit paard en houdt een staf met een tweede krans eraan vast. Rondom lopen mensen met opgeheven staven, alsof ze hem na zijn terugkeer verwelkomen.",
+  "upright": "Zes van Staven spreekt over waardering en een zichtbaar resultaat van geleverde inspanning. De kaart moedigt aan erkenning aan te nemen zonder valse bescheidenheid. Het is ook een herinnering dat succes vaak het werk van velen is. Zelfvertrouwen kan een steun voor anderen worden.",
+  "reversed": "Omgekeerd kan de kaart wijzen op moeite om lof aan te nemen of sterke afhankelijkheid van de mening van de omgeving. Het is goed na te denken hoe je je eigen werk zelf kunt waarderen.",
+  "reflection": [
+   "Welke prestatie van jou verdient erkenning?",
+   "In hoeverre hangt je gevoel van eigenwaarde af van de mening van anderen?"
+  ],
+  "advice": "Je mag trots op jezelf zijn. Laat je prestaties zien, de erkenning is verdiend en opent nieuwe deuren.",
+  "adviceReversed": "Maak je waarde niet afhankelijk van applaus. Waardeer jezelf, ook als anderen het nog niet hebben gedaan.",
+  "astrology": "Vuur · Jupiter in Leeuw"
+ },
+ {
+  "id": "wands_07",
+  "name": "Zeven van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "standpunt verdedigen",
+   "volharding",
+   "moed",
+   "grenzen",
+   "overtuiging"
+  ],
+  "symbolism": "Een jonge man staat op een verhoging met een staf in zijn handen en weert zes andere staven af die van onderen naar hem reiken. Hij draagt twee verschillende schoenen, wat haast of verrassing suggereert.",
+  "upright": "Zeven van Staven beschrijft een situatie waarin het goed is achter je overtuigingen te staan. De kaart moedigt aan tot volharding en helder uiten wat belangrijk is. De positie op de verhoging herinnert eraan dat je een zeker voordeel hebt: kennis of ervaring. Grenzen verdedigen kan rustig en met respect.",
+  "reversed": "Omgekeerd kan de kaart wijzen op vermoeidheid van voortdurend verdedigen of op twijfel of een bepaalde strijd de energie waard is. Soms is het beter te kiezen welke zaken echt verdediging vragen.",
+  "reflection": [
+   "Waar wil je achter staan, ook als anderen een andere mening hebben?",
+   "Welke conflicten zijn je energie waard, en welke kun je loslaten?"
+  ],
+  "advice": "Verdedig je standpunt. Je hebt het recht bij je mening te blijven, geef niet toe alleen omdat het moeilijk is.",
+  "adviceReversed": "Je hoeft niet aan alle fronten te vechten. Kies waarvoor het echt de moeite waard is te strijden, en laat de rest los.",
+  "astrology": "Vuur · Mars in Leeuw"
+ },
+ {
+  "id": "wands_08",
+  "name": "Acht van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "tempo",
+   "beweging",
+   "berichten",
+   "momentum",
+   "snelle vooruitgang"
+  ],
+  "symbolism": "Acht staven vliegen diagonaal door een heldere hemel, parallel aan elkaar, alsof ze naar de grond gaan. Onder hen strekt zich een rustig landschap uit met een rivier en een heuvel. Op de kaart is geen enkele figuur.",
+  "upright": "Acht van Staven brengt de energie van snelle beweging en zaken die tempo krijgen. De kaart kan gaan over berichten, gesprekken of kwesties die eindelijk in beweging komen. Ze moedigt aan vastberaden te handelen als het momentum meezit. Het is een tijd waarin gedachten snel in daden overgaan.",
+  "reversed": "Omgekeerd kan de kaart wijzen op vertragingen, chaos in de communicatie of te veel dingen tegelijk. Het is goed te vertragen en vast te stellen wat nu het belangrijkst is.",
+  "reflection": [
+   "Wat in je leven krijgt net tempo?",
+   "Hoe kun je zorgen dat haast je helderheid niet afneemt?"
+  ],
+  "advice": "Dingen versnellen, handel snel en wacht niet met antwoorden. Dit is een tijd voor beweging, niet voor overpeinzing.",
+  "adviceReversed": "Haast leidt tot chaos, of alles zit vast. Vertraag, breng orde aan en versnel dan pas.",
+  "astrology": "Vuur · Mercurius in Boogschutter"
+ },
+ {
+  "id": "wands_09",
+  "name": "Negen van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "waakzaamheid",
+   "volharding",
+   "veerkracht",
+   "laatste inspanning",
+   "ervaring"
+  ],
+  "symbolism": "Een man met een verbonden hoofd staat leunend op een staf en kijkt voorzichtig opzij. Achter hem staat een rij van acht staven als een palissade. Zijn houding drukt vermoeidheid uit, maar ook paraatheid.",
+  "upright": "Negen van Staven spreekt over volharding na een lange inspanning. De kaart herinnert eraan dat je al veel achter je hebt en kunt vertrouwen op opgedane ervaring. Waakzaamheid kan helpen, maar het is goed te kijken of ze niet in permanente spanning overgaat. Veerkracht groeit ook door rust.",
+  "reversed": "Omgekeerd kan de kaart uitputting of overdreven argwaan tegenover je omgeving suggereren. Een goed moment om steun te vragen en je gedrag te laten zakken waar het veilig is.",
+  "reflection": [
+   "Wat heb je al overleefd, en wat heeft het je geleerd?",
+   "Waar kun je jezelf rust gunnen in plaats van voortdurende waakzaamheid?"
+  ],
+  "advice": "Je bent dicht bij je doel, houd nog even vol. Blijf waakzaam, maar laat vermoeidheid je geloof niet afnemen.",
+  "adviceReversed": "Je verdedigt je tegen iets wat je niet meer bedreigt. Rust uit en neem hulp aan in plaats van eindeloos op wacht te staan.",
+  "astrology": "Vuur · Maan in Boogschutter"
+ },
+ {
+  "id": "wands_10",
+  "name": "Tien van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "belasting",
+   "verantwoordelijkheid",
+   "inspanning",
+   "te veel taken",
+   "delegeren"
+  ],
+  "symbolism": "Een voorovergebogen man draagt tien staven in zijn armen, die hem het zicht ontnemen. Met moeite loopt hij naar een huis dat in de verte te zien is.",
+  "upright": "Tien van Staven beschrijft het gewicht van veel verplichtingen die tegelijk worden gedragen. De kaart moedigt aan te kijken welke echt de jouwe zijn en welke uit gewoonte zijn aangenomen. Het doel is dichtbij, maar de manier van dragen kan de weg bemoeilijken. Ordenen en taken verdelen kan opluchting brengen.",
+  "reversed": "Omgekeerd kan de kaart wijzen op het moment waarop de last te groot wordt, of op bereidheid een deel van de last neer te leggen. Het is een uitnodiging om hulp te vragen en “nee” te zeggen.",
+  "reflection": [
+   "Welke van je huidige verantwoordelijkheden kun je neerleggen of overdragen?",
+   "Hoe zou de weg naar je doel eruitzien als de last lichter was?"
+  ],
+  "advice": "Je draagt te veel. Geef een deel van de plichten af, vraag hulp of leg neer wat niet van jou is.",
+  "adviceReversed": "Tijd om de last af te werpen. Zeg “nee” tegen wat je niet hoeft te dragen, het wordt lichter.",
+  "astrology": "Vuur · Saturnus in Boogschutter"
+ },
+ {
+  "id": "wands_11",
+  "name": "Page van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "nieuwsgierigheid",
+   "enthousiasme",
+   "ontdekken",
+   "nieuw nieuws",
+   "jeugdig elan"
+  ],
+  "symbolism": "Een jongeman in een tuniek met salamanderpatroon staat in een woestijnachtig gebied en bekijkt nieuwsgierig de staf die hij voor zich houdt. Op de achtergrond rijzen drie heuvels op die op piramides lijken.",
+  "upright": "Page van Staven brengt de energie van een nieuwsgierige leerling die iets nieuws wil proberen. De kaart moedigt aan ideeën te onderzoeken zonder druk van onmiddellijke resultaten. Ze kan gaan over een inspirerend bericht of een ontluikende passie. Elan is hier het kostbaarste bezit.",
+  "reversed": "Omgekeerd kan de Page wijzen op verspreid enthousiasme of ongeduld dat ideeën te snel laat vallen. Het is goed één vonk te kiezen en haar wat tijd te geven.",
+  "reflection": [
+   "Wat wil je leren, alleen omdat het je nieuwsgierig maakt?",
+   "Welk idee verdient het er meer aandacht aan te besteden?"
+  ],
+  "advice": "Wees nieuwsgierig en probeer iets nieuws. Een eerste enthousiaste stap is belangrijker dan een perfect plan.",
+  "adviceReversed": "Je begint veel dingen en maakt er weinig af. Kies er één en breng hem tot het einde.",
+  "astrology": "Vuur"
+ },
+ {
+  "id": "wands_12",
+  "name": "Ridder van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "moed",
+   "avontuur",
+   "vaart",
+   "actie",
+   "hartstocht"
+  ],
+  "symbolism": "Een ridder in harnas en gele tuniek met salamanders stormt op een steigerend paard, met een staf geheven. De veren op zijn helm lijken op vlammen, en op de achtergrond strekt zich een woestijn met piramidevormige heuvels uit.",
+  "upright": "Ridder van Staven is de energie van gedurfd handelen en bereidheid tot avontuur. De kaart moedigt aan je passie te volgen en initiatief te nemen. Zijn elan kan aanstekelijk zijn en anderen meeslepen. Onthoud wel dat vaart samen moet gaan met richting.",
+  "reversed": "Omgekeerd kan de energie van de Ridder omslaan in haast die belangrijke fasen overslaat. Soms is het een signaal om stil te staan en te kijken of het vuur niet te snel opbrandt.",
+  "reflection": [
+   "Naar welk avontuur verlang je?",
+   "Hoe verbind je je elan met geduld?"
+  ],
+  "advice": "Ga moedig vooruit, moed en energie staan aan je kant. Handel, maar vergeet niet waar je heen gaat.",
+  "adviceReversed": "Impulsiviteit kan je duur komen te staan. Overdenk een zet voordat je hem doet, snelheid is niet alles.",
+  "astrology": "Vuur"
+ },
+ {
+  "id": "wands_13",
+  "name": "Koningin van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "zelfvertrouwen",
+   "warmte",
+   "charisma",
+   "onafhankelijkheid",
+   "creativiteit"
+  ],
+  "symbolism": "De koningin zit op een troon versierd met leeuwen en houdt in de ene hand een staf, in de andere een zonnebloem. Aan haar voeten zit een zwarte kat. Haar houding is open en ontspannen.",
+  "upright": "Koningin van Staven verbindt warmte met zelfvertrouwen. De kaart moedigt aan jezelf authentiek te uiten en je energie te delen. Het is de houding van iemand die haar waarde kent en tegelijk anderen steunt. Creativiteit bloeit als je jezelf toestaat te stralen.",
+  "reversed": "Omgekeerd kan de kaart wijzen op tijdelijke twijfel aan jezelf of op energie die te dominant wordt. Het is goed een evenwicht te zoeken tussen zorg voor jezelf en er zijn voor anderen.",
+  "reflection": [
+   "In welke situaties voel je je het meest jezelf?",
+   "Hoe kun je vandaag je warmte tonen zonder jezelf klein te maken?"
+  ],
+  "advice": "Vertrouw jezelf en laat je zien zoals je bent. Je zelfvertrouwen en warmte overtuigen anderen.",
+  "adviceReversed": "Iets ondermijnt je zelfvertrouwen. Bouw het weer op door te beginnen bij waarin je echt goed bent.",
+  "astrology": "Vuur"
+ },
+ {
+  "id": "wands_14",
+  "name": "Koning van Staven",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "visie",
+   "leiderschap",
+   "inspireren",
+   "durf",
+   "verantwoordelijkheid"
+  ],
+  "symbolism": "De koning zit op een troon versierd met leeuwen en salamanders en houdt een bloeiende staf vast. Aan zijn voeten zit een kleine salamander. Zijn blik is opzij gericht, alsof zijn gedachten al in de toekomst zijn.",
+  "upright": "Koning van Staven belichaamt volwassen leiderschap gebaseerd op visie en inspiratie. De kaart moedigt aan beslissingen te nemen vanuit het perspectief van een doel op lange termijn. Het is de energie van iemand die anderen met enthousiasme kan aansteken en tegelijk verantwoordelijkheid voor de richting neemt. Durf gaat hier hand in hand met ervaring.",
+  "reversed": "Omgekeerd kan de kaart wijzen op ongeduld met anderen of een visie die de behoeften van de omgeving negeert. Het is goed te kijken of leiderschap niet overgaat in je eigen wil opleggen.",
+  "reflection": [
+   "Welke visie wil je op langere termijn waarmaken?",
+   "Hoe kun je anderen inspireren in plaats van ze te duwen?"
+  ],
+  "advice": "Leid. Je hebt een visie, deel haar en neem verantwoordelijkheid voor de richting, anderen volgen je.",
+  "adviceReversed": "Leg je visie niet met geweld op. De beste leider luistert, nodig anderen uit mee te beslissen.",
+  "astrology": "Vuur"
+ }
+]

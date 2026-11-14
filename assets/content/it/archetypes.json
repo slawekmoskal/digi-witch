@@ -1,0 +1,134 @@
+[
+ {
+  "id": "niewinny",
+  "name": "L'Innocente",
+  "summary": "L'Innocente è l'immagine di una persona che guarda il mondo con fiducia e speranza. In questo insieme di archetipi simboleggia il desiderio di semplicità, sincerità e bontà.",
+  "gifts": "Il suo dono è un ottimismo che aiuta a ricominciare e a vedere il lato luminoso delle situazioni. Sa portare leggerezza in un gruppo, e la convinzione che valga la pena impegnarsi.",
+  "shadow": "Nell'ombra, la fiducia può trasformarsi nell'evitare i temi difficili o nel far finta che un problema non esista. A volte ci si affida troppo all'idea che qualcun altro sistemerà tutto.",
+  "reflection": [
+   "In quali situazioni la tua speranza ti dà forza?",
+   "C'è un tema che preferisci non vedere, pur sapendo che meriterebbe uno sguardo più attento?"
+  ]
+ },
+ {
+  "id": "odkrywca",
+  "name": "L'Esploratore",
+  "summary": "L'Esploratore è una figura che parte alla scoperta di luoghi, idee e di se stessa. Simboleggia il bisogno di autenticità e di spazio per cercare in modo indipendente.",
+  "gifts": "Il suo dono è la curiosità e il coraggio di uscire dagli schemi conosciuti. Porta uno sguardo nuovo e ispira gli altri ad ampliare i propri orizzonti.",
+  "shadow": "Nell'ombra, la ricerca può diventare una fuga continua e una difficoltà a mettere radici. L'indipendenza può anche rendere difficile accettare la vicinanza.",
+  "reflection": [
+   "Che cosa stai cercando nella tua vita in questo momento?",
+   "I tuoi viaggi, reali o simbolici, ti portano verso qualcosa o piuttosto lontano da qualcosa?"
+  ]
+ },
+ {
+  "id": "medrzec",
+  "name": "Il Saggio",
+  "summary": "Il Saggio è l'immagine di una persona che cerca di comprendere e dà valore alla conoscenza nata dall'esperienza e dalla riflessione. Simboleggia la ricerca della verità e il condividerla con gli altri.",
+  "gifts": "Il suo dono è l'analisi calma, la giusta distanza e la capacità di vedere il contesto più ampio. Può aiutare gli altri a mettere in ordine i pensieri e a porre la domanda giusta.",
+  "shadow": "Nell'ombra può esserci troppa teoria al posto dell'azione, o la convinzione di sapere sempre meglio degli altri. La distanza, allora, può essere scambiata per freddezza.",
+  "reflection": [
+   "Quale conoscenza o esperienza ti piace di più trasmettere agli altri?",
+   "Quando hai cambiato idea l'ultima volta grazie a una nuova informazione?"
+  ]
+ },
+ {
+  "id": "bohater",
+  "name": "L'Eroe",
+  "summary": "L'Eroe è una figura che affronta le sfide e difende ciò che ritiene importante. Simboleggia il coraggio, la determinazione e la disponibilità a impegnarsi.",
+  "gifts": "Il suo dono è la perseveranza e la capacità di rialzarsi nei momenti duri. Può dare coraggio agli altri e mostrare che gli ostacoli si superano un passo alla volta.",
+  "shadow": "Nell'ombra, il coraggio può trasformarsi in un cercare sempre lo scontro, o nella difficoltà ad ammettere la stanchezza. L'Eroe può anche non permettersi di chiedere aiuto.",
+  "reflection": [
+   "Di quale sfida che hai superato sei fiera o fiero oggi?",
+   "Riesci a riposarti prima che le forze finiscano?"
+  ]
+ },
+ {
+  "id": "buntownik",
+  "name": "Il Ribelle",
+  "summary": "Il Ribelle è l'immagine di chi mette in discussione le regole stabilite e non accetta ciò che gli sembra ingiusto. Simboleggia il bisogno di cambiamento e di libertà dagli schemi imposti.",
+  "gifts": "Il suo dono è il coraggio di dire ad alta voce ciò che non funziona e l'energia per rompere la stagnazione. Aiuta gli altri a vedere che esistono altre possibilità.",
+  "shadow": "Nell'ombra, l'opposizione può diventare fine a se stessa, senza un'idea di cosa costruire al suo posto. Insieme a ciò che andava cambiato si può distruggere anche qualcosa di prezioso.",
+  "reflection": [
+   "Contro che cosa ti ribelli, e che cosa vorresti mettere al suo posto?",
+   "Quale regola con cui non sei d'accordo ha comunque un senso per qualcun altro?"
+  ]
+ },
+ {
+  "id": "mag",
+  "name": "Il Mago",
+  "summary": "Il Mago è una figura che simboleggia la trasformazione: trasformare una visione in realtà e vedere i collegamenti nascosti. In questo insieme rappresenta la convinzione di poter dare forma alla propria vita in modo consapevole.",
+  "gifts": "Il suo dono è l'immaginazione unita alla capacità di agire e di vedere un potenziale dove altri non lo vedono. Può ispirare un cambio di prospettiva.",
+  "shadow": "Nell'ombra può esserci il desiderio di controllare gli altri o di promettere più di quanto si possa dare. La fede nella trasformazione può anche prendere il posto del lavoro paziente.",
+  "reflection": [
+   "Quale cambiamento vuoi vedere nella tua vita, e che cosa puoi fare concretamente per realizzarlo?",
+   "Nei tuoi piani c'è spazio per ciò che non si può prevedere?"
+  ]
+ },
+ {
+  "id": "towarzysz",
+  "name": "L'Uomo comune",
+  "summary": "L'Uomo comune, o la Donna comune, è l'immagine di chi dà valore all'appartenenza, all'uguaglianza e alla vita di tutti i giorni tra la gente. Simboleggia il bisogno di far parte di una comunità senza mettersi al di sopra degli altri.",
+  "gifts": "Il suo dono è la schiettezza, la gentilezza e la capacità di mettere gli altri a proprio agio. Unisce le persone intorno alle cose di tutti i giorni.",
+  "shadow": "Nell'ombra, il desiderio di appartenere può portare a rinunciare alla propria opinione pur di non distinguersi. I propri bisogni possono perdersi nella folla.",
+  "reflection": [
+   "In quale gruppo ti senti davvero a casa?",
+   "Quando hai espresso l'ultima volta un'opinione diversa da quella della maggioranza?"
+  ]
+ },
+ {
+  "id": "kochanek",
+  "name": "L'Amante",
+  "summary": "L'Amante è una figura che simboleggia la vicinanza, la sensualità e la gioia per la bellezza della vita. In senso ampio indica un coinvolgimento appassionato verso persone, idee o passioni.",
+  "gifts": "Il suo dono è la capacità di sentire profondamente e di mostrare i sentimenti, e di apprezzare la bellezza nella vita quotidiana. Sa creare un clima di calore e di partecipazione.",
+  "shadow": "Nell'ombra può esserci il perdersi in una relazione o il dipendere dall'approvazione altrui. La paura del rifiuto può anche deformare ciò che mostri di te.",
+  "reflection": [
+   "Che cosa o chi ami in un modo che ti dà energia?",
+   "Nelle relazioni strette lasci spazio anche a te stessa o a te stesso?"
+  ]
+ },
+ {
+  "id": "blazen",
+  "name": "Il Giullare",
+  "summary": "Il Giullare è l'immagine di chi vede il mondo attraverso l'umorismo, il gioco e il vivere nel momento. Simboleggia la gioia e la capacità di dire la verità con leggerezza.",
+  "gifts": "Il suo dono è sciogliere la tensione, la creatività e la capacità di prendere le cose con un pizzico di ironia. Ricorda agli altri che la vita non deve essere sempre seria.",
+  "shadow": "Nell'ombra, la battuta può servire a evitare emozioni difficili o responsabilità. L'umorismo può anche ferire invece di avvicinare.",
+  "reflection": [
+   "Quando l'umorismo ti ha aiutato ad attraversare una situazione difficile?",
+   "Ti capita di scherzare quando preferiresti dire le cose con semplicità?"
+  ]
+ },
+ {
+  "id": "opiekun",
+  "name": "Il Custode",
+  "summary": "Il Custode è una figura che si prende cura degli altri, li protegge e li sostiene. Simboleggia la compassione, la generosità e la disponibilità ad aiutare.",
+  "gifts": "Il suo dono è la pazienza, l'empatia e la capacità di creare un senso di sicurezza. Sa vedere di che cosa hanno bisogno gli altri e rispondere con calore.",
+  "shadow": "Nell'ombra, la cura può trasformarsi nel trascurare se stessi o nell'aspettarsi gratitudine. L'aiuto può anche togliere agli altri la possibilità di cavarsela da soli.",
+  "reflection": [
+   "Come ti prendi cura di te quando dai molto agli altri?",
+   "Riesci ad accettare un aiuto quando qualcuno te lo offre?"
+  ]
+ },
+ {
+  "id": "tworca",
+  "name": "Il Creatore",
+  "summary": "Il Creatore è l'immagine di chi dà forma all'immaginazione e crea cose che prima non esistevano. Simboleggia il bisogno di esprimersi in una forma duratura.",
+  "gifts": "Il suo dono è l'originalità, la costanza nel rifinire un'idea e la capacità di vedere le possibilità. Ispira gli altri a scoprire la propria creatività.",
+  "shadow": "Nell'ombra può esserci un perfezionismo che non lascia finire un'opera, o un critico interiore che soffoca le idee. Il lavoro creativo può anche mettere da parte altre cose.",
+  "reflection": [
+   "Che cosa vorresti creare se nessuno lo giudicasse?",
+   "Quale progetto aspetta di essere concluso, e che cosa ti trattiene?"
+  ]
+ },
+ {
+  "id": "wladca",
+  "name": "Il Sovrano",
+  "summary": "Il Sovrano è una figura che simboleggia la responsabilità, l'ordine e la capacità di guidare. In questo insieme rappresenta la cura per la stabilità di una comunità e il prendere decisioni.",
+  "gifts": "Il suo dono è la capacità di organizzare, di dare una direzione e di assumersi la responsabilità del tutto. Può creare le condizioni in cui gli altri riescono a stare bene.",
+  "shadow": "Nell'ombra, la responsabilità può trasformarsi in bisogno di controllo o in difficoltà a fare spazio agli altri. La cura dell'ordine può anche far perdere di vista le persone.",
+  "reflection": [
+   "Di che cosa nella tua vita ti senti responsabile?",
+   "Che cosa potresti affidare ad altri, perché abbiano più spazio?"
+  ]
+ }
+]

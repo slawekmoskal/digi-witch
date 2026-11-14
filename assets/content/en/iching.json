@@ -1,0 +1,898 @@
+[
+ {
+  "n": 1,
+  "name": "The Creative (Heaven)",
+  "text": "Pure energy of action, initiative and a strength that needs nothing in order to get moving.",
+  "advice": "Act boldly and consistently, but with moderation: strength without direction burns itself out.",
+  "lines": [
+   "The strength is still hidden. Do not act rashly; prepare.",
+   "The first results are visible; look for people you can learn from.",
+   "A great deal of work and tension. Stay alert, but do not wear yourself out.",
+   "You face a choice: to leap or to wait. Both are good if they are sincere.",
+   "The fullness of possibility. Act on a grand scale and seek the support of the wise.",
+   "Pride taken too far: whoever climbs too high begins to regret it."
+  ]
+ },
+ {
+  "n": 2,
+  "name": "The Receptive (Earth)",
+  "text": "Openness, patience and a yielding quality that lets something grow.",
+  "advice": "Do not lead now. Follow, support, let things ripen.",
+  "lines": [
+   "The first frost announces winter. Notice small signs before they grow.",
+   "Be simple and sincere; being natural will bring success.",
+   "Work in the background without seeking recognition; the results will come.",
+   "Time to close your mouth and your purse. Caution protects against mistakes.",
+   "Modesty in an important role brings great good fortune.",
+   "A struggle of opposing forces: when both sides grow more stubborn, both lose."
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Difficulty at the Beginning",
+  "text": "The chaos of first steps: everything is sprouting, but nothing has settled yet.",
+  "advice": "Do not be put off by the confusion. Ask for help and do not force the pace.",
+  "lines": [
+   "An obstacle at the start. Stop, but do not abandon the goal.",
+   "Help is coming, though not at once. Do not accept it from the wrong hands.",
+   "Without a guide it is easy to lose your way. Better to let go than to go on blindly.",
+   "Accept the help you ask for; cooperation brings progress now.",
+   "You have resources but cannot use them fully yet. Small steps.",
+   "Discouragement and tears. This is not the end, only the bottom you push off from."
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Youthful Inexperience",
+  "text": "You do not know everything yet, and that is the starting point for learning.",
+  "advice": "Ask, learn from the experienced, do not pretend to be an expert.",
+  "lines": [
+   "A little discipline helps learning, but do not shut yourself up in severity.",
+   "Patience with other people's ignorance is a sign of maturity.",
+   "Do not chase what merely glitters; hold on to what is essential.",
+   "Stubbornly staying ignorant leads to humiliation. Open yourself to learning.",
+   "Childlike openness brings success.",
+   "When someone has to be corrected, do it to protect, not to punish."
+  ]
+ },
+ {
+  "n": 5,
+  "name": "Waiting",
+  "text": "The matter is ripening; the rain will come, but not now.",
+  "advice": "Wait calmly and with trust. Prepare instead of growing impatient.",
+  "lines": [
+   "You are waiting far from danger. Keep calm and keep to your routine.",
+   "Petty gossip and unease. Do not react and it will pass.",
+   "You are waiting in the mud and drawing trouble to yourself; be careful.",
+   "In a difficult place: get out of it calmly, without panic.",
+   "Waiting at a well-laid table. Enjoy the moment and do not lose sight of the goal.",
+   "Unexpected guests. Receive them with respect and they will help."
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Conflict",
+  "text": "Tension, differing claims, a risk of conflict.",
+  "advice": "Look for agreement halfway. Do not pursue the dispute to the end at any price.",
+  "lines": [
+   "Do not prolong the dispute; a few words of explanation are enough.",
+   "Withdrawing from a fight you cannot win is wisdom, not shame.",
+   "Hold to what is yours by tradition and do not reach for more.",
+   "Give up the dispute and return to calm; you will gain more.",
+   "A dispute settled fairly brings good fortune.",
+   "A dispute won by force brings a reward that is easily lost."
+  ]
+ },
+ {
+  "n": 7,
+  "name": "The Army",
+  "text": "Organised strength, discipline and a shared goal.",
+  "advice": "Order and good leadership are needed. Act as a team and with a plan.",
+  "lines": [
+   "Order at the start decides everything; without it, defeat.",
+   "A leader in the middle of the team, close to the people: trust brings success.",
+   "Too many are giving orders at once, and that leads to failure.",
+   "Withdrawing in good time is not a mistake.",
+   "Act against the threat, but hand command to the experienced.",
+   "After victory, give tasks to the wise, not to those who merely shout."
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Union",
+  "text": "Joining with others, community, belonging.",
+  "advice": "Look for allies and inspire trust. Do not delay in joining.",
+  "lines": [
+   "Sincerity from the start builds true unity.",
+   "Closeness that comes from within. Keep your own dignity.",
+   "Be careful whom you bind yourself to; not everyone is right for you.",
+   "Open loyalty to someone worthy brings good.",
+   "A true leader attracts and does not compel.",
+   "Joining too late may prove impossible. Do not delay."
+  ]
+ },
+ {
+  "n": 9,
+  "name": "The Taming Power of the Small",
+  "text": "Small obstacles slow things down but do not stop them.",
+  "advice": "Act gently and in small steps. This is not yet the time for grand gestures.",
+  "lines": [
+   "Return to your own path; that is no mistake.",
+   "Others return along with you; returning together brings good fortune.",
+   "The cart loses a wheel: a quarrel blocks progress. Agreement first.",
+   "Sincerity removes fear and harm.",
+   "Loyalty binds people together and shares out wealth.",
+   "The rain has come. Time to rest and not to push further."
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Treading",
+  "text": "Careful steps in a delicate situation, like treading on a tiger's tail.",
+  "advice": "Keep your tact and courtesy. Good manners protect you from trouble.",
+  "lines": [
+   "A simple, modest path. Follow it and no harm will come.",
+   "A calm, level path, good for those who do not seek attention.",
+   "You overestimate your strength and may get hurt.",
+   "Caution in a dangerous place brings success in the end.",
+   "Resolve is needed, but so is awareness of the risk.",
+   "Look back at your steps: what is coming follows from them."
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Peace",
+  "text": "The harmony of heaven and earth: a favourable time.",
+  "advice": "Make use of the good period, build and share. Remember that good fortune changes too.",
+  "lines": [
+   "Good things come together; act with others.",
+   "Be understanding towards the weaker and do not forget those who are far away.",
+   "There is no plain without a slope. Remember that in good times.",
+   "Come down to others without superiority; sincerity unites.",
+   "A good union brings blessing.",
+   "The wall falls back into the moat. Do not use force now; put your own affairs in order."
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Standstill",
+  "text": "Things are not flowing, and understanding is hard to reach.",
+  "advice": "Do not push. Keep your values and wait it out without being drawn into bad arrangements.",
+  "lines": [
+   "Withdraw together with those who are like you, and keep your values.",
+   "Bear patiently what is hard, and do not enter into bad arrangements.",
+   "Shame hidden inside. Admit it to yourself.",
+   "Act in line with what is higher, and the standstill will begin to give way.",
+   "The standstill is ending, but take care: everything is still fragile.",
+   "The standstill turns round: first difficulty, then joy."
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Fellowship with People",
+  "text": "People come together around a shared goal.",
+  "advice": "Act openly and look for what is shared, not for what divides.",
+  "lines": [
+   "Fellowship at the gate: openness to everyone without exception.",
+   "Fellowship only within your own circle leads to humiliation.",
+   "Hidden weapons and mistrust: nothing good will come of it for years.",
+   "You climb the wall but do not attack. Stopping in good time is good fortune.",
+   "First tears, then laughter: a true bond overcomes obstacles.",
+   "Fellowship on the outskirts: you regret nothing, though the goal is not yet reached."
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Great Possession",
+  "text": "Abundance, success, a great deal in your hands.",
+  "advice": "Be generous and modest: prosperity lasts when it serves others too.",
+  "lines": [
+   "You possess a great deal, but without pride; you avoid error.",
+   "A great wagon for loading: you have the resources to do something important.",
+   "Share what you have; selfishness will destroy prosperity.",
+   "Do not boast; modesty protects wealth.",
+   "Sincerity joined with dignity brings respect.",
+   "Support from above: everything is favourable."
+  ]
+ },
+ {
+  "n": 15,
+  "name": "Modesty",
+  "text": "A strength that has no need to show itself.",
+  "advice": "Do not set yourself above others. Modesty evens out what is unequal and opens doors.",
+  "lines": [
+   "Modest twice over, you will cross the great water.",
+   "Modesty that shows outwardly brings good fortune.",
+   "Hard-working modesty brings things to completion.",
+   "Modesty in action: everything goes well.",
+   "Modesty does not mean passivity; sometimes you must act firmly.",
+   "Modesty towards yourself: put your own affairs in order first."
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Enthusiasm",
+  "text": "A joyful energy that carries others along.",
+  "advice": "Spread your zeal, but prepare the ground: enthusiasm needs a plan.",
+  "lines": [
+   "Boasting of your enthusiasm brings misfortune.",
+   "Firm as a rock: recognise the moment and do not get carried away.",
+   "Looking upwards in hope without acting leads to regret.",
+   "The source of enthusiasm: you attract people through sincerity.",
+   "A long illness without death: lasting pressure that does not break you.",
+   "Blind enthusiasm. If you change, you will avoid error."
+  ]
+ },
+ {
+  "n": 17,
+  "name": "Following",
+  "text": "Adapting to the course of things and to someone who leads.",
+  "advice": "Follow what is right, not what is convenient.",
+  "lines": [
+   "The situation changes. Leave the house and seek contact with others.",
+   "You hold on to the small and lose the great. Choose wisely.",
+   "You hold on to the great and lose the small, and that is good.",
+   "Following with a hidden aim. Be honest with yourself.",
+   "Sincerity towards what is good brings good fortune.",
+   "A deep bond that is hard to break. Stay with it."
+  ]
+ },
+ {
+  "n": 18,
+  "name": "Repairing What Is Spoiled",
+  "text": "Something neglected needs putting in order.",
+  "advice": "Deal with the source of the problem, not the symptoms. Repair calls for thought before and after.",
+  "lines": [
+   "You are repairing what the father spoiled: hard, but good.",
+   "You are repairing what the mother spoiled: do it gently.",
+   "You are repairing too forcefully: a little regret, but no great error.",
+   "Tolerating what is spoiled leads to humiliation.",
+   "The repair brings recognition.",
+   "You do not serve kings; you look after your own values."
+  ]
+ },
+ {
+  "n": 19,
+  "name": "Approach",
+  "text": "Something good is coming; a time of growth.",
+  "advice": "Use this period, but remember that every season passes.",
+  "lines": [
+   "Approaching together: perseverance brings good fortune.",
+   "Approaching together: everything is favourable.",
+   "An approach that is too easy and comfortable. Notice it and change.",
+   "A complete approach: no error.",
+   "A wise approach, worthy of a leader.",
+   "A generous approach: good fortune."
+  ]
+ },
+ {
+  "n": 20,
+  "name": "Contemplation",
+  "text": "The view from above, observation, understanding.",
+  "advice": "Stop and look. Your example says more than words.",
+  "lines": [
+   "You look as a child does: fine for the simple, not enough for the wise.",
+   "You look through a crack: too narrow a view.",
+   "Look at your own life and decide whether to go forward or to step back.",
+   "You observe the splendour of others: time to become a guest at an important table.",
+   "Look at yourself. If you are upright, there is no error.",
+   "Look at your life from a distance."
+  ]
+ },
+ {
+  "n": 21,
+  "name": "Biting Through",
+  "text": "An obstacle that has to be broken through decisively.",
+  "advice": "Name the problem and solve it firmly but fairly.",
+  "lines": [
+   "A small penalty at the start prevents a greater evil.",
+   "You bite too deep, but that is no error.",
+   "Tough food and poison: a little shame, no great harm.",
+   "A hard bone: perseverance in difficulty brings benefit.",
+   "Gold in the dried meat: be just and firm.",
+   "A lesson learned too late: you do not listen, so you pay."
+  ]
+ },
+ {
+  "n": 22,
+  "name": "Grace",
+  "text": "Beauty, form, elegance.",
+  "advice": "Take care of the form, but do not mistake it for the content. Important matters need more than ornament.",
+  "lines": [
+   "Adorn your steps: choose the modest path on foot, not the carriage.",
+   "Adorning the beard: form without content means nothing.",
+   "Beauty and moisture: hold to your values and it will be well.",
+   "Simplicity or splendour? White is more beautiful than ornaments.",
+   "A modest gift from a sincere heart has value.",
+   "Plain white: no ornaments, no error."
+  ]
+ },
+ {
+  "n": 23,
+  "name": "Splitting Apart",
+  "text": "Old structures are crumbling.",
+  "advice": "Do not undertake anything big now. Wait it out and look after the foundations.",
+  "lines": [
+   "The leg of the bed crumbles: the collapse begins at the base.",
+   "The collapse reaches the frame of the bed. Stay alert.",
+   "Walk away from what is crumbling: no blame.",
+   "The collapse touches you. Stop and protect what you can.",
+   "Favour for those who stayed faithful: improvement is coming.",
+   "A great fruit left uneaten: after the collapse comes renewal."
+  ]
+ },
+ {
+  "n": 24,
+  "name": "Return",
+  "text": "The turning point: light returns after the darkness.",
+  "advice": "Let the new grow slowly. Return to what is right for you.",
+  "lines": [
+   "A return from not far away: no regret, great good fortune.",
+   "A quiet return: good.",
+   "Repeated returns: dangerous, but no error.",
+   "You walk with others but return alone: that is your path.",
+   "A noble return: no regret.",
+   "A missed return: disaster. Come back while you can."
+  ]
+ },
+ {
+  "n": 25,
+  "name": "Innocence",
+  "text": "Acting without hidden motives; simplicity.",
+  "advice": "Be sincere and spontaneous. Scheming will do harm now.",
+  "lines": [
+   "Innocent action brings good fortune.",
+   "Do not count on the harvest before you sow; do what needs doing.",
+   "Undeserved misfortune: it will pass.",
+   "Stay with innocence: no error.",
+   "An illness that is not your fault: do not force a cure; it will pass by itself.",
+   "Acting without order now brings harm. Wait it out."
+  ]
+ },
+ {
+  "n": 26,
+  "name": "The Taming Power of the Great",
+  "text": "Stored-up energy, knowledge and resources.",
+  "advice": "Use what you have learned. A good time for great undertakings.",
+  "lines": [
+   "Danger. Stop.",
+   "A wagon without an axle. Do not set off now.",
+   "A good horse runs: train, and be ready for the road.",
+   "A board is put on the horns of a young bull: prevent before it is too late.",
+   "A gelded boar: direct the force indirectly, not head-on.",
+   "The road to heaven is open: great success."
+  ]
+ },
+ {
+  "n": 27,
+  "name": "Nourishment",
+  "text": "Care about what you feed yourself with: body, mind, words.",
+  "advice": "Pay attention to what you take in and what you give to others.",
+  "lines": [
+   "You leave your own wisdom behind and look enviously at others: a mistake.",
+   "You seek nourishment from the wrong people: not worth it.",
+   "Feeding on what harms you: change your habits.",
+   "You seek support from those wiser than you: good.",
+   "You are not yet ready for great tasks; stay with your own people.",
+   "A source of nourishment for others: great responsibility and good fortune."
+  ]
+ },
+ {
+  "n": 28,
+  "name": "Preponderance of the Great",
+  "text": "The weight exceeds your strength; the beam is sagging.",
+  "advice": "Act quickly but carefully: reduce the load before something breaks.",
+  "lines": [
+   "Caution at the start: lay a white mat underneath.",
+   "An old tree puts out shoots: new life is possible.",
+   "The beam bends to breaking point. Do not push.",
+   "The beam is propped up: good, but do not take advantage of it.",
+   "An old tree blossoms: a brief effect, without depth.",
+   "You wade through water over your head: a risk, but no blame."
+  ]
+ },
+ {
+  "n": 29,
+  "name": "The Abyss",
+  "text": "Danger; a difficulty that keeps returning.",
+  "advice": "Flow like water: steadily and without panic. Keep your inner sincerity.",
+  "lines": [
+   "An abyss within the abyss: you are falling deeper. Stop.",
+   "Danger. Be content with small steps.",
+   "The abyss is all around. Do not act; wait.",
+   "Simple sincerity is enough, even a modest gift.",
+   "The abyss does not overflow: things will level out.",
+   "Entangled in difficulties for a long time. Look patiently for the way out."
+  ]
+ },
+ {
+  "n": 30,
+  "name": "The Clinging (Fire)",
+  "text": "Brightness, clarity, dependence on what sustains you.",
+  "advice": "Shine, but remember where you draw your strength from. Look after your sources.",
+  "lines": [
+   "Steps in disorder. Stay serious and attentive.",
+   "Golden light: great good fortune.",
+   "The light of the setting sun: make your peace with transience.",
+   "A sudden light soon goes out. Do not get carried away.",
+   "Tears and sighs: sincere regret brings a change.",
+   "The king sets out: remove the cause and spare the rest."
+  ]
+ },
+ {
+  "n": 31,
+  "name": "Influence",
+  "text": "Mutual attraction, courtship, influence.",
+  "advice": "Be open and receptive. True influence needs no pressure.",
+  "lines": [
+   "Influence in the toes: only an intention so far, with no effect yet.",
+   "Influence in the calves: do not move rashly.",
+   "Influence in the thighs: following others without thinking.",
+   "Perseverance and a sincere intention: the influence works.",
+   "Influence in the nape of the neck: no regret, but no depth either.",
+   "Influence in the jaw: words alone are not enough."
+  ]
+ },
+ {
+  "n": 32,
+  "name": "Duration",
+  "text": "Constancy, faithfulness, endurance.",
+  "advice": "Hold to the direction you have chosen: duration does not mean standing still.",
+  "lines": [
+   "You want permanence too quickly: nothing will come of it.",
+   "Regret disappears; you keep to moderation.",
+   "An inconstant character brings shame.",
+   "A hunt with no game: you are looking in the wrong place.",
+   "Constancy that is good in one thing and bad in another. Be flexible.",
+   "Constant agitation: nothing lasting will come of it."
+  ]
+ },
+ {
+  "n": 33,
+  "name": "Retreat",
+  "text": "A wise withdrawal when opposing forces are growing.",
+  "advice": "Withdraw in good time and with dignity. It is not flight but strategy.",
+  "lines": [
+   "At the tail end of the retreat there is danger. Do not act.",
+   "Hold on tight: loyalty brings safety.",
+   "A retreat bound up with others: hard, but necessary.",
+   "A voluntary retreat, beneficial for the wise.",
+   "A friendly retreat: good.",
+   "A cheerful retreat: everything is favourable."
+  ]
+ },
+ {
+  "n": 34,
+  "name": "The Power of the Great",
+  "text": "Power at its full, but easily abused.",
+  "advice": "Use your strength with care and in line with what is right.",
+  "lines": [
+   "Strength in the legs: a hasty move brings trouble.",
+   "Perseverance brings good fortune.",
+   "The ram butts the fence and tangles its horns. Do not use force.",
+   "The fence opens: the way is clear.",
+   "The ram is lost without difficulty: no regret.",
+   "The ram is stuck in the fence. Admit the difficulty, and then you will find the way out."
+  ]
+ },
+ {
+  "n": 35,
+  "name": "Progress",
+  "text": "Rapid growth, recognition, the rising sun.",
+  "advice": "Go forward, but share the light with others.",
+  "lines": [
+   "Progress is blocked. Stay calm and trusting.",
+   "Progress amid sadness: support will come from someone close.",
+   "Everyone agrees: regret disappears.",
+   "Progress like a hamster: greed is dangerous.",
+   "Do not worry about gain and loss; act.",
+   "Progress with horns: use them only on yourself."
+  ]
+ },
+ {
+  "n": 36,
+  "name": "Darkening of the Light",
+  "text": "A hard time, when it is better not to show everything.",
+  "advice": "Protect your light within. Be careful, but do not abandon your principles.",
+  "lines": [
+   "The light dims in flight. Leave, even if hungry.",
+   "Wounded but not defeated: seek help quickly.",
+   "Hunting in the south: you will catch the leader, but do not hurry.",
+   "You penetrate the heart of the darkness: you will understand, and leave.",
+   "Hide your light, as the wise Jizi did, and you will endure.",
+   "The darkness rises to its peak and falls by itself."
+  ]
+ },
+ {
+  "n": 37,
+  "name": "The Family",
+  "text": "Home, roles, mutual care.",
+  "advice": "Put close relationships in order: everything else starts there.",
+  "lines": [
+   "Clear rules in the family from the beginning.",
+   "Care for the home and the meals: perseverance brings good fortune.",
+   "Too strict or too lax? Better a little strictness.",
+   "The family's prosperity: great good fortune.",
+   "A king in his own house: do not be afraid; it will be well.",
+   "Sincerity and dignity: good fortune in the end."
+  ]
+ },
+ {
+  "n": 38,
+  "name": "Opposition",
+  "text": "Differences, diverging directions.",
+  "advice": "Agreement is possible in small matters. Do not expect agreement on everything.",
+  "lines": [
+   "A lost horse will come back by itself. Do not chase it.",
+   "You meet your lord in a narrow lane: no error.",
+   "The wagon held back, the ox halted: a hard start, a good ending.",
+   "Alone in opposition: you will meet a kindred spirit.",
+   "Regret disappears: a friend bites through the skin.",
+   "You see enemies where there are none. Lower your bow: they are allies."
+  ]
+ },
+ {
+  "n": 39,
+  "name": "Obstruction",
+  "text": "The way is blocked.",
+  "advice": "Stop, take stock of yourself and ask for help. Sometimes it is better to go round than to break through.",
+  "lines": [
+   "Going forward: obstacles. Coming back: recognition.",
+   "Obstacle after obstacle, but not through your own fault.",
+   "Going forward: obstacles. Return to your own people.",
+   "Going forward: obstacles. Coming back: union.",
+   "Great obstacles: friends arrive.",
+   "Going forward: obstacles. Coming back: great good fortune."
+  ]
+ },
+ {
+  "n": 40,
+  "name": "Deliverance",
+  "text": "Relief after tension; the storm passes.",
+  "advice": "Forgive, let go and return to ordinary life. Do not drag out the fight.",
+  "lines": [
+   "No error. Rest after a hard time.",
+   "Three foxes caught, a golden arrow: honesty wins.",
+   "You carry a load and ride in a carriage, attracting thieves. Do not show off.",
+   "Free yourself from bad company, and better will come.",
+   "Deliverance through an inner change.",
+   "A hawk shot down from the wall: the obstacle is removed."
+  ]
+ },
+ {
+  "n": 41,
+  "name": "Decrease",
+  "text": "Something has to be given up or reduced.",
+  "advice": "Simplify and give up the excess: less can give more.",
+  "lines": [
+   "Finish your own work and help others quickly, but in moderation.",
+   "Help without losing yourself.",
+   "Three walk together and one leaves; one walks alone and finds a companion.",
+   "Lessen your faults and joy will come quickly.",
+   "Someone enriches you unexpectedly. Accept it.",
+   "Increase without loss: good."
+  ]
+ },
+ {
+  "n": 42,
+  "name": "Increase",
+  "text": "Growth, support, a favourable wind.",
+  "advice": "Use the opportunity to grow and to help others.",
+  "lines": [
+   "A time for a great work: great good fortune.",
+   "Someone enriches you: perseverance brings good fortune.",
+   "Enrichment through difficulties: sincerity protects.",
+   "Acting as a go-between in a good cause: worthwhile.",
+   "A sincere heart: do not ask; good fortune is certain.",
+   "No one enriches you, and someone may harm you. Change your attitude."
+  ]
+ },
+ {
+  "n": 43,
+  "name": "Breakthrough",
+  "text": "Resolve, decision, a way out of deadlock.",
+  "advice": "Speak the truth clearly but without aggression. Be ready for the consequences.",
+  "lines": [
+   "Too strong a start: failure.",
+   "Vigilance in the night: do not be afraid.",
+   "Resolve in anger: keep yourself composed.",
+   "No skin on the thighs: you walk with difficulty. Listen to advice.",
+   "Weeds call for resolve: act in the middle of the road.",
+   "No warning: the end comes suddenly."
+  ]
+ },
+ {
+  "n": 44,
+  "name": "Coming to Meet",
+  "text": "An unexpected encounter, a temptation.",
+  "advice": "Be careful what you let into your life. Not everything that attracts you is good.",
+  "lines": [
+   "Stop it at once: a bronze brake.",
+   "A fish in the bag: you are in control. Do not share it with the guests.",
+   "No skin on the thighs: difficulties, but no great error.",
+   "No fish in the bag: you are losing touch with people.",
+   "A melon under the willow: hidden beauty is ripening.",
+   "Meeting with horns: humiliation, but no blame."
+  ]
+ },
+ {
+  "n": 45,
+  "name": "Gathering Together",
+  "text": "People gather; a shared goal.",
+  "advice": "Bring others together around values, and be prepared for the unforeseen.",
+  "lines": [
+   "Uncertain sincerity: the gathering is on, then off. Call for help.",
+   "Let yourself be drawn in: good fortune.",
+   "Gathering with a sigh: a little shame. Go on.",
+   "Great good fortune: no error.",
+   "Gathering with authority: strengthen trust.",
+   "Tears and sighs: no error."
+  ]
+ },
+ {
+  "n": 46,
+  "name": "Pushing Upward",
+  "text": "Gradual growth, like a tree from the earth.",
+  "advice": "Go step by step. Effort now will bring a lasting result.",
+  "lines": [
+   "Rising with trust: great good fortune.",
+   "Sincerity is enough, even a modest offering.",
+   "You rise into an empty city: no obstacles.",
+   "The king makes an offering on the mountain: good fortune.",
+   "Perseverance: you rise step by step.",
+   "Rising in the dark: perseverance is essential."
+  ]
+ },
+ {
+  "n": 47,
+  "name": "Oppression",
+  "text": "Exhaustion, constraint.",
+  "advice": "Do not lose faith. Say less and act wisely: this time will make you stronger.",
+  "lines": [
+   "You sit under a bare tree, downcast. Leave the valley.",
+   "Oppression amid food and drink. Wait; help will come.",
+   "Oppressed by a stone: you lean on what wounds you.",
+   "Help comes slowly: shame, but a good ending.",
+   "Oppressed by those in power: joy comes slowly.",
+   "Oppressed by creepers: act, and regret will pass."
+  ]
+ },
+ {
+  "n": 48,
+  "name": "The Well",
+  "text": "An inexhaustible source, a common good.",
+  "advice": "Look after your sources and share them. Go deeper instead of moving elsewhere.",
+  "lines": [
+   "A muddy well: no one drinks from it.",
+   "A well with small fish, and a cracked jug: potential wasted.",
+   "A clear well left unused: a pity.",
+   "The well is being repaired: no error.",
+   "Clear, cold water: drink.",
+   "A well open to all: great good fortune."
+  ]
+ },
+ {
+  "n": 49,
+  "name": "Revolution",
+  "text": "Change, upheaval, shedding the old skin.",
+  "advice": "Change when the time has come, and when you can explain why.",
+  "lines": [
+   "Wrapped in yellow oxhide: do not change now.",
+   "The day of change has come: act.",
+   "Change that is too fast does harm. Talk it over three times.",
+   "Regret disappears: change from conviction.",
+   "The great person changes like a tiger: clearly.",
+   "The noble person changes like a panther, but do not overdo it."
+  ]
+ },
+ {
+  "n": 50,
+  "name": "The Cauldron",
+  "text": "Transformation, nourishment, culture.",
+  "advice": "Cultivate what is valuable. Good results need time and fire.",
+  "lines": [
+   "The cauldron turned upside down: clear out the old to make room.",
+   "The cauldron is full: the envious cannot reach it.",
+   "The cauldron's handle is altered: a passing difficulty.",
+   "The cauldron's leg is broken: overload.",
+   "Yellow handles, golden rings: favourable.",
+   "Jade rings: great good fortune."
+  ]
+ },
+ {
+  "n": 51,
+  "name": "The Arousing (Thunder)",
+  "text": "A sudden event, a shock.",
+  "advice": "Stay calm. The shock passes, and what it taught you remains.",
+  "lines": [
+   "Thunder comes: fear, then laughter.",
+   "Thunder amid danger: you will lose something, but get it back.",
+   "Thunder unsettles you. Act, to avoid misfortune.",
+   "Thunder in the mud: paralysis.",
+   "Thunder here and there: danger, but you lose nothing.",
+   "Thunder brings chaos. Do not move now."
+  ]
+ },
+ {
+  "n": 52,
+  "name": "Keeping Still (Mountain)",
+  "text": "Calm, stillness, meditation.",
+  "advice": "Stop. Act when it is time to act, and stand still when it is time to stand still.",
+  "lines": [
+   "Keep your feet still: do not start what you will not finish.",
+   "Keep your calves still: you cannot help those you follow.",
+   "Keep your hips still: rigidity is dangerous.",
+   "Keep your trunk still: inner calm.",
+   "Keep your jaw still: speak with care.",
+   "Noble stillness: good fortune."
+  ]
+ },
+ {
+  "n": 53,
+  "name": "Gradual Development",
+  "text": "Slow, sure progress.",
+  "advice": "Do not hurry: good things grow slowly.",
+  "lines": [
+   "The wild goose approaches the shore: youth in danger.",
+   "The goose on a rock: eat and drink in peace.",
+   "The goose on the plateau: a man goes out and does not return.",
+   "The goose in a tree: it will find a branch.",
+   "The goose on the hill: three years without a child, but victory.",
+   "The goose approaches the clouds: its feathers are used in ceremonies."
+  ]
+ },
+ {
+  "n": 54,
+  "name": "The Marrying Maiden",
+  "text": "A situation in which you are not fully in control.",
+  "advice": "Adapt with dignity, and remember the long-term goal.",
+  "lines": [
+   "The second wife: a lame leg still moves forward.",
+   "The one-eyed can see: keep your solitude.",
+   "A servant: wait your turn.",
+   "A delayed marriage: the time will come.",
+   "The modest bride: more beautiful than ornaments.",
+   "An empty basket: it brings nothing."
+  ]
+ },
+ {
+  "n": 55,
+  "name": "Abundance",
+  "text": "Fullness, the peak, like the sun at noon.",
+  "advice": "Enjoy the fullness without fearing it will pass, and prepare wisely for change.",
+  "lines": [
+   "You meet your equal: no error for ten days.",
+   "Fullness hides the sun: mistrust. Sincerity helps.",
+   "Fullness conceals: a lost hand, no blame.",
+   "You meet a ruler: good fortune.",
+   "Bright talents arrive: good fortune.",
+   "A house full to the brim: loneliness behind the walls."
+  ]
+ },
+ {
+  "n": 56,
+  "name": "The Wanderer",
+  "text": "Travel, strangeness, impermanence.",
+  "advice": "Be courteous and careful in a new place. Do not put down roots too quickly.",
+  "lines": [
+   "The wanderer busy with trifles brings trouble upon themselves.",
+   "The wanderer at the inn finds a servant.",
+   "The wanderer burns the inn and loses the servant.",
+   "The wanderer has shelter, but a restless heart.",
+   "The arrow hits the mark: praise and a position.",
+   "The bird burns its own nest: laughter, then weeping."
+  ]
+ },
+ {
+  "n": 57,
+  "name": "The Gentle (Wind)",
+  "text": "Gentle but constant penetration.",
+  "advice": "Act gently and persistently: dripping water wears away stone.",
+  "lines": [
+   "Forward and back: discipline helps.",
+   "Gentleness under the bed: look for the causes.",
+   "Repeated gentleness: shame.",
+   "Regret disappears: three kinds of game.",
+   "Perseverance: good fortune after the change.",
+   "Gentleness under the bed: loss."
+  ]
+ },
+ {
+  "n": 58,
+  "name": "The Joyous (Lake)",
+  "text": "Cheerfulness, conversation, pleasure.",
+  "advice": "Share your joy with others, but do not mistake it for indulgence.",
+  "lines": [
+   "Harmonious joy: good fortune.",
+   "Sincere joy: good fortune.",
+   "Forced joy: misfortune.",
+   "Joy that is bargained over: constant uncertainty.",
+   "Trusting what destroys: danger.",
+   "Seductive joy: take care."
+  ]
+ },
+ {
+  "n": 59,
+  "name": "Dispersion",
+  "text": "Dissolving rigidity and divisions.",
+  "advice": "Let go of what divides. A shared goal will bring people together again.",
+  "lines": [
+   "Help with the strength of a horse: good fortune.",
+   "Dispersion: you run to what supports you.",
+   "Dispersing the self: no regret.",
+   "Dispersing the group: great good fortune.",
+   "Dispersing a great cry: no error.",
+   "Dispersing blood: no blame."
+  ]
+ },
+ {
+  "n": 60,
+  "name": "Limitation",
+  "text": "Boundaries, moderation, rules.",
+  "advice": "Set sensible limits, but not so tight that they suffocate.",
+  "lines": [
+   "You do not leave the courtyard: no error.",
+   "You do not go out of the gate: misfortune.",
+   "No limits: regret.",
+   "Calm limitation: success.",
+   "Pleasant limitation: good fortune.",
+   "Bitter limitation: perseverance is dangerous."
+  ]
+ },
+ {
+  "n": 61,
+  "name": "Inner Truth",
+  "text": "A sincerity that convinces.",
+  "advice": "Be honest with yourself and with others. The truth reaches even the stubborn.",
+  "lines": [
+   "Calm readiness: good fortune.",
+   "A crane calls in the shade and its young answer.",
+   "You find a companion: now the drum, now weeping.",
+   "The moon is nearly full: the horse goes away.",
+   "Sincerity unites: no error.",
+   "A cockerel's feather flies up to heaven: perseverance is dangerous."
+  ]
+ },
+ {
+  "n": 62,
+  "name": "Preponderance of the Small",
+  "text": "A time for small matters, not great ones.",
+  "advice": "Attend to the details and be modest. Do not aim too high now.",
+  "lines": [
+   "The bird flies: misfortune.",
+   "You pass the ancestor and meet the ancestor's mother: no error.",
+   "Do not be overcautious; someone may hurt you.",
+   "No error. Do not go forward.",
+   "Dense clouds and no rain: take what is in the cave.",
+   "You do not meet; you pass by. The bird flies away."
+  ]
+ },
+ {
+  "n": 63,
+  "name": "After Completion",
+  "text": "Something has been achieved; everything is in its place.",
+  "advice": "Do not rest on your laurels. Look after what has been achieved, because order is easily lost at the end.",
+  "lines": [
+   "You brake the wheels: no error.",
+   "The woman loses her veil. Do not search; it will return after seven days.",
+   "The great ancestor attacks, and wins after three years.",
+   "Cracks in the boat: keep watch all day.",
+   "The neighbour in the east slaughters an ox; a smaller offering from a sincere heart matters more.",
+   "You get your head wet: danger."
+  ]
+ },
+ {
+  "n": 64,
+  "name": "Before Completion",
+  "text": "A transition; not the end yet.",
+  "advice": "The last step needs the most attention. Do not celebrate too early.",
+  "lines": [
+   "You get your tail wet: shame.",
+   "You brake the wheels: perseverance brings good fortune.",
+   "Before completion, action brings misfortune, but cross the water.",
+   "Perseverance: good fortune; regret disappears.",
+   "The light of the wise: good fortune.",
+   "You drink wine with trust: no error, but do not overdo it."
+  ]
+ }
+]

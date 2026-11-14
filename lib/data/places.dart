@@ -1,7 +1,9 @@
 import 'package:timezone/data/latest.dart' as tzdata;
 import 'package:timezone/timezone.dart' as tz;
 
+import '../engine/lang.dart';
 import '../engine/numerology.dart';
+import 'place_names.dart';
 
 typedef Place = ({
   String name,
@@ -13,6 +15,175 @@ typedef Place = ({
 
 String placeLabel(Place p) =>
     p.country == null ? p.name : '${p.name} (${p.country})';
+
+/// What the user sees. The stored key stays [placeLabel] (Polish), so saved profiles keep
+/// working in any language; other languages swap the names that differ.
+String placeDisplay(Place p) {
+  // A hand-typed place is just coordinates: nothing to translate.
+  if (appLang == 'pl' || !cities.contains(p)) return placeLabel(p);
+  final names = inLang(cityNames), countries = inLang(countryNames);
+  final country = countries[p.country ?? 'Polska'] ?? p.country!;
+  return '${names[p.name] ?? _enNames[p.name] ?? p.name} ($country)';
+}
+
+const cityNames = {
+  'en': _enNames,
+  'de': cityNamesDe,
+  'fr': cityNamesFr,
+  'es': cityNamesEs,
+  'uk': cityNamesUk,
+  'it': cityNamesIt,
+  'pt': cityNamesPt,
+  'nl': cityNamesNl,
+};
+const countryNames = {
+  'en': _enCountries,
+  'de': countryNamesDe,
+  'fr': countryNamesFr,
+  'es': countryNamesEs,
+  'uk': countryNamesUk,
+  'it': countryNamesIt,
+  'pt': countryNamesPt,
+  'nl': countryNamesNl,
+};
+
+const _enNames = {
+  'Warszawa': 'Warsaw',
+  'Kraków': 'Krakow',
+  'Londyn': 'London',
+  'Edynburg': 'Edinburgh',
+  'Monachium': 'Munich',
+  'Kolonia': 'Cologne',
+  'Frankfurt nad Menem': 'Frankfurt am Main',
+  'Brema': 'Bremen',
+  'Hanower': 'Hanover',
+  'Lipsk': 'Leipzig',
+  'Drezno': 'Dresden',
+  'Norymberga': 'Nuremberg',
+  'Frankfurt nad Odrą': 'Frankfurt (Oder)',
+  'Haga': 'The Hague',
+  'Bruksela': 'Brussels',
+  'Antwerpia': 'Antwerp',
+  'Luksemburg': 'Luxembourg',
+  'Paryż': 'Paris',
+  'Marsylia': 'Marseille',
+  'Tuluza': 'Toulouse',
+  'Nicea': 'Nice',
+  'Madryt': 'Madrid',
+  'Walencja': 'Valencia',
+  'Lizbona': 'Lisbon',
+  'Rzym': 'Rome',
+  'Mediolan': 'Milan',
+  'Neapol': 'Naples',
+  'Turyn': 'Turin',
+  'Bolonia': 'Bologna',
+  'Wiedeń': 'Vienna',
+  'Zurych': 'Zurich',
+  'Genewa': 'Geneva',
+  'Berno': 'Bern',
+  'Praga': 'Prague',
+  'Ostrawa': 'Ostrava',
+  'Bratysława': 'Bratislava',
+  'Koszyce': 'Košice',
+  'Budapeszt': 'Budapest',
+  'Wilno': 'Vilnius',
+  'Kowno': 'Kaunas',
+  'Ryga': 'Riga',
+  'Mińsk': 'Minsk',
+  'Brześć': 'Brest',
+  'Kijów': 'Kyiv',
+  'Lwów': 'Lviv',
+  'Charków': 'Kharkiv',
+  'Odessa': 'Odesa',
+  'Dniepr': 'Dnipro',
+  'Łuck': 'Lutsk',
+  'Równe': 'Rivne',
+  'Tarnopol': 'Ternopil',
+  'Iwano-Frankiwsk': 'Ivano-Frankivsk',
+  'Żytomierz': 'Zhytomyr',
+  'Kiszyniów': 'Chișinău',
+  'Moskwa': 'Moscow',
+  'Petersburg': 'Saint Petersburg',
+  'Sztokholm': 'Stockholm',
+  'Göteborg': 'Gothenburg',
+  'Kopenhaga': 'Copenhagen',
+  'Ateny': 'Athens',
+  'Bukareszt': 'Bucharest',
+  'Belgrad': 'Belgrade',
+  'Zagrzeb': 'Zagreb',
+  'Lublana': 'Ljubljana',
+  'Stambuł': 'Istanbul',
+  'Nowy Jork': 'New York',
+  'Filadelfia': 'Philadelphia',
+  'Waszyngton': 'Washington, D.C.',
+  'Meksyk': 'Mexico City',
+  'Kurytyba': 'Curitiba',
+  'Tokio': 'Tokyo',
+  'Seul': 'Seoul',
+  'Pekin': 'Beijing',
+  'Szanghaj': 'Shanghai',
+  'Hongkong': 'Hong Kong',
+  'Singapur': 'Singapore',
+  'Mumbaj': 'Mumbai',
+  'Dubaj': 'Dubai',
+  'Tel Awiw': 'Tel Aviv',
+  'Jerozolima': 'Jerusalem',
+  'Ałmaty': 'Almaty',
+  'Kair': 'Cairo',
+};
+
+const _enCountries = {
+  'Polska': 'Poland',
+  'Argentyna': 'Argentina',
+  'Belgia': 'Belgium',
+  'Białoruś': 'Belarus',
+  'Brazylia': 'Brazil',
+  'Bułgaria': 'Bulgaria',
+  'Chiny': 'China',
+  'Chorwacja': 'Croatia',
+  'Czechy': 'Czechia',
+  'Dania': 'Denmark',
+  'Egipt': 'Egypt',
+  'Finlandia': 'Finland',
+  'Francja': 'France',
+  'Grecja': 'Greece',
+  'Gruzja': 'Georgia',
+  'Hiszpania': 'Spain',
+  'Holandia': 'Netherlands',
+  'Indie': 'India',
+  'Irlandia': 'Ireland',
+  'Islandia': 'Iceland',
+  'Izrael': 'Israel',
+  'Japonia': 'Japan',
+  'Kanada': 'Canada',
+  'Kazachstan': 'Kazakhstan',
+  'Kenia': 'Kenya',
+  'Korea Płd.': 'South Korea',
+  'Litwa': 'Lithuania',
+  'Luksemburg': 'Luxembourg',
+  'Meksyk': 'Mexico',
+  'Mołdawia': 'Moldova',
+  'Niemcy': 'Germany',
+  'Norwegia': 'Norway',
+  'Nowa Zelandia': 'New Zealand',
+  'Portugalia': 'Portugal',
+  'RPA': 'South Africa',
+  'Rosja': 'Russia',
+  'Rumunia': 'Romania',
+  'Singapur': 'Singapore',
+  'Szwajcaria': 'Switzerland',
+  'Szwecja': 'Sweden',
+  'Słowacja': 'Slovakia',
+  'Słowenia': 'Slovenia',
+  'Tajlandia': 'Thailand',
+  'Turcja': 'Turkey',
+  'Ukraina': 'Ukraine',
+  'Wielka Brytania': 'United Kingdom',
+  'Węgry': 'Hungary',
+  'Włochy': 'Italy',
+  'ZEA': 'UAE',
+  'Łotwa': 'Latvia',
+};
 
 /// Polish cities first, then large cities abroad (where Poles most often live).
 // The tz database merged zones identical since 1970 (e.g. Amsterdam → Brussels, Oslo → Berlin);

@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "El Loco",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "nuevo comienzo",
+   "espontaneidad",
+   "confianza",
+   "curiosidad",
+   "ligereza"
+  ],
+  "symbolism": "Una figura joven con ropa de colores está al borde de un precipicio, con la cara vuelta hacia el cielo, como si no viera el vacío. En una mano lleva una rosa blanca, al hombro un bastón con un pequeño hatillo, y un perrito blanco salta a sus pies. Detrás brilla un sol radiante y se ven cumbres nevadas.",
+  "upright": "El Loco te invita a mirar la situación con ojos nuevos, sin el peso de supuestos anteriores. Es la energía del primer paso, con más curiosidad que plan. La carta puede sugerir que merece la pena darte permiso para no saber y aprender por el camino. El perro a los pies del Loco recuerda que la apertura combina bien con un poco de atención.",
+  "reversed": "El Loco invertido puede indicar dudas antes de ponerse en marcha o, al contrario, una prisa que pasa por alto señales importantes. A veces es una invitación a comprobar si el miedo a equivocarte te quita la alegría de intentarlo.",
+  "reflection": [
+   "¿Qué sería posible si no tuvieras que saber el final de antemano?",
+   "¿Qué pequeño paso hacia lo desconocido te tienta ahora mismo?"
+  ],
+  "advice": "Es un buen momento para empezar de nuevo. Da el primer paso aunque no conozcas todo el camino: confía en tu intuición y tu curiosidad, solo mira dónde pisas.",
+  "adviceReversed": "Detente un momento antes de saltar. Comprueba si la duda viene del sentido común o del miedo a equivocarte, y solo entonces ponte en marcha.",
+  "astrology": "Aire"
+ },
+ {
+  "id": "major_01",
+  "name": "El Mago",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "capacidad de acción",
+   "concentración",
+   "habilidades",
+   "iniciativa",
+   "comunicación"
+  ],
+  "symbolism": "Una figura con túnica blanca y capa roja alza una varita hacia el cielo con una mano y señala la tierra con la otra. Sobre su cabeza está el signo del infinito, y en la mesa hay una copa, una espada, un oro y un bastón: los signos de los cuatro elementos. Toda la escena está enmarcada por rosas y lirios en flor.",
+  "upright": "El Mago habla de un momento en que tienes a mano más recursos de los que parece. La carta te anima a unir el pensamiento con la acción y a dar a tus intenciones una forma concreta. Es un buen momento para fijarte en tus talentos y usarlos con conciencia. El gesto que señala a la vez arriba y abajo recuerda unir la visión con la práctica cotidiana.",
+  "reversed": "Invertida, la energía del Mago puede dispersarse: hay muchas ideas pero ninguna dirección. También puede ser una señal para revisar si tus palabras y tus intenciones van de la mano.",
+  "reflection": [
+   "¿Qué habilidades tienes ya a tu alcance, aunque rara vez te fijes en ellas?",
+   "¿Qué pensamiento espera convertirse en un primer movimiento concreto?"
+  ],
+  "advice": "Tienes todo lo necesario para empezar. Toma las riendas, céntrate en una meta y actúa.",
+  "adviceReversed": "Antes de actuar, revisa tus intenciones. La energía dispersa o el intento de manipular la situación no te darán lo que quieres.",
+  "astrology": "Mercurio"
+ },
+ {
+  "id": "major_02",
+  "name": "La Sacerdotisa",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "intuición",
+   "silencio",
+   "conocimiento interior",
+   "misterio",
+   "paciencia"
+  ],
+  "symbolism": "Una mujer con vestiduras azules está sentada entre dos columnas, una oscura y otra clara, marcadas con las letras B y J. En el regazo sostiene un pergamino medio oculto, a sus pies descansa una media luna y detrás cuelga un velo adornado con granadas. En la cabeza lleva una corona que recuerda las fases de la Luna.",
+  "upright": "La Sacerdotisa te invita a escuchar lo que es callado y no se dice. No todas las respuestas llegan por el análisis; algunas maduran en el silencio. La carta puede sugerir que conviene detenerse antes de decidir y darte tiempo para sentir la situación. Es un espacio para confiar en tu propio criterio.",
+  "reversed": "La Sacerdotisa invertida puede indicar que el ruido cotidiano o las opiniones ajenas tapan la intuición. A veces también significa encerrarse demasiado en uno mismo cuando una conversación podría aliviar.",
+  "reflection": [
+   "¿Qué te dice tu voz interior cuando acallas un momento lo que te rodea?",
+   "¿Para qué necesitas más tiempo antes de tomar una decisión?"
+  ],
+  "advice": "La respuesta ya está en ti. No decidas con prisas: haz silencio y escucha a tu intuición antes de preguntar a otros.",
+  "adviceReversed": "Deja de tapar tu voz interior con las opiniones de los demás. Date un momento de calma y verás lo que de verdad sientes.",
+  "astrology": "Luna"
+ },
+ {
+  "id": "major_03",
+  "name": "La Emperatriz",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "abundancia",
+   "cuidado",
+   "creatividad",
+   "sensualidad",
+   "crecimiento"
+  ],
+  "symbolism": "Una mujer con un vestido estampado de granadas descansa sobre cojines mullidos entre trigo que madura. En la cabeza lleva una corona de doce estrellas, y a su lado hay un escudo en forma de corazón con el signo de Venus. Al fondo corre un arroyo y susurra un bosque espeso.",
+  "upright": "La Emperatriz recuerda lo que crece cuando recibe atención y ternura: proyectos, relaciones y también el cuidado de ti. La carta te anima a apreciar el placer de las cosas sencillas. Puede ser una invitación a crear sin la presión de la perfección. Es una energía de generosidad que también te incluye a ti.",
+  "reversed": "Invertida, esta energía puede mostrarse como dar más allá de tus fuerzas o pasar por alto tus propias necesidades. También puede señalar un bloqueo creativo, que se alivia más con descanso que con presión.",
+  "reflection": [
+   "¿Qué necesita ahora en tu vida un cuidado paciente para crecer?",
+   "¿Cómo puedes cuidarte hoy igual que cuidas de los demás?"
+  ],
+  "advice": "Cuida lo que quieres que crezca: a ti, una relación, una idea. Actúa con cariño y paciencia, y el asunto tomará forma por sí solo.",
+  "adviceReversed": "Es difícil dar a otros cuando se te acaban las fuerzas. Empieza por cuidarte a ti, y después ocúpate del resto.",
+  "astrology": "Venus"
+ },
+ {
+  "id": "major_04",
+  "name": "El Emperador",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "estructura",
+   "responsabilidad",
+   "estabilidad",
+   "límites",
+   "liderazgo"
+  ],
+  "symbolism": "Un soberano barbudo con armadura y capa roja está sentado en un trono de piedra adornado con cabezas de carnero. En una mano sostiene un cetro rematado por un anj, en la otra un orbe dorado. Detrás se alzan montañas desnudas de color óxido.",
+  "upright": "El Emperador habla de un orden que da sensación de seguridad y permite actuar con calma. La carta puede animarte a fijar reglas claras, límites o un plan. También es una invitación a asumir la responsabilidad de tu propio ámbito de influencia. Una buena estructura no tiene por qué ser rígida; puede ser un apoyo.",
+  "reversed": "El Emperador invertido puede indicar demasiado control o, al contrario, falta de puntos de apoyo firmes. Merece la pena preguntarse si las reglas actuales aún te sirven o solo te limitan.",
+  "reflection": [
+   "¿Qué límite o regla te ayudaría a sentirte más seguro?",
+   "¿Dónde te sostiene el control, y dónde empieza a limitarte?"
+  ],
+  "advice": "Pon orden. Fija reglas claras, haz un plan y asume la decisión: la estabilidad te dará ventaja.",
+  "adviceReversed": "Demasiado control puede asfixiar la situación. Afloja las reglas rígidas o, si falta estructura, constrúyela por fin.",
+  "astrology": "Aries"
+ },
+ {
+  "id": "major_05",
+  "name": "El Hierofante",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "tradición",
+   "aprendizaje",
+   "comunidad",
+   "valores",
+   "guía"
+  ],
+  "symbolism": "Un sacerdote con túnica roja y triple corona está sentado entre dos columnas de piedra y alza la mano para bendecir. A sus pies hay llaves cruzadas, y ante él se arrodillan dos discípulos con túnicas adornadas con rosas y lirios.",
+  "upright": "El Hierofante remite al conocimiento transmitido de generación en generación y a las comunidades que dan sentido de pertenencia. La carta puede sugerir aprovechar la experiencia de un maestro, un mentor o un método probado. También es una ocasión para pensar qué valores son de verdad tuyos. La tradición puede ser un puente, no un muro.",
+  "reversed": "El Hierofante invertido puede invitarte a cuestionar reglas aceptadas sin pensar. A veces apunta a la necesidad de encontrar tu propio camino fuera de lo trillado.",
+  "reflection": [
+   "¿De quién podrías aprender algo ahora mismo?",
+   "¿Qué creencias heredadas de otros merece la pena repensar hoy?"
+  ],
+  "advice": "Sigue un camino probado. Pide consejo a alguien con experiencia o apóyate en principios que ya han funcionado.",
+  "adviceReversed": "No tienes que hacerlo todo «como se debe». Pregúntate qué reglas son tuyas y cuáles solo heredadas.",
+  "astrology": "Tauro"
+ },
+ {
+  "id": "major_06",
+  "name": "Los Enamorados",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "elección",
+   "relación",
+   "valores",
+   "cercanía",
+   "coherencia"
+  ],
+  "symbolism": "Una mujer y un hombre desnudos están en un jardín, y sobre ellos, entre las nubes, flota un ángel alado con los brazos abiertos. Detrás de la mujer crece un árbol frutal con una serpiente enroscada, detrás del hombre un árbol con hojas como llamas. Entre ellos, a lo lejos, se alza una montaña solitaria.",
+  "upright": "Los Enamorados hablan de cercanía, pero también de elecciones que nacen de lo que nos importa. La carta puede referirse a una relación en la que cuentan la honestidad y la reciprocidad. También puede invitar a una decisión acorde con tus valores, aunque exija valor. La armonía entre el corazón y los actos da una sensación de orden interior.",
+  "reversed": "Invertida, la carta puede señalar una distancia entre lo que deseas y lo que eliges. También puede ser una invitación a hablar con sinceridad sobre las expectativas en una relación.",
+  "reflection": [
+   "¿Qué elección sería más fiel a lo que de verdad valoras?",
+   "¿Qué necesitas para sentirte plenamente tú en una relación?"
+  ],
+  "advice": "Estás ante una elección. Elige según tus valores, no según la comodidad. Apuesta por lo que de verdad te importa.",
+  "adviceReversed": "Algo no encaja: el corazón quiere una cosa y tus actos dicen otra. Antes de decidir, nombra con sinceridad lo que quieres.",
+  "astrology": "Géminis"
+ },
+ {
+  "id": "major_07",
+  "name": "El Carro",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "determinación",
+   "dirección",
+   "avanzar",
+   "autodisciplina",
+   "seguridad"
+  ],
+  "symbolism": "Un guerrero con armadura adornada con medias lunas está de pie en un carro de piedra bajo un dosel sembrado de estrellas. Tiran del carro dos esfinges, una negra y otra blanca, que miran en direcciones distintas. Detrás se ven las murallas de una ciudad y un río.",
+  "upright": "El Carro describe la energía de un movimiento concentrado, en el que fuerzas distintas se dirigen en un solo sentido. La carta puede animar a la perseverancia y a definir con claridad la meta. No se trata de luchar contra los obstáculos, sino de mantener el rumbo con calma. Aquí la victoria suele ser dominar las propias contradicciones interiores.",
+  "reversed": "El Carro invertido puede sugerir que las fuerzas tiran en sentidos opuestos y cuesta arrancar. A veces es una señal para frenar y comprobar si la meta elegida sigue siendo la adecuada.",
+  "reflection": [
+   "¿Adónde vas exactamente, y cómo sabrás que es el camino correcto?",
+   "¿Qué necesidades contradictorias podrías reconciliar en lugar de combatirlas?"
+  ],
+  "advice": "Avanza. Fija una dirección, mantenla y no te distraigas: la determinación te llevará a la meta.",
+  "adviceReversed": "Tiras en dos direcciones a la vez. Decide adónde vas antes de acelerar.",
+  "astrology": "Cáncer"
+ },
+ {
+  "id": "major_08",
+  "name": "La Fuerza",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "fuerza suave",
+   "valor",
+   "paciencia",
+   "serenidad",
+   "compasión"
+  ],
+  "symbolism": "Una mujer con vestido blanco, ceñida con una guirnalda de flores, sostiene con calma entre las manos las fauces de un león. Sobre su cabeza flota el signo del infinito. El animal parece domado, y la escena transcurre ante suaves colinas y un cielo amarillo luminoso.",
+  "upright": "La Fuerza muestra un poder que no necesita gritos ni violencia. La carta te anima a tratar tus emociones e instintos con suavidad, no para reprimirlos sino para domarlos. Es un valor que nace de la paciencia y de la amabilidad contigo. Aquí la calma convence a menudo más que la presión.",
+  "reversed": "Invertida, la carta puede indicar dudas sobre tu propia fuerza o dificultad para calmar la frustración. Entonces conviene tratarte con la paciencia que muestras a las personas que quieres.",
+  "reflection": [
+   "¿Qué emoción necesita hoy comprensión en lugar de lucha?",
+   "¿Dónde podría tu suavidad resultar una fuerza?"
+  ],
+  "advice": "Actúa con una fuerza suave. La calma, la paciencia y el valor conseguirán más que la presión. Puedes con esto.",
+  "adviceReversed": "Dudas de ti más de lo necesario. Recuerda lo que ya has superado y sé más suave contigo.",
+  "astrology": "Leo"
+ },
+ {
+  "id": "major_09",
+  "name": "El Ermitaño",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "reflexión",
+   "soledad elegida",
+   "sabiduría",
+   "retiro",
+   "búsqueda"
+  ],
+  "symbolism": "Un anciano con capa gris y capucha está sobre una cumbre nevada. En una mano alza un farol en el que brilla una estrella de seis puntas; con la otra se apoya en un largo bastón. Su mirada se dirige hacia abajo, como si iluminara el camino a quienes lo siguen.",
+  "upright": "El Ermitaño te invita a detenerte y mirar hacia dentro. El tiempo en silencio puede ayudarte a separar lo importante de lo que solo hace ruido. La carta no significa aislarte de la gente, sino hacer sitio conscientemente a tus propios pensamientos. La luz del farol basta para ver el siguiente paso.",
+  "reversed": "El Ermitaño invertido puede sugerir que el retiro ha empezado a parecerse al aislamiento. A veces es al revés: huir del silencio porque cuesta enfrentarse a las propias preguntas.",
+  "reflection": [
+   "¿Qué aprendes de ti cuando estás en silencio?",
+   "¿Qué siguiente paso ves con la luz que ya tienes?"
+  ],
+  "advice": "Apártate un tiempo del bullicio. Piensa el asunto a solas: la respuesta vendrá de dentro, no de fuera.",
+  "adviceReversed": "El retiro ya dura demasiado. Es hora de salir hacia la gente y compartir lo que sabes por dentro.",
+  "astrology": "Virgo"
+ },
+ {
+  "id": "major_10",
+  "name": "La Rueda de la Fortuna",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "ciclos",
+   "cambio",
+   "azar",
+   "ritmo",
+   "giro de los acontecimientos"
+  ],
+  "symbolism": "Una gran rueda cubierta de letras y signos alquímicos gira en el cielo. En lo alto está sentada una esfinge con una espada, por un lado baja una serpiente y por abajo sube una figura con cabeza de chacal. En las esquinas, sobre nubes, criaturas aladas (un ángel, un águila, un león y un toro) se inclinan sobre libros.",
+  "upright": "La Rueda de la Fortuna recuerda que la vida se mueve en ciclos y que ninguna situación permanece igual para siempre. La carta te anima a fijarte en lo que está cambiando ahora y a pensar cómo sintonizar con ello. No todo depende de nosotros, pero nuestra actitud sigue en nuestras manos. El cambio puede revelar posibilidades que antes no se veían.",
+  "reversed": "Invertida, la carta puede indicar resistencia al cambio, o la sensación de que el mismo patrón vuelve una y otra vez. Es una invitación a buscar la parte del ciclo que se puede romper o transformar a conciencia.",
+  "reflection": [
+   "¿Qué patrón repetido notas en tu vida?",
+   "¿En qué puedes influir aunque cambien las circunstancias?"
+  ],
+  "advice": "La situación cambia, y es un buen momento para acompañar el movimiento. Aprovecha la oportunidad que aparece: la rueda gira.",
+  "adviceReversed": "No luches contra lo que no puedes cambiar. Céntrate en lo que puedes hacer y espera a que el ciclo gire.",
+  "astrology": "Júpiter"
+ },
+ {
+  "id": "major_11",
+  "name": "La Justicia",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "equilibrio",
+   "equidad",
+   "causa y efecto",
+   "claridad",
+   "responsabilidad"
+  ],
+  "symbolism": "Una figura con túnica roja está sentada en un trono entre dos columnas, tras las que cuelga un velo púrpura. En una mano sostiene en alto una espada de doble filo, en la otra una balanza en equilibrio. Bajo la túnica asoma un zapato blanco, y la mirada es tranquila y directa.",
+  "upright": "La Justicia te invita a mirar la situación con sinceridad, teniendo en cuenta todos sus lados. La carta habla del vínculo entre las decisiones y sus consecuencias. Quizá sea buen momento para nombrar los hechos y decidir de acuerdo con tu propio sentido de la justicia. La claridad suele traer alivio, aunque pida honestidad contigo.",
+  "reversed": "La Justicia invertida puede indicar dificultad para asumir responsabilidades, o la sensación de que algo sigue desequilibrado. Conviene comprobar si tu juicio sobre la situación no es demasiado duro, con los demás o contigo.",
+  "reflection": [
+   "¿Cómo se vería esta situación si la miraras desde todos los lados?",
+   "¿De qué quieres responsabilizarte, y qué no te toca cargar a ti?"
+  ],
+  "advice": "Actúa con justicia y sopesa todos los lados. Una decisión basada en los hechos y la verdad dará un resultado justo.",
+  "adviceReversed": "Algo está desequilibrado. Comprueba si eres del todo sincero contigo y con los demás antes de juzgar.",
+  "astrology": "Libra"
+ },
+ {
+  "id": "major_12",
+  "name": "El Colgado",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "suspensión",
+   "nueva perspectiva",
+   "soltar",
+   "pausa",
+   "aceptación"
+  ],
+  "symbolism": "Un hombre cuelga cabeza abajo, atado por un pie a un madero en forma de T del que brotan hojas. La otra pierna está doblada formando una cruz, y las manos están ocultas tras la espalda. Una aureola brilla alrededor de su cabeza, y su rostro permanece sereno.",
+  "upright": "El Colgado describe un tiempo de suspensión que puede traer una mirada completamente nueva. Cuando la acción no da resultados, a menudo ayuda detenerse y mirar las cosas desde otro lado. La carta te anima a soltar la necesidad de soluciones inmediatas. La comprensión suele madurar en una quietud aparente.",
+  "reversed": "El Colgado invertido puede indicar impaciencia con la pausa, o quedarse suspendido más tiempo del necesario. También puede ser una invitación a notar qué puedes soltar ahora para seguir adelante.",
+  "reflection": [
+   "¿Qué verás si miras este asunto desde el lado completamente opuesto?",
+   "¿A qué puedes renunciar para hacer sitio a lo nuevo?"
+  ],
+  "advice": "No tengas prisa. Detente y mira el asunto desde otro lado: soltar puede darte más que luchar.",
+  "adviceReversed": "Esperar ya no sirve. Si estás atascado en la suspensión, es hora de decidir y seguir adelante.",
+  "astrology": "Agua"
+ },
+ {
+  "id": "major_13",
+  "name": "La Muerte",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "transformación",
+   "fin de una etapa",
+   "cambio",
+   "renovación",
+   "soltar"
+  ],
+  "symbolism": "Una figura con armadura negra monta un caballo blanco y lleva un estandarte negro con una rosa blanca. Ante ella hay personas de todas las condiciones, del soberano al niño, de pie o de rodillas, y cada una reacciona de forma distinta a su llegada. Al fondo, entre dos torres, sale el sol.",
+  "upright": "En el tarot, la Muerte simboliza el cierre de un capítulo y el paso al siguiente, no un final físico. La carta habla de una transformación que libera espacio, como el otoño prepara la tierra para la primavera. Puede animarte a despedirte de hábitos, papeles o creencias que ya han cumplido su función. El sol naciente del fondo recuerda que tras un final llega un nuevo comienzo.",
+  "reversed": "La Muerte invertida puede indicar resistencia a un cambio que de todos modos madura por dentro. A veces es una invitación a soltar algo con suavidad en lugar de mantenerlo vivo a la fuerza.",
+  "reflection": [
+   "¿Qué etapa de tu vida está llegando a su fin de forma natural?",
+   "¿Qué podría aparecer si hicieras sitio tras lo que se va?"
+  ],
+  "advice": "Cierra lo que ha terminado. Deja ir la etapa anterior: solo así habrá sitio para lo nuevo.",
+  "adviceReversed": "Te aferras a algo que ya pasó. El cambio llegará igualmente, y será más fácil si dejas de resistirte.",
+  "astrology": "Escorpio"
+ },
+ {
+  "id": "major_14",
+  "name": "La Templanza",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "armonía",
+   "equilibrio",
+   "paciencia",
+   "combinar",
+   "moderación"
+  ],
+  "symbolism": "Un ángel alado con túnica blanca trasvasa agua entre dos copas, con un pie en la orilla y otro en un arroyo. En su pecho hay un triángulo inscrito en un cuadrado. Cerca crecen lirios amarillos, y un camino lleva hacia montañas sobre las que brilla un arco de luz.",
+  "upright": "La Templanza habla del arte de combinar opuestos y buscar el término medio. La carta anima a una acción tranquila y gradual en lugar de soluciones extremas. Puede tratarse de equilibrar trabajo y descanso, o razón y emoción. La armonía no es un estado fijo, sino un ajuste continuo y atento.",
+  "reversed": "Invertida, la carta puede indicar falta de equilibrio: exceso en un ámbito a costa de otro. Es una señal para ver dónde hace falta una suave corrección de proporciones.",
+  "reflection": [
+   "¿Qué dos ámbitos de tu vida necesitan ahora un mejor equilibrio?",
+   "¿Qué podría cambiar si actuaras con pasos pequeños y pacientes?"
+  ],
+  "advice": "Busca el término medio. Une los opuestos y actúa con calma, paso a paso: la moderación es ahora tu fuerza.",
+  "adviceReversed": "Te estás excediendo en algo, sea el trabajo, las emociones o las expectativas. Recupera el equilibrio antes de empezar nada nuevo.",
+  "astrology": "Sagitario"
+ },
+ {
+  "id": "major_15",
+  "name": "El Diablo",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "apego",
+   "tentación",
+   "patrones",
+   "sombra",
+   "conciencia"
+  ],
+  "symbolism": "Una figura con cuernos y alas de murciélago está sentada en un pedestal oscuro, con una mano alzada y en la otra una antorcha baja. Dos figuras desnudas, con pequeños cuernos y colas, están encadenadas al pedestal. Las cadenas de su cuello están flojas: podrían quitárselas.",
+  "upright": "El Diablo te invita a mirar lo que te mantiene atrapado: hábitos, creencias o dependencias. La carta no es un veredicto, sino una oportunidad de tomar conciencia de mecanismos que actúan fuera de tu atención. Las cadenas flojas recuerdan que muchos límites se aflojan una vez nombrados. También es un espacio para un encuentro sincero con tu propia sombra.",
+  "reversed": "El Diablo invertido puede significar el comienzo de la liberación de un patrón, o el momento en que un apego se ve con claridad. Puede ser una invitación a recuperar tu libertad con suavidad pero con constancia.",
+  "reflection": [
+   "¿Qué hábito o creencia te limita más de lo que quieres admitir?",
+   "¿Qué cambiaría si esa cadena resultara más floja de lo que parece?"
+  ],
+  "advice": "Mira qué te retiene: un hábito, un miedo, una dependencia. Nómbralo con sinceridad; la cadena está más floja de lo que parece.",
+  "adviceReversed": "Tienes la oportunidad de liberarte. Da el primer paso para salir del patrón que te daña: ahora es más fácil que antes.",
+  "astrology": "Capricornio"
+ },
+ {
+  "id": "major_16",
+  "name": "La Torre",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "cambio repentino",
+   "replanteamiento",
+   "despertar",
+   "liberación",
+   "verdad"
+  ],
+  "symbolism": "Una alta torre sobre un pico rocoso recibe un rayo que le arranca la corona. Salen llamas por las ventanas, y dos figuras caen contra un cielo oscuro. Alrededor flotan pequeñas chispas con la forma de la letra hebrea yod.",
+  "upright": "La Torre describe el momento en que algo que parecía estable exige de pronto un replanteamiento. Un cambio así puede sorprender, pero a menudo saca a la luz una verdad que estaba oculta. La carta te anima a comprobar qué estructuras se levantaron sobre cimientos inestables. Cuando las cosas se aclaran, queda sitio para algo más auténtico.",
+  "reversed": "La Torre invertida puede indicar que se aplaza un cambio necesario, o una transformación que ocurre más por dentro que por fuera. A veces es señal de que algo puede reconstruirse poco a poco antes de que se acumule la tensión.",
+  "reflection": [
+   "¿Qué creencia o acuerdo necesita hoy una revisión sincera?",
+   "¿Qué podría construirse en lugar de lo que ya no funciona?"
+  ],
+  "advice": "No apuntales lo que se derrumba. Acepta el cambio y construye algo sobre cimientos más firmes.",
+  "adviceReversed": "Esquivas un cambio inevitable. Mejor afrontarlo ahora, en tus términos, que esperar la sacudida.",
+  "astrology": "Marte"
+ },
+ {
+  "id": "major_17",
+  "name": "La Estrella",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "esperanza",
+   "renovación",
+   "calma",
+   "inspiración",
+   "confianza"
+  ],
+  "symbolism": "Una mujer desnuda está arrodillada al borde de un estanque y vierte agua de dos jarras, una en el agua y otra sobre la tierra. Sobre ella brilla una gran estrella de ocho puntas rodeada de siete más pequeñas. Un pájaro se ha posado en un árbol al fondo.",
+  "upright": "La Estrella trae una sensación de respiro y de esperanza serena. La carta te invita a descansar y a reconstruir la confianza en ti y en el mundo. Es un buen momento para sueños que no tienen que cumplirse enseguida para darte fuerza. La sencillez de la escena recuerda que puedes mostrarte sin máscaras.",
+  "reversed": "Invertida, la Estrella puede indicar cansancio o una esperanza que se ha apagado por un tiempo. Es una invitación a buscar pequeñas fuentes de luz y a darte tiempo para recuperarte.",
+  "reflection": [
+   "¿Qué te da hoy una sensación de esperanza, aunque sea pequeña?",
+   "¿Cómo puedes cuidar tu descanso en los próximos días?"
+  ],
+  "advice": "Ten esperanza y actúa desde ella. Lo peor ha pasado: date tiempo para recuperarte y mira el futuro con confianza.",
+  "adviceReversed": "¿Has perdido la fe en que las cosas pueden mejorar? Empieza por un pequeño paso que te devuelva una sensación de sentido.",
+  "astrology": "Acuario"
+ },
+ {
+  "id": "major_18",
+  "name": "La Luna",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "incertidumbre",
+   "imaginación",
+   "sueños",
+   "el inconsciente",
+   "presentimientos"
+  ],
+  "symbolism": "Una luna con rostro humano brilla sobre un paisaje nocturno, y de ella caen gotas de luz. Un perro y un lobo le aúllan a ambos lados de un camino que serpentea entre dos torres hacia colinas lejanas. En primer plano, un cangrejo de río sale del agua.",
+  "upright": "La Luna describe un estado en el que no todo está claro y la imaginación propone distintas versiones de los hechos. La carta te anima a mirar con curiosidad los sueños, los presentimientos y los miedos, sin tomarlos enseguida por hechos. Es un tiempo para avanzar con cuidado, paso a paso. La incertidumbre es a menudo una etapa que precede a la comprensión.",
+  "reversed": "La Luna invertida puede sugerir que la niebla empieza a disiparse, o que los miedos cobran un poder desproporcionado. Conviene separar lo que se sabe de lo que añade la imaginación.",
+  "reflection": [
+   "En esta situación, ¿qué es un hecho y qué es tu interpretación?",
+   "¿Qué sueño o presentimiento te viene últimamente una y otra vez?"
+  ],
+  "advice": "Ahora no todo está claro, y no pasa nada. No tomes decisiones definitivas en la niebla; confía en tu intuición, pero comprueba los hechos.",
+  "adviceReversed": "La niebla empieza a disiparse. Llama a tus miedos por su nombre: muchos resultarán más pequeños de lo que parecían.",
+  "astrology": "Piscis"
+ },
+ {
+  "id": "major_19",
+  "name": "El Sol",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "alegría",
+   "claridad",
+   "calidez",
+   "apertura",
+   "éxito"
+  ],
+  "symbolism": "Un niño desnudo, con una guirnalda y una pluma roja en la cabeza, cabalga feliz sobre un caballo blanco sosteniendo un gran estandarte rojo. Arriba brilla un sol radiante con rostro, y detrás de un muro bajo florecen girasoles.",
+  "upright": "El Sol trae la energía de la claridad y la alegría sencilla. La carta te anima a disfrutar de lo bueno y a compartir tu calidez con los demás. Puede describir un momento en que las cosas se aclaran y actuar resulta fácil. También es una invitación a reconectar con la espontaneidad infantil.",
+  "reversed": "Invertida, la alegría del Sol puede estar apagada o costar aceptarla del todo. A veces también es una señal para no fingir alegría cuando hace falta un momento de sinceridad.",
+  "reflection": [
+   "¿Qué te da una alegría verdadera y sencilla?",
+   "¿Cómo puedes permitirte más ligereza esta semana?"
+  ],
+  "advice": "La respuesta es sí. Actúa con apertura, alegría y confianza: es un buen momento para mostrarte.",
+  "adviceReversed": "La alegría está cerca, pero algo la tapa. Permítete disfrutar de lo que ya tienes en lugar de esperar el momento perfecto.",
+  "astrology": "Sol"
+ },
+ {
+  "id": "major_20",
+  "name": "El Juicio",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "despertar",
+   "llamada interior",
+   "balance",
+   "renacimiento",
+   "perdón"
+  ],
+  "symbolism": "Un ángel surge de las nubes y toca una trompeta de la que cuelga una bandera con una cruz roja. Abajo, de ataúdes abiertos que flotan en el agua, se levantan figuras desnudas (adultos y un niño) con los brazos tendidos hacia arriba. Al fondo se ven montañas nevadas.",
+  "upright": "El Juicio describe un momento de despertar en el que tu propio camino se vuelve más claro que antes. La carta te anima a hacer balance de tus experiencias y a sacar conclusiones sin juzgarte con dureza. Puede ser una llamada interior a retomar algo que es importante desde hace tiempo. También es un espacio para perdonarte y perdonar a los demás.",
+  "reversed": "Invertida, la carta puede indicar que te juzgas con demasiada crítica, o que acallas una llamada interior. Merece la pena preguntarte qué te impide responder a lo que te llama.",
+  "reflection": [
+   "¿Hacia qué sientes una llamada interior?",
+   "¿Qué puedes perdonarte para seguir con el corazón más ligero?"
+  ],
+  "advice": "Has oído una llamada interior: respóndela. Haz balance del pasado, perdónate y toma la decisión.",
+  "adviceReversed": "Te juzgas con demasiada dureza o aplazas una decisión importante. Deja de esperar una señal: la señal ya ha llegado.",
+  "astrology": "Fuego"
+ },
+ {
+  "id": "major_21",
+  "name": "El Mundo",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "plenitud",
+   "integración",
+   "culminación",
+   "totalidad",
+   "nuevo ciclo"
+  ],
+  "symbolism": "Una figura envuelta solo en una faja púrpura baila dentro de una corona ovalada de hojas, sosteniendo dos bastones. La corona está atada arriba y abajo con cintas rojas, y en las esquinas de la carta aparecen las cabezas de un ángel, un águila, un león y un toro.",
+  "upright": "El Mundo describe una sensación de plenitud y el cierre de una etapa importante. La carta te invita a valorar el camino recorrido y cómo distintas experiencias se han unido en un todo coherente. Es un buen momento para celebrar y agradecer. El final de un ciclo prepara de forma natural el terreno para el siguiente.",
+  "reversed": "Invertido, el Mundo puede indicar asuntos pendientes o dificultad para cerrar una etapa. Puede ser una invitación a notar qué falta todavía para sentirse completo.",
+  "reflection": [
+   "¿Qué estás logrando ya sin valorarlo del todo todavía?",
+   "¿Qué hay que cerrar antes de empezar el siguiente capítulo?"
+  ],
+  "advice": "Lleva el asunto a su fin y valora lo que has logrado. Esta etapa está completa: puedes pasar con confianza a la siguiente.",
+  "adviceReversed": "Falta el último paso para cerrar. Termina lo que has empezado antes de emprender algo nuevo.",
+  "astrology": "Saturno"
+ },
+ {
+  "id": "wands_01",
+  "name": "As de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "chispa",
+   "inspiración",
+   "potencial",
+   "entusiasmo",
+   "nueva iniciativa"
+  ],
+  "symbolism": "Una mano sale de una nube sosteniendo un bastón robusto y frondoso del que caen pequeñas hojas. Abajo se extiende un paisaje verde con un río, y un castillo se alza en una colina lejana.",
+  "upright": "El As de Bastos es la chispa de una idea nueva o un arranque de entusiasmo. La carta te anima a fijarte en lo que te da vida ahora mismo y a darle una oportunidad. En esta fase cuenta más el entusiasmo que un plan acabado. El potencial está ahí, esperando la primera acción.",
+  "reversed": "El As invertido puede indicar una idea que aún no ha encontrado salida, o un bajón pasajero de motivación. A veces conviene esperar a que la chispa madure en lugar de forzarla.",
+  "reflection": [
+   "¿Qué idea te entusiasma más?",
+   "¿Cuál es el paso más pequeño que le permitiría nacer?"
+  ],
+  "advice": "Tienes una chispa: actúa mientras está viva. Empieza el proyecto, haz la llamada, apúntalo. La inspiración necesita movimiento.",
+  "adviceReversed": "El entusiasmo se apaga antes de convertirse en acción. Haz hoy una cosa pequeña en lugar de esperar el momento perfecto.",
+  "astrology": "Fuego — raíz del elemento"
+ },
+ {
+  "id": "wands_02",
+  "name": "Dos de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "planificación",
+   "perspectiva",
+   "decisión",
+   "horizonte",
+   "ambición"
+  ],
+  "symbolism": "Un hombre con sombrero rojo está sobre las murallas de un castillo con un pequeño globo en la mano, mirando el mar y la tierra. Un bastón está fijado al muro y el otro lo sostiene en la mano. En la piedra hay tallado un escudo con rosas y lirios cruzados.",
+  "upright": "El Dos de Bastos describe un momento de planificación y de considerar posibilidades más amplias. Ya tienes cierta base, y ahora la pregunta es hacia dónde ir. La carta te anima a pensar el futuro con audacia y a elegir una dirección con conciencia. Es el tiempo de la visión que precede al movimiento.",
+  "reversed": "Invertida, la carta puede indicar dudas entre la seguridad y lo nuevo, o una planificación que nunca se convierte en acción. Merece la pena preguntarte qué necesitas para sentirte preparado.",
+  "reflection": [
+   "¿Cómo es el horizonte hacia el que quieres dirigirte?",
+   "¿Qué te retiene en las murallas en lugar de dejarte partir?"
+  ],
+  "advice": "Planifica el siguiente paso y mira más lejos que de costumbre. La decisión es tuya: elige la perspectiva más amplia.",
+  "adviceReversed": "El miedo a lo desconocido te retiene en tu zona de confort. Piensa en lo que pierdes si no sales de ella.",
+  "astrology": "Fuego · Marte en Aries"
+ },
+ {
+  "id": "wands_03",
+  "name": "Tres de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "crecimiento",
+   "expectativa",
+   "expansión",
+   "previsión",
+   "primeros resultados"
+  ],
+  "symbolism": "Una figura con capa está de espaldas sobre una colina, apoyada en uno de los tres bastones clavados en el suelo. Contempla una bahía dorada por la que navegan barcos. El horizonte es amplio y abierto.",
+  "upright": "El Tres de Bastos habla de un tiempo en que ya se han dado los primeros pasos y se puede observar cómo evolucionan. La carta anima a una mirada más amplia y a esperar con paciencia los resultados. Puede sugerir abrirte a nuevos contactos o ámbitos. Es la alegría de ver que algo empieza a tomar forma.",
+  "reversed": "Invertida, la carta puede indicar impaciencia cuando los resultados llegan más despacio de lo esperado. También puede invitarte a ajustar el plan a la luz de información nueva.",
+  "reflection": [
+   "¿Qué está ya en marcha y ahora necesita tiempo?",
+   "¿Qué nuevas posibilidades se ven desde donde estás?"
+  ],
+  "advice": "Lo que sembraste empieza a crecer. Piensa en grande, prepárate para más y ten paciencia: los resultados están en camino.",
+  "adviceReversed": "Los retrasos no significan fracaso. Revisa el plan, corrige el rumbo y no te rindas demasiado pronto.",
+  "astrology": "Fuego · Sol en Aries"
+ },
+ {
+  "id": "wands_04",
+  "name": "Cuatro de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "celebración",
+   "comunidad",
+   "hogar",
+   "estabilidad",
+   "alegría"
+  ],
+  "symbolism": "Cuatro bastones unidos por una guirnalda de flores y frutas forman una especie de portal. Detrás, dos figuras alzan ramos, y al fondo se ven un grupo de personas y un castillo. La escena es festiva y cálida.",
+  "upright": "El Cuatro de Bastos te invita a detenerte y valorar lo que ya se ha construido. Es la energía de la celebración compartida, de la pertenencia y de un puerto seguro. La carta puede referirse a un hito importante que merece celebrarse. La alegría compartida con otros refuerza los lazos.",
+  "reversed": "Invertida, la carta puede sugerir que cuesta detenerse a celebrar, o que el sentido de comunidad se ha resentido. Merece la pena buscar un lugar y unas personas con quienes respirar.",
+  "reflection": [
+   "¿Qué merece celebrarse hoy?",
+   "¿Dónde, y con quién, te sientes en casa?"
+  ],
+  "advice": "Celebra lo que ha salido bien y compártelo con tu gente. Un terreno estable te permitirá llegar más lejos.",
+  "adviceReversed": "Algo altera la sensación de seguridad en casa o en el equipo. Háblalo abiertamente en lugar de fingir que todo va bien.",
+  "astrology": "Fuego · Venus en Aries"
+ },
+ {
+  "id": "wands_05",
+  "name": "Cinco de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "competencia",
+   "desacuerdo",
+   "tensión",
+   "choque",
+   "energía de grupo"
+  ],
+  "symbolism": "Cinco jóvenes con ropas de distintos colores blanden bastones, como en una refriega caótica o un juego. Ninguno parece herido, y sus movimientos se cruzan en todas direcciones.",
+  "upright": "El Cinco de Bastos describe una situación en la que chocan muchas opiniones y energías. Un conflicto así no tiene por qué ser destructivo; puede ser un intercambio creativo que afila las ideas. La carta te anima a notar si se trata de una meta común o solo de imponerse. Una buena comunicación puede convertir el caos en cooperación.",
+  "reversed": "Invertida, la carta puede indicar evitar el conflicto a toda costa, o una tensión que se ha ido hacia dentro. A veces es una invitación a buscar el acuerdo en lugar de la victoria.",
+  "reflection": [
+   "¿De qué trata de verdad esta disputa?",
+   "¿Cómo puedes expresar tu opinión y a la vez escuchar a los demás?"
+  ],
+  "advice": "Una diferencia de opiniones no tiene por qué ser una guerra. Di lo que piensas, pero escucha a los demás: de la tensión puede salir algo creativo.",
+  "adviceReversed": "Evitas el conflicto o te desgastas en él. Aclara las cosas y termina una disputa que no lleva a nada.",
+  "astrology": "Fuego · Saturno en Leo"
+ },
+ {
+  "id": "wands_06",
+  "name": "Seis de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "reconocimiento",
+   "éxito",
+   "seguridad en uno mismo",
+   "aprecio",
+   "victoria"
+  ],
+  "symbolism": "Un jinete coronado de laurel monta un caballo blanco y lleva un bastón con otra corona atada. A su alrededor camina gente con bastones en alto, como si le dieran la bienvenida.",
+  "upright": "El Seis de Bastos habla de aprecio y de un resultado visible del esfuerzo realizado. La carta te anima a aceptar el reconocimiento sin falsa modestia. También recuerda que el éxito suele ser obra de muchas personas. La seguridad en ti puede convertirse en un apoyo para otros.",
+  "reversed": "Invertida, la carta puede indicar dificultad para aceptar elogios o una fuerte dependencia de la opinión ajena. Conviene pensar cómo valorar tu propio trabajo por ti mismo.",
+  "reflection": [
+   "¿Qué logro tuyo merece reconocimiento?",
+   "¿Hasta qué punto depende tu autoestima de lo que piensen los demás?"
+  ],
+  "advice": "Tienes todo el derecho a sentirte orgulloso. Muestra tus logros: el reconocimiento es merecido y abrirá más puertas.",
+  "adviceReversed": "No hagas depender tu valor de los aplausos. Valórate aunque los demás aún no lo hayan hecho.",
+  "astrology": "Fuego · Júpiter en Leo"
+ },
+ {
+  "id": "wands_07",
+  "name": "Siete de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "mantenerse firme",
+   "perseverancia",
+   "valor",
+   "límites",
+   "convicción"
+  ],
+  "symbolism": "Un joven está en un lugar elevado con un bastón en las manos, defendiéndose de otros seis bastones que se alzan hacia él desde abajo. Lleva dos zapatos distintos, lo que sugiere prisa o sorpresa.",
+  "upright": "El Siete de Bastos describe una situación en la que merece la pena defender tus convicciones. La carta anima a la perseverancia y a expresar con claridad lo que importa. La posición elevada recuerda que tienes cierta ventaja: conocimiento o experiencia. Los límites se pueden defender con calma y respeto.",
+  "reversed": "Invertida, la carta puede indicar cansancio de defenderse siempre, o dudas sobre si esa lucha vale la energía. A veces es mejor elegir qué asuntos merecen de verdad defensa.",
+  "reflection": [
+   "¿Qué quieres defender aunque otros piensen distinto?",
+   "¿Qué disputas merecen tu energía, y cuáles puedes dejar?"
+  ],
+  "advice": "Mantente firme. Tienes motivos para sostener tu postura: no cedas solo porque sea difícil.",
+  "adviceReversed": "No tienes que luchar en todos los frentes. Elige lo que de verdad merece la pena y deja el resto.",
+  "astrology": "Fuego · Marte en Leo"
+ },
+ {
+  "id": "wands_08",
+  "name": "Ocho de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "rapidez",
+   "movimiento",
+   "noticias",
+   "impulso",
+   "avance rápido"
+  ],
+  "symbolism": "Ocho bastones vuelan en diagonal por un cielo despejado, paralelos entre sí, como si se dirigieran al suelo. Debajo se extiende un paisaje tranquilo con un río y una colina. En la carta no hay figuras.",
+  "upright": "El Ocho de Bastos trae la energía del movimiento rápido y de asuntos que cogen velocidad. La carta puede referirse a noticias, conversaciones o temas que por fin se ponen en marcha. Te anima a actuar con decisión mientras el impulso está de tu parte. Es un tiempo en que el pensamiento se convierte rápido en acción.",
+  "reversed": "Invertida, la carta puede indicar retrasos, confusiones en la comunicación o demasiadas cosas a la vez. Conviene frenar y decidir qué es lo más importante ahora.",
+  "reflection": [
+   "¿Qué está cogiendo velocidad en tu vida ahora mismo?",
+   "¿Cómo puedes evitar que la prisa te quite claridad?"
+  ],
+  "advice": "Las cosas se aceleran: actúa rápido y no retrases tu respuesta. Es tiempo de movimiento, no de deliberar.",
+  "adviceReversed": "La prisa lleva al caos, o todo se ha atascado. Frena, ordena las cosas y solo después acelera.",
+  "astrology": "Fuego · Mercurio en Sagitario"
+ },
+ {
+  "id": "wands_09",
+  "name": "Nueve de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "vigilancia",
+   "perseverancia",
+   "resiliencia",
+   "último esfuerzo",
+   "experiencia"
+  ],
+  "symbolism": "Un hombre con la cabeza vendada está apoyado en un bastón y mira con recelo a un lado. Detrás de él se alinean ocho bastones como una empalizada. Su postura muestra cansancio, pero también disposición.",
+  "upright": "El Nueve de Bastos habla de perseverancia tras un largo esfuerzo. La carta recuerda que ya tienes mucho recorrido y puedes apoyarte en la experiencia adquirida. La vigilancia puede ayudar, pero conviene comprobar que no se convierta en tensión constante. La resiliencia también crece con el descanso.",
+  "reversed": "Invertida, la carta puede sugerir agotamiento o una desconfianza excesiva hacia el entorno. Es un buen momento para pedir apoyo y bajar la guardia donde sea seguro.",
+  "reflection": [
+   "¿Qué has superado ya, y qué te enseñó?",
+   "¿Dónde puedes permitirte descansar en lugar de vigilar sin pausa?"
+  ],
+  "advice": "Estás cerca de la meta: aguanta un poco más. Mantente alerta, pero no dejes que el cansancio te quite la fe.",
+  "adviceReversed": "Te defiendes de algo que ya no te amenaza. Descansa y acepta ayuda en lugar de montar guardia para siempre.",
+  "astrology": "Fuego · Luna en Sagitario"
+ },
+ {
+  "id": "wands_10",
+  "name": "Diez de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "carga",
+   "responsabilidad",
+   "esfuerzo",
+   "demasiadas tareas",
+   "delegar"
+  ],
+  "symbolism": "Un hombre encorvado carga diez bastones en los brazos, que le tapan la vista. Avanza con esfuerzo hacia una casa que se ve a lo lejos.",
+  "upright": "El Diez de Bastos describe el peso de muchos compromisos llevados a la vez. La carta te anima a mirar cuáles son de verdad tuyos y cuáles asumiste por inercia. La meta está cerca, pero la forma de llevar la carga puede hacer el camino más pesado. Ordenar y repartir las tareas puede aliviar.",
+  "reversed": "Invertida, la carta puede indicar el momento en que la carga se vuelve demasiado pesada, o la disposición a dejar parte de ella. Es una invitación a pedir ayuda y a decir «no».",
+  "reflection": [
+   "¿Cuál de tus responsabilidades actuales podrías dejar o delegar?",
+   "¿Cómo sería el camino hacia tu meta con una carga más ligera?"
+  ],
+  "advice": "Llevas demasiado. Delega algunas tareas, pide ayuda o deja lo que no es tuyo.",
+  "adviceReversed": "Es hora de soltar peso. Di «no» a lo que no tienes por qué cargar, y todo será más ligero.",
+  "astrology": "Fuego · Saturno en Sagitario"
+ },
+ {
+  "id": "wands_11",
+  "name": "Paje de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "curiosidad",
+   "entusiasmo",
+   "descubrimiento",
+   "noticias nuevas",
+   "ímpetu juvenil"
+  ],
+  "symbolism": "Un joven con una túnica estampada de salamandras está en un paisaje desértico y mira con curiosidad el bastón que sostiene ante sí. Al fondo se alzan tres colinas como pirámides.",
+  "upright": "El Paje de Bastos trae la energía de un aprendiz curioso que quiere probar algo nuevo. La carta te anima a explorar ideas sin la presión de resultados inmediatos. Puede referirse a una noticia inspiradora o a una pasión que nace. Aquí el entusiasmo es el recurso más valioso.",
+  "reversed": "El Paje invertido puede indicar un entusiasmo disperso o una impaciencia que abandona las ideas demasiado pronto. Conviene elegir una chispa y darle un poco de tiempo.",
+  "reflection": [
+   "¿Qué quieres aprender solo porque te interesa?",
+   "¿Qué idea merece más atención por tu parte?"
+  ],
+  "advice": "Sé curioso y prueba algo nuevo. El primer paso entusiasta cuenta más que un plan perfecto.",
+  "adviceReversed": "Empiezas muchas cosas y terminas pocas. Elige una y llévala hasta el final.",
+  "astrology": "Fuego"
+ },
+ {
+  "id": "wands_12",
+  "name": "Caballero de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "valor",
+   "aventura",
+   "ímpetu",
+   "acción",
+   "pasión"
+  ],
+  "symbolism": "Un caballero con armadura y túnica amarilla adornada con salamandras galopa en un caballo encabritado alzando un bastón. Las plumas de su casco parecen llamas, y detrás se extiende un desierto con colinas como pirámides.",
+  "upright": "El Caballero de Bastos es la energía de la acción audaz y de la disposición a la aventura. La carta te anima a seguir tu pasión y tomar la iniciativa. Su entusiasmo suele ser contagioso y puede arrastrar a otros. Conviene recordar, eso sí, que el ímpetu debe ir unido a una dirección.",
+  "reversed": "Invertida, la energía del Caballero puede convertirse en una prisa que se salta etapas importantes. A veces es una señal para detenerse y comprobar si el fuego se consume demasiado rápido.",
+  "reflection": [
+   "¿Qué aventura anhelas?",
+   "¿Cómo puedes unir tu entusiasmo con la paciencia?"
+  ],
+  "advice": "Ponte en marcha con audacia: el valor y la energía están de tu parte. Actúa, pero no olvides adónde vas.",
+  "adviceReversed": "La impulsividad podría salirte cara. Piensa tu movimiento antes de hacerlo: la velocidad no lo es todo.",
+  "astrology": "Fuego"
+ },
+ {
+  "id": "wands_13",
+  "name": "Reina de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "seguridad en sí misma",
+   "calidez",
+   "carisma",
+   "independencia",
+   "creatividad"
+  ],
+  "symbolism": "La reina está sentada en un trono adornado con leones, con un bastón en una mano y un girasol en la otra. A sus pies hay un gato negro. Su postura es abierta y relajada.",
+  "upright": "La Reina de Bastos une la calidez con la seguridad en sí misma. La carta te anima a expresarte con autenticidad y a compartir tu energía. Es la actitud de alguien que conoce su valor y a la vez apoya a los demás. La creatividad florece cuando te permites brillar.",
+  "reversed": "Invertida, la carta puede indicar un momento de dudas sobre ti, o una energía que se vuelve demasiado dominante. Conviene buscar el equilibrio entre cuidarte y estar para los demás.",
+  "reflection": [
+   "¿En qué situaciones te sientes más tú?",
+   "¿Cómo puedes mostrar hoy tu calidez sin hacerte pequeño?"
+  ],
+  "advice": "Confía en ti y muéstrate como eres. Tu seguridad y tu calidez conquistarán a los demás.",
+  "adviceReversed": "Algo socava tu seguridad. Reconstrúyela empezando por aquello en lo que de verdad eres bueno.",
+  "astrology": "Fuego"
+ },
+ {
+  "id": "wands_14",
+  "name": "Rey de Bastos",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "visión",
+   "liderazgo",
+   "inspirar a otros",
+   "audacia",
+   "responsabilidad"
+  ],
+  "symbolism": "El rey está sentado en un trono adornado con leones y salamandras, sosteniendo un bastón florecido. A sus pies se agazapa una pequeña salamandra. Su mirada se dirige a un lado, como si sus pensamientos corrieran hacia el futuro.",
+  "upright": "El Rey de Bastos encarna un liderazgo maduro basado en la visión y la inspiración. La carta te anima a decidir desde la perspectiva de una meta a largo plazo. Es la energía de alguien que sabe entusiasmar a otros y a la vez asumir la responsabilidad de la dirección. Aquí la audacia va de la mano de la experiencia.",
+  "reversed": "Invertida, la carta puede indicar impaciencia con los demás, o una visión que ignora las necesidades del entorno. Conviene comprobar que el liderazgo no se convierta en imponer la propia voluntad.",
+  "reflection": [
+   "¿Qué visión quieres perseguir a largo plazo?",
+   "¿Cómo puedes inspirar a otros en lugar de empujarlos?"
+  ],
+  "advice": "Toma la iniciativa. Tienes una visión: compártela y asume la dirección, y los demás te seguirán.",
+  "adviceReversed": "No impongas tu visión por la fuerza. El mejor líder escucha: invita a los demás a decidir contigo.",
+  "astrology": "Fuego"
+ }
+]

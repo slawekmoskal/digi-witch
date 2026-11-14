@@ -3,30 +3,78 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import '../engine/iching.dart';
+import '../engine/lang.dart';
 import 'widgets.dart';
 
-// Trigram names in the engine's order (Qian, Zhen, Kan, Gen, Kun, Xun, Li, Dui): nominative / instrumental.
-// shortcut: Polish in code like spread names (decisions.md #9); move to ARB with a second language.
-const _trigramNom = [
-  'Niebo',
-  'Grzmot',
-  'Woda',
-  'Góra',
-  'Ziemia',
-  'Wiatr',
-  'Ogień',
-  'Jezioro',
+// Trigram names in the engine's order (Qian, Zhen, Kan, Gen, Kun, Xun, Li, Dui).
+// Polish needs two cases ("Wiatr nad Grzmotem"): nominative and instrumental.
+const _trigramPl = [
+  ('Niebo', 'Niebem'),
+  ('Grzmot', 'Grzmotem'),
+  ('Woda', 'Wodą'),
+  ('Góra', 'Górą'),
+  ('Ziemia', 'Ziemią'),
+  ('Wiatr', 'Wiatrem'),
+  ('Ogień', 'Ogniem'),
+  ('Jezioro', 'Jeziorem'),
 ];
-const _trigramIns = [
-  'Niebem',
-  'Grzmotem',
-  'Wodą',
-  'Górą',
-  'Ziemią',
-  'Wiatrem',
-  'Ogniem',
-  'Jeziorem',
+// Same order as _trigramPl. Ukrainian, like Polish, needs the instrumental after "над".
+const _trigramUk = [
+  ('Небо', 'Небом'),
+  ('Грім', 'Громом'),
+  ('Вода', 'Водою'),
+  ('Гора', 'Горою'),
+  ('Земля', 'Землею'),
+  ('Вітер', 'Вітром'),
+  ('Вогонь', 'Вогнем'),
+  ('Озеро', 'Озером'),
 ];
+const _trigramWords = {
+  'en': [
+    'Heaven',
+    'Thunder',
+    'Water',
+    'Mountain',
+    'Earth',
+    'Wind',
+    'Fire',
+    'Lake',
+  ],
+  'de': ['Himmel', 'Donner', 'Wasser', 'Berg', 'Erde', 'Wind', 'Feuer', 'See'],
+  'fr': ['Ciel', 'Tonnerre', 'Eau', 'Montagne', 'Terre', 'Vent', 'Feu', 'Lac'],
+  'es': [
+    'Cielo',
+    'Trueno',
+    'Agua',
+    'Montaña',
+    'Tierra',
+    'Viento',
+    'Fuego',
+    'Lago',
+  ],
+  'it': [
+    'Cielo',
+    'Tuono',
+    'Acqua',
+    'Montagna',
+    'Terra',
+    'Vento',
+    'Fuoco',
+    'Lago',
+  ],
+  'pt': ['Céu', 'Trovão', 'Água', 'Montanha', 'Terra', 'Vento', 'Fogo', 'Lago'],
+  'nl': ['Hemel', 'Donder', 'Water', 'Berg', 'Aarde', 'Wind', 'Vuur', 'Meer'],
+};
+String _upper(int i) => switch (appLang) {
+  'pl' => _trigramPl[i].$1,
+  'uk' => _trigramUk[i].$1,
+  _ => inLang(_trigramWords)[i],
+};
+String _lower(int i) => switch (appLang) {
+  'pl' => _trigramPl[i].$2,
+  'uk' => _trigramUk[i].$2,
+  _ => inLang(_trigramWords)[i],
+};
 
 /// I Ching: a question, six throws of three coins (bottom line first), then the reading.
 class IChingScreen extends StatefulWidget {
@@ -62,7 +110,7 @@ class _IChingScreenState extends State<IChingScreen> {
     return Scaffold(
       appBar: AppBar(title: Text(l.ichingTitle)),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: screenPadding(context),
         children: [
           Text(l.ichingIntro, style: t.bodySmall),
           const SizedBox(height: 12),
@@ -124,7 +172,7 @@ class _IChingScreenState extends State<IChingScreen> {
                   for (final x in _lines) isYang(x),
                 ]);
                 return Text(
-                  l.ichingImage(_trigramNom[up], _trigramIns[low]),
+                  l.ichingImage(_upper(up), _lower(low)),
                   style: t.labelLarge?.copyWith(
                     color: Theme.of(context).colorScheme.secondary,
                   ),

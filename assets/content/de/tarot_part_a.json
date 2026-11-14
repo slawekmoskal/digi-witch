@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "Der Narr",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "Neubeginn",
+   "Spontaneität",
+   "Vertrauen",
+   "Neugier",
+   "Leichtigkeit"
+  ],
+  "symbolism": "Eine junge Gestalt in bunter Kleidung steht am Rand einer Klippe, das Gesicht zum Himmel gewandt, als bemerke sie den Abgrund nicht. In einer Hand hält sie eine weiße Rose, über der Schulter trägt sie einen Stab mit einem kleinen Bündel, und ein kleiner weißer Hund springt ihr um die Füße. Hinter ihr scheint eine helle Sonne, und schneebedeckte Gipfel sind zu sehen.",
+  "upright": "Der Narr lädt dich ein, die Situation mit frischen Augen zu betrachten, ohne die Last früherer Annahmen. Das ist die Energie des ersten Schritts, in der mehr Neugier steckt als Plan. Die Karte kann nahelegen, dass es sich lohnt, dir das Recht zu geben, nicht alles zu wissen und unterwegs zu lernen. Der Hund zu Füßen des Narren erinnert daran, dass Offenheit gut zu ein wenig Achtsamkeit passt.",
+  "reversed": "Der umgekehrte Narr kann auf Zögern vor dem Aufbruch hinweisen oder im Gegenteil auf eine Eile, die wichtige Signale übersieht. Manchmal ist er eine Einladung zu prüfen, ob die Angst vor Fehlern dir die Freude am Ausprobieren nimmt.",
+  "reflection": [
+   "Was wäre möglich, wenn du das Ende nicht im Voraus kennen müsstest?",
+   "Welcher kleine Schritt ins Unbekannte reizt dich gerade?"
+  ],
+  "advice": "Jetzt ist ein guter Moment für einen Neubeginn. Tu den ersten Schritt, auch wenn du nicht den ganzen Weg kennst: Vertrau deiner Intuition und Neugier und achte nur darauf, wohin du trittst.",
+  "adviceReversed": "Halte einen Moment inne, bevor du springst. Prüfe, ob das Zögern aus Vernunft kommt oder aus Angst vor Fehlern, und brich erst dann auf.",
+  "astrology": "Luft"
+ },
+ {
+  "id": "major_01",
+  "name": "Der Magier",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "Tatkraft",
+   "Konzentration",
+   "Fähigkeiten",
+   "Initiative",
+   "Kommunikation"
+  ],
+  "symbolism": "Eine Gestalt in weißem Gewand und rotem Umhang hebt mit einer Hand einen Stab zum Himmel und zeigt mit der anderen zur Erde. Über ihrem Kopf schwebt das Zeichen der Unendlichkeit, und auf dem Tisch liegen ein Kelch, ein Schwert, eine Münze und ein Stab: die Zeichen der vier Elemente. Die ganze Szene ist von blühenden Rosen und Lilien eingerahmt.",
+  "upright": "Der Magier spricht von einem Moment, in dem du mehr Mittel zur Hand hast, als es scheint. Die Karte ermutigt dich, Denken mit Handeln zu verbinden und deinen Absichten eine konkrete Gestalt zu geben. Es ist ein guter Moment, deine eigenen Talente zu bemerken und bewusst zu nutzen. Die Geste, die zugleich nach oben und nach unten weist, erinnert daran, Vision mit alltäglicher Praxis zu verbinden.",
+  "reversed": "Umgekehrt kann sich die Energie des Magiers zerstreuen: Ideen gibt es viele, aber keine Richtung. Die Karte kann auch ein Zeichen sein, zu prüfen, ob deine Worte und Absichten miteinander übereinstimmen.",
+  "reflection": [
+   "Welche Fähigkeiten stehen dir bereits zur Verfügung, auch wenn du sie selten bemerkst?",
+   "Welcher Gedanke wartet darauf, in einen ersten konkreten Schritt verwandelt zu werden?"
+  ],
+  "advice": "Du hast alles, was du brauchst, um zu beginnen. Nimm die Sache selbst in die Hand, konzentrier dich auf ein Ziel und handle.",
+  "adviceReversed": "Prüfe deine Absichten, bevor du handelst. Zerstreute Energie oder der Versuch, die Lage zu manipulieren, bringen dir nicht, was du willst.",
+  "astrology": "Merkur"
+ },
+ {
+  "id": "major_02",
+  "name": "Die Hohepriesterin",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "Intuition",
+   "Stille",
+   "inneres Wissen",
+   "Geheimnis",
+   "Geduld"
+  ],
+  "symbolism": "Eine Frau in blauen Gewändern sitzt zwischen zwei Säulen, einer dunklen und einer hellen, die mit den Buchstaben B und J bezeichnet sind. Auf ihrem Schoß hält sie eine halb verborgene Schriftrolle, zu ihren Füßen liegt eine Mondsichel, und hinter ihr hängt ein mit Granatäpfeln verzierter Vorhang. Auf dem Kopf trägt sie eine Krone, die an die Mondphasen erinnert.",
+  "upright": "Die Hohepriesterin lädt dich ein, auf das zu hören, was leise und unausgesprochen ist. Nicht alle Antworten kommen durch Analyse; manche reifen in der Stille. Die Karte kann nahelegen, vor einer Entscheidung innezuhalten und dir Zeit zu geben, die Situation zu erspüren. Sie ist ein Raum, deinem eigenen Gespür zu vertrauen.",
+  "reversed": "Die umgekehrte Hohepriesterin kann darauf hinweisen, dass die Intuition vom Lärm des Alltags oder von den Meinungen anderer übertönt wird. Manchmal bedeutet sie auch, dass du dich zu sehr in dich zurückziehst, wenn ein Gespräch Erleichterung bringen könnte.",
+  "reflection": [
+   "Was sagt dir deine innere Stimme, wenn du deine Umgebung für einen Moment zur Ruhe bringst?",
+   "Wofür brauchst du mehr Zeit, bevor du eine Entscheidung triffst?"
+  ],
+  "advice": "Die Antwort liegt schon in dir. Entscheide nicht in Eile: Werde still und hör auf deine Intuition, bevor du andere fragst.",
+  "adviceReversed": "Hör auf, deine innere Stimme mit den Meinungen anderer zu übertönen. Gönn dir einen Moment der Stille, und du siehst, was du wirklich fühlst.",
+  "astrology": "Mond"
+ },
+ {
+  "id": "major_03",
+  "name": "Die Herrscherin",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "Fülle",
+   "Fürsorge",
+   "Kreativität",
+   "Sinnlichkeit",
+   "Wachstum"
+  ],
+  "symbolism": "Eine Frau in einem mit Granatäpfeln gemusterten Kleid ruht auf weichen Kissen inmitten reifenden Weizens. Auf dem Kopf trägt sie einen Kranz aus zwölf Sternen, und neben ihr steht ein herzförmiger Schild mit dem Zeichen der Venus. Im Hintergrund fließt ein Bach, und ein dichter Wald rauscht.",
+  "upright": "Die Herrscherin erinnert an das, was wächst, wenn es Aufmerksamkeit und Zärtlichkeit erhält: Projekte, Beziehungen und auch die Sorge um dich selbst. Die Karte ermutigt dich, die Freude an einfachen Dingen zu schätzen. Sie kann eine Einladung sein, ohne den Druck der Perfektion zu erschaffen. Das ist eine Energie der Großzügigkeit, die auch dich einschließt.",
+  "reversed": "Umgekehrt kann sich diese Energie darin zeigen, dass du über deine Kräfte gibst oder deine eigenen Bedürfnisse übersiehst. Sie kann auch auf eine kreative Blockade hinweisen, die eher Ruhe löst als Druck.",
+  "reflection": [
+   "Was in deinem Leben braucht gerade geduldige Pflege, um zu wachsen?",
+   "Wie kannst du heute für dich sorgen, so wie du für andere sorgst?"
+  ],
+  "advice": "Pflege, was wachsen soll: dich selbst, eine Beziehung, eine Idee. Handle mit Fürsorge und Geduld, und die Sache nimmt von selbst Gestalt an.",
+  "adviceReversed": "Es ist schwer, anderen zu geben, wenn die eigenen Kräfte schwinden. Sorge zuerst für dich, dann kümmere dich um den Rest.",
+  "astrology": "Venus"
+ },
+ {
+  "id": "major_04",
+  "name": "Der Herrscher",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "Struktur",
+   "Verantwortung",
+   "Stabilität",
+   "Grenzen",
+   "Führung"
+  ],
+  "symbolism": "Ein bärtiger Herrscher in Rüstung und rotem Umhang sitzt auf einem steinernen Thron, der mit Widderköpfen verziert ist. In einer Hand hält er ein Zepter mit einem Anch, in der anderen einen goldenen Reichsapfel. Hinter ihm erheben sich kahle, rostfarbene Berge.",
+  "upright": "Der Herrscher spricht von einer Ordnung, die ein Gefühl von Sicherheit gibt und ruhiges Handeln ermöglicht. Die Karte kann dich ermutigen, klare Regeln, Grenzen oder einen Plan festzulegen. Sie ist auch eine Einladung, Verantwortung für deinen eigenen Einflussbereich zu übernehmen. Eine gute Struktur muss nicht starr sein; sie kann eine Stütze sein.",
+  "reversed": "Der umgekehrte Herrscher kann auf zu viel Kontrolle hinweisen oder im Gegenteil auf fehlende feste Stützpunkte. Es lohnt sich zu fragen, ob die bisherigen Regeln dir noch dienen oder dich nur einengen.",
+  "reflection": [
+   "Welche Grenze oder Regel würde dir helfen, dich sicherer zu fühlen?",
+   "Wo gibt dir Kontrolle Halt, und wo beginnt sie dich einzuengen?"
+  ],
+  "advice": "Schaff Ordnung. Leg klare Regeln fest, mach einen Plan und übernimm Verantwortung für die Entscheidung: Stabilität verschafft dir einen Vorteil.",
+  "adviceReversed": "Zu viel Kontrolle kann die Situation ersticken. Lockere starre Regeln oder bau endlich eine Struktur auf, wenn sie fehlt.",
+  "astrology": "Widder"
+ },
+ {
+  "id": "major_05",
+  "name": "Der Hierophant",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "Tradition",
+   "Lernen",
+   "Gemeinschaft",
+   "Werte",
+   "Führung"
+  ],
+  "symbolism": "Ein Priester in rotem Gewand und dreifacher Krone sitzt zwischen zwei Steinsäulen und hebt die Hand zum Segen. Gekreuzte Schlüssel liegen zu seinen Füßen, und vor ihm knien zwei Schüler in Gewändern, die mit Rosen und Lilien verziert sind.",
+  "upright": "Der Hierophant verweist auf Wissen, das von Generation zu Generation weitergegeben wird, und auf Gemeinschaften, die ein Gefühl der Zugehörigkeit geben. Die Karte kann nahelegen, aus der Erfahrung eines Lehrers, einer Mentorin oder einer bewährten Methode zu schöpfen. Sie ist auch eine Gelegenheit zu überlegen, welche Werte wirklich deine eigenen sind. Tradition kann eine Brücke sein, keine Mauer.",
+  "reversed": "Der umgekehrte Hierophant kann dich einladen, Regeln zu hinterfragen, die du ungeprüft übernommen hast. Manchmal weist er auf das Bedürfnis hin, abseits ausgetretener Pfade deinen eigenen Weg zu finden.",
+  "reflection": [
+   "Von wem könntest du gerade etwas lernen?",
+   "Welche von anderen übernommenen Überzeugungen lohnt es sich heute zu überdenken?"
+  ],
+  "advice": "Nutze einen bewährten Weg. Frag einen erfahrenen Menschen um Rat oder stütz dich auf Grundsätze, die schon funktioniert haben.",
+  "adviceReversed": "Du musst nicht alles so machen, wie es sich „gehört“. Frag dich, welche Regeln deine sind und welche nur geerbt.",
+  "astrology": "Stier"
+ },
+ {
+  "id": "major_06",
+  "name": "Die Liebenden",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "Wahl",
+   "Beziehung",
+   "Werte",
+   "Nähe",
+   "Stimmigkeit"
+  ],
+  "symbolism": "Eine nackte Frau und ein nackter Mann stehen in einem Garten, und über ihnen schwebt in den Wolken ein geflügelter Engel mit ausgebreiteten Armen. Hinter der Frau wächst ein Obstbaum, um den sich eine Schlange windet, hinter dem Mann ein Baum mit flammenartigen Blättern. Zwischen ihnen erhebt sich in der Ferne ein einzelner Berg.",
+  "upright": "Die Liebenden sprechen von Nähe, aber auch von Entscheidungen, die aus dem kommen, was uns wichtig ist. Die Karte kann eine Beziehung betreffen, in der Ehrlichkeit und Gegenseitigkeit zählen. Sie kann auch zu einer Entscheidung im Einklang mit deinen eigenen Werten einladen, selbst wenn sie Mut verlangt. Die Harmonie zwischen Herz und Handeln schenkt ein Gefühl innerer Ordnung.",
+  "reversed": "Umgekehrt kann die Karte auf eine Kluft zwischen dem hinweisen, was du dir wünschst, und dem, was du wählst. Sie kann auch eine Einladung zu einem ehrlichen Gespräch über Erwartungen in einer Beziehung sein.",
+  "reflection": [
+   "Welche Entscheidung stünde am meisten im Einklang mit dem, was dir wirklich wichtig ist?",
+   "Was brauchst du, um dich in einer Beziehung ganz als du selbst zu fühlen?"
+  ],
+  "advice": "Du stehst vor einer Wahl. Entscheide im Einklang mit deinen Werten, nicht mit der Bequemlichkeit. Setz auf das, was dir wirklich wichtig ist.",
+  "adviceReversed": "Etwas passt nicht zusammen: Das Herz will das eine, und dein Handeln sagt etwas anderes. Benenne ehrlich, was du willst, bevor du entscheidest.",
+  "astrology": "Zwillinge"
+ },
+ {
+  "id": "major_07",
+  "name": "Der Wagen",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "Entschlossenheit",
+   "Richtung",
+   "Vorankommen",
+   "Selbstdisziplin",
+   "Zuversicht"
+  ],
+  "symbolism": "Ein Krieger in einer mit Mondsicheln verzierten Rüstung steht in einem steinernen Wagen unter einem sternenbesetzten Baldachin. Der Wagen wird von zwei Sphingen gezogen, einer schwarzen und einer weißen, die in verschiedene Richtungen blicken. Hinter ihm liegen die Mauern einer Stadt und ein fließender Fluss.",
+  "upright": "Der Wagen beschreibt die Energie gebündelter Bewegung, in der verschiedene Kräfte in eine Richtung gelenkt werden. Die Karte kann zu Ausdauer und einer klaren Benennung des Ziels ermutigen. Es geht nicht darum, Hindernisse zu bekämpfen, sondern ruhig den Kurs zu halten. Der Sieg besteht hier oft darin, die eigenen inneren Widersprüche zu meistern.",
+  "reversed": "Der umgekehrte Wagen kann nahelegen, dass Kräfte in entgegengesetzte Richtungen ziehen und es schwer ist, in Gang zu kommen. Manchmal ist er ein Zeichen, langsamer zu werden und zu prüfen, ob das gewählte Ziel noch das richtige ist.",
+  "reflection": [
+   "Wohin genau willst du, und woran erkennst du, dass es der richtige Weg ist?",
+   "Welche widerstreitenden Bedürfnisse könntest du versöhnen, statt sie zu bekämpfen?"
+  ],
+  "advice": "Geh voran. Leg eine Richtung fest, halte sie und lass dich nicht ablenken: Entschlossenheit bringt dich ans Ziel.",
+  "adviceReversed": "Du ziehst gleichzeitig in zwei Richtungen. Entscheide, wohin du willst, bevor du Gas gibst.",
+  "astrology": "Krebs"
+ },
+ {
+  "id": "major_08",
+  "name": "Die Kraft",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "sanfte Kraft",
+   "Mut",
+   "Geduld",
+   "Gelassenheit",
+   "Mitgefühl"
+  ],
+  "symbolism": "Eine Frau in weißem Kleid, mit einer Blumengirlande gegürtet, hält ruhig das Maul eines Löwen in ihren Händen. Über ihrem Kopf schwebt das Zeichen der Unendlichkeit. Das Tier wirkt gezähmt, und die Szene spielt vor sanften Hügeln und einem hellgelben Himmel.",
+  "upright": "Die Kraft zeigt eine Stärke, die weder Geschrei noch Gewalt braucht. Die Karte ermutigt dich, mit deinen eigenen Gefühlen und Instinkten sanft umzugehen, sie nicht zu unterdrücken, sondern zu zähmen. Das ist ein Mut, der aus Geduld und Freundlichkeit dir selbst gegenüber kommt. Ruhe überzeugt hier oft mehr als Druck.",
+  "reversed": "Umgekehrt kann die Karte auf Zweifel an der eigenen Kraft hinweisen oder auf Schwierigkeiten, Frust zu beruhigen. Dann lohnt es sich, dir selbst mit der Geduld zu begegnen, die du Menschen zeigst, die du liebst.",
+  "reflection": [
+   "Welches Gefühl braucht heute eher Verständnis als Kampf?",
+   "Wo könnte sich deine Sanftheit als Stärke erweisen?"
+  ],
+  "advice": "Handle mit sanfter Kraft. Ruhe, Geduld und Mut erreichen mehr als Druck. Du schaffst das.",
+  "adviceReversed": "Du zweifelst mehr an dir, als nötig ist. Erinnere dich daran, was du schon bewältigt hast, und sei sanfter mit dir.",
+  "astrology": "Löwe"
+ },
+ {
+  "id": "major_09",
+  "name": "Der Eremit",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "Besinnung",
+   "gewählte Einsamkeit",
+   "Weisheit",
+   "Rückzug",
+   "Suche"
+  ],
+  "symbolism": "Ein alter Mann in einem grauen Kapuzenmantel steht auf einem verschneiten Gipfel. In einer Hand hebt er eine Laterne, in der ein sechsstrahliger Stern leuchtet; mit der anderen stützt er sich auf einen langen Stab. Sein Blick ist nach unten gerichtet, als leuchte er denen den Weg, die ihm folgen.",
+  "upright": "Der Eremit lädt dich ein, innezuhalten und nach innen zu schauen. Zeit in der Stille kann dir helfen, Wichtiges von bloß Lautem zu trennen. Die Karte bedeutet nicht, dich von Menschen abzuschneiden, sondern bewusst Raum für deine eigenen Gedanken zu schaffen. Das Licht der Laterne reicht, um den nächsten Schritt zu sehen.",
+  "reversed": "Der umgekehrte Eremit kann nahelegen, dass der Rückzug begonnen hat, wie Isolation auszusehen. Manchmal ist es umgekehrt: eine Flucht vor der Stille, weil es schwer ist, sich den eigenen Fragen zu stellen.",
+  "reflection": [
+   "Was erfährst du über dich, wenn du in der Stille bist?",
+   "Welchen einen nächsten Schritt siehst du in dem Licht, das du schon hast?"
+  ],
+  "advice": "Zieh dich eine Weile aus dem Trubel zurück. Denk die Sache allein durch: Die Antwort kommt von innen, nicht von außen.",
+  "adviceReversed": "Der Rückzug dauert schon zu lange. Es ist Zeit, zu den Menschen hinauszugehen und zu teilen, was du innerlich weißt.",
+  "astrology": "Jungfrau"
+ },
+ {
+  "id": "major_10",
+  "name": "Rad des Schicksals",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "Zyklen",
+   "Veränderung",
+   "Zufall",
+   "Rhythmus",
+   "Wendung"
+  ],
+  "symbolism": "Ein großes Rad, bedeckt mit Buchstaben und alchemistischen Zeichen, dreht sich am Himmel. Oben sitzt eine Sphinx mit einem Schwert, an einer Seite gleitet eine Schlange hinab, und von unten steigt eine Gestalt mit Schakalskopf empor. In den Ecken beugen sich auf Wolken geflügelte Wesen – ein Engel, ein Adler, ein Löwe und ein Stier – über Bücher.",
+  "upright": "Das Rad des Schicksals erinnert daran, dass sich das Leben in Zyklen bewegt und keine Situation für immer gleich bleibt. Die Karte ermutigt dich zu bemerken, was sich gerade ändert, und zu überlegen, wie du dich darauf einstimmen kannst. Nicht alles hängt von uns ab, aber unsere Haltung bleibt in unseren Händen. Veränderung kann Möglichkeiten zeigen, die vorher nicht zu sehen waren.",
+  "reversed": "Umgekehrt kann die Karte auf Widerstand gegen Veränderung hinweisen oder auf das Gefühl, dass immer wieder dasselbe Muster zurückkehrt. Sie ist eine Einladung, den Teil des Zyklus zu suchen, der sich bewusst durchbrechen oder verwandeln lässt.",
+  "reflection": [
+   "Welches wiederkehrende Muster bemerkst du in deinem Leben?",
+   "Worauf kannst du Einfluss nehmen, auch wenn sich die Umstände ändern?"
+  ],
+  "advice": "Die Lage ändert sich, und jetzt ist ein guter Moment, mitzugehen. Nutze die Gelegenheit, die sich zeigt: Das Rad dreht sich.",
+  "adviceReversed": "Kämpf nicht gegen das, worauf du keinen Einfluss hast. Konzentrier dich auf das, was du tun kannst, und warte, bis sich der Zyklus wendet.",
+  "astrology": "Jupiter"
+ },
+ {
+  "id": "major_11",
+  "name": "Die Gerechtigkeit",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "Gleichgewicht",
+   "Fairness",
+   "Ursache und Wirkung",
+   "Klarheit",
+   "Verantwortung"
+  ],
+  "symbolism": "Eine Gestalt in rotem Gewand sitzt auf einem Thron zwischen zwei Säulen, hinter denen ein purpurner Vorhang hängt. In einer Hand hält sie ein erhobenes zweischneidiges Schwert, in der anderen eine Waage im Gleichgewicht. Unter dem Gewand ist ein weißer Schuh zu sehen, und der Blick ist ruhig und direkt.",
+  "upright": "Die Gerechtigkeit lädt dich ein, die Situation ehrlich und von allen Seiten zu betrachten. Die Karte spricht von der Verbindung zwischen Entscheidungen und ihren Folgen. Vielleicht ist jetzt ein guter Moment, die Fakten zu benennen und im Einklang mit deinem eigenen Gerechtigkeitssinn zu entscheiden. Klarheit bringt oft Erleichterung, auch wenn sie Ehrlichkeit dir selbst gegenüber verlangt.",
+  "reversed": "Die umgekehrte Gerechtigkeit kann auf Schwierigkeiten hinweisen, Verantwortung anzunehmen, oder auf das Gefühl, dass etwas aus dem Gleichgewicht geraten ist. Es lohnt sich zu prüfen, ob dein Urteil über die Lage zu streng ist – gegenüber anderen oder gegenüber dir selbst.",
+  "reflection": [
+   "Wie sähe diese Situation aus, wenn du sie von allen Seiten betrachten würdest?",
+   "Wofür möchtest du Verantwortung übernehmen, und was ist nicht deine Last?"
+  ],
+  "advice": "Handle fair und wäge alle Seiten ab. Eine Entscheidung, die auf Fakten und Wahrheit beruht, bringt ein gerechtes Ergebnis.",
+  "adviceReversed": "Etwas ist aus dem Gleichgewicht. Prüfe, ob du ganz ehrlich zu dir und zu anderen bist, bevor du urteilst.",
+  "astrology": "Waage"
+ },
+ {
+  "id": "major_12",
+  "name": "Der Gehängte",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "Schwebe",
+   "neue Perspektive",
+   "Loslassen",
+   "Pause",
+   "Annahme"
+  ],
+  "symbolism": "Ein Mann hängt kopfüber, an einem Fuß an einen T-förmigen Holzbalken gebunden, aus dem Blätter sprießen. Sein anderes Bein ist zu einem Kreuz angewinkelt, die Hände sind hinter dem Rücken verborgen. Ein Heiligenschein leuchtet um seinen Kopf, und sein Gesicht bleibt ruhig.",
+  "upright": "Der Gehängte beschreibt eine Zeit der Schwebe, die einen ganz neuen Blick bringen kann. Wenn Handeln keine Ergebnisse bringt, hilft es oft, innezuhalten und die Dinge von einer anderen Seite zu betrachten. Die Karte ermutigt dich, das Bedürfnis nach sofortigen Lösungen loszulassen. Verstehen reift oft in scheinbarem Stillstand.",
+  "reversed": "Der umgekehrte Gehängte kann auf Ungeduld mit der Pause hinweisen oder darauf, länger als nötig in der Schwebe zu bleiben. Er kann auch eine Einladung sein zu bemerken, was du jetzt loslassen kannst, um weiterzugehen.",
+  "reflection": [
+   "Was siehst du, wenn du diese Sache von der genau entgegengesetzten Seite betrachtest?",
+   "Worauf kannst du verzichten, um Platz für Neues zu schaffen?"
+  ],
+  "advice": "Eile nicht. Halte inne und betrachte die Sache von einer anderen Seite: Loslassen kann dir mehr geben als Kämpfen.",
+  "adviceReversed": "Warten bringt nichts mehr. Wenn du in der Schwebe festhängst, ist es Zeit, eine Entscheidung zu treffen und weiterzugehen.",
+  "astrology": "Wasser"
+ },
+ {
+  "id": "major_13",
+  "name": "Der Tod",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "Wandlung",
+   "Ende eines Abschnitts",
+   "Veränderung",
+   "Erneuerung",
+   "Loslassen"
+  ],
+  "symbolism": "Eine Gestalt in schwarzer Rüstung reitet auf einem weißen Pferd und trägt ein schwarzes Banner mit einer weißen Rose. Vor ihr stehen und knien Menschen verschiedenen Standes, vom Herrscher bis zum Kind, und jeder reagiert anders auf ihr Kommen. Im Hintergrund geht zwischen zwei Türmen die Sonne auf.",
+  "upright": "Im Tarot steht der Tod für das Schließen eines Kapitels und den Übergang zum nächsten, nicht für ein körperliches Ende. Die Karte spricht von einer Wandlung, die Raum schafft, so wie der Herbst den Boden für den Frühling bereitet. Sie kann dich ermutigen, Gewohnheiten, Rollen oder Überzeugungen zu verabschieden, die ihren Zweck erfüllt haben. Die aufgehende Sonne im Hintergrund erinnert daran, dass nach einem Ende ein neuer Anfang kommt.",
+  "reversed": "Der umgekehrte Tod kann auf Widerstand gegen eine Veränderung hinweisen, die ohnehin von innen heranreift. Manchmal ist er eine Einladung, etwas sanft loszulassen, statt es mit Gewalt am Leben zu halten.",
+  "reflection": [
+   "Welcher Abschnitt deines Lebens geht auf natürliche Weise zu Ende?",
+   "Was könnte erscheinen, wenn du nach dem Gehenden Platz schaffst?"
+  ],
+  "advice": "Schließ ab, was zu Ende ist. Lass den alten Abschnitt gehen: Erst dann ist Platz für Neues.",
+  "adviceReversed": "Du hältst an etwas fest, das schon vorbei ist. Die Veränderung kommt ohnehin, und sie wird leichter, wenn du aufhörst, dich zu wehren.",
+  "astrology": "Skorpion"
+ },
+ {
+  "id": "major_14",
+  "name": "Die Mäßigkeit",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "Harmonie",
+   "Gleichgewicht",
+   "Geduld",
+   "Verbinden",
+   "Maß"
+  ],
+  "symbolism": "Ein geflügelter Engel in weißem Gewand gießt Wasser zwischen zwei Kelchen hin und her; ein Fuß steht am Ufer, der andere im Bach. Auf der Brust des Engels ist ein Dreieck in einem Quadrat zu sehen. In der Nähe wachsen gelbe Iris, und ein Weg führt zu Bergen, über denen ein Lichtbogen leuchtet.",
+  "upright": "Die Mäßigkeit spricht von der Kunst, Gegensätze zu verbinden und die goldene Mitte zu suchen. Die Karte ermutigt zu ruhigem, schrittweisem Handeln statt zu extremen Lösungen. Es kann um das Gleichgewicht zwischen Arbeit und Ruhe gehen oder zwischen Verstand und Gefühl. Harmonie ist kein fester Zustand, sondern ein stetiges, aufmerksames Abstimmen.",
+  "reversed": "Umgekehrt kann die Karte auf fehlendes Gleichgewicht hinweisen: Übermaß in einem Bereich auf Kosten eines anderen. Sie ist ein Zeichen, hinzuschauen, wo eine sanfte Korrektur der Proportionen nötig ist.",
+  "reflection": [
+   "Welche zwei Bereiche deines Lebens brauchen gerade ein besseres Gleichgewicht?",
+   "Was könnte sich ändern, wenn du in kleinen, geduldigen Schritten handelst?"
+  ],
+  "advice": "Such die goldene Mitte. Verbinde Gegensätze und handle ruhig, Schritt für Schritt: Maß ist jetzt deine Stärke.",
+  "adviceReversed": "Du übertreibst etwas – bei der Arbeit, mit Gefühlen oder Erwartungen. Stell das Gleichgewicht wieder her, bevor du etwas Neues beginnst.",
+  "astrology": "Schütze"
+ },
+ {
+  "id": "major_15",
+  "name": "Der Teufel",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "Bindung",
+   "Versuchung",
+   "Muster",
+   "Schatten",
+   "Bewusstheit"
+  ],
+  "symbolism": "Eine gehörnte Gestalt mit Fledermausflügeln sitzt auf einem dunklen Sockel, hebt eine Hand und hält in der anderen eine gesenkte Fackel. Zwei nackte Gestalten mit kleinen Hörnern und Schwänzen sind an den Sockel gekettet. Die Ketten um ihre Hälse sind locker: Sie könnten sie abnehmen.",
+  "upright": "Der Teufel lädt dich ein, auf das zu schauen, was dich festhält: Gewohnheiten, Überzeugungen oder Abhängigkeiten. Die Karte ist kein Urteil, sondern eine Gelegenheit, dir Mechanismen bewusst zu machen, die außerhalb deiner Aufmerksamkeit wirken. Die lockeren Ketten erinnern daran, dass sich viele Grenzen lösen lassen, sobald sie benannt sind. Sie ist auch ein Raum für eine ehrliche Begegnung mit deinem eigenen Schatten.",
+  "reversed": "Der umgekehrte Teufel kann den Beginn einer Befreiung von einem Muster bedeuten oder den Moment, in dem eine Bindung deutlich sichtbar wird. Er kann eine Einladung sein, deine Freiheit sanft, aber beständig zurückzugewinnen.",
+  "reflection": [
+   "Welche Gewohnheit oder Überzeugung schränkt dich mehr ein, als du zugeben möchtest?",
+   "Was würde sich ändern, wenn sich diese Kette als lockerer erwiese, als sie scheint?"
+  ],
+  "advice": "Sieh, was dich festhält: eine Gewohnheit, eine Angst, eine Abhängigkeit. Benenne es ehrlich; die Kette ist lockerer, als sie scheint.",
+  "adviceReversed": "Du hast die Chance, dich zu befreien. Tu den ersten Schritt weg von dem Muster, das dir schadet: Jetzt ist es leichter als zuvor.",
+  "astrology": "Steinbock"
+ },
+ {
+  "id": "major_16",
+  "name": "Der Turm",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "plötzliche Veränderung",
+   "Neubewertung",
+   "Erwachen",
+   "Befreiung",
+   "Wahrheit"
+  ],
+  "symbolism": "Ein hoher Turm auf einem Felsgipfel wird vom Blitz getroffen, der ihm die Krone abschlägt. Flammen schlagen aus den Fenstern, und zwei Gestalten stürzen vor einem dunklen Himmel. Ringsum schweben kleine Funken in der Form des hebräischen Buchstabens Jod.",
+  "upright": "Der Turm beschreibt den Moment, in dem etwas, das stabil schien, plötzlich eine Neubewertung verlangt. Eine solche Veränderung kann überraschend kommen, bringt aber oft eine Wahrheit ans Licht, die verborgen war. Die Karte ermutigt dich zu prüfen, welche Strukturen auf wackligem Grund gebaut wurden. Wenn sich die Dinge geklärt haben, entsteht Raum für etwas Echteres.",
+  "reversed": "Der umgekehrte Turm kann darauf hinweisen, dass eine notwendige Veränderung aufgeschoben wird, oder auf eine Wandlung, die eher innen als außen geschieht. Manchmal ist er ein Zeichen, dass sich etwas schrittweise umbauen lässt, bevor sich die Spannung aufstaut.",
+  "reflection": [
+   "Welche Überzeugung oder Abmachung braucht heute eine ehrliche Prüfung?",
+   "Was könnte an der Stelle dessen entstehen, was nicht mehr funktioniert?"
+  ],
+  "advice": "Stütze nicht, was zerfällt. Nimm die Veränderung an und baue etwas auf festerem Fundament.",
+  "adviceReversed": "Du weichst einer unvermeidlichen Veränderung aus. Besser, du stellst dich ihr jetzt zu deinen Bedingungen, als auf den Schock zu warten.",
+  "astrology": "Mars"
+ },
+ {
+  "id": "major_17",
+  "name": "Der Stern",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "Hoffnung",
+   "Erneuerung",
+   "Ruhe",
+   "Inspiration",
+   "Vertrauen"
+  ],
+  "symbolism": "Eine nackte Frau kniet am Rand eines Teiches und gießt Wasser aus zwei Krügen, den einen ins Wasser, den anderen auf das Land. Über ihr leuchtet ein großer achtstrahliger Stern, umgeben von sieben kleineren. Auf einem Baum im Hintergrund hat sich ein Vogel niedergelassen.",
+  "upright": "Der Stern bringt ein Gefühl des Aufatmens und leiser Hoffnung. Die Karte lädt dich ein, dich auszuruhen und das Vertrauen in dich und die Welt wieder aufzubauen. Es ist eine gute Zeit für Träume, die nicht sofort verwirklicht werden müssen, um dir Kraft zu geben. Die Schlichtheit der Szene erinnert daran, dass du dich ohne Masken zeigen kannst.",
+  "reversed": "Umgekehrt kann der Stern auf Müdigkeit hinweisen oder auf Hoffnung, die für eine Weile verblasst ist. Er ist eine Einladung, kleine Lichtquellen zu suchen und dir Zeit zur Erholung zu geben.",
+  "reflection": [
+   "Was gibt dir heute ein Gefühl von Hoffnung, und sei es noch so klein?",
+   "Wie kannst du in den kommenden Tagen für deine Erholung sorgen?"
+  ],
+  "advice": "Hab Hoffnung und handle aus ihr heraus. Das Schlimmste ist vorbei: Gib dir Zeit zur Erholung und blick mit Vertrauen nach vorn.",
+  "adviceReversed": "Hast du den Glauben verloren, dass es besser werden kann? Beginne mit einem kleinen Schritt, der dir wieder ein Gefühl von Sinn gibt.",
+  "astrology": "Wassermann"
+ },
+ {
+  "id": "major_18",
+  "name": "Der Mond",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "Unsicherheit",
+   "Fantasie",
+   "Träume",
+   "das Unterbewusste",
+   "Ahnungen"
+  ],
+  "symbolism": "Ein Mond mit menschlichem Gesicht scheint über einer nächtlichen Landschaft, und Lichttropfen fallen von ihm herab. Ein Hund und ein Wolf heulen ihn an, zu beiden Seiten eines Weges, der sich zwischen zwei Türmen zu fernen Hügeln windet. Im Vordergrund kriecht ein Krebs aus dem Wasser.",
+  "upright": "Der Mond beschreibt einen Zustand, in dem nicht alles klar ist und die Fantasie verschiedene Versionen der Ereignisse anbietet. Die Karte ermutigt dich, Träume, Ahnungen und Ängste mit Neugier zu betrachten, ohne sie gleich für Tatsachen zu halten. Es ist eine Zeit, vorsichtig und Schritt für Schritt vorzugehen. Unsicherheit ist oft eine Phase, die dem Verstehen vorausgeht.",
+  "reversed": "Der umgekehrte Mond kann bedeuten, dass sich der Nebel zu lichten beginnt oder dass Ängste unverhältnismäßige Macht gewinnen. Es lohnt sich zu trennen, was bekannt ist und was die Fantasie hinzufügt.",
+  "reflection": [
+   "Was ist in dieser Situation Tatsache, und was ist deine Deutung?",
+   "Welcher Traum oder welche Ahnung kehrt in letzter Zeit zu dir zurück?"
+  ],
+  "advice": "Gerade ist nicht alles klar, und das ist in Ordnung. Triff im Nebel keine endgültigen Entscheidungen; vertrau deiner Intuition, aber prüfe die Fakten.",
+  "adviceReversed": "Der Nebel beginnt sich zu lichten. Nenn deine Ängste beim Namen: Viele werden sich als kleiner erweisen, als sie schienen.",
+  "astrology": "Fische"
+ },
+ {
+  "id": "major_19",
+  "name": "Die Sonne",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "Freude",
+   "Klarheit",
+   "Wärme",
+   "Offenheit",
+   "Erfolg"
+  ],
+  "symbolism": "Ein nacktes Kind mit einem Kranz und einer roten Feder auf dem Kopf reitet fröhlich auf einem weißen Pferd und hält ein großes rotes Banner. Darüber strahlt eine Sonne mit Gesicht, und hinter einer niedrigen Mauer blühen Sonnenblumen.",
+  "upright": "Die Sonne bringt die Energie von Klarheit und einfacher Freude. Die Karte ermutigt dich, dich am Guten zu freuen und deine Wärme mit anderen zu teilen. Sie kann einen Moment beschreiben, in dem die Dinge klar werden und das Handeln leichtfällt. Sie ist auch eine Einladung, mit kindlicher Spontaneität in Kontakt zu kommen.",
+  "reversed": "Umgekehrt kann die Freude der Sonne gedämpft sein oder schwer ganz anzunehmen. Manchmal ist sie auch ein Zeichen, nicht Fröhlichkeit vorzuspielen, wenn ein Moment der Ehrlichkeit nötig ist.",
+  "reflection": [
+   "Was schenkt dir echte, einfache Freude?",
+   "Wie kannst du dir in dieser Woche mehr Leichtigkeit erlauben?"
+  ],
+  "advice": "Die Antwort ist Ja. Handle offen, mit Freude und Zuversicht: Dies ist eine gute Zeit, dich zu zeigen.",
+  "adviceReversed": "Die Freude ist nah, aber etwas verdeckt sie. Erlaube dir, dich an dem zu freuen, was du schon hast, statt auf den perfekten Moment zu warten.",
+  "astrology": "Sonne"
+ },
+ {
+  "id": "major_20",
+  "name": "Das Gericht",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "Erwachen",
+   "innerer Ruf",
+   "Bilanz",
+   "Wiedergeburt",
+   "Vergebung"
+  ],
+  "symbolism": "Ein Engel tritt aus den Wolken und bläst eine Posaune, an der eine Fahne mit rotem Kreuz hängt. Unten erheben sich aus offenen, auf dem Wasser treibenden Särgen nackte Gestalten – Erwachsene und ein Kind – mit nach oben gestreckten Armen. Im Hintergrund sind schneebedeckte Berge zu sehen.",
+  "upright": "Das Gericht beschreibt einen Moment des Erwachens, in dem dein eigener Weg klarer wird als zuvor. Die Karte ermutigt dich, Bilanz aus deinen Erfahrungen zu ziehen und ohne hartes Urteil Schlüsse daraus zu ziehen. Es kann ein innerer Ruf sein, etwas aufzugreifen, das dir schon lange wichtig ist. Es ist auch ein Raum, dir und anderen zu vergeben.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass du dich zu kritisch beurteilst oder einen inneren Ruf übertönst. Es lohnt sich zu fragen, was dich davon abhält, dem zu antworten, was dich ruft.",
+  "reflection": [
+   "Wozu spürst du einen inneren Ruf?",
+   "Was kannst du dir verzeihen, um mit leichterem Herzen weiterzugehen?"
+  ],
+  "advice": "Du hast einen inneren Ruf gehört: Antworte ihm. Zieh Bilanz aus der Vergangenheit, vergib dir und triff die Entscheidung.",
+  "adviceReversed": "Du urteilst zu hart über dich oder schiebst eine wichtige Entscheidung auf. Warte nicht länger auf ein Zeichen: Das Zeichen ist schon da.",
+  "astrology": "Feuer"
+ },
+ {
+  "id": "major_21",
+  "name": "Die Welt",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "Erfüllung",
+   "Integration",
+   "Vollendung",
+   "Ganzheit",
+   "neuer Zyklus"
+  ],
+  "symbolism": "Eine nur in eine purpurne Schärpe gehüllte Gestalt tanzt in einem ovalen Blätterkranz und hält zwei Stäbe. Der Kranz ist oben und unten mit roten Bändern gebunden, und in den Ecken der Karte erscheinen die Köpfe eines Engels, eines Adlers, eines Löwen und eines Stiers.",
+  "upright": "Die Welt beschreibt ein Gefühl von Ganzheit und den Abschluss eines wichtigen Abschnitts. Die Karte lädt dich ein, den zurückgelegten Weg zu würdigen und zu sehen, wie sich verschiedene Erfahrungen zu einem stimmigen Ganzen gefügt haben. Es ist ein guter Moment zum Feiern und für Dankbarkeit. Das Ende eines Zyklus bereitet auf natürliche Weise den Boden für den nächsten.",
+  "reversed": "Umgekehrt kann die Welt auf Unerledigtes hinweisen oder auf Schwierigkeiten, einen Abschnitt abzuschließen. Sie kann eine Einladung sein zu bemerken, was für ein Gefühl der Vollständigkeit noch fehlt.",
+  "reflection": [
+   "Was erreichst du bereits, ohne es schon ganz zu würdigen?",
+   "Was muss abgeschlossen werden, bevor du das nächste Kapitel beginnst?"
+  ],
+  "advice": "Bring die Sache zum Abschluss und würdige, was du erreicht hast. Dieser Abschnitt ist vollendet: Du kannst getrost zum nächsten übergehen.",
+  "adviceReversed": "Der letzte Schritt zum Abschluss fehlt. Bring zu Ende, was du begonnen hast, bevor du etwas Neues anfängst.",
+  "astrology": "Saturn"
+ },
+ {
+  "id": "wands_01",
+  "name": "Ass der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "Funke",
+   "Inspiration",
+   "Potenzial",
+   "Begeisterung",
+   "neue Initiative"
+  ],
+  "symbolism": "Eine Hand tritt aus einer Wolke und hält einen kräftigen, belaubten Stab, von dem kleine Blätter fallen. Darunter erstreckt sich eine grüne Landschaft mit einem Fluss, und auf einem fernen Hügel steht eine Burg.",
+  "upright": "Das Ass der Stäbe ist der Funke einer neuen Idee oder ein Schub der Begeisterung. Die Karte ermutigt dich zu bemerken, was dich gerade lebendig macht, und ihm eine Chance zu geben. In dieser Phase zählt Begeisterung mehr als ein fertiger Plan. Das Potenzial ist da und wartet auf die erste Handlung.",
+  "reversed": "Das umgekehrte Ass kann auf eine Idee hinweisen, die noch kein Ventil gefunden hat, oder auf ein vorübergehendes Motivationstief. Manchmal lohnt es sich zu warten, bis der Funke reift, statt ihn zu erzwingen.",
+  "reflection": [
+   "Welche Idee begeistert dich am meisten?",
+   "Was ist der kleinste Schritt, mit dem sie entstehen könnte?"
+  ],
+  "advice": "Du hast einen Funken: Handle, solange er glüht. Beginne das Projekt, ruf an, schreib es auf. Inspiration braucht Bewegung.",
+  "adviceReversed": "Die Begeisterung verfliegt, bevor sie zur Tat wird. Tu heute eine kleine Sache, statt auf den perfekten Moment zu warten.",
+  "astrology": "Feuer — Wurzel des Elements"
+ },
+ {
+  "id": "wands_02",
+  "name": "Zwei der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "Planung",
+   "Perspektive",
+   "Entscheidung",
+   "Horizont",
+   "Ehrgeiz"
+  ],
+  "symbolism": "Ein Mann mit rotem Hut steht auf Burgmauern, hält einen kleinen Globus und blickt über Meer und Land. Ein Stab ist an der Mauer befestigt, den anderen hält er in der Hand. Ein Wappen mit gekreuzten Rosen und Lilien ist in den Stein gemeißelt.",
+  "upright": "Die Zwei der Stäbe beschreibt einen Moment der Planung und des Abwägens weiterer Möglichkeiten. Du hast schon eine gewisse Basis, und nun stellt sich die Frage, wohin es weitergehen soll. Die Karte ermutigt dich, mutig über die Zukunft nachzudenken und bewusst eine Richtung zu wählen. Es ist eine Zeit für die Vision, die der Bewegung vorausgeht.",
+  "reversed": "Umgekehrt kann die Karte auf ein Schwanken zwischen Sicherheit und Neuem hinweisen oder auf eine Planung, die nie zur Tat wird. Es lohnt sich zu fragen, was du brauchst, um dich bereit zu fühlen.",
+  "reflection": [
+   "Wie sieht der Horizont aus, auf den du zusteuern möchtest?",
+   "Was hält dich auf den Mauern fest, statt dich aufbrechen zu lassen?"
+  ],
+  "advice": "Plane deinen nächsten Schritt und schau weiter als sonst. Die Entscheidung liegt bei dir: Wähle den weiteren Blick.",
+  "adviceReversed": "Die Angst vor dem Unbekannten hält dich in deiner Komfortzone. Überlege, was du verlierst, wenn du sie nicht verlässt.",
+  "astrology": "Feuer · Mars im Widder"
+ },
+ {
+  "id": "wands_03",
+  "name": "Drei der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "Wachstum",
+   "Erwartung",
+   "Ausdehnung",
+   "Weitblick",
+   "erste Ergebnisse"
+  ],
+  "symbolism": "Eine Gestalt im Umhang steht mit dem Rücken zum Betrachter auf einem Hügel und stützt sich auf einen von drei in den Boden gesteckten Stäben. Sie blickt über eine goldene Bucht, auf der Schiffe segeln. Der Horizont ist weit und offen.",
+  "upright": "Die Drei der Stäbe spricht von einer Zeit, in der die ersten Schritte getan sind und du beobachten kannst, wie sie sich entwickeln. Die Karte ermutigt zu einem weiteren Blick und zu geduldigem Warten auf Ergebnisse. Sie kann nahelegen, dich für neue Kontakte oder Bereiche zu öffnen. Es ist die Freude zu sehen, dass etwas Gestalt annimmt.",
+  "reversed": "Umgekehrt kann die Karte auf Ungeduld hinweisen, wenn Ergebnisse langsamer kommen als erwartet. Sie kann auch eine Einladung sein, den Plan im Licht neuer Informationen anzupassen.",
+  "reflection": [
+   "Was ist bereits in Gang gesetzt und braucht jetzt Zeit?",
+   "Welche neuen Möglichkeiten sind von deinem Standort aus zu sehen?"
+  ],
+  "advice": "Was du gesät hast, beginnt zu wachsen. Denk größer, bereite dich auf mehr vor und sei geduldig: Die Ergebnisse sind unterwegs.",
+  "adviceReversed": "Verzögerungen bedeuten kein Scheitern. Prüfe den Plan, korrigiere den Kurs und gib nicht zu früh auf.",
+  "astrology": "Feuer · Sonne im Widder"
+ },
+ {
+  "id": "wands_04",
+  "name": "Vier der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "Feier",
+   "Gemeinschaft",
+   "Zuhause",
+   "Stabilität",
+   "Freude"
+  ],
+  "symbolism": "Vier Stäbe, mit einer Girlande aus Blumen und Früchten verbunden, bilden eine Art Tor. Dahinter heben zwei Gestalten Blumensträuße, und im Hintergrund sind eine Menschengruppe und eine Burg zu sehen. Die Szene ist festlich und warm.",
+  "upright": "Die Vier der Stäbe lädt dich ein, innezuhalten und zu würdigen, was schon aufgebaut ist. Es ist die Energie gemeinsamen Feierns, der Zugehörigkeit und eines sicheren Hafens. Die Karte kann einen wichtigen Meilenstein betreffen, der es verdient, gefeiert zu werden. Mit anderen geteilte Freude stärkt die Bindungen.",
+  "reversed": "Umgekehrt kann die Karte nahelegen, dass es schwerfällt, innezuhalten und zu feiern, oder dass das Gemeinschaftsgefühl gelitten hat. Es lohnt sich, einen Ort und Menschen zu suchen, bei denen du aufatmen kannst.",
+  "reflection": [
+   "Was verdient es heute, gefeiert zu werden?",
+   "Wo und mit wem fühlst du dich zu Hause?"
+  ],
+  "advice": "Feiere, was gelungen ist, und teile es mit nahestehenden Menschen. Ein stabiler Boden lässt dich weitergehen.",
+  "adviceReversed": "Etwas stört das Gefühl von Sicherheit zu Hause oder im Team. Sprich offen darüber, statt so zu tun, als sei alles in Ordnung.",
+  "astrology": "Feuer · Venus im Widder"
+ },
+ {
+  "id": "wands_05",
+  "name": "Fünf der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "Wettbewerb",
+   "Uneinigkeit",
+   "Spannung",
+   "Zusammenprall",
+   "Gruppenenergie"
+  ],
+  "symbolism": "Fünf junge Männer in verschiedenfarbiger Kleidung schwingen Stäbe, wie in einem chaotischen Gerangel oder einem Spiel. Keiner scheint verletzt, und ihre Bewegungen kreuzen sich in verschiedene Richtungen.",
+  "upright": "Die Fünf der Stäbe beschreibt eine Situation, in der viele Meinungen und Energien aufeinanderprallen. Ein solcher Konflikt muss nicht zerstörerisch sein; er kann ein kreativer Austausch sein, der Ideen schärft. Die Karte ermutigt dich zu bemerken, ob es um ein gemeinsames Ziel geht oder nur darum, die Oberhand zu gewinnen. Gute Kommunikation kann Chaos in Zusammenarbeit verwandeln.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass Konflikte um jeden Preis vermieden werden, oder auf eine Spannung, die sich nach innen verlagert hat. Manchmal ist sie eine Einladung, Einigung statt Sieg zu suchen.",
+  "reflection": [
+   "Worum geht es in diesem Streit wirklich?",
+   "Wie kannst du deine Meinung sagen und zugleich anderen zuhören?"
+  ],
+  "advice": "Eine Meinungsverschiedenheit muss kein Krieg sein. Sag, was du denkst, aber hör anderen zu: Aus der Spannung kann etwas Kreatives entstehen.",
+  "adviceReversed": "Du weichst dem Konflikt aus oder reibst dich an ihm auf. Sprich die Dinge klar an und beende einen Streit, der zu nichts führt.",
+  "astrology": "Feuer · Saturn im Löwen"
+ },
+ {
+  "id": "wands_06",
+  "name": "Sechs der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "Anerkennung",
+   "Erfolg",
+   "Selbstvertrauen",
+   "Wertschätzung",
+   "Sieg"
+  ],
+  "symbolism": "Ein Reiter mit Lorbeerkranz reitet auf einem weißen Pferd und hält einen Stab, an den ein zweiter Kranz gebunden ist. Menschen mit erhobenen Stäben gehen um ihn herum, als würden sie ihn zu Hause willkommen heißen.",
+  "upright": "Die Sechs der Stäbe spricht von Wertschätzung und einem sichtbaren Ergebnis deiner Mühe. Die Karte ermutigt dich, Anerkennung ohne falsche Bescheidenheit anzunehmen. Sie erinnert auch daran, dass Erfolg oft das Werk vieler Menschen ist. Selbstvertrauen kann anderen eine Stütze sein.",
+  "reversed": "Umgekehrt kann die Karte auf Schwierigkeiten hinweisen, Lob anzunehmen, oder auf eine starke Abhängigkeit von der Meinung anderer. Es lohnt sich zu überlegen, wie du deine eigene Arbeit selbst würdigen kannst.",
+  "reflection": [
+   "Welche deiner Leistungen verdient Anerkennung?",
+   "Wie sehr hängt dein Selbstwert davon ab, was andere denken?"
+  ],
+  "advice": "Du darfst stolz auf dich sein. Zeig, was du erreicht hast: Die Anerkennung ist verdient und öffnet weitere Türen.",
+  "adviceReversed": "Mach deinen Wert nicht vom Applaus abhängig. Würdige dich selbst, auch wenn andere es noch nicht getan haben.",
+  "astrology": "Feuer · Jupiter im Löwen"
+ },
+ {
+  "id": "wands_07",
+  "name": "Sieben der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "Standhalten",
+   "Ausdauer",
+   "Mut",
+   "Grenzen",
+   "Überzeugung"
+  ],
+  "symbolism": "Ein junger Mann steht auf einer Anhöhe, einen Stab in den Händen, und wehrt sechs andere Stäbe ab, die von unten zu ihm hinaufreichen. Er trägt zwei verschiedene Schuhe, was auf Eile oder Überraschung hindeutet.",
+  "upright": "Die Sieben der Stäbe beschreibt eine Situation, in der es sich lohnt, zu deinen Überzeugungen zu stehen. Die Karte ermutigt zu Ausdauer und dazu, klar auszudrücken, was wichtig ist. Die Position auf der Anhöhe erinnert daran, dass du einen gewissen Vorteil hast: Wissen oder Erfahrung. Grenzen lassen sich ruhig und mit Respekt verteidigen.",
+  "reversed": "Umgekehrt kann die Karte auf Erschöpfung durch ständiges Verteidigen hinweisen oder auf Zweifel, ob dieser Kampf die Energie wert ist. Manchmal ist es besser auszuwählen, welche Dinge wirklich verteidigt werden müssen.",
+  "reflection": [
+   "Wofür möchtest du einstehen, auch wenn andere anders denken?",
+   "Welche Auseinandersetzungen sind deine Energie wert, und welche kannst du loslassen?"
+  ],
+  "advice": "Bleib standhaft. Du hast allen Grund, an deiner Position festzuhalten: Gib nicht nach, nur weil es schwer ist.",
+  "adviceReversed": "Du musst nicht an jeder Front kämpfen. Wähle, wofür es sich wirklich zu kämpfen lohnt, und lass den Rest los.",
+  "astrology": "Feuer · Mars im Löwen"
+ },
+ {
+  "id": "wands_08",
+  "name": "Acht der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "Schnelligkeit",
+   "Bewegung",
+   "Nachrichten",
+   "Schwung",
+   "rascher Fortschritt"
+  ],
+  "symbolism": "Acht Stäbe fliegen schräg und parallel zueinander durch einen klaren Himmel, als steuerten sie auf den Boden zu. Unter ihnen erstreckt sich eine ruhige Landschaft mit einem Fluss und einem Hügel. Auf der Karte sind keine Figuren zu sehen.",
+  "upright": "Die Acht der Stäbe bringt die Energie rascher Bewegung und von Dingen, die Fahrt aufnehmen. Die Karte kann Nachrichten, Gespräche oder Angelegenheiten betreffen, die endlich in Gang kommen. Sie ermutigt dich, entschlossen zu handeln, solange der Schwung auf deiner Seite ist. Es ist eine Zeit, in der aus Gedanken schnell Taten werden.",
+  "reversed": "Umgekehrt kann die Karte auf Verzögerungen, Missverständnisse in der Kommunikation oder zu viele Dinge auf einmal hinweisen. Es lohnt sich, langsamer zu werden und zu entscheiden, was gerade am wichtigsten ist.",
+  "reflection": [
+   "Was in deinem Leben nimmt gerade Fahrt auf?",
+   "Wie kannst du dafür sorgen, dass Eile dir nicht die Klarheit nimmt?"
+  ],
+  "advice": "Die Dinge beschleunigen sich: Handle schnell und zögere deine Antwort nicht hinaus. Dies ist eine Zeit für Bewegung, nicht für langes Überlegen.",
+  "adviceReversed": "Eile führt ins Chaos, oder alles ist ins Stocken geraten. Werde langsamer, ordne die Dinge und gib erst dann Gas.",
+  "astrology": "Feuer · Merkur im Schützen"
+ },
+ {
+  "id": "wands_09",
+  "name": "Neun der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "Wachsamkeit",
+   "Ausdauer",
+   "Widerstandskraft",
+   "letzte Anstrengung",
+   "Erfahrung"
+  ],
+  "symbolism": "Ein Mann mit verbundenem Kopf steht auf einen Stab gestützt und blickt misstrauisch zur Seite. Hinter ihm steht eine Reihe von acht Stäben wie ein Palisadenzaun. Seine Haltung zeigt Müdigkeit, aber auch Bereitschaft.",
+  "upright": "Die Neun der Stäbe spricht von Durchhaltevermögen nach langer Anstrengung. Die Karte erinnert daran, dass schon viel hinter dir liegt und du dich auf die gewonnene Erfahrung stützen kannst. Wachsamkeit kann helfen, aber es lohnt sich zu prüfen, ob sie nicht zu ständiger Anspannung wird. Widerstandskraft wächst auch durch Ruhe.",
+  "reversed": "Umgekehrt kann die Karte auf Erschöpfung oder übermäßiges Misstrauen gegenüber deiner Umgebung hinweisen. Es ist ein guter Moment, um Unterstützung zu bitten und die Deckung dort zu senken, wo es sicher ist.",
+  "reflection": [
+   "Was hast du schon durchgestanden, und was hat es dich gelehrt?",
+   "Wo kannst du dir Ruhe statt ständiger Wachsamkeit erlauben?"
+  ],
+  "advice": "Du bist nah am Ziel: Halte noch ein wenig durch. Bleib wachsam, aber lass dir von der Müdigkeit nicht den Glauben nehmen.",
+  "adviceReversed": "Du verteidigst dich gegen etwas, das dich nicht mehr bedroht. Ruh dich aus und nimm Hilfe an, statt ewig Wache zu stehen.",
+  "astrology": "Feuer · Mond im Schützen"
+ },
+ {
+  "id": "wands_10",
+  "name": "Zehn der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "Last",
+   "Verantwortung",
+   "Anstrengung",
+   "zu viele Aufgaben",
+   "Delegieren"
+  ],
+  "symbolism": "Ein gebeugter Mann trägt zehn Stäbe in den Armen, die ihm die Sicht versperren. Mühsam geht er auf ein Haus zu, das in der Ferne zu sehen ist.",
+  "upright": "Die Zehn der Stäbe beschreibt das Gewicht vieler Verpflichtungen, die gleichzeitig getragen werden. Die Karte ermutigt dich zu schauen, welche davon wirklich deine sind und welche du aus Gewohnheit übernommen hast. Das Ziel ist nah, aber die Art, wie du die Last trägst, kann den Weg erschweren. Aufgaben zu sortieren und zu verteilen kann Erleichterung bringen.",
+  "reversed": "Umgekehrt kann die Karte auf den Moment hinweisen, in dem die Last zu schwer wird, oder auf die Bereitschaft, einen Teil davon abzulegen. Sie ist eine Einladung, um Hilfe zu bitten und „Nein“ zu sagen.",
+  "reflection": [
+   "Welche deiner aktuellen Verpflichtungen könntest du ablegen oder abgeben?",
+   "Wie sähe der Weg zu deinem Ziel aus, wenn die Last leichter wäre?"
+  ],
+  "advice": "Du trägst zu viel. Gib einige Pflichten ab, bitte um Hilfe oder leg ab, was nicht deins ist.",
+  "adviceReversed": "Es ist Zeit, die Last abzuwerfen. Sag „Nein“ zu dem, was du nicht tragen musst, und es wird leichter.",
+  "astrology": "Feuer · Saturn im Schützen"
+ },
+ {
+  "id": "wands_11",
+  "name": "Bube der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "Neugier",
+   "Begeisterung",
+   "Entdeckung",
+   "neue Botschaften",
+   "jugendlicher Eifer"
+  ],
+  "symbolism": "Ein junger Mann in einer mit Salamandern gemusterten Tunika steht in einer Wüstenlandschaft und betrachtet neugierig den Stab, den er vor sich hält. Im Hintergrund erheben sich drei Hügel wie Pyramiden.",
+  "upright": "Der Bube der Stäbe bringt die Energie eines neugierigen Lernenden, der etwas Neues ausprobieren will. Die Karte ermutigt dich, Ideen ohne den Druck sofortiger Ergebnisse zu erkunden. Sie kann eine inspirierende Nachricht oder eine aufkeimende Leidenschaft betreffen. Begeisterung ist hier die wertvollste Ressource.",
+  "reversed": "Umgekehrt kann der Bube auf zerstreute Begeisterung hinweisen oder auf eine Ungeduld, die Ideen zu schnell fallen lässt. Es lohnt sich, einen Funken auszuwählen und ihm ein wenig Zeit zu geben.",
+  "reflection": [
+   "Was möchtest du lernen, einfach weil es dich interessiert?",
+   "Welche Idee verdient mehr Aufmerksamkeit von dir?"
+  ],
+  "advice": "Sei neugierig und probier etwas Neues aus. Der erste begeisterte Schritt zählt mehr als ein perfekter Plan.",
+  "adviceReversed": "Du beginnst vieles und beendest wenig. Wähle eines aus und bring es zu Ende.",
+  "astrology": "Feuer"
+ },
+ {
+  "id": "wands_12",
+  "name": "Ritter der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "Mut",
+   "Abenteuer",
+   "Schwung",
+   "Handeln",
+   "Leidenschaft"
+  ],
+  "symbolism": "Ein Ritter in Rüstung und gelber, mit Salamandern verzierter Tunika galoppiert auf einem sich aufbäumenden Pferd und hebt einen Stab. Die Federn an seinem Helm sehen aus wie Flammen, und hinter ihm erstreckt sich eine Wüste mit pyramidenartigen Hügeln.",
+  "upright": "Der Ritter der Stäbe ist die Energie mutigen Handelns und der Bereitschaft zum Abenteuer. Die Karte ermutigt dich, deiner Leidenschaft zu folgen und die Initiative zu ergreifen. Seine Begeisterung ist oft ansteckend und kann andere mitreißen. Es lohnt sich aber daran zu denken, dass Schwung mit Richtung einhergehen sollte.",
+  "reversed": "Umgekehrt kann die Energie des Ritters in eine Eile umschlagen, die wichtige Etappen überspringt. Manchmal ist sie ein Zeichen, innezuhalten und zu prüfen, ob das Feuer zu schnell abbrennt.",
+  "reflection": [
+   "Nach welchem Abenteuer sehnst du dich?",
+   "Wie kannst du deine Begeisterung mit Geduld verbinden?"
+  ],
+  "advice": "Brich mutig auf: Mut und Energie sind auf deiner Seite. Handle, aber vergiss nicht, wohin du willst.",
+  "adviceReversed": "Impulsivität könnte dich teuer zu stehen kommen. Denk deinen Zug durch, bevor du ihn machst: Tempo ist nicht alles.",
+  "astrology": "Feuer"
+ },
+ {
+  "id": "wands_13",
+  "name": "Königin der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "Selbstvertrauen",
+   "Wärme",
+   "Ausstrahlung",
+   "Unabhängigkeit",
+   "Kreativität"
+  ],
+  "symbolism": "Die Königin sitzt auf einem mit Löwen verzierten Thron und hält in einer Hand einen Stab, in der anderen eine Sonnenblume. Zu ihren Füßen sitzt eine schwarze Katze. Ihre Haltung ist offen und entspannt.",
+  "upright": "Die Königin der Stäbe verbindet Wärme mit Selbstvertrauen. Die Karte ermutigt dich, dich authentisch auszudrücken und deine Energie zu teilen. Es ist die Haltung eines Menschen, der seinen Wert kennt und zugleich andere unterstützt. Kreativität blüht auf, wenn du dir erlaubst zu strahlen.",
+  "reversed": "Umgekehrt kann die Karte auf einen Moment des Selbstzweifels hinweisen oder auf eine Energie, die zu dominant wird. Es lohnt sich, ein Gleichgewicht zwischen der Sorge um dich und dem Dasein für andere zu suchen.",
+  "reflection": [
+   "In welchen Situationen fühlst du dich am meisten wie du selbst?",
+   "Wie kannst du heute deine Wärme zeigen, ohne dich kleinzumachen?"
+  ],
+  "advice": "Vertrau dir und zeig dich, wie du bist. Deine Zuversicht und Wärme gewinnen andere für dich.",
+  "adviceReversed": "Etwas untergräbt dein Selbstvertrauen. Bau es wieder auf und beginne mit dem, worin du wirklich gut bist.",
+  "astrology": "Feuer"
+ },
+ {
+  "id": "wands_14",
+  "name": "König der Stäbe",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "Vision",
+   "Führung",
+   "andere inspirieren",
+   "Kühnheit",
+   "Verantwortung"
+  ],
+  "symbolism": "Der König sitzt auf einem mit Löwen und Salamandern verzierten Thron und hält einen blühenden Stab. Zu seinen Füßen kauert ein kleiner Salamander. Sein Blick ist zur Seite gewandt, als eilten seine Gedanken in die Zukunft voraus.",
+  "upright": "Der König der Stäbe verkörpert eine reife Führung, die auf Vision und Inspiration beruht. Die Karte ermutigt dich, Entscheidungen aus der Perspektive eines langfristigen Ziels zu treffen. Es ist die Energie eines Menschen, der andere begeistern und zugleich Verantwortung für die Richtung übernehmen kann. Kühnheit geht hier mit Erfahrung einher.",
+  "reversed": "Umgekehrt kann die Karte auf Ungeduld mit anderen hinweisen oder auf eine Vision, die die Bedürfnisse deiner Umgebung übergeht. Es lohnt sich zu prüfen, ob Führung nicht dazu wird, den eigenen Willen durchzusetzen.",
+  "reflection": [
+   "Welche Vision möchtest du langfristig verfolgen?",
+   "Wie kannst du andere inspirieren, statt sie zu drängen?"
+  ],
+  "advice": "Übernimm die Führung. Du hast eine Vision: Teile sie und übernimm Verantwortung für die Richtung, dann folgen dir andere.",
+  "adviceReversed": "Setz deine Vision nicht mit Gewalt durch. Die beste Führung hört zu: Lade andere ein, mitzuentscheiden.",
+  "astrology": "Feuer"
+ }
+]

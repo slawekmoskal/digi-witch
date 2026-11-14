@@ -1,0 +1,898 @@
+[
+ {
+  "n": 1,
+  "name": "O Criativo (O Céu)",
+  "text": "Pura energia de ação, iniciativa e uma força que não precisa de nada para se pôr em movimento.",
+  "advice": "Aja com ousadia e constância, mas com medida: a força sem direção se consome.",
+  "lines": [
+   "A força ainda está oculta. Não aja com precipitação; prepare-se.",
+   "Os primeiros resultados já aparecem; procure pessoas com quem possa aprender.",
+   "Muito trabalho e tensão. Fique alerta, mas não se esgote.",
+   "Você está diante de uma escolha: saltar ou esperar. Ambas são boas se forem sinceras.",
+   "A plenitude das possibilidades. Aja em grande estilo e busque o apoio dos sábios.",
+   "Orgulho em excesso: quem sobe alto demais começa a se arrepender."
+  ]
+ },
+ {
+  "n": 2,
+  "name": "O Receptivo (A Terra)",
+  "text": "Abertura, paciência e uma qualidade maleável que permite que algo cresça.",
+  "advice": "Não lidere agora. Siga, apoie, deixe as coisas amadurecerem.",
+  "lines": [
+   "A primeira geada anuncia o inverno. Note os pequenos sinais antes que cresçam.",
+   "Seja simples e sincero; ser natural trará sucesso.",
+   "Trabalhe nos bastidores sem buscar reconhecimento; os resultados virão.",
+   "Hora de fechar a boca e a carteira. A cautela protege de erros.",
+   "A modéstia num papel importante traz grande fortuna.",
+   "Uma luta de forças opostas: quando os dois lados se tornam mais teimosos, ambos perdem."
+  ]
+ },
+ {
+  "n": 3,
+  "name": "A Dificuldade Inicial",
+  "text": "O caos dos primeiros passos: tudo está brotando, mas nada se assentou ainda.",
+  "advice": "Não se deixe desanimar pela confusão. Peça ajuda e não force o ritmo.",
+  "lines": [
+   "Um obstáculo no começo. Pare, mas não abandone a meta.",
+   "A ajuda está a caminho, embora não de imediato. Não a aceite de mãos erradas.",
+   "Sem um guia é fácil se perder. Melhor desistir do que seguir às cegas.",
+   "Aceite a ajuda que você pede; a cooperação traz progresso agora.",
+   "Você tem recursos, mas ainda não pode usá-los por completo. Pequenos passos.",
+   "Desânimo e lágrimas. Não é o fim, apenas o fundo de onde você toma impulso."
+  ]
+ },
+ {
+  "n": 4,
+  "name": "A Inexperiência Juvenil",
+  "text": "Você ainda não sabe tudo, e esse é o ponto de partida para aprender.",
+  "advice": "Pergunte, aprenda com os experientes, não finja ser especialista.",
+  "lines": [
+   "Um pouco de disciplina ajuda a aprender, mas não se feche na severidade.",
+   "A paciência com a ignorância alheia é sinal de maturidade.",
+   "Não corra atrás só do que brilha; agarre-se ao essencial.",
+   "Permanecer teimosamente na ignorância leva à humilhação. Abra-se ao aprendizado.",
+   "A abertura infantil traz sucesso.",
+   "Quando alguém precisa ser corrigido, faça-o para proteger, não para punir."
+  ]
+ },
+ {
+  "n": 5,
+  "name": "A Espera",
+  "text": "A questão está amadurecendo; a chuva virá, mas não agora.",
+  "advice": "Espere com calma e confiança. Prepare-se em vez de se impacientar.",
+  "lines": [
+   "Você espera longe do perigo. Mantenha a calma e a sua rotina.",
+   "Fofocas mesquinhas e inquietação. Não reaja, e passará.",
+   "Você espera na lama e atrai problemas para si; tenha cuidado.",
+   "Num lugar difícil: saia dele com calma, sem pânico.",
+   "Esperando a uma mesa bem posta. Aproveite o momento e não perca a meta de vista.",
+   "Visitas inesperadas. Receba-as com respeito e elas ajudarão."
+  ]
+ },
+ {
+  "n": 6,
+  "name": "O Conflito",
+  "text": "Tensão, reivindicações diferentes, risco de conflito.",
+  "advice": "Procure o acordo a meio caminho. Não leve a disputa até o fim a qualquer preço.",
+  "lines": [
+   "Não prolongue a disputa; algumas palavras de esclarecimento bastam.",
+   "Retirar-se de uma luta que não se pode vencer é sabedoria, não vergonha.",
+   "Mantenha o que é seu por tradição e não estenda a mão para mais.",
+   "Desista da disputa e volte à calma; você ganhará mais.",
+   "Uma disputa resolvida com justiça traz boa fortuna.",
+   "Uma disputa vencida pela força traz uma recompensa fácil de perder."
+  ]
+ },
+ {
+  "n": 7,
+  "name": "O Exército",
+  "text": "Força organizada, disciplina e um objetivo comum.",
+  "advice": "São necessários ordem e boa liderança. Aja em equipe e com um plano.",
+  "lines": [
+   "A ordem no início decide tudo; sem ela, a derrota.",
+   "Um líder no meio da equipe, perto das pessoas: a confiança traz sucesso.",
+   "Muitos dão ordens ao mesmo tempo, e isso leva ao fracasso.",
+   "Recuar a tempo não é um erro.",
+   "Aja contra a ameaça, mas entregue o comando aos experientes.",
+   "Depois da vitória, dê tarefas aos sábios, não aos que apenas gritam."
+  ]
+ },
+ {
+  "n": 8,
+  "name": "A União",
+  "text": "Juntar-se aos outros, comunidade, pertencimento.",
+  "advice": "Procure aliados e inspire confiança. Não demore a se unir.",
+  "lines": [
+   "A sinceridade desde o início constrói a verdadeira unidade.",
+   "Uma proximidade que vem de dentro. Mantenha a sua própria dignidade.",
+   "Cuidado com quem você se liga; nem todos servem para você.",
+   "A lealdade aberta a alguém digno traz o bem.",
+   "Um verdadeiro líder atrai e não obriga.",
+   "Juntar-se tarde demais pode ser impossível. Não demore."
+  ]
+ },
+ {
+  "n": 9,
+  "name": "O Poder Domesticador do Pequeno",
+  "text": "Pequenos obstáculos atrasam, mas não detêm.",
+  "advice": "Aja com suavidade e em pequenos passos. Ainda não é hora de grandes gestos.",
+  "lines": [
+   "Volte ao seu próprio caminho; isso não é erro.",
+   "Outros voltam com você; voltar juntos traz boa fortuna.",
+   "A carroça perde uma roda: uma briga bloqueia o progresso. Primeiro o acordo.",
+   "A sinceridade afasta o medo e o dano.",
+   "A lealdade une as pessoas e reparte a riqueza.",
+   "A chuva chegou. É hora de descansar e não de avançar mais."
+  ]
+ },
+ {
+  "n": 10,
+  "name": "A Conduta",
+  "text": "Passos cuidadosos em uma situação delicada, como pisar na cauda de um tigre.",
+  "advice": "Mantenha o tato e a cortesia. Os bons modos protegem de problemas.",
+  "lines": [
+   "Um caminho simples e modesto. Siga-o e nenhum mal virá.",
+   "Um caminho calmo e plano, bom para quem não busca atenção.",
+   "Você superestima a sua força e pode se machucar.",
+   "A cautela em um lugar perigoso traz sucesso no fim.",
+   "É preciso resolução, mas também consciência do risco.",
+   "Olhe para trás, para os seus passos: o que vem decorre deles."
+  ]
+ },
+ {
+  "n": 11,
+  "name": "A Paz",
+  "text": "A harmonia do céu e da terra: um tempo favorável.",
+  "advice": "Aproveite o bom período, construa e reparta. Lembre-se de que a boa fortuna também muda.",
+  "lines": [
+   "As boas coisas se juntam; aja com os outros.",
+   "Seja compreensivo com os mais fracos e não esqueça os que estão longe.",
+   "Não há planície sem declive. Lembre-se disso nos bons tempos.",
+   "Desça até os outros sem superioridade; a sinceridade une.",
+   "Uma boa união traz bênção.",
+   "O muro desaba de volta no fosso. Não use a força agora; ponha em ordem os seus próprios assuntos."
+  ]
+ },
+ {
+  "n": 12,
+  "name": "A Estagnação",
+  "text": "As coisas não fluem e o entendimento é difícil de alcançar.",
+  "advice": "Não force. Mantenha os seus valores e espere passar sem se deixar levar para arranjos ruins.",
+  "lines": [
+   "Retire-se junto com os que são como você e mantenha os seus valores.",
+   "Suporte com paciência o que é difícil e não entre em arranjos ruins.",
+   "Uma vergonha escondida por dentro. Admita-a para si mesmo.",
+   "Aja de acordo com o que é mais elevado, e a estagnação começará a ceder.",
+   "A estagnação está acabando, mas cuidado: tudo ainda é frágil.",
+   "A estagnação se inverte: primeiro a dificuldade, depois a alegria."
+  ]
+ },
+ {
+  "n": 13,
+  "name": "A Comunidade entre as Pessoas",
+  "text": "As pessoas se reúnem em torno de um objetivo comum.",
+  "advice": "Aja às claras e procure o que é comum, não o que divide.",
+  "lines": [
+   "Comunidade no portão: abertura a todos sem exceção.",
+   "A comunidade apenas dentro do seu próprio círculo leva à humilhação.",
+   "Armas escondidas e desconfiança: nada de bom virá disso por anos.",
+   "Você sobe o muro, mas não ataca. Parar a tempo é boa fortuna.",
+   "Primeiro lágrimas, depois risos: um vínculo verdadeiro vence os obstáculos.",
+   "Comunidade nas bordas: você não se arrepende de nada, embora o objetivo ainda não tenha sido alcançado."
+  ]
+ },
+ {
+  "n": 14,
+  "name": "A Grande Posse",
+  "text": "Abundância, sucesso, muito em suas mãos.",
+  "advice": "Seja generoso e modesto: a prosperidade dura quando serve também aos outros.",
+  "lines": [
+   "Você possui muito, mas sem orgulho; assim evita o erro.",
+   "Uma grande carroça para carregar: você tem os recursos para fazer algo importante.",
+   "Reparta o que você tem; o egoísmo destruirá a prosperidade.",
+   "Não se vanglorie; a modéstia protege a riqueza.",
+   "A sinceridade unida à dignidade traz respeito.",
+   "Apoio vindo do alto: tudo é favorável."
+  ]
+ },
+ {
+  "n": 15,
+  "name": "A Modéstia",
+  "text": "Uma força que não precisa se mostrar.",
+  "advice": "Não se coloque acima dos outros. A modéstia nivela o que é desigual e abre portas.",
+  "lines": [
+   "Modesto duas vezes, você atravessará as grandes águas.",
+   "A modéstia que se mostra por fora traz boa fortuna.",
+   "A modéstia trabalhadora leva as coisas à conclusão.",
+   "Modéstia em ação: tudo corre bem.",
+   "Modéstia não significa passividade; às vezes é preciso agir com firmeza.",
+   "Modéstia consigo mesmo: ponha em ordem primeiro os seus assuntos."
+  ]
+ },
+ {
+  "n": 16,
+  "name": "O Entusiasmo",
+  "text": "Uma energia alegre que arrasta os outros.",
+  "advice": "Espalhe o seu zelo, mas prepare o terreno: o entusiasmo precisa de um plano.",
+  "lines": [
+   "Gabar-se do próprio entusiasmo traz infortúnio.",
+   "Firme como uma rocha: reconheça o momento e não se deixe levar.",
+   "Olhar para o alto com esperança sem agir leva ao arrependimento.",
+   "A fonte do entusiasmo: você atrai as pessoas pela sinceridade.",
+   "Uma longa doença sem morte: uma pressão duradoura que não quebra você.",
+   "Entusiasmo cego. Se você mudar, evitará o erro."
+  ]
+ },
+ {
+  "n": 17,
+  "name": "O Seguimento",
+  "text": "Adaptar-se ao curso das coisas e a alguém que guia.",
+  "advice": "Siga o que é certo, não o que é conveniente.",
+  "lines": [
+   "A situação muda. Saia de casa e busque contato com os outros.",
+   "Você se agarra ao pequeno e perde o grande. Escolha com sabedoria.",
+   "Você se agarra ao grande e perde o pequeno, e isso é bom.",
+   "Seguir com um objetivo oculto. Seja honesto consigo.",
+   "A sinceridade diante do que é bom traz boa fortuna.",
+   "Um vínculo profundo e difícil de romper. Permaneça nele."
+  ]
+ },
+ {
+  "n": 18,
+  "name": "A Reparação do Que Foi Estragado",
+  "text": "Algo negligenciado precisa ser posto em ordem.",
+  "advice": "Cuide da origem do problema, não dos sintomas. O reparo pede reflexão antes e depois.",
+  "lines": [
+   "Você repara o que o pai estragou: difícil, mas bom.",
+   "Você repara o que a mãe estragou: faça-o com delicadeza.",
+   "Você repara com força demais: um pouco de arrependimento, mas nenhum grande erro.",
+   "Tolerar o que está estragado leva à humilhação.",
+   "O reparo traz reconhecimento.",
+   "Você não serve a reis; cuida dos seus próprios valores."
+  ]
+ },
+ {
+  "n": 19,
+  "name": "A Aproximação",
+  "text": "Algo bom está chegando; um tempo de crescimento.",
+  "advice": "Aproveite este período, mas lembre-se de que toda estação passa.",
+  "lines": [
+   "Aproximar-se juntos: a perseverança traz boa fortuna.",
+   "Aproximar-se juntos: tudo é favorável.",
+   "Uma aproximação fácil e cômoda demais. Perceba isso e mude.",
+   "Uma aproximação completa: nenhum erro.",
+   "Uma aproximação sábia, digna de um líder.",
+   "Uma aproximação generosa: boa fortuna."
+  ]
+ },
+ {
+  "n": 20,
+  "name": "A Contemplação",
+  "text": "A vista do alto, a observação, a compreensão.",
+  "advice": "Pare e olhe. O seu exemplo diz mais que palavras.",
+  "lines": [
+   "Você olha como uma criança: serve para o simples, não basta para o sábio.",
+   "Você olha por uma fresta: uma visão estreita demais.",
+   "Olhe para a sua própria vida e decida se avança ou recua.",
+   "Você observa o esplendor dos outros: hora de ser convidado a uma mesa importante.",
+   "Olhe para si. Se você é íntegro, não há erro.",
+   "Olhe para a sua vida a distância."
+  ]
+ },
+ {
+  "n": 21,
+  "name": "Morder Através",
+  "text": "Um obstáculo que precisa ser rompido com decisão.",
+  "advice": "Dê nome ao problema e resolva-o com firmeza, mas com justiça.",
+  "lines": [
+   "Uma pequena penalidade no início evita um mal maior.",
+   "Você morde fundo demais, mas isso não é erro.",
+   "Comida dura e veneno: um pouco de vergonha, nenhum grande dano.",
+   "Um osso duro: a perseverança na dificuldade traz benefício.",
+   "Ouro na carne seca: seja justo e firme.",
+   "Uma lição aprendida tarde demais: você não escuta, então paga."
+  ]
+ },
+ {
+  "n": 22,
+  "name": "A Graça",
+  "text": "Beleza, forma, elegância.",
+  "advice": "Cuide da forma, mas não a confunda com o conteúdo. Assuntos importantes pedem mais que enfeite.",
+  "lines": [
+   "Adorne os seus passos: escolha o caminho modesto a pé, não a carruagem.",
+   "Enfeitar a barba: forma sem conteúdo não significa nada.",
+   "Beleza e frescor: mantenha os seus valores e tudo correrá bem.",
+   "Simplicidade ou esplendor? O branco é mais belo que os enfeites.",
+   "Um presente modesto de um coração sincero tem valor.",
+   "Branco simples: sem enfeites, sem erro."
+  ]
+ },
+ {
+  "n": 23,
+  "name": "A Desintegração",
+  "text": "Estruturas antigas estão desmoronando.",
+  "advice": "Não empreenda nada grande agora. Espere passar e cuide dos alicerces.",
+  "lines": [
+   "O pé da cama se desfaz: o colapso começa pela base.",
+   "O colapso chega à armação da cama. Fique alerta.",
+   "Afaste-se do que está desmoronando: sem culpa.",
+   "O colapso toca você. Pare e proteja o que puder.",
+   "Favor para quem permaneceu fiel: a melhora está chegando.",
+   "Um grande fruto que ficou sem ser comido: depois do colapso vem a renovação."
+  ]
+ },
+ {
+  "n": 24,
+  "name": "O Retorno",
+  "text": "O ponto de virada: a luz volta depois da escuridão.",
+  "advice": "Deixe o novo crescer devagar. Volte ao que é certo para você.",
+  "lines": [
+   "Um retorno de não muito longe: sem arrependimento, grande boa fortuna.",
+   "Um retorno tranquilo: bom.",
+   "Retornos repetidos: perigoso, mas sem erro.",
+   "Você caminha com outros, mas volta sozinho: esse é o seu caminho.",
+   "Um retorno nobre: sem arrependimento.",
+   "Um retorno perdido: desastre. Volte enquanto pode."
+  ]
+ },
+ {
+  "n": 25,
+  "name": "A Inocência",
+  "text": "Agir sem segundas intenções; simplicidade.",
+  "advice": "Seja sincero e espontâneo. Tramar fará mal agora.",
+  "lines": [
+   "A ação inocente traz boa fortuna.",
+   "Não conte com a colheita antes de semear; faça o que precisa ser feito.",
+   "Infortúnio imerecido: vai passar.",
+   "Permaneça na inocência: sem erro.",
+   "Uma doença que não é culpa sua: não force uma cura; passará sozinha.",
+   "Agir sem ordem agora traz dano. Espere passar."
+  ]
+ },
+ {
+  "n": 26,
+  "name": "O Poder Domesticador do Grande",
+  "text": "Energia, conhecimento e recursos acumulados.",
+  "advice": "Use o que você aprendeu. Bom momento para grandes empreendimentos.",
+  "lines": [
+   "Perigo. Pare.",
+   "Uma carroça sem eixo. Não parta agora.",
+   "Um bom cavalo corre: treine e esteja pronto para a estrada.",
+   "Põe-se uma tábua nos chifres de um touro jovem: previna antes que seja tarde.",
+   "Um javali castrado: dirija a força de forma indireta, não de frente.",
+   "O caminho para o céu está aberto: grande sucesso."
+  ]
+ },
+ {
+  "n": 27,
+  "name": "A Nutrição",
+  "text": "Cuide do que você alimenta: corpo, mente, palavras.",
+  "advice": "Preste atenção ao que você absorve e ao que oferece aos outros.",
+  "lines": [
+   "Você abandona a sua própria sabedoria e olha com inveja para os outros: um erro.",
+   "Você busca alimento nas pessoas erradas: não vale a pena.",
+   "Alimentar-se do que lhe faz mal: mude os seus hábitos.",
+   "Você busca apoio em quem é mais sábio que você: bom.",
+   "Você ainda não está pronto para grandes tarefas; fique com os seus.",
+   "Uma fonte de alimento para os outros: grande responsabilidade e boa fortuna."
+  ]
+ },
+ {
+  "n": 28,
+  "name": "A Preponderância do Grande",
+  "text": "O peso excede a sua força; a viga está cedendo.",
+  "advice": "Aja depressa, mas com cuidado: reduza a carga antes que algo quebre.",
+  "lines": [
+   "Cautela no início: estenda uma esteira branca por baixo.",
+   "Uma árvore velha lança brotos: uma nova vida é possível.",
+   "A viga se curva até quase quebrar. Não force.",
+   "A viga é escorada: bom, mas não se aproveite disso.",
+   "Uma árvore velha floresce: um efeito breve, sem profundidade.",
+   "Você atravessa a água acima da cabeça: um risco, mas sem culpa."
+  ]
+ },
+ {
+  "n": 29,
+  "name": "O Abismo",
+  "text": "Perigo; uma dificuldade que insiste em voltar.",
+  "advice": "Flua como a água: com constância e sem pânico. Mantenha a sua sinceridade interior.",
+  "lines": [
+   "Um abismo dentro do abismo: você cai mais fundo. Pare.",
+   "Perigo. Contente-se com pequenos passos.",
+   "O abismo está por toda parte. Não aja; espere.",
+   "A sinceridade simples basta, mesmo um presente modesto.",
+   "O abismo não transborda: as coisas vão se nivelar.",
+   "Enredado em dificuldades por muito tempo. Procure com paciência a saída."
+  ]
+ },
+ {
+  "n": 30,
+  "name": "O Aderente (O Fogo)",
+  "text": "Brilho, clareza, dependência do que sustenta você.",
+  "advice": "Brilhe, mas lembre-se de onde tira a sua força. Cuide das suas fontes.",
+  "lines": [
+   "Passos em desordem. Mantenha-se sério e atento.",
+   "Luz dourada: grande boa fortuna.",
+   "A luz do sol poente: faça as pazes com a transitoriedade.",
+   "Uma luz repentina logo se apaga. Não se deixe levar.",
+   "Lágrimas e suspiros: o arrependimento sincero traz uma mudança.",
+   "O rei parte: remova a causa e poupe o resto."
+  ]
+ },
+ {
+  "n": 31,
+  "name": "A Influência",
+  "text": "Atração mútua, corte, influência.",
+  "advice": "Seja aberto e receptivo. A verdadeira influência não precisa de pressão.",
+  "lines": [
+   "Influência nos dedos dos pés: por ora só uma intenção, sem efeito ainda.",
+   "Influência nas panturrilhas: não se mova com precipitação.",
+   "Influência nas coxas: seguir os outros sem pensar.",
+   "Perseverança e uma intenção sincera: a influência funciona.",
+   "Influência na nuca: sem arrependimento, mas também sem profundidade.",
+   "Influência na mandíbula: só palavras não bastam."
+  ]
+ },
+ {
+  "n": 32,
+  "name": "A Duração",
+  "text": "Constância, fidelidade, resistência.",
+  "advice": "Mantenha a direção escolhida: duração não significa ficar parado.",
+  "lines": [
+   "Você quer permanência rápido demais: nada virá disso.",
+   "O arrependimento desaparece; você se mantém na moderação.",
+   "Um caráter inconstante traz vergonha.",
+   "Uma caçada sem caça: você procura no lugar errado.",
+   "Uma constância que é boa numa coisa e ruim em outra. Seja flexível.",
+   "Agitação constante: nada duradouro virá disso."
+  ]
+ },
+ {
+  "n": 33,
+  "name": "O Recuo",
+  "text": "Uma retirada sábia quando forças opostas estão crescendo.",
+  "advice": "Retire-se a tempo e com dignidade. Não é fuga, é estratégia.",
+  "lines": [
+   "No fim do recuo há perigo. Não aja.",
+   "Segure firme: a lealdade traz segurança.",
+   "Um recuo ligado a outros: difícil, mas necessário.",
+   "Um recuo voluntário, benéfico para o sábio.",
+   "Um recuo amistoso: bom.",
+   "Um recuo alegre: tudo é favorável."
+  ]
+ },
+ {
+  "n": 34,
+  "name": "O Poder do Grande",
+  "text": "O poder em sua plenitude, mas fácil de abusar.",
+  "advice": "Use a sua força com cuidado e de acordo com o que é certo.",
+  "lines": [
+   "Força nas pernas: um movimento apressado traz problemas.",
+   "A perseverança traz boa fortuna.",
+   "O carneiro dá cabeçadas na cerca e emaranha os chifres. Não use a força.",
+   "A cerca se abre: o caminho está livre.",
+   "O carneiro se perde sem dificuldade: sem arrependimento.",
+   "O carneiro está preso na cerca. Admita a dificuldade, e então você encontrará a saída."
+  ]
+ },
+ {
+  "n": 35,
+  "name": "O Progresso",
+  "text": "Crescimento rápido, reconhecimento, o sol nascente.",
+  "advice": "Avance, mas compartilhe a luz com os outros.",
+  "lines": [
+   "O progresso está bloqueado. Mantenha a calma e a confiança.",
+   "Progresso em meio à tristeza: o apoio virá de alguém próximo.",
+   "Todos concordam: o arrependimento desaparece.",
+   "Progresso como o de um hamster: a ganância é perigosa.",
+   "Não se preocupe com ganhos e perdas; aja.",
+   "Progresso com chifres: use-os apenas contra si mesmo."
+  ]
+ },
+ {
+  "n": 36,
+  "name": "O Obscurecimento da Luz",
+  "text": "Um tempo difícil, em que é melhor não mostrar tudo.",
+  "advice": "Proteja a sua luz por dentro. Tenha cuidado, mas não abandone os seus princípios.",
+  "lines": [
+   "A luz enfraquece em voo. Parta, mesmo com fome.",
+   "Ferido, mas não vencido: busque ajuda depressa.",
+   "Caçando ao sul: você pegará o chefe, mas não tenha pressa.",
+   "Você penetra o coração da escuridão: vai compreender e partir.",
+   "Esconda a sua luz, como fez o sábio Jizi, e você resistirá.",
+   "A escuridão sobe ao auge e cai por si mesma."
+  ]
+ },
+ {
+  "n": 37,
+  "name": "A Família",
+  "text": "Lar, papéis, cuidado mútuo.",
+  "advice": "Ponha em ordem as relações próximas: tudo o mais começa aí.",
+  "lines": [
+   "Regras claras na família desde o início.",
+   "Cuide da casa e das refeições: a perseverança traz boa fortuna.",
+   "Rígido demais ou frouxo demais? Melhor um pouco de rigor.",
+   "A prosperidade da família: grande boa fortuna.",
+   "Um rei na sua própria casa: não tenha medo; tudo correrá bem.",
+   "Sinceridade e dignidade: boa fortuna no fim."
+  ]
+ },
+ {
+  "n": 38,
+  "name": "A Oposição",
+  "text": "Diferenças, direções divergentes.",
+  "advice": "O acordo é possível em pequenas questões. Não espere concordância em tudo.",
+  "lines": [
+   "Um cavalo perdido voltará por conta própria. Não corra atrás dele.",
+   "Você encontra o seu senhor numa ruela estreita: sem erro.",
+   "A carroça é retida, o boi é detido: começo difícil, final bom.",
+   "Sozinho na oposição: você encontrará um espírito afim.",
+   "O arrependimento desaparece: um amigo morde através da pele.",
+   "Você vê inimigos onde não há nenhum. Baixe o arco: são aliados."
+  ]
+ },
+ {
+  "n": 39,
+  "name": "O Obstáculo",
+  "text": "O caminho está bloqueado.",
+  "advice": "Pare, faça um balanço de si e peça ajuda. Às vezes é melhor contornar do que romper.",
+  "lines": [
+   "Avançar: obstáculos. Voltar: reconhecimento.",
+   "Obstáculo após obstáculo, mas não por culpa sua.",
+   "Avançar: obstáculos. Volte para os seus.",
+   "Avançar: obstáculos. Voltar: união.",
+   "Grandes obstáculos: chegam amigos.",
+   "Avançar: obstáculos. Voltar: grande boa fortuna."
+  ]
+ },
+ {
+  "n": 40,
+  "name": "A Libertação",
+  "text": "Alívio depois da tensão; a tempestade passa.",
+  "advice": "Perdoe, solte e volte à vida comum. Não prolongue a luta.",
+  "lines": [
+   "Sem erro. Descanse depois de um tempo difícil.",
+   "Três raposas capturadas, uma flecha dourada: a honestidade vence.",
+   "Você carrega uma carga e anda de carruagem, atraindo ladrões. Não se exiba.",
+   "Liberte-se de más companhias, e virá algo melhor.",
+   "A libertação por meio de uma mudança interior.",
+   "Um gavião é abatido do muro: o obstáculo é removido."
+  ]
+ },
+ {
+  "n": 41,
+  "name": "A Diminuição",
+  "text": "Algo precisa ser abandonado ou reduzido.",
+  "advice": "Simplifique e abra mão do excesso: menos pode dar mais.",
+  "lines": [
+   "Termine o seu trabalho e ajude os outros depressa, mas com moderação.",
+   "Ajude sem se perder.",
+   "Três caminham juntos e um parte; um caminha sozinho e encontra companhia.",
+   "Diminua as suas falhas e a alegria virá depressa.",
+   "Alguém enriquece você de forma inesperada. Aceite.",
+   "Aumento sem perda: bom."
+  ]
+ },
+ {
+  "n": 42,
+  "name": "O Aumento",
+  "text": "Crescimento, apoio, um vento favorável.",
+  "advice": "Aproveite a oportunidade para crescer e ajudar os outros.",
+  "lines": [
+   "Um tempo para uma grande obra: grande boa fortuna.",
+   "Alguém enriquece você: a perseverança traz boa fortuna.",
+   "Enriquecimento por meio de dificuldades: a sinceridade protege.",
+   "Agir como intermediário numa boa causa: vale a pena.",
+   "Um coração sincero: não pergunte; a boa fortuna é certa.",
+   "Ninguém enriquece você, e alguém pode prejudicá-lo. Mude de atitude."
+  ]
+ },
+ {
+  "n": 43,
+  "name": "A Decisão",
+  "text": "Resolução, decisão, uma saída para o impasse.",
+  "advice": "Diga a verdade com clareza, mas sem agressividade. Esteja pronto para as consequências.",
+  "lines": [
+   "Um começo forte demais: fracasso.",
+   "Vigilância na noite: não tenha medo.",
+   "Resolução na raiva: mantenha-se sereno.",
+   "Sem pele nas coxas: você anda com dificuldade. Ouça conselhos.",
+   "As ervas daninhas pedem resolução: aja no meio do caminho.",
+   "Sem aviso: o fim chega de repente."
+  ]
+ },
+ {
+  "n": 44,
+  "name": "O Encontro",
+  "text": "Um encontro inesperado, uma tentação.",
+  "advice": "Cuidado com o que você deixa entrar na sua vida. Nem tudo o que atrai você é bom.",
+  "lines": [
+   "Detenha isso de imediato: um freio de bronze.",
+   "Um peixe na bolsa: você está no controle. Não o divida com os convidados.",
+   "Sem pele nas coxas: dificuldades, mas nenhum grande erro.",
+   "Sem peixe na bolsa: você está perdendo o contato com as pessoas.",
+   "Um melão sob o salgueiro: uma beleza oculta está amadurecendo.",
+   "Encontro com chifres: humilhação, mas sem culpa."
+  ]
+ },
+ {
+  "n": 45,
+  "name": "A Reunião",
+  "text": "As pessoas se reúnem; um objetivo comum.",
+  "advice": "Reúna os outros em torno de valores e esteja preparado para o imprevisto.",
+  "lines": [
+   "Sinceridade incerta: a reunião ora vai, ora não. Peça ajuda.",
+   "Deixe-se levar: boa fortuna.",
+   "Reunião com um suspiro: um pouco de vergonha. Siga em frente.",
+   "Grande boa fortuna: sem erro.",
+   "Reunião com autoridade: fortaleça a confiança.",
+   "Lágrimas e suspiros: sem erro."
+  ]
+ },
+ {
+  "n": 46,
+  "name": "O Impulso para Cima",
+  "text": "Crescimento gradual, como uma árvore que sai da terra.",
+  "advice": "Vá passo a passo. O esforço agora trará um resultado duradouro.",
+  "lines": [
+   "Subir com confiança: grande boa fortuna.",
+   "A sinceridade basta, mesmo uma oferenda modesta.",
+   "Você entra numa cidade vazia: sem obstáculos.",
+   "O rei faz uma oferenda na montanha: boa fortuna.",
+   "Perseverança: você sobe passo a passo.",
+   "Subir no escuro: a perseverança é essencial."
+  ]
+ },
+ {
+  "n": 47,
+  "name": "A Opressão",
+  "text": "Exaustão, constrangimento.",
+  "advice": "Não perca a fé. Diga menos e aja com sabedoria: este tempo vai fortalecer você.",
+  "lines": [
+   "Você se senta sob uma árvore nua, abatido. Deixe o vale.",
+   "Opressão em meio a comida e bebida. Espere; a ajuda virá.",
+   "Oprimido por uma pedra: você se apoia no que fere.",
+   "A ajuda chega devagar: vergonha, mas um bom final.",
+   "Oprimido pelos que têm poder: a alegria vem devagar.",
+   "Oprimido por trepadeiras: aja, e o arrependimento passará."
+  ]
+ },
+ {
+  "n": 48,
+  "name": "O Poço",
+  "text": "Uma fonte inesgotável, um bem comum.",
+  "advice": "Cuide das suas fontes e compartilhe-as. Aprofunde-se em vez de ir para outro lugar.",
+  "lines": [
+   "Um poço lamacento: ninguém bebe dele.",
+   "Um poço com peixinhos e uma jarra rachada: potencial desperdiçado.",
+   "Um poço limpo sem uso: uma pena.",
+   "O poço está sendo consertado: sem erro.",
+   "Água limpa e fria: beba.",
+   "Um poço aberto a todos: grande boa fortuna."
+  ]
+ },
+ {
+  "n": 49,
+  "name": "A Revolução",
+  "text": "Mudança, reviravolta, trocar de pele.",
+  "advice": "Mude quando chegar a hora e quando você puder explicar por quê.",
+  "lines": [
+   "Envolvido em couro amarelo de boi: não mude agora.",
+   "O dia da mudança chegou: aja.",
+   "Uma mudança rápida demais faz mal. Converse sobre ela três vezes.",
+   "O arrependimento desaparece: mude por convicção.",
+   "A grande pessoa muda como um tigre: com clareza.",
+   "A pessoa nobre muda como uma pantera, mas não exagere."
+  ]
+ },
+ {
+  "n": 50,
+  "name": "O Caldeirão",
+  "text": "Transformação, alimento, cultura.",
+  "advice": "Cultive o que é valioso. Bons resultados precisam de tempo e de fogo.",
+  "lines": [
+   "O caldeirão virado de cabeça para baixo: tire o velho para abrir espaço.",
+   "O caldeirão está cheio: os invejosos não conseguem alcançá-lo.",
+   "A alça do caldeirão é trocada: uma dificuldade passageira.",
+   "A perna do caldeirão está quebrada: sobrecarga.",
+   "Alças amarelas, anéis dourados: favorável.",
+   "Anéis de jade: grande boa fortuna."
+  ]
+ },
+ {
+  "n": 51,
+  "name": "O Incitante (O Trovão)",
+  "text": "Um acontecimento repentino, um choque.",
+  "advice": "Mantenha a calma. O choque passa, e o que ele ensinou permanece.",
+  "lines": [
+   "O trovão chega: medo, depois riso.",
+   "Trovão em meio ao perigo: você perderá algo, mas o recuperará.",
+   "O trovão deixa você inquieto. Aja, para evitar o infortúnio.",
+   "Trovão na lama: paralisia.",
+   "Trovão aqui e ali: perigo, mas você não perde nada.",
+   "O trovão traz o caos. Não se mova agora."
+  ]
+ },
+ {
+  "n": 52,
+  "name": "O Aquietar (A Montanha)",
+  "text": "Calma, quietude, meditação.",
+  "advice": "Pare. Aja quando for hora de agir e fique parado quando for hora de ficar parado.",
+  "lines": [
+   "Mantenha os pés quietos: não comece o que não vai terminar.",
+   "Mantenha as panturrilhas quietas: você não pode ajudar aqueles a quem segue.",
+   "Mantenha os quadris quietos: a rigidez é perigosa.",
+   "Mantenha o tronco quieto: calma interior.",
+   "Mantenha a mandíbula quieta: fale com cuidado.",
+   "Quietude nobre: boa fortuna."
+  ]
+ },
+ {
+  "n": 53,
+  "name": "O Desenvolvimento Gradual",
+  "text": "Progresso lento e seguro.",
+  "advice": "Não tenha pressa: as coisas boas crescem devagar.",
+  "lines": [
+   "O ganso selvagem se aproxima da margem: juventude em perigo.",
+   "O ganso sobre uma rocha: coma e beba em paz.",
+   "O ganso no planalto: um homem sai e não volta.",
+   "O ganso numa árvore: encontrará um galho.",
+   "O ganso na colina: três anos sem filho, mas vitória.",
+   "O ganso se aproxima das nuvens: suas penas são usadas em cerimônias."
+  ]
+ },
+ {
+  "n": 54,
+  "name": "A Jovem que se Casa",
+  "text": "Uma situação em que você não tem pleno controle.",
+  "advice": "Adapte-se com dignidade e lembre-se da meta de longo prazo.",
+  "lines": [
+   "A segunda esposa: uma perna manca ainda avança.",
+   "O caolho consegue ver: mantenha a sua solidão.",
+   "Uma serva: espere a sua vez.",
+   "Um casamento adiado: o momento chegará.",
+   "A noiva modesta: mais bela que os enfeites.",
+   "Um cesto vazio: não traz nada."
+  ]
+ },
+ {
+  "n": 55,
+  "name": "A Abundância",
+  "text": "Plenitude, o auge, como o sol ao meio-dia.",
+  "advice": "Aproveite a plenitude sem temer que ela passe, e prepare-se com sabedoria para a mudança.",
+  "lines": [
+   "Você encontra o seu igual: sem erro por dez dias.",
+   "A plenitude esconde o sol: desconfiança. A sinceridade ajuda.",
+   "A plenitude oculta: uma mão perdida, sem culpa.",
+   "Você encontra um governante: boa fortuna.",
+   "Chegam talentos brilhantes: boa fortuna.",
+   "Uma casa cheia até a borda: solidão atrás das paredes."
+  ]
+ },
+ {
+  "n": 56,
+  "name": "O Viajante",
+  "text": "Viagem, estranheza, impermanência.",
+  "advice": "Seja cortês e cuidadoso em um lugar novo. Não crie raízes depressa demais.",
+  "lines": [
+   "O viajante ocupado com ninharias atrai problemas para si.",
+   "O viajante na pousada encontra um criado.",
+   "O viajante queima a pousada e perde o criado.",
+   "O viajante tem abrigo, mas um coração inquieto.",
+   "A flecha atinge o alvo: elogio e uma posição.",
+   "O pássaro queima o próprio ninho: riso, depois choro."
+  ]
+ },
+ {
+  "n": 57,
+  "name": "O Suave (O Vento)",
+  "text": "Uma penetração suave, mas constante.",
+  "advice": "Aja com suavidade e persistência: a água que goteja desgasta a pedra.",
+  "lines": [
+   "Para a frente e para trás: a disciplina ajuda.",
+   "Suavidade debaixo da cama: procure as causas.",
+   "Suavidade repetida: vergonha.",
+   "O arrependimento desaparece: três tipos de caça.",
+   "Perseverança: boa fortuna depois da mudança.",
+   "Suavidade debaixo da cama: perda."
+  ]
+ },
+ {
+  "n": 58,
+  "name": "O Sereno (O Lago)",
+  "text": "Alegria, conversa, prazer.",
+  "advice": "Compartilhe a sua alegria com os outros, mas não a confunda com indulgência.",
+  "lines": [
+   "Alegria harmoniosa: boa fortuna.",
+   "Alegria sincera: boa fortuna.",
+   "Alegria forçada: infortúnio.",
+   "Alegria que se negocia: incerteza constante.",
+   "Confiar no que destrói: perigo.",
+   "Alegria sedutora: tome cuidado."
+  ]
+ },
+ {
+  "n": 59,
+  "name": "A Dispersão",
+  "text": "Dissolver a rigidez e as divisões.",
+  "advice": "Solte o que divide. Um objetivo comum voltará a reunir as pessoas.",
+  "lines": [
+   "Ajude com a força de um cavalo: boa fortuna.",
+   "Dispersão: você corre para o que o apoia.",
+   "Dispersar o eu: sem arrependimento.",
+   "Dispersar o grupo: grande boa fortuna.",
+   "Dispersar um grande grito: sem erro.",
+   "Dispersar o sangue: sem culpa."
+  ]
+ },
+ {
+  "n": 60,
+  "name": "A Limitação",
+  "text": "Fronteiras, moderação, regras.",
+  "advice": "Estabeleça limites sensatos, mas não tão apertados que sufoquem.",
+  "lines": [
+   "Você não sai do pátio: sem erro.",
+   "Você não passa do portão: infortúnio.",
+   "Sem limites: arrependimento.",
+   "Limitação tranquila: sucesso.",
+   "Limitação agradável: boa fortuna.",
+   "Limitação amarga: a perseverança é perigosa."
+  ]
+ },
+ {
+  "n": 61,
+  "name": "A Verdade Interior",
+  "text": "Uma sinceridade que convence.",
+  "advice": "Seja honesto consigo e com os outros. A verdade alcança até os teimosos.",
+  "lines": [
+   "Prontidão tranquila: boa fortuna.",
+   "Uma grua chama na sombra e os filhotes respondem.",
+   "Você encontra um companheiro: ora o tambor, ora o choro.",
+   "A lua está quase cheia: o cavalo se afasta.",
+   "A sinceridade une: sem erro.",
+   "Uma pena de galo voa até o céu: a perseverança é perigosa."
+  ]
+ },
+ {
+  "n": 62,
+  "name": "A Preponderância do Pequeno",
+  "text": "Um tempo para as coisas pequenas, não para as grandes.",
+  "advice": "Atente aos detalhes e seja modesto. Não mire alto demais agora.",
+  "lines": [
+   "O pássaro voa: infortúnio.",
+   "Você passa pelo ancestral e encontra a mãe do ancestral: sem erro.",
+   "Não seja cauteloso demais; alguém pode machucar você.",
+   "Sem erro. Não avance.",
+   "Nuvens densas e nenhuma chuva: pegue o que está na caverna.",
+   "Você não encontra; passa ao largo. O pássaro voa para longe."
+  ]
+ },
+ {
+  "n": 63,
+  "name": "Depois da Conclusão",
+  "text": "Algo foi alcançado; tudo está no seu lugar.",
+  "advice": "Não se acomode nos louros. Cuide do que foi alcançado, pois a ordem se perde facilmente no final.",
+  "lines": [
+   "Você freia as rodas: sem erro.",
+   "A mulher perde o véu. Não procure; ele voltará depois de sete dias.",
+   "O grande ancestral ataca e vence depois de três anos.",
+   "Rachaduras no barco: fique de vigia o dia todo.",
+   "O vizinho do leste abate um boi; uma oferenda menor de um coração sincero importa mais.",
+   "Você molha a cabeça: perigo."
+  ]
+ },
+ {
+  "n": 64,
+  "name": "Antes da Conclusão",
+  "text": "Uma transição; ainda não é o fim.",
+  "advice": "O último passo pede a maior atenção. Não comemore cedo demais.",
+  "lines": [
+   "Você molha a cauda: vergonha.",
+   "Você freia as rodas: a perseverança traz boa fortuna.",
+   "Antes da conclusão, agir traz infortúnio, mas atravesse a água.",
+   "Perseverança: boa fortuna; o arrependimento desaparece.",
+   "A luz do sábio: boa fortuna.",
+   "Você bebe vinho com confiança: sem erro, mas não exagere."
+  ]
+ }
+]

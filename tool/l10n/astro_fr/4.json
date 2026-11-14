@@ -1,0 +1,37 @@
+{
+"dayTypes": {
+"fire": {"name": "Jour fruit", "text": "Lune dans un signe de Feu : selon la tradition jardinière, un bon jour pour les plantes à fruits et la cueillette."},
+"earth": {"name": "Jour racine", "text": "Lune dans un signe de Terre : un bon jour pour les légumes-racines, le repiquage et le travail du sol."},
+"air": {"name": "Jour fleur", "text": "Lune dans un signe d’Air : un bon jour pour les plantes à fleurs et pour couper des fleurs pour un vase."},
+"water": {"name": "Jour feuille", "text": "Lune dans un signe d’Eau : un bon jour pour les aromatiques, les salades et l’arrosage."}
+},
+"haircut": {
+"waxing": "La Lune est croissante : selon la tradition, les cheveux repoussent plus vite après la coupe.",
+"waning": "La Lune est décroissante : selon la tradition, une coupe garde sa forme plus longtemps."
+},
+"mercury": "Mercure rétrograde : vu de la Terre, il semble reculer dans le ciel. Dans la tradition astrologique, c’est un temps pour revoir, corriger et revenir sur d’anciennes affaires, pas pour signer des contrats à la hâte. Vérifiez deux fois vos messages et vos projets.",
+"transits": {
+"moonInSun": "La Lune est aujourd’hui dans votre signe solaire. Les émotions et les besoins sont plus à fleur de peau : une bonne journée pour faire quelque chose pour vous.",
+"moonInMoon": "La Lune est revenue dans le signe où elle se trouvait à votre naissance (retour lunaire). La tradition parle d’une journée de renouveau émotionnel. Remarquez ce dont vous avez vraiment besoin.",
+"moonInAsc": "La Lune traverse le signe de votre ascendant. Ce que vous ressentez se voit davantage, et les autres peuvent le percevoir plus facilement aujourd’hui.",
+"moonOpposite": "La Lune est dans le signe opposé à votre Soleil. Les tensions entre ce que vous voulez et ce que veulent les autres surgissent plus facilement. Cherchez un compromis.",
+"sunSeason": "Le Soleil est dans votre signe : c’est votre période de l’année. Un bon moment pour faire le bilan de l’année écoulée et fixer une nouvelle direction.",
+"mercuryInSun": "Mercure est rétrograde dans votre signe solaire. Les répétitions et les malentendus peuvent vous toucher davantage que les autres. Vérifiez deux fois ce que vous dites et ce que vous signez."
+},
+"rituals": {
+"new": {"title": "Rituel de nouvelle lune", "text": "La nouvelle lune est le début du cycle lunaire, traditionnellement le temps de semer des intentions. Installez-vous un moment au calme et notez ce que vous voulez commencer ou développer en vous au cours du mois qui vient.",
+"prompts": ["Que veux-je commencer dans ce cycle ?", "Quel petit pas ferai-je cette semaine ?", "De quoi ai-je besoin pour réussir ?"]},
+"full": {"title": "Rituel de pleine lune", "text": "La pleine lune est le sommet du cycle : un temps de récolte, de gratitude et de lâcher-prise. Revenez à votre intention de nouvelle lune et voyez ce qui s’est passé.",
+"prompts": ["Pour quoi ai-je de la gratitude aujourd’hui ?", "Qu’est-ce qui s’est bien passé depuis la nouvelle lune ?", "Que veux-je laisser partir avant le début du nouveau cycle ?"]}
+},
+"week": {
+"same": "Le Soleil traverse en ce moment un signe de votre élément. Une semaine où il est plus facile d’être soi-même et de réaliser ses projets. Profitez-en pour ce qui fait appel à vos forces.",
+"supportive": "Le Soleil est dans un signe d’un élément qui vous soutient. La semaine favorise les contacts, la coopération et les idées nouvelles : moins de résistance, plus de fluidité.",
+"neutral": "Le Soleil est dans un signe d’un élément neutre pour vous. Une semaine calme où beaucoup dépend de votre régularité. Concentrez-vous sur une chose importante.",
+"tense": "Le Soleil est dans un signe d’un élément qui vit à un autre rythme que le vôtre. La semaine peut demander patience et compromis. Ne forcez rien."
+},
+"eclipseText": {
+"solar": "Une éclipse solaire tombe à la nouvelle lune. Dans la tradition, c’est un puissant nouveau départ : le moment d’une intention qui comptera plus longtemps.",
+"lunar": "Une éclipse lunaire tombe à la pleine lune. Dans la tradition, c’est un temps de clôture et de révélation : un bon moment pour mettre fin à quelque chose."
+}
+}

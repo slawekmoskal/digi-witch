@@ -1,0 +1,144 @@
+Proche décédé | Nostalgie, souvenir, conversation inachevée. | Que voudriez-vous lui dire ?
+Avion | Ambitions, changements rapides, objectifs lointains. | Où voulez-vous vous envoler ?
+Ange | Besoin de soin et de soutien, ou sentiment que quelqu’un veille sur vous. | De qui ou de quoi aimeriez-vous recevoir du soutien aujourd’hui ?
+Animaux | Les instincts et les qualités que vous portez en vous. | De quel animal avez-vous rêvé, et qu’est-ce qui le caractérise ?
+Pomme | Tentation, connaissance, santé, fruit de votre travail. | Quels fruits récoltez-vous de vos efforts ?
+Dispute | Une tension qui n’a pas été exprimée à l’état de veille. | Que voulez-vous dire à quelqu’un ?
+Bébé dans les bras | Responsabilité envers quelque chose de nouveau et de fragile. | De quoi prenez-vous soin aujourd’hui ?
+Sac / valise | Le bagage de l’expérience ; ce que vous portez avec vous. | Que pouvez-vous enfin poser ?
+Balcon | Un regard à distance ; le désir de se montrer au monde. | Que voulez-vous voir avec plus de recul ?
+Banque | Ressources, sécurité, soin de ce que vous avez bâti. | Sur quoi repose votre sentiment de sécurité ?
+Bain | Purification, récupération, soin de soi. | Comment pouvez-vous prendre soin de vous ?
+Bataille | Un conflit intérieur ou une dispute dans laquelle vous êtes pris. | Pour quoi vous battez-vous vraiment ?
+Plage | Repos ; la frontière entre la terre ferme et l’émotion. | Quand vous accorderez-vous du repos ?
+Ruche / abeilles | Ardeur au travail, communauté, coopération fructueuse. | Avec qui formez-vous une équipe bien rodée ?
+Être poursuivi | Éviter quelque chose qui vous rattrape de toute façon. | Que se passerait-il si vous vous retourniez pour faire face ?
+Trahison | Peur de perdre confiance ; incertitude dans une relation. | À qui faites-vous confiance, et vous faites-vous confiance à vous-même ?
+Vélo | Équilibre, avancer par ses propres forces, effort. | Où devez-vous trouver votre équilibre ?
+Oiseau | Liberté, message, aspirations spirituelles. | Quel message voulez-vous envoyer ou recevoir ?
+Morsure | Être blessé par des mots ; sentiment d’être attaqué. | Qui ou quoi vous a blessé récemment ?
+Chat noir | Superstition et peur de la malchance, ou indépendance et mystère. | De quoi avez-vous peur sans raison claire ?
+Sang | Force vitale, liens familiaux, perte d’énergie. | Qu’est-ce qui épuise vos forces ?
+Bateau | Un voyage à travers les émotions ; la traversée vers l’autre rive. | Vers où naviguez-vous ?
+Bouteille | Émotions enfermées ; un message à transmettre. | Que gardez-vous sous bouchon ?
+Pont | Un passage, une entente, la jonction de deux mondes. | Quelles deux choses voulez-vous relier ?
+Frère | Rivalité, solidarité, ou une qualité que vous voyez en lui. | Laquelle de ses qualités reconnaissez-vous en vous ?
+Bus | Un trajet partagé avec d’autres ; vivre selon l’horaire de quelqu’un d’autre. | Allez-vous là où vous voulez aller, ou là où vont tous les autres ?
+Papillon | Transformation, légèreté, beauté des instants fugaces. | Quelle transformation traversez-vous ?
+Voiture | La maîtrise de la direction de votre vie. | Qui conduit : vous, ou quelqu’un d’autre ?
+Château | Une forteresse, un sentiment de sécurité, ou l’isolement. | Contre quoi vous défendez-vous ?
+Chat | Indépendance, intuition, féminité, mystère. | Où avez-vous besoin de plus d’indépendance ?
+Cimetière | Chapitres clos, mémoire, adieu. | Qu’est-ce qui est déjà terminé et peut reposer en paix ?
+Fromage | Tentation, récompense, petit plaisir. | De quoi avez-vous envie ?
+Enfant | Un nouveau départ, l’innocence, ou votre enfant intérieur. | De quoi votre enfant intérieur a-t-il besoin aujourd’hui ?
+Église / temple | Spiritualité, conscience, valeurs. | Qu’est-ce qui est sacré pour vous ?
+Ville | Société, agitation, occasions et anonymat. | Où est votre place dans la foule ?
+Horloge | Le temps qui passe, les échéances, la pression. | De quoi est-il grand temps ?
+Cercueil | Une affaire close, un adieu, la peur de la fin. | Que voulez-vous clore dignement ?
+Couronne | Pouvoir, reconnaissance, responsabilité. | Où voulez-vous vous sentir comme un roi ou une reine ?
+Danse | Joie, harmonie, le corps qui s’exprime. | Quand vous êtes-vous accordé de la joie pour la dernière fois ?
+Obscurité | L’inconnu, la peur, ou un espace que vous ne comprenez pas encore. | Que ne voulez-vous pas encore voir ?
+Fille | Votre côté plus jeune et sensible, ou le souci de l’avenir. | De quoi prenez-vous soin ?
+Mort | La fin d’une étape et le début d’une autre ; rarement au sens littéral. | Qu’est-ce qui s’achève dans votre vie ?
+Désert | Solitude et aridité, mais aussi purification. | Que vous manque-t-il, comme l’eau dans le désert ?
+Saleté | Quelque chose que vous jugez désordonné ou honteux. | Que voulez-vous faire disparaître de votre vie ?
+Chien | Fidélité, amitié, instinct de protection. | À qui êtes-vous fidèle, et qui vous est fidèle ?
+Porte | Une occasion nouvelle, un choix, un passage. | Quelle porte voulez-vous ouvrir, et laquelle fermer ?
+Noyade | Être submergé par les émotions ou les obligations. | Qu’est-ce qui vous submerge ?
+Canard | Passer librement d’un monde à l’autre ; légèreté. | Où avez-vous besoin de plus de légèreté ?
+Œuf | Potentiel, commencement, quelque chose de fragile à protéger. | Quelle chose fragile et prometteuse protégez-vous ?
+Ex-partenaire | Une affaire inachevée, ou une qualité que vous recherchez. | Que vous a appris cette relation ?
+Examen | Être jugé, peur de l’échec, se mettre à l’épreuve. | Qui vous juge vraiment : les autres, ou vous ?
+Chute | Perte de contrôle, incertitude, peur de l’échec. | Où perdez-vous pied ?
+Famille | Racines, liens, schémas que vous portez. | Quel schéma familial répétez-vous ?
+Père | Autorité, règles, protection, ou leur absence. | De qui cherchez-vous encore l’approbation ?
+Feu | Passion, colère, transformation, purification. | Qu’est-ce qui brûle en vous ?
+Poisson | Intuition, fécondité, abondance, profondeur. | Que repêchez-vous dans votre inconscient ?
+Fleurs | Épanouissement, beauté, gratitude, sentiments. | Qu’est-ce qui s’épanouit dans votre vie ?
+Voler | Liberté, s’affranchir des limites, ambition. | De quoi voulez-vous vous affranchir ?
+Forêt | L’inconnu, la nature, l’intuition, parfois l’égarement. | Que cherchez-vous au fond de la forêt ?
+Forêt la nuit | Peur de l’inconnu, mais aussi intuition. | À quoi vous fiez-vous quand vous ne voyez rien ?
+Grenouille | Transformation, purification, beauté qui ne saute pas aux yeux. | Qu’est-ce qui, en vous, peut encore se transformer ?
+Enterrement | La fin d’une étape ; l’adieu à quelque chose d’ancien. | Qu’est-ce qui est prêt à partir ?
+Jardin | Votre vie comme un espace à cultiver. | Qu’est-ce qui, dans votre jardin, demande de l’attention aujourd’hui ?
+Se perdre | Manque de direction ; incertitude face à un choix. | Quel chemin cherchez-vous ?
+Cadeau | Une surprise, de la reconnaissance, un talent. | Quel don découvrez-vous en vous ?
+Or | Valeur, réussite, ce qui est précieux en vous. | Quel est votre or ?
+Grand-mère | Sagesse familiale, chaleur, tradition, ou nostalgie de la simplicité. | Quel conseil votre grand-mère vous donnerait-elle maintenant ?
+Cheveux | Force, identité, image. | Que voulez-vous changer dans la façon dont vous vous présentez ?
+Cœur | Sentiments, amour, courage. | Que désire vraiment votre cœur ?
+Vacances | Besoin de repos et de liberté. | Quand prévoirez-vous une vraie pause ?
+Sans-abri | Manque de soutien ; sentiment de ne pas avoir de place à soi. | Où vous sentez-vous vraiment chez vous ?
+Miel | Douceur, récompense du travail, tendresse. | Quelle est votre douce récompense ?
+Cheval | Force, énergie, liberté, élan vers l’avant. | Où votre énergie vous emporte-t-elle ?
+Hôpital | Besoin de repos, de soins, de guérison. | De quoi avez-vous besoin pour aller mieux ?
+Maison | Vous-même : les différentes pièces sont différents aspects de votre vie. | Dans quelle pièce de cette maison entrez-vous le moins souvent ?
+Maison en feu | Émotions violentes, crise ou transformation. | Qu’est-ce qui demande une attention urgente ?
+Faim | Un besoin non satisfait, et pas seulement physique. | De quoi avez-vous faim dans la vie ?
+Glace | Sentiments figés, froideur dans une relation, immobilité. | Qu’est-ce qui s’est figé en vous ?
+Clé | Une solution, un accès, la révélation d’un secret. | De quoi cherchez-vous la clé ?
+Baiser | Proximité, acceptation, lien. | De qui ou de quoi voulez-vous vous rapprocher ?
+Couteau | Trancher, une décision, des mots durs ou un conflit. | Que voulez-vous couper ?
+Échelle | Ascension, étapes successives, montée vers un but. | Quel échelon voulez-vous atteindre ?
+Lac | Calme, profondeur des sentiments, reflet de soi. | Que voyez-vous quand vous regardez au fond de vous ?
+Ascenseur | Montées et descentes rapides ; changement de niveau. | Dans quel sens allez-vous : vers le haut ou vers le bas ?
+Objet perdu | La perte de quelque chose d’important : un objet, une relation, une part de soi. | Qu’est-ce qui vous manque ?
+Labyrinthe | Égarement, recherche du chemin, situation compliquée. | Quelle sortie cherchez-vous ?
+Miroir | Estime de soi, vérité sur soi, façon de se voir. | Que voyez-vous dans le miroir, et que voulez-vous y voir ?
+Argent | Valeur, énergie, estime de soi. | Combien valez-vous, selon vous ?
+Lune | Intuition, cycles, féminin, émotions cachées. | Que ressentez-vous sans le dire ?
+Mère | Soin, sécurité, origine, ou leur absence. | Comment pouvez-vous vous entourer de soin aujourd’hui ?
+Montagne | Un défi, un but, un obstacle ou une vue plus large. | Quelle montagne gravissez-vous ?
+Souris | Petits soucis, timidité, choses cachées. | Quel petit souci a pris de l’ampleur dans votre tête ?
+Boue | Être enlisé ; sentiment que tout colle et ralentit. | Qu’est-ce qui vous freine en ce moment ?
+Champignons | Quelque chose qui pousse à l’abri des regards ; un don de la nature, ou un appel à la prudence. | Qu’est-ce qui mûrit en silence ?
+Nudité | Exposition, vulnérabilité, peur d’être jugé. | Où vous sentez-vous trop exposé ?
+Océan | Une immensité d’émotions et de possibilités. | Dans cette immensité, vous sentez-vous libre ou perdu ?
+Hibou | Sagesse, intuition, capacité à voir dans l’obscurité. | Que savez-vous déjà, sans vous l’être encore avoué ?
+Grossesse | Une idée, un projet ou un changement qui mûrit et grandit. | Qu’est-ce qui mûrit en vous ?
+File d’attente | Attendre son tour ; patience. | Qu’attendez-vous ?
+Pluie | Purification, tristesse, ou nourriture après la sécheresse. | De quoi voulez-vous vous laver ?
+Arc-en-ciel | Espoir après une période difficile ; une promesse. | Quel bien est venu après la tempête ?
+Rat | Inquiétude, petites trahisons, ou débrouillardise. | Qu’est-ce qui vous ronge ?
+Rivière | Le temps qui passe, l’éphémère, le courant de la vie. | Suivez-vous le courant ou le remontez-vous ?
+Rose | Amour et beauté, mais aussi épines. | Quelles épines a ce que vous aimez ?
+S’enfuir | Éviter un problème ou une émotion. | Que fuyez-vous ?
+École | Apprendre, être évalué, anciens schémas et leçons. | Quelle leçon apprenez-vous encore ?
+Cri | Émotions non dites ; besoin d’être entendu. | Que voulez-vous crier ?
+Mer | L’immensité des sentiments, l’inconscient, des possibilités sans fin. | Quelle est la profondeur de vos sentiments à ce sujet ?
+Chaussures | Le chemin que vous suivez et votre place dans le monde. | Vos chaussures, votre rôle, vous vont-elles bien ?
+Sœur | Proximité, rivalité, ou une qualité que vous voyez en elle. | Qu’est-ce qui vous lie aux personnes proches comme des frères et sœurs ?
+Ciel | Espoir, espace, spiritualité. | Qu’attendez-vous de la vie quand il n’y a pas de limites ?
+Paralysie du sommeil / ne pas pouvoir bouger | Impuissance face à quelque chose. Fréquente au réveil sur le plan physiologique. | Où avez-vous l’impression d’avoir les mains liées ?
+Serpent | Transformation, renouveau, peur cachée ou sagesse. | Quelle peau êtes-vous prêt à quitter ?
+Neige | Silence, pureté, immobilité, froid. | Où avez-vous besoin de calme ?
+Araignée | Patience, tissage d’une toile, parfois sentiment d’être piégé. | Dans quelle toile êtes-vous pris, ou laquelle tissez-vous ?
+Étoiles | Rêves, espoir, orientation. | À quoi aspirez-vous ?
+Pierre | Permanence, poids, ou cœur endurci. | Qu’est-ce qui pèse sur vous comme une pierre ?
+Cigogne | Une nouvelle vie, un nouveau projet ou l’annonce d’un changement. | Quelle chose nouvelle veut naître en vous ?
+Tempête | Une tension accumulée qui cherche une issue. | Quelles émotions attendent d’être exprimées ?
+Soleil | Joie, énergie, clarté, réussite. | Qu’est-ce qui vous donne de la lumière ?
+Sucreries | Plaisir, récompense, parfois une fuite devant ce qui est difficile. | Comment vous récompensez-vous aujourd’hui ?
+Balançoire | Sautes d’humeur ; retour à l’enfance. | Entre quoi hésitez-vous ?
+Thé | Une pause, du réconfort, une conversation avec des proches. | Quand vous êtes-vous vraiment reposé pour la dernière fois ?
+Larmes | Soulagement, tristesse, purification. | Qu’est-ce qui demande à être pleuré ?
+Dents qui tombent | Peur de perdre, de vieillir, pour son image ; l’un des rêves les plus fréquents. | Qu’avez-vous peur de perdre ?
+Téléphone | Communication, message, contact avec quelqu’un. | Qui voulez-vous appeler ?
+Temps (retard) | Pression ; sentiment que quelque chose vous échappe. | De quoi manquez-vous vraiment de temps ?
+Tortue | Patience, progrès lent, protection. | Où vaut-il la peine de ralentir ?
+Train | La direction de votre vie, un horaire, une voie difficile à quitter. | Montez-vous dans le bon train ?
+Trésor | Valeur cachée, talent, découverte. | Quel trésor portez-vous en vous ?
+Arbre | Croissance, racines, famille, stabilité. | Où puisez-vous votre force, comme l’arbre dans ses racines ?
+Mur | Un obstacle, une limite, une protection. | Qu’est-ce qui vous bloque, et est-ce une protection ou une prison ?
+Guerre | Un grand conflit, extérieur ou intérieur. | Avec qui ou avec quoi êtes-vous en guerre ?
+Eau | Émotions et inconscient : une eau claire signifie le calme, une eau trouble l’inquiétude. | À quoi ressemble l’eau de vos émotions en ce moment ?
+Vague | Des émotions fortes qui vont et viennent. | Sur quelle vague d’émotion surfez-vous en ce moment ?
+Cérémonie de mariage | Union, engagement, réunion de deux parts de soi. | Que voulez-vous réunir en vous ?
+Noce | Fête, union, communauté. | Que voulez-vous célébrer ?
+Alliance | Engagement, relation, fidélité à soi-même. | À quoi êtes-vous fidèle ?
+Blanc | Pureté, nouveau départ, mais aussi un vide qui attend d’être rempli. | Que voudriez-vous commencer sur une page blanche ?
+Vent | Changement, mouvement, quelque chose qu’on ne peut arrêter. | Quel vent de changement sentez-vous ?
+Fenêtre | Une vue sur le monde, une perspective, l’espoir. | Que voyez-vous par votre fenêtre ?
+Loup | Instinct, force, fidélité de la meute, ou menace. | Êtes-vous un loup solitaire, ou cherchez-vous une meute ?
+Travail | Obligations, ambitions, stress du quotidien. | Le travail prend-il trop de place dans votre vie ?
+Blessure | Une blessure qui demande de l’attention. | Qu’est-ce qui n’a pas encore guéri ?

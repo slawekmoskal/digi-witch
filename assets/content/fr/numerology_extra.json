@@ -1,0 +1,109 @@
+{
+  "square": {
+    "1": {"title": "Caractère", "levels": [
+      "Aucun 1 : vous construisez votre volonté consciemment, et travailler votre affirmation de soi porte ses fruits.",
+      "Un 1 : un caractère doux ; vous cédez facilement aux autres.",
+      "Deux 1 : un caractère équilibré. Vous savez défendre votre point de vue sans forcer.",
+      "Trois : une volonté forte et un besoin de diriger ; méfiez-vous de l’entêtement.",
+      "Quatre ou plus : une volonté très forte, qui tourne facilement à l’entêtement et au désir de contrôler les autres. Il vaut la peine de cultiver la souplesse."]},
+    "2": {"title": "Énergie", "levels": [
+      "Aucun 2 : vous puisez votre énergie dans les autres et dans le repos ; veillez à bien récupérer.",
+      "Un 2 : assez d’énergie pour le quotidien, mais elle s’épuise vite quand il se passe trop de choses.",
+      "Deux 2 : une bonne réserve d’énergie et une sensibilité à votre entourage.",
+      "Trois : beaucoup d’énergie, qui a besoin d’un exutoire pour ne pas tourner à la nervosité.",
+      "Quatre ou plus : une énergie énorme qui peut basculer dans l’hypersensibilité ; le mouvement et le repos sont nécessaires."]},
+    "3": {"title": "Curiosité", "levels": [
+      "Aucun 3 : vous apprenez par la pratique, par l’expérience plus que dans les livres.",
+      "Un 3 : une curiosité pour le monde qui a besoin d’un but concret.",
+      "Deux 3 : un don pour les sciences exactes, l’ordre et l’analyse.",
+      "Trois : un esprit de chercheur ; apprendre des choses nouvelles vous est facile.",
+      "Quatre ou plus : un esprit scientifique, parfois trop plongé dans l’analyse. Revenir au concret aide."]},
+    "4": {"title": "Santé", "levels": [
+      "Aucun 4 : la tradition parle d’un besoin de prendre particulièrement soin de votre forme, avec du mouvement et un rythme régulier.",
+      "Un 4 : une endurance moyenne que de bonnes habitudes renforcent facilement.",
+      "Deux 4 : une bonne forme et une bonne résistance.",
+      "Trois : une grande endurance physique, souvent le goût du sport.",
+      "Quatre ou plus : une grande endurance physique ; veillez à ne pas surmener votre corps."]},
+    "5": {"title": "Intuition", "levels": [
+      "Aucun 5 : mieux vaut décider après réflexion et avec un plan.",
+      "Un 5 : l’intuition fonctionne, mais les doutes la couvrent parfois.",
+      "Deux 5 : une bonne intuition alliée à la logique ; vous jugez les situations avec justesse.",
+      "Trois : de forts pressentiments ; ils méritent votre confiance, mais vérifiez les faits.",
+      "Quatre ou plus : une intuition remarquable. Faites-lui confiance, sans renoncer aux faits."]},
+    "6": {"title": "Travail", "levels": [
+      "Aucun 6 : vous vous sentez mieux dans un travail intellectuel que manuel.",
+      "Un 6 : le travail physique est plutôt une nécessité qu’un plaisir.",
+      "Deux 6 : des mains habiles, un talent pour l’artisanat et les choses pratiques.",
+      "Trois : un besoin de fabriquer quelque chose de concret ; le travail vous équilibre.",
+      "Quatre ou plus : un fort besoin de travail manuel et de création d’objets ; rester inactif vous est difficile."]},
+    "7": {"title": "Talent", "levels": [
+      "Aucun 7 : le succès vient de la persévérance, pas du hasard.",
+      "Un 7 : un talent caché qui mérite d’être découvert.",
+      "Deux 7 : un talent évident et de la « chance » dans ce que vous faites.",
+      "Trois : de nombreux talents ; l’important est d’en choisir un et de le développer.",
+      "Quatre ou plus : de nombreux talents, mais aussi une tendance à vous disperser. Choisissez une voie."]},
+    "8": {"title": "Devoir", "levels": [
+      "Aucun 8 : une approche détendue des obligations ; des règles claires aident.",
+      "Un 8 : le sens des responsabilités vient avec l’âge et l’expérience.",
+      "Deux 8 : un sens aigu du devoir et du soin des autres.",
+      "Trois : une grande responsabilité. N’oubliez pas de ne pas tout porter seul.",
+      "Quatre ou plus : un sens du devoir très fort. N’oubliez pas que vous n’avez pas à sauver tout le monde."]},
+    "9": {"title": "Mémoire", "levels": [
+      "Aucun 9 : vous retenez mieux en faisant qu’en écoutant.",
+      "Un 9 : une bonne mémoire que l’entraînement développe.",
+      "Deux 9 : un esprit vif et une bonne mémoire.",
+      "Trois : une mémoire exceptionnelle et une pensée rapide.",
+      "Quatre ou plus : une mémoire et une vivacité remarquables ; accordez du repos à votre esprit."]}
+  },
+  "pinnacles": {
+    "1": {"title": "Réalisation de l’indépendance", "text": "Une étape où l’on tient sur ses propres jambes : décisions, initiative, courage de suivre sa voie. Comment en profiter : prenez vos propres décisions et lancez des choses nouvelles, même sans être sûr de vous."},
+    "2": {"title": "Réalisation de la coopération", "text": "Une étape de relations et de partenariat : patience, diplomatie, ponts entre les personnes. Comment en profiter : investissez dans les relations, écoutez et apprenez à travailler avec les autres. Le succès viendra par les gens."},
+    "3": {"title": "Réalisation de l’expression", "text": "Une étape de créativité, de contacts et de joie ; un bon moment pour montrer au monde ce que vous avez à dire. Comment en profiter : créez, écrivez, montez sur scène, rencontrez des gens. Votre expression ouvre des portes."},
+    "4": {"title": "Réalisation de la construction", "text": "Une étape de travail de fond : stabilité, foyer, finances, efforts réguliers qui paient. Comment en profiter : posez des bases solides, comme la formation, l’épargne et un foyer. La patience paie."},
+    "5": {"title": "Réalisation du changement", "text": "Une étape de mouvement, de voyages et d’expériences nouvelles : beaucoup de changements, peu d’ennui. Comment en profiter : voyagez, apprenez, changez, mais choisissez des changements qui ont du sens."},
+    "6": {"title": "Réalisation du soin", "text": "Une étape de famille, de foyer et de responsabilité envers les autres ; des relations et des engagements importants. Comment en profiter : prenez soin de votre foyer et de vos proches, sans oublier vos propres besoins."},
+    "7": {"title": "Réalisation de la quête", "text": "Une étape de réflexion, d’étude et d’approfondissement de soi, avec plus de questions sur le sens que sur le confort. Comment en profiter : accordez-vous du temps pour l’étude, la réflexion et la spiritualité. Les réponses viendront de l’intérieur."},
+    "8": {"title": "Réalisation de la capacité d’agir", "text": "Une étape de carrière, d’influence et d’argent ; un temps pour des objectifs ambitieux et une gestion mûre des ressources. Comment en profiter : fixez-vous des objectifs ambitieux et gérez sagement vos ressources. C’est un temps d’influence."},
+    "9": {"title": "Réalisation de l’accomplissement", "text": "Une étape de vision large, de partage de l’expérience et de clôture des anciens chapitres. Comment en profiter : partagez votre expérience, aidez les autres et fermez ce qui a fait son temps."}
+  },
+  "challenges": {
+    "0": {"title": "Défi du choix", "text": "Il n’y a pas de thème unique ; le défi consiste à choisir ce que vous voulez apprendre. Toutes les voies sont ouvertes. Conseil : écoutez votre intuition pour choisir. Aucune voie ne vous est imposée."},
+    "1": {"title": "Défi de l’indépendance", "text": "Apprendre à s’exprimer et à poser des limites, sans céder et sans s’entêter. Conseil : entraînez-vous à dire « je veux » et « je ne veux pas », calmement mais fermement."},
+    "2": {"title": "Défi de la sensibilité", "text": "Apprendre à ne pas tout prendre personnellement et à ne pas s’effacer pour avoir la paix. Conseil : ne prenez pas sur vous l’humeur des autres ; vos besoins comptent aussi."},
+    "3": {"title": "Défi de l’expression", "text": "Apprendre à parler de ses sentiments et à montrer son travail créatif malgré la critique. Conseil : partagez ce que vous créez avant que ce soit parfait."},
+    "4": {"title": "Défi de l’ordre", "text": "Apprendre la discipline et la patience, sans rigidité et sans chaos. Conseil : de petits pas réguliers plutôt que des coups de collier et du désordre."},
+    "5": {"title": "Défi de la liberté", "text": "Apprendre à utiliser sa liberté avec sagesse, sans fuir et sans tout abandonner d’un coup. Conseil : avant de vous évader vers quelque chose de nouveau, vérifiez ce que vous fuyez."},
+    "6": {"title": "Défi de la responsabilité", "text": "Apprendre à prendre soin des autres sans les contrôler et sans s’oublier. Conseil : aidez, mais ne sauvez personne contre son gré, et ne contrôlez pas."},
+    "7": {"title": "Défi de la confiance", "text": "Apprendre l’ouverture et la confiance en soi, dans les autres et dans la vie. Conseil : faites assez confiance à quelqu’un pour lui dire ce que vous pensez vraiment."},
+    "8": {"title": "Défi du pouvoir et de l’argent", "text": "Apprendre un rapport sain à l’argent, à l’ambition et au contrôle. Conseil : l’argent et le pouvoir sont des outils. Demandez-vous à quoi ils doivent servir."}
+  },
+  "karmicDebts": {
+    "13": {"title": "Dette karmique 13", "text": "Dans la tradition numérologique, le 13 représente une leçon de travail et de persévérance : les raccourcis faciles fonctionnent rarement, l’effort patient apporte des résultats durables."},
+    "14": {"title": "Dette karmique 14", "text": "Le 14 est une leçon de modération et de liberté : apprendre à profiter de sa liberté sans excès et sans fuir les engagements."},
+    "16": {"title": "Dette karmique 16", "text": "Le 16 est une leçon d’humilité et de reconstruction : parfois, quelque chose doit s’effondrer pour qu’une chose plus vraie prenne sa place."},
+    "19": {"title": "Dette karmique 19", "text": "Le 19 est une leçon d’autonomie qui n’exclut pas de demander de l’aide : la force grandit quand on se laisse soutenir par les autres."}
+  },
+  "karmicLessons": {
+    "1": "Leçon 1 : apprendre à croire en soi et à décider sans regarder les autres.",
+    "2": "Leçon 2 : apprendre la patience, la coopération et l’écoute.",
+    "3": "Leçon 3 : apprendre à s’exprimer et à partager la joie.",
+    "4": "Leçon 4 : apprendre la méthode, l’ordre et l’art d’aller au bout des choses.",
+    "5": "Leçon 5 : apprendre la souplesse et l’ouverture au changement.",
+    "6": "Leçon 6 : apprendre à prendre la responsabilité de ses proches, et de soi-même.",
+    "7": "Leçon 7 : apprendre à faire confiance à son intuition et à prendre le temps de réfléchir.",
+    "8": "Leçon 8 : apprendre un rapport sain à l’argent et à sa propre force.",
+    "9": "Leçon 9 : apprendre la compassion et regarder au-delà de ses propres affaires."
+  },
+  "keywords": {
+    "1": "commencement, courage, indépendance",
+    "2": "coopération, patience, douceur",
+    "3": "joie, créativité, conversation",
+    "4": "ordre, stabilité, travail",
+    "5": "changement, mouvement, liberté",
+    "6": "foyer, soin, harmonie",
+    "7": "réflexion, intuition, savoir",
+    "8": "capacité d’agir, réussite, responsabilité",
+    "9": "accomplissement, compassion, vision large"
+  },
+  "dayColors": {"1": "rouge", "2": "orange", "3": "jaune", "4": "vert", "5": "bleu", "6": "indigo", "7": "violet", "8": "rose", "9": "or"}
+}

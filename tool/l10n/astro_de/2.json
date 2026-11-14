@@ -1,0 +1,101 @@
+{
+"chinese": [
+{"id": "rat", "name": "Ratte", "text": "Schlagfertig, einfallsreich und gesellig; erkennt Gelegenheiten schnell.",
+"long": "Die Ratte eröffnet den chinesischen Tierkreis. Sie ist das Zeichen der Klugheit, des Einfallsreichtums und des schnellen Denkens; sie sieht eine Chance, wo andere ein Problem sehen. Die Ratte ist gesellig und fühlt sich unter Menschen wohl, wählt enge Freunde aber mit Bedacht. Die Herausforderung: Nervosität und die Neigung, „für alle Fälle“ zu horten.",
+"love": "In der Liebe ist die Ratte zärtlich und hingebungsvoll, anfangs aber vorsichtig. Sie schätzt einen klugen und treuen Menschen an ihrer Seite.",
+"work": "Im Beruf ist die Ratte gut im Geschäftsleben, im Handel und überall dort, wo man eine Gelegenheit schnell erkennen muss."},
+{"id": "ox", "name": "Büffel", "text": "Geduldig, fleißig und verlässlich; erreicht das Ziel Schritt für Schritt.",
+"long": "Der Büffel (auch Ochse) steht für Fleiß, Geduld und Verlässlichkeit. Er arbeitet methodisch und mag weder Eile noch Überraschungen, hält aber ein gegebenes Versprechen. Die Herausforderung: Sturheit und die Schwierigkeit, um Hilfe zu bitten.",
+"love": "In der Liebe ist der Büffel treu und beständig und zeigt Gefühle eher durch Taten als durch Worte.",
+"work": "Im Beruf ist der Büffel verlässlich und gut in Aufgaben, die Geduld, Genauigkeit und Verantwortung verlangen."},
+{"id": "tiger", "name": "Tiger", "text": "Mutig, voller Energie und unabhängig; scheut keine Herausforderung.",
+"long": "Der Tiger steht für Mut, Energie und das Bedürfnis nach Unabhängigkeit. Er liebt Herausforderungen und setzt sich für Schwächere ein. Er kann hitzköpfig und ungeduldig sein, doch seine Begeisterung reißt andere mit.",
+"love": "In der Liebe ist der Tiger leidenschaftlich und spontan und braucht einen Menschen, der ihm Freiraum lässt.",
+"work": "Im Beruf fühlt sich der Tiger als Führungskraft, als Unternehmer oder überall dort wohl, wo Mut zählt."},
+{"id": "rabbit", "name": "Hase", "text": "Sanft, taktvoll und empfänglich für Schönheit; schätzt den Frieden.",
+"long": "Der Hase (in Vietnam die Katze) steht für Takt, Sanftheit und Sinn für Schönheit. Er meidet Konflikte und schätzt Frieden und gute Beziehungen. Die Herausforderung: schwierigen Entscheidungen auszuweichen und übervorsichtig zu sein.",
+"love": "In der Liebe ist der Hase zärtlich und romantisch und sucht eine ruhige, harmonische Beziehung.",
+"work": "Im Beruf ist der Hase gut in Diplomatie, Kunst, Design und in der Arbeit mit Menschen."},
+{"id": "dragon", "name": "Drache", "text": "Charismatisch, ehrgeizig und selbstbewusst; liebt große Pläne.",
+"long": "Der Drache ist das einzige Fabelwesen im Tierkreis, ein Symbol für Macht, Glück und Ausstrahlung. Er hat große Pläne und die Energie, sie umzusetzen. Die Herausforderung: Stolz und Ungeduld mit den Schwächen anderer.",
+"love": "In der Liebe ist der Drache leidenschaftlich und großzügig, braucht aber Bewunderung und Freiheit.",
+"work": "Im Beruf strebt der Drache nach großen Zielen und ist gut in Leitungsrollen und Großprojekten."},
+{"id": "snake", "name": "Schlange", "text": "Weise, intuitiv und besonnen; sieht mehr, als sie zeigt.",
+"long": "Die Schlange steht für Weisheit, Intuition und Eleganz. Sie denkt, bevor sie handelt, und sieht mehr, als sie sagt. Die Herausforderung: Verschlossenheit und Misstrauen.",
+"love": "In der Liebe ist die Schlange sinnlich und treu, aber eifersüchtig auf das, was ihr wichtig ist.",
+"work": "Im Beruf ist die Schlange gut in Analyse, Strategie, Finanzen und überall dort, wo Durchblick zählt."},
+{"id": "horse", "name": "Pferd", "text": "Ein freier Geist, energisch und ehrlich; braucht Bewegung und Weite.",
+"long": "Das Pferd ist ein freier Geist: Energie, Ehrlichkeit und das Bedürfnis nach Bewegung. Es steht gern im Mittelpunkt und handelt schnell. Die Herausforderung: Ungeduld und die Schwierigkeit, Begonnenes zu beenden.",
+"love": "In der Liebe ist das Pferd ehrlich und begeisterungsfähig und braucht gemeinsame Abenteuer und Freiheit.",
+"work": "Im Beruf ist das Pferd in Bewegung am glücklichsten: auf Reisen, im Verkauf, im Sport und in schnellen Projekten."},
+{"id": "goat", "name": "Ziege", "text": "Kreativ, sanft und einfühlsam; fühlt sich in Harmonie wohl.",
+"long": "Die Ziege (oder das Schaf) steht für Kreativität, Sanftheit und Einfühlungsvermögen. Sie braucht Harmonie und eine sichere Umgebung, um aufzublühen. Die Herausforderung: Grübeln und die Abhängigkeit von der Meinung anderer.",
+"love": "In der Liebe ist die Ziege sanft und fürsorglich und braucht Sicherheit und Zärtlichkeit.",
+"work": "Im Beruf ist die Ziege gut in der Kunst, in der Pflege, in kreativer Arbeit und in Teams mit gutem Klima."},
+{"id": "monkey", "name": "Affe", "text": "Erfinderisch, witzig und neugierig auf die Welt; lernt schnell.",
+"long": "Der Affe steht für Erfindungsgeist, Witz und Neugier auf die Welt. Er lernt schnell und findet ungewöhnliche Lösungen. Die Herausforderung: Zerstreutheit und die Neigung zu Abkürzungen.",
+"love": "In der Liebe ist der Affe unterhaltsam und einfallsreich, und Langeweile ist sein schlimmster Feind.",
+"work": "Im Beruf ist der Affe gut in Technik, Handel, Unterhaltung und überall dort, wo unkonventionelles Denken gefragt ist."},
+{"id": "rooster", "name": "Hahn", "text": "Fleißig, ehrlich und genau; liebt Ordnung und klare Regeln.",
+"long": "Der Hahn steht für Ehrlichkeit, Fleiß und Liebe zum Detail. Er mag Ordnung und sagt offen, was er denkt. Die Herausforderung: Kritiksucht und Perfektionismus.",
+"love": "In der Liebe ist der Hahn treu und fürsorglich, manchmal aber kritisch; seine Gefühle zeigt er durch Aufmerksamkeit für Details.",
+"work": "Im Beruf ist der Hahn gut in Organisation, Buchhaltung, Militär, Medizin und Aufgaben, die Genauigkeit verlangen."},
+{"id": "dog", "name": "Hund", "text": "Treu, ehrlich und beschützend; steht auf der Seite der Schwächeren.",
+"long": "Der Hund steht für Treue, Ehrlichkeit und Gerechtigkeitssinn. Er ist ein hingebungsvoller Freund und Beschützer seiner Liebsten. Die Herausforderung: Ängstlichkeit und Pessimismus.",
+"love": "In der Liebe gehört der Hund zu den treuesten Zeichen: aufrichtig und hingebungsvoll.",
+"work": "Im Beruf ist der Hund gut in helfenden Berufen, im Recht, im Schutz anderer und in der Bildung."},
+{"id": "pig", "name": "Schwein", "text": "Großzügig, gütig und fröhlich; weiß das Leben zu genießen.",
+"long": "Das Schwein (oder der Eber) steht für Großzügigkeit, Güte und Lebensfreude. Es vertraut Menschen und kann genießen. Die Herausforderung: Naivität und die Schwierigkeit, Nein zu sagen.",
+"love": "In der Liebe ist das Schwein großzügig, warmherzig und romantisch und vertraut leicht.",
+"work": "Im Beruf ist das Schwein gut in Gastronomie und Gastgewerbe, in der Pflege, in der Kunst und in der Arbeit mit Menschen – überall, wo Güte zählt."}
+],
+"phases": [
+{"name": "Neumond", "text": "Neumond ist Zeit der Aussaat. Fasse eine Absicht und beginne etwas im Stillen. Du musst es noch niemandem zeigen."},
+{"name": "Zunehmende Sichel", "text": "Der Mond wächst, und die Energie nimmt zu. Eine gute Zeit für erste Schritte und um zu sammeln, was du brauchst."},
+{"name": "Erstes Viertel", "text": "Das erste Viertel bringt die ersten Hindernisse. Gib nicht auf: Triff eine Entscheidung und handle trotz des Widerstands."},
+{"name": "Zunehmender Mond", "text": "Der Mond ist fast voll. Feile an den Details und bring in Ordnung, was nicht funktioniert. Das Ergebnis ist nah."},
+{"name": "Vollmond", "text": "Der Vollmond bringt alles ans Licht und verstärkt die Gefühle. Du siehst die Ergebnisse deines Handelns. Feiere, aber entscheide nicht aus dem Bauch heraus."},
+{"name": "Abnehmender Mond", "text": "Nach dem Vollmond kommt eine Zeit der Dankbarkeit und des Teilens. Zieh Bilanz aus dem, was du gelernt hast."},
+{"name": "Letztes Viertel", "text": "Das letzte Viertel ist Zeit zum Aufräumen. Lass los, was du nicht brauchst: abschließen, weggeben, wegwerfen."},
+{"name": "Abnehmende Sichel", "text": "Der Mond schwindet vor dem Neumond. Werde langsamer, ruh dich aus und komm zur Ruhe. Ein neuer Zyklus beginnt bald."}
+],
+"today": {
+"same": [
+"Der Mond zieht heute durch ein Zeichen deines Elements, und du fühlst dich mehr wie du selbst. Mach die Dinge auf deine Weise und entschuldige dich nicht dafür.",
+"Heute fällt es leichter, dem eigenen Instinkt zu vertrauen. Ein guter Tag für alles, was deine natürlichen Stärken braucht.",
+"Die Energie des Tages schwingt in deinem Rhythmus. Nutze sie für etwas, das du schon lange vor dir herschiebst."
+],
+"supportive": [
+"Der Tag ist auf deiner Seite: Was du tust, stößt auf weniger Widerstand als sonst. Ein guter Moment für Gespräche und neue Kontakte.",
+"Die Menschen um dich herum sind heute hilfsbereit. Bitte um Unterstützung oder schlag eine Zusammenarbeit vor – du hörst öfter „Ja“ als sonst.",
+"Ein leichter, günstiger Tag. Setz auf Bewegung, Austausch von Ideen und kleine Freuden."
+],
+"neutral": [
+"Ein ruhiger Tag ohne deutlichen Rückenwind: Wie viel du daraus machst, liegt bei dir. Konzentrier dich auf eine konkrete Sache.",
+"Heute drängt dich nichts in eine bestimmte Richtung. Ein guter Moment, um in Ruhe Ordnung in deine Angelegenheiten zu bringen.",
+"Ein gewöhnlicher Tag, an dem Beständigkeit zählt. Kleine Schritte erreichen mehr als große Gesten."
+],
+"tense": [
+"Heute hast du vielleicht das Gefühl, dass die Welt in einem anderen Takt spielt als du. Kämpf nicht dagegen an: Werde langsamer und wähle, was wirklich wichtig ist.",
+"Ein angespannter Tag, an dem Missverständnisse leicht entstehen. Bevor du scharf antwortest, atme einmal durch.",
+"Die Energie des Tages ist dir fremd, und das kann ermüden. Sorge gut für dich und triff keine großen Entscheidungen aus einer Laune heraus."
+]
+},
+"caution": {
+"1": "Vorsicht vor Sturheit und Alleingängen. Du musst nicht alles selbst machen.",
+"2": "Vorsicht davor, zu sehr nachzugeben. Deine Meinung zählt auch.",
+"3": "Vorsicht vor Zerstreutheit und leeren Versprechen. Bring zu Ende, was du begonnen hast.",
+"4": "Vorsicht vor Starrheit. Der Plan ist wichtig, aber lass Raum für Veränderung.",
+"5": "Vorsicht vor vorschnellen Entscheidungen und Spontankäufen.",
+"6": "Vorsicht davor, die Probleme anderer zu übernehmen. Hilf, aber rette niemanden gegen seinen Willen.",
+"7": "Vorsicht davor, dich in dich zurückzuziehen und alles zu zerdenken.",
+"8": "Vorsicht vor Überarbeitung und dem Kampf um Kontrolle. Auch Ruhe ist produktiv.",
+"9": "Vorsicht davor, an dem festzuhalten, was schon vorbei ist. Lass es los."
+},
+"compat": {
+"same": "Dasselbe Element: Ihr versteht euch ohne Worte und bewegt euch in ähnlichem Tempo. Achtet darauf, eure Schwächen nicht gegenseitig zu verstärken.",
+"supportive": "Elemente, die einander stützen: Das eine entfacht das andere oder gibt ihm Boden unter den Füßen. Ihr ergänzt euch ganz natürlich.",
+"neutral": "Verschiedene Elemente, aber ohne Konflikt: Jedes hat seine eigene Welt. Die Beziehung braucht Neugier auf das Andere.",
+"tense": "Elemente in Spannung: Ihr habt unterschiedliche Bedürfnisse und ein unterschiedliches Tempo. Das ist kein Hindernis, braucht aber Gespräch und Verständnis – und ihr könnt viel voneinander lernen."
+}
+}

@@ -5,7 +5,15 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_de.dart';
+import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_nl.dart';
 import 'app_localizations_pl.dart';
+import 'app_localizations_pt.dart';
+import 'app_localizations_uk.dart';
 
 // ignore_for_file: type=lint
 
@@ -92,7 +100,17 @@ abstract class AppLocalizations {
       ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('pl')];
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('de'),
+    Locale('en'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('it'),
+    Locale('nl'),
+    Locale('pl'),
+    Locale('pt'),
+    Locale('uk'),
+  ];
 
   /// No description provided for @appTitle.
   ///
@@ -103,7 +121,7 @@ abstract class AppLocalizations {
   /// No description provided for @tabToday.
   ///
   /// In pl, this message translates to:
-  /// **'Dzisiaj'**
+  /// **'Dziś'**
   String get tabToday;
 
   /// No description provided for @tabNumerology.
@@ -451,7 +469,7 @@ abstract class AppLocalizations {
   /// No description provided for @fullNameHelp.
   ///
   /// In pl, this message translates to:
-  /// **'Potrzebne tylko do liczb z liter. Polskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.'**
+  /// **'Potrzebne tylko do liczb z liter. Polskie, niemieckie, francuskie i hiszpańskie znaki są obsługiwane; spacje, łączniki i apostrofy pomijamy.'**
   String get fullNameHelp;
 
   /// No description provided for @personalYearFor.
@@ -1684,12 +1702,6 @@ abstract class AppLocalizations {
   /// **'Kolor: {color} · kamień: {stone} · dzień: {day} · planeta: {planet}'**
   String signExtras(String color, String stone, String day, String planet);
 
-  /// No description provided for @luckyTap.
-  ///
-  /// In pl, this message translates to:
-  /// **'Stuknij liczbę, aby zobaczyć jej znaczenie.'**
-  String get luckyTap;
-
   /// No description provided for @periodTitle.
   ///
   /// In pl, this message translates to:
@@ -1833,6 +1845,522 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Linia {n}: {text}'**
   String ichingLine(int n, String text);
+
+  /// No description provided for @revealCard.
+  ///
+  /// In pl, this message translates to:
+  /// **'Odsłoń kartę'**
+  String get revealCard;
+
+  /// No description provided for @revealCardHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Stuknij kartę, aby zobaczyć, co przynosi dzień.'**
+  String get revealCardHint;
+
+  /// No description provided for @cardOfDayMore.
+  ///
+  /// In pl, this message translates to:
+  /// **'Więcej o karcie'**
+  String get cardOfDayMore;
+
+  /// No description provided for @moodQuestion.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jak się dziś czujesz?'**
+  String get moodQuestion;
+
+  /// No description provided for @moodName.
+  ///
+  /// In pl, this message translates to:
+  /// **'{mood, select, 1{Ciężko} 2{Słabo} 3{Tak sobie} 4{Dobrze} other{Świetnie}}'**
+  String moodName(String mood);
+
+  /// No description provided for @moodSaved.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisane tylko na tym urządzeniu.'**
+  String get moodSaved;
+
+  /// No description provided for @countdown.
+  ///
+  /// In pl, this message translates to:
+  /// **'{what} {days, plural, =0{dziś} =1{jutro} other{za {days} dni}}'**
+  String countdown(String what, int days);
+
+  /// No description provided for @yourBirthday.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twoje urodziny'**
+  String get yourBirthday;
+
+  /// No description provided for @notifMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc w {sign}'**
+  String notifMoon(String sign);
+
+  /// No description provided for @notifDayNumber.
+  ///
+  /// In pl, this message translates to:
+  /// **'liczba dnia {n}'**
+  String notifDayNumber(int n);
+
+  /// No description provided for @notifCard.
+  ///
+  /// In pl, this message translates to:
+  /// **'karta dnia czeka'**
+  String get notifCard;
+
+  /// No description provided for @tabStars.
+  ///
+  /// In pl, this message translates to:
+  /// **'Gwiazdy'**
+  String get tabStars;
+
+  /// No description provided for @starsMore.
+  ///
+  /// In pl, this message translates to:
+  /// **'Więcej z gwiazd'**
+  String get starsMore;
+
+  /// No description provided for @deckTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Talia kart'**
+  String get deckTitle;
+
+  /// No description provided for @fullHoroscope.
+  ///
+  /// In pl, this message translates to:
+  /// **'Cały horoskop'**
+  String get fullHoroscope;
+
+  /// No description provided for @upcoming.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nadchodzi'**
+  String get upcoming;
+
+  /// No description provided for @suggested.
+  ///
+  /// In pl, this message translates to:
+  /// **'Polecane dziś'**
+  String get suggested;
+
+  /// No description provided for @suggestBigThree.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dodaj godzinę i miejsce urodzenia — poznasz Księżyc i ascendent'**
+  String get suggestBigThree;
+
+  /// No description provided for @dayNumberShort.
+  ///
+  /// In pl, this message translates to:
+  /// **'liczba dnia'**
+  String get dayNumberShort;
+
+  /// No description provided for @dayColorShort.
+  ///
+  /// In pl, this message translates to:
+  /// **'kolor dnia'**
+  String get dayColorShort;
+
+  /// No description provided for @fullNumerology.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pełna numerologia i portret'**
+  String get fullNumerology;
+
+  /// No description provided for @firstEntry.
+  ///
+  /// In pl, this message translates to:
+  /// **'Napisz pierwszą myśl'**
+  String get firstEntry;
+
+  /// No description provided for @greetDay.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dzień dobry'**
+  String get greetDay;
+
+  /// No description provided for @greetEvening.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dobry wieczór'**
+  String get greetEvening;
+
+  /// No description provided for @dayHoroscope.
+  ///
+  /// In pl, this message translates to:
+  /// **'Horoskop'**
+  String get dayHoroscope;
+
+  /// No description provided for @dayNumbers.
+  ///
+  /// In pl, this message translates to:
+  /// **'Moje liczby'**
+  String get dayNumbers;
+
+  /// No description provided for @dayCard.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karta'**
+  String get dayCard;
+
+  /// No description provided for @dayDone.
+  ///
+  /// In pl, this message translates to:
+  /// **'Na dziś gotowe.'**
+  String get dayDone;
+
+  /// No description provided for @tomorrowIs.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jutro {what}.'**
+  String tomorrowIs(String what);
+
+  /// No description provided for @tomorrowMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jutro Księżyc w {sign}.'**
+  String tomorrowMoon(String sign);
+
+  /// No description provided for @tomorrowNumber.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jutro nowa karta i liczba dnia {n}.'**
+  String tomorrowNumber(int n);
+
+  /// No description provided for @tomorrowCard.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jutro nowa karta dnia.'**
+  String get tomorrowCard;
+
+  /// No description provided for @tabDreams.
+  ///
+  /// In pl, this message translates to:
+  /// **'Sny'**
+  String get tabDreams;
+
+  /// No description provided for @dreamAsk.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co Ci się dziś śniło?'**
+  String get dreamAsk;
+
+  /// No description provided for @dreamAskHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisz sen, zanim się rozmyje, albo poszukaj symbolu poniżej.'**
+  String get dreamAskHint;
+
+  /// No description provided for @dreamSave.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisz sen'**
+  String get dreamSave;
+
+  /// No description provided for @dreamEntry.
+  ///
+  /// In pl, this message translates to:
+  /// **'Sen'**
+  String get dreamEntry;
+
+  /// No description provided for @dreamOfDay.
+  ///
+  /// In pl, this message translates to:
+  /// **'Symbol dnia'**
+  String get dreamOfDay;
+
+  /// No description provided for @dreamsAll.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wszystkie symbole'**
+  String get dreamsAll;
+
+  /// No description provided for @widgetCardWaiting.
+  ///
+  /// In pl, this message translates to:
+  /// **'Czeka na odsłonięcie'**
+  String get widgetCardWaiting;
+
+  /// No description provided for @widgetStale.
+  ///
+  /// In pl, this message translates to:
+  /// **'Stuknij, aby zobaczyć swój dzień'**
+  String get widgetStale;
+
+  /// No description provided for @widgetCardSays.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karta mówi: {advice}'**
+  String widgetCardSays(String advice);
+
+  /// No description provided for @widgetNeedBirth.
+  ///
+  /// In pl, this message translates to:
+  /// **'Podaj datę urodzenia, a zobaczysz swój dzień.'**
+  String get widgetNeedBirth;
+
+  /// No description provided for @language.
+  ///
+  /// In pl, this message translates to:
+  /// **'Język'**
+  String get language;
+
+  /// No description provided for @dateHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'DD.MM.RRRR'**
+  String get dateHint;
+
+  /// No description provided for @layTarot.
+  ///
+  /// In pl, this message translates to:
+  /// **'Postaw tarota'**
+  String get layTarot;
+
+  /// No description provided for @tarotWelcomeTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co dziś podpowiedzą karty?'**
+  String get tarotWelcomeTitle;
+
+  /// No description provided for @tarotWelcomeBody.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pomyśl o sprawie, która Cię zajmuje, wybierz rozkład i odkryj karty. Każdy rozkład to nowe spojrzenie. Wróć, gdy pojawi się kolejne pytanie.'**
+  String get tarotWelcomeBody;
+
+  /// No description provided for @seeDeck.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zobacz talię kart'**
+  String get seeDeck;
+
+  /// No description provided for @tarotWelcomeSetting.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wstęp w zakładce Tarot'**
+  String get tarotWelcomeSetting;
+
+  /// No description provided for @hide.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ukryj'**
+  String get hide;
+
+  /// No description provided for @tapHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'stuknij'**
+  String get tapHint;
+
+  /// No description provided for @dailyMood.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jak możesz się dziś czuć'**
+  String get dailyMood;
+
+  /// No description provided for @dailyEvents.
+  ///
+  /// In pl, this message translates to:
+  /// **'Co może Cię dziś spotkać'**
+  String get dailyEvents;
+
+  /// No description provided for @dailyAdvice.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rada na dziś'**
+  String get dailyAdvice;
+
+  /// No description provided for @energyLabel.
+  ///
+  /// In pl, this message translates to:
+  /// **'Energia'**
+  String get energyLabel;
+
+  /// No description provided for @meterValue.
+  ///
+  /// In pl, this message translates to:
+  /// **'{label}: {n} z 5'**
+  String meterValue(String label, int n);
+
+  /// Today/widget headline from the day meters: all three are 4–5. Positive but true.
+  ///
+  /// In pl, this message translates to:
+  /// **'Piękny dzień — gwiazdy są po Twojej stronie'**
+  String get cheerAll;
+
+  /// No description provided for @cheerLove.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dobry dzień dla serca'**
+  String get cheerLove;
+
+  /// No description provided for @cheerWork.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dobry dzień na działanie'**
+  String get cheerWork;
+
+  /// No description provided for @cheerEnergy.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dzień pełen energii'**
+  String get cheerEnergy;
+
+  /// No description provided for @cheerUpLove.
+  ///
+  /// In pl, this message translates to:
+  /// **'W miłości lepiej niż wczoraj'**
+  String get cheerUpLove;
+
+  /// No description provided for @cheerUpWork.
+  ///
+  /// In pl, this message translates to:
+  /// **'W pracy lepiej niż wczoraj'**
+  String get cheerUpWork;
+
+  /// No description provided for @cheerUpEnergy.
+  ///
+  /// In pl, this message translates to:
+  /// **'Więcej energii niż wczoraj'**
+  String get cheerUpEnergy;
+
+  /// No description provided for @cheerNewMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nów — dobry czas na nowy zamiar'**
+  String get cheerNewMoon;
+
+  /// No description provided for @cheerWaxing.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc rośnie, a z nim Twoje plany'**
+  String get cheerWaxing;
+
+  /// No description provided for @cheerFullMoon.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pełnia — czas docenić to, co już masz'**
+  String get cheerFullMoon;
+
+  /// No description provided for @cheerWaning.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc maleje — łatwiej odpuścić to, co ciąży'**
+  String get cheerWaning;
+
+  /// No description provided for @cheerNewMoon2.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nów — czysta karta. Zapisz na niej coś dobrego'**
+  String get cheerNewMoon2;
+
+  /// No description provided for @cheerNewMoon3.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nów — w ciszy rodzą się najlepsze pomysły'**
+  String get cheerNewMoon3;
+
+  /// No description provided for @cheerWaxing2.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc przybywa — dobry czas, by dokładać małe kroki'**
+  String get cheerWaxing2;
+
+  /// No description provided for @cheerWaxing3.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rosnący Księżyc sprzyja temu, co zaczynasz'**
+  String get cheerWaxing3;
+
+  /// No description provided for @cheerFullMoon2.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pełnia — widać dziś więcej. Także to, co Ci się udało'**
+  String get cheerFullMoon2;
+
+  /// No description provided for @cheerFullMoon3.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pełnia — dobry wieczór, by świętować małe rzeczy'**
+  String get cheerFullMoon3;
+
+  /// No description provided for @cheerWaning2.
+  ///
+  /// In pl, this message translates to:
+  /// **'Księżyc maleje — dobry czas na porządki i oddech'**
+  String get cheerWaning2;
+
+  /// No description provided for @cheerWaning3.
+  ///
+  /// In pl, this message translates to:
+  /// **'Ubywający Księżyc sprzyja odpoczynkowi i domykaniu spraw'**
+  String get cheerWaning3;
+
+  /// No description provided for @threeGood.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zapisz trzy dobre rzeczy'**
+  String get threeGood;
+
+  /// No description provided for @threeGoodPrompt.
+  ///
+  /// In pl, this message translates to:
+  /// **'Trzy dobre rzeczy z tego tygodnia — i co sprawiło, że się wydarzyły:'**
+  String get threeGoodPrompt;
+
+  /// No description provided for @moodReply.
+  ///
+  /// In pl, this message translates to:
+  /// **'{mood, select, 1{Ciężkie dni się zdarzają. Nie musisz dziś niczego nadrabiać.} 2{Słabszy dzień też jest w porządku. Wystarczy jeden mały krok.} 3{Zwykły dzień też się liczy.} 4{Dobrze to słyszeć.} other{Pięknie. Warto zapamiętać, co się na to złożyło.}}'**
+  String moodReply(String mood);
+
+  /// No description provided for @reminderAsk.
+  ///
+  /// In pl, this message translates to:
+  /// **'Chcesz, żeby karta dnia czekała na Ciebie rano?'**
+  String get reminderAsk;
+
+  /// No description provided for @reminderAskSub.
+  ///
+  /// In pl, this message translates to:
+  /// **'Jedno powiadomienie dziennie o 8:00, z treścią dnia. Godzinę zmienisz lub wyłączysz w Ustawieniach.'**
+  String get reminderAskSub;
+
+  /// No description provided for @reminderYes.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tak, przypominaj'**
+  String get reminderYes;
+
+  /// No description provided for @reminderNo.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nie, dziękuję'**
+  String get reminderNo;
+
+  /// No description provided for @onboardBirthHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Nieobowiązkowo. Z datą od razu zobaczysz swój znak, horoskop i liczby.'**
+  String get onboardBirthHint;
+
+  /// No description provided for @lookBack.
+  ///
+  /// In pl, this message translates to:
+  /// **'Twoje dni'**
+  String get lookBack;
+
+  /// No description provided for @lookBackHint.
+  ///
+  /// In pl, this message translates to:
+  /// **'Karty dnia i nastrój, dzień po dniu. Zapisane tylko na tym urządzeniu.'**
+  String get lookBackHint;
 }
 
 class _AppLocalizationsDelegate
@@ -1845,8 +2373,17 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['pl'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'de',
+    'en',
+    'es',
+    'fr',
+    'it',
+    'nl',
+    'pl',
+    'pt',
+    'uk',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -1855,8 +2392,24 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'de':
+      return AppLocalizationsDe();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'nl':
+      return AppLocalizationsNl();
     case 'pl':
       return AppLocalizationsPl();
+    case 'pt':
+      return AppLocalizationsPt();
+    case 'uk':
+      return AppLocalizationsUk();
   }
 
   throw FlutterError(

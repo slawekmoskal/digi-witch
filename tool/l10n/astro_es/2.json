@@ -1,0 +1,101 @@
+{
+"chinese": [
+{"id": "rat", "name": "Rata", "text": "Ingeniosa, resolutiva y sociable; ve las oportunidades al vuelo.",
+"long": "La Rata abre el zodiaco chino. Es el signo de la inteligencia, el ingenio y el pensamiento rápido, capaz de ver una oportunidad donde otros ven un problema. Es sociable y se siente a gusto entre la gente, aunque elige con cuidado a sus amistades íntimas. El desafío: el nerviosismo y la tendencia a acumular «por si acaso».",
+"love": "En el amor, la Rata es tierna y entregada, aunque al principio prudente. Valora a una pareja inteligente y leal.",
+"work": "En el trabajo, la Rata rinde bien en los negocios, el comercio y donde haya que detectar una oportunidad con rapidez."},
+{"id": "ox", "name": "Buey", "text": "Paciente, trabajador y fiable; llega a la meta paso a paso.",
+"long": "El Buey es laboriosidad, paciencia y fiabilidad. Trabaja con método y no le gustan las prisas ni las sorpresas, pero cumple la promesa que ha hecho. El desafío: la terquedad y la dificultad para pedir ayuda.",
+"love": "En el amor, el Buey es fiel y constante, y muestra sus sentimientos más con hechos que con palabras.",
+"work": "En el trabajo, el Buey es fiable y rinde bien en tareas que exigen paciencia, precisión y responsabilidad."},
+{"id": "tiger", "name": "Tigre", "text": "Valiente, lleno de energía e independiente; no teme los desafíos.",
+"long": "El Tigre es valor, energía y necesidad de independencia. Le gustan los desafíos y defiende a los más débiles. Puede ser impulsivo e impaciente, pero su entusiasmo arrastra a los demás.",
+"love": "En el amor, el Tigre es apasionado y espontáneo, y necesita una pareja que le deje espacio.",
+"work": "En el trabajo, el Tigre se siente a gusto como líder, como emprendedor o donde cuente el valor."},
+{"id": "rabbit", "name": "Conejo", "text": "Suave, con tacto y sensible a la belleza; valora la paz.",
+"long": "El Conejo (el Gato en Vietnam) es tacto, suavidad y sentido de la belleza. Evita los conflictos y valora la paz y las buenas relaciones. El desafío: esquivar las decisiones difíciles y pecar de precaución.",
+"love": "En el amor, el Conejo es tierno y romántico, y busca una relación tranquila y armoniosa.",
+"work": "En el trabajo, el Conejo rinde bien en la diplomacia, las artes, el diseño y el trabajo con personas."},
+{"id": "dragon", "name": "Dragón", "text": "Carismático, ambicioso y seguro de sí; le gustan los grandes planes.",
+"long": "El Dragón es el único animal mítico del zodiaco, símbolo de poder, buena suerte y carisma. Tiene grandes planes y la energía para llevarlos a cabo. El desafío: el orgullo y la impaciencia ante las debilidades ajenas.",
+"love": "En el amor, el Dragón es apasionado y generoso, pero necesita admiración y libertad.",
+"work": "En el trabajo, el Dragón apunta a grandes metas y rinde bien en la dirección y en proyectos de gran escala."},
+{"id": "snake", "name": "Serpiente", "text": "Sabia, intuitiva y reflexiva; ve más de lo que muestra.",
+"long": "La Serpiente es sabiduría, intuición y elegancia. Piensa antes de actuar y ve más de lo que dice. El desafío: el secretismo y la desconfianza.",
+"love": "En el amor, la Serpiente es sensual y leal, pero celosa de lo que le importa.",
+"work": "En el trabajo, la Serpiente rinde bien en el análisis, la estrategia, las finanzas y donde cuente la perspicacia."},
+{"id": "horse", "name": "Caballo", "text": "Espíritu libre, enérgico y sincero; necesita movimiento y espacio.",
+"long": "El Caballo es un espíritu libre: energía, sinceridad y necesidad de movimiento. Le gusta estar en el centro de las cosas y actúa deprisa. El desafío: la impaciencia y la dificultad para terminar lo empezado.",
+"love": "En el amor, el Caballo es sincero y entusiasta, y necesita aventuras compartidas y libertad.",
+"work": "En el trabajo, el Caballo es más feliz en movimiento: viajes, ventas, deporte y proyectos de ritmo rápido."},
+{"id": "goat", "name": "Cabra", "text": "Creativa, suave y empática; se siente bien en la armonía.",
+"long": "La Cabra (u Oveja) es creatividad, suavidad y empatía. Necesita armonía y un entorno seguro para florecer. El desafío: las preocupaciones y la dependencia de la opinión ajena.",
+"love": "En el amor, la Cabra es suave y atenta, y necesita seguridad y ternura.",
+"work": "En el trabajo, la Cabra rinde bien en las artes, el cuidado, el trabajo creativo y los equipos con buen ambiente."},
+{"id": "monkey", "name": "Mono", "text": "Ingenioso, gracioso y curioso por el mundo; aprende rápido.",
+"long": "El Mono es inventiva, ingenio y curiosidad por el mundo. Aprende rápido y encuentra soluciones poco habituales. El desafío: la dispersión y la tendencia a tomar atajos.",
+"love": "En el amor, el Mono es divertido e ingenioso, y considera el aburrimiento su peor enemigo.",
+"work": "En el trabajo, el Mono rinde bien en la tecnología, el comercio, el entretenimiento y donde haga falta pensar de forma poco convencional."},
+{"id": "rooster", "name": "Gallo", "text": "Trabajador, honrado y preciso; le gustan el orden y las reglas claras.",
+"long": "El Gallo es honradez, laboriosidad y atención al detalle. Le gusta el orden y dice claramente lo que piensa. El desafío: el espíritu crítico y el perfeccionismo.",
+"love": "En el amor, el Gallo es fiel y atento, aunque a veces crítico; expresa sus sentimientos cuidando los detalles.",
+"work": "En el trabajo, el Gallo rinde bien en la organización, la contabilidad, el ejército, la medicina y los trabajos que exigen precisión."},
+{"id": "dog", "name": "Perro", "text": "Leal, honrado y protector; se pone del lado de los más débiles.",
+"long": "El Perro es lealtad, honradez y sentido de la justicia. Es un amigo entregado y defensor de sus seres queridos. El desafío: la ansiedad y el pesimismo.",
+"love": "En el amor, el Perro es uno de los signos más fieles: sincero y entregado.",
+"work": "En el trabajo, el Perro rinde bien en profesiones relacionadas con la ayuda, el derecho, la protección y la educación."},
+{"id": "pig", "name": "Cerdo", "text": "Generoso, bondadoso y alegre; sabe disfrutar de la vida.",
+"long": "El Cerdo (o Jabalí) es generosidad, bondad y alegría de vivir. Confía en la gente y sabe disfrutar. El desafío: la ingenuidad y la dificultad para decir que no.",
+"love": "En el amor, el Cerdo es generoso, cálido y romántico, y confía con facilidad.",
+"work": "En el trabajo, el Cerdo rinde bien en la gastronomía y la hostelería, el cuidado, las artes y el trabajo con personas: donde cuenta la bondad."}
+],
+"phases": [
+{"name": "Luna nueva", "text": "La luna nueva es tiempo de siembra. Formula una intención y empieza algo en silencio. Todavía no tienes que enseñárselo a nadie."},
+{"name": "Luna creciente", "text": "La Luna crece y la energía aumenta. Un buen momento para los primeros pasos y para reunir lo que necesitas."},
+{"name": "Cuarto creciente", "text": "El cuarto creciente trae los primeros obstáculos. No te rindas: toma una decisión y actúa pese a la resistencia."},
+{"name": "Gibosa creciente", "text": "La Luna está casi llena. Pule los detalles y arregla lo que no funciona. El resultado está cerca."},
+{"name": "Luna llena", "text": "La luna llena lo ilumina todo e intensifica las emociones. Verás los resultados de lo que has hecho. Celebra, pero no decidas en caliente."},
+{"name": "Gibosa menguante", "text": "Tras la luna llena llega el tiempo de la gratitud y de compartir. Haz balance de lo que has aprendido."},
+{"name": "Cuarto menguante", "text": "El cuarto menguante es tiempo de ordenar. Suelta lo que no necesitas: termínalo, regálalo, tíralo."},
+{"name": "Luna menguante", "text": "La Luna se apaga antes de la luna nueva. Baja el ritmo, descansa y haz silencio. Pronto empezará un nuevo ciclo."}
+],
+"today": {
+"same": [
+"Hoy la Luna recorre un signo de tu elemento y te sientes más tú. Haz las cosas a tu manera y no te disculpes por ello.",
+"Hoy es más fácil confiar en tu instinto. Un buen día para lo que pide tus puntos fuertes naturales.",
+"La energía del día va a tu ritmo. Aprovéchala para algo que llevas tiempo aplazando."
+],
+"supportive": [
+"El día está de tu parte: lo que haces encuentra menos resistencia de lo habitual. Un buen momento para conversaciones y contactos nuevos.",
+"Tu entorno está hoy de buen humor. Pide ayuda o propón colaborar: oirás «sí» más a menudo que de costumbre.",
+"Un día ligero y favorable. Apuesta por el movimiento, el intercambio de ideas y los pequeños placeres."
+],
+"neutral": [
+"Un día tranquilo, sin viento claro a favor: lo que saques de él depende de ti. Céntrate en una cosa concreta.",
+"Hoy nada te empuja en ninguna dirección. Un buen momento para ordenar tus asuntos con calma.",
+"Un día normal en el que cuenta la constancia. Los pequeños pasos llegarán más lejos que los grandes gestos."
+],
+"tense": [
+"Hoy quizá sientas que el mundo va a otro ritmo que el tuyo. No luches: baja el ritmo y elige qué importa de verdad.",
+"Un día tenso, en el que surgen malentendidos con facilidad. Antes de responder con brusquedad, respira.",
+"La energía del día te resulta ajena, y eso puede cansar. Cuídate y no tomes grandes decisiones llevado por el humor."
+]
+},
+"caution": {
+"1": "Cuidado con la terquedad y con ir por libre. No tienes que hacerlo todo tú.",
+"2": "Cuidado con ceder demasiado. Tu opinión también cuenta.",
+"3": "Cuidado con la dispersión y las promesas vacías. Termina lo que has empezado.",
+"4": "Cuidado con la rigidez. El plan importa, pero deja espacio al cambio.",
+"5": "Cuidado con las decisiones precipitadas y las compras impulsivas.",
+"6": "Cuidado con cargar con los problemas ajenos. Ayuda, pero no rescates a nadie contra su voluntad.",
+"7": "Cuidado con encerrarte en ti y darle demasiadas vueltas a todo.",
+"8": "Cuidado con el exceso de trabajo y la lucha por el control. Descansar también es productivo.",
+"9": "Cuidado con aferrarte a lo que ya ha terminado. Déjalo ir."
+},
+"compat": {
+"same": "El mismo elemento: os entendéis sin palabras y vais a un ritmo parecido. Tened cuidado de no reforzar vuestras debilidades.",
+"supportive": "Elementos que se apoyan: uno enciende al otro o le da suelo firme. Os complementáis de forma natural.",
+"neutral": "Elementos distintos, pero sin conflicto: cada uno tiene su propio mundo. La relación pide curiosidad por lo diferente.",
+"tense": "Elementos en tensión: tenéis necesidades y ritmos distintos. No es un obstáculo, pero requiere diálogo y comprensión, y podéis aprender mucho el uno del otro."
+}
+}

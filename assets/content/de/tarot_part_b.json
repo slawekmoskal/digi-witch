@@ -1,0 +1,1010 @@
+[
+ {
+  "id": "cups_01",
+  "name": "Ass der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 1,
+  "keywords": [
+   "offenes Herz",
+   "neues Gefühl",
+   "Dankbarkeit",
+   "Fließen",
+   "Zärtlichkeit"
+  ],
+  "symbolism": "Eine Hand reicht aus einer Wolke und hält einen Kelch, aus dem Wasser in fünf Strömen in einen Teich voller Seerosen fließt. Eine weiße Taube senkt sich mit einer kleinen Scheibe im Schnabel über das Gefäß, und ringsum schweben winzige Tropfen wie fallende Blütenblätter.",
+  "upright": "Das Ass der Kelche spricht von einem Moment, in dem Gefühle freier zu fließen beginnen. Es kann eine neue Beziehung sein, eine erneuerte Freundschaft oder einfach ein sanfterer Blick auf dich selbst. Die Karte lädt dich ein, anzunehmen, was kommt, ohne Eile und ohne zu urteilen. Es lohnt sich zu bemerken, was du heute mit anderen teilen möchtest.",
+  "reversed": "Das umgekehrte Ass kann nahelegen, dass Gefühle zwar da sind, aber innen festgehalten werden, als wäre das Gefäß bedeckt. Manchmal ist das ein Bedürfnis nach Schutz, manchmal Müdigkeit vom Geben. Ein guter Schritt ist oft, zuerst den eigenen Kelch zu füllen.",
+  "reflection": [
+   "Welches Gefühl möchte heute von mir bemerkt werden?",
+   "Wem oder was kann ich Dankbarkeit zeigen, ohne etwas zurückzuerwarten?"
+  ],
+  "advice": "Öffne dein Herz. Erlaube dir zu fühlen und das Gute anzunehmen: Jetzt kann ein neues Gefühl oder eine neue Beziehung beginnen.",
+  "adviceReversed": "Du verschließt dich vor Gefühlen. Überlege, wovor du Angst hast, und erlaube dir zu fühlen.",
+  "astrology": "Wasser — Wurzel des Elements"
+ },
+ {
+  "id": "cups_02",
+  "name": "Zwei der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 2,
+  "keywords": [
+   "Gegenseitigkeit",
+   "Begegnung",
+   "Verständigung",
+   "Partnerschaft",
+   "Vertrauen"
+  ],
+  "symbolism": "Ein junger Mann und eine junge Frau stehen einander gegenüber und tauschen Kelche, als legten sie ein Versprechen ab. Über ihnen schwebt ein von zwei Schlangen umwundener Stab mit einem geflügelten Löwenkopf, und im Hintergrund ist ein friedliches Haus zwischen Hügeln zu sehen.",
+  "upright": "Die Zwei der Kelche beschreibt eine Verbindung, die auf einem Gleichgewicht von Geben und Nehmen beruht. Es geht nicht nur um Romantik, sondern um jede Begegnung, in der sich beide Seiten gesehen fühlen. Die Karte legt nahe, dass Ehrlichkeit und aufmerksames Zuhören Menschen näher bringen können als große Gesten. Es ist ein guter Moment, die Menschen zu würdigen, mit denen dich gegenseitiger Respekt verbindet.",
+  "reversed": "Umgekehrt kann die Karte auf eine ungleich verteilte Aufmerksamkeit oder auf unausgesprochene Erwartungen hinweisen. Sie kann auch ein Zeichen sein, dass du dich zuerst mit dir selbst verständigen musst.",
+  "reflection": [
+   "In welcher Beziehung fühle ich mich wirklich gehört?",
+   "Was brauche ich, um im Gleichgewicht zu geben und zu nehmen?"
+  ],
+  "advice": "Setz auf Verständigung. Geh auf den anderen zu und such Gegenseitigkeit: In der Beziehung ist gerade gute Energie.",
+  "adviceReversed": "In der Beziehung fehlt etwas: Gleichgewicht oder Ehrlichkeit. Sprich darüber, bevor die Distanz wächst.",
+  "astrology": "Wasser · Venus im Krebs"
+ },
+ {
+  "id": "cups_03",
+  "name": "Drei der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 3,
+  "keywords": [
+   "Gemeinschaft",
+   "Freude",
+   "Feier",
+   "Freundschaft",
+   "Unterstützung"
+  ],
+  "symbolism": "Drei Frauen in bunten Gewändern tanzen im Kreis und heben ihre Kelche hoch. Zu ihren Füßen liegen reife Früchte, Kürbisse und Trauben, die an die Erntezeit und gemeinsames Feiern erinnern.",
+  "upright": "Die Drei der Kelche erinnert an die Kraft der Gemeinschaft und an mit anderen geteilte Freude. Sie kann dich ermutigen, kleine Erfolge zu feiern oder wieder Kontakt zu Freunden aufzunehmen. Die Karte betont, dass Unterstützung oft in leichter Form kommt: ein Gespräch, ein Lachen, ein gemeinsames Essen. Es lohnt sich zu fragen, wo du dich als Teil von etwas Größerem fühlst.",
+  "reversed": "Die umgekehrte Drei kann davon sprechen, dass du zu viel Gesellschaft hattest oder dich ein wenig abseits der Gruppe fühlst. Sie kann auch eine Einladung sein, still und in deinem eigenen Tempo zu feiern.",
+  "reflection": [
+   "Mit wem möchte ich meinen letzten guten Moment teilen?",
+   "Wo fühle ich mich als Teil einer Gemeinschaft und wo nur als Gast?"
+  ],
+  "advice": "Triff dich mit den Menschen, die auf deiner Seite stehen. Gemeinsame Freude und Unterstützung helfen dir in dieser Sache.",
+  "adviceReversed": "Zu viel Gesellschaft oder Klatsch können stören. Wähle aus, wem du wirklich vertraust.",
+  "astrology": "Wasser · Merkur im Krebs"
+ },
+ {
+  "id": "cups_04",
+  "name": "Vier der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 4,
+  "keywords": [
+   "Betrachtung",
+   "Überdruss",
+   "Distanz",
+   "Innenschau",
+   "übersehene Chancen"
+  ],
+  "symbolism": "Ein junger Mann sitzt mit verschränkten Armen unter einem Baum und betrachtet drei Kelche, die vor ihm im Gras stehen. Seitlich tritt eine Hand aus einer Wolke und bietet einen vierten Kelch an, den er nicht zu bemerken scheint.",
+  "upright": "Die Vier der Kelche beschreibt einen Zustand des Rückzugs, in dem das Vertraute keine Freude mehr bringt. Eine solche Pause kann nötig sein, um zu verstehen, was du wirklich willst. Die Karte legt aber sanft nahe, ab und zu aufzublicken, denn neben dir wartet vielleicht etwas Neues. Du musst es nicht sofort annehmen; es genügt, es zu bemerken.",
+  "reversed": "Umgekehrt kann die Karte bedeuten, dass du langsam aus einem Tief herauskommst und offener für Angebote wirst. Sie kann auch nahelegen, dass der Rückzug länger dauert, als du ihn brauchst.",
+  "reflection": [
+   "Was um mich herum macht mir keine Freude mehr, und warum?",
+   "Welches Angebot habe ich in letzter Zeit vielleicht übersehen?"
+  ],
+  "advice": "Man bietet dir etwas an, aber du bemerkst es nicht. Schau dich um: Die Gelegenheit ist vielleicht näher, als du denkst.",
+  "adviceReversed": "Du kommst aus der Gleichgültigkeit heraus, und das ist gut. Nimm jetzt an, was du bisher abgelehnt hast.",
+  "astrology": "Wasser · Mond im Krebs"
+ },
+ {
+  "id": "cups_05",
+  "name": "Fünf der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 5,
+  "keywords": [
+   "Trauer",
+   "Enttäuschung",
+   "Verlust",
+   "Annahme",
+   "was bleibt"
+  ],
+  "symbolism": "Eine Gestalt in einem langen schwarzen Umhang steht gebeugt über drei umgestürzten Kelchen, aus denen Flüssigkeit ausgelaufen ist. Hinter ihr stehen zwei weitere, volle Kelche, und weiter entfernt fließt ein Fluss, über den eine Brücke zu einem Haus führt.",
+  "upright": "Die Fünf der Kelche gibt Raum für Traurigkeit über etwas, das nicht wie erhofft verlaufen ist. Die Karte verlangt nicht, sie schnell abzuschütteln; eher erkennt sie an, dass Trauer ein natürlicher Teil des Erlebens ist. Zugleich erinnert sie an die zwei Kelche, die noch stehen. Wenn du bereit bist, kannst du dich umdrehen und sehen, was du noch hast.",
+  "reversed": "Die umgekehrte Fünf kann ein Zeichen sein, dass das Verarbeiten des Verlusts schon begonnen hat und mehr Sanftheit entsteht. Manchmal weist sie aber auf eine tief verborgene Traurigkeit hin, die einen sicheren Ausdruck braucht.",
+  "reflection": [
+   "Welche Trauer erlaube ich mir zu fühlen, und welcher weiche ich aus?",
+   "Was Wertvolles ist trotz allem Verschütteten noch bei mir?"
+  ],
+  "advice": "Erlaube dir zu trauern, aber bleib nicht darin stecken. Dreh dich um: Nicht alles ist verloren.",
+  "adviceReversed": "Du kommst nach dem Verlust wieder auf die Beine. Konzentrier dich auf das, was bleibt, und tu den ersten Schritt nach vorn.",
+  "astrology": "Wasser · Mars im Skorpion"
+ },
+ {
+  "id": "cups_06",
+  "name": "Sechs der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 6,
+  "keywords": [
+   "Erinnerungen",
+   "Unschuld",
+   "Freundlichkeit",
+   "Kindheit",
+   "Einfachheit"
+  ],
+  "symbolism": "Im Hof eines alten Dorfes reicht ein Junge einem Mädchen einen mit weißen Blumen gefüllten Kelch. Um sie herum stehen weitere Gefäße mit Blumen, und im Hintergrund entfernt sich ein Wächter, als behüte er diesen friedlichen Ort.",
+  "upright": "Die Sechs der Kelche ruft die Wärme von Erinnerungen und einfachen, freundlichen Gesten wach. Sie kann dich ermutigen, Kontakt zu jemandem aus der Vergangenheit aufzunehmen oder dich daran zu erinnern, was dich früher glücklich gemacht hat. Die Karte spricht vom Geben ohne Berechnung, wie Kinder es tun. Es lohnt sich zu prüfen, welche alten Freuden heute in neuer Form wieder aufleben könnten.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass du zu sehr an der Vergangenheit festhältst oder Vergangenes idealisierst. Sie kann dich auch ermutigen, das Gute aus alten Lektionen mitzunehmen und weiterzugehen.",
+  "reflection": [
+   "Welche Erinnerung schenkt mir heute ein Gefühl von Wärme?",
+   "Gibt es etwas aus der Vergangenheit, das ich jetzt sanft beiseitelegen kann?"
+  ],
+  "advice": "Greif auf das Gute aus der Vergangenheit zurück: Einfachheit, Freundlichkeit, eine alte Freundschaft. Sie können dir jetzt helfen.",
+  "adviceReversed": "Leb nicht in deinen Erinnerungen. Was war, kommt nicht in derselben Form zurück: Es ist Zeit, nach vorn zu schauen.",
+  "astrology": "Wasser · Sonne im Skorpion"
+ },
+ {
+  "id": "cups_07",
+  "name": "Sieben der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 7,
+  "keywords": [
+   "Fantasie",
+   "Wahl",
+   "Träume",
+   "Illusionen",
+   "viele Möglichkeiten"
+  ],
+  "symbolism": "Eine dunkle Silhouette steht vor sieben Kelchen, die in den Wolken schweben. Jeder enthält etwas anderes: einen Kopf, eine verhüllte leuchtende Gestalt, eine Schlange, eine Burg, Juwelen, einen Kranz und einen Drachen, als verspräche jedes Gefäß eine andere Zukunft.",
+  "upright": "Die Sieben der Kelche zeigt den Reichtum der Fantasie und die vielen Wege, die man sich erträumen kann. Es ist ein schöner Raum, in dem man sich aber leicht verliert. Die Karte lädt dich ein, zu unterscheiden, was dich wirklich bewegt und was nur glänzt. Ein kleiner, konkreter Schritt kann helfen zu prüfen, welcher Traum Leben in sich hat.",
+  "reversed": "Die umgekehrte Sieben kann bedeuten, dass sich der Nebel lichtet und dir die Wahl leichter fällt. Sie kann auch auf eine Überfülle an Möglichkeiten hinweisen, bei der es sich lohnt, das Blickfeld einzugrenzen.",
+  "reflection": [
+   "Welcher meiner Träume ist wirklich meiner, und welche habe ich von anderen übernommen?",
+   "Welcher kleine Schritt würde mir helfen, die gewählte Möglichkeit zu prüfen?"
+  ],
+  "advice": "Du hast viele Möglichkeiten, aber nicht alle sind echt. Wähle eine konkrete Option und trenne Träume von Plänen.",
+  "adviceReversed": "Der Nebel lichtet sich, und du siehst schon, was wichtig ist. Triff jetzt die Entscheidung.",
+  "astrology": "Wasser · Venus im Skorpion"
+ },
+ {
+  "id": "cups_08",
+  "name": "Acht der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 8,
+  "keywords": [
+   "Fortgehen",
+   "Suche",
+   "tieferer Sinn",
+   "Richtungswechsel",
+   "Mut"
+  ],
+  "symbolism": "Eine Gestalt in rotem Umhang, auf einen Stab gestützt, geht unter einem Nachthimmel, an dem der Mond ein menschliches Gesicht hat, auf Berge und Wasser zu. Hinter ihr bleiben acht Kelche zurück, sorgfältig in zwei Reihen aufgestellt, mit einer deutlichen Lücke in der oberen Reihe.",
+  "upright": "Die Acht der Kelche spricht von dem Moment, in dem das Aufgebaute dem Herzen nicht mehr genügt. Es geht nicht um Scheitern, sondern um ein Bedürfnis nach tieferem Sinn. Die Karte kann die Entscheidung unterstützen, eine Gewohnheit, eine Rolle oder eine Überzeugung hinter dir zu lassen, die dir nicht mehr dient. Fortgehen kann hier eine Form von Selbstachtung sein.",
+  "reversed": "Umgekehrt kann die Karte auf Schwanken hinweisen: Veränderung zu wollen und zugleich Angst zu haben, das Vertraute zu verlassen. Sie kann auch ein Zeichen sein, noch einmal auf das zu schauen, was du zurücklässt, bevor du aufbrichst.",
+  "reflection": [
+   "Was suche ich, das ich dort, wo ich jetzt bin, nicht finde?",
+   "Was kann ich mit Dankbarkeit statt mit Bedauern zurücklassen?"
+  ],
+  "advice": "Geh fort von dem, was dich nicht mehr nährt. Das braucht Mut, aber du machst dich auf die Suche nach etwas Tieferem.",
+  "adviceReversed": "Du schwankst zwischen Gehen und Bleiben. Prüfe, ob du davonläufst oder wirklich etwas Besseres suchst.",
+  "astrology": "Wasser · Saturn in den Fischen"
+ },
+ {
+  "id": "cups_09",
+  "name": "Neun der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 9,
+  "keywords": [
+   "Zufriedenheit",
+   "Erfüllung",
+   "Genuss",
+   "Dankbarkeit",
+   "Behaglichkeit"
+  ],
+  "symbolism": "Ein zufriedener Mann sitzt mit verschränkten Armen und leicht erhobenem Kopf auf einer Holzbank. Hinter ihm steht auf einem geschwungenen, mit blauem Tuch bedeckten Tisch eine gleichmäßige Reihe von neun Kelchen.",
+  "upright": "Die Neun der Kelche beschreibt das Gefühl, dass es gut ist und deine Wünsche zumindest teilweise erfüllt sind. Sie ist eine Einladung, dir Freude ohne Schuldgefühle zu erlauben. Die Karte erinnert auch daran, dass Zufriedenheit voller schmeckt, wenn sie bewusst ist und nicht nur abgehakt wird. Verweile einen Moment bei dem, was schon gelungen ist.",
+  "reversed": "Die umgekehrte Neun kann auf eine Zufriedenheit hinweisen, die oberflächlich ist oder von äußeren Zeichen abhängt. Manchmal legt sie nahe zu fragen, was du wirklich willst, statt was du haben solltest.",
+  "reflection": [
+   "Was schenkt mir echte, stille Zufriedenheit?",
+   "Erlaube ich mir, mich über das Erreichte zu freuen?"
+  ],
+  "advice": "Die Antwort ist Ja: Dein Wunsch hat gute Chancen, sich zu erfüllen. Genieße es und würdige, was du schon hast.",
+  "adviceReversed": "Äußere Zufriedenheit genügt nicht. Überlege, was du wirklich willst, nicht nur, was du haben solltest.",
+  "astrology": "Wasser · Jupiter in den Fischen"
+ },
+ {
+  "id": "cups_10",
+  "name": "Zehn der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 10,
+  "keywords": [
+   "Harmonie",
+   "Familie",
+   "Nähe",
+   "Zuhause",
+   "innerer Frieden"
+  ],
+  "symbolism": "Ein Paar steht eng umschlungen da und hebt die Arme zu einem Regenbogen, in dessen Bogen zehn Kelche leuchten. Daneben tanzen zwei Kinder, und in der Ferne ist ein kleines Haus an einem Fluss zwischen grünen Hügeln zu sehen.",
+  "upright": "Die Zehn der Kelche spricht von einem emotionalen Zuhause: einem Ort oder Menschen, bei denen du du selbst sein kannst. Es muss keine Familie im traditionellen Sinn sein, sondern jede Gemeinschaft, die auf Fürsorge beruht. Die Karte ermutigt dich, die alltägliche Harmonie zu schätzen, auch wenn sie nicht perfekt ist. Es lohnt sich zu überlegen, was du selbst zu diesem gemeinsamen Frieden beiträgst.",
+  "reversed": "Umgekehrt kann die Karte auf die Kluft zwischen dem Bild eines idealen Zuhauses und der Wirklichkeit hinweisen. Sie kann eine Einladung zu einem ehrlichen Gespräch darüber sein, was jeder deiner Liebsten braucht.",
+  "reflection": [
+   "Wo und mit wem fühle ich mich wirklich zu Hause?",
+   "Was kann ich heute tun, um meiner Umgebung mehr Wärme zu schenken?"
+  ],
+  "advice": "Setz auf Nähe und Harmonie. Was du mit deinen Liebsten aufbaust, ist jetzt das Wichtigste: Pflege es.",
+  "adviceReversed": "Hinter dem Bild der idealen Familie oder Beziehung steckt Spannung. Sprich ehrlich über eure Bedürfnisse.",
+  "astrology": "Wasser · Mars in den Fischen"
+ },
+ {
+  "id": "cups_11",
+  "name": "Bube der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 11,
+  "keywords": [
+   "Neugier",
+   "Empfindsamkeit",
+   "Intuition",
+   "Überraschung",
+   "kreativer Impuls"
+  ],
+  "symbolism": "Ein junger Mann in einer Tunika mit Blumenmuster steht am Meeresufer und hält einen Kelch, aus dem ein kleiner Fisch hervorschaut. Er betrachtet ihn neugierig, als führe er ein stilles Gespräch mit ihm, und hinter ihm rollen sanfte Wellen.",
+  "upright": "Der Bube der Kelche ist eine Einladung, mit deinen eigenen Gefühlen und deiner Fantasie zu spielen. Vielleicht taucht eine unerwartete Idee, ein Traum oder ein Eindruck auf, den es sich lohnt aufzuschreiben. Die Karte ermutigt zu Offenheit und ein wenig kindlicher Naivität im besten Sinn des Wortes. Nicht alles muss sofort Sinn ergeben, um wertvoll zu sein.",
+  "reversed": "Der umgekehrte Bube kann nahelegen, dass Empfindsamkeit aus Angst vor Bewertung zurückgehalten wird. Er kann auch auf emotionale Unbeständigkeit hinweisen, bei der eine sanfte Struktur des Tages helfen kann.",
+  "reflection": [
+   "Welche Idee oder welches Gefühl hat mich in letzter Zeit überrascht?",
+   "Wo kann ich mir mehr kreatives Spiel erlauben?"
+  ],
+  "advice": "Hör auf deine Intuition und sei offen für emotionale Botschaften. Aus einem kleinen, feinen Funken kann etwas werden.",
+  "adviceReversed": "Emotionale Unreife oder Überempfindlichkeit stehen im Weg. Nimm nicht alles persönlich.",
+  "astrology": "Wasser"
+ },
+ {
+  "id": "cups_12",
+  "name": "Ritter der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 12,
+  "keywords": [
+   "Romantik",
+   "Angebot",
+   "Idealismus",
+   "Sanftheit",
+   "dem Herzen folgen"
+  ],
+  "symbolism": "Ein Ritter in Rüstung mit kleinen Flügeln an Helm und Fersen reitet langsam auf einem weißen Pferd und hält einen Kelch vor sich wie ein Geschenk. Sein Pferd schreitet ruhig, und im Hintergrund fließt ein Fluss und erheben sich sanfte Hügel.",
+  "upright": "Der Ritter der Kelche trägt die Energie eines Herzens, das handeln will. Er kann eine Einladung bedeuten, eine Geste der Zuneigung oder ein mit Leidenschaft verfolgtes kreatives Projekt. Die Karte betont den Wert von Sanftheit und Aufrichtigkeit in dem, was du anbietest. Es lohnt sich aber zu prüfen, ob deine Ideale auch Boden unter den Füßen haben.",
+  "reversed": "Der umgekehrte Ritter kann auf zu viel Träumerei hinweisen oder auf Stimmungen, die von Tag zu Tag die Richtung wechseln. Er kann auch ein Zeichen sein, keine Versprechen zu machen, bevor du spürst, dass sie realistisch sind.",
+  "reflection": [
+   "Was möchte ich jemandem von ganzem Herzen schenken?",
+   "Sind meine Ideale im Alltag verankert?"
+  ],
+  "advice": "Folge deinem Herzen: Mach das Angebot, drück deine Gefühle aus. Romantik und Aufrichtigkeit sind gerade auf deiner Seite.",
+  "adviceReversed": "Lass dich nicht vom Idealismus mitreißen. Prüfe, ob hinter den Versprechen auch Taten stehen.",
+  "astrology": "Wasser"
+ },
+ {
+  "id": "cups_13",
+  "name": "Königin der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 13,
+  "keywords": [
+   "Einfühlungsvermögen",
+   "Intuition",
+   "Fürsorge",
+   "Tiefe der Gefühle",
+   "Ruhe"
+  ],
+  "symbolism": "Die Königin sitzt auf einem Thron direkt am Wasser, ihre Füße berühren es fast. In den Händen hält sie einen reich verzierten, geschlossenen Kelch mit engelförmigen Henkeln und betrachtet ihn nachdenklich; der Thron ist mit Figuren von Meereskindern und Muscheln geschmückt.",
+  "upright": "Die Königin der Kelche verkörpert eine reife Empfindsamkeit, die mitfühlen kann, ohne sich zu verlieren. Die Karte ermutigt dich, deinen Ahnungen zu vertrauen und dir Zeit zu geben, auf das zu hören, was in dir geschieht. Sie kann auch auf einen Menschen hinweisen, bei dem sich andere sicher fühlen. Dein Einfühlungsvermögen ist kostbar, besonders wenn es auch dich einschließt.",
+  "reversed": "Umgekehrt kann die Karte bedeuten, dass du die Gefühle anderer als deine eigenen übernimmst oder deine Grenzen verlierst. Sie kann eine Einladung sein, zuerst für deine eigenen inneren Gewässer zu sorgen.",
+  "reflection": [
+   "Was sagt mir meine Intuition heute?",
+   "Wie kann ich andere unterstützen, ohne mich selbst zu verlieren?"
+  ],
+  "advice": "Lass dich von Einfühlungsvermögen leiten, gegenüber anderen und dir selbst. Deine Intuition führt dich gut.",
+  "adviceReversed": "Du gibst anderen zu viel und dir zu wenig. Setz gesunde emotionale Grenzen.",
+  "astrology": "Wasser"
+ },
+ {
+  "id": "cups_14",
+  "name": "König der Kelche",
+  "arcana": "minor",
+  "suit": "cups",
+  "rank": 14,
+  "keywords": [
+   "emotionales Gleichgewicht",
+   "Reife",
+   "Ruhe",
+   "Diplomatie",
+   "Gelassenheit"
+  ],
+  "symbolism": "Der König sitzt auf einem steinernen Thron, der auf einem wogenden Meer zu schwimmen scheint. In einer Hand hält er einen Kelch, in der anderen ein Zepter; um den Hals trägt er einen fischförmigen Anhänger, und im Hintergrund segelt ein Schiff, und ein Meereswesen springt aus dem Wasser.",
+  "upright": "Der König der Kelche zeigt, dass man zugleich tief fühlen und ruhig bleiben kann. Es ist die Energie eines Menschen, der Gefühle nicht unterdrückt, sondern sie versteht und klug mit ihnen umgeht. Die Karte ermutigt zu sanfter Führung und zu Gesprächen, die mit Freundlichkeit geführt werden. Um dich herum mag es stürmisch sein, und du kannst deine eigene Insel bleiben.",
+  "reversed": "Der umgekehrte König kann auf Gefühle hinweisen, die zu streng kontrolliert werden und einen Ausweg suchen. Manchmal ist er ein Zeichen, dir mehr Ehrlichkeit dir selbst gegenüber zu erlauben.",
+  "reflection": [
+   "Wie reagiere ich auf die emotionalen Wellen um mich herum?",
+   "Auf welche Weise kann ich jemandem eine ruhige und freundliche Stütze sein?"
+  ],
+  "advice": "Bleib ruhig und reif. Beherrsche deine Gefühle, ohne sie zu unterdrücken: Das ist der Schlüssel zu einer guten Entscheidung.",
+  "adviceReversed": "Die Gefühle gewinnen die Oberhand, oder sie sind weggesperrt. Finde einen sicheren Weg, sie auszudrücken.",
+  "astrology": "Wasser"
+ },
+ {
+  "id": "swords_01",
+  "name": "Ass der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 1,
+  "keywords": [
+   "Klarheit",
+   "Wahrheit",
+   "Durchbruch",
+   "neue Idee",
+   "Entscheidung"
+  ],
+  "symbolism": "Eine Hand tritt aus einer Wolke und umfasst ein aufrechtes Schwert, dessen Klinge eine Krone durchbohrt. Von der Krone hängen Oliven- und Palmzweige, ringsum fallen kleine Funken, und unten erstrecken sich schroffe Felsgipfel.",
+  "upright": "Das Ass der Schwerter bringt einen Moment der Klarheit, in dem sich Gedanken plötzlich zu einem klaren Bild fügen. Es kann eine neue Idee sein, ein Verständnis der Lage oder die Bereitschaft, die Dinge beim Namen zu nennen. Die Karte ermutigt dich, ehrlich zu dir zu sein und die Wahrheit mit Bedacht auszusprechen. Klarheit ist ein Werkzeug, das am besten dient, wenn es mit Freundlichkeit verbunden ist.",
+  "reversed": "Das umgekehrte Ass kann auf Gedanken hinweisen, die ziellos kreisen, oder auf eine Wahrheit, die du noch nicht hören willst. Es kann auch ein Zeichen sein, langsamer zu werden, bevor scharfe Worte zu schnell fallen.",
+  "reflection": [
+   "Was ist mir in letzter Zeit klar geworden?",
+   "Wie kann ich meine Wahrheit mit Respekt vor anderen ausdrücken?"
+  ],
+  "advice": "Sprich die Wahrheit aus und denk klar. Ein Durchbruch ist nah: Eine gut gezielte Entscheidung durchschneidet die Verwirrung.",
+  "adviceReversed": "Deine Gedanken sind verworren. Bevor du entscheidest, sammle die Fakten und trenne sie von deinen Sorgen.",
+  "astrology": "Luft — Wurzel des Elements"
+ },
+ {
+  "id": "swords_02",
+  "name": "Zwei der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 2,
+  "keywords": [
+   "Patt",
+   "Abwägen",
+   "innere Ruhe",
+   "schwierige Wahl",
+   "Schutz"
+  ],
+  "symbolism": "Eine Frau in weißem Gewand sitzt mit verbundenen Augen auf einer Bank und hält zwei gekreuzte Schwerter vor der Brust. Hinter ihr erstreckt sich ein Gewässer mit Felsen, und am Himmel ist eine schmale Mondsichel zu sehen.",
+  "upright": "Die Zwei der Schwerter beschreibt einen Moment, in dem eine Wahl schwer erscheint und der Verstand nach Gleichgewicht sucht. Die Augenbinde kann den Wunsch bedeuten, dich vom Chaos abzuschirmen, um deine eigene Stimme zu hören. Die Karte erlaubt einen Moment des Nachdenkens, erinnert aber daran, dass das Patt nicht ewig dauern muss. Manchmal genügt es, die Binde abzunehmen und die Fakten anzuschauen.",
+  "reversed": "Umgekehrt kann die Karte auf eine Spannung hinweisen, die endlich eine Entscheidung verlangt, oder auf ein Übermaß an Informationen. Sie kann auch ein Zeichen sein, dass du dich schon bereit fühlst, die Blockade zu lösen.",
+  "reflection": [
+   "Vor welcher Wahl halte ich gerade inne?",
+   "Was muss ich wissen, um mich sicherer zu fühlen?"
+  ],
+  "advice": "Du weichst einer Entscheidung aus, indem du die Augen verschließt. Nimm die Binde ab: Schau auf die Fakten und wähle.",
+  "adviceReversed": "Die Spannung wächst, und du kannst nicht länger warten. Triff eine Entscheidung, auch eine unvollkommene.",
+  "astrology": "Luft · Mond in der Waage"
+ },
+ {
+  "id": "swords_03",
+  "name": "Drei der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 3,
+  "keywords": [
+   "Kummer",
+   "Verletzung",
+   "Schmerz anerkennen",
+   "Befreiung",
+   "Ehrlichkeit mit sich selbst"
+  ],
+  "symbolism": "Ein rotes Herz, von drei Schwertern durchbohrt, schwebt vor grauen Wolken, aus denen Regen fällt. Das Bild ist schlicht und karg, ohne Figuren, als bündle es alle Aufmerksamkeit auf ein einziges Gefühl.",
+  "upright": "Die Drei der Schwerter spricht von einem Schmerz, den es sich lohnt anzuerkennen, statt ihn zu verbergen. Sie kann eine Enttäuschung, verletzende Worte oder ein Gefühl von Verlust betreffen, entscheidet aber nichts endgültig. Der Regen auf der Karte ist auch ein Bild der Reinigung: Tränen können Erleichterung bringen. Zu benennen, was wehtut, ist oft der erste Schritt zur emotionalen Heilung.",
+  "reversed": "Die umgekehrte Drei kann ein Zeichen sein, dass die Wunde langsam heilt und mehr Ruhe zurückkehrt. Manchmal weist sie aber auf unterdrückte Traurigkeit hin, die ein Gespräch mit einem vertrauten Menschen braucht.",
+  "reflection": [
+   "Welcher Schmerz braucht heute meine Anerkennung?",
+   "Was hilft mir, sanft durch schwierige Gefühle zu gehen?"
+  ],
+  "advice": "Erkenne den Schmerz an, statt ihn zu verstecken. Erlaube dir, die Traurigkeit zu durchleben: Das ist der erste Schritt zur Heilung.",
+  "adviceReversed": "Die Wunde beginnt zu heilen. Lass es zu: Hör auf, in Gedanken zu dem zurückzukehren, was wehgetan hat.",
+  "astrology": "Luft · Saturn in der Waage"
+ },
+ {
+  "id": "swords_04",
+  "name": "Vier der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 4,
+  "keywords": [
+   "Ruhe",
+   "Erholung",
+   "Stille",
+   "Besinnung",
+   "Pause"
+  ],
+  "symbolism": "Die gemeißelte Figur eines Ritters ruht auf einem steinernen Grab in einer Kirche, die Hände zum Gebet gefaltet. Über ihm an der Wand hängen drei nach unten zeigende Schwerter, ein viertes liegt waagerecht unter ihm, und ein Buntglasfenster zeigt eine Szene mit Figuren.",
+  "upright": "Die Vier der Schwerter lädt dich ein, innezuhalten und deinem Kopf Ruhe zu gönnen. Nach einer Zeit der Anspannung ist Stille keine Zeitverschwendung, sondern ein Weg, Kraft zurückzugewinnen. Die Karte ermutigt zu Ruhe, Besinnung oder einfach zu einer längeren Pause von allen Reizen. Was du für eine Weile ablegst, wird auf dich warten.",
+  "reversed": "Umgekehrt kann die Karte auf Schwierigkeiten hinweisen, loszulassen, und darauf, ständig in Alarmbereitschaft zu sein. Sie kann auch ein Zeichen sein, dass die Ruhezeit zu Ende geht und die Lust zu handeln langsam zurückkehrt.",
+  "reflection": [
+   "Wann habe ich mir zuletzt echte Ruhe erlaubt?",
+   "Was kann ich eine Weile ablegen, um wieder klar zu sehen?"
+  ],
+  "advice": "Ruh dich aus. Bevor du den nächsten Schritt tust, brauchst du Erholung und Stille: Das ist keine verlorene Zeit.",
+  "adviceReversed": "Deine Kraft kehrt zurück, und das ist gut. Stürz dich aber nicht sofort in den Trubel; kehr schrittweise zurück.",
+  "astrology": "Luft · Jupiter in der Waage"
+ },
+ {
+  "id": "swords_05",
+  "name": "Fünf der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 5,
+  "keywords": [
+   "Konflikt",
+   "Grenzen",
+   "Stolz",
+   "der Preis des Sieges",
+   "Rückzug"
+  ],
+  "symbolism": "Ein Mann mit leichtem Lächeln sammelt Schwerter ein, während zwei Gestalten gebeugt zum Wasser davongehen. Mehrere Schwerter liegen auf dem Boden, und zerrissene Wolken ziehen über den Himmel.",
+  "upright": "Die Fünf der Schwerter fragt nach dem Preis, den man dafür zahlt, sich durchzusetzen. Manchmal hinterlässt ein gewonnener Streit Kälte und Distanz. Die Karte ermutigt dich zu überlegen, welche Kämpfe es wirklich wert sind, ausgefochten zu werden. Ein Rückzug muss keine Niederlage sein; er kann eine kluge Wahl sein.",
+  "reversed": "Die umgekehrte Fünf kann die Bereitschaft bedeuten, Frieden zu schließen oder einen alten Streit beizulegen. Sie kann auch auf Bedauern über Worte hinweisen, die es sich lohnt, in Ruhe richtigzustellen.",
+  "reflection": [
+   "Gibt es eine Situation, in der mir Gewinnen wichtiger ist als Verstehen?",
+   "Aus welchem Streit könnte ich mich mit Würde zurückziehen?"
+  ],
+  "advice": "Überlege, ob dieser Sieg seinen Preis wert ist. Manchmal ist es besser, den Streit loszulassen, als die Beziehung zu verlieren.",
+  "adviceReversed": "Es ist Zeit, den Konflikt zu beenden. Reich die Hand oder geh mit Würde.",
+  "astrology": "Luft · Venus im Wassermann"
+ },
+ {
+  "id": "swords_06",
+  "name": "Sechs der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 6,
+  "keywords": [
+   "Übergang",
+   "Veränderung",
+   "ruhigere Gewässer",
+   "Reise",
+   "Schwierigkeiten hinter sich lassen"
+  ],
+  "symbolism": "Ein Fährmann stakt ein Boot voran, in dem eine verhüllte Gestalt mit einem Kind neben sich sitzt. Sechs Schwerter stehen aufrecht im Boot; das Wasser ist auf einer Seite aufgewühlt, auf der anderen glatt, und am Horizont zeichnet sich ein Ufer ab.",
+  "upright": "Die Sechs der Schwerter beschreibt einen allmählichen Übergang aus einer schwereren Zeit in eine ruhigere. Nicht alles bleibt auf einmal zurück; manche Gedanken reisen mit. Die Karte erinnert daran, dass ein Übergang leise und langsam sein und dennoch vorwärtsführen kann. Es lohnt sich, die Hilfe zu würdigen, die dich in Bewegung hält.",
+  "reversed": "Umgekehrt kann die Karte auf Widerstand gegen Veränderung hinweisen oder auf das Gefühl, immer wieder ans selbe Ufer zurückzukehren. Sie kann dich ermutigen zu prüfen, was du noch im Boot behältst und was zurückbleiben könnte.",
+  "reflection": [
+   "Wovon entferne ich mich langsam, und wohin bin ich unterwegs?",
+   "Wer oder was hilft mir durch diese Zeit?"
+  ],
+  "advice": "Zieh weiter in ruhigere Gewässer. Veränderung ist nötig: Lass das Schwierige hinter dir.",
+  "adviceReversed": "Veränderung ist nötig, aber du wehrst dich dagegen. Überlege, was dich an Ort und Stelle festhält.",
+  "astrology": "Luft · Merkur im Wassermann"
+ },
+ {
+  "id": "swords_07",
+  "name": "Sieben der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 7,
+  "keywords": [
+   "Strategie",
+   "List",
+   "verborgene Motive",
+   "Eigenständigkeit",
+   "Ausweichen"
+  ],
+  "symbolism": "Ein Mann schleicht auf Zehenspitzen aus einem Zeltlager und trägt fünf Schwerter in den Armen. Zwei weitere bleiben hinter ihm im Boden stecken, und er blickt mit zufriedener Miene über die Schulter.",
+  "upright": "Die Sieben der Schwerter ermutigt dich hinzuschauen, wo du allein handelst und mit welchen Mitteln. Es kann eine kluge Strategie sein, aber auch die Versuchung, einem schwierigen Gespräch auszuweichen. Die Karte fragt nach Ehrlichkeit gegenüber anderen und dir selbst. Manchmal lohnt es sich innezuhalten und zu überlegen, was du wirklich mitnimmst und was du zurücklässt.",
+  "reversed": "Die umgekehrte Sieben kann den Wunsch bedeuten, aus dem Versteck zu kommen und die Wahrheit zu sagen. Sie kann auch nahelegen, dass du versuchst, zu viel auf einmal zu tragen, statt um Unterstützung zu bitten.",
+  "reflection": [
+   "Wo wähle ich die Abkürzung, und was bringt mich dazu?",
+   "Gibt es etwas, das ich offen sagen könnte?"
+  ],
+  "advice": "Handle klug, aber ehrlich. Prüfe auch, ob niemand mit dir ein unfaires Spiel spielt.",
+  "adviceReversed": "Etwas kommt ans Licht. Entscheide dich für Ehrlichkeit: Verstecken kostet mehr, als es bringt.",
+  "astrology": "Luft · Mond im Wassermann"
+ },
+ {
+  "id": "swords_08",
+  "name": "Acht der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 8,
+  "keywords": [
+   "einschränkende Überzeugungen",
+   "Gefühl des Gefangenseins",
+   "Angst",
+   "ein Ausweg",
+   "Perspektive"
+  ],
+  "symbolism": "Eine Frau in langem Kleid steht mit verbundenen Augen und locker gefesselten Armen zwischen acht Schwertern, die in sumpfigen Boden gesteckt sind. Die Schwerter schließen sie nicht ganz ein, und in der Ferne erhebt sich eine Burg auf einem Hügel.",
+  "upright": "Die Acht der Schwerter zeigt eine Lage, in der die Einschränkung zu einem großen Teil aus Gedanken gewoben ist. Die Fesseln auf der Karte sind locker, und zwischen den Schwertern ist Platz. Die Karte ermutigt dich zu prüfen, welche Überzeugungen dich festhalten. Eine kleine Bewegung, eine Frage oder ein Gespräch kann sich als Anfang eines Auswegs erweisen.",
+  "reversed": "Umgekehrt kann die Karte bedeuten, dass die Binde zu verrutschen beginnt und du mehr Möglichkeiten siehst. Manchmal weist sie aber auf eine so starke Angst hin, dass es sich lohnt, Unterstützung bei einem freundlichen Menschen zu suchen.",
+  "reflection": [
+   "Welche Überzeugung über mich selbst hält mich fest?",
+   "Was ist die kleinste Bewegung, die ich heute machen könnte?"
+  ],
+  "advice": "Der Käfig ist größtenteils in deinem Kopf. Stell die Überzeugung infrage, die dich einschränkt: Es gibt einen Ausweg.",
+  "adviceReversed": "Du beginnst, dich von der Angst zu befreien. Geh weiter: Jeder Schritt wird leichter.",
+  "astrology": "Luft · Jupiter in den Zwillingen"
+ },
+ {
+  "id": "swords_09",
+  "name": "Neun der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 9,
+  "keywords": [
+   "Angst",
+   "nächtliche Gedanken",
+   "Sorge",
+   "Empfindsamkeit",
+   "Bedürfnis nach Trost"
+  ],
+  "symbolism": "Eine Gestalt sitzt im Dunkeln aufrecht im Bett, das Gesicht in den Händen verborgen. Neun Schwerter hängen waagerecht an der schwarzen Wand, die Decke ist mit Rosen und Tierkreiszeichen verziert, und an der Seite des Bettes ist eine Kampfszene geschnitzt.",
+  "upright": "Die Neun der Schwerter beschreibt Gedanken, die nachts größer erscheinen als am Tag. Angst kann laut sein, sagt aber nicht immer die Wahrheit über die Wirklichkeit. Die Karte ermutigt dich, deine Sorgen aufzuschreiben, sie zu benennen und Fakten von Vorstellungen zu trennen. Ein Gespräch mit einem nahen Menschen kann mehr Erleichterung bringen, als du erwartest.",
+  "reversed": "Die umgekehrte Neun kann nahelegen, dass die Angst nachzulassen beginnt und du mehr Abstand hast. Sie kann auch auf geheim gehaltene Sorgen hinweisen, denen es guttäte, laut ausgesprochen zu werden.",
+  "reflection": [
+   "Welche meiner Sorgen ist Tatsache, und welche ist Vorstellung?",
+   "Mit wem kann ich teilen, was mir keine Ruhe lässt?"
+  ],
+  "advice": "Deine Ängste sind größer als die Wirklichkeit. Teile sie mit einem Menschen, dem du vertraust: Bei Tageslicht sehen sie anders aus.",
+  "adviceReversed": "Die schlimmsten Ängste verlieren an Kraft. Erlaube dir durchzuatmen und achte auf deinen Schlaf und deine Ruhe.",
+  "astrology": "Luft · Mars in den Zwillingen"
+ },
+ {
+  "id": "swords_10",
+  "name": "Zehn der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 10,
+  "keywords": [
+   "Ende eines Abschnitts",
+   "Erschöpfung",
+   "Abschluss",
+   "Morgendämmerung",
+   "Neubeginn"
+  ],
+  "symbolism": "Eine Gestalt liegt mit dem Gesicht nach unten an einem ruhigen Gewässer, zehn Schwerter stecken in ihrem Rücken, und ein rotes Tuch ist über den Körper geworfen. Der Himmel darüber ist dunkel, doch am Horizont hellt er sich zu einem goldenen Streifen der Morgendämmerung auf.",
+  "upright": "Die Zehn der Schwerter spricht von dem Moment, in dem ein Abschnitt zu Ende geht und sich nicht länger aufrechterhalten lässt. Das Bild ist drastisch, fast theatralisch, als wolle es betonen, dass es nicht schlimmer werden kann und du also beginnen kannst aufzustehen. Die Karte sagt kein Unglück voraus; eher ermutigt sie dich, deine Erschöpfung anzuerkennen und loszulassen, was seinen Lauf genommen hat. Am Horizont bricht schon der Morgen an.",
+  "reversed": "Umgekehrt kann die Karte bedeuten, dass du dich allmählich aufrichtest und Kraft zurückgewinnst. Sie kann auch darauf hinweisen, dass du aus Angst vor der Leere an etwas festhältst, das schon zu Ende ist.",
+  "reflection": [
+   "Was in meinem Leben ist schon zu Ende, auch wenn ich es noch aufrechterhalte?",
+   "Wie sieht meine Morgendämmerung aus, wenn dieser Abschnitt abgeschlossen ist?"
+  ],
+  "advice": "Das ist das Ende eines Abschnitts: Schlimmer wird es nicht. Nimm es an und fang neu an.",
+  "adviceReversed": "Du kommst nach einer schweren Zeit langsam wieder auf die Beine. Kehr nicht zu dem zurück, was dich verletzt hat.",
+  "astrology": "Luft · Sonne in den Zwillingen"
+ },
+ {
+  "id": "swords_11",
+  "name": "Bube der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 11,
+  "keywords": [
+   "wacher Verstand",
+   "Aufmerksamkeit",
+   "Fragen",
+   "Lernen",
+   "frischer Blick"
+  ],
+  "symbolism": "Eine junge Gestalt steht auf einer unebenen, windigen Anhöhe und hält mit beiden Händen ein erhobenes Schwert. Wolken jagen über den Himmel, Vögel kreisen darüber, und die Gestalt blickt zur Seite, als lausche sie.",
+  "upright": "Der Bube der Schwerter ist die Energie eines neugierigen Verstandes, der verstehen will und Fragen stellt. Die Karte ermutigt dazu, zu lernen, zu beobachten und Informationen zu sammeln, bevor du Schlüsse ziehst. Sie kann auch auf einen Schwall neuer Ideen hinweisen oder auf den Wunsch, dich zu Wort zu melden. Wachsamkeit ist wertvoll, wenn sie mit Offenheit einhergeht.",
+  "reversed": "Der umgekehrte Bube kann Zerstreutheit, vorschnelle Worte oder Klatsch bedeuten. Er kann ein Zeichen sein, deine Quellen zu prüfen, bevor du etwas weitererzählst.",
+  "reflection": [
+   "Was möchte ich gerade herausfinden?",
+   "Höre ich zu, oder warte ich nur darauf, an die Reihe zu kommen?"
+  ],
+  "advice": "Stell Fragen und sammle Informationen. Bleib aufmerksam, bevor du eine Entscheidung triffst.",
+  "adviceReversed": "Vorsicht vor Klatsch und vorschnellen Worten. Sprich weniger, hör mehr zu.",
+  "astrology": "Luft"
+ },
+ {
+  "id": "swords_12",
+  "name": "Ritter der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 12,
+  "keywords": [
+   "Entschlossenheit",
+   "schnelles Handeln",
+   "Eifer",
+   "Direktheit",
+   "Ungestüm"
+  ],
+  "symbolism": "Ein Ritter in Rüstung stürmt im Galopp auf einem weißen Pferd heran, das Schwert hoch erhoben. Die Bäume im Hintergrund biegen sich im Wind, und dieselbe heftige Böe zerrt an Wolken und Vögeln.",
+  "upright": "Der Ritter der Schwerter trägt einen starken Impuls zu handeln und die eigene Position zu verteidigen. Eine solche Energie hilft, Stillstand zu durchbrechen und Absichten klar zu benennen. Die Karte erinnert aber daran, dass Tempo nicht immer mit gutem Urteil einhergeht. Es lohnt sich zu prüfen, ob du weißt, wohin du eilst.",
+  "reversed": "Umgekehrt kann die Karte auf eine Eile hinweisen, die deine Kräfte zerstreut, oder auf zu scharf gesprochene Worte. Sie kann auch einen zurückgehaltenen Eifer bedeuten, der ein klares Ziel braucht.",
+  "reflection": [
+   "Wohin eile ich, und ist diese Richtung meine eigene?",
+   "Wie kann ich meinen Standpunkt fest, aber ohne verletzenden Ton vertreten?"
+  ],
+  "advice": "Handle entschlossen und schnell: Du weißt genau, was du willst. Tritt nur unterwegs niemanden nieder.",
+  "adviceReversed": "Eile und scharfe Worte könnten schaden. Werde langsamer und denk nach, bevor du losstürmst.",
+  "astrology": "Luft"
+ },
+ {
+  "id": "swords_13",
+  "name": "Königin der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 13,
+  "keywords": [
+   "Unabhängigkeit",
+   "Scharfblick",
+   "Ehrlichkeit",
+   "Grenzen",
+   "Erfahrung"
+  ],
+  "symbolism": "Die Königin sitzt im Profil auf einem mit Schmetterlingen verzierten Thron und hält ein aufrechtes Schwert in der rechten Hand. Die linke Hand hebt sie offen, als lade sie jemanden ein oder weise den Weg, und über ihr fliegt ein einzelner Vogel am klaren Himmel.",
+  "upright": "Die Königin der Schwerter ist eine Gestalt, die klar sieht und offen spricht, oft wegen dessen, was sie erlebt hat. Die Karte ermutigt dich, deinem eigenen Urteil zu vertrauen und Grenzen zu setzen, ohne dich übermäßig zu erklären. Ihr Scharfblick schließt Wärme nicht aus; die offene Hand zeigt Gesprächsbereitschaft. Erfahrung kann zu einer Quelle der Weisheit statt der Bitterkeit werden.",
+  "reversed": "Die umgekehrte Königin kann auf Kälte hinweisen, die als Schutzschild dient, oder auf ein zu strenges Urteil über dich und andere. Sie kann dich ermutigen, Klarheit des Denkens mit Sanftheit zu verbinden.",
+  "reflection": [
+   "Wo muss ich eine klarere Grenze setzen?",
+   "Wie können mich meine Erfahrungen lehren, statt mich zu verschließen?"
+  ],
+  "advice": "Sprich offen und setz Grenzen. Scharfblick und Unabhängigkeit helfen dir, die Sache klar zu sehen.",
+  "adviceReversed": "Sei nicht zu streng, weder mit dir noch mit anderen. Ehrlichkeit muss nicht wehtun.",
+  "astrology": "Luft"
+ },
+ {
+  "id": "swords_14",
+  "name": "König der Schwerter",
+  "arcana": "minor",
+  "suit": "swords",
+  "rank": 14,
+  "keywords": [
+   "geistige Autorität",
+   "Objektivität",
+   "Grundsätze",
+   "Gerechtigkeit",
+   "klares Denken"
+  ],
+  "symbolism": "Der König sitzt frontal auf einem hohen Thron und hält ein Schwert, das leicht aus der Senkrechten geneigt ist. Die Rückenlehne des Throns ist mit Schmetterlingen und Mondsicheln verziert, und hinter ihm sind vor den Wolken einige Bäume und zwei Vögel zu sehen.",
+  "upright": "Der König der Schwerter verkörpert einen Verstand, der Argumente abwägt und sich von Grundsätzen leiten lässt. Die Karte ermutigt zu einem unparteiischen Blick auf die Lage und zu Entscheidungen, die auf Fakten beruhen. Es ist die Energie verantwortungsvoller, durchdachter Kommunikation. Weisheit zeigt sich, wenn die Logik den Menschen dient und nicht nur dem Rechthaben.",
+  "reversed": "Umgekehrt kann die Karte starre Überzeugungen bedeuten oder den Gebrauch von Argumenten, um andere zu beherrschen. Sie kann auch auf ein inneres Gedankenchaos hinweisen, das geordnet werden muss.",
+  "reflection": [
+   "Beruht meine Entscheidung auf Fakten oder auf Ängsten?",
+   "Wie kann ich Grundsätze mit Verständnis verbinden?"
+  ],
+  "advice": "Lass dich von Vernunft und Grundsätzen leiten. Eine kühle, sachliche Analyse bringt das beste Ergebnis.",
+  "adviceReversed": "Logik allein genügt nicht. Bezieh die Menschen und Gefühle ein, die von der Entscheidung betroffen sind.",
+  "astrology": "Luft"
+ },
+ {
+  "id": "pentacles_01",
+  "name": "Ass der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 1,
+  "keywords": [
+   "neue Gelegenheit",
+   "Erdung",
+   "Fülle",
+   "das Konkrete",
+   "Potenzial"
+  ],
+  "symbolism": "Eine Hand reicht aus einer Wolke und hält eine große goldene Münze mit einem fünfzackigen Stern. Darunter erstreckt sich ein Garten voller weißer Lilien, und ein Weg führt zu einem Tor in einer Hecke, hinter der sich Berge erheben.",
+  "upright": "Das Ass der Münzen spricht vom Samen von etwas Greifbarem: einer neuen Tätigkeit, einer Fähigkeit oder einem gesünderen Alltagsrhythmus. Die Karte ermutigt dich, das Reale und hier und jetzt Verfügbare zu schätzen. Potenzial wird zu etwas Bleibendem, wenn man es geduldig pflegt. Das Gartentor steht offen, aber hindurchgehen musst du selbst.",
+  "reversed": "Das umgekehrte Ass kann auf eine Gelegenheit hinweisen, die noch nicht gereift ist, oder auf Schwierigkeiten, Pläne in die Tat umzusetzen. Es kann ein Zeichen sein, zu den Grundlagen zurückzukehren und zu prüfen, wo du stehst.",
+  "reflection": [
+   "Welchen Samen möchte ich in meinem Alltag pflanzen?",
+   "Was Konkretes kann ich tun, um für meine Ressourcen zu sorgen?"
+  ],
+  "advice": "Eine konkrete Gelegenheit zeigt sich: Ergreife sie. Säe den Samen, indem du Zeit, Arbeit oder Geld in etwas Bleibendes investierst.",
+  "adviceReversed": "Die Gelegenheit könnte an dir vorbeigehen. Prüfe, ob du gut planst, bevor du investierst.",
+  "astrology": "Erde — Wurzel des Elements"
+ },
+ {
+  "id": "pentacles_02",
+  "name": "Zwei der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 2,
+  "keywords": [
+   "Jonglieren",
+   "Beweglichkeit",
+   "Gleichgewicht",
+   "Prioritäten",
+   "Rhythmus"
+  ],
+  "symbolism": "Ein junger Mann mit hohem Hut tanzt und jongliert dabei zwei Münzen, die durch ein Band in Form einer liegenden Acht verbunden sind. Hinter ihm schaukeln zwei Schiffe auf hohen Wellen.",
+  "upright": "Die Zwei der Münzen zeigt die Kunst, zwischen verschiedenen Pflichten das Gleichgewicht zu halten. Das Leben kann sich wie ein Tanz auf einer schwankenden Welle anfühlen, und du lernst, dich in ihrem Rhythmus zu bewegen. Die Karte ermutigt zu Leichtigkeit, aber auch zu einem ehrlichen Blick darauf, wie viel du auf einmal tragen kannst. Beweglichkeit ist eine Stärke, solange sie dir nicht den Atem raubt.",
+  "reversed": "Umgekehrt kann die Karte auf zu viele Dinge in der Luft und ein Gefühl der Überlastung hinweisen. Sie kann dich auch ermutigen, einen der Bälle abzulegen und zu entscheiden, was am wichtigsten ist.",
+  "reflection": [
+   "Wie viele Dinge versuche ich gleichzeitig in der Luft zu halten?",
+   "Was könnte ich ablegen, um meine Leichtigkeit zurückzugewinnen?"
+  ],
+  "advice": "Du jonglierst viele Dinge, und es gelingt dir. Bleib beweglich und setz deine Prioritäten.",
+  "adviceReversed": "Zu viel auf einmal. Verzichte auf etwas, bevor etwas herunterfällt.",
+  "astrology": "Erde · Jupiter im Steinbock"
+ },
+ {
+  "id": "pentacles_03",
+  "name": "Drei der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 3,
+  "keywords": [
+   "Zusammenarbeit",
+   "Handwerkskunst",
+   "Anerkennung",
+   "Plan",
+   "gemeinsames Bauen"
+  ],
+  "symbolism": "In einem gotischen Innenraum steht ein Handwerker auf einer Bank und arbeitet an einem Gewölbebogen. Neben ihm besprechen zwei Gestalten, eine im Mönchsgewand, die andere mit einem entrollten Plan, den Fortschritt der Arbeit, und über ihnen sind drei Münzen in den Stein gemeißelt.",
+  "upright": "Die Drei der Münzen betont den Wert einer Zusammenarbeit, in der jeder sein eigenes Können einbringt. Die Karte ermutigt dich, Wissen zu teilen und denen zuzuhören, die die Dinge aus einer anderen Perspektive sehen. Die Wertschätzung der Arbeit anderer und der eigenen schafft dauerhafte Ergebnisse. Es ist ein guter Moment zu fragen, wie sich etwas gemeinsam besser machen ließe.",
+  "reversed": "Die umgekehrte Drei kann auf mangelnde Abstimmung im Team hinweisen oder auf das Gefühl, dass dein Beitrag übersehen wird. Sie kann zu einem klaren Gespräch über Rollen und Erwartungen ermutigen.",
+  "reflection": [
+   "Mit wem könnte ich gemeinsam etwas aufbauen?",
+   "Schätze ich meinen eigenen Beitrag so sehr wie den anderer?"
+  ],
+  "advice": "Arbeite mit anderen zusammen. Deine Fähigkeiten, verbunden mit denen anderer, bringen ein solides Ergebnis: Bitte um Unterstützung oder eine Meinung.",
+  "adviceReversed": "Die Zusammenarbeit klappt nicht. Vereinbart klar, wer wofür verantwortlich ist.",
+  "astrology": "Erde · Mars im Steinbock"
+ },
+ {
+  "id": "pentacles_04",
+  "name": "Vier der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 4,
+  "keywords": [
+   "Sicherheit",
+   "Kontrolle",
+   "Festhalten",
+   "Stabilität",
+   "Vorsicht"
+  ],
+  "symbolism": "Ein gekrönter Mann sitzt auf einer Steinbank und presst eine Münze fest an seine Brust. Eine weitere Münze ruht auf seiner Krone, zwei hält er mit den Füßen fest, und hinter ihm breitet sich eine Stadt aus.",
+  "upright": "Die Vier der Münzen spricht von einem Bedürfnis nach Stabilität und danach, zu schützen, was du hast. Sorge um Sicherheit ist natürlich und wichtig. Die Karte ermutigt dich aber zu prüfen, ob du nur an dem festhältst, was kostbar ist, oder auch an dem, was bloß Platz einnimmt. Manchmal bringt eine geöffnete Hand mehr Ruhe als eine geballte Faust.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass sich ein fester Griff lockert und Bereitschaft zum Teilen entsteht. Sie kann auch ein Schwanken zwischen zu viel Vorsicht und zu schnellem Weggeben bedeuten.",
+  "reflection": [
+   "Woran halte ich aus Angst statt aus Bedarf fest?",
+   "Was gibt mir außer materiellen Dingen ein Gefühl von Sicherheit?"
+  ],
+  "advice": "Sichere, was du hast, aber ball die Faust nicht zu fest. Sicherheit ist nicht dasselbe wie Kontrolle.",
+  "adviceReversed": "Es ist Zeit, dich zu öffnen: teilen, ausgeben, loslassen. Festhalten blockiert den Fluss.",
+  "astrology": "Erde · Sonne im Steinbock"
+ },
+ {
+  "id": "pentacles_05",
+  "name": "Fünf der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 5,
+  "keywords": [
+   "schwere Zeiten",
+   "Gefühl des Ausgeschlossenseins",
+   "Unterstützung",
+   "Durchhalten",
+   "um Hilfe bitten"
+  ],
+  "symbolism": "Zwei Gestalten stapfen in einer Winternacht durch den Schnee; die eine stützt sich auf Krücken, die andere hüllt sich in ein zerrissenes Tuch. Sie gehen an einem hell erleuchteten Buntglasfenster mit fünf Münzen vorbei, scheinbar ohne es zu bemerken.",
+  "upright": "Die Fünf der Münzen beschreibt eine Zeit, in der du dich vielleicht im Regen stehen gelassen fühlst. Die Karte erkennt die Schwierigkeit an, erinnert aber daran, dass die Gestalten gemeinsam gehen, nicht allein. Das Licht im Fenster deutet an, dass Unterstützung oft näher ist, als es scheint. Um Hilfe zu bitten, ist keine Schwäche, sondern eine Form, für dich zu sorgen.",
+  "reversed": "Die umgekehrte Fünf kann bedeuten, dass du langsam aus einer schweren Zeit herauskommst und wieder ein Gefühl der Zugehörigkeit gewinnst. Sie kann auch auf Schwierigkeiten hinweisen, verfügbare Unterstützung anzunehmen.",
+  "reflection": [
+   "Wo kann ich um die Unterstützung bitten, die ich brauche?",
+   "Wer geht in schweren Momenten neben mir?"
+  ],
+  "advice": "Schwere Zeiten dauern nicht ewig. Bitte um Hilfe: Unterstützung ist näher, als du denkst.",
+  "adviceReversed": "Das Schlimmste geht vorüber. Nimm die Hilfe an, die dir jemand anbietet.",
+  "astrology": "Erde · Merkur im Stier"
+ },
+ {
+  "id": "pentacles_06",
+  "name": "Sechs der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 6,
+  "keywords": [
+   "Großzügigkeit",
+   "Teilen",
+   "Gleichgewicht",
+   "Austausch",
+   "Dankbarkeit"
+  ],
+  "symbolism": "Ein wohlhabender Kaufmann hält in einer Hand eine Waage und gibt mit der anderen einem von zwei knienden Bettlern Münzen. Über der Szene schweben sechs Münzen.",
+  "upright": "Die Sechs der Münzen spricht von einem Fluss: Mal gibst du, mal empfängst du. Die Karte ermutigt zu einer Großzügigkeit, die nicht demütigt, und dazu, Hilfe ohne Scham anzunehmen. Die Waage in der Hand des Kaufmanns erinnert an Fairness und Maß. Es lohnt sich zu überlegen, wo in deinem Leben der Austausch fair ist und wo er Anpassung braucht.",
+  "reversed": "Umgekehrt kann die Karte auf ein Ungleichgewicht hinweisen, etwa auf ein Geben aus Pflichtgefühl oder auf Hilfe, an die Bedingungen geknüpft sind. Sie kann dich ermutigen, Grenzen in Beziehungen, die auf Unterstützung beruhen, zu überdenken.",
+  "reflection": [
+   "Fällt es mir leichter zu geben oder zu empfangen?",
+   "Wo in meinem Leben braucht der Austausch mehr Gleichgewicht?"
+  ],
+  "advice": "Gib und nimm im Gleichgewicht. Großzügigkeit kommt zu dir zurück, aber vergiss nicht, auch zu nehmen.",
+  "adviceReversed": "Prüfe, ob der Austausch fair ist. Hilfe mit Bedingungen kann dich belasten.",
+  "astrology": "Erde · Mond im Stier"
+ },
+ {
+  "id": "pentacles_07",
+  "name": "Sieben der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 7,
+  "keywords": [
+   "Geduld",
+   "Bilanz ziehen",
+   "Wachstum",
+   "Zeit investieren",
+   "Pause"
+  ],
+  "symbolism": "Ein Bauer stützt sich auf seine Hacke und betrachtet einen Strauch, an dem zwischen den Blättern sieben Münzen gewachsen sind. Seine Haltung drückt Müdigkeit und Nachdenklichkeit aus, als ermesse er, wie viel seine Arbeit bisher eingebracht hat.",
+  "upright": "Die Sieben der Münzen ist ein Moment des Innehaltens, um zu sehen, was schon gewachsen ist. Wachstum kann langsam sein und ist nicht immer von Tag zu Tag sichtbar. Die Karte ermutigt zu Geduld und einer ehrlichen Einschätzung, ob die Richtung noch zu dir passt. Mitten in der Arbeit zu ruhen, gehört zur Pflege dazu.",
+  "reversed": "Die umgekehrte Sieben kann auf Ungeduld hinweisen oder auf das Gefühl, dass deine Mühe nicht die erwarteten Ergebnisse bringt. Sie kann eine Einladung sein, die Arbeitsweise zu ändern, statt aufzugeben.",
+  "reflection": [
+   "Was ist dank meiner Arbeit schon gewachsen, ohne dass ich es bemerkt habe?",
+   "Ist die Richtung, in die ich gehe, noch richtig für mich?"
+  ],
+  "advice": "Sei geduldig: Die Ernte wächst. Schätz ein, was funktioniert, und investiere dort, wo du Wachstum siehst.",
+  "adviceReversed": "Die Mühe zahlt sich nicht aus. Ändere die Methode, statt auf dieselbe Weise noch härter zu arbeiten.",
+  "astrology": "Erde · Saturn im Stier"
+ },
+ {
+  "id": "pentacles_08",
+  "name": "Acht der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 8,
+  "keywords": [
+   "Meisterschaft",
+   "Übung",
+   "Konzentration",
+   "Fleiß",
+   "ein Handwerk lernen"
+  ],
+  "symbolism": "Ein Handwerker sitzt an einer Werkbank und vollendet geduldig mit einem Meißel eine weitere Münze. Die fertigen Scheiben hängen übereinander an einem Holzpfosten, eine liegt zu seinen Füßen, und in der Ferne sind die Gebäude einer Stadt zu sehen.",
+  "upright": "Die Acht der Münzen beschreibt die Freude, sich durch Wiederholung und Konzentration zu verbessern. Die Karte würdigt sorgfältig getane Arbeit, auch wenn gerade niemand zuschaut. Sie kann dich ermutigen, eine neue Fähigkeit zu lernen oder eine vorhandene zu vertiefen. Meisterschaft wächst aus kleinen, alltäglichen Schritten.",
+  "reversed": "Umgekehrt kann die Karte auf einen Perfektionismus hinweisen, der die Freude an der Arbeit nimmt, oder auf Routine ohne Hingabe. Sie kann dich ermutigen, dich daran zu erinnern, warum du lernst.",
+  "reflection": [
+   "Welche Fähigkeit möchte ich Schritt für Schritt entwickeln?",
+   "Arbeite ich mit Hingabe oder nur aus Pflicht?"
+  ],
+  "advice": "Konzentrier dich auf dein Handwerk und übe. Stetige Arbeit und Liebe zum Detail bringen Ergebnisse.",
+  "adviceReversed": "Perfektionismus oder Routine bremsen dich. Erinnere dich daran, warum du es tust.",
+  "astrology": "Erde · Sonne in der Jungfrau"
+ },
+ {
+  "id": "pentacles_09",
+  "name": "Neun der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 9,
+  "keywords": [
+   "Selbstständigkeit",
+   "Wohlstand",
+   "Kultiviertheit",
+   "Unabhängigkeit",
+   "Selbstwertschätzung"
+  ],
+  "symbolism": "Eine Frau in einem mit Blumen verzierten Gewand steht in einem Weinberg voller reifer Trauben und neun Münzen. Auf ihrer behandschuhten Hand sitzt ein Falke mit Haube, und zu ihren Füßen kriecht eine kleine Schnecke durchs Gras.",
+  "upright": "Die Neun der Münzen spricht von der Zufriedenheit über das, was du durch eigene Mühe und Geduld aufgebaut hast. Die Karte ermutigt dich, einen Moment der Ruhe zu genießen und deine Unabhängigkeit zu würdigen. Der Falke mit Haube erinnert an Selbstbeherrschung und die Fähigkeit zu warten. Du darfst dir ein wenig Genuss erlauben, ohne ihn rechtfertigen zu müssen.",
+  "reversed": "Die umgekehrte Neun kann auf eine Abhängigkeit von äußerer Anerkennung hinweisen oder auf Einsamkeit, die sich hinter dem Anschein von Selbstständigkeit verbirgt. Sie kann eine Einladung sein, deinen Garten mit anderen zu teilen.",
+  "reflection": [
+   "Worauf, das ich allein aufgebaut habe, bin ich stolz?",
+   "Wie kann ich genießen, was ich habe, ohne mich zu vergleichen?"
+  ],
+  "advice": "Genieße die Früchte deiner Arbeit. Du hast jedes Recht auf Unabhängigkeit und ein wenig Luxus.",
+  "adviceReversed": "Prüfe, ob deine Unabhängigkeit nicht Einsamkeit ist. Lass jemanden näher kommen.",
+  "astrology": "Erde · Venus in der Jungfrau"
+ },
+ {
+  "id": "pentacles_10",
+  "name": "Zehn der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 10,
+  "keywords": [
+   "Erbe",
+   "Beständigkeit",
+   "Generationen gemeinsam",
+   "Wurzeln",
+   "das Langfristige"
+  ],
+  "symbolism": "Unter einem Torbogen sitzt ein grauhaariger alter Mann in einem prächtigen Mantel und streichelt zwei weiße Hunde. Neben ihm stehen eine junge Frau, ein Mann und ein Kind, und die zehn Münzen sind im Bild in Form eines verzweigten Baumes angeordnet; im Hintergrund sind die Mauern eines Anwesens und Wappen zu sehen.",
+  "upright": "Die Zehn der Münzen lenkt die Aufmerksamkeit auf das, was länger währt als ein einzelnes Leben: Familiengeschichten, Traditionen, Werte und gemeinsame Orte. Die Karte ermutigt dich zu überlegen, was du erbst und was du weitergeben möchtest. Sie spricht auch von einem Gefühl der Verwurzelung und von Stabilität, die über Jahre gewachsen ist. Alltägliche Gesten der Fürsorge werden mit der Zeit zu einem Erbe.",
+  "reversed": "Umgekehrt kann die Karte auf Spannungen rund um familiäre Erwartungen hinweisen oder auf das Gefühl, dass Traditionen dich einengen. Sie kann dich ermutigen, bewusst zu wählen, was du von deinem Erbe behalten möchtest.",
+  "reflection": [
+   "Welche Werte habe ich von früheren Generationen empfangen?",
+   "Was möchte ich für andere hinterlassen?"
+  ],
+  "advice": "Denk langfristig. Bau etwas Bleibendes auf, für dich und für die, die nach dir kommen.",
+  "adviceReversed": "Familiäre oder finanzielle Angelegenheiten müssen geordnet werden. Schieb schwierige Gespräche nicht auf.",
+  "astrology": "Erde · Merkur in der Jungfrau"
+ },
+ {
+  "id": "pentacles_11",
+  "name": "Bube der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 11,
+  "keywords": [
+   "Lernen",
+   "Neugier",
+   "neue Fähigkeiten",
+   "Konzentration",
+   "ein praktischer Traum"
+  ],
+  "symbolism": "Eine junge Gestalt steht auf einer grünen Wiese, hält feierlich eine Münze und betrachtet sie. Dahinter erstrecken sich ein gepflügtes Feld und einige Bäume, und der Horizont ist ruhig und weit.",
+  "upright": "Der Bube der Münzen ist die Energie eines Lernenden, der der Welt zugleich mit Neugier und Ernst begegnet. Die Karte ermutigt dazu, zu lernen, zu experimentieren und die ersten Schritte in etwas Praktischem zu tun. Ideen nehmen Gestalt an, wenn du ihnen Tag für Tag Aufmerksamkeit schenkst. Du musst nicht sofort alles können.",
+  "reversed": "Der umgekehrte Bube kann darauf hinweisen, dass der Beginn aufgeschoben wird oder trotz guter Absichten die Konzentration fehlt. Er kann ein Zeichen sein, eine Sache auszuwählen und mit einem kleinen Schritt zu beginnen.",
+  "reflection": [
+   "Was Praktisches möchte ich lernen?",
+   "Welchen ersten kleinen Schritt kann ich diese Woche tun?"
+  ],
+  "advice": "Lerne. Eine neue Fähigkeit oder ein praktischer Kurs öffnet dir den Weg: Beginne mit den Grundlagen.",
+  "adviceReversed": "Fang endlich an, statt nur zu planen, etwas zu lernen. Ein kleiner, regelmäßiger Schritt genügt.",
+  "astrology": "Erde"
+ },
+ {
+  "id": "pentacles_12",
+  "name": "Ritter der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 12,
+  "keywords": [
+   "Ausdauer",
+   "Methode",
+   "Verantwortung",
+   "Routine",
+   "Verlässlichkeit"
+  ],
+  "symbolism": "Ein Ritter in dunkler Rüstung sitzt auf einem massigen Pferd, das völlig reglos steht, und hält eine Münze vor sich. Hinter ihm erstreckt sich ein gepflügtes Feld, und grüne Zweige schmücken seinen Helm und den Kopf des Pferdes.",
+  "upright": "Der Ritter der Münzen zeigt die Kraft, die aus Ausdauer und Beständigkeit kommt. Er ist nicht der Schnellste, erreicht sein Ziel aber Schritt für Schritt. Die Karte ermutigt dich, eine aufbauende Routine zu schätzen und Verantwortung für eingegangene Verpflichtungen zu übernehmen. Ein langsames Tempo ist oft der sicherste Weg.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass du in einer Routine feststeckst, die dir nicht mehr dient, oder auf zu viel Vorsicht. Sie kann eine Einladung sein, ein wenig Frische in deine Alltagsgewohnheiten zu bringen.",
+  "reflection": [
+   "Welche tägliche Gewohnheit unterstützt mich wirklich?",
+   "Wo wird meine Vorsicht zum Stillstand?"
+  ],
+  "advice": "Arbeite stetig und methodisch. Langsam, aber sicher erreichst du dein Ziel: Nimm keine Abkürzungen.",
+  "adviceReversed": "Zu vorsichtig oder zu eintönig. Bring etwas Bewegung und Abwechslung in die Routine.",
+  "astrology": "Erde"
+ },
+ {
+  "id": "pentacles_13",
+  "name": "Königin der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 13,
+  "keywords": [
+   "Fürsorge",
+   "praktische Weisheit",
+   "Zuhause",
+   "Natur",
+   "Findigkeit"
+  ],
+  "symbolism": "Die Königin sitzt auf einem Thron in einem Garten voller blühender Rosen, hält eine Münze und betrachtet sie zärtlich. Der Thron ist mit geschnitzten Früchten und Ziegenköpfen verziert, und in der unteren Ecke des Bildes kauert ein Kaninchen.",
+  "upright": "Die Königin der Münzen verkörpert Wärme, verbunden mit praktischer Vernunft. Die Karte ermutigt dich, für deine Umgebung, deinen Körper und deinen Tagesrhythmus so zu sorgen, dass du dich verwurzelt fühlst. Sie spricht davon, einen Raum zu schaffen, in dem du und andere sich wohlfühlen können. Die Sorge um dich ist hier ebenso wichtig wie die Sorge um deine Liebsten.",
+  "reversed": "Umgekehrt kann die Karte darauf hinweisen, dass du dich selbst vernachlässigst, während du zu sehr für andere sorgst, oder auf eine zu starke Bindung an Ordnung. Sie kann dich ermutigen, ein Gleichgewicht zwischen Geben und Ruhen zu finden.",
+  "reflection": [
+   "Wie kann ich heute für meinen Raum und den Rhythmus meines Tages sorgen?",
+   "Sorge ich für mich so zärtlich wie für andere?"
+  ],
+  "advice": "Kümmere dich um die praktischen Grundlagen: Zuhause, Gesundheit, Budget. Die Sorge um das Konkrete schenkt dir Ruhe.",
+  "adviceReversed": "Du sorgst für alle außer für dich. Finde Zeit und Mittel für dich selbst.",
+  "astrology": "Erde"
+ },
+ {
+  "id": "pentacles_14",
+  "name": "König der Münzen",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "rank": 14,
+  "keywords": [
+   "Stabilität",
+   "Reife",
+   "Verantwortung",
+   "Großzügigkeit",
+   "praktische Führung"
+  ],
+  "symbolism": "Der König sitzt auf einem mit geschnitzten Stierköpfen verzierten Thron, in einem Gewand, das dicht mit einem Muster aus Reben und Trauben bedeckt ist. In einer Hand hält er ein Zepter, in der anderen eine Münze, und hinter ihm erheben sich die Mauern einer Burg.",
+  "upright": "Der König der Münzen zeigt eine reife Stabilität, die geduldig und verantwortungsvoll aufgebaut wurde. Die Karte ermutigt dich, mit Dankbarkeit auf das zu schauen, was du geschaffen hast, und zu überlegen, wie es auch anderen dienen könnte. Es ist die Energie eines Menschen, der für sich und seine Umgebung sichere Bedingungen schaffen kann. Wahrer Reichtum umfasst auch Zeit, Beziehungen und Frieden.",
+  "reversed": "Der umgekehrte König kann auf eine zu starke Ausrichtung auf Kontrolle hinweisen oder darauf, den Wert nur am Besitz zu messen. Er kann eine Einladung sein, dich daran zu erinnern, wofür du das alles aufbaust.",
+  "reflection": [
+   "Was betrachte ich als meinen wahren Reichtum?",
+   "Wie könnte das, was ich aufgebaut habe, andere unterstützen?"
+  ],
+  "advice": "Setz auf Stabilität und verantwortungsvolle Entscheidungen. Handle wie jemand, der für die Dauer baut.",
+  "adviceReversed": "Lass dir von Geld oder Status nicht den Blick auf das Wichtige verstellen. Sicherheit ist nicht alles.",
+  "astrology": "Erde"
+ }
+]

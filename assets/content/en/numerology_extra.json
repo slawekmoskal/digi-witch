@@ -1,0 +1,221 @@
+{
+  "square": {
+    "1": {
+      "title": "Character",
+      "levels": [
+        "No ones: you build willpower consciously, and practising assertiveness pays off.",
+        "One 1: a gentle character; you give way to others easily.",
+        "Two 1s: a balanced character. You can stand your ground without forcing it.",
+        "Three: a strong will and a need to lead; watch out for stubbornness.",
+        "Four or more: a very strong will, which easily turns into stubbornness and a wish to control others. Flexibility is worth practising."
+      ]
+    },
+    "2": {
+      "title": "Energy",
+      "levels": [
+        "No twos: you draw energy from other people and from rest, so look after your recovery.",
+        "One 2: enough energy for everyday life, but easy to lose when there is too much going on.",
+        "Two 2s: a good reserve of energy and sensitivity to your surroundings.",
+        "Three: a lot of energy, which needs an outlet so that it does not turn into nervousness.",
+        "Four or more: enormous energy that can tip into oversensitivity; exercise and rest are needed."
+      ]
+    },
+    "3": {
+      "title": "Curiosity",
+      "levels": [
+        "No threes: you learn in practice, through experience rather than from books.",
+        "One 3: curiosity about the world that needs a concrete goal.",
+        "Two 3s: a gift for the exact sciences, order and analysis.",
+        "Three: the strong mind of a researcher; learning new things comes easily to you.",
+        "Four or more: a scientist's mind, sometimes too deep in analysis. It helps to come back to the concrete."
+      ]
+    },
+    "4": {
+      "title": "Health",
+      "levels": [
+        "No fours: the tradition speaks of a need to take particular care of your fitness, with movement and a daily rhythm.",
+        "One 4: average stamina that good habits can easily strengthen.",
+        "Two 4s: good fitness and resilience.",
+        "Three: great physical stamina, often a love of sport.",
+        "Four or more: great physical stamina; take care not to overload your body."
+      ]
+    },
+    "5": {
+      "title": "Intuition",
+      "levels": [
+        "No fives: decisions are better made after thought and with a plan.",
+        "One 5: intuition works, but doubts sometimes drown it out.",
+        "Two 5s: good intuition combined with logic; you judge situations accurately.",
+        "Three: strong hunches; they are worth trusting, but check the facts.",
+        "Four or more: remarkable intuition. Trust it, but do not give up on the facts."
+      ]
+    },
+    "6": {
+      "title": "Work",
+      "levels": [
+        "No sixes: you feel better doing mental work than physical work.",
+        "One 6: physical work tends to be a necessity rather than a pleasure.",
+        "Two 6s: skilful hands, a talent for craft and practical things.",
+        "Three: a need to make something tangible; work gives you balance.",
+        "Four or more: a strong need for physical work and making things; you find it hard to sit idle."
+      ]
+    },
+    "7": {
+      "title": "Talent",
+      "levels": [
+        "No sevens: success comes from perseverance, not from chance.",
+        "One 7: a hidden talent worth discovering.",
+        "Two 7s: a clear talent and “luck” in what you do.",
+        "Three: many talents; what matters is choosing one and developing it.",
+        "Four or more: many talents, but also a tendency to scatter your efforts. Choose one path."
+      ]
+    },
+    "8": {
+      "title": "Duty",
+      "levels": [
+        "No eights: a relaxed approach to obligations; clear rules help.",
+        "One 8: responsibility comes with age and experience.",
+        "Two 8s: a strong sense of duty and care for others.",
+        "Three: great responsibility. Remember not to carry everything alone.",
+        "Four or more: a very strong sense of duty. Remember that you do not have to rescue everyone."
+      ]
+    },
+    "9": {
+      "title": "Memory",
+      "levels": [
+        "No nines: you remember better by doing than by listening.",
+        "One 9: a good memory that practice develops.",
+        "Two 9s: a sharp mind and a good memory.",
+        "Three: an exceptional memory and quick thinking.",
+        "Four or more: an outstanding memory and sharpness; it is worth giving your mind a rest."
+      ]
+    }
+  },
+  "pinnacles": {
+    "1": {
+      "title": "Pinnacle of independence",
+      "text": "A stage of standing on your own feet: decisions, initiative, the courage to go your own way. How to use it: make your own decisions and start new things, even when you are not sure."
+    },
+    "2": {
+      "title": "Pinnacle of cooperation",
+      "text": "A stage of relationships and partnership: patience, diplomacy, building bridges between people. How to use it: invest in relationships, listen and learn to work with others. Success will come through people."
+    },
+    "3": {
+      "title": "Pinnacle of expression",
+      "text": "A stage of creativity, contacts and joy; a good time to show the world what you have to say. How to use it: create, write, perform, meet people. Your expression opens doors."
+    },
+    "4": {
+      "title": "Pinnacle of building",
+      "text": "A stage of groundwork: stability, home, finances, steady effort that pays off. How to use it: build solid foundations, such as education, savings and a home. Patience pays off."
+    },
+    "5": {
+      "title": "Pinnacle of change",
+      "text": "A stage of movement, travel and new experiences: plenty of change, little boredom. How to use it: travel, learn, change things, but choose changes that make sense."
+    },
+    "6": {
+      "title": "Pinnacle of care",
+      "text": "A stage of family, home and responsibility for others; important relationships and commitments. How to use it: look after your home and loved ones, but do not forget your own needs."
+    },
+    "7": {
+      "title": "Pinnacle of seeking",
+      "text": "A stage of reflection, learning and going deeper into yourself, with more questions about meaning than about comfort. How to use it: give yourself time for study, reflection and spirituality. The answers will come from within."
+    },
+    "8": {
+      "title": "Pinnacle of agency",
+      "text": "A stage of career, influence and money; a time for ambitious goals and mature handling of resources. How to use it: set ambitious goals and manage your resources wisely. This is a time of influence."
+    },
+    "9": {
+      "title": "Pinnacle of completion",
+      "text": "A stage of the wide view, of sharing experience and closing old chapters. How to use it: share your experience, help others and close what has run its course."
+    }
+  },
+  "challenges": {
+    "0": {
+      "title": "Challenge of choice",
+      "text": "There is no single theme; the challenge is choosing what you want to learn. All roads are open. Tip: listen to your intuition when choosing. No one path is imposed on you."
+    },
+    "1": {
+      "title": "Challenge of independence",
+      "text": "Learning to express yourself and set boundaries, without giving in and without digging in. Tip: practise saying “I want” and “I don't want”, calmly but firmly."
+    },
+    "2": {
+      "title": "Challenge of sensitivity",
+      "text": "Learning not to take everything personally and not to give yourself up for the sake of peace and quiet. Tip: do not take on other people's moods; your needs count too."
+    },
+    "3": {
+      "title": "Challenge of expression",
+      "text": "Learning to talk about feelings and to show your creative work in spite of criticism. Tip: share what you make before it is perfect."
+    },
+    "4": {
+      "title": "Challenge of order",
+      "text": "Learning discipline and patience, without rigidity and without chaos. Tip: small, regular steps instead of bursts of effort and chaos."
+    },
+    "5": {
+      "title": "Challenge of freedom",
+      "text": "Learning to use freedom wisely, without running away and without dropping everything at once. Tip: before you escape into something new, check what you are escaping from."
+    },
+    "6": {
+      "title": "Challenge of responsibility",
+      "text": "Learning to care for others without controlling them and without forgetting yourself. Tip: help, but do not rescue people against their will, and do not control."
+    },
+    "7": {
+      "title": "Challenge of trust",
+      "text": "Learning openness and trust in yourself, in others and in life. Tip: trust someone enough to tell them what you really think."
+    },
+    "8": {
+      "title": "Challenge of power and money",
+      "text": "Learning a healthy approach to money, ambition and control. Tip: money and power are tools. Ask what they are meant to serve."
+    }
+  },
+  "karmicDebts": {
+    "13": {
+      "title": "Karmic debt 13",
+      "text": "In the numerological tradition 13 stands for a lesson in work and perseverance: easy shortcuts rarely work, while patient effort brings lasting results."
+    },
+    "14": {
+      "title": "Karmic debt 14",
+      "text": "14 is a lesson in moderation and freedom: learning to enjoy liberty without excess and without running from commitments."
+    },
+    "16": {
+      "title": "Karmic debt 16",
+      "text": "16 is a lesson in humility and rebuilding: sometimes something has to fall apart so that something truer can take its place."
+    },
+    "19": {
+      "title": "Karmic debt 19",
+      "text": "19 is a lesson in self-reliance that does not rule out asking for help: strength grows when you let others support you."
+    }
+  },
+  "karmicLessons": {
+    "1": "Lesson 1: learning to believe in yourself and to make decisions without looking to others.",
+    "2": "Lesson 2: learning patience, cooperation and listening.",
+    "3": "Lesson 3: learning to express yourself and to share joy.",
+    "4": "Lesson 4: learning to be systematic, orderly and to see things through.",
+    "5": "Lesson 5: learning flexibility and openness to change.",
+    "6": "Lesson 6: learning to take responsibility for your loved ones, and for yourself.",
+    "7": "Lesson 7: learning to trust your intuition and to make time for reflection.",
+    "8": "Lesson 8: learning a healthy approach to money and to your own power.",
+    "9": "Lesson 9: learning compassion and looking beyond your own affairs."
+  },
+  "keywords": {
+    "1": "beginning, courage, independence",
+    "2": "cooperation, patience, gentleness",
+    "3": "joy, creativity, conversation",
+    "4": "order, stability, work",
+    "5": "change, movement, freedom",
+    "6": "home, care, harmony",
+    "7": "reflection, intuition, knowledge",
+    "8": "agency, success, responsibility",
+    "9": "completion, compassion, the wide view"
+  },
+  "dayColors": {
+    "1": "red",
+    "2": "orange",
+    "3": "yellow",
+    "4": "green",
+    "5": "blue",
+    "6": "indigo",
+    "7": "violet",
+    "8": "pink",
+    "9": "gold"
+  }
+}

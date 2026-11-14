@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../data/content.dart';
 import '../engine/tarot.dart';
+import 'journal_screen.dart';
+import 'library_screen.dart';
 import 'pro_sheet.dart';
 import 'widgets.dart';
 
@@ -51,11 +53,50 @@ class _TarotScreenState extends State<TarotScreen> {
     final l = context.l;
     final t = Theme.of(context).textTheme;
     final drawn = _drawn;
+    void openDeck() => pushScreen(context, const LibraryScreen());
     return Scaffold(
-      appBar: AppBar(title: Text(l.tabTarot)),
+      appBar: AppBar(
+        title: Text(l.tabTarot),
+        leadingWidth: topLeadingWidth,
+        leading: topLeading(context),
+      ),
       body: ListView(
         padding: pagePadding(context),
         children: [
+          if (context.store.tarotWelcome)
+            TarotFrame(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: Text(
+                          l.tarotWelcomeTitle,
+                          style: t.headlineSmall,
+                        ),
+                      ),
+                      // Comes back from Settings.
+                      IconButton(
+                        tooltip: l.hide,
+                        icon: const Icon(Icons.close),
+                        onPressed: () => context.store.tarotWelcome = false,
+                      ),
+                    ],
+                  ),
+                  Text(l.tarotWelcomeBody),
+                  Align(
+                    alignment: AlignmentDirectional.centerStart,
+                    child: TextButton.icon(
+                      icon: const Icon(Icons.menu_book_outlined),
+                      label: Text(l.seeDeck),
+                      onPressed: openDeck,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           Text(l.tarotIntro, style: t.bodySmall),
           SectionTitle(l.chooseSpread),
           LayoutBuilder(
@@ -149,6 +190,8 @@ class _TarotScreenState extends State<TarotScreen> {
               ),
             ),
           ],
+          const SizedBox(height: 16),
+          TileGrid([(Icons.menu_book_outlined, l.deckTitle, '', openDeck)]),
         ],
       ),
     );
@@ -351,7 +394,7 @@ class RevealedSpread extends StatelessWidget {
           for (var i = 0; i < n; i++)
             Column(
               children: [
-                _Flip(
+                FlipCard(
                   card: cards[i],
                   width: w,
                   duration: still
@@ -372,11 +415,13 @@ class RevealedSpread extends StatelessWidget {
   }
 }
 
-class _Flip extends StatelessWidget {
+/// A card turning from its back to its face.
+class FlipCard extends StatelessWidget {
   final DrawnCard card;
   final double width, start;
   final Duration duration;
-  const _Flip({
+  const FlipCard({
+    super.key,
     required this.card,
     required this.width,
     required this.duration,
@@ -538,7 +583,7 @@ class CardDetail extends StatelessWidget {
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: screenPadding(context),
         children: [
           Center(
             child: CardFace(card, reversed: reversed ?? false, width: 140),

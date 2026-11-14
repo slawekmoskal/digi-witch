@@ -1,0 +1,37 @@
+{
+"dayTypes": {
+"fire": {"name": "Día de fruto", "text": "Luna en un signo de Fuego: según la tradición hortícola, un buen día para las plantas de fruto y para recoger fruta."},
+"earth": {"name": "Día de raíz", "text": "Luna en un signo de Tierra: un buen día para las hortalizas de raíz, los trasplantes y trabajar la tierra."},
+"air": {"name": "Día de flor", "text": "Luna en un signo de Aire: un buen día para las plantas de flor y para cortar flores para un jarrón."},
+"water": {"name": "Día de hoja", "text": "Luna en un signo de Agua: un buen día para las hierbas aromáticas, las hojas de ensalada y el riego."}
+},
+"haircut": {
+"waxing": "La Luna está creciendo: según la tradición, el pelo vuelve a crecer más rápido tras el corte.",
+"waning": "La Luna está menguando: según la tradición, un corte mantiene la forma más tiempo."
+},
+"mercury": "Mercurio retrógrado: visto desde la Tierra, parece moverse hacia atrás en el cielo. En la tradición astrológica es un tiempo para revisar, corregir y volver a asuntos antiguos, no para firmar contratos con prisas. Comprueba dos veces los mensajes y los planes.",
+"transits": {
+"moonInSun": "Hoy la Luna está en tu signo solar. Las emociones y necesidades están más a flor de piel: un buen día para hacer algo por ti.",
+"moonInMoon": "La Luna ha vuelto al signo en el que estaba cuando naciste (retorno lunar). La tradición habla de un día de renovación emocional. Fíjate en lo que de verdad necesitas.",
+"moonInAsc": "La Luna recorre el signo de tu ascendente. Lo que sientes se nota más, y los demás pueden percibirlo hoy con más facilidad.",
+"moonOpposite": "La Luna está en el signo opuesto a tu Sol. Surgen con más facilidad tensiones entre lo que tú quieres y lo que quieren los demás. Busca un término medio.",
+"sunSeason": "El Sol está en tu signo: es tu época del año. Un buen momento para hacer balance del último año y marcar un nuevo rumbo.",
+"mercuryInSun": "Mercurio está retrógrado en tu signo solar. Las repeticiones y los malentendidos pueden afectarte más que a otros. Comprueba dos veces lo que dices y lo que firmas."
+},
+"rituals": {
+"new": {"title": "Ritual de luna nueva", "text": "La luna nueva es el comienzo del ciclo lunar, tradicionalmente un tiempo para sembrar intenciones. Siéntate un momento con calma y escribe qué quieres empezar o desarrollar en ti durante el próximo mes.",
+"prompts": ["¿Qué quiero empezar en este ciclo?", "¿Qué pequeño paso daré esta semana?", "¿Qué necesito para lograrlo?"]},
+"full": {"title": "Ritual de luna llena", "text": "La luna llena es la cumbre del ciclo: un tiempo de cosecha, gratitud y desapego. Vuelve a tu intención de luna nueva y mira qué ha pasado.",
+"prompts": ["¿Qué agradezco hoy?", "¿Qué ha ido bien desde la luna nueva?", "¿Qué quiero soltar antes de que empiece el nuevo ciclo?"]}
+},
+"week": {
+"same": "El Sol recorre ahora un signo de tu elemento. Una semana en la que es más fácil ser tú y llevar a cabo tus planes. Aprovéchala para lo que pide tus puntos fuertes.",
+"supportive": "El Sol está en un signo de un elemento que te apoya. La semana favorece los contactos, la cooperación y las ideas nuevas: menos resistencia y más fluidez.",
+"neutral": "El Sol está en un signo de un elemento neutral para ti. Una semana tranquila en la que mucho depende de tu constancia. Céntrate en un asunto importante.",
+"tense": "El Sol está en un signo de un elemento que va a otro ritmo que el tuyo. La semana puede pedir paciencia y concesiones. No fuerces nada."
+},
+"eclipseText": {
+"solar": "Un eclipse solar coincide con la luna nueva. En la tradición es un comienzo poderoso: tiempo para una intención que importará durante más tiempo.",
+"lunar": "Un eclipse lunar coincide con la luna llena. En la tradición es un tiempo de cierre y de cosas que salen a la luz: un buen momento para poner fin a algo."
+}
+}

@@ -1,0 +1,479 @@
+{
+ "elements": {
+  "fire": "Feuer",
+  "earth": "Erde",
+  "air": "Luft",
+  "water": "Wasser"
+ },
+ "signs": [
+  {
+   "id": "aries",
+   "name": "Widder",
+   "locative": "im Widder",
+   "dates": "21.03.–19.04.",
+   "text": "Der Widder ist das erste Zeichen des Tierkreises und Feuer in reinster Form: Mut, Initiative und das Bedürfnis, hier und jetzt zu handeln. Am glücklichsten ist er, wenn er etwas beginnt; Geduld und das Zu-Ende-Bringen fallen ihm schwerer.",
+   "color": "Rot",
+   "stone": "Diamant, Karneol",
+   "day": "Dienstag",
+   "planet": "Mars",
+   "love": "In der Liebe ist der Widder direkt und leidenschaftlich: Er erobert gern und zeigt Gefühle schnell. Er braucht einen Menschen an seiner Seite, der sein Tempo nicht scheut, und lernt, dass auch Nähe Geduld braucht.",
+   "work": "Im Beruf blüht der Widder dort auf, wo Initiative zählt: Projekte anstoßen, führen, sich messen. Routine ermüdet ihn; es hilft, jemanden dabeizuhaben, der die Details zu Ende bringt.",
+   "wellbeing": "Energie baut der Widder durch Bewegung ab. Sport, kurze intensive Herausforderungen und bewusstes Bremsen, bevor Müdigkeit in Gereiztheit umschlägt, tun ihm gut."
+  },
+  {
+   "id": "taurus",
+   "name": "Stier",
+   "locative": "im Stier",
+   "dates": "20.04.–20.05.",
+   "text": "Der Stier ist Erde, die Ruhe, Behaglichkeit und Beständiges schätzt. Er ist geduldig und treu und baut langsam, aber solide. Die Herausforderung kann Sturheit und Abneigung gegen Veränderung sein.",
+   "color": "Grün, Rosa",
+   "stone": "Smaragd, Rosenquarz",
+   "day": "Freitag",
+   "planet": "Venus",
+   "love": "In der Liebe ist der Stier treu, zärtlich und sinnlich. Er zeigt Gefühle durch Taten – Fürsorge, ein gutes Essen, einfach da sein – und braucht ein Gefühl von Beständigkeit.",
+   "work": "Im Beruf ist der Stier ausdauernd und zuverlässig und bringt Dinge zu Ende. Zu Hause fühlt er sich in Finanzen, Handwerk, Gartenbau und überall dort, wo man das Ergebnis sieht.",
+   "wellbeing": "Natur, gutes Essen und ein fester Tagesrhythmus tun dem Stier gut. Vorsicht vor Stillstand: Sanfte Bewegung und ein Ortswechsel bringen die Leichtigkeit zurück."
+  },
+  {
+   "id": "gemini",
+   "name": "Zwillinge",
+   "locative": "in den Zwillingen",
+   "dates": "21.05.–20.06.",
+   "text": "Die Zwillinge sind Luft in Bewegung: Neugier, Gespräch, schnelle Verbindungen zwischen Fakten. Sie knüpfen leicht Kontakte und nehmen Neues rasch auf. Die Herausforderung ist Zerstreutheit und die Schwierigkeit, sich für einen Weg zu entscheiden.",
+   "color": "Gelb",
+   "stone": "Achat, Citrin",
+   "day": "Mittwoch",
+   "planet": "Merkur",
+   "love": "In der Liebe brauchen die Zwillinge Gespräch und Leichtigkeit. Sie verlieben sich in einen Geist; Langeweile ist die größte Gefahr für die Beziehung.",
+   "work": "Im Beruf glänzen die Zwillinge in Kommunikation, Medien, Handel und Lehre. Sie mögen viele Projekte zugleich; der Schlüssel ist, Prioritäten zu setzen.",
+   "wellbeing": "Der Kopf steht nie still, darum brauchen die Zwillinge Momente der Stille und Zeit offline. Atemübungen, ein Spaziergang und weniger Reize am Abend helfen."
+  },
+  {
+   "id": "cancer",
+   "name": "Krebs",
+   "locative": "im Krebs",
+   "dates": "21.06.–22.07.",
+   "text": "Der Krebs ist Wasser, das beschützt: Zuhause, Liebste, ein Gefühl von Geborgenheit. Er ist empfindsam und fürsorglich und hat ein gutes Gefühlsgedächtnis. Die Herausforderung ist der Rückzug in den Panzer, wenn etwas wehtut.",
+   "color": "Silber, Weiß",
+   "stone": "Perle, Mondstein",
+   "day": "Montag",
+   "planet": "der Mond",
+   "love": "In der Liebe ist der Krebs fürsorglich und hingebungsvoll und schafft ein Zuhause, in dem sich die Liebsten sicher fühlen. Er braucht Bestätigung und Zärtlichkeit, auch wenn er nicht immer darum bittet.",
+   "work": "Im Beruf findet sich der Krebs dort gut zurecht, wo Fürsorge zählt: in Pflege- und Sozialberufen, Bildung, Gastronomie und in der Arbeit mit Menschen. Er arbeitet gut in Teams, die sich wie eine Familie anfühlen.",
+   "wellbeing": "Das Wohlbefinden des Krebses hängt stark von Gefühlen ab. Zuhause, Wasser, vertraute Menschen und das Benennen von Gefühlen, statt sie im Panzer zu verstecken, tun ihm gut."
+  },
+  {
+   "id": "leo",
+   "name": "Löwe",
+   "locative": "im Löwen",
+   "dates": "23.07.–22.08.",
+   "text": "Der Löwe ist Feuer, das strahlt: Großzügigkeit, Kreativität und das Bedürfnis, gesehen zu werden. Er schenkt anderen Wärme und Mut. Die Herausforderung können Stolz und die Schwierigkeit sein, Kritik anzunehmen.",
+   "color": "Gold, Orange",
+   "stone": "Rubin, Bernstein",
+   "day": "Sonntag",
+   "planet": "die Sonne",
+   "love": "In der Liebe ist der Löwe großzügig, romantisch und treu. Er braucht Bewunderung und Wertschätzung und gibt dafür viel Wärme zurück.",
+   "work": "Im Beruf führt der Löwe gern und steht gern auf der Bühne; er ist gut in Leitungsrollen, in der Kunst, im Verkauf und überall dort, wo man herausstechen kann.",
+   "wellbeing": "Der Löwe schöpft Energie aus Freude und Kreativität. Es lohnt sich, auf Herz und Rücken zu achten, auch im übertragenen Sinn: sich von der Rolle des „Starken“ zu erholen."
+  },
+  {
+   "id": "virgo",
+   "name": "Jungfrau",
+   "locative": "in der Jungfrau",
+   "dates": "23.08.–22.09.",
+   "text": "Die Jungfrau ist Erde im Detail: Ordnung, Zuverlässigkeit und der Wunsch, hilfreich zu sein. Sie sieht, was sich verbessern ließe. Die Herausforderung ist Perfektionismus und ein zu strenges Urteil über sich selbst.",
+   "color": "Beige, Marineblau",
+   "stone": "Saphir, Jaspis",
+   "day": "Mittwoch",
+   "planet": "Merkur",
+   "love": "In der Liebe zeigt die Jungfrau Gefühle durch Fürsorge und Hilfe. Sie kann zurückhaltend sein, ist aber tief hingebungsvoll und braucht einen Menschen, der diese alltägliche Aufmerksamkeit zu schätzen weiß.",
+   "work": "Im Beruf ist die Jungfrau genau, analytisch und zuverlässig; sie ist gut im Gesundheitswesen, in der Analyse, im Lektorat und in der Organisation – überall, wo Details zählen.",
+   "wellbeing": "Die Jungfrau macht sich leicht Sorgen, darum helfen Ordnung, Routine und bewusstes Loslassen des Perfektionismus. Gesunde Ernährung und Spaziergänge tun ihr gut."
+  },
+  {
+   "id": "libra",
+   "name": "Waage",
+   "locative": "in der Waage",
+   "dates": "23.09.–22.10.",
+   "text": "Die Waage ist Luft, die Gleichgewicht sucht: Harmonie, Fairness und Schönheit in Beziehungen. Sie versteht es, Streit zu schlichten. Die Herausforderung ist, Entscheidungen aufzuschieben, um niemanden zu kränken.",
+   "color": "Pastellblau, Rosa",
+   "stone": "Opal, Lapislazuli",
+   "day": "Freitag",
+   "planet": "Venus",
+   "love": "In der Liebe sucht die Waage Partnerschaft, Harmonie und Schönheit. Sie ist romantisch und taktvoll, muss aber aufpassen, sich um des Friedens willen nicht selbst aufzugeben.",
+   "work": "Im Beruf ist die Waage gut in Diplomatie, Recht, Design und in der Arbeit mit Kundinnen und Kunden. Am besten arbeitet sie zu zweit oder im Team.",
+   "wellbeing": "Schöne Umgebung, Kunst und ein Gleichgewicht zwischen Arbeit und Ruhe tun der Waage gut. Konflikte zehren an ihr, darum lohnt es sich, „Nein“ sagen zu lernen."
+  },
+  {
+   "id": "scorpio",
+   "name": "Skorpion",
+   "locative": "im Skorpion",
+   "dates": "23.10.–21.11.",
+   "text": "Der Skorpion ist tiefes Wasser: Intensität, Treue und Durchblick. Mit der Oberfläche gibt er sich nie zufrieden. Die Herausforderung können Eifersucht und die Schwierigkeit sein, loszulassen.",
+   "color": "Bordeaux, Schwarz",
+   "stone": "Topas, Obsidian",
+   "day": "Dienstag",
+   "planet": "Mars und Pluto",
+   "love": "In der Liebe ist der Skorpion intensiv, leidenschaftlich und treu bis zum Ende. Er braucht tiefes Vertrauen und kann Verrat nur sehr schwer verzeihen.",
+   "work": "Im Beruf ist der Skorpion scharfsinnig und beharrlich; er ist gut in Forschung, Psychologie, Finanzen, Medizin und überall dort, wo man einer Sache auf den Grund gehen muss.",
+   "wellbeing": "Starke Gefühle verarbeitet man besser, als sie zu unterdrücken. Intensiver Sport, Wasser und ein Gespräch mit einem Menschen des Vertrauens helfen."
+  },
+  {
+   "id": "sagittarius",
+   "name": "Schütze",
+   "locative": "im Schützen",
+   "dates": "22.11.–21.12.",
+   "text": "Der Schütze ist Feuer auf der Suche nach Sinn: Reisen, Wissen, Freiheit und Optimismus. Er steckt andere mit Begeisterung an. Die Herausforderung sind Ungeduld und zu schnell gegebene Versprechen.",
+   "color": "Lila",
+   "stone": "Türkis, Amethyst",
+   "day": "Donnerstag",
+   "planet": "Jupiter",
+   "love": "In der Liebe braucht der Schütze Freiheit und gemeinsame Abenteuer. Er ist ehrlich, warmherzig und optimistisch und kommt mit Eifersucht und Kontrolle schlecht zurecht.",
+   "work": "Im Beruf ist der Schütze gut in Tourismus, Bildung, Verlagswesen, Sport und überall dort, wo es Sinn und Raum zum Wachsen gibt.",
+   "wellbeing": "Bewegung und Weite geben dem Schützen Energie: Wandern, Sport, neue Orte. Vorsicht vor Übermaß – beim Essen, bei Versprechen und beim Tempo."
+  },
+  {
+   "id": "capricorn",
+   "name": "Steinbock",
+   "locative": "im Steinbock",
+   "dates": "22.12.–19.01.",
+   "text": "Der Steinbock ist Erde, die zum Gipfel steigt: Ehrgeiz, Verantwortung und Ausdauer. Er denkt langfristig. Die Herausforderung ist Arbeit auf Kosten von Ruhe und Nähe.",
+   "color": "Braun, Grau",
+   "stone": "Granat, Onyx",
+   "day": "Samstag",
+   "planet": "Saturn",
+   "love": "In der Liebe ist der Steinbock ernsthaft, verantwortungsbewusst und treu. Er zeigt Gefühle, indem er für die Zukunft sorgt, und braucht Zeit, um sich zu öffnen.",
+   "work": "Im Beruf ist der Steinbock ehrgeizig, ausdauernd und gut organisiert; er ist gut im Management, in Finanzen, Verwaltung und langfristigen Projekten.",
+   "wellbeing": "Der Steinbock arbeitet leicht zu viel und vergisst die Erholung. Ein regelmäßiger Rhythmus, Berge, Stille und Genuss ohne schlechtes Gewissen tun ihm gut."
+  },
+  {
+   "id": "aquarius",
+   "name": "Wassermann",
+   "locative": "im Wassermann",
+   "dates": "20.01.–18.02.",
+   "text": "Der Wassermann ist Luft, die in die Zukunft blickt: Unabhängigkeit, Originalität und Denken an die Gemeinschaft. Er geht gern eigene Wege. Die Herausforderung ist emotionale Distanz.",
+   "color": "Türkis",
+   "stone": "Amethyst, Aquamarin",
+   "day": "Samstag",
+   "planet": "Saturn und Uranus",
+   "love": "In der Liebe braucht der Wassermann Freundschaft und Freiheit. Er ist treu und offen, zeigt Gefühle aber auf seine Weise – eher durch gemeinsame Ideen als durch zärtliche Worte.",
+   "work": "Im Beruf ist der Wassermann gut in Technik, Wissenschaft, sozialem Engagement und überall dort, wo man neue Lösungen erfinden kann.",
+   "wellbeing": "Der Kopf arbeitet schnell, der Körper gerät leicht in Vergessenheit. Bewegung, Kontakt zu Menschen mit ähnlichen Werten und Zeit für eigene Projekte helfen."
+  },
+  {
+   "id": "pisces",
+   "name": "Fische",
+   "locative": "in den Fischen",
+   "dates": "19.02.–20.03.",
+   "text": "Die Fische sind Wasser ohne Ufer: Einfühlungsvermögen, Fantasie und Spiritualität. Sie fühlen mehr, als sie sagen. Die Herausforderung ist die Flucht aus der Wirklichkeit und fehlende Grenzen.",
+   "color": "Meergrün, Lavendel",
+   "stone": "Aquamarin, Amethyst",
+   "day": "Donnerstag",
+   "planet": "Jupiter und Neptun",
+   "love": "In der Liebe sind die Fische romantisch, einfühlsam und hingebungsvoll. Sie verlieben sich leicht und idealisieren und brauchen einen Menschen, der ihnen Sicherheit gibt.",
+   "work": "Im Beruf sind die Fische gut in der Kunst, in helfenden Berufen, Therapie, Musik und Spiritualität – überall, wo Fantasie und Mitgefühl zählen.",
+   "wellbeing": "Die Fische nehmen die Stimmungen ihrer Umgebung auf, darum brauchen sie Ruhe und Grenzen. Wasser, Schlaf, Kunst und weniger Kontakt mit dem, was sie überwältigt, helfen."
+  }
+ ],
+ "chinese": [
+  {
+   "id": "rat",
+   "name": "Ratte",
+   "text": "Schlagfertig, einfallsreich und gesellig; erkennt Gelegenheiten schnell.",
+   "long": "Die Ratte eröffnet den chinesischen Tierkreis. Sie ist das Zeichen der Klugheit, des Einfallsreichtums und des schnellen Denkens; sie sieht eine Chance, wo andere ein Problem sehen. Die Ratte ist gesellig und fühlt sich unter Menschen wohl, wählt enge Freunde aber mit Bedacht. Die Herausforderung: Nervosität und die Neigung, „für alle Fälle“ zu horten.",
+   "love": "In der Liebe ist die Ratte zärtlich und hingebungsvoll, anfangs aber vorsichtig. Sie schätzt einen klugen und treuen Menschen an ihrer Seite.",
+   "work": "Im Beruf ist die Ratte gut im Geschäftsleben, im Handel und überall dort, wo man eine Gelegenheit schnell erkennen muss."
+  },
+  {
+   "id": "ox",
+   "name": "Büffel",
+   "text": "Geduldig, fleißig und verlässlich; erreicht das Ziel Schritt für Schritt.",
+   "long": "Der Büffel (auch Ochse) steht für Fleiß, Geduld und Verlässlichkeit. Er arbeitet methodisch und mag weder Eile noch Überraschungen, hält aber ein gegebenes Versprechen. Die Herausforderung: Sturheit und die Schwierigkeit, um Hilfe zu bitten.",
+   "love": "In der Liebe ist der Büffel treu und beständig und zeigt Gefühle eher durch Taten als durch Worte.",
+   "work": "Im Beruf ist der Büffel verlässlich und gut in Aufgaben, die Geduld, Genauigkeit und Verantwortung verlangen."
+  },
+  {
+   "id": "tiger",
+   "name": "Tiger",
+   "text": "Mutig, voller Energie und unabhängig; scheut keine Herausforderung.",
+   "long": "Der Tiger steht für Mut, Energie und das Bedürfnis nach Unabhängigkeit. Er liebt Herausforderungen und setzt sich für Schwächere ein. Er kann hitzköpfig und ungeduldig sein, doch seine Begeisterung reißt andere mit.",
+   "love": "In der Liebe ist der Tiger leidenschaftlich und spontan und braucht einen Menschen, der ihm Freiraum lässt.",
+   "work": "Im Beruf fühlt sich der Tiger als Führungskraft, als Unternehmer oder überall dort wohl, wo Mut zählt."
+  },
+  {
+   "id": "rabbit",
+   "name": "Hase",
+   "text": "Sanft, taktvoll und empfänglich für Schönheit; schätzt den Frieden.",
+   "long": "Der Hase (in Vietnam die Katze) steht für Takt, Sanftheit und Sinn für Schönheit. Er meidet Konflikte und schätzt Frieden und gute Beziehungen. Die Herausforderung: schwierigen Entscheidungen auszuweichen und übervorsichtig zu sein.",
+   "love": "In der Liebe ist der Hase zärtlich und romantisch und sucht eine ruhige, harmonische Beziehung.",
+   "work": "Im Beruf ist der Hase gut in Diplomatie, Kunst, Design und in der Arbeit mit Menschen."
+  },
+  {
+   "id": "dragon",
+   "name": "Drache",
+   "text": "Charismatisch, ehrgeizig und selbstbewusst; liebt große Pläne.",
+   "long": "Der Drache ist das einzige Fabelwesen im Tierkreis, ein Symbol für Macht, Glück und Ausstrahlung. Er hat große Pläne und die Energie, sie umzusetzen. Die Herausforderung: Stolz und Ungeduld mit den Schwächen anderer.",
+   "love": "In der Liebe ist der Drache leidenschaftlich und großzügig, braucht aber Bewunderung und Freiheit.",
+   "work": "Im Beruf strebt der Drache nach großen Zielen und ist gut in Leitungsrollen und Großprojekten."
+  },
+  {
+   "id": "snake",
+   "name": "Schlange",
+   "text": "Weise, intuitiv und besonnen; sieht mehr, als sie zeigt.",
+   "long": "Die Schlange steht für Weisheit, Intuition und Eleganz. Sie denkt, bevor sie handelt, und sieht mehr, als sie sagt. Die Herausforderung: Verschlossenheit und Misstrauen.",
+   "love": "In der Liebe ist die Schlange sinnlich und treu, aber eifersüchtig auf das, was ihr wichtig ist.",
+   "work": "Im Beruf ist die Schlange gut in Analyse, Strategie, Finanzen und überall dort, wo Durchblick zählt."
+  },
+  {
+   "id": "horse",
+   "name": "Pferd",
+   "text": "Ein freier Geist, energisch und ehrlich; braucht Bewegung und Weite.",
+   "long": "Das Pferd ist ein freier Geist: Energie, Ehrlichkeit und das Bedürfnis nach Bewegung. Es steht gern im Mittelpunkt und handelt schnell. Die Herausforderung: Ungeduld und die Schwierigkeit, Begonnenes zu beenden.",
+   "love": "In der Liebe ist das Pferd ehrlich und begeisterungsfähig und braucht gemeinsame Abenteuer und Freiheit.",
+   "work": "Im Beruf ist das Pferd in Bewegung am glücklichsten: auf Reisen, im Verkauf, im Sport und in schnellen Projekten."
+  },
+  {
+   "id": "goat",
+   "name": "Ziege",
+   "text": "Kreativ, sanft und einfühlsam; fühlt sich in Harmonie wohl.",
+   "long": "Die Ziege (oder das Schaf) steht für Kreativität, Sanftheit und Einfühlungsvermögen. Sie braucht Harmonie und eine sichere Umgebung, um aufzublühen. Die Herausforderung: Grübeln und die Abhängigkeit von der Meinung anderer.",
+   "love": "In der Liebe ist die Ziege sanft und fürsorglich und braucht Sicherheit und Zärtlichkeit.",
+   "work": "Im Beruf ist die Ziege gut in der Kunst, in der Pflege, in kreativer Arbeit und in Teams mit gutem Klima."
+  },
+  {
+   "id": "monkey",
+   "name": "Affe",
+   "text": "Erfinderisch, witzig und neugierig auf die Welt; lernt schnell.",
+   "long": "Der Affe steht für Erfindungsgeist, Witz und Neugier auf die Welt. Er lernt schnell und findet ungewöhnliche Lösungen. Die Herausforderung: Zerstreutheit und die Neigung zu Abkürzungen.",
+   "love": "In der Liebe ist der Affe unterhaltsam und einfallsreich, und Langeweile ist sein schlimmster Feind.",
+   "work": "Im Beruf ist der Affe gut in Technik, Handel, Unterhaltung und überall dort, wo unkonventionelles Denken gefragt ist."
+  },
+  {
+   "id": "rooster",
+   "name": "Hahn",
+   "text": "Fleißig, ehrlich und genau; liebt Ordnung und klare Regeln.",
+   "long": "Der Hahn steht für Ehrlichkeit, Fleiß und Liebe zum Detail. Er mag Ordnung und sagt offen, was er denkt. Die Herausforderung: Kritiksucht und Perfektionismus.",
+   "love": "In der Liebe ist der Hahn treu und fürsorglich, manchmal aber kritisch; seine Gefühle zeigt er durch Aufmerksamkeit für Details.",
+   "work": "Im Beruf ist der Hahn gut in Organisation, Buchhaltung, Militär, Medizin und Aufgaben, die Genauigkeit verlangen."
+  },
+  {
+   "id": "dog",
+   "name": "Hund",
+   "text": "Treu, ehrlich und beschützend; steht auf der Seite der Schwächeren.",
+   "long": "Der Hund steht für Treue, Ehrlichkeit und Gerechtigkeitssinn. Er ist ein hingebungsvoller Freund und Beschützer seiner Liebsten. Die Herausforderung: Ängstlichkeit und Pessimismus.",
+   "love": "In der Liebe gehört der Hund zu den treuesten Zeichen: aufrichtig und hingebungsvoll.",
+   "work": "Im Beruf ist der Hund gut in helfenden Berufen, im Recht, im Schutz anderer und in der Bildung."
+  },
+  {
+   "id": "pig",
+   "name": "Schwein",
+   "text": "Großzügig, gütig und fröhlich; weiß das Leben zu genießen.",
+   "long": "Das Schwein (oder der Eber) steht für Großzügigkeit, Güte und Lebensfreude. Es vertraut Menschen und kann genießen. Die Herausforderung: Naivität und die Schwierigkeit, Nein zu sagen.",
+   "love": "In der Liebe ist das Schwein großzügig, warmherzig und romantisch und vertraut leicht.",
+   "work": "Im Beruf ist das Schwein gut in Gastronomie und Gastgewerbe, in der Pflege, in der Kunst und in der Arbeit mit Menschen – überall, wo Güte zählt."
+  }
+ ],
+ "phases": [
+  {
+   "name": "Neumond",
+   "text": "Neumond ist Zeit der Aussaat. Fasse eine Absicht und beginne etwas im Stillen. Du musst es noch niemandem zeigen."
+  },
+  {
+   "name": "Zunehmende Sichel",
+   "text": "Der Mond wächst, und die Energie nimmt zu. Eine gute Zeit für erste Schritte und um zu sammeln, was du brauchst."
+  },
+  {
+   "name": "Erstes Viertel",
+   "text": "Das erste Viertel bringt die ersten Hindernisse. Gib nicht auf: Triff eine Entscheidung und handle trotz des Widerstands."
+  },
+  {
+   "name": "Zunehmender Mond",
+   "text": "Der Mond ist fast voll. Feile an den Details und bring in Ordnung, was nicht funktioniert. Das Ergebnis ist nah."
+  },
+  {
+   "name": "Vollmond",
+   "text": "Der Vollmond bringt alles ans Licht und verstärkt die Gefühle. Du siehst die Ergebnisse deines Handelns. Feiere, aber entscheide nicht aus dem Bauch heraus."
+  },
+  {
+   "name": "Abnehmender Mond",
+   "text": "Nach dem Vollmond kommt eine Zeit der Dankbarkeit und des Teilens. Zieh Bilanz aus dem, was du gelernt hast."
+  },
+  {
+   "name": "Letztes Viertel",
+   "text": "Das letzte Viertel ist Zeit zum Aufräumen. Lass los, was du nicht brauchst: abschließen, weggeben, wegwerfen."
+  },
+  {
+   "name": "Abnehmende Sichel",
+   "text": "Der Mond schwindet vor dem Neumond. Werde langsamer, ruh dich aus und komm zur Ruhe. Ein neuer Zyklus beginnt bald."
+  }
+ ],
+ "today": {
+  "same": [
+   "Der Mond zieht heute durch ein Zeichen deines Elements, und du fühlst dich mehr wie du selbst. Mach die Dinge auf deine Weise und entschuldige dich nicht dafür.",
+   "Heute fällt es leichter, dem eigenen Instinkt zu vertrauen. Ein guter Tag für alles, was deine natürlichen Stärken braucht.",
+   "Die Energie des Tages schwingt in deinem Rhythmus. Nutze sie für etwas, das du schon lange vor dir herschiebst."
+  ],
+  "supportive": [
+   "Der Tag ist auf deiner Seite: Was du tust, stößt auf weniger Widerstand als sonst. Ein guter Moment für Gespräche und neue Kontakte.",
+   "Die Menschen um dich herum sind heute hilfsbereit. Bitte um Unterstützung oder schlag eine Zusammenarbeit vor – du hörst öfter „Ja“ als sonst.",
+   "Ein leichter, günstiger Tag. Setz auf Bewegung, Austausch von Ideen und kleine Freuden."
+  ],
+  "neutral": [
+   "Ein ruhiger Tag ohne deutlichen Rückenwind: Wie viel du daraus machst, liegt bei dir. Konzentrier dich auf eine konkrete Sache.",
+   "Heute drängt dich nichts in eine bestimmte Richtung. Ein guter Moment, um in Ruhe Ordnung in deine Angelegenheiten zu bringen.",
+   "Ein gewöhnlicher Tag, an dem Beständigkeit zählt. Kleine Schritte erreichen mehr als große Gesten."
+  ],
+  "tense": [
+   "Heute hast du vielleicht das Gefühl, dass die Welt in einem anderen Takt spielt als du. Kämpf nicht dagegen an: Werde langsamer und wähle, was wirklich wichtig ist.",
+   "Ein angespannter Tag, an dem Missverständnisse leicht entstehen. Bevor du scharf antwortest, atme einmal durch.",
+   "Die Energie des Tages ist dir fremd, und das kann ermüden. Sorge gut für dich und triff keine großen Entscheidungen aus einer Laune heraus."
+  ]
+ },
+ "caution": {
+  "1": "Vorsicht vor Sturheit und Alleingängen. Du musst nicht alles selbst machen.",
+  "2": "Vorsicht davor, zu sehr nachzugeben. Deine Meinung zählt auch.",
+  "3": "Vorsicht vor Zerstreutheit und leeren Versprechen. Bring zu Ende, was du begonnen hast.",
+  "4": "Vorsicht vor Starrheit. Der Plan ist wichtig, aber lass Raum für Veränderung.",
+  "5": "Vorsicht vor vorschnellen Entscheidungen und Spontankäufen.",
+  "6": "Vorsicht davor, die Probleme anderer zu übernehmen. Hilf, aber rette niemanden gegen seinen Willen.",
+  "7": "Vorsicht davor, dich in dich zurückzuziehen und alles zu zerdenken.",
+  "8": "Vorsicht vor Überarbeitung und dem Kampf um Kontrolle. Auch Ruhe ist produktiv.",
+  "9": "Vorsicht davor, an dem festzuhalten, was schon vorbei ist. Lass es los."
+ },
+ "compat": {
+  "same": "Dasselbe Element: Ihr versteht euch ohne Worte und bewegt euch in ähnlichem Tempo. Achtet darauf, eure Schwächen nicht gegenseitig zu verstärken.",
+  "supportive": "Elemente, die einander stützen: Das eine entfacht das andere oder gibt ihm Boden unter den Füßen. Ihr ergänzt euch ganz natürlich.",
+  "neutral": "Verschiedene Elemente, aber ohne Konflikt: Jedes hat seine eigene Welt. Die Beziehung braucht Neugier auf das Andere.",
+  "tense": "Elemente in Spannung: Ihr habt unterschiedliche Bedürfnisse und ein unterschiedliches Tempo. Das ist kein Hindernis, braucht aber Gespräch und Verständnis – und ihr könnt viel voneinander lernen."
+ },
+ "moonSigns": [
+  "Mond im Widder: Gefühle flammen schnell auf und verlöschen ebenso schnell. Um dich wohlzufühlen, brauchst du Handlung; Untätigkeit ermüdet dich mehr als Anstrengung. Wut kommt leicht, aber du bist nicht nachtragend. Bewegung und die Freiheit, selbst zu entscheiden, helfen dir.",
+  "Mond im Stier: Du brauchst Ruhe, Behaglichkeit und Vorhersehbarkeit. Sicherheit baust du über Greifbares auf: Zuhause, Essen, Berührung, einen festen Tagesrhythmus. Veränderung braucht bei dir Zeit. Wenn du im Gleichgewicht bist, gibst du anderen ein enormes Gefühl von Stabilität.",
+  "Mond in den Zwillingen: Gefühle verarbeitest du, indem du über sie sprichst. Du brauchst Anregung, Neugier und jemanden zum Gedankenaustausch. Stimmungen wechseln schnell. Schreiben, Gespräche und Leichtigkeit helfen dir.",
+  "Mond im Krebs: Hier ist der Mond zu Hause – mit tiefer Empfindsamkeit und einem Bedürfnis nach Nähe und Heim. Du spürst die Stimmungen anderer stark und erinnerst dich an alte Gefühle. Wenn etwas wehtut, ziehst du dich in deinen Panzer zurück. Ein sicherer Ort und nahe Menschen helfen dir.",
+  "Mond im Löwen: Du brauchst es, gesehen und geschätzt zu werden. Gefühle zeigst du warm und großzügig; ein verletztes Herz verwandelt sich schnell in Stolz. Du schenkst anderen viel Herz. Kreativität, Spiel und aufrichtige Anerkennung helfen dir.",
+  "Mond in der Jungfrau: Ordnung und das Gefühl, gebraucht zu werden, geben dir Ruhe. Gefühle verwandelst du oft in Sorge um praktische Dinge und in Analyse. Du machst dir leicht Sorgen. Routine, Arbeit mit den Händen und Nachsicht mit eigenen Fehlern helfen dir.",
+  "Mond in der Waage: Du brauchst Harmonie und Partnerschaft. Konflikte bringen dich aus dem Gleichgewicht, darum gibst du leicht nach, um den Frieden zu wahren. Eine schöne Umgebung ist dir wichtig. Gespräche unter vier Augen und das Benennen deiner eigenen Bedürfnisse helfen dir.",
+  "Mond im Skorpion: Du fühlst intensiv und tief, zeigst aber wenig. Vertrauen baust du langsam auf, und Treue ist dir alles. Loslassen fällt dir schwer. Ehrlichkeit, Privatsphäre und das Umsetzen von Gefühlen in Handeln helfen dir.",
+  "Mond im Schützen: Du brauchst Freiheit, Weite und Sinn. Optimismus trägt dich durch schwere Momente, manchmal auf Kosten dessen, sie wirklich zu durchleben. Mit Einschränkungen kommst du schlecht zurecht. Reisen, Lernen und das Gefühl, dass dein Leben eine Richtung hat, helfen dir.",
+  "Mond im Steinbock: Du hältst Gefühle unter Kontrolle und denkst zuerst an deine Pflichten. Ein Plan und das Gefühl, die Lage im Griff zu haben, geben dir Sicherheit. Um Hilfe bittest du selten. Anerkennung deiner Mühe und Zeit nur für dich helfen dir.",
+  "Mond im Wassermann: Du brauchst Unabhängigkeit und Freundschaft mehr als Zärtlichkeitsbekundungen. Ein Gefühl willst du erst verstehen und dann fühlen. In einer Gruppe fühlst du dich wohl, aber zu deinen Bedingungen. Freiraum und Menschen, die dein Anderssein akzeptieren, helfen dir.",
+  "Mond in den Fischen: ein sehr einfühlsamer Mond; du saugst die Stimmungen um dich herum auf. Du brauchst Stille, Kunst oder Spiritualität, um zu dir zurückzufinden. Du bist leicht gerührt und schnell voller Mitgefühl. Grenzen, Schlaf und Kreativität helfen dir."
+ ],
+ "ascSigns": [
+  "Aszendent Widder: auf den ersten Blick Energie, Direktheit und ein hohes Tempo. Man sieht in dir jemanden, der handelt, bevor er nachdenkt. In neue Situationen gehst du mutig hinein. Achte darauf, dass Eile nicht wie Desinteresse an anderen wirkt.",
+  "Aszendent Stier: auf den ersten Blick Ruhe, Geduld und eine angenehme Präsenz. Du wirkst stabil und vertrauenswürdig. An neue Situationen gewöhnst du dich langsam. Deine Stärke sind Ausdauer und guter Geschmack.",
+  "Aszendent Zwillinge: auf den ersten Blick Neugier, lebhafte Mimik und Leichtigkeit im Gespräch. Du wirkst jünger und rastloser, als du bist. Du knüpfst leicht Kontakte. Vorsicht vor Zerstreutheit.",
+  "Aszendent Krebs: auf den ersten Blick Sanftheit und Vorsicht. Du spürst zuerst die Atmosphäre und öffnest dich erst dann. Menschen spüren bei dir Wärme. Zurückhaltung gegenüber Fremden ist oft dein Schutz.",
+  "Aszendent Löwe: auf den ersten Blick Selbstbewusstsein und Wärme. Du ziehst leicht Aufmerksamkeit auf dich, auch wenn du sie nicht suchst. Du hast etwas von einer Bühnenfigur. Achte darauf, dass Stolz deine Empfindsamkeit nicht verdeckt.",
+  "Aszendent Jungfrau: auf den ersten Blick Bescheidenheit, Aufmerksamkeit und Sorgfalt. Du wirkst wie jemand, der weiß, was er tut. Du bemerkst Details, die anderen entgehen. Vorsicht vor zu strengem Urteil über dich selbst.",
+  "Aszendent Waage: auf den ersten Blick Höflichkeit, Charme und Sinn für Form. Menschen fühlen sich in deiner Nähe wohl. Spannungen glättest du ganz natürlich. Achte darauf, nicht allem um des lieben Friedens willen zuzustimmen.",
+  "Aszendent Skorpion: auf den ersten Blick Geheimnis und ein intensiver Blick. Du bist schwer zu durchschauen, und das ist dir recht. Du hast eine starke Präsenz. Dein Vertrauen schenkst du nach und nach.",
+  "Aszendent Schütze: auf den ersten Blick Offenheit, Humor und Begeisterung. Du wirkst wie jemand, der immer ein Abenteuer sucht. Dein Optimismus steckt leicht an. Vorsicht vor Versprechen, die du im Eifer des Augenblicks gibst.",
+  "Aszendent Steinbock: auf den ersten Blick Ernsthaftigkeit, Gelassenheit und Reife. Man überträgt dir schnell Verantwortung. Mit den Jahren wirst du oft leichter und offener. Achte darauf, nicht alles allein zu tragen.",
+  "Aszendent Wassermann: auf den ersten Blick Originalität und eine leichte Distanz. Du fällst auf, auch wenn du es nicht vorhast. Du bist zu allen freundlich, aber nur wenigen nah. Deine Stärke ist unabhängiges Denken.",
+  "Aszendent Fische: auf den ersten Blick Sanftheit, Verträumtheit und Empfindsamkeit. Menschen vertrauen sich dir gern an. Du liest Stimmungen gut. Du brauchst Grenzen, um die Gefühle anderer nicht zu übernehmen."
+ ],
+ "elements5": {
+  "wood": {
+   "name": "Holz",
+   "adj": "Holz",
+   "text": "Holz steht für Wachstum, Großzügigkeit und Zusammenarbeit. Holz-Menschen wachsen gemeinsam mit anderen und denken an die Zukunft."
+  },
+  "fire": {
+   "name": "Feuer",
+   "adj": "Feuer",
+   "text": "Feuer steht für Leidenschaft, Begeisterung und Mut. Feuer-Menschen übertragen ihre Energie auf andere, brennen aber leicht aus."
+  },
+  "earth": {
+   "name": "Erde",
+   "adj": "Erde",
+   "text": "Erde steht für Stabilität, Vernunft und Fürsorge. Erde-Menschen sind anderen eine Stütze und bauen auf Dauer."
+  },
+  "metal": {
+   "name": "Metall",
+   "adj": "Metall",
+   "text": "Metall steht für Entschlossenheit, Prinzipien und Willenskraft. Metall-Menschen sind konsequent und scheuen keine schweren Entscheidungen."
+  },
+  "water": {
+   "name": "Wasser",
+   "adj": "Wasser",
+   "text": "Wasser steht für Intuition, Anpassungsfähigkeit und Weisheit. Wasser-Menschen passen sich den Umständen an und verstehen andere gut."
+  }
+ },
+ "yearForecast": {
+  "same": "Dies ist dein Jahr, das Jahr deines eigenen Zeichens (běnmìngnián). Die Tradition rät darin zur Vorsicht: mehr Achtsamkeit, weniger Risiko. Eine gute Zeit, um zu dir selbst und zu deinen Wurzeln zurückzukehren.",
+  "friend": "Das Jahr deines „geheimen Freundes“. Die Tradition spricht von Unterstützung, die leise kommt; es lohnt sich also, Hilfe und Einladungen anzunehmen.",
+  "trine": "Das Jahr eines Zeichens aus deinem Trigon der Verbündeten. Es begünstigt Handeln, Zusammenarbeit und das Umsetzen von Plänen; die Energie des Jahres ist deiner nah.",
+  "clash": "Das Jahr deines Gegenzeichens (chōng). Die Tradition sagt Veränderungen und Spannungen voraus. Besser nichts erzwingen und Veränderung als Chance begreifen.",
+  "neutral": "Ein neutrales Jahr für dein Zeichen. Kein besonderer Rückenwind und keine Hindernisse: Vieles hängt von deinen eigenen Entscheidungen ab."
+ },
+ "chineseCompat": {
+  "same": "Dasselbe Zeichen: Ihr versteht euch gut, verstärkt aber auch leicht gegenseitig eure Schwächen.",
+  "friend": "Geheime Freunde: Nach der Tradition eine der besten Verbindungen, in der einer den anderen stützt.",
+  "trine": "Dasselbe Trigon der Verbündeten: ähnliche Werte und eine natürliche Harmonie.",
+  "clash": "Gegenzeichen: Sie ziehen sich an und prallen aufeinander. Viel zu lernen, aber auch Reibung.",
+  "neutral": "Eine neutrale Verbindung: weder besondere Harmonie noch Konflikt. Alles hängt von euch beiden ab."
+ },
+ "dayTypes": {
+  "fire": {
+   "name": "Fruchttag",
+   "text": "Mond in einem Feuerzeichen: Nach der Gärtnertradition ein guter Tag für Fruchtpflanzen und für die Obsternte."
+  },
+  "earth": {
+   "name": "Wurzeltag",
+   "text": "Mond in einem Erdzeichen: ein guter Tag für Wurzelgemüse, Umpflanzen und Bodenarbeit."
+  },
+  "air": {
+   "name": "Blütentag",
+   "text": "Mond in einem Luftzeichen: ein guter Tag für Blühpflanzen und um Blumen für die Vase zu schneiden."
+  },
+  "water": {
+   "name": "Blatttag",
+   "text": "Mond in einem Wasserzeichen: ein guter Tag für Kräuter, Salat und zum Gießen."
+  }
+ },
+ "haircut": {
+  "waxing": "Der Mond nimmt zu: Nach der Tradition wachsen die Haare nach dem Schneiden schneller nach.",
+  "waning": "Der Mond nimmt ab: Nach der Tradition hält ein Haarschnitt länger seine Form."
+ },
+ "mercury": "Merkur rückläufig: Von der Erde aus scheint er sich rückwärts über den Himmel zu bewegen. In der astrologischen Tradition ist das eine Zeit für Überprüfen, Korrigieren und Rückkehr zu alten Angelegenheiten, nicht für übereilte Vertragsabschlüsse. Prüfe Nachrichten und Pläne doppelt.",
+ "transits": {
+  "moonInSun": "Der Mond steht heute in deinem Sonnenzeichen. Gefühle und Bedürfnisse liegen näher an der Oberfläche: ein guter Tag, um etwas für dich zu tun.",
+  "moonInMoon": "Der Mond ist in das Zeichen zurückgekehrt, in dem er bei deiner Geburt stand (Mondwiederkehr). Die Tradition spricht von einem Tag emotionaler Erneuerung. Achte darauf, was du wirklich brauchst.",
+  "moonInAsc": "Der Mond zieht durch das Zeichen deines Aszendenten. Was du fühlst, zeigt sich deutlicher, und andere nehmen es heute vielleicht leichter wahr.",
+  "moonOpposite": "Der Mond steht im Gegenzeichen deiner Sonne. Spannungen zwischen dem, was du willst, und dem, was andere wollen, entstehen leichter. Such nach einem Kompromiss.",
+  "sunSeason": "Die Sonne steht in deinem Zeichen: Das ist deine Zeit im Jahr. Ein guter Moment, auf das letzte Jahr zurückzublicken und eine neue Richtung zu setzen.",
+  "mercuryInSun": "Merkur ist rückläufig in deinem Sonnenzeichen. Wiederholungen und Missverständnisse können dich stärker treffen als andere. Prüfe doppelt, was du sagst und was du unterschreibst."
+ },
+ "rituals": {
+  "new": {
+   "title": "Neumondritual",
+   "text": "Der Neumond ist der Beginn des Mondzyklus, traditionell eine Zeit, Absichten zu säen. Setz dich einen Moment in Ruhe hin und schreib auf, was du im kommenden Monat beginnen oder in dir entwickeln möchtest.",
+   "prompts": [
+    "Was möchte ich in diesem Zyklus beginnen?",
+    "Welchen einen kleinen Schritt gehe ich diese Woche?",
+    "Was brauche ich, damit es gelingt?"
+   ]
+  },
+  "full": {
+   "title": "Vollmondritual",
+   "text": "Der Vollmond ist der Höhepunkt des Zyklus: eine Zeit der Ernte, der Dankbarkeit und des Loslassens. Kehr zu deiner Absicht vom Neumond zurück und schau, was geschehen ist.",
+   "prompts": [
+    "Wofür bin ich heute dankbar?",
+    "Was ist seit dem Neumond gut gelaufen?",
+    "Was möchte ich loslassen, bevor der neue Zyklus beginnt?"
+   ]
+  }
+ },
+ "week": {
+  "same": "Die Sonne zieht gerade durch ein Zeichen deines Elements. In dieser Woche fällt es leichter, du selbst zu sein und deine Pläne umzusetzen. Nutze sie für Dinge, die deine Stärken brauchen.",
+  "supportive": "Die Sonne steht in einem Zeichen eines Elements, das dich unterstützt. Die Woche begünstigt Kontakte, Zusammenarbeit und neue Ideen: weniger Widerstand, mehr Fluss.",
+  "neutral": "Die Sonne steht in einem Zeichen eines für dich neutralen Elements. Eine ruhige Woche, in der viel von deiner Beständigkeit abhängt. Konzentrier dich auf eine wichtige Sache.",
+  "tense": "Die Sonne steht in einem Zeichen eines Elements, das in einem anderen Rhythmus schwingt als deines. Die Woche verlangt vielleicht Geduld und Kompromisse. Erzwinge nichts."
+ },
+ "eclipseText": {
+  "solar": "Eine Sonnenfinsternis fällt auf den Neumond. In der Tradition ist sie ein kraftvoller Neubeginn: eine Zeit für eine Absicht, die länger trägt.",
+  "lunar": "Eine Mondfinsternis fällt auf den Vollmond. In der Tradition ist sie eine Zeit des Abschließens und des Ans-Licht-Kommens: ein guter Moment, etwas zu beenden."
+ }
+}

@@ -1,0 +1,866 @@
+[
+ {
+  "id": "major_00",
+  "name": "The Fool",
+  "arcana": "major",
+  "suit": null,
+  "rank": 0,
+  "keywords": [
+   "new beginning",
+   "spontaneity",
+   "trust",
+   "curiosity",
+   "lightness"
+  ],
+  "symbolism": "A young figure in colourful clothes stands at the edge of a cliff with face turned to the sky, as if not noticing the drop. In one hand the figure holds a white rose, over one shoulder carries a staff with a small bundle, and a little white dog leaps at their feet. Behind them a bright sun shines and snowy peaks can be seen.",
+  "upright": "The Fool invites you to look at the situation with fresh eyes, without the weight of earlier assumptions. This is the energy of the first step, with more curiosity in it than plan. The card may suggest that it is worth giving yourself the right not to know and to learn along the way. The dog at the Fool's feet is a reminder that openness goes well with a little attentiveness.",
+  "reversed": "The reversed Fool may point to hesitation before setting out or, on the contrary, to a haste that overlooks important signals. Sometimes it is an invitation to check whether the fear of making a mistake is taking away the joy of trying.",
+  "reflection": [
+   "What would be possible if you did not have to know the ending in advance?",
+   "Which small step into the unknown tempts you right now?"
+  ],
+  "advice": "This is a good moment for a new beginning. Take the first step even if you do not know the whole way: trust your intuition and curiosity, just watch where you put your feet.",
+  "adviceReversed": "Pause for a moment before you leap. Check whether the hesitation comes from good sense or from fear of making a mistake, and only then set off.",
+  "astrology": "Air"
+ },
+ {
+  "id": "major_01",
+  "name": "The Magician",
+  "arcana": "major",
+  "suit": null,
+  "rank": 1,
+  "keywords": [
+   "agency",
+   "focus",
+   "skills",
+   "initiative",
+   "communication"
+  ],
+  "symbolism": "A figure in a white robe and red cloak raises a wand to the sky with one hand and points to the earth with the other. Above their head is the sign of infinity, and on the table lie a cup, a sword, a pentacle and a wand: the signs of the four elements. The whole scene is framed by blooming roses and lilies.",
+  "upright": "The Magician speaks of a moment when you have more resources to hand than it seems. The card encourages you to join thought with action and give your intentions a concrete shape. It is a good moment to notice your own talents and use them consciously. The gesture pointing both up and down is a reminder to join vision with everyday practice.",
+  "reversed": "Reversed, the Magician's energy can scatter: there are plenty of ideas but no direction. It can also be a signal to look at whether your words and intentions are consistent with each other.",
+  "reflection": [
+   "Which skills do you already have at your disposal, though you rarely notice them?",
+   "Which thought is waiting to be turned into a first concrete move?"
+  ],
+  "advice": "You have everything you need to begin. Take matters into your own hands, focus on one goal and act.",
+  "adviceReversed": "Before you act, check your intentions. Scattered energy or an attempt to manipulate the situation will not bring you what you want.",
+  "astrology": "Mercury"
+ },
+ {
+  "id": "major_02",
+  "name": "The High Priestess",
+  "arcana": "major",
+  "suit": null,
+  "rank": 2,
+  "keywords": [
+   "intuition",
+   "silence",
+   "inner knowledge",
+   "mystery",
+   "patience"
+  ],
+  "symbolism": "A woman in blue robes sits between two pillars, one dark and one light, marked with the letters B and J. On her lap she holds a partly hidden scroll, a crescent moon lies at her feet, and behind her hangs a veil decorated with pomegranates. On her head she wears a crown that recalls the phases of the Moon.",
+  "upright": "The High Priestess invites you to listen to what is quiet and unspoken. Not all answers come through analysis; some ripen in stillness. The card may suggest that it is worth pausing before a decision and giving yourself time to feel the situation. It is a space for trusting your own sense of things.",
+  "reversed": "The reversed High Priestess may point to intuition being drowned out by the noise of everyday life or by other people's opinions. Sometimes it also means withdrawing too far into yourself when a conversation could bring relief.",
+  "reflection": [
+   "What does your inner voice tell you when you quieten your surroundings for a moment?",
+   "What do you need more time for before you make a decision?"
+  ],
+  "advice": "The answer is already in you. Do not decide in a hurry: grow quiet and listen to your intuition before you ask others.",
+  "adviceReversed": "Stop drowning out your inner voice with other people's opinions. Give yourself a moment of quiet and you will see what you really feel.",
+  "astrology": "Moon"
+ },
+ {
+  "id": "major_03",
+  "name": "The Empress",
+  "arcana": "major",
+  "suit": null,
+  "rank": 3,
+  "keywords": [
+   "abundance",
+   "care",
+   "creativity",
+   "sensuality",
+   "growth"
+  ],
+  "symbolism": "A woman in a dress patterned with pomegranates rests on soft cushions among ripening wheat. On her head is a wreath of twelve stars, and beside her stands a heart-shaped shield bearing the sign of Venus. In the background a stream flows and a dense forest rustles.",
+  "upright": "The Empress is a reminder of what grows when it receives attention and tenderness: projects, relationships, and care for yourself too. The card encourages you to appreciate the pleasure of simple things. It may be an invitation to create without the pressure of perfection. This is an energy of generosity that includes you as well.",
+  "reversed": "Reversed, this energy can show as giving beyond your strength or overlooking your own needs. It can also signal a creative block, which is eased by rest rather than pressure.",
+  "reflection": [
+   "What in your life needs patient care right now in order to grow?",
+   "How can you look after yourself today the way you look after others?"
+  ],
+  "advice": "Look after what you want to grow: yourself, a relationship, an idea. Act with care and patience, and the matter will take shape of its own accord.",
+  "adviceReversed": "It is hard to give to others when your own strength is running low. Start by looking after yourself, then care for the rest.",
+  "astrology": "Venus"
+ },
+ {
+  "id": "major_04",
+  "name": "The Emperor",
+  "arcana": "major",
+  "suit": null,
+  "rank": 4,
+  "keywords": [
+   "structure",
+   "responsibility",
+   "stability",
+   "boundaries",
+   "leadership"
+  ],
+  "symbolism": "A bearded ruler in armour and a red cloak sits on a stone throne decorated with rams' heads. In one hand he holds a sceptre topped with an ankh, in the other a golden orb. Behind him rise stark, rust-coloured mountains.",
+  "upright": "The Emperor speaks of an order that gives a sense of security and lets you act calmly. The card may encourage you to set clear rules, boundaries or a plan. It is also an invitation to take responsibility for your own area of influence. A good structure need not be rigid; it can be a support.",
+  "reversed": "The reversed Emperor may point to too much control or, on the contrary, to a lack of fixed points of support. It is worth asking whether the present rules still serve you or only restrict you.",
+  "reflection": [
+   "Which boundary or rule would help you feel more secure?",
+   "Where does control give you support, and where does it begin to limit you?"
+  ],
+  "advice": "Bring in order. Set clear rules, make a plan and take responsibility for the decision: stability will give you the advantage.",
+  "adviceReversed": "Too much control can stifle the situation. Loosen rigid rules or, if structure is missing, finally build it.",
+  "astrology": "Aries"
+ },
+ {
+  "id": "major_05",
+  "name": "The Hierophant",
+  "arcana": "major",
+  "suit": null,
+  "rank": 5,
+  "keywords": [
+   "tradition",
+   "learning",
+   "community",
+   "values",
+   "guidance"
+  ],
+  "symbolism": "A priest in a red robe and a triple crown sits between two stone pillars, raising his hand in blessing. Crossed keys lie at his feet, and before him kneel two disciples in robes decorated with roses and lilies.",
+  "upright": "The Hierophant refers to knowledge passed down from generation to generation and to communities that give a sense of belonging. The card may suggest drawing on the experience of a teacher, a mentor or a proven method. It is also an opportunity to consider which values are truly your own. Tradition can be a bridge, not a wall.",
+  "reversed": "The reversed Hierophant may invite you to question rules accepted without thinking. Sometimes it points to a need to find your own way beyond well-worn patterns.",
+  "reflection": [
+   "From whom could you learn something right now?",
+   "Which beliefs taken over from others are worth rethinking today?"
+  ],
+  "advice": "Use a path that has proved itself. Ask someone experienced for advice, or rely on principles that have already worked.",
+  "adviceReversed": "You do not have to do everything the way it “should” be done. Ask yourself which rules are yours and which are merely inherited.",
+  "astrology": "Taurus"
+ },
+ {
+  "id": "major_06",
+  "name": "The Lovers",
+  "arcana": "major",
+  "suit": null,
+  "rank": 6,
+  "keywords": [
+   "choice",
+   "relationship",
+   "values",
+   "closeness",
+   "integrity"
+  ],
+  "symbolism": "A naked woman and man stand in a garden, and above them, in the clouds, hovers a winged angel with outstretched arms. Behind the woman grows a fruit tree with a serpent coiled around it, behind the man a tree with flame-like leaves. Between them, in the distance, rises a lone mountain.",
+  "upright": "The Lovers speak of closeness, but also of choices that come from what matters to us. The card may concern a relationship in which honesty and reciprocity count. It may also invite a decision in line with your own values, even if it takes courage. Harmony between heart and action gives a sense of inner order.",
+  "reversed": "Reversed, the card may point to a gap between what you desire and what you choose. It can also be an invitation to an honest conversation about expectations in a relationship.",
+  "reflection": [
+   "Which choice would be most in line with what you truly value?",
+   "What do you need in order to feel fully yourself in a relationship?"
+  ],
+  "advice": "You face a choice. Choose in line with your values, not with convenience. Go for what truly matters to you.",
+  "adviceReversed": "Something does not add up: the heart wants one thing and your actions say another. Before you decide, honestly name what you want.",
+  "astrology": "Gemini"
+ },
+ {
+  "id": "major_07",
+  "name": "The Chariot",
+  "arcana": "major",
+  "suit": null,
+  "rank": 7,
+  "keywords": [
+   "determination",
+   "direction",
+   "moving forward",
+   "self-discipline",
+   "confidence"
+  ],
+  "symbolism": "A warrior in armour decorated with crescent moons stands in a stone chariot under a canopy strewn with stars. The chariot is drawn by two sphinxes, one black and one white, looking in different directions. Behind him are the walls of a city and a flowing river.",
+  "upright": "The Chariot describes the energy of focused movement, in which different forces are steered in one direction. The card may encourage perseverance and a clear statement of the goal. It is not about fighting obstacles but about calmly holding your course. The victory here is often mastering your inner contradictions.",
+  "reversed": "The reversed Chariot may suggest that forces are pulling in opposite directions and it is hard to get moving. Sometimes it is a signal to slow down and check whether the chosen goal is still the right one.",
+  "reflection": [
+   "Where exactly are you heading, and how will you know it is the right way?",
+   "Which conflicting needs could you reconcile instead of fighting them?"
+  ],
+  "advice": "Go forward. Set a direction, keep to it and do not let yourself be distracted: determination will take you to your goal.",
+  "adviceReversed": "You are pulling in two directions at once. Decide where you are going before you put your foot down.",
+  "astrology": "Cancer"
+ },
+ {
+  "id": "major_08",
+  "name": "Strength",
+  "arcana": "major",
+  "suit": null,
+  "rank": 8,
+  "keywords": [
+   "gentle strength",
+   "courage",
+   "patience",
+   "composure",
+   "compassion"
+  ],
+  "symbolism": "A woman in a white dress, girded with a garland of flowers, calmly holds a lion's jaws in her hands. Above her head floats the sign of infinity. The animal seems tamed, and the scene is set against gentle hills and a bright yellow sky.",
+  "upright": "Strength shows a power that has no need for shouting or force. The card encourages you to treat your own emotions and instincts gently, not suppressing them but taming them. This is a courage that comes from patience and kindness towards yourself. Calm is often more persuasive here than pressure.",
+  "reversed": "Reversed, the card may point to doubt in your own strength or to difficulty calming frustration. Then it is worth treating yourself with the patience you show to people you love.",
+  "reflection": [
+   "Which emotion needs understanding today rather than a fight?",
+   "Where could your gentleness turn out to be a strength?"
+  ],
+  "advice": "Act with gentle strength. Calm, patience and courage will achieve more than pressure. You can handle this.",
+  "adviceReversed": "You doubt yourself more than you need to. Remind yourself what you have already coped with, and be gentler with yourself.",
+  "astrology": "Leo"
+ },
+ {
+  "id": "major_09",
+  "name": "The Hermit",
+  "arcana": "major",
+  "suit": null,
+  "rank": 9,
+  "keywords": [
+   "reflection",
+   "chosen solitude",
+   "wisdom",
+   "withdrawal",
+   "seeking"
+  ],
+  "symbolism": "An old man in a grey hooded cloak stands on a snowy peak. In one hand he raises a lantern in which a six-pointed star shines; with the other he leans on a long staff. His gaze is turned downwards, as if lighting the way for those who follow him.",
+  "upright": "The Hermit invites you to stop and look inwards. Time spent in silence can help you separate what is important from what is merely loud. The card does not mean cutting yourself off from people, but consciously making room for your own thoughts. The light of the lantern is enough to see the next step.",
+  "reversed": "The reversed Hermit may suggest that withdrawal has begun to look like isolation. Sometimes it is the other way round: running from silence because it is hard to face your own questions.",
+  "reflection": [
+   "What do you learn about yourself when you are in silence?",
+   "Which one next step can you see in the light you already have?"
+  ],
+  "advice": "Step back from the bustle for a while. Think the matter over on your own: the answer will come from within, not from outside.",
+  "adviceReversed": "The withdrawal has gone on too long. It is time to go out to people and share what you know inside.",
+  "astrology": "Virgo"
+ },
+ {
+  "id": "major_10",
+  "name": "Wheel of Fortune",
+  "arcana": "major",
+  "suit": null,
+  "rank": 10,
+  "keywords": [
+   "cycles",
+   "change",
+   "chance",
+   "rhythm",
+   "turn of events"
+  ],
+  "symbolism": "A great wheel covered with letters and alchemical signs turns in the sky. On its top sits a sphinx with a sword, a serpent slides down one side, and a jackal-headed figure rises from below. In the corners, on clouds, winged creatures (an angel, an eagle, a lion and a bull) bend over books.",
+  "upright": "The Wheel of Fortune is a reminder that life moves in cycles and no situation stays the same for ever. The card encourages you to notice what is changing right now and to consider how to tune in to it. Not everything depends on us, but our attitude remains in our hands. Change can reveal possibilities that could not be seen before.",
+  "reversed": "Reversed, the card may point to resistance to change, or a feeling that the same pattern keeps coming back. It is an invitation to look for the part of the cycle that can be consciously broken or transformed.",
+  "reflection": [
+   "Which recurring pattern do you notice in your life?",
+   "What can you influence even when circumstances change?"
+  ],
+  "advice": "The situation is changing, and this is a good moment to go with it. Use the opportunity that appears: the wheel is turning.",
+  "adviceReversed": "Do not fight what you cannot influence. Focus on what you can do, and wait for the cycle to turn.",
+  "astrology": "Jupiter"
+ },
+ {
+  "id": "major_11",
+  "name": "Justice",
+  "arcana": "major",
+  "suit": null,
+  "rank": 11,
+  "keywords": [
+   "balance",
+   "fairness",
+   "cause and effect",
+   "clarity",
+   "responsibility"
+  ],
+  "symbolism": "A figure in a red robe sits on a throne between two pillars, behind which hangs a purple veil. In one hand the figure holds a raised double-edged sword, in the other a pair of scales in balance. A white shoe shows beneath the robe, and the gaze is calm and direct.",
+  "upright": "Justice invites you to take an honest look at the situation, taking all its sides into account. The card speaks of the link between choices and their consequences. This may be a good moment to name the facts and decide in line with your own sense of fairness. Clarity often brings relief, even when it calls for honesty with yourself.",
+  "reversed": "Reversed Justice may suggest difficulty accepting responsibility, or a feeling that something remains out of balance. It is worth checking whether your judgement of the situation is too harsh, towards others or towards yourself.",
+  "reflection": [
+   "What would this situation look like if you looked at it from every side?",
+   "What do you want to take responsibility for, and what is not yours to carry?"
+  ],
+  "advice": "Act fairly and weigh up all sides. A decision based on facts and truth will bring a fair result.",
+  "adviceReversed": "Something is out of balance. Check whether you are being completely honest with yourself and with others before you pass judgement.",
+  "astrology": "Libra"
+ },
+ {
+  "id": "major_12",
+  "name": "The Hanged Man",
+  "arcana": "major",
+  "suit": null,
+  "rank": 12,
+  "keywords": [
+   "suspension",
+   "new perspective",
+   "letting go",
+   "pause",
+   "acceptance"
+  ],
+  "symbolism": "A man hangs head down, tied by one foot to a T-shaped wooden beam from which leaves are sprouting. His other leg is bent to form a cross, and his hands are hidden behind his back. A halo shines around his head, and his face stays calm.",
+  "upright": "The Hanged Man describes a time of suspension that can bring an entirely new view. When action brings no results, it often helps to stop and look at things from a different side. The card encourages you to let go of the need for immediate solutions. Understanding often ripens in apparent stillness.",
+  "reversed": "The reversed Hanged Man may point to impatience with the pause, or to staying suspended longer than necessary. It can also be an invitation to notice what you can now let go of in order to move on.",
+  "reflection": [
+   "What will you see if you look at this matter from the completely opposite side?",
+   "What can you give up to make room for something new?"
+  ],
+  "advice": "Do not hurry. Stop and look at the matter from a different side: letting go may give you more than fighting.",
+  "adviceReversed": "Waiting is no longer useful. If you are stuck in suspension, it is time to make a decision and move on.",
+  "astrology": "Water"
+ },
+ {
+  "id": "major_13",
+  "name": "Death",
+  "arcana": "major",
+  "suit": null,
+  "rank": 13,
+  "keywords": [
+   "transformation",
+   "end of a stage",
+   "change",
+   "renewal",
+   "letting go"
+  ],
+  "symbolism": "A figure in black armour rides a white horse, carrying a black banner with a white rose. Before it stand and kneel people of different stations, from a ruler to a child, each reacting differently to its arrival. In the background, between two towers, the sun is rising.",
+  "upright": "In tarot, Death symbolises the closing of one chapter and the passage to the next, not a physical end. The card speaks of a transformation that frees up space, just as autumn prepares the ground for spring. It may encourage you to say goodbye to habits, roles or beliefs that have served their purpose. The rising sun in the background is a reminder that after an ending comes a new beginning.",
+  "reversed": "Reversed Death may point to resistance to a change that is ripening from within anyway. Sometimes it is an invitation to let something go gently instead of keeping it alive by force.",
+  "reflection": [
+   "Which stage of your life is naturally coming to an end?",
+   "What could appear if you made room after what is leaving?"
+  ],
+  "advice": "Close what has ended. Let the old stage go: only then will there be room for the new.",
+  "adviceReversed": "You are holding on to something that has already passed. The change will come anyway, and it will be easier if you stop resisting it.",
+  "astrology": "Scorpio"
+ },
+ {
+  "id": "major_14",
+  "name": "Temperance",
+  "arcana": "major",
+  "suit": null,
+  "rank": 14,
+  "keywords": [
+   "harmony",
+   "balance",
+   "patience",
+   "blending",
+   "moderation"
+  ],
+  "symbolism": "A winged angel in a white robe pours water between two cups, standing with one foot on the bank and the other in a stream. On the angel's chest is a triangle inscribed in a square. Yellow irises grow nearby, and a path leads towards mountains, above which an arc of light shines.",
+  "upright": "Temperance speaks of the art of combining opposites and looking for the golden mean. The card encourages calm, gradual action instead of extreme solutions. It may concern balancing work and rest, or reason and emotion. Harmony is not a fixed state but a continuous, attentive tuning.",
+  "reversed": "Reversed, the card may point to a lack of balance: excess in one area at the cost of another. It is a signal to look at where a gentle correction of proportions is needed.",
+  "reflection": [
+   "Which two areas of your life need better balancing right now?",
+   "What could change if you acted in small, patient steps?"
+  ],
+  "advice": "Look for the golden mean. Combine opposites and act calmly, step by step: moderation is your strength right now.",
+  "adviceReversed": "You are overdoing something, whether work, emotions or expectations. Restore the balance before you start anything new.",
+  "astrology": "Sagittarius"
+ },
+ {
+  "id": "major_15",
+  "name": "The Devil",
+  "arcana": "major",
+  "suit": null,
+  "rank": 15,
+  "keywords": [
+   "attachment",
+   "temptation",
+   "patterns",
+   "shadow",
+   "awareness"
+  ],
+  "symbolism": "A horned figure with bat wings sits on a dark pedestal, raising one hand and holding a lowered torch in the other. Two naked figures with small horns and tails are chained to the pedestal. The chains around their necks are loose: they could take them off.",
+  "upright": "The Devil invites you to look at what keeps you stuck: habits, beliefs or dependencies. The card is not a verdict but an opportunity to become aware of mechanisms working outside your attention. The loose chains are a reminder that many limits can be loosened once they are named. It is also a space for an honest meeting with your own shadow.",
+  "reversed": "The reversed Devil may mean the beginning of freeing yourself from a pattern, or the moment when an attachment becomes clearly visible. It can be an invitation to win back your freedom gently but steadily.",
+  "reflection": [
+   "Which habit or belief limits you more than you want to admit?",
+   "What would change if that chain turned out to be looser than it seems?"
+  ],
+  "advice": "See what is holding you: a habit, a fear, a dependency. Name it honestly; the chain is looser than it seems.",
+  "adviceReversed": "You have a chance to break free. Take the first step away from the pattern that harms you: it is easier now than before.",
+  "astrology": "Capricorn"
+ },
+ {
+  "id": "major_16",
+  "name": "The Tower",
+  "arcana": "major",
+  "suit": null,
+  "rank": 16,
+  "keywords": [
+   "sudden change",
+   "reassessment",
+   "awakening",
+   "release",
+   "truth"
+  ],
+  "symbolism": "A tall tower on a rocky peak is struck by lightning, which knocks off its crown. Flames burst from the windows, and two figures fall against a dark sky. Small sparks in the shape of the Hebrew letter yod float all around.",
+  "upright": "The Tower describes the moment when something that seemed stable suddenly demands reassessment. Such a change can come as a surprise, but it often reveals a truth that had been hidden. The card encourages you to check which structures were built on shaky foundations. Once things are cleared up, there is room for something more authentic.",
+  "reversed": "The reversed Tower may point to putting off a necessary change, or to a transformation happening more on the inside than on the outside. Sometimes it is a signal that something can be rebuilt gradually before the tension builds up.",
+  "reflection": [
+   "Which belief or arrangement needs an honest check today?",
+   "What could be built in place of what is no longer working?"
+  ],
+  "advice": "Do not prop up what is crumbling. Accept the change and build something on stronger foundations.",
+  "adviceReversed": "You are avoiding an inevitable change. It is better to face it now, on your own terms, than to wait for the shock.",
+  "astrology": "Mars"
+ },
+ {
+  "id": "major_17",
+  "name": "The Star",
+  "arcana": "major",
+  "suit": null,
+  "rank": 17,
+  "keywords": [
+   "hope",
+   "renewal",
+   "calm",
+   "inspiration",
+   "trust"
+  ],
+  "symbolism": "A naked woman kneels at the edge of a pool and pours water from two jugs, one into the water and the other onto the land. Above her shines a large eight-pointed star surrounded by seven smaller ones. A bird has alighted on a tree in the background.",
+  "upright": "The Star brings a sense of respite and quiet hope. The card invites you to rest and to rebuild trust in yourself and the world. It is a good time for dreams that do not have to be realised straight away in order to give you strength. The simplicity of the scene is a reminder that you can show yourself without masks.",
+  "reversed": "Reversed, the Star may point to tiredness or hope that has dimmed for a while. It is an invitation to look for small sources of light and give yourself time to recover.",
+  "reflection": [
+   "What gives you a sense of hope today, however small?",
+   "How can you look after your rest in the coming days?"
+  ],
+  "advice": "Have hope and act from it. The worst is over: give yourself time to recover and look to the future with trust.",
+  "adviceReversed": "Have you lost faith that things can get better? Start with one small step that will give you back a sense of meaning.",
+  "astrology": "Aquarius"
+ },
+ {
+  "id": "major_18",
+  "name": "The Moon",
+  "arcana": "major",
+  "suit": null,
+  "rank": 18,
+  "keywords": [
+   "uncertainty",
+   "imagination",
+   "dreams",
+   "the subconscious",
+   "hunches"
+  ],
+  "symbolism": "A moon with a human face shines over a night landscape, and drops of light fall from it. A dog and a wolf howl at it on either side of a path that winds between two towers towards distant hills. A crayfish crawls out of the water in the foreground.",
+  "upright": "The Moon describes a state in which not everything is clear and imagination suggests different versions of events. The card encourages you to look with curiosity at dreams, hunches and fears without treating them straight away as facts. It is a time to move carefully, step by step. Uncertainty is often a stage that comes before understanding.",
+  "reversed": "The reversed Moon may suggest that the fog is beginning to lift, or that fears are gaining disproportionate power. It is worth separating what is known from what the imagination adds.",
+  "reflection": [
+   "What in this situation is a fact, and what is your interpretation?",
+   "Which dream or hunch has been coming back to you lately?"
+  ],
+  "advice": "Not everything is clear right now, and that is all right. Do not make final decisions in the fog; trust your intuition, but check the facts.",
+  "adviceReversed": "The fog is beginning to lift. Call your fears by their names: many of them will turn out smaller than they seemed.",
+  "astrology": "Pisces"
+ },
+ {
+  "id": "major_19",
+  "name": "The Sun",
+  "arcana": "major",
+  "suit": null,
+  "rank": 19,
+  "keywords": [
+   "joy",
+   "clarity",
+   "warmth",
+   "openness",
+   "success"
+  ],
+  "symbolism": "A naked child with a garland and a red feather on its head rides joyfully on a white horse, holding a great red banner. Above shines a radiant sun with a face, and sunflowers bloom behind a low wall.",
+  "upright": "The Sun brings the energy of clarity and simple joy. The card encourages you to enjoy what is good and to share your warmth with others. It may describe a moment when things become clear and action comes easily. It is also an invitation to get in touch with childlike spontaneity.",
+  "reversed": "Reversed, the Sun's joy may be muted or hard to accept fully. Sometimes it is also a signal not to pretend to be cheerful when a moment of honesty is needed.",
+  "reflection": [
+   "What gives you real, simple joy?",
+   "How can you allow yourself more lightness this week?"
+  ],
+  "advice": "The answer is yes. Act openly, with joy and confidence: this is a good time to show yourself.",
+  "adviceReversed": "Joy is close, but something is obscuring it. Let yourself enjoy what you already have instead of waiting for the perfect moment.",
+  "astrology": "Sun"
+ },
+ {
+  "id": "major_20",
+  "name": "Judgement",
+  "arcana": "major",
+  "suit": null,
+  "rank": 20,
+  "keywords": [
+   "awakening",
+   "inner calling",
+   "taking stock",
+   "rebirth",
+   "forgiveness"
+  ],
+  "symbolism": "An angel emerges from the clouds and blows a trumpet hung with a flag bearing a red cross. Below, from open coffins floating on water, naked figures rise (adults and a child) with their arms stretched upwards. Snowy mountains can be seen in the background.",
+  "upright": "Judgement describes a moment of awakening in which your own path becomes clearer than before. The card encourages you to take stock of your experiences and draw conclusions from them without harsh judgement. It may be an inner calling to take up something that has long been important. It is also a space for forgiving yourself and others.",
+  "reversed": "Reversed, the card may point to judging yourself too critically, or to drowning out an inner calling. It is worth asking what is holding you back from answering what calls you.",
+  "reflection": [
+   "What do you feel an inner calling towards?",
+   "What can you forgive yourself for so that you can go on with a lighter heart?"
+  ],
+  "advice": "You have heard an inner calling: answer it. Take stock of the past, forgive yourself and make the decision.",
+  "adviceReversed": "You are judging yourself too harshly or putting off an important decision. Stop waiting for a sign: the sign has already come.",
+  "astrology": "Fire"
+ },
+ {
+  "id": "major_21",
+  "name": "The World",
+  "arcana": "major",
+  "suit": null,
+  "rank": 21,
+  "keywords": [
+   "fulfilment",
+   "integration",
+   "completion",
+   "wholeness",
+   "new cycle"
+  ],
+  "symbolism": "A figure wrapped only in a purple sash dances inside an oval wreath of leaves, holding two wands. The wreath is tied at top and bottom with red ribbons, and the heads of an angel, an eagle, a lion and a bull appear in the corners of the card.",
+  "upright": "The World describes a sense of wholeness and the completion of an important stage. The card invites you to appreciate the road you have travelled and how different experiences have come together into a coherent whole. It is a good moment for celebration and gratitude. The end of one cycle naturally prepares the ground for the next.",
+  "reversed": "Reversed, the World may point to unfinished business or difficulty closing a stage. It can be an invitation to notice what is still missing for a sense of completeness.",
+  "reflection": [
+   "What are you already achieving that you do not yet fully appreciate?",
+   "What needs closing before you begin the next chapter?"
+  ],
+  "advice": "Bring the matter to a close and appreciate what you have achieved. This stage is complete: you can confidently move on to the next.",
+  "adviceReversed": "The last step towards closure is missing. Finish what you have started before you take on something new.",
+  "astrology": "Saturn"
+ },
+ {
+  "id": "wands_01",
+  "name": "Ace of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 1,
+  "keywords": [
+   "spark",
+   "inspiration",
+   "potential",
+   "enthusiasm",
+   "new initiative"
+  ],
+  "symbolism": "A hand emerges from a cloud holding a strong, leafy wand, from which small leaves are falling. Below stretches a green landscape with a river, and a castle stands on a distant hill.",
+  "upright": "The Ace of Wands is the spark of a new idea or a surge of enthusiasm. The card encourages you to notice what brings you to life right now and to give it a chance. At this stage enthusiasm counts for more than a finished plan. The potential is there, waiting for the first action.",
+  "reversed": "The reversed Ace may point to an idea that has not yet found an outlet, or a temporary dip in motivation. Sometimes it is worth waiting for the spark to ripen instead of forcing it.",
+  "reflection": [
+   "Which idea excites you most?",
+   "What is the smallest step that would let it come into being?"
+  ],
+  "advice": "You have a spark: act while it is hot. Start the project, make the call, write it down. Inspiration needs movement.",
+  "adviceReversed": "The enthusiasm fades before it turns into action. Do one small thing today instead of waiting for the perfect moment.",
+  "astrology": "Fire — root of the element"
+ },
+ {
+  "id": "wands_02",
+  "name": "Two of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 2,
+  "keywords": [
+   "planning",
+   "perspective",
+   "decision",
+   "horizon",
+   "ambition"
+  ],
+  "symbolism": "A man in a red hat stands on castle walls holding a small globe, looking out over sea and land. One wand is fixed to the wall, the other he holds in his hand. A coat of arms with crossed roses and lilies is carved into the stone.",
+  "upright": "The Two of Wands describes a moment of planning and considering wider possibilities. You already have a certain base, and now the question is where to go next. The card encourages you to think boldly about the future and consciously choose a direction. This is a time for the vision that comes before the movement.",
+  "reversed": "Reversed, the card may point to wavering between security and the new, or to planning that never turns into action. It is worth asking what you need in order to feel ready.",
+  "reflection": [
+   "What does the horizon you want to head towards look like?",
+   "What keeps you on the walls instead of letting you set out?"
+  ],
+  "advice": "Plan your next step and look further than usual. The decision is yours: choose the wider perspective.",
+  "adviceReversed": "Fear of the unknown is keeping you in your comfort zone. Consider what you lose by not stepping outside it.",
+  "astrology": "Fire · Mars in Aries"
+ },
+ {
+  "id": "wands_03",
+  "name": "Three of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 3,
+  "keywords": [
+   "growth",
+   "anticipation",
+   "expansion",
+   "foresight",
+   "first results"
+  ],
+  "symbolism": "A figure in a cloak stands on a hill with their back to the viewer, leaning on one of three wands planted in the ground. They look out over a golden bay on which ships are sailing. The horizon is wide and open.",
+  "upright": "The Three of Wands speaks of a time when the first actions have been taken and you can watch how they develop. The card encourages a wider view and patient waiting for results. It may suggest opening up to new contacts or areas. It is the joy of seeing something begin to take shape.",
+  "reversed": "Reversed, the card may point to impatience when results come more slowly than expected. It can also be an invitation to adjust the plan in the light of new information.",
+  "reflection": [
+   "What has already been set in motion and now needs time?",
+   "Which new possibilities can be seen from where you are standing?"
+  ],
+  "advice": "What you have sown is beginning to grow. Think bigger, prepare for more and be patient: the results are on their way.",
+  "adviceReversed": "Delays do not mean failure. Check the plan, correct your course and do not give up too soon.",
+  "astrology": "Fire · Sun in Aries"
+ },
+ {
+  "id": "wands_04",
+  "name": "Four of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 4,
+  "keywords": [
+   "celebration",
+   "community",
+   "home",
+   "stability",
+   "joy"
+  ],
+  "symbolism": "Four wands tied with a garland of flowers and fruit form a kind of gateway. Behind it two figures raise bouquets, and a group of people and a castle can be seen in the background. The scene is festive and warm.",
+  "upright": "The Four of Wands invites you to stop and appreciate what has already been built. It is the energy of shared celebration, belonging and a safe harbour. The card may concern an important milestone that deserves to be marked. Joy shared with others strengthens bonds.",
+  "reversed": "Reversed, the card may suggest that it is hard to stop and celebrate, or that the sense of community has been strained. It is worth looking for a place and people around whom you can breathe out.",
+  "reflection": [
+   "What deserves celebrating today?",
+   "Where, and with whom, do you feel at home?"
+  ],
+  "advice": "Celebrate what has gone well and share it with the people close to you. Stable ground will let you go further.",
+  "adviceReversed": "Something is disturbing the sense of security at home or in the team. Talk about it openly instead of pretending everything is fine.",
+  "astrology": "Fire · Venus in Aries"
+ },
+ {
+  "id": "wands_05",
+  "name": "Five of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 5,
+  "keywords": [
+   "competition",
+   "disagreement",
+   "tension",
+   "clashing",
+   "group energy"
+  ],
+  "symbolism": "Five young men in clothes of different colours brandish wands, as if in a chaotic skirmish or a game. None seems hurt, and their movements cross in different directions.",
+  "upright": "The Five of Wands describes a situation in which many opinions and energies clash. Such a conflict need not be destructive; it can be a creative exchange that sharpens ideas. The card encourages you to notice whether this is about a shared goal or only about getting the upper hand. Good communication can turn chaos into cooperation.",
+  "reversed": "Reversed, the card may point to avoiding conflict at any price, or to tension that has moved inside. Sometimes it is an invitation to look for agreement instead of victory.",
+  "reflection": [
+   "What is this dispute really about?",
+   "How can you voice your opinion while also listening to others?"
+  ],
+  "advice": "A difference of opinion does not have to be a war. Say what you think, but listen to others: something creative can come out of the tension.",
+  "adviceReversed": "You are avoiding the conflict or wearing yourself out with it. Put things clearly and end a dispute that serves no purpose.",
+  "astrology": "Fire · Saturn in Leo"
+ },
+ {
+  "id": "wands_06",
+  "name": "Six of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 6,
+  "keywords": [
+   "recognition",
+   "success",
+   "self-confidence",
+   "appreciation",
+   "victory"
+  ],
+  "symbolism": "A rider wearing a laurel wreath rides a white horse, holding a wand with a second wreath tied to it. People walk around him with raised wands, as if welcoming him home.",
+  "upright": "The Six of Wands speaks of appreciation and a visible result of the effort you have put in. The card encourages you to accept recognition without false modesty. It is also a reminder that success is often the work of many people. Self-confidence can become a support for others.",
+  "reversed": "Reversed, the card may point to difficulty accepting praise or a strong dependence on other people's opinions. It is worth considering how to appreciate your own work by yourself.",
+  "reflection": [
+   "Which achievement of yours deserves recognition?",
+   "How far does your sense of worth depend on what others think?"
+  ],
+  "advice": "You have every right to be proud of yourself. Show your achievements: the recognition is deserved and will open more doors.",
+  "adviceReversed": "Do not make your worth depend on applause. Appreciate yourself even if others have not done so yet.",
+  "astrology": "Fire · Jupiter in Leo"
+ },
+ {
+  "id": "wands_07",
+  "name": "Seven of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 7,
+  "keywords": [
+   "standing your ground",
+   "perseverance",
+   "courage",
+   "boundaries",
+   "conviction"
+  ],
+  "symbolism": "A young man stands on high ground with a wand in his hands, fending off six other wands reaching up towards him from below. He is wearing two different shoes, which suggests haste or surprise.",
+  "upright": "The Seven of Wands describes a situation in which it is worth standing by your convictions. The card encourages perseverance and clearly expressing what matters. The position on high ground is a reminder that you have a certain advantage: knowledge or experience. Defending boundaries can be done calmly and with respect.",
+  "reversed": "Reversed, the card may point to weariness from constantly defending yourself, or doubt about whether this fight is worth the energy. Sometimes it is better to choose which matters really need defending.",
+  "reflection": [
+   "What do you want to stand up for, even if others think differently?",
+   "Which disputes are worth your energy, and which can you let go?"
+  ],
+  "advice": "Stand your ground. You have every reason to hold on to your position: do not give way just because it is hard.",
+  "adviceReversed": "You do not have to fight on every front. Choose what is really worth fighting for, and let the rest go.",
+  "astrology": "Fire · Mars in Leo"
+ },
+ {
+  "id": "wands_08",
+  "name": "Eight of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 8,
+  "keywords": [
+   "speed",
+   "movement",
+   "news",
+   "momentum",
+   "rapid progress"
+  ],
+  "symbolism": "Eight wands fly diagonally through a clear sky, parallel to each other, as if heading for the ground. Below them stretches a calm landscape with a river and a hill. There are no figures on the card.",
+  "upright": "The Eight of Wands brings the energy of rapid movement and matters picking up speed. The card may concern news, conversations or issues that are finally getting moving. It encourages you to act decisively while the momentum is on your side. This is a time when thought turns quickly into action.",
+  "reversed": "Reversed, the card may point to delays, confusion in communication or too many things at once. It is worth slowing down and deciding what matters most right now.",
+  "reflection": [
+   "What in your life is picking up speed right now?",
+   "How can you make sure that haste does not take away your clarity?"
+  ],
+  "advice": "Things are speeding up: act quickly and do not delay your answer. This is a time for movement, not deliberation.",
+  "adviceReversed": "Haste is leading to chaos, or everything has got stuck. Slow down, put things in order and only then speed up.",
+  "astrology": "Fire · Mercury in Sagittarius"
+ },
+ {
+  "id": "wands_09",
+  "name": "Nine of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 9,
+  "keywords": [
+   "vigilance",
+   "perseverance",
+   "resilience",
+   "final effort",
+   "experience"
+  ],
+  "symbolism": "A man with a bandaged head stands leaning on a wand and glances warily to the side. Behind him stands a row of eight wands like a palisade. His posture shows weariness, but also readiness.",
+  "upright": "The Nine of Wands speaks of perseverance after long effort. The card reminds you that a great deal is already behind you and you can rely on the experience you have gained. Vigilance can help, but it is worth checking that it does not turn into constant tension. Resilience grows through rest too.",
+  "reversed": "Reversed, the card may suggest exhaustion or excessive suspicion of the people around you. It is a good moment to ask for support and lower your guard where it is safe to do so.",
+  "reflection": [
+   "What have you already come through, and what did it teach you?",
+   "Where can you allow yourself rest instead of constant vigilance?"
+  ],
+  "advice": "You are close to the goal: hold on a little longer. Stay alert, but do not let tiredness take away your faith.",
+  "adviceReversed": "You are defending yourself against something that no longer threatens you. Rest and accept help instead of standing guard for ever.",
+  "astrology": "Fire · Moon in Sagittarius"
+ },
+ {
+  "id": "wands_10",
+  "name": "Ten of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 10,
+  "keywords": [
+   "burden",
+   "responsibility",
+   "effort",
+   "too many tasks",
+   "delegating"
+  ],
+  "symbolism": "A stooping man carries ten wands in his arms, and they block his view. He struggles on towards a house visible in the distance.",
+  "upright": "The Ten of Wands describes the weight of many commitments carried at once. The card encourages you to look at which of them are really yours and which were taken on out of momentum. The goal is close, but the way you are carrying the load may be making the journey harder. Sorting and sharing out tasks can bring relief.",
+  "reversed": "Reversed, the card may point to the moment when the burden becomes too heavy, or to a readiness to put part of it down. It is an invitation to ask for help and to say “no”.",
+  "reflection": [
+   "Which of your current responsibilities could you put down or hand over?",
+   "What would the road to your goal look like if the load were lighter?"
+  ],
+  "advice": "You are carrying too much. Hand over some of your duties, ask for help or put down what is not yours.",
+  "adviceReversed": "It is time to shed the load. Say “no” to what you do not have to carry, and things will get lighter.",
+  "astrology": "Fire · Saturn in Sagittarius"
+ },
+ {
+  "id": "wands_11",
+  "name": "Page of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 11,
+  "keywords": [
+   "curiosity",
+   "enthusiasm",
+   "discovery",
+   "new tidings",
+   "youthful zeal"
+  ],
+  "symbolism": "A young man in a tunic decorated with a pattern of salamanders stands in desert country and looks with curiosity at the wand he holds in front of him. Three hills like pyramids rise in the background.",
+  "upright": "The Page of Wands brings the energy of a curious student who wants to try something new. The card encourages you to explore ideas without pressure for immediate results. It may concern inspiring news or a budding passion. Enthusiasm is the most valuable resource here.",
+  "reversed": "Reversed, the Page may point to scattered enthusiasm or an impatience that drops ideas too quickly. It is worth choosing one spark and giving it a little time.",
+  "reflection": [
+   "What do you want to learn simply because it interests you?",
+   "Which idea deserves more of your attention?"
+  ],
+  "advice": "Be curious and try something new. The first enthusiastic step matters more than a perfect plan.",
+  "adviceReversed": "You start many things and finish few. Choose one and see it through.",
+  "astrology": "Fire"
+ },
+ {
+  "id": "wands_12",
+  "name": "Knight of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 12,
+  "keywords": [
+   "courage",
+   "adventure",
+   "impetus",
+   "action",
+   "passion"
+  ],
+  "symbolism": "A knight in armour and a yellow tunic decorated with salamanders gallops on a rearing horse, raising a wand. The plumes on his helmet look like flames, and a desert with pyramid-like hills stretches behind him.",
+  "upright": "The Knight of Wands is the energy of bold action and a readiness for adventure. The card encourages you to follow your passion and take the initiative. His enthusiasm is often infectious and can carry others along. It is worth remembering, though, that impetus should go hand in hand with direction.",
+  "reversed": "Reversed, the Knight's energy can turn into a haste that skips important stages. Sometimes it is a signal to stop and check whether the fire is burning out too quickly.",
+  "reflection": [
+   "Which adventure are you longing for?",
+   "How can you combine your enthusiasm with patience?"
+  ],
+  "advice": "Set off boldly: courage and energy are on your side. Act, but do not forget where you are heading.",
+  "adviceReversed": "Impulsiveness could cost you. Think your move through before you make it: speed is not everything.",
+  "astrology": "Fire"
+ },
+ {
+  "id": "wands_13",
+  "name": "Queen of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 13,
+  "keywords": [
+   "self-confidence",
+   "warmth",
+   "charisma",
+   "independence",
+   "creativity"
+  ],
+  "symbolism": "The queen sits on a throne decorated with lions, holding a wand in one hand and a sunflower in the other. A black cat sits at her feet. Her posture is open and relaxed.",
+  "upright": "The Queen of Wands combines warmth with self-confidence. The card encourages you to express yourself authentically and share your energy. It is the attitude of someone who knows their worth and at the same time supports others. Creativity blossoms when you allow yourself to shine.",
+  "reversed": "Reversed, the card may point to a moment of self-doubt, or to an energy that is becoming too dominant. It is worth looking for a balance between caring for yourself and being there for others.",
+  "reflection": [
+   "In which situations do you feel most like yourself?",
+   "How can you show your warmth today without diminishing yourself?"
+  ],
+  "advice": "Trust yourself and show yourself as you are. Your confidence and warmth will win others over.",
+  "adviceReversed": "Something is undermining your self-confidence. Rebuild it, starting with what you are really good at.",
+  "astrology": "Fire"
+ },
+ {
+  "id": "wands_14",
+  "name": "King of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "rank": 14,
+  "keywords": [
+   "vision",
+   "leadership",
+   "inspiring others",
+   "boldness",
+   "responsibility"
+  ],
+  "symbolism": "The king sits on a throne decorated with lions and salamanders, holding a flowering wand. A small salamander crouches at his feet. His gaze is turned aside, as if his thoughts were running ahead into the future.",
+  "upright": "The King of Wands embodies mature leadership based on vision and inspiration. The card encourages you to make decisions from the perspective of a long-term goal. It is the energy of someone who can fire others with enthusiasm and at the same time take responsibility for the direction. Boldness goes hand in hand with experience here.",
+  "reversed": "Reversed, the card may point to impatience with others, or to a vision that ignores the needs of those around you. It is worth checking that leadership is not turning into imposing your own will.",
+  "reflection": [
+   "Which vision do you want to pursue in the long term?",
+   "How can you inspire others instead of pushing them?"
+  ],
+  "advice": "Lead. You have a vision: share it and take responsibility for the direction, and others will follow you.",
+  "adviceReversed": "Do not impose your vision by force. The best leader listens: invite others to share in the decision.",
+  "astrology": "Fire"
+ }
+]

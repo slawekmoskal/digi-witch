@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="horoscope_widget_label">Dziś dla Ciebie</string>
+    <string name="horoscope_widget_description">Horoskop na dziś: nastrój, miłość, praca, energia i liczba dnia</string>
+    <string name="card_widget_label">Karta dnia</string>
+    <string name="card_widget_description">Zakryta, dopóki jej nie odsłonisz. Potem karta i jej rada</string>
+    <string name="moon_widget_label">Księżyc</string>
+    <string name="moon_widget_description">Faza, znak i najbliższa pełnia lub nów</string>
+    <string name="day_large_widget_label">Twój dzień</string>
+    <string name="day_large_widget_description">Cały dzień na jednym ekranie: hasło dnia, horoskop, karta i Księżyc</string>
+    <string name="thought_widget_label">Dobra myśl</string>
+    <string name="thought_widget_description">Dobre słowo na dziś, karta dnia i Księżyc — bez daty</string>
+</resources>

@@ -1,0 +1,479 @@
+{
+ "elements": {
+  "fire": "Feu",
+  "earth": "Terre",
+  "air": "Air",
+  "water": "Eau"
+ },
+ "signs": [
+  {
+   "id": "aries",
+   "name": "Bélier",
+   "locative": "Bélier",
+   "dates": "21 mars – 19 avril",
+   "text": "Le Bélier est le premier signe du zodiaque et le feu à l’état pur : courage, initiative et besoin d’agir ici et maintenant. Il est le plus heureux quand il commence quelque chose ; la patience et l’art de finir lui coûtent davantage.",
+   "color": "rouge",
+   "stone": "diamant, cornaline",
+   "day": "mardi",
+   "planet": "Mars",
+   "love": "En amour, le Bélier est direct et passionné : il aime conquérir et montre vite ses sentiments. Il a besoin d’un partenaire qui n’a pas peur de son rythme, et apprend que la proximité demande aussi de la patience.",
+   "work": "Au travail, le Bélier s’épanouit là où l’initiative compte : lancer des projets, diriger, se mesurer aux autres. La routine le fatigue ; il gagne à avoir à ses côtés quelqu’un qui finira les détails.",
+   "wellbeing": "Le Bélier évacue son énergie par le mouvement. Le sport, les défis courts et intenses, et un coup de frein conscient avant que la fatigue ne tourne à l’irritation lui font du bien."
+  },
+  {
+   "id": "taurus",
+   "name": "Taureau",
+   "locative": "Taureau",
+   "dates": "20 avril – 20 mai",
+   "text": "Le Taureau est une terre qui apprécie le calme, le confort et ce qui dure. Patient et fidèle, il construit lentement mais solidement. Le défi peut être l’entêtement et la réticence au changement.",
+   "color": "vert, rose",
+   "stone": "émeraude, quartz rose",
+   "day": "vendredi",
+   "planet": "Vénus",
+   "love": "En amour, le Taureau est fidèle, tendre et sensuel. Il montre ses sentiments par des actes – une attention, un repas, une simple présence – et a besoin d’un sentiment de constance.",
+   "work": "Au travail, le Taureau est persévérant et fiable, et va au bout des choses. Il est à l’aise dans la finance, l’artisanat, le jardinage et partout où le résultat se voit.",
+   "wellbeing": "La nature, la bonne cuisine et un rythme quotidien font du bien au Taureau. Il doit se méfier de la stagnation : un mouvement doux et un changement de décor lui rendent sa légèreté."
+  },
+  {
+   "id": "gemini",
+   "name": "Gémeaux",
+   "locative": "Gémeaux",
+   "dates": "21 mai – 20 juin",
+   "text": "Les Gémeaux sont l’air en mouvement : curiosité, conversation, liens rapides entre les faits. Ils nouent facilement le contact et apprennent vite. Le défi est la dispersion et la difficulté à choisir une seule voie.",
+   "color": "jaune",
+   "stone": "agate, citrine",
+   "day": "mercredi",
+   "planet": "Mercure",
+   "love": "En amour, les Gémeaux ont besoin de conversation et de légèreté. Ils tombent amoureux d’un esprit ; l’ennui est la plus grande menace pour la relation.",
+   "work": "Au travail, les Gémeaux brillent dans la communication, les médias, le commerce et l’enseignement. Ils aiment mener plusieurs projets à la fois ; la clé est de choisir ses priorités.",
+   "wellbeing": "L’esprit ne s’arrête jamais, alors les Gémeaux ont besoin de moments de calme et de temps hors ligne. La respiration, la marche et moins de stimulations le soir les aident."
+  },
+  {
+   "id": "cancer",
+   "name": "Cancer",
+   "locative": "Cancer",
+   "dates": "21 juin – 22 juillet",
+   "text": "Le Cancer est une eau qui protège : le foyer, les proches, le sentiment de sécurité. Sensible et attentionné, il a une bonne mémoire émotionnelle. Le défi est de se replier dans sa carapace quand quelque chose fait mal.",
+   "color": "argent, blanc",
+   "stone": "perle, pierre de lune",
+   "day": "lundi",
+   "planet": "la Lune",
+   "love": "En amour, le Cancer est attentionné et dévoué ; il crée un foyer où ses proches se sentent en sécurité. Il a besoin d’être rassuré et de tendresse, même s’il ne les demande pas toujours.",
+   "work": "Au travail, le Cancer réussit là où le soin compte : métiers d’aide, éducation, restauration et travail avec les gens. Il travaille bien dans des équipes qui ressemblent à une famille.",
+   "wellbeing": "Le bien-être du Cancer dépend beaucoup des émotions. Le foyer, l’eau, les proches et le fait de nommer ses sentiments, au lieu de les cacher dans sa carapace, l’aident."
+  },
+  {
+   "id": "leo",
+   "name": "Lion",
+   "locative": "Lion",
+   "dates": "23 juillet – 22 août",
+   "text": "Le Lion est un feu qui rayonne : générosité, créativité et besoin d’être remarqué. Il donne aux autres chaleur et courage. Le défi peut être l’orgueil et la difficulté à accepter la critique.",
+   "color": "or, orange",
+   "stone": "rubis, ambre",
+   "day": "dimanche",
+   "planet": "le Soleil",
+   "love": "En amour, le Lion est généreux, romantique et loyal. Il a besoin d’admiration et de reconnaissance, et donne beaucoup de chaleur en retour.",
+   "work": "Au travail, le Lion aime diriger et être sur le devant de la scène ; il réussit dans le management, les arts, la vente et partout où l’on peut se distinguer.",
+   "wellbeing": "Le Lion puise son énergie dans la joie et la créativité. Il gagne à prendre soin de son cœur et de son dos, au figuré aussi : se reposer du rôle de « celui qui est fort »."
+  },
+  {
+   "id": "virgo",
+   "name": "Vierge",
+   "locative": "Vierge",
+   "dates": "23 août – 22 septembre",
+   "text": "La Vierge est la terre dans le détail : ordre, fiabilité et désir d’être utile. Elle voit ce qui pourrait être amélioré. Le défi est le perfectionnisme et un jugement trop sévère envers soi.",
+   "color": "beige, bleu marine",
+   "stone": "saphir, jaspe",
+   "day": "mercredi",
+   "planet": "Mercure",
+   "love": "En amour, la Vierge montre ses sentiments par le soin et l’aide. Elle peut être réservée mais profondément dévouée, et a besoin d’un partenaire qui apprécie cette attention quotidienne.",
+   "work": "Au travail, la Vierge est précise, analytique et fiable ; elle réussit dans la santé, l’analyse, l’édition et l’organisation : partout où les détails comptent.",
+   "wellbeing": "La Vierge s’inquiète facilement ; l’ordre, la routine et le fait de lâcher consciemment le perfectionnisme l’aident. Une alimentation saine et la marche lui font du bien."
+  },
+  {
+   "id": "libra",
+   "name": "Balance",
+   "locative": "Balance",
+   "dates": "23 septembre – 22 octobre",
+   "text": "La Balance est un air qui cherche l’équilibre : harmonie, équité et beauté dans les relations. Elle sait apaiser les disputes. Le défi est de repousser les décisions pour ne froisser personne.",
+   "color": "bleu pastel, rose",
+   "stone": "opale, lapis-lazuli",
+   "day": "vendredi",
+   "planet": "Vénus",
+   "love": "En amour, la Balance cherche le partenariat, l’harmonie et la beauté. Romantique et pleine de tact, elle doit veiller à ne pas renoncer à elle-même pour préserver la paix.",
+   "work": "Au travail, la Balance réussit dans la diplomatie, le droit, le design et le travail avec la clientèle. Elle travaille au mieux à deux ou en équipe.",
+   "wellbeing": "Un bel environnement, l’art et l’équilibre entre travail et repos font du bien à la Balance. Les conflits l’épuisent ; il vaut la peine d’apprendre à dire « non »."
+  },
+  {
+   "id": "scorpio",
+   "name": "Scorpion",
+   "locative": "Scorpion",
+   "dates": "23 octobre – 21 novembre",
+   "text": "Le Scorpion est une eau profonde : intensité, loyauté et perspicacité. Il ne se contente jamais de la surface. Le défi peut être la jalousie et la difficulté à lâcher prise.",
+   "color": "bordeaux, noir",
+   "stone": "topaze, obsidienne",
+   "day": "mardi",
+   "planet": "Mars et Pluton",
+   "love": "En amour, le Scorpion est intense, passionné et loyal jusqu’au bout. Il a besoin d’une confiance profonde et pardonne très difficilement une trahison.",
+   "work": "Au travail, le Scorpion est perspicace et tenace ; il réussit dans la recherche, la psychologie, la finance, la médecine et partout où il faut aller au fond des choses.",
+   "wellbeing": "Les émotions fortes gagnent à être travaillées plutôt que refoulées. Le sport intense, l’eau et une conversation avec une personne de confiance l’aident."
+  },
+  {
+   "id": "sagittarius",
+   "name": "Sagittaire",
+   "locative": "Sagittaire",
+   "dates": "22 novembre – 21 décembre",
+   "text": "Le Sagittaire est un feu en quête de sens : voyages, savoir, liberté et optimisme. Il communique son enthousiasme. Le défi est l’impatience et les promesses faites trop vite.",
+   "color": "violet",
+   "stone": "turquoise, améthyste",
+   "day": "jeudi",
+   "planet": "Jupiter",
+   "love": "En amour, le Sagittaire a besoin de liberté et d’aventures partagées. Honnête, chaleureux et optimiste, il supporte mal la jalousie et le contrôle.",
+   "work": "Au travail, le Sagittaire réussit dans le tourisme, l’éducation, l’édition, le sport et partout où il y a du sens et de la place pour grandir.",
+   "wellbeing": "Le mouvement et l’espace donnent de l’énergie au Sagittaire : randonnée, sport, lieux nouveaux. Il doit se méfier des excès, à table, dans les promesses et dans le rythme."
+  },
+  {
+   "id": "capricorn",
+   "name": "Capricorne",
+   "locative": "Capricorne",
+   "dates": "22 décembre – 19 janvier",
+   "text": "Le Capricorne est une terre qui grimpe vers le sommet : ambition, responsabilité et persévérance. Il pense à long terme. Le défi est le travail au détriment du repos et de la proximité.",
+   "color": "marron, gris",
+   "stone": "grenat, onyx",
+   "day": "samedi",
+   "planet": "Saturne",
+   "love": "En amour, le Capricorne est sérieux, responsable et loyal. Il montre ses sentiments en prenant soin de l’avenir, et a besoin de temps pour s’ouvrir.",
+   "work": "Au travail, le Capricorne est ambitieux, persévérant et bien organisé ; il réussit dans le management, la finance, l’administration et les projets à long terme.",
+   "wellbeing": "Le Capricorne travaille facilement trop, au détriment du repos. Un rythme régulier, la montagne, le silence et le plaisir sans culpabilité l’aident."
+  },
+  {
+   "id": "aquarius",
+   "name": "Verseau",
+   "locative": "Verseau",
+   "dates": "20 janvier – 18 février",
+   "text": "Le Verseau est un air tourné vers l’avenir : indépendance, originalité et réflexion sur la communauté. Il aime suivre sa propre voie. Le défi est la distance émotionnelle.",
+   "color": "turquoise",
+   "stone": "améthyste, aigue-marine",
+   "day": "samedi",
+   "planet": "Saturne et Uranus",
+   "love": "En amour, le Verseau a besoin d’amitié et de liberté. Loyal et ouvert, il montre ses émotions à sa manière, plus par des idées partagées que par des mots tendres.",
+   "work": "Au travail, le Verseau réussit dans la technologie, la science, l’engagement associatif et partout où l’on peut inventer des solutions nouvelles.",
+   "wellbeing": "La tête va vite et le corps est souvent oublié. Le mouvement, le contact avec des personnes qui partagent ses valeurs et du temps pour ses projets personnels l’aident."
+  },
+  {
+   "id": "pisces",
+   "name": "Poissons",
+   "locative": "Poissons",
+   "dates": "19 février – 20 mars",
+   "text": "Les Poissons sont une eau sans rivages : empathie, imagination et spiritualité. Ils ressentent plus qu’ils ne disent. Le défi est la fuite hors de la réalité et le manque de limites.",
+   "color": "vert d’eau, lavande",
+   "stone": "aigue-marine, améthyste",
+   "day": "jeudi",
+   "planet": "Jupiter et Neptune",
+   "love": "En amour, les Poissons sont romantiques, empathiques et dévoués. Ils tombent facilement amoureux et idéalisent, et ont besoin d’un partenaire qui leur donne un sentiment de sécurité.",
+   "work": "Au travail, les Poissons réussissent dans les arts, l’aide aux autres, la thérapie, la musique et la spiritualité : là où l’imagination et la compassion comptent.",
+   "wellbeing": "Les Poissons absorbent l’humeur de leur entourage ; ils ont besoin de calme et de limites. L’eau, le sommeil, l’art et moins de contact avec ce qui les submerge les aident."
+  }
+ ],
+ "chinese": [
+  {
+   "id": "rat",
+   "name": "Rat",
+   "text": "Vif d’esprit, débrouillard et sociable ; repère vite les occasions.",
+   "long": "Le Rat ouvre le zodiaque chinois. C’est le signe de l’intelligence, de la débrouillardise et de la pensée rapide, capable de voir une occasion là où d’autres voient un problème. Le Rat est sociable et à l’aise parmi les gens, mais choisit ses amis proches avec soin. Le défi : la nervosité et la tendance à amasser « au cas où ».",
+   "love": "En amour, le Rat est tendre et dévoué, quoique prudent au début. Il apprécie un partenaire intelligent et loyal.",
+   "work": "Au travail, le Rat réussit dans les affaires, le commerce et partout où il faut repérer vite une occasion."
+  },
+  {
+   "id": "ox",
+   "name": "Buffle",
+   "text": "Patient, travailleur et fiable ; atteint son but pas à pas.",
+   "long": "Le Buffle, c’est l’application, la patience et la fiabilité. Il travaille avec méthode et n’aime ni la précipitation ni les surprises, mais tient la promesse qu’il a faite. Le défi : l’entêtement et la difficulté à demander de l’aide.",
+   "love": "En amour, le Buffle est fidèle et constant, et montre ses sentiments par des actes plutôt que par des mots.",
+   "work": "Au travail, le Buffle est fiable et réussit dans les tâches qui demandent patience, précision et sens des responsabilités."
+  },
+  {
+   "id": "tiger",
+   "name": "Tigre",
+   "text": "Courageux, plein d’énergie et indépendant ; ne craint pas les défis.",
+   "long": "Le Tigre, c’est le courage, l’énergie et le besoin d’indépendance. Il aime les défis et prend la défense des plus faibles. Il peut être impulsif et impatient, mais son enthousiasme entraîne les autres.",
+   "love": "En amour, le Tigre est passionné et spontané, et a besoin d’un partenaire qui lui laisse de l’espace.",
+   "work": "Au travail, le Tigre est à l’aise comme leader, comme entrepreneur ou partout où le courage compte."
+  },
+  {
+   "id": "rabbit",
+   "name": "Lapin",
+   "text": "Doux, plein de tact et sensible à la beauté ; tient à la paix.",
+   "long": "Le Lapin (le Chat au Viêt Nam), c’est le tact, la douceur et le sens de la beauté. Il évite les conflits et apprécie la paix et les bonnes relations. Le défi : esquiver les décisions difficiles et faire preuve d’un excès de prudence.",
+   "love": "En amour, le Lapin est tendre et romantique, et cherche une relation calme et harmonieuse.",
+   "work": "Au travail, le Lapin réussit dans la diplomatie, les arts, le design et le travail avec les gens."
+  },
+  {
+   "id": "dragon",
+   "name": "Dragon",
+   "text": "Charismatique, ambitieux et sûr de lui ; aime les grands projets.",
+   "long": "Le Dragon est le seul animal mythique du zodiaque, symbole de puissance, de chance et de charisme. Il a de grands projets et l’énergie de les réaliser. Le défi : l’orgueil et l’impatience face aux faiblesses des autres.",
+   "love": "En amour, le Dragon est passionné et généreux, mais a besoin d’admiration et de liberté.",
+   "work": "Au travail, le Dragon vise de grands objectifs et réussit dans les postes de direction et les projets d’envergure."
+  },
+  {
+   "id": "snake",
+   "name": "Serpent",
+   "text": "Sage, intuitif et réfléchi ; voit plus qu’il ne montre.",
+   "long": "Le Serpent, c’est la sagesse, l’intuition et l’élégance. Il réfléchit avant d’agir et voit plus qu’il ne dit. Le défi : le goût du secret et la méfiance.",
+   "love": "En amour, le Serpent est sensuel et loyal, mais jaloux de ce qui compte pour lui.",
+   "work": "Au travail, le Serpent réussit dans l’analyse, la stratégie, la finance et partout où la perspicacité compte."
+  },
+  {
+   "id": "horse",
+   "name": "Cheval",
+   "text": "Esprit libre, énergique et franc ; a besoin de mouvement et d’espace.",
+   "long": "Le Cheval est un esprit libre : énergie, franchise et besoin de mouvement. Il aime être au centre des choses et agit vite. Le défi : l’impatience et la difficulté à terminer ce qu’il a commencé.",
+   "love": "En amour, le Cheval est franc et enthousiaste, et a besoin d’aventures partagées et de liberté.",
+   "work": "Au travail, le Cheval est le plus heureux en mouvement : voyages, vente, sport et projets au rythme rapide."
+  },
+  {
+   "id": "goat",
+   "name": "Chèvre",
+   "text": "Créative, douce et empathique ; à l’aise dans l’harmonie.",
+   "long": "La Chèvre (ou le Mouton), c’est la créativité, la douceur et l’empathie. Elle a besoin d’harmonie et d’un environnement sûr pour s’épanouir. Le défi : les inquiétudes et la dépendance à l’opinion des autres.",
+   "love": "En amour, la Chèvre est douce et attentionnée, et a besoin de sécurité et de tendresse.",
+   "work": "Au travail, la Chèvre réussit dans les arts, le soin, le travail créatif et les équipes où règne une bonne ambiance."
+  },
+  {
+   "id": "monkey",
+   "name": "Singe",
+   "text": "Inventif, plein d’esprit et curieux du monde ; apprend vite.",
+   "long": "Le Singe, c’est l’inventivité, l’esprit et la curiosité pour le monde. Il apprend vite et trouve des solutions inhabituelles. Le défi : la dispersion et la tendance à prendre des raccourcis.",
+   "love": "En amour, le Singe est amusant et inventif, et considère l’ennui comme son pire ennemi.",
+   "work": "Au travail, le Singe réussit dans la technologie, le commerce, le divertissement et partout où il faut penser autrement."
+  },
+  {
+   "id": "rooster",
+   "name": "Coq",
+   "text": "Travailleur, honnête et précis ; aime l’ordre et les règles claires.",
+   "long": "Le Coq, c’est l’honnêteté, l’application et le souci du détail. Il aime l’ordre et dit franchement ce qu’il pense. Le défi : l’esprit critique et le perfectionnisme.",
+   "love": "En amour, le Coq est fidèle et attentionné, parfois critique ; il exprime ses sentiments par l’attention aux détails.",
+   "work": "Au travail, le Coq réussit dans l’organisation, la comptabilité, l’armée, la médecine et les métiers qui exigent de la précision."
+  },
+  {
+   "id": "dog",
+   "name": "Chien",
+   "text": "Loyal, honnête et protecteur ; prend le parti des plus faibles.",
+   "long": "Le Chien, c’est la loyauté, l’honnêteté et le sens de la justice. C’est un ami dévoué et le défenseur de ses proches. Le défi : l’anxiété et le pessimisme.",
+   "love": "En amour, le Chien est l’un des signes les plus fidèles : sincère et dévoué.",
+   "work": "Au travail, le Chien réussit dans les métiers liés à l’aide, au droit, à la protection et à l’éducation."
+  },
+  {
+   "id": "pig",
+   "name": "Cochon",
+   "text": "Généreux, bon et joyeux ; sait profiter de la vie.",
+   "long": "Le Cochon (ou le Sanglier), c’est la générosité, la bonté et la joie de vivre. Il fait confiance aux gens et sait profiter des choses. Le défi : la naïveté et la difficulté à dire non.",
+   "love": "En amour, le Cochon est généreux, chaleureux et romantique, et accorde facilement sa confiance.",
+   "work": "Au travail, le Cochon réussit dans la restauration et l’hôtellerie, le soin, les arts et le travail avec les gens : là où la bonté compte."
+  }
+ ],
+ "phases": [
+  {
+   "name": "Nouvelle lune",
+   "text": "La nouvelle lune est le temps des semailles. Formulez une intention et commencez quelque chose en silence. Vous n’avez encore à le montrer à personne."
+  },
+  {
+   "name": "Premier croissant",
+   "text": "La Lune croît et l’énergie monte. Un bon moment pour les premiers pas et pour rassembler ce dont vous avez besoin."
+  },
+  {
+   "name": "Premier quartier",
+   "text": "Le premier quartier apporte les premiers obstacles. N’abandonnez pas : prenez une décision et agissez malgré la résistance."
+  },
+  {
+   "name": "Lune gibbeuse croissante",
+   "text": "La Lune est presque pleine. Peaufinez les détails et corrigez ce qui ne fonctionne pas. Le résultat est proche."
+  },
+  {
+   "name": "Pleine lune",
+   "text": "La pleine lune éclaire tout et intensifie les émotions. Vous verrez les résultats de ce que vous avez fait. Célébrez, mais ne décidez pas sur un coup de tête."
+  },
+  {
+   "name": "Lune gibbeuse décroissante",
+   "text": "Après la pleine lune vient le temps de la gratitude et du partage. Faites le bilan de ce que vous avez appris."
+  },
+  {
+   "name": "Dernier quartier",
+   "text": "Le dernier quartier est le temps du rangement. Lâchez ce dont vous n’avez pas besoin : terminez, donnez, jetez."
+  },
+  {
+   "name": "Dernier croissant",
+   "text": "La Lune s’efface avant la nouvelle lune. Ralentissez, reposez-vous et faites silence. Un nouveau cycle va bientôt commencer."
+  }
+ ],
+ "today": {
+  "same": [
+   "La Lune traverse aujourd’hui un signe de votre élément, et vous vous sentez davantage vous-même. Faites les choses à votre façon, sans vous en excuser.",
+   "Aujourd’hui, il est plus facile de faire confiance à votre instinct. Une bonne journée pour ce qui fait appel à vos forces naturelles.",
+   "L’énergie du jour suit votre rythme. Profitez-en pour une chose que vous repoussez depuis longtemps."
+  ],
+  "supportive": [
+   "La journée est de votre côté : ce que vous faites rencontre moins de résistance que d’habitude. Un bon moment pour les conversations et les nouveaux contacts.",
+   "Votre entourage est bienveillant aujourd’hui. Demandez de l’aide ou proposez une collaboration : vous entendrez « oui » plus souvent que d’habitude.",
+   "Une journée légère et favorable. Misez sur le mouvement, l’échange d’idées et les petits plaisirs."
+  ],
+  "neutral": [
+   "Une journée calme, sans vent bien net : ce que vous en tirerez dépend de vous. Concentrez-vous sur une chose concrète.",
+   "Rien ne vous pousse dans une direction particulière aujourd’hui. Un bon moment pour mettre de l’ordre dans vos affaires en toute tranquillité.",
+   "Une journée ordinaire où la régularité compte. Les petits pas iront plus loin que les grands gestes."
+  ],
+  "tense": [
+   "Aujourd’hui, vous aurez peut-être l’impression que le monde joue sur un autre rythme que le vôtre. Ne luttez pas : ralentissez et choisissez ce qui compte vraiment.",
+   "Une journée tendue où les malentendus naissent facilement. Avant de répondre sèchement, respirez.",
+   "L’énergie du jour vous est étrangère, ce qui peut fatiguer. Prenez soin de vous et ne prenez pas de grandes décisions sous le coup de l’humeur."
+  ]
+ },
+ "caution": {
+  "1": "Méfiez-vous de l’entêtement et de la tentation de faire cavalier seul. Vous n’avez pas à tout faire vous-même.",
+  "2": "Méfiez-vous de la tendance à trop céder. Votre avis compte aussi.",
+  "3": "Méfiez-vous de la dispersion et des promesses en l’air. Terminez ce que vous avez commencé.",
+  "4": "Méfiez-vous de la rigidité. Le plan compte, mais laissez de la place au changement.",
+  "5": "Méfiez-vous des décisions hâtives et des achats impulsifs.",
+  "6": "Méfiez-vous de la tendance à prendre sur vous les problèmes des autres. Aidez, mais ne sauvez personne contre son gré.",
+  "7": "Méfiez-vous du repli sur vous-même et de l’excès d’analyse.",
+  "8": "Méfiez-vous du surmenage et de la lutte pour le contrôle. Le repos aussi est productif.",
+  "9": "Méfiez-vous de l’envie de vous accrocher à ce qui est déjà fini. Laissez-le partir."
+ },
+ "compat": {
+  "same": "Le même élément : vous vous comprenez sans mots et avancez à un rythme semblable. Veillez à ne pas renforcer mutuellement vos faiblesses.",
+  "supportive": "Des éléments qui se soutiennent : l’un attise l’autre ou lui donne un sol où se poser. Vous vous complétez naturellement.",
+  "neutral": "Des éléments différents, mais sans conflit : chacun a son propre monde. La relation demande de la curiosité pour ce qui est différent.",
+  "tense": "Des éléments en tension : vous avez des besoins et un rythme différents. Ce n’est pas un obstacle, mais cela demande du dialogue et de la compréhension, et vous pouvez beaucoup apprendre l’un de l’autre."
+ },
+ "moonSigns": [
+  "Lune en Bélier : les émotions s’enflamment vite et retombent vite. Vous avez besoin d’action pour vous sentir bien ; l’inaction vous fatigue plus que l’effort. La colère vient facilement, mais vous n’êtes pas rancunier. Le mouvement et la liberté de décider par vous-même vous aident.",
+  "Lune en Taureau : vous avez besoin de calme, de confort et de prévisibilité. Vous construisez votre sécurité par des choses tangibles : le foyer, la nourriture, le toucher, un rythme quotidien stable. Le changement vous demande du temps. Quand vous êtes en équilibre, vous donnez aux autres un immense sentiment de stabilité.",
+  "Lune en Gémeaux : vous traversez vos émotions en en parlant. Vous avez besoin de stimulation, de curiosité et de quelqu’un avec qui échanger. Les humeurs changent vite. L’écriture, la conversation et la légèreté vous aident.",
+  "Lune en Cancer : c’est la demeure naturelle de la Lune, avec une sensibilité profonde et un besoin de proximité et de foyer. Vous ressentez fortement l’humeur des autres et gardez la mémoire des émotions anciennes. Quand quelque chose fait mal, vous vous repliez dans votre carapace. Un lieu sûr et des proches vous aident.",
+  "Lune en Lion : vous avez besoin d’être vu et apprécié. Vous exprimez vos émotions avec chaleur et générosité ; un cœur blessé se change vite en fierté. Vous donnez beaucoup de cœur aux autres. La créativité, le jeu et une reconnaissance sincère vous aident.",
+  "Lune en Vierge : l’ordre et le sentiment d’être utile vous apaisent. Vous transformez souvent vos émotions en soin des choses pratiques et en analyse. Vous vous inquiétez facilement. La routine, le travail manuel et l’indulgence envers vos propres erreurs vous aident.",
+  "Lune en Balance : vous avez besoin d’harmonie et de partenariat. Les conflits vous déstabilisent, alors vous cédez facilement pour préserver la paix. Un bel environnement compte pour vous. Les conversations en tête-à-tête et le fait de nommer vos propres besoins vous aident.",
+  "Lune en Scorpion : vous ressentez intensément et profondément, mais montrez peu. Vous bâtissez la confiance lentement, et la loyauté compte plus que tout. Lâcher prise vous est difficile. L’honnêteté, l’intimité et le fait de transformer l’émotion en action vous aident.",
+  "Lune en Sagittaire : vous avez besoin de liberté, d’espace et de sens. L’optimisme vous porte dans les moments difficiles, parfois au prix de ne pas vraiment les vivre. Vous supportez mal les restrictions. Les voyages, l’apprentissage et le sentiment que votre vie a une direction vous aident.",
+  "Lune en Capricorne : vous gardez vos émotions sous contrôle et pensez d’abord à vos obligations. Un plan et le sentiment de maîtriser la situation vous rassurent. Vous demandez rarement de l’aide. La reconnaissance de vos efforts et du temps rien que pour vous vous aident.",
+  "Lune en Verseau : vous avez besoin d’indépendance et d’amitié plus que de démonstrations de tendresse. Vous aimez comprendre une émotion avant de la ressentir. Vous êtes à l’aise en groupe, mais selon vos propres règles. L’espace et des personnes qui acceptent votre différence vous aident.",
+  "Lune en Poissons : une Lune très empathique ; vous absorbez l’humeur de votre entourage. Vous avez besoin de calme, d’art ou de spiritualité pour revenir à vous. Vous êtes facilement ému et prompt à la compassion. Les limites, le sommeil et la créativité vous aident."
+ ],
+ "ascSigns": [
+  "Ascendant Bélier : au premier regard, énergie, franchise et rythme rapide. On voit en vous quelqu’un qui agit avant de réfléchir. Vous entrez avec audace dans les situations nouvelles. Veillez à ce que la hâte ne passe pas pour un manque d’intérêt envers les autres.",
+  "Ascendant Taureau : au premier regard, calme, patience et présence agréable. Vous paraissez stable et digne de confiance. Vous vous habituez lentement aux situations nouvelles. Votre force est la persévérance et le bon goût.",
+  "Ascendant Gémeaux : au premier regard, curiosité, expressions vives et aisance dans la conversation. Vous paraissez plus jeune et plus agité que vous ne l’êtes. Vous nouez facilement le contact. Méfiez-vous de la dispersion.",
+  "Ascendant Cancer : au premier regard, douceur et prudence. Vous sentez d’abord l’atmosphère avant de vous ouvrir. Les gens ressentent de la chaleur auprès de vous. La réserve envers les inconnus est souvent votre protection.",
+  "Ascendant Lion : au premier regard, assurance et chaleur. Vous attirez facilement l’attention, même sans la chercher. Il y a en vous quelque chose de la scène. Veillez à ce que la fierté ne cache pas votre sensibilité.",
+  "Ascendant Vierge : au premier regard, modestie, attention et soin. Vous donnez l’impression de savoir ce que vous faites. Vous remarquez des détails qui échappent aux autres. Méfiez-vous d’un jugement trop sévère envers vous-même.",
+  "Ascendant Balance : au premier regard, courtoisie, charme et souci de la forme. Les gens se sentent bien auprès de vous. Vous apaisez naturellement les tensions. Veillez à ne pas tout accepter pour avoir la paix.",
+  "Ascendant Scorpion : au premier regard, mystère et regard intense. Vous êtes difficile à cerner, et cela vous convient. Vous avez une forte présence. Vous accordez votre confiance peu à peu.",
+  "Ascendant Sagittaire : au premier regard, ouverture, humour et enthousiasme. Vous semblez toujours en quête d’aventure. Votre optimisme est contagieux. Méfiez-vous des promesses faites dans le feu de l’action.",
+  "Ascendant Capricorne : au premier regard, sérieux, sang-froid et maturité. On vous confie vite des responsabilités. Avec l’âge, vous devenez souvent plus léger et plus ouvert. Veillez à ne pas tout porter seul.",
+  "Ascendant Verseau : au premier regard, originalité et légère distance. Vous vous démarquez même sans le vouloir. Aimable avec tous, proche de peu. Votre force est la pensée indépendante.",
+  "Ascendant Poissons : au premier regard, douceur, rêverie et sensibilité. Les gens se confient volontiers à vous. Vous lisez bien les humeurs. Vous avez besoin de limites pour ne pas prendre sur vous les émotions des autres."
+ ],
+ "elements5": {
+  "wood": {
+   "name": "Bois",
+   "adj": "de Bois",
+   "text": "Le Bois, c’est la croissance, la générosité et la coopération. Les personnes du Bois grandissent avec les autres et pensent à l’avenir."
+  },
+  "fire": {
+   "name": "Feu",
+   "adj": "de Feu",
+   "text": "Le Feu, c’est la passion, l’enthousiasme et le courage. Les personnes du Feu transmettent leur énergie aux autres, mais s’épuisent facilement."
+  },
+  "earth": {
+   "name": "Terre",
+   "adj": "de Terre",
+   "text": "La Terre, c’est la stabilité, le bon sens et le soin. Les personnes de la Terre sont un appui pour les autres et construisent pour durer."
+  },
+  "metal": {
+   "name": "Métal",
+   "adj": "de Métal",
+   "text": "Le Métal, c’est la détermination, les principes et la volonté. Les personnes du Métal sont cohérentes et ne craignent pas les décisions difficiles."
+  },
+  "water": {
+   "name": "Eau",
+   "adj": "d’Eau",
+   "text": "L’Eau, c’est l’intuition, la souplesse et la sagesse. Les personnes de l’Eau s’adaptent aux circonstances et comprennent bien les autres."
+  }
+ },
+ "yearForecast": {
+  "same": "C’est votre année, celle de votre propre signe (běnmìngnián). La tradition y conseille la prudence : plus d’attention, moins de risques. Un bon moment pour revenir à vous-même et à vos racines.",
+  "friend": "L’année de votre « ami secret ». La tradition parle d’un soutien qui arrive discrètement ; il vaut donc la peine d’accepter l’aide et les invitations.",
+  "trine": "L’année d’un signe de votre trigone des alliés. Elle favorise l’action, la coopération et la réalisation des projets ; l’énergie de l’année est proche de la vôtre.",
+  "clash": "L’année de votre signe opposé (chōng). La tradition annonce des changements et des tensions. Mieux vaut ne rien forcer et voir le changement comme une occasion.",
+  "neutral": "Une année neutre pour votre signe. Ni vent favorable particulier ni obstacles : beaucoup dépend de vos propres décisions."
+ },
+ "chineseCompat": {
+  "same": "Le même signe : vous vous comprenez bien, mais vous renforcez aussi facilement vos faiblesses mutuelles.",
+  "friend": "Amis secrets : selon la tradition, c’est l’une des meilleures associations, chacun soutenant l’autre.",
+  "trine": "Le même trigone des alliés : des valeurs semblables et une harmonie naturelle.",
+  "clash": "Signes opposés : ils s’attirent et s’affrontent. Beaucoup à apprendre, mais aussi des frictions.",
+  "neutral": "Une association neutre : ni harmonie particulière ni conflit. Tout dépend de vous deux."
+ },
+ "dayTypes": {
+  "fire": {
+   "name": "Jour fruit",
+   "text": "Lune dans un signe de Feu : selon la tradition jardinière, un bon jour pour les plantes à fruits et la cueillette."
+  },
+  "earth": {
+   "name": "Jour racine",
+   "text": "Lune dans un signe de Terre : un bon jour pour les légumes-racines, le repiquage et le travail du sol."
+  },
+  "air": {
+   "name": "Jour fleur",
+   "text": "Lune dans un signe d’Air : un bon jour pour les plantes à fleurs et pour couper des fleurs pour un vase."
+  },
+  "water": {
+   "name": "Jour feuille",
+   "text": "Lune dans un signe d’Eau : un bon jour pour les aromatiques, les salades et l’arrosage."
+  }
+ },
+ "haircut": {
+  "waxing": "La Lune est croissante : selon la tradition, les cheveux repoussent plus vite après la coupe.",
+  "waning": "La Lune est décroissante : selon la tradition, une coupe garde sa forme plus longtemps."
+ },
+ "mercury": "Mercure rétrograde : vu de la Terre, il semble reculer dans le ciel. Dans la tradition astrologique, c’est un temps pour revoir, corriger et revenir sur d’anciennes affaires, pas pour signer des contrats à la hâte. Vérifiez deux fois vos messages et vos projets.",
+ "transits": {
+  "moonInSun": "La Lune est aujourd’hui dans votre signe solaire. Les émotions et les besoins sont plus à fleur de peau : une bonne journée pour faire quelque chose pour vous.",
+  "moonInMoon": "La Lune est revenue dans le signe où elle se trouvait à votre naissance (retour lunaire). La tradition parle d’une journée de renouveau émotionnel. Remarquez ce dont vous avez vraiment besoin.",
+  "moonInAsc": "La Lune traverse le signe de votre ascendant. Ce que vous ressentez se voit davantage, et les autres peuvent le percevoir plus facilement aujourd’hui.",
+  "moonOpposite": "La Lune est dans le signe opposé à votre Soleil. Les tensions entre ce que vous voulez et ce que veulent les autres surgissent plus facilement. Cherchez un compromis.",
+  "sunSeason": "Le Soleil est dans votre signe : c’est votre période de l’année. Un bon moment pour faire le bilan de l’année écoulée et fixer une nouvelle direction.",
+  "mercuryInSun": "Mercure est rétrograde dans votre signe solaire. Les répétitions et les malentendus peuvent vous toucher davantage que les autres. Vérifiez deux fois ce que vous dites et ce que vous signez."
+ },
+ "rituals": {
+  "new": {
+   "title": "Rituel de nouvelle lune",
+   "text": "La nouvelle lune est le début du cycle lunaire, traditionnellement le temps de semer des intentions. Installez-vous un moment au calme et notez ce que vous voulez commencer ou développer en vous au cours du mois qui vient.",
+   "prompts": [
+    "Que veux-je commencer dans ce cycle ?",
+    "Quel petit pas ferai-je cette semaine ?",
+    "De quoi ai-je besoin pour réussir ?"
+   ]
+  },
+  "full": {
+   "title": "Rituel de pleine lune",
+   "text": "La pleine lune est le sommet du cycle : un temps de récolte, de gratitude et de lâcher-prise. Revenez à votre intention de nouvelle lune et voyez ce qui s’est passé.",
+   "prompts": [
+    "Pour quoi ai-je de la gratitude aujourd’hui ?",
+    "Qu’est-ce qui s’est bien passé depuis la nouvelle lune ?",
+    "Que veux-je laisser partir avant le début du nouveau cycle ?"
+   ]
+  }
+ },
+ "week": {
+  "same": "Le Soleil traverse en ce moment un signe de votre élément. Une semaine où il est plus facile d’être soi-même et de réaliser ses projets. Profitez-en pour ce qui fait appel à vos forces.",
+  "supportive": "Le Soleil est dans un signe d’un élément qui vous soutient. La semaine favorise les contacts, la coopération et les idées nouvelles : moins de résistance, plus de fluidité.",
+  "neutral": "Le Soleil est dans un signe d’un élément neutre pour vous. Une semaine calme où beaucoup dépend de votre régularité. Concentrez-vous sur une chose importante.",
+  "tense": "Le Soleil est dans un signe d’un élément qui vit à un autre rythme que le vôtre. La semaine peut demander patience et compromis. Ne forcez rien."
+ },
+ "eclipseText": {
+  "solar": "Une éclipse solaire tombe à la nouvelle lune. Dans la tradition, c’est un puissant nouveau départ : le moment d’une intention qui comptera plus longtemps.",
+  "lunar": "Une éclipse lunaire tombe à la pleine lune. Dans la tradition, c’est un temps de clôture et de révélation : un bon moment pour mettre fin à quelque chose."
+ }
+}
