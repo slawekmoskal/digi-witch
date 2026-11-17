@@ -1074,6 +1074,17 @@ void main() {
     expect(store.widgetClearPending, isFalse);
   });
 
+  testWidgets('Today in Pro: the card is already turned and logged', (t) async {
+    final store = await pump(t);
+    store.isPro = true;
+    await t.pumpAndSettle();
+    final today = CalendarDate.fromDateTime(DateTime.now());
+    expect(store.cardRevealed(today), isTrue);
+    expect(store.cardLog.keys, contains(today.iso));
+    expect(find.text('Odsłoń kartę'), findsNothing);
+    expect(find.text('Więcej o karcie'), findsOneWidget);
+  });
+
   testWidgets('Today: card of the day is revealed by a tap, mood is kept', (
     t,
   ) async {
@@ -1090,6 +1101,7 @@ void main() {
     await t.pumpAndSettle();
     expect(store.cardRevealed(today), isTrue);
     expect(find.text('Więcej o karcie'), findsOneWidget);
+    expect(find.text('Odsłoń kartę'), findsNothing);
     await t.tap(find.byTooltip('Dobrze'));
     await t.pumpAndSettle();
     expect(store.moods[today.iso], 4);
@@ -1322,6 +1334,27 @@ void main() {
       expect(w['cardName'], isNotEmpty);
       expect(w['cardAdvice'], startsWith('Karta mówi: '));
       expect(deckIds, contains(w['cardId']));
+      // Free: only today's turned card travels with the days.
+      days = jsonDecode(w['days']!) as List;
+      expect(days.first['cardName'], w['cardName']);
+      expect(days[1]['cardName'], '');
+
+      // Pro: every coming day carries its card, and that day really gets this card.
+      store.isPro = true;
+      await t.pumpAndSettle();
+      days = jsonDecode(widgetPayload(ctx, now)['days']!) as List;
+      for (final d in days) {
+        expect(deckIds, contains(d['cardId']));
+        expect(d['cardName'], isNotEmpty);
+      }
+      expect(
+        jsonDecode(widgetPayload(ctx, now)['days']!)[3]['cardId'],
+        days[3]['cardId'],
+      );
+      final third = CalendarDate.fromDateTime(
+        DateTime(now.year, now.month, now.day + 3),
+      );
+      expect(store.cardOfDay(third).cardId, days[3]['cardId']);
 
       // The card and the mood need no tab: they are on Today itself.
       expect(find.text('Jak się dziś czujesz?'), findsOneWidget);

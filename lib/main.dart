@@ -86,12 +86,45 @@ class _DigiWitchAppState extends State<DigiWitchApp>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    _midnight; // starts the day check
   }
 
   @override
   void dispose() {
+    _midnight.cancel();
     WidgetsBinding.instance.removeObserver(this);
     super.dispose();
+  }
+
+  // A new day must show everywhere without restarting the app: checked every minute while
+  // the app is open (also catches a clock or time zone change, which a single timer set for
+  // midnight would miss) and when it comes back from the background (timers stop there).
+  late final Timer _midnight = Timer.periodic(
+    const Duration(minutes: 1),
+    (_) => _checkDay(),
+  );
+  var _day = _today();
+
+  static String _today() => CalendarDate.fromDateTime(DateTime.now()).iso;
+
+  void _checkDay() {
+    final day = _today();
+    if (day == _day || !mounted) return;
+    _day = day;
+    // Screens read the date while building, so every one of them is built again (open
+    // pages and typed text stay); the store's listeners refresh the widgets.
+    void rebuild(Element e) {
+      e.markNeedsBuild();
+      e.visitChildren(rebuild);
+    }
+
+    (context as Element).visitChildren(rebuild);
+    widget.store.dayChanged();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) _checkDay();
   }
 
   // The phone's language changed while the app was open: follow it at once.
@@ -386,6 +419,7 @@ class _OnboardingState extends State<Onboarding> {
                 helperMaxLines: 3,
                 errorText: _error,
                 prefixIcon: const Icon(Icons.cake_outlined),
+                suffixIcon: datePickerButton(context, _date),
               ),
             ),
             const SizedBox(height: 12),
@@ -439,7 +473,26 @@ class _HomeShellState extends State<HomeShell> {
   // Card turned, profile changed, data deleted → the home-screen widget follows.
   late final AppStore _store = context.store;
   void _syncWidget() {
-    if (mounted) syncHomeWidget(context);
+    if (!mounted) return;
+    syncHomeWidget(context);
+    // Notifications are planned a month (Moon: a few events) ahead from "today"; an app
+    // that is only ever resumed from the background would never move that window on.
+    final today = CalendarDate.fromDateTime(DateTime.now()).iso;
+    if (today != _plannedFor) {
+      _plannedFor = today;
+      _planReminders();
+    }
+  }
+
+  String? _plannedFor;
+  void _planReminders() {
+    if (context.store.moonReminders) {
+      Reminders.rescheduleMoon(moonReminderEvents(context.l));
+    }
+    final m = context.store.reminderMinutes;
+    if (m != null) {
+      Reminders.reschedule(dailyReminderEvents(context, m));
+    }
   }
 
   StreamSubscription<Uri?>? _taps;
@@ -489,15 +542,8 @@ class _HomeShellState extends State<HomeShell> {
     );
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _store.addListener(_syncWidget);
-      _syncWidget();
+      _syncWidget(); // also plans the reminders for the first time
       _taps = listenWidgetTaps(_openFromWidget);
-      if (context.store.moonReminders) {
-        Reminders.rescheduleMoon(moonReminderEvents(context.l));
-      }
-      final m = context.store.reminderMinutes;
-      if (m != null) {
-        Reminders.reschedule(dailyReminderEvents(context, m));
-      }
     });
   }
 

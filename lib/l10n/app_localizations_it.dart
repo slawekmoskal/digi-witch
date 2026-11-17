@@ -344,7 +344,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get archetypesNote =>
-      'I 12 archetipi sono un modello editoriale di questa app: uno dei tanti modi possibili di suddividere le cose, non un canone né un test psicologico.';
+      'Le descrizioni dei 12 archetipi sono testi originali di questa app. La suddivisione in sé riprende un noto insieme di dodici archetipi: uno dei tanti modi possibili di suddividere le cose, non un canone né un test psicologico.';
 
   @override
   String get aboutModel => 'Sul modello';
@@ -400,7 +400,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get sourcesBody =>
-      'Le interpretazioni, le domande, gli archetipi e gli articoli sono testi originali. Illustrazioni delle carte: Pamela Colman Smith, mazzo del 1909 (pubblico dominio), scansioni da Wikimedia Commons; i dettagli sono indicati con ogni carta. Le fonti storiche sono elencate in fondo agli articoli.';
+      'Le interpretazioni, le domande, gli archetipi e gli articoli sono testi originali. Illustrazioni delle carte: Pamela Colman Smith, mazzo del 1909 (pubblico dominio), scansioni da Wikimedia Commons; i dettagli sono indicati con ogni carta. Le fonti storiche sono elencate in fondo agli articoli. Questa app non è affiliata a U.S. Games Systems, Inc.';
 
   @override
   String get purchases => 'Digi Witch Pro';
@@ -464,6 +464,9 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Impostazioni privacy per la pubblicità';
+
+  @override
+  String get privacyPolicy => 'Informativa sulla privacy';
 
   @override
   String get reminder => 'Promemoria quotidiano';

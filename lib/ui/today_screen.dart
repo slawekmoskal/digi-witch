@@ -64,7 +64,7 @@ class TodayScreen extends StatelessWidget {
               style: Theme.of(context).textTheme.bodyMedium,
             ),
             const SizedBox(height: gap / 2),
-            DayMessage(now),
+            DayMessage(now, dots: true),
             const DailyRitual(),
             // Once a week: writing three good things down is the gratitude exercise with
             // the best evidence, and weekly worked better than more often.
@@ -396,6 +396,7 @@ class _QuickProfileState extends State<QuickProfile> {
           hintText: context.l.dateHint,
           errorText: _error,
           prefixIcon: const Icon(Icons.cake_outlined),
+          suffixIcon: datePickerButton(context, _c),
         ),
       ),
       const SizedBox(height: 10),
@@ -482,7 +483,14 @@ class _DailyRitualState extends State<DailyRitual> {
     final today = CalendarDate.fromDateTime(now);
     final card = s.cardOfDay(today);
     final face = context.content.cards[card.cardId]!;
-    final revealed = s.cardRevealed(today);
+    // Pro: the widgets already show the card, so the app shows it too, turning once the
+    // first time it is seen that day (and logging it in "Your days" as a tap would).
+    final autoTurn = s.isPro && !s.cardRevealed(today);
+    if (autoTurn) {
+      _justRevealed = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) => s.revealCard(today));
+    }
+    final revealed = autoTurn || s.cardRevealed(today);
     final mood = s.moods[today.iso];
     void reveal() {
       HapticFeedback.mediumImpact();

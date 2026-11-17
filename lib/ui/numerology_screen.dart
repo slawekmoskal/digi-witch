@@ -38,6 +38,28 @@ class DateMaskFormatter extends TextInputFormatter {
   }
 }
 
+/// Calendar button for a date field: works without any keyboard (e.g. an iPad with a
+/// hardware keyboard attached shows no on-screen one).
+Widget datePickerButton(BuildContext context, TextEditingController c) =>
+    IconButton(
+      icon: const Icon(Icons.calendar_month_outlined),
+      tooltip: MaterialLocalizations.of(context).datePickerHelpText,
+      onPressed: () async {
+        final now = DateTime.now();
+        final old = parseUserDate(c.text);
+        final d = await showDatePicker(
+          context: context,
+          initialDate: old == null
+              ? DateTime(1990)
+              : DateTime(old.year, old.month, old.day),
+          firstDate: DateTime(1900),
+          lastDate: now,
+          initialDatePickerMode: DatePickerMode.year, // birth dates: year first
+        );
+        if (d != null) c.text = CalendarDate.fromDateTime(d).display;
+      },
+    );
+
 class NumerologyScreen extends StatefulWidget {
   const NumerologyScreen({super.key});
   @override
@@ -49,6 +71,9 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
   final _name = TextEditingController();
   String? _dateError, _nameError;
   int _year = DateTime.now().year;
+  // Personal year and month depend on today: shown results are worked out again when the
+  // month turns (the year chooser moves on with it unless it was set to another year).
+  int _shownYear = 0, _shownMonth = 0;
   List<NumerologyResult>? _results;
   CalendarDate? _birth; // for the birth card, set with results
 
@@ -65,7 +90,10 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
   /// Validates input, shows errors or results; returns true when input is valid.
   bool _compute() {
     final l = context.l;
-    final today = CalendarDate.fromDateTime(DateTime.now());
+    final now = DateTime.now();
+    final today = CalendarDate.fromDateTime(now);
+    _shownYear = now.year;
+    _shownMonth = now.month;
     final dateText = _date.text.trim(), name = _name.text.trim();
     final d = dateText.isEmpty ? null : parseUserDate(dateText);
     final n = name.isEmpty ? null : normalizeName(name);
@@ -91,7 +119,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
           lifePath(d),
           birthDay(d),
           personalYear(d, _year),
-          personalMonth(d, _year, DateTime.now().month),
+          personalMonth(d, _year, now.month),
         ],
         if (n != null) ...[expression(n), soulUrge(n), personality(n)],
         if (d != null && n != null) maturity(d, n),
@@ -114,6 +142,14 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final now = DateTime.now();
+    if (_results != null &&
+        (now.year != _shownYear || now.month != _shownMonth)) {
+      if (_year == _shownYear) _year = now.year;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _compute();
+      });
+    }
     final l = context.l;
     final t = Theme.of(context).textTheme;
     final s = context.store;
@@ -170,6 +206,7 @@ class _NumerologyScreenState extends State<NumerologyScreen> {
                 hintText: context.l.dateHint,
                 helperText: l.birthDateHelp,
                 errorText: _dateError,
+                suffixIcon: datePickerButton(context, _date),
               ),
             ),
             const SizedBox(height: 12),

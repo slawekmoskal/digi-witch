@@ -83,7 +83,10 @@ class AppStore extends ChangeNotifier {
   bool get tarotWelcome => _p.getBool('tarotWelcome') ?? true;
   set tarotWelcome(bool v) => _set(() => _p.setBool('tarotWelcome', v));
   bool get allowReversed => _p.getBool('allowReversed') ?? false;
-  set allowReversed(bool v) => _set(() => _p.setBool('allowReversed', v));
+  set allowReversed(bool v) => _set(() async {
+    await _p.setBool('allowReversed', v);
+    await _p.remove('cardAhead'); // the coming days are drawn again under the new rule
+  });
 
   /// 'system' (follow the phone) or a language code from [appLangs].
   String get language => _p.getString('language') ?? 'system';
@@ -136,17 +139,55 @@ class AppStore extends ChangeNotifier {
         // Corrupt or outdated value: draw a fresh card instead of breaking the Today screen.
       }
     }
-    final card = draw(
-      spreads[0],
-      random: _random,
-      allowReversed: allowReversed,
-    ).single;
+    final ahead = _cardsAhead;
+    final card = ahead[today.iso] ?? _drawCard();
     _p.setString(
       'cardOfDay',
       jsonEncode({'date': today.iso, 'card': card.toJson()}),
     );
+    if (ahead.isNotEmpty) {
+      ahead.removeWhere((k, _) => k.compareTo(today.iso) <= 0);
+      _saveCardsAhead(ahead);
+    }
     return card;
   }
+
+  DrawnCard _drawCard() =>
+      draw(spreads[0], random: _random, allowReversed: allowReversed).single;
+
+  // Pro widgets show the card without the app being opened, so the coming days' cards are
+  // drawn ahead; [cardOfDay] takes the day's card from here when that day comes.
+  Map<String, DrawnCard> get _cardsAhead {
+    try {
+      final j = jsonDecode(_p.getString('cardAhead') ?? '{}') as Map;
+      return {
+        for (final e in j.entries)
+          if (deckIds.contains(e.value['cardId']))
+            e.key as String: DrawnCard.fromJson(e.value),
+      };
+    } catch (_) {
+      return {}; // corrupt value: the days are drawn again
+    }
+  }
+
+  void _saveCardsAhead(Map<String, DrawnCard> m) => _p.setString(
+    'cardAhead',
+    jsonEncode({for (final e in m.entries) e.key: e.value.toJson()}),
+  );
+
+  /// The card a coming [day] will have; the same answer until that day has passed.
+  DrawnCard cardAhead(CalendarDate day) {
+    final ahead = _cardsAhead;
+    final have = ahead[day.iso];
+    if (have != null) return have;
+    final card = ahead[day.iso] = _drawCard();
+    _saveCardsAhead(ahead);
+    return card;
+  }
+
+  /// A new calendar day began (midnight, or the app came back from the background): everything
+  /// listening is rebuilt and the home-screen widgets get the new week.
+  void dayChanged() => notifyListeners();
 
   /// Whether today's card was already turned face up (the daily tap-to-reveal).
   bool cardRevealed(CalendarDate today) =>

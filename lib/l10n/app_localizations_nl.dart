@@ -345,7 +345,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get archetypesNote =>
-      'De 12 archetypen zijn het eigen redactionele model van deze app: een van de vele mogelijke indelingen, geen canon en geen psychologische test.';
+      'De beschrijvingen van de 12 archetypen zijn eigen teksten van deze app. De indeling zelf volgt een bekende reeks van twaalf archetypen: een van de vele mogelijke indelingen, geen canon en geen psychologische test.';
 
   @override
   String get aboutModel => 'Over het model';
@@ -401,7 +401,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get sourcesBody =>
-      'De duidingen, vragen, archetypen en artikelen zijn originele teksten. Kaartillustraties: Pamela Colman Smith, spel uit 1909 (publiek domein), scans van Wikimedia Commons; details staan bij elke kaart. Historische bronnen staan aan het eind van de artikelen.';
+      'De duidingen, vragen, archetypen en artikelen zijn originele teksten. Kaartillustraties: Pamela Colman Smith, spel uit 1909 (publiek domein), scans van Wikimedia Commons; details staan bij elke kaart. Historische bronnen staan aan het eind van de artikelen. Deze app is niet verbonden aan U.S. Games Systems, Inc.';
 
   @override
   String get purchases => 'Digi Witch Pro';
@@ -465,6 +465,9 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Privacyinstellingen voor advertenties';
+
+  @override
+  String get privacyPolicy => 'Privacybeleid';
 
   @override
   String get reminder => 'Dagelijkse herinnering';

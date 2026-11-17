@@ -631,7 +631,7 @@ abstract class AppLocalizations {
   /// No description provided for @archetypesNote.
   ///
   /// In pl, this message translates to:
-  /// **'12 archetypów to autorski model redakcyjny tej aplikacji — jeden z wielu możliwych podziałów, a nie kanon ani test psychologiczny.'**
+  /// **'Opisy 12 archetypów są autorskimi tekstami tej aplikacji. Sam podział nawiązuje do znanego układu dwunastu archetypów — to jeden z wielu możliwych podziałów, a nie kanon ani test psychologiczny.'**
   String get archetypesNote;
 
   /// No description provided for @aboutModel.
@@ -733,7 +733,7 @@ abstract class AppLocalizations {
   /// No description provided for @sourcesBody.
   ///
   /// In pl, this message translates to:
-  /// **'Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów.'**
+  /// **'Teksty interpretacji, pytania, archetypy i artykuły są autorskie. Ilustracje kart: Pamela Colman Smith, talia z 1909 r. (domena publiczna), skany z Wikimedia Commons — szczegóły przy każdej karcie. Źródła historyczne wymieniamy na końcu artykułów. Aplikacja nie jest powiązana z U.S. Games Systems, Inc.'**
   String get sourcesBody;
 
   /// No description provided for @purchases.
@@ -843,6 +843,12 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Ustawienia prywatności reklam'**
   String get adPrivacyOptions;
+
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In pl, this message translates to:
+  /// **'Polityka prywatności'**
+  String get privacyPolicy;
 
   /// No description provided for @reminder.
   ///

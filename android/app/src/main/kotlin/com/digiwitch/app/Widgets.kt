@@ -1,14 +1,17 @@
 package com.digiwitch.app
 
+import android.app.AlarmManager
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
+import android.content.BroadcastReceiver
+import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.net.Uri
-import android.util.Base64
 import android.view.View
 import android.widget.RemoteViews
 import es.antonborri.home_widget.HomeWidgetLaunchIntent
@@ -16,6 +19,7 @@ import es.antonborri.home_widget.HomeWidgetProvider
 import org.json.JSONArray
 import org.json.JSONObject
 import java.text.SimpleDateFormat
+import java.util.Calendar
 import java.util.Date
 import java.util.Locale
 
@@ -51,11 +55,11 @@ private fun RemoteViews.textOrGone(id: Int, text: String) {
 private fun SharedPreferences.text(key: String) = getString(key, "") ?: ""
 
 /** A small bitmap of the card (upside down when reversed); widgets have a tight size limit. */
-private fun cardPicture(data: SharedPreferences): Bitmap? = try {
-    val bytes = Base64.decode(data.text("cardImage"), Base64.DEFAULT)
-    val full = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
+private fun cardPicture(context: Context, id: String, reversed: Boolean): Bitmap? = try {
+    // The pictures ship inside the app, so any day's card shows without the app being opened.
+    val full = context.assets.open("flutter_assets/assets/cards/$id.webp").use(BitmapFactory::decodeStream)
     val small = Bitmap.createScaledBitmap(full, 240, 240 * full.height / full.width, true)
-    if (data.text("cardReversed") == "1") {
+    if (reversed) {
         Bitmap.createBitmap(
             small, 0, 0, small.width, small.height, Matrix().apply { postRotate(180f) }, true,
         )
@@ -66,6 +70,55 @@ private fun cardPicture(data: SharedPreferences): Bitmap? = try {
     null
 }
 
+private class DayCard(val name: String, val advice: String, val picture: Bitmap?)
+
+/** Today's card when the app sent one for this date: turned in the app, or always in Pro. */
+private fun dayCard(context: Context, data: SharedPreferences): DayCard? {
+    val d = todayEntry(data) ?: return null
+    val name = d.optString("cardName")
+    if (name.isEmpty()) return null
+    return DayCard(
+        name, d.optString("cardAdvice"),
+        cardPicture(context, d.optString("cardId"), d.optBoolean("cardReversed")),
+    )
+}
+
+private val providers = arrayOf(
+    HoroscopeWidgetProvider::class.java, CardWidgetProvider::class.java, MoonWidgetProvider::class.java,
+    DayLargeWidgetProvider::class.java, ThoughtWidgetProvider::class.java,
+)
+
+/** Redraws every widget just after midnight, so the new day shows without opening the app. */
+class MidnightReceiver : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+        val manager = AppWidgetManager.getInstance(context)
+        for (p in providers) {
+            val ids = manager.getAppWidgetIds(ComponentName(context, p))
+            if (ids.isEmpty()) continue
+            context.sendBroadcast(
+                Intent(context, p).setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE)
+                    .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids),
+            )
+        }
+    }
+}
+
+/** Called on every widget update; the update at midnight sets the alarm for the next one. */
+private fun scheduleMidnight(context: Context) {
+    val midnight = Calendar.getInstance().apply {
+        add(Calendar.DAY_OF_YEAR, 1)
+        set(Calendar.HOUR_OF_DAY, 0); set(Calendar.MINUTE, 0); set(Calendar.SECOND, 2); set(Calendar.MILLISECOND, 0)
+    }.timeInMillis
+    val intent = PendingIntent.getBroadcast(
+        context, 0, Intent(context, MidnightReceiver::class.java),
+        PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+    )
+    // shortcut: an exact alarm needs a permission Play reserves for clock apps, so the system may
+    // run this up to 10 minutes late; ask for SCHEDULE_EXACT_ALARM if that ever matters.
+    (context.getSystemService(Context.ALARM_SERVICE) as AlarmManager)
+        .setWindow(AlarmManager.RTC, midnight, 10 * 60 * 1000L, intent)
+}
+
 class HoroscopeWidgetProvider : HomeWidgetProvider() {
     override fun onUpdate(
         context: Context,
@@ -73,6 +126,7 @@ class HoroscopeWidgetProvider : HomeWidgetProvider() {
         appWidgetIds: IntArray,
         widgetData: SharedPreferences,
     ) {
+        scheduleMidnight(context)
         val d = todayEntry(widgetData)
         val views = RemoteViews(context.packageName, R.layout.horoscope_widget).apply {
             // Love, work, energy as in the app's horoscope; 0 = the day has no meters.
@@ -135,21 +189,20 @@ class CardWidgetProvider : HomeWidgetProvider() {
         appWidgetIds: IntArray,
         widgetData: SharedPreferences,
     ) {
-        val turned = widgetData.text("cardDate") == today() && widgetData.text("cardName").isNotEmpty()
+        scheduleMidnight(context)
+        val card = dayCard(context, widgetData)
         val views = RemoteViews(context.packageName, R.layout.card_widget).apply {
             setTextViewText(R.id.w_card_title, widgetData.text("cardTitle").ifEmpty { "Karta dnia" })
-            val picture = if (turned) cardPicture(widgetData) else null
-            if (picture != null) {
-                setImageViewBitmap(R.id.w_card_img, picture)
+            if (card?.picture != null) {
+                setImageViewBitmap(R.id.w_card_img, card.picture)
             } else {
                 setImageViewResource(R.id.w_card_img, R.drawable.widget_card_back)
             }
             setTextViewText(
                 R.id.w_card_name,
-                if (turned) widgetData.text("cardName")
-                else widgetData.text("cardWaiting").ifEmpty { "Czeka na odsłonięcie" },
+                card?.name ?: widgetData.text("cardWaiting").ifEmpty { "Czeka na odsłonięcie" },
             )
-            textOrGone(R.id.w_card_advice, if (turned) widgetData.text("cardAdvice") else "")
+            textOrGone(R.id.w_card_advice, card?.advice ?: "")
             setOnClickPendingIntent(R.id.w_root, open(context, "card"))
         }
         appWidgetIds.forEach { appWidgetManager.updateAppWidget(it, views) }
@@ -163,6 +216,7 @@ class MoonWidgetProvider : HomeWidgetProvider() {
         appWidgetIds: IntArray,
         widgetData: SharedPreferences,
     ) {
+        scheduleMidnight(context)
         val d = todayEntry(widgetData)
         val views = RemoteViews(context.packageName, R.layout.moon_widget).apply {
             setTextViewText(R.id.w_moon_icon, moonPhases[(d?.optInt("phase") ?: 0).coerceIn(0, 7)])
@@ -179,16 +233,15 @@ class MoonWidgetProvider : HomeWidgetProvider() {
 private val moonPhases = arrayOf("🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘")
 
 /** The card of the day (or its back while it waits) and its name, for the large widgets. */
-private fun RemoteViews.card(data: SharedPreferences, withAdvice: Boolean) {
-    val turned = data.text("cardDate") == today() && data.text("cardName").isNotEmpty()
-    val picture = if (turned) cardPicture(data) else null
-    if (picture != null) {
-        setImageViewBitmap(R.id.w_card_img, picture)
+private fun RemoteViews.card(context: Context, data: SharedPreferences, withAdvice: Boolean) {
+    val card = dayCard(context, data)
+    if (card?.picture != null) {
+        setImageViewBitmap(R.id.w_card_img, card.picture)
     } else {
         setImageViewResource(R.id.w_card_img, R.drawable.widget_card_back)
     }
-    val name = if (turned) data.text("cardName") else data.text("cardWaiting").ifEmpty { "Czeka na odsłonięcie" }
-    setTextViewText(R.id.w_card_name, if (turned && withAdvice) "$name\n${data.text("cardAdvice")}" else name)
+    val name = card?.name ?: data.text("cardWaiting").ifEmpty { "Czeka na odsłonięcie" }
+    setTextViewText(R.id.w_card_name, if (card != null && withAdvice) "$name\n${card.advice}" else name)
 }
 
 class DayLargeWidgetProvider : HomeWidgetProvider() {
@@ -198,6 +251,7 @@ class DayLargeWidgetProvider : HomeWidgetProvider() {
         appWidgetIds: IntArray,
         widgetData: SharedPreferences,
     ) {
+        scheduleMidnight(context)
         val d = todayEntry(widgetData)
         val views = RemoteViews(context.packageName, R.layout.day_large_widget).apply {
             val personal = d != null && d.getString("text").isNotEmpty()
@@ -242,7 +296,7 @@ class DayLargeWidgetProvider : HomeWidgetProvider() {
                 textOrGone(R.id.w_moon, "${moonPhases[d.optInt("phase").coerceIn(0, 7)]} ${d.getString("phaseName")}\n$next")
                 textOrGone(R.id.w_foot, if (personal) "${d.getString("number")} · ${d.getString("color")}" else "")
             }
-            card(widgetData, withAdvice = false)
+            card(context, widgetData, withAdvice = false)
             setOnClickPendingIntent(R.id.w_root, open(context, "horoscope"))
         }
         appWidgetIds.forEach { appWidgetManager.updateAppWidget(it, views) }
@@ -256,6 +310,7 @@ class ThoughtWidgetProvider : HomeWidgetProvider() {
         appWidgetIds: IntArray,
         widgetData: SharedPreferences,
     ) {
+        scheduleMidnight(context)
         val d = todayEntry(widgetData)
         val views = RemoteViews(context.packageName, R.layout.thought_widget).apply {
             // As in the app: good news from the reading first, else the kind message, with
@@ -266,7 +321,7 @@ class ThoughtWidgetProvider : HomeWidgetProvider() {
                 .ifEmpty { cheer }.ifEmpty { widgetData.text("stale") }
             setTextViewText(R.id.w_cheer, headline)
             textOrGone(R.id.w_moon, if (cheer.isNotEmpty() && cheer != headline) cheer else "")
-            card(widgetData, withAdvice = true)
+            card(context, widgetData, withAdvice = true)
             setOnClickPendingIntent(R.id.w_root, open(context, "card"))
         }
         appWidgetIds.forEach { appWidgetManager.updateAppWidget(it, views) }

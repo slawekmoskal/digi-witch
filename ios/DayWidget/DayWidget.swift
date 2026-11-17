@@ -20,12 +20,15 @@ private struct Day: Decodable {
   let message: String?
   /// The greeting as the app shows it: good news from the reading first, else the message.
   let lead, support: String?
+  /// The day's card: sent once turned in the app, or for every coming day in Pro.
+  let cardId, cardName, cardAdvice: String?
+  let cardReversed: Bool?
 }
 
 struct DayEntry: TimelineEntry {
   let date: Date
   fileprivate let day: Day?
-  /// Today's card, only once the user has turned it in the app.
+  /// Today's card: once the user has turned it in the app, or always in Pro.
   let cardName, cardAdvice: String
   let cardImage: UIImage?
   let cardTitle, cardWaiting, needBirth, stale: String
@@ -49,20 +52,30 @@ struct DayProvider: TimelineProvider {
     let days =
       (store?.string(forKey: "days")?.data(using: .utf8))
       .flatMap { try? JSONDecoder().decode([Day].self, from: $0) } ?? []
-    let turned = text("cardDate") == today && !text("cardName").isEmpty
+    let day = days.first(where: { $0.date == today })
+    let name = day?.cardName ?? ""
     var image: UIImage?
-    if turned, let data = Data(base64Encoded: text("cardImage")), let full = UIImage(data: data) {
-      // Widgets have a tight memory budget: keep a thumbnail, upside down for a reversed card.
-      let small = full.preparingThumbnail(of: CGSize(width: 240, height: 417)) ?? full
-      image =
-        text("cardReversed") == "1"
-        ? UIImage(cgImage: small.cgImage!, scale: small.scale, orientation: .down) : small
+    if !name.isEmpty, let id = day?.cardId {
+      // The pictures ship inside the app (this extension sits in Runner.app/PlugIns), so any
+      // day's card shows without the app being opened; the copy the app sends is the fallback.
+      let file = Bundle.main.bundleURL.deletingLastPathComponent().deletingLastPathComponent()
+        .appendingPathComponent("Frameworks/App.framework/flutter_assets/assets/cards/\(id).webp")
+      let data =
+        (try? Data(contentsOf: file))
+        ?? (text("cardId") == id ? Data(base64Encoded: text("cardImage")) : nil)
+      if let data, let full = UIImage(data: data) {
+        // Widgets have a tight memory budget: keep a thumbnail, upside down for a reversed card.
+        let small = full.preparingThumbnail(of: CGSize(width: 240, height: 417)) ?? full
+        image =
+          day?.cardReversed == true
+          ? UIImage(cgImage: small.cgImage!, scale: small.scale, orientation: .down) : small
+      }
     }
     return DayEntry(
       date: date,
-      day: days.first(where: { $0.date == today }),
-      cardName: turned ? text("cardName") : "",
-      cardAdvice: turned ? text("cardAdvice") : "",
+      day: day,
+      cardName: name,
+      cardAdvice: day?.cardAdvice ?? "",
       cardImage: image,
       cardTitle: text("cardTitle", "Karta dnia"),
       cardWaiting: text("cardWaiting", "Czeka na odsłonięcie"),
@@ -84,7 +97,8 @@ struct DayProvider: TimelineProvider {
         next: "Nów za 14 dni", mercury: "", phase: 4, love: 4, work: 3, energy: 5,
         cheer: "Dobry dzień dla serca", moonCheer: "Pełnia — czas docenić to, co już masz",
         message: "Dobrze, że jesteś. Ten dzień jest lepszy z Tobą.",
-        lead: "Dobry dzień dla serca", support: "Dobrze, że jesteś. Ten dzień jest lepszy z Tobą."),
+        lead: "Dobry dzień dla serca", support: "Dobrze, że jesteś. Ten dzień jest lepszy z Tobą.",
+        cardId: nil, cardName: nil, cardAdvice: nil, cardReversed: nil),
       cardName: "", cardAdvice: "", cardImage: nil, cardTitle: "Karta dnia",
       cardWaiting: "Czeka na odsłonięcie", needBirth: "", stale: "",
       loveLabel: "Miłość", workLabel: "Praca", energyLabel: "Energia")

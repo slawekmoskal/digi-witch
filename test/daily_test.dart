@@ -84,16 +84,7 @@ void main() {
     addTearDown(t.view.reset);
     await t.pumpWidget(DigiWitchApp(store: store, contents: {'pl': pl}));
     await t.pumpAndSettle();
-    // The horoscope follows the daily ritual.
-    await t.scrollUntilVisible(
-      find.text('JAK MOŻESZ SIĘ DZIŚ CZUĆ'),
-      150,
-      scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.text('JAK MOŻESZ SIĘ DZIŚ CZUĆ'), findsOneWidget);
-    // Today is the short read; what may happen is in Stars.
-    expect(find.text('CO MOŻE CIĘ DZIŚ SPOTKAĆ'), findsNothing);
-    expect(find.text('RADA NA DZIŚ'), findsOneWidget);
+    // The three areas stand in the day's message at the top, once.
     for (final area in ['Miłość', 'Praca', 'Energia']) {
       expect(find.text(area), findsOneWidget);
       // Screen readers get "Miłość: 3 z 5" instead of five dots.
@@ -105,6 +96,16 @@ void main() {
         findsOneWidget,
       );
     }
+    // The horoscope follows the daily ritual.
+    await t.scrollUntilVisible(
+      find.text('JAK MOŻESZ SIĘ DZIŚ CZUĆ'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.text('JAK MOŻESZ SIĘ DZIŚ CZUĆ'), findsOneWidget);
+    // Today is the short read; what may happen is in Stars.
+    expect(find.text('CO MOŻE CIĘ DZIŚ SPOTKAĆ'), findsNothing);
+    expect(find.text('RADA NA DZIŚ'), findsOneWidget);
     expect(t.takeException(), isNull);
   });
 
@@ -129,6 +130,12 @@ void main() {
     );
     expect(find.text('TODAY'), findsOneWidget);
     expect(find.text('HOW YOU MAY FEEL TODAY'), findsNothing);
+    // The dots need no translated text, so they stay (in the day's message at the top).
+    await t.drag(find.byType(Scrollable).first, const Offset(0, 5000));
+    await t.pumpAndSettle();
+    for (final area in ['Love', 'Work', 'Energy']) {
+      expect(find.text(area), findsOneWidget);
+    }
   });
 
   test('day headline: strongest area, else an improvement, else the Moon', () {

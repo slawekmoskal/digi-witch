@@ -3,6 +3,8 @@
 # Commands:
 #   widget         add the DayWidget extension target (idempotent)
 #   demo <TEAM>    local demo on a free Apple ID: bundle id *.demo, own App Group, team
+#   privacy        add DayWidget/PrivacyInfo.xcprivacy to the widget (idempotent)
+#   appfiles       add Runner/PrivacyInfo.xcprivacy and the localized InfoPlist.strings to the app (idempotent)
 #   store          back to store values (do this before committing project.pbxproj)
 require 'xcodeproj'
 
@@ -69,10 +71,24 @@ when 'widget'
 when 'demo'
   abort 'usage: demo <TEAM_ID>' unless ARGV[1]
   identify([runner, widget], "#{APP_ID}.demo", ARGV[1])
+when 'privacy'
+  group = project.main_group.find_subpath('DayWidget')
+  abort 'already added' if group.files.any? { |f| f.path == 'PrivacyInfo.xcprivacy' }
+  widget.resources_build_phase.add_file_reference(group.new_file('PrivacyInfo.xcprivacy'))
+when 'appfiles'
+  group = project.main_group.find_subpath('Runner')
+  abort 'already added' if group.children.any? { |f| f.display_name == 'InfoPlist.strings' }
+  # home_widget reads UserDefaults but ships no privacy manifest, so the app declares it.
+  runner.resources_build_phase.add_file_reference(group.new_file('PrivacyInfo.xcprivacy'))
+  langs = Dir.children(File.join(__dir__, '..', 'ios', 'Runner')).grep(/\.lproj$/).map { |d| d.delete_suffix('.lproj') } - ['Base']
+  strings = group.new_variant_group('InfoPlist.strings')
+  langs.sort.each { |l| strings.new_file("#{l}.lproj/InfoPlist.strings").name = l }
+  runner.resources_build_phase.add_file_reference(strings)
+  project.root_object.known_regions |= langs
 when 'store'
   identify([runner, widget], APP_ID, nil)
 else
-  abort 'usage: ios_project.rb widget | demo <TEAM_ID> | store'
+  abort 'usage: ios_project.rb widget | demo <TEAM_ID> | privacy | appfiles | store'
 end
 project.save
 puts "ok: #{ARGV.join(' ')}"

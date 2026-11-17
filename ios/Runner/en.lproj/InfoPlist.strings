@@ -1,0 +1,2 @@
+/* App Tracking Transparency prompt; Polish text is also the Info.plist fallback. */
+"NSUserTrackingUsageDescription" = "Your permission lets us show ads that are more relevant to you. Your dates, names and journal never leave this device.";

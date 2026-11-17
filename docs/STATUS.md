@@ -1,8 +1,23 @@
 # Stan prac — punkt powrotu
 
-Ostatnia aktualizacja: 2026-11-13. **Zmiany niezacommitowane** — patrz „Do zrobienia przy commicie”.
+Ostatnia aktualizacja: 2026-11-17. Wszystko zacommitowane na gałęzi `fix/delete-all-data`; przed kolejnym commitem patrz „Do zrobienia przy commicie”.
 
-## Stan na koniec sesji 2026-11-12 (zacznij tutaj)
+## 2026-11-17 — zmiana dnia, karta Pro na widżetach (zacznij tutaj)
+
+- Nowy dzień wszędzie bez restartu: aplikacja sprawdza datę co minutę i przy powrocie z tła, przebudowuje ekrany, wysyła widżetom nowy tydzień i planuje od nowa przypomnienia (`_checkDay`, `_syncWidget` w `lib/main.dart`). Numerologia przelicza rok i miesiąc osobisty po zmianie miesiąca.
+- Widżety: Android odświeża się o północy (`MidnightReceiver`, okno do 10 min) i po zmianie strefy/zegara; iOS ma linię czasu z wpisami o północy.
+- Pro: karta dnia od razu na widżetach (karty na 7 dni losowane z góry, `cardAhead` w `lib/data/store.dart`), w aplikacji obraca się sama przy pierwszym wejściu na Dziś i trafia do „Twoich dni”. Obrazki kart widżety czytają z plików aplikacji.
+- Kalendarz przy polach daty urodzenia (`datePickerButton`), bo na iPadzie z klawiaturą sprzętową nie ma klawiatury ekranowej.
+- Sprawdzone na emulatorze Androida (zmiana dnia przez strefę czasową: tło, aplikacja na ekranie, widżet). Nie sprawdzone: przejście przez prawdziwą północ na iPhonie/iPadzie, widżety iOS po zmianie strefy. Testy 164/164.
+- iPad Pro 11 zarejestrowany w profilu demo (build przez `xcodebuild -allowProvisioningDeviceRegistration`).
+
+## Przegląd przed wysyłką do sklepów — 2026-11-15
+
+Zrobione: polityka prywatności z danymi administratora (Mobileo Sławomir Moskal) w `docs/privacy-policy-draft.md` i jako strona `site/prywatnosc/index.html` (PL + EN, link w stopce strony); link „Polityka prywatności” w Ustawieniach (`url_launcher`); iOS: `ios/Runner/PrivacyInfo.xcprivacy` i komunikat o śledzeniu w 9 językach (`ios/Runner/*.lproj/InfoPlist.strings`, dodane przez `tool/ios_project.rb appfiles`); notatki dla recenzenta i teksty karty sklepu PL/EN w `docs/review-notes.md`. Sprawdzone: ekran startowy na symulatorze iPada Pro 11; na emulatorze Androida (release) widżet „Dziś dla Ciebie” działa i zmienia język z aplikacją, wszystkie pięć widżetów jest w wyborze widżetów (pozostałe cztery nie były kładzione na ekran).
+
+Zostaje właścicielowi: wgrać `site/` na serwer (bez tego link do polityki w aplikacji prowadzi donikąd); prawdziwe ID AdMob; produkt `pro_lifetime` + test sandbox; keystore Androida; `ios_project.rb store` + zespół z płatnego konta; konta, DSA, formularze. Pierwsze wydanie tylko w Polsce, dopóki tłumaczeń nie przejrzy native speaker. Nazwy i opisy widżetów Androida są tylko po polsku (`res/values/strings.xml`).
+
+## Stan na koniec sesji 2026-11-12
 
 **Nic z tej sesji nie jest zacommitowane** (ostatni commit `1a83d70`, gałąź `feature/astro-and-ui`). Przed commitem patrz „Do zrobienia przy commicie”. Testy: `flutter test` 142/142, `flutter analyze` czysto. Na obu iPhone'ach (17 Pro Max i Duo) jest wersja demo z końca sesji.
 
@@ -23,8 +38,8 @@ Czeka na właściciela:
 
 Odłożone / do rozważenia:
 - Wybór rodzajów zdań w Ustawieniach („Co Ci pomaga?”).
-- Własne angielskie nazwy heksagramów I Ching (teraz zbliżone do przekładu Wilhelma/Baynes; ryzyko niskie).
-- Strona: po publikacji aplikacji oficjalne plakietki sklepów z linkami, polityka prywatności, dane właściciela (dla wersji niemieckiej Impressum); usunąć nieużywane teksty starej makiety w `site/index.html`.
+- Nazwy heksagramów I Ching w językach innych niż angielski porównać z wydanymi przekładami (angielskie są własne od 2026-11-15).
+- Strona: oficjalne plakietki sklepów już są (`site/assets/badges/`, decyzja właściciela 2026-11-15, na razie bez linków, z napisem „Wkrótce w”); po publikacji aplikacji podpiąć linki do sklepów i usunąć „Wkrótce w”. Dalej: polityka prywatności, dane właściciela (dla wersji niemieckiej Impressum); usunąć nieużywane teksty starej makiety w `site/index.html`.
 - UPRP i indyjski rejestr znaków nie były sprawdzane osobno.
 - Android: nowe widżety i zmiany tylko skompilowane, nie uruchamiane.
 - Na Duo: druga strzałka wstecz w aplikacji, brak czerwonej kropki przy „Dziś” w natywnych zakładkach.

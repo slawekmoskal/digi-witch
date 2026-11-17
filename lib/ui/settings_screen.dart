@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/content.dart';
 import '../data/store.dart' show DeleteAllResult;
@@ -152,6 +153,15 @@ class SettingsScreen extends StatelessWidget {
             ),
           const Divider(),
           ListTile(title: Text(l.privacy), subtitle: Text(l.privacyBody)),
+          ListTile(
+            title: Text(l.privacyPolicy),
+            trailing: const Icon(Icons.open_in_new),
+            // Both stores require the policy to be reachable from inside the app.
+            onTap: () => launchUrl(
+              Uri.parse('https://digi-witch.com/prywatnosc/'),
+              mode: LaunchMode.externalApplication,
+            ),
+          ),
           ListTile(
             title: Text(l.deleteAllTitle),
             leading: const Icon(Icons.delete_forever_outlined),

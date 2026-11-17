@@ -1,8 +1,8 @@
 # Polityka prywatności aplikacji Digi Witch — SZKIC
 
-> Szkic do uzupełnienia i konsultacji prawnej. Miejsca w [nawiasach] wymagają danych właściciela. Nie jest to opinia prawna.
+> Dane administratora uzupełnione 2026-11-15. Wersja do publikacji: `site/prywatnosc/index.html` (PL + EN) — zmiany wprowadzaj w obu miejscach. Bez konsultacji prawnej; nie jest to opinia prawna.
 
-**Administrator:** [nazwa / imię i nazwisko, adres, NIP], kontakt: support@digi-witch.com.
+**Administrator:** Mobileo Sławomir Moskal, ul. Rataja 4 lok. 39, 35-116 Rzeszów, NIP 8133317349, REGON 181031891, kontakt: support@digi-witch.com.
 
 ## 1. Dane, które zostają na Twoim urządzeniu
 
@@ -30,4 +30,4 @@ Przysługuje Ci prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarz
 
 Aplikacja jest przeznaczona dla osób dorosłych.
 
-Data: [data publikacji]
+Data: 15 listopada 2026 r.

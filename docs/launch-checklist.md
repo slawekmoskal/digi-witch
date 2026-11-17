@@ -5,7 +5,7 @@ Kod jest gotowy na te ustawienia. Wszystko poniżej wymaga Twoich kont, zgód lu
 ## 0. Decyzje prawne (blokujące publikację)
 
 - [ ] **Status przedsiębiorcy (DSA)** w obu sklepach. Przy reklamach i IAP realnie jesteś „trader”. Sklepy **publicznie pokażą** adres, telefon i e-mail (Google od 1.03.2027, Apple od razu). Rozważ adres firmy lub biura wirtualnego.
-- [ ] **Polityka prywatności** pod `https://digi-witch.com/prywatnosc` — szkic: `docs/privacy-policy-draft.md` (uzupełnij administratora, skonsultuj prawnie).
+- [ ] **Polityka prywatności**: gotowa strona `site/prywatnosc/index.html` (PL + EN, administrator wpisany) — wgraj `site/` na serwer, żeby działał adres `https://digi-witch.com/prywatnosc/` (ten sam link jest w Ustawieniach aplikacji). Bez konsultacji prawnej.
 - [ ] **E-mail pomocy**, np. `pomoc@digi-witch.com` (wpisać też do `helpBody` w `lib/l10n/app_pl.arb`).
 - [ ] Korekta językowa treści (`assets/content/*.json`) przez człowieka; porównanie opisów obrazów ze skanami.
 

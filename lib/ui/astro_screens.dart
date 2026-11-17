@@ -12,6 +12,7 @@ import '../engine/astro.dart';
 import '../engine/daily.dart';
 import '../engine/lang.dart';
 import '../engine/numerology.dart';
+import '../engine/tarot.dart' show DrawnCard;
 import 'iching_screen.dart';
 import 'journal_screen.dart';
 import 'numerology_screen.dart';
@@ -149,37 +150,36 @@ class HoroscopeCard extends StatelessWidget {
     // Today shows these two; in Stars they follow the parts Today leaves out.
     final (todayLine, cautionLine) = dayHoroscope(context, birth, now);
     final reading = dailyReading(context, birth, now);
-    // The reading leads the card; languages without it keep the older two blocks.
+    // The reading leads the card; languages without it keep the older two blocks. The
+    // dots are numbers, not text, so every language shows them: on Today in the day's
+    // message at the top, in Stars here with a sentence each.
+    final dots = metersFor(birth, now);
     final lead = reading == null
         ? [
             block(l.horoscopeToday, todayLine),
             block(l.horoscopeCaution, cautionLine),
+            if (!short) ...[
+              const SizedBox(height: 24),
+              Meter(l.loveLabel, dots.love, null),
+              Meter(l.workLabel, dots.work, null),
+              Meter(l.energyLabel, dots.energy, null),
+            ],
           ]
         : [
             if (birth.month == today.month && birth.day == today.day)
               block(l.yourBirthday, context.content.daily!.birthday),
             // Today opens with the mood; Stars with what may happen, then the three areas.
-            // Today is the short read: mood, the three areas as dots, advice. Stars opens
-            // with what may happen and says a sentence about each area.
+            // Today is the short read: mood and advice (the dots are in the day's message).
+            // Stars opens with what may happen and says a sentence about each area.
             if (short) block(l.dailyMood, reading.mood),
-            if (!short) block(l.dailyEvents, reading.events),
-            const SizedBox(height: 24),
-            Meter(
-              l.loveLabel,
-              reading.meters.love,
-              short ? null : reading.love,
-            ),
-            Meter(
-              l.workLabel,
-              reading.meters.work,
-              short ? null : reading.work,
-            ),
-            Meter(
-              l.energyLabel,
-              reading.meters.energy,
-              short ? null : reading.energy,
-            ),
-            if (!short) block(l.dailyMood, reading.mood),
+            if (!short) ...[
+              block(l.dailyEvents, reading.events),
+              const SizedBox(height: 24),
+              Meter(l.loveLabel, reading.meters.love, reading.love),
+              Meter(l.workLabel, reading.meters.work, reading.work),
+              Meter(l.energyLabel, reading.meters.energy, reading.energy),
+              block(l.dailyMood, reading.mood),
+            ],
             block(l.dailyAdvice, reading.advice),
           ];
     return TarotFrame(
@@ -556,6 +556,7 @@ class _CompatibilityScreenState extends State<CompatibilityScreen> {
           labelText: l.personDate(n),
           hintText: context.l.dateHint,
           errorText: err,
+          suffixIcon: datePickerButton(context, c),
         ),
       ),
     );
@@ -1190,12 +1191,50 @@ String dayMessage(BuildContext context, DateTime date) {
 /// The day's greeting as the page's highlight: dark card, gold frame ([dayGreeting]).
 class DayMessage extends StatelessWidget {
   final DateTime now;
-  const DayMessage(this.now, {super.key});
+
+  /// Today adds the three areas as dots; Stars has them in the horoscope card below.
+  final bool dots;
+  const DayMessage(this.now, {super.key, this.dots = false});
   @override
   Widget build(BuildContext context) {
     final t = Theme.of(context).textTheme;
     final greeting = dayGreeting(context, now);
     const goldLight = Color(0xFFF1D98A);
+    final l = context.l;
+    final birth = context.store.birthDate;
+    final m = birth == null || !dots ? null : metersFor(birth, now);
+    // One area as a column: its name over five small dots.
+    Widget area(String label, int value) => Expanded(
+      child: Semantics(
+        label: l.meterValue(label, value),
+        excludeSemantics: true,
+        child: Column(
+          children: [
+            Text(
+              label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: t.bodyMedium?.copyWith(color: Colors.white),
+            ),
+            const SizedBox(height: 6),
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                for (var i = 1; i <= 5; i++)
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 1.5),
+                    child: Icon(
+                      i <= value ? Icons.circle : Icons.circle_outlined,
+                      size: 10,
+                      color: i <= value ? goldLight : const Color(0x80FFFFFF),
+                    ),
+                  ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
     return Container(
       margin: const EdgeInsets.symmetric(vertical: gap / 2),
       padding: const EdgeInsets.all(20),
@@ -1235,6 +1274,16 @@ class DayMessage extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
+          if (m != null) ...[
+            const SizedBox(height: 18),
+            Row(
+              children: [
+                area(l.loveLabel, m.love),
+                area(l.workLabel, m.work),
+                area(l.energyLabel, m.energy),
+              ],
+            ),
+          ],
         ],
       ),
     );
@@ -1405,8 +1454,14 @@ Map<String, String> widgetPayload(BuildContext context, DateTime now) {
   final s = context.store;
   final birth = s.birthDate;
   final today = CalendarDate.fromDateTime(now);
-  final drawn = s.cardRevealed(today) ? s.cardOfDay(today) : null;
-  final card = drawn == null ? null : context.content.cards[drawn.cardId]!;
+  // Free: the card shows once turned in the app. Pro: at once, today and on the coming days.
+  final drawn = s.isPro || s.cardRevealed(today) ? s.cardOfDay(today) : null;
+  String cardName(DrawnCard c) =>
+      '${context.content.cards[c.cardId]!.name}${c.reversed ? ' (${l.reversed})' : ''}';
+  String cardAdvice(DrawnCard c) {
+    final face = context.content.cards[c.cardId]!;
+    return l.widgetCardSays(c.reversed ? face.adviceReversed : face.advice);
+  }
   final dates = DateFormat.MMMMEEEEd(
     Localizations.localeOf(context).toLanguageTag(),
   );
@@ -1422,14 +1477,19 @@ Map<String, String> widgetPayload(BuildContext context, DateTime now) {
           final horoscope = birth == null
               ? null
               : dayHoroscope(context, birth, d);
-          // 0 = no meters (no birth date, or a language without the daily reading).
-          final meters = birth == null
-              ? null
-              : dailyReading(context, birth, d)?.meters;
+          // 0 = no meters (no birth date).
+          final meters = birth == null ? null : metersFor(birth, d);
           final soon = countdowns(context, d);
           final next = soon.where((c) => c.$2 != null);
           final running = soon.where((c) => c.$2 == null);
+          final dayCard = i == 0
+              ? drawn
+              : (s.isPro ? s.cardAhead(CalendarDate.fromDateTime(d)) : null);
           return {
+            'cardId': dayCard?.cardId ?? '',
+            'cardName': dayCard == null ? '' : cardName(dayCard),
+            'cardAdvice': dayCard == null ? '' : cardAdvice(dayCard),
+            'cardReversed': dayCard?.reversed == true,
             'date': CalendarDate.fromDateTime(d).iso,
             'label': dates.format(d),
             'sign': birth == null ? '' : a.signs[sunSign(birth)].name,
@@ -1465,12 +1525,8 @@ Map<String, String> widgetPayload(BuildContext context, DateTime now) {
     ]),
     'cardDate': today.iso,
     'cardId': drawn?.cardId ?? '',
-    'cardName': card == null
-        ? ''
-        : '${card.name}${drawn!.reversed ? ' (${l.reversed})' : ''}',
-    'cardAdvice': card == null
-        ? ''
-        : l.widgetCardSays(drawn!.reversed ? card.adviceReversed : card.advice),
+    'cardName': drawn == null ? '' : cardName(drawn),
+    'cardAdvice': drawn == null ? '' : cardAdvice(drawn),
     'cardReversed': drawn?.reversed == true ? '1' : '0',
     'cardTitle': l.cardOfDay,
     'cardWaiting': l.widgetCardWaiting,

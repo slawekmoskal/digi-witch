@@ -342,7 +342,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get archetypesNote =>
-      'The 12 archetypes are this app\'s own editorial model: one of many possible ways to divide things up, not a canon or a psychological test.';
+      'The descriptions of the 12 archetypes are this app\'s own texts. The division itself follows a well-known set of twelve archetypes: one of many possible ways to divide things up, not a canon or a psychological test.';
 
   @override
   String get aboutModel => 'About the model';
@@ -398,7 +398,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get sourcesBody =>
-      'The interpretations, questions, archetypes and articles are original texts. Card illustrations: Pamela Colman Smith, 1909 deck (public domain), scans from Wikimedia Commons; details are given with each card. Historical sources are listed at the end of the articles.';
+      'The interpretations, questions, archetypes and articles are original texts. Card illustrations: Pamela Colman Smith, 1909 deck (public domain), scans from Wikimedia Commons; details are given with each card. Historical sources are listed at the end of the articles. This app is not affiliated with U.S. Games Systems, Inc.';
 
   @override
   String get purchases => 'Digi Witch Pro';
@@ -461,6 +461,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Ad privacy settings';
+
+  @override
+  String get privacyPolicy => 'Privacy policy';
 
   @override
   String get reminder => 'Daily reminder';

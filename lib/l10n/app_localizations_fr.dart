@@ -345,7 +345,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get archetypesNote =>
-      'Les 12 archétypes sont un modèle éditorial propre à cette application : une répartition parmi d’autres, ni un canon ni un test psychologique.';
+      'Les descriptions des 12 archétypes sont des textes propres à cette application. La répartition elle-même reprend un ensemble connu de douze archétypes : une répartition parmi d’autres, ni un canon ni un test psychologique.';
 
   @override
   String get aboutModel => 'À propos du modèle';
@@ -401,7 +401,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get sourcesBody =>
-      'Les interprétations, questions, archétypes et articles sont des textes originaux. Illustrations des cartes : Pamela Colman Smith, jeu de 1909 (domaine public), numérisations issues de Wikimedia Commons ; les détails figurent avec chaque carte. Les sources historiques sont citées à la fin des articles.';
+      'Les interprétations, questions, archétypes et articles sont des textes originaux. Illustrations des cartes : Pamela Colman Smith, jeu de 1909 (domaine public), numérisations issues de Wikimedia Commons ; les détails figurent avec chaque carte. Les sources historiques sont citées à la fin des articles. Cette application n’est pas affiliée à U.S. Games Systems, Inc.';
 
   @override
   String get purchases => 'Digi Witch Pro';
@@ -465,6 +465,9 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Confidentialité des publicités';
+
+  @override
+  String get privacyPolicy => 'Politique de confidentialité';
 
   @override
   String get reminder => 'Rappel quotidien';

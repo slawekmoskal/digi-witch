@@ -343,7 +343,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get archetypesNote =>
-      '12 архетипів — власна редакційна модель цього застосунку: один із багатьох можливих поділів, а не канон і не психологічний тест.';
+      'Описи 12 архетипів — власні тексти цього застосунку. Сам поділ спирається на відомий набір дванадцяти архетипів: один із багатьох можливих поділів, а не канон і не психологічний тест.';
 
   @override
   String get aboutModel => 'Про модель';
@@ -398,7 +398,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get sourcesBody =>
-      'Тлумачення, питання, архетипи та статті — оригінальні тексти. Ілюстрації карт: Памела Колман Сміт, колода 1909 року (суспільне надбання), скани з Wikimedia Commons; подробиці наведено біля кожної карти. Історичні джерела вказано наприкінці статей.';
+      'Тлумачення, питання, архетипи та статті — оригінальні тексти. Ілюстрації карт: Памела Колман Сміт, колода 1909 року (суспільне надбання), скани з Wikimedia Commons; подробиці наведено біля кожної карти. Історичні джерела вказано наприкінці статей. Застосунок не пов’язаний з U.S. Games Systems, Inc.';
 
   @override
   String get purchases => 'Digi Witch Pro';
@@ -461,6 +461,9 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get adPrivacyOptions => 'Налаштування конфіденційності реклами';
+
+  @override
+  String get privacyPolicy => 'Політика конфіденційності';
 
   @override
   String get reminder => 'Щоденне нагадування';
