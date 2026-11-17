@@ -1,0 +1,14 @@
+# Digi Witch
+
+> Digi Witch is a free mobile app for iPhone and Android: a daily horoscope with love, work and energy, the Moon phase, a tarot card of the day, numerology and a dream dictionary. It is meant as inspiration and entertainment, not as prediction or advice.
+
+- Works without creating an account.
+- Every calculation (numerology, horoscope) is shown step by step.
+- Home-screen widgets show the day at a glance.
+- Available in Polish, English, German, French, Spanish, Ukrainian, Italian, Portuguese and Dutch.
+- The app is not released yet; store links will appear on the website.
+
+## Links
+
+- [Website](https://digi-witch.com/): features, privacy and download
+- [Contact](mailto:support@digi-witch.com): support@digi-witch.com

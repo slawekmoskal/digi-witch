@@ -10,16 +10,18 @@
 <meta property="og:url" content="https://digi-witch.com/">
 <meta property="og:title" content="Digi Witch">
 <meta property="og:image" content="https://digi-witch.com/assets/icon.png">
+<link rel="preload" href="assets/CormorantGaramond.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="assets/icon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
 <style>
-@font-face { font-family: "Cormorant"; src: url(assets/CormorantGaramond.ttf) format("truetype"); font-weight: 300 700; font-display: swap; }
+@font-face { font-family: "Cormorant"; src: url(assets/CormorantGaramond.woff2) format("woff2"); font-weight: 300 700; font-display: swap; }
 :root {
   --bg: #15122A; --bg2: #1F1B36; --card: #262142; --line: #4A4370;
   --text: #F3E9D2; --muted: #B9B0D6; --violet: #D3C8F5; --gold: #E6C77F; --gold2: #C9A44C;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html.lenis { scroll-behavior: auto; height: auto; } /* Lenis animates the scroll itself */
 body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow-x: hidden; }
 body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
   background: radial-gradient(1px 1px at 12% 18%, #fff8 50%, transparent), radial-gradient(1px 1px at 72% 9%, #fff6 50%, transparent),
@@ -48,12 +50,11 @@ select { background: var(--card); color: var(--text); border: 1px solid var(--li
 .hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; padding-top: 56px; }
 .kicker { color: var(--gold); letter-spacing: .14em; text-transform: uppercase; font-size: .8rem; font-weight: 600; }
 .stores { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 10px; }
-.store { display: inline-flex; align-items: center; gap: 12px; min-width: 168px; padding: 10px 20px 10px 16px; border-radius: 14px; background: var(--text); color: #241D42; text-decoration: none; line-height: 1.2; }
-.store svg { width: 26px; height: 26px; fill: currentColor; flex: none; }
-.store span { display: flex; flex-direction: column; }
-.store small { font-size: .72rem; opacity: .75; }
-.store b { font-size: 1.15rem; }
-.store[aria-disabled="true"] { opacity: .85; cursor: default; }
+/* Official store badges, unmodified. Google's file has its own clear space, so it is drawn taller and pulled in. */
+.badge { display: block; height: 44px; width: auto; }
+.badge.g { height: 57px; margin: -6px -3px; }
+.stores { align-items: center; }
+.note.soon { margin: 28px 0 -18px; }
 .note { color: var(--muted); font-size: .9rem; }
 @media (max-width: 860px) { .hero { grid-template-columns: 1fr; text-align: center; } .hero .lead { margin: 0 auto; } .stores { justify-content: center; } }
 
@@ -96,11 +97,49 @@ select { background: var(--card); color: var(--text); border: 1px solid var(--li
 .sky .layer svg { display: block; width: 100%; height: 100%; }
 .sky .tw { animation: tw 4s ease-in-out infinite; }
 @keyframes tw { 0%, 100% { opacity: .3; } 50% { opacity: 1; } }
-.sky .wheel { position: absolute; left: -22vmin; top: 50%; width: min(130vmin, 1100px); height: min(130vmin, 1100px); margin-top: calc(min(130vmin, 1100px) / -2); opacity: .26; will-change: transform; }
+.sky .milky { position: absolute; left: 50%; top: 50%; width: 190vmax; height: 60vmax; margin: -30vmax 0 0 -95vmax; will-change: transform;
+  background: radial-gradient(ellipse 38% 6% at 50% 52%, #0B091855, transparent 75%), radial-gradient(ellipse 34% 10% at 42% 46%, #F3E9D226, transparent 70%),
+    radial-gradient(ellipse 24% 9% at 66% 56%, #8FB4FF22, transparent 70%), radial-gradient(ellipse 50% 24% at 50% 50%, #B9A8FF2b, transparent 70%); }
+.sky .sigil { position: absolute; left: -1vw; top: 64px; height: min(46vh, 94vw, 460px); aspect-ratio: 2 / 3; opacity: .5; will-change: transform; overflow: visible; }
+.sky .sigil .z { opacity: 0; transition: opacity .9s ease; }
+.sky .sigil .z.on { opacity: 1; }
+@media (max-width: 700px) { .sky .sigil { opacity: .32; } }
+@media (prefers-reduced-motion: reduce) { .sky .sigil .z { transition: none; } }
+.sky .milky svg { display: block; width: 100%; height: 100%; }
 .sky .moon { position: absolute; right: 2vw; top: 58vh; width: clamp(84px, 13vw, 160px); height: clamp(84px, 13vw, 160px); filter: drop-shadow(0 0 28px #F1E6C85a); will-change: transform; }
 @media (prefers-reduced-motion: reduce) { .sky .tw { animation: none; } }
+/* Home-screen widgets drawn as the app's own (ios/DayWidget/DayWidget.swift); sizes in em so the phone can show them smaller. */
+.wgrid { display: grid; grid-template-columns: repeat(2, 9.875em); gap: 1.375em; justify-content: center; font-size: min(16px, 4.2vw); }
+.wg { height: 9.875em; border-radius: 1.4em; padding: 1em; background: linear-gradient(135deg, #5A4D8A, #2E2652); color: #fff; text-align: left; display: flex; flex-direction: column; gap: .25em; overflow: hidden; box-shadow: 0 .6em 1.6em #0007; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.25; }
+.wg.m, .wg.l { grid-column: span 2; }
+.wg.l { height: 22.125em; gap: .44em; }
+.wg > * { flex: none; min-width: 0; }
+.wg b { font-weight: 600; }
+.wg .c2 { font-size: .6875em; } .wg .cap { font-size: .75em; } .wg .fn { font-size: .8125em; } .wg .sub { font-size: .9375em; } .wg .hd { font-size: 1.0625em; }
+.wg .t3 { font: 600 1.3em/1.2 "Cormorant", Georgia, serif; } .wg .t2 { font: 600 1.5em/1.15 "Cormorant", Georgia, serif; }
+.wg .gold { color: #F1D98A; } .wg .par { color: #F2E8D1; }
+.wg .lab { font-size: .6875em; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #F1D98A; }
+.wg .one { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wg .clamp { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: var(--n, 2); overflow: hidden; }
+.wg .grow { flex: 1 1 0; }
+.wg .row { display: flex; justify-content: space-between; align-items: center; gap: .4em; }
+.wg .cols { display: flex; gap: .6em; margin-top: .15em; } .wg .cols > * { flex: 1; display: flex; flex-direction: column; gap: .2em; }
+.wg .dots { display: inline-flex; gap: .2em; flex: none; } .wg .dots i { width: .44em; height: .44em; border-radius: 50%; background: #ffffff38; } .wg .dots i.on { background: #F1D98A; }
+.wg .dots.big { gap: .34em; } .wg .dots.big i { width: .75em; height: .75em; }
+.wg .mn { width: 2.1em; height: 2.1em; flex: none; } .wg .mn.sm { width: 1.5em; height: 1.5em; }
+.wg .th { flex: none; width: var(--w, 2.5em); aspect-ratio: .58; border-radius: .3em; object-fit: cover; }
+.wg hr { border: 0; border-top: 1px solid #F1D98A66; margin: 0; align-self: stretch; }
+.wg .mid { display: flex; align-items: center; gap: .75em; } .wg .mid > div { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .15em; }
+.wg.ctr { align-items: center; text-align: center; } .wg.ctr .mid { align-self: stretch; text-align: left; }
+.wg .rule { width: 2.75em; height: 1px; background: #F1D98A66; margin: .15em 0; }
+.wsplit { margin-top: 36px; align-items: center; }
+.screen.home { background: linear-gradient(165deg, #3B2F63, #17132B 55%, #40305C); color: #fff; padding: 0 12px; }
+.home .status svg { fill: #fff; } .home .status svg [stroke] { stroke: #fff; }
+.home .wgrid { font-size: 12.3px; margin-top: 6px; }
+.dock { position: absolute; left: 12px; right: 12px; bottom: 12px; height: 68px; border-radius: 26px; background: #ffffff24; display: flex; justify-content: space-around; align-items: center; padding: 0 8px; }
+.dock > * { width: 44px; height: 44px; border-radius: 11px; background: #ffffff2e; }
 .cards3 { position: relative; height: 0; }
-.float { position: absolute; width: 110px; border-radius: 8px; border: 2px solid var(--gold2); box-shadow: 0 16px 40px #000a; }
+.float { position: absolute; width: 110px; height: auto; border-radius: 8px; border: 2px solid var(--gold2); box-shadow: 0 16px 40px #000a; }
 @media (max-width: 1100px) { .float { display: none; } }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 36px; }
@@ -134,16 +173,16 @@ footer p { margin: 6px 0; }
 </style>
 </head>
 <body>
-<!-- Sky behind the page: stars drift at different speeds as you scroll, a zodiac wheel turns
+<!-- Sky behind the page: stars drift at different speeds as you scroll, the Milky Way drifts
      slowly and the Moon changes phase from new to full over the length of the page. -->
 <div class="sky" aria-hidden="true">
+  <div class="milky" id="milky"></div>
   <div class="layer" id="stars1"></div><div class="layer" id="stars2"></div><div class="layer" id="stars3"></div>
-  <svg class="wheel" id="wheel" viewBox="-200 -200 400 400" fill="none" stroke="#E6C77F" stroke-width=".6">
-    <circle r="190"/><circle r="172"/><circle r="122"/><circle r="60" stroke-dasharray="2 5"/>
-    <g id="wheelTicks"></g>
-    <path d="M-122 0H122M0-122V122" stroke-opacity=".5" stroke-dasharray="1 4"/>
-    <circle r="15" stroke-opacity=".9"/><circle r="2.5" fill="#E6C77F" stroke="none"/>
-    <g fill="#E6C77F" stroke="none"><circle cx="-84" cy="30" r="3.2"/><circle cx="60" cy="-72" r="2.6"/><circle cx="92" cy="40" r="3.6"/><circle cx="-30" cy="-95" r="2.4"/><circle cx="20" cy="100" r="2.8"/></g>
+  <!-- Two tarot card outlines; the front one shows a zodiac sign and its number, changing with time and scroll. -->
+  <svg class="sigil" id="sigil" viewBox="0 0 200 300" fill="none" stroke="#E6C77F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-15 100 150)" stroke-opacity=".55"><rect x="38" y="48" width="128" height="204" rx="11"/><rect x="45" y="55" width="114" height="190" rx="7" stroke-width=".5"/></g>
+    <g id="sigilCard"><rect x="38" y="48" width="128" height="204" rx="11" fill="#17132Bcc"/><rect x="45" y="55" width="114" height="190" rx="7" stroke-width=".5"/>
+      <path d="M82 226H118M96 232H104" stroke-width=".6"/><g id="sigilSigns"></g></g>
   </svg>
   <svg class="moon" id="moon" viewBox="-100 -100 200 200">
     <defs>
@@ -158,7 +197,7 @@ footer p { margin: 6px 0; }
 </div>
 <header>
   <div class="wrap">
-    <a class="brand" href="#top"><img src="assets/icon.png" alt="">Digi Witch</a>
+    <a class="brand" href="#top"><img src="assets/icon-192.webp" alt="" width="36" height="36">Digi Witch</a>
     <nav>
       <a href="#features" data-t="navFeatures"></a>
       <a href="#privacy" data-t="navPrivacy"></a>
@@ -173,17 +212,18 @@ footer p { margin: 6px 0; }
 
 <main id="top">
   <div class="wrap cards3" aria-hidden="true">
-    <img class="float" src="assets/major_17.webp" alt="" style="left:-130px;top:120px;transform:rotate(-9deg)">
+    <img class="float" src="assets/major_17.webp" alt="" width="240" height="407" loading="lazy" style="left:-130px;top:470px;transform:rotate(-9deg)">
   </div>
   <section class="wrap hero">
     <div>
       <div class="kicker" data-t="kicker"></div>
       <h1 data-t="heroTitle"></h1>
       <p class="lead" data-t="heroSub"></p>
+      <p class="note soon" data-t="soon"></p>
       <div class="stores">
-        <!-- TODO: store links after the apps are published -->
-        <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span><small data-t="soon"></small><b>App Store</b></span></a>
-        <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg><span><small data-t="soon"></small><b>Google Play</b></span></a>
+        <!-- TODO: wrap the badges in store links after the apps are published -->
+        <img class="badge" data-b="apple" alt="App Store" width="132" height="44">
+        <img class="badge g" data-b="google" alt="Google Play" width="147" height="57">
       </div>
       <p class="note" data-t="heroNote"></p>
     </div>
@@ -193,7 +233,7 @@ footer p { margin: 6px 0; }
         <div class="status"><span>9:41</span><i class="island"></i><svg viewBox="0 0 46 11"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="6" rx="1"/><rect x="10" y="3" width="3" height="8" rx="1"/><rect x="15" y="0" width="3" height="11" rx="1"/><rect x="24" y="0.5" width="20" height="10" rx="3" fill="none" stroke="#2B2140" stroke-width="1"/><rect x="26" y="2.5" width="14" height="6" rx="1.5"/></svg></div>
         <div class="bar"><span id="mL"></span><b>Digi Witch</b><span id="mR"></span></div>
         <div class="greet" id="mGreet"></div>
-        <div class="date" data-t="mockDate"></div>
+        <div class="date" id="mDate"></div>
         <div class="msg">
           <div class="star">✦</div>
           <div class="lead" id="mLead"></div>
@@ -229,13 +269,32 @@ footer p { margin: 6px 0; }
   <section class="band">
     <div class="wrap split">
       <div class="tarot" aria-hidden="true">
-        <img src="assets/major_18.webp" alt=""><img src="assets/major_17.webp" alt=""><img src="assets/major_19.webp" alt="">
+        <img src="assets/major_18.webp" alt="" width="240" height="426" loading="lazy"><img src="assets/major_17.webp" alt="" width="240" height="407" loading="lazy"><img src="assets/major_19.webp" alt="" width="240" height="414" loading="lazy">
       </div>
       <div>
         <h2 data-t="ritualTitle"></h2>
         <p class="lead" data-t="ritualSub"></p>
         <ul class="check" id="ritual"></ul>
       </div>
+    </div>
+  </section>
+
+  <!-- Home-screen widgets: the five the app ships, with texts from the app's own content (const W). -->
+  <section id="widgets">
+    <div class="wrap">
+      <h2 data-t="wTitle" style="text-align:center"></h2>
+      <p class="lead center" style="text-align:center" data-t="wSub"></p>
+      <div class="split wsplit" aria-hidden="true">
+        <div class="wgrid" id="wLeft"></div>
+        <div class="phone">
+          <div class="screen home">
+            <div class="status"><span>9:41</span><i class="island"></i><svg viewBox="0 0 46 11"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="6" rx="1"/><rect x="10" y="3" width="3" height="8" rx="1"/><rect x="15" y="0" width="3" height="11" rx="1"/><rect x="24" y="0.5" width="20" height="10" rx="3" fill="none" stroke="#2B2140" stroke-width="1"/><rect x="26" y="2.5" width="14" height="6" rx="1.5"/></svg></div>
+            <div class="wgrid" id="wPhone"></div>
+            <div class="dock"><img src="assets/icon-192.webp" alt="" loading="lazy"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+      <p class="note" style="text-align:center;margin-top:28px" data-t="wHow"></p>
     </div>
   </section>
 
@@ -263,12 +322,12 @@ footer p { margin: 6px 0; }
 
   <section id="download" class="cta">
     <div class="wrap">
-      <img src="assets/icon.png" alt="" width="96" height="96" style="border-radius:22px;box-shadow:0 16px 40px #0008">
+      <img src="assets/icon-192.webp" alt="" width="96" height="96" loading="lazy" style="border-radius:22px;box-shadow:0 16px 40px #0008">
       <h2 data-t="ctaTitle" style="margin-top:20px"></h2>
       <p class="lead center" data-t="ctaSub"></p>
       <div class="stores">
-        <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span><small data-t="soon"></small><b>App Store</b></span></a>
-        <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg><span><small data-t="soon"></small><b>Google Play</b></span></a>
+        <img class="badge" data-b="apple" alt="App Store" width="132" height="44">
+        <img class="badge g" data-b="google" alt="Google Play" width="147" height="57">
       </div>
     </div>
   </section>
@@ -278,9 +337,9 @@ footer p { margin: 6px 0; }
   <div class="wrap">
     <p data-t="footAdults"></p>
     <p data-t="footArt"></p>
-    <!-- TODO: privacy policy URL once published (docs/privacy-policy-draft.md) -->
     <p><span data-t="footContact"></span>: <a href="mailto:support@digi-witch.com">support@digi-witch.com</a></p>
-    <p><a href="#" data-t="footPrivacy"></a> · © <span id="year"></span> Digi Witch</p>
+    <p><a href="prywatnosc/" data-t="footPrivacy"></a> · © <span id="year"></span> Digi Witch</p>
+    <p data-t="tm"></p>
   </div>
 </footer>
 
@@ -293,8 +352,9 @@ pl: {
   kicker: "Twój codzienny przewodnik po symbolach",
   heroTitle: "Gwiazdy, karty i liczby — w jednej aplikacji",
   heroSub: "Horoskop na dziś z miłością, pracą i energią, faza Księżyca, karta dnia, Twoje liczby i sennik. Każde obliczenie pokazujemy krok po kroku.",
+  tm: "App Store jest znakiem usługowym Apple Inc. Google Play i logo Google Play są znakami towarowymi Google LLC.",
   soon: "Wkrótce w", heroNote: "Bezpłatnie · iPhone i Android · bez zakładania konta",
-  mockDate: "Czwartek, 12 listopada", mockHello: "Dzień dobry", mockSign: "Lew · Księżyc w Pannie",
+  mockHello: "Dzień dobry", mockSign: "Lew · Księżyc w Pannie",
   mockToday: "Dziś dla Ciebie", love: "Miłość", work: "Praca", energy: "Energia",
   mockLucky: "Szczęśliwe liczby dnia", mockCard: "Karta dnia", mockCardName: "Gwiazda", mockCardText: "Nadzieja i spokojne odnowienie",
   mockMoon: "Nadchodzi", mockFull: "Pełnia", mockIn: "za 12 dni",
@@ -317,7 +377,10 @@ pl: {
   privTitle: "Twoje dane są tylko Twoje",
   privSub: "Nie potrzebujesz konta. Daty, imiona i dziennik zostają na Twoim urządzeniu.",
   priv: ["Żadnej rejestracji i logowania.", "Obliczenia wykonywane w telefonie, także offline.", "Dane usuniesz jednym przyciskiem, a dziennik wyeksportujesz do pliku.", "Wersja Pro jednorazowo, bez reklam i bez subskrypcji."],
-  honestTitle: "Uczciwie",
+  wTitle: "Twój dzień na ekranie głównym",
+  wSub: "Dodaj widżet i codziennie wiesz, jaki może być Twój dzień — zanim otworzysz aplikację.",
+  wHow: "Przytrzymaj palec na ekranie głównym, wybierz widżety i znajdź Digi Witch. Pięć widżetów: małe, średnie i duże.",
+  honestTitle: "Inspiracja, nie wyrocznia",
   honestText: "Digi Witch to narzędzie do rozrywki, nauki symboliki i autorefleksji. Nie przepowiada przyszłości, nie mierzy osobowości w sensie naukowym i nie zastępuje porady specjalisty.",
   langTitle: "Mówi Twoim językiem",
   langSub: "Aplikacja sama wybiera język telefonu. Wszystkie treści w dziewięciu językach.",
@@ -335,8 +398,9 @@ en: {
   kicker: "Your daily guide to symbols",
   heroTitle: "Stars, cards and numbers — in one app",
   heroSub: "Today's horoscope with love, work and energy, the Moon phase, a card of the day, your numbers and a dream dictionary. Every calculation is shown step by step.",
+  tm: "App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.",
   soon: "Coming soon to", heroNote: "Free · iPhone and Android · no account needed",
-  mockDate: "Thursday, 12 November", mockHello: "Good morning", mockSign: "Leo · Moon in Virgo",
+  mockHello: "Good morning", mockSign: "Leo · Moon in Virgo",
   mockToday: "Today for you", love: "Love", work: "Work", energy: "Energy",
   mockLucky: "Lucky numbers of the day", mockCard: "Card of the day", mockCardName: "The Star", mockCardText: "Hope and quiet renewal",
   mockMoon: "Coming up", mockFull: "Full Moon", mockIn: "in 12 days",
@@ -359,7 +423,10 @@ en: {
   privTitle: "Your data is yours alone",
   privSub: "You don't need an account. Dates, names and your journal stay on your device.",
   priv: ["No sign-up, no login.", "Calculations run on your phone, even offline.", "Delete your data with one tap and export your journal to a file.", "Pro is a one-time purchase: no ads, no subscription."],
-  honestTitle: "Honestly",
+  wTitle: "Your day on the home screen",
+  wSub: "Add a widget and know every day what your day may bring — before you even open the app.",
+  wHow: "Touch and hold the home screen, choose widgets and find Digi Witch. Five widgets: small, medium and large.",
+  honestTitle: "Inspiration, not an oracle",
   honestText: "Digi Witch is a tool for entertainment, learning about symbolism and self-reflection. It does not predict the future, measure personality in any scientific sense or replace professional advice.",
   langTitle: "Speaks your language",
   langSub: "The app follows your phone's language. All content in nine languages.",
@@ -377,8 +444,9 @@ de: {
   kicker: "Dein täglicher Begleiter durch die Symbole",
   heroTitle: "Sterne, Karten und Zahlen — in einer App",
   heroSub: "Tageshoroskop mit Liebe, Arbeit und Energie, Mondphase, Tageskarte, deine Zahlen und ein Traumlexikon. Jede Berechnung zeigen wir Schritt für Schritt.",
+  tm: "App Store ist eine Dienstleistungsmarke von Apple Inc. Google Play und das Google Play-Logo sind Marken von Google LLC.",
   soon: "Bald im", heroNote: "Kostenlos · iPhone und Android · ohne Konto",
-  mockDate: "Donnerstag, 12. November", mockHello: "Guten Morgen", mockSign: "Löwe · Mond in Jungfrau",
+  mockHello: "Guten Morgen", mockSign: "Löwe · Mond in Jungfrau",
   mockToday: "Heute für dich", love: "Liebe", work: "Arbeit", energy: "Energie",
   mockLucky: "Glückszahlen des Tages", mockCard: "Tageskarte", mockCardName: "Der Stern", mockCardText: "Hoffnung und stille Erneuerung",
   mockMoon: "Demnächst", mockFull: "Vollmond", mockIn: "in 12 Tagen",
@@ -401,7 +469,10 @@ de: {
   privTitle: "Deine Daten gehören dir",
   privSub: "Du brauchst kein Konto. Daten, Namen und dein Tagebuch bleiben auf deinem Gerät.",
   priv: ["Keine Registrierung, keine Anmeldung.", "Berechnungen laufen auf dem Handy, auch offline.", "Daten mit einem Tipp löschen, Tagebuch als Datei exportieren.", "Pro als Einmalkauf: ohne Werbung, ohne Abo."],
-  honestTitle: "Ehrlich gesagt",
+  wTitle: "Dein Tag auf dem Startbildschirm",
+  wSub: "Füge ein Widget hinzu und sieh jeden Tag, wie dein Tag werden kann – noch bevor du die App öffnest.",
+  wHow: "Halte den Startbildschirm gedrückt, wähle Widgets und suche Digi Witch. Fünf Widgets: klein, mittel und groß.",
+  honestTitle: "Inspiration statt Orakel",
   honestText: "Digi Witch dient der Unterhaltung, dem Kennenlernen von Symbolik und der Selbstreflexion. Die App sagt nicht die Zukunft voraus, misst keine Persönlichkeit im wissenschaftlichen Sinn und ersetzt keinen fachlichen Rat.",
   langTitle: "Spricht deine Sprache",
   langSub: "Die App übernimmt die Sprache deines Handys. Alle Inhalte in neun Sprachen.",
@@ -419,8 +490,9 @@ fr: {
   kicker: "Votre guide quotidien des symboles",
   heroTitle: "Étoiles, cartes et nombres — dans une seule app",
   heroSub: "L'horoscope du jour avec amour, travail et énergie, la phase de la Lune, la carte du jour, vos nombres et un dictionnaire des rêves. Chaque calcul est expliqué pas à pas.",
+  tm: "App Store est une marque de service d’Apple Inc. Google Play et le logo Google Play sont des marques de Google LLC.",
   soon: "Bientôt sur", heroNote: "Gratuit · iPhone et Android · sans compte",
-  mockDate: "Jeudi 12 novembre", mockHello: "Bonjour", mockSign: "Lion · Lune en Vierge",
+  mockHello: "Bonjour", mockSign: "Lion · Lune en Vierge",
   mockToday: "Aujourd'hui pour vous", love: "Amour", work: "Travail", energy: "Énergie",
   mockLucky: "Nombres porte-bonheur du jour", mockCard: "Carte du jour", mockCardName: "L'Étoile", mockCardText: "Espoir et renouveau paisible",
   mockMoon: "À venir", mockFull: "Pleine Lune", mockIn: "dans 12 jours",
@@ -443,7 +515,10 @@ fr: {
   privTitle: "Vos données n'appartiennent qu'à vous",
   privSub: "Pas besoin de compte. Dates, noms et journal restent sur votre appareil.",
   priv: ["Ni inscription, ni connexion.", "Les calculs se font sur le téléphone, même hors ligne.", "Supprimez vos données d'un geste, exportez votre journal dans un fichier.", "Pro en achat unique : sans publicité, sans abonnement."],
-  honestTitle: "En toute honnêteté",
+  wTitle: "Votre journée sur l’écran d’accueil",
+  wSub: "Ajoutez un widget et découvrez chaque jour ce que la journée peut vous réserver, avant même d’ouvrir l’application.",
+  wHow: "Appuyez longuement sur l’écran d’accueil, choisissez les widgets et cherchez Digi Witch. Cinq widgets : petits, moyens et grands.",
+  honestTitle: "Une inspiration, pas un oracle",
   honestText: "Digi Witch est un outil de divertissement, de découverte de la symbolique et d'introspection. Il ne prédit pas l'avenir, ne mesure pas la personnalité au sens scientifique et ne remplace pas l'avis d'un professionnel.",
   langTitle: "Parle votre langue",
   langSub: "L'app suit la langue de votre téléphone. Tout le contenu en neuf langues.",
@@ -461,8 +536,9 @@ es: {
   kicker: "Tu guía diaria de símbolos",
   heroTitle: "Estrellas, cartas y números — en una sola app",
   heroSub: "El horóscopo de hoy con amor, trabajo y energía, la fase lunar, la carta del día, tus números y un diccionario de sueños. Cada cálculo se muestra paso a paso.",
+  tm: "App Store es una marca de servicio de Apple Inc. Google Play y el logotipo de Google Play son marcas comerciales de Google LLC.",
   soon: "Próximamente en", heroNote: "Gratis · iPhone y Android · sin crear cuenta",
-  mockDate: "Jueves, 12 de noviembre", mockHello: "Buenos días", mockSign: "Leo · Luna en Virgo",
+  mockHello: "Buenos días", mockSign: "Leo · Luna en Virgo",
   mockToday: "Hoy para ti", love: "Amor", work: "Trabajo", energy: "Energía",
   mockLucky: "Números de la suerte del día", mockCard: "Carta del día", mockCardName: "La Estrella", mockCardText: "Esperanza y renovación serena",
   mockMoon: "Próximamente", mockFull: "Luna llena", mockIn: "en 12 días",
@@ -485,7 +561,10 @@ es: {
   privTitle: "Tus datos son solo tuyos",
   privSub: "No necesitas cuenta. Fechas, nombres y tu diario se quedan en tu dispositivo.",
   priv: ["Sin registro ni inicio de sesión.", "Los cálculos se hacen en el móvil, incluso sin conexión.", "Borra tus datos con un toque y exporta tu diario a un archivo.", "Pro con un solo pago: sin anuncios ni suscripción."],
-  honestTitle: "Con honestidad",
+  wTitle: "Tu día en la pantalla de inicio",
+  wSub: "Añade un widget y descubre cada día cómo puede ser tu día, antes incluso de abrir la app.",
+  wHow: "Mantén pulsada la pantalla de inicio, elige widgets y busca Digi Witch. Cinco widgets: pequeños, medianos y grandes.",
+  honestTitle: "Inspiración, no oráculo",
   honestText: "Digi Witch es una herramienta de entretenimiento, aprendizaje de la simbología y autorreflexión. No predice el futuro, no mide la personalidad en sentido científico ni sustituye el consejo de un profesional.",
   langTitle: "Habla tu idioma",
   langSub: "La app sigue el idioma de tu móvil. Todo el contenido en nueve idiomas.",
@@ -503,8 +582,9 @@ uk: {
   kicker: "Твій щоденний провідник у світі символів",
   heroTitle: "Зірки, карти й числа — в одному застосунку",
   heroSub: "Гороскоп на сьогодні з коханням, роботою та енергією, фаза Місяця, карта дня, твої числа й сонник. Кожен розрахунок показано крок за кроком.",
+  tm: "App Store є знаком обслуговування Apple Inc. Google Play і логотип Google Play є товарними знаками Google LLC.",
   soon: "Незабаром в", heroNote: "Безкоштовно · iPhone і Android · без облікового запису",
-  mockDate: "Четвер, 12 листопада", mockHello: "Доброго ранку", mockSign: "Лев · Місяць у Діві",
+  mockHello: "Доброго ранку", mockSign: "Лев · Місяць у Діві",
   mockToday: "Сьогодні для тебе", love: "Кохання", work: "Робота", energy: "Енергія",
   mockLucky: "Щасливі числа дня", mockCard: "Карта дня", mockCardName: "Зірка", mockCardText: "Надія і тихе оновлення",
   mockMoon: "Незабаром", mockFull: "Повня", mockIn: "через 12 днів",
@@ -527,7 +607,10 @@ uk: {
   privTitle: "Твої дані належать тільки тобі",
   privSub: "Обліковий запис не потрібен. Дати, імена та твій щоденник залишаються на твоєму пристрої.",
   priv: ["Жодної реєстрації та входу.", "Розрахунки виконуються в телефоні, навіть офлайн.", "Видали дані одним дотиком, а щоденник експортуй у файл.", "Pro — разова покупка: без реклами й без підписки."],
-  honestTitle: "Чесно",
+  wTitle: "Твій день на головному екрані",
+  wSub: "Додай віджет і щодня знай, яким може бути твій день — ще до того, як відкриєш застосунок.",
+  wHow: "Натисни й утримуй головний екран, вибери віджети та знайди Digi Witch. П’ять віджетів: малі, середні й великі.",
+  honestTitle: "Натхнення, а не оракул",
   honestText: "Digi Witch — інструмент для розваги, знайомства із символікою та саморефлексії. Він не передбачає майбутнього, не вимірює особистість у науковому сенсі й не замінює порад фахівця.",
   langTitle: "Говорить твоєю мовою",
   langSub: "Застосунок обирає мову телефону. Увесь вміст — дев’ятьма мовами.",
@@ -547,9 +630,9 @@ it: {
   kicker: "La tua guida quotidiana ai simboli",
   heroTitle: "Stelle, carte e numeri — in un'unica app",
   heroSub: "L'oroscopo di oggi con amore, lavoro ed energia, la fase lunare, la carta del giorno, i tuoi numeri e un dizionario dei sogni. Ogni calcolo è mostrato passo dopo passo.",
+  tm: "App Store è un marchio di servizio di Apple Inc. Google Play e il logo di Google Play sono marchi di Google LLC.",
   soon: "Presto su",
   heroNote: "Gratis · iPhone e Android · senza account",
-  mockDate: "Giovedì 12 novembre",
   mockHello: "Buongiorno",
   mockSign: "Leone · Luna in Vergine",
   mockToday: "Oggi per te",
@@ -572,7 +655,10 @@ it: {
   privTitle: "I tuoi dati sono solo tuoi",
   privSub: "Non ti serve un account. Date, nomi e diario restano sul tuo dispositivo.",
   priv: ["Nessuna registrazione né login.", "I calcoli si fanno sul telefono, anche offline.", "Cancelli i dati con un tocco ed esporti il diario in un file.", "Pro è un acquisto una tantum: niente pubblicità, niente abbonamento."],
-  honestTitle: "Onestamente",
+  wTitle: "La tua giornata sulla schermata Home",
+  wSub: "Aggiungi un widget e scopri ogni giorno come può essere la tua giornata, prima ancora di aprire l’app.",
+  wHow: "Tieni premuta la schermata Home, scegli i widget e cerca Digi Witch. Cinque widget: piccoli, medi e grandi.",
+  honestTitle: "Ispirazione, non oracolo",
   honestText: "Digi Witch è uno strumento di intrattenimento, di studio della simbologia e di autoriflessione. Non predice il futuro, non misura la personalità in senso scientifico e non sostituisce il consiglio di un professionista.",
   langTitle: "Parla la tua lingua",
   langSub: "L'app segue la lingua del telefono. Tutti i contenuti in nove lingue.",
@@ -592,9 +678,9 @@ pt: {
   kicker: "Seu guia diário de símbolos",
   heroTitle: "Estrelas, cartas e números — em um só app",
   heroSub: "O horóscopo de hoje com amor, trabalho e energia, a fase da Lua, a carta do dia, seus números e um dicionário dos sonhos. Cada cálculo é mostrado passo a passo.",
+  tm: "App Store é uma marca de serviço da Apple Inc. Google Play e o logótipo do Google Play são marcas comerciais da Google LLC.",
   soon: "Em breve na",
   heroNote: "Grátis · iPhone e Android · sem criar conta",
-  mockDate: "Quinta-feira, 12 de novembro",
   mockHello: "Bom dia",
   mockSign: "Leão · Lua em Virgem",
   mockToday: "Hoje para você",
@@ -617,7 +703,10 @@ pt: {
   privTitle: "Seus dados são só seus",
   privSub: "Você não precisa de conta. Datas, nomes e diário ficam no seu aparelho.",
   priv: ["Sem cadastro nem login.", "Os cálculos são feitos no celular, até offline.", "Apague seus dados com um toque e exporte o diário para um arquivo.", "O Pro é uma compra única: sem anúncios e sem assinatura."],
-  honestTitle: "Com honestidade",
+  wTitle: "Seu dia na tela inicial",
+  wSub: "Adicione um widget e saiba todos os dias como pode ser o seu dia, antes mesmo de abrir o app.",
+  wHow: "Toque e segure a tela inicial, escolha widgets e procure Digi Witch. Cinco widgets: pequenos, médios e grandes.",
+  honestTitle: "Inspiração, não oráculo",
   honestText: "O Digi Witch é uma ferramenta de entretenimento, de estudo de simbologia e de autorreflexão. Não prevê o futuro, não mede personalidade em sentido científico e não substitui o conselho de um profissional.",
   langTitle: "Fala o seu idioma",
   langSub: "O app segue o idioma do celular. Todo o conteúdo em nove idiomas.",
@@ -637,9 +726,9 @@ nl: {
   kicker: "Je dagelijkse gids bij symbolen",
   heroTitle: "Sterren, kaarten en getallen — in één app",
   heroSub: "De horoscoop van vandaag met liefde, werk en energie, de maanfase, de dagkaart, je getallen en een droomwoordenboek. Elke berekening zie je stap voor stap.",
+  tm: "App Store is een servicemerk van Apple Inc. Google Play en het Google Play-logo zijn handelsmerken van Google LLC.",
   soon: "Binnenkort in",
   heroNote: "Gratis · iPhone en Android · zonder account",
-  mockDate: "Donderdag 12 november",
   mockHello: "Goedemorgen",
   mockSign: "Leeuw · Maan in Maagd",
   mockToday: "Vandaag voor jou",
@@ -662,7 +751,10 @@ nl: {
   privTitle: "Je gegevens zijn van jou alleen",
   privSub: "Je hebt geen account nodig. Data, namen en dagboek blijven op je apparaat.",
   priv: ["Geen registratie en geen inloggen.", "Berekeningen gebeuren op je telefoon, ook offline.", "Wis je gegevens met één tik en exporteer je dagboek naar een bestand.", "Pro is een eenmalige aankoop: geen reclame, geen abonnement."],
-  honestTitle: "Eerlijk gezegd",
+  wTitle: "Jouw dag op het beginscherm",
+  wSub: "Voeg een widget toe en zie elke dag hoe je dag kan worden, nog voordat je de app opent.",
+  wHow: "Houd het beginscherm ingedrukt, kies widgets en zoek Digi Witch. Vijf widgets: klein, middel en groot.",
+  honestTitle: "Inspiratie, geen orakel",
   honestText: "Digi Witch is een hulpmiddel voor vermaak, het leren kennen van symboliek en zelfreflectie. Het voorspelt de toekomst niet, meet persoonlijkheid niet in wetenschappelijke zin en vervangt geen professioneel advies.",
   langTitle: "Spreekt jouw taal",
   langSub: "De app volgt de taal van je telefoon. Alle inhoud in negen talen.",
@@ -687,6 +779,8 @@ const ICONS = ['<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M1
 ].map(d => `<svg viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`);
 // Phone mock texts, copied from the app (ARB and content files) by a script.
 const M = {"pl": {"greet": "Dzień dobry, Anna", "lead": "Bądź sobą. Gwiazdy zrobią swoje.", "support": "Księżyc rośnie, a z nim Twoje plany", "card": "Karta dnia", "hint": "Stuknij kartę, aby zobaczyć, co przynosi dzień.", "reveal": "Odsłoń kartę", "mood": "Jak się dziś czujesz?", "tarot": "Postaw tarota", "nav": ["Gwiazdy", "Tarot", "Dziś", "Liczby", "Sny"], "faces": ["Ciężko", "Słabo", "Tak sobie", "Dobrze", "Świetnie"]}, "en": {"greet": "Good morning, Anna", "lead": "It's good that you're here. This day is better with you in it.", "support": "The Moon is growing, and so are your plans", "card": "Card of the day", "hint": "Tap the card to see what the day brings.", "reveal": "Reveal the card", "mood": "How are you feeling today?", "tarot": "Do a tarot reading", "nav": ["Stars", "Tarot", "Today", "Numbers", "Dreams"], "faces": ["Rough", "Low", "So-so", "Good", "Great"]}, "de": {"greet": "Guten Morgen, Anna", "lead": "Schön, dass es dich gibt. Dieser Tag ist besser mit dir.", "support": "Der Mond wächst und mit ihm deine Pläne", "card": "Tageskarte", "hint": "Tippe auf die Karte, um zu sehen, was der Tag bringt.", "reveal": "Karte aufdecken", "mood": "Wie fühlst du dich heute?", "tarot": "Tarot legen", "nav": ["Sterne", "Tarot", "Heute", "Zahlen", "Träume"], "faces": ["Schwer", "Gedrückt", "Geht so", "Gut", "Super"]}, "fr": {"greet": "Bonjour, Anna", "lead": "C’est bien que vous soyez là. Cette journée est meilleure avec vous.", "support": "La Lune croît, et vos projets avec elle", "card": "Carte du jour", "hint": "Touchez la carte pour découvrir ce que la journée vous réserve.", "reveal": "Révéler la carte", "mood": "Comment vous sentez-vous aujourd’hui ?", "tarot": "Faire un tirage", "nav": ["Astres", "Tarot", "Aujourd’hui", "Nombres", "Rêves"], "faces": ["Difficile", "Bof", "Moyen", "Bien", "Super"]}, "es": {"greet": "Buenos días, Anna", "lead": "Qué bueno que estás aquí. Este día es mejor contigo.", "support": "La Luna crece y tus planes con ella", "card": "Carta del día", "hint": "Toca la carta para ver qué te trae el día.", "reveal": "Descubrir la carta", "mood": "¿Cómo te sientes hoy?", "tarot": "Hacer una tirada", "nav": ["Astros", "Tarot", "Hoy", "Números", "Sueños"], "faces": ["Fatal", "Bajo", "Regular", "Bien", "Genial"]}, "uk": {"greet": "Доброго ранку, Anna", "lead": "Добре, що ти є. Цей день кращий із тобою.", "support": "Місяць росте, а з ним і твої плани", "card": "Карта дня", "hint": "Торкнися карти, щоб побачити, що принесе день.", "reveal": "Відкрити карту", "mood": "Як ти почуваєшся сьогодні?", "tarot": "Зробити розклад", "nav": ["Зорі", "Таро", "Сьогодні", "Числа", "Сни"], "faces": ["Важко", "Сумно", "Так собі", "Добре", "Чудово"]}, "it": {"greet": "Buongiorno, Anna", "lead": "Sii semplicemente te. Le stelle faranno la loro parte.", "support": "La Luna cresce, e con lei i tuoi progetti", "card": "Carta del giorno", "hint": "Tocca la carta per vedere cosa porta la giornata.", "reveal": "Scopri la carta", "mood": "Come ti senti oggi?", "tarot": "Fai una stesa", "nav": ["Stelle", "Tarocchi", "Oggi", "Numeri", "Sogni"], "faces": ["Pesante", "Giù", "Così così", "Bene", "Benissimo"]}, "pt": {"greet": "Bom dia, Anna", "lead": "Seja você mesmo. As estrelas fazem a parte delas.", "support": "A Lua cresce, e seus planos com ela", "card": "Carta do dia", "hint": "Toque na carta para ver o que o dia traz.", "reveal": "Descobrir a carta", "mood": "Como você está hoje?", "tarot": "Fazer uma tiragem", "nav": ["Astros", "Tarô", "Hoje", "Números", "Sonhos"], "faces": ["Pesado", "Para baixo", "Mais ou menos", "Bem", "Ótimo"]}, "nl": {"greet": "Goedemorgen, Anna", "lead": "Wees jezelf. De sterren doen hun werk wel.", "support": "De Maan neemt toe, en je plannen met haar", "card": "Dagkaart", "hint": "Tik op de kaart om te zien wat de dag brengt.", "reveal": "Kaart omdraaien", "mood": "Hoe voel je je vandaag?", "tarot": "Tarot leggen", "nav": ["Sterren", "Tarot", "Vandaag", "Getallen", "Dromen"], "faces": ["Zwaar", "Laag", "Gaat wel", "Goed", "Super"]}};
+// Widget texts as the app writes them (sign, day number, Moon, card), per language.
+const W = {"pl": {"sign": "Lew", "cheer": "Dobry dzień dla serca", "text": "Księżyc idzie dziś przez znak Twojego żywiołu — czujesz się bardziej sobą. Działaj po swojemu i nie tłumacz się z tego.", "number": "7 · Dzień refleksji", "color": "Kolor dnia: fioletowy", "phase": "Przybywający garb", "moonIn": "Księżyc w Pannie", "cardName": "Gwiazda", "advice": "Karta mówi: Miej nadzieję i działaj z niej. Najgorsze minęło — daj sobie czas na odnowę i patrz w przyszłość z ufnością."}, "en": {"sign": "Leo", "cheer": "A good day for the heart", "text": "The Moon is moving through a sign of your element today, and you feel more like yourself. Do things your own way and do not apologise for it.", "number": "7 · A day of reflection", "color": "Colour of the day: violet", "phase": "Waxing gibbous", "moonIn": "Moon in Virgo", "cardName": "The Star", "advice": "The card says: Have hope and act from it. The worst is over: give yourself time to recover and look to the future with trust."}, "de": {"sign": "Löwe", "cheer": "Ein guter Tag für das Herz", "text": "Der Mond zieht heute durch ein Zeichen deines Elements, und du fühlst dich mehr wie du selbst. Mach die Dinge auf deine Weise und entschuldige dich nicht dafür.", "number": "7 · Ein Tag der Besinnung", "color": "Farbe des Tages: Violett", "phase": "Zunehmender Mond", "moonIn": "Mond in der Jungfrau", "cardName": "Der Stern", "advice": "Die Karte sagt: Hab Hoffnung und handle aus ihr heraus. Das Schlimmste ist vorbei: Gib dir Zeit zur Erholung und blick mit Vertrauen nach vorn."}, "fr": {"sign": "Lion", "cheer": "Une bonne journée pour le cœur", "text": "La Lune traverse aujourd’hui un signe de votre élément, et vous vous sentez davantage vous-même. Faites les choses à votre façon, sans vous en excuser.", "number": "7 · Une journée de réflexion", "color": "Couleur du jour : violet", "phase": "Lune gibbeuse croissante", "moonIn": "Lune en Vierge", "cardName": "L’Étoile", "advice": "La carte dit : Ayez de l’espoir et agissez à partir de lui. Le pire est passé : donnez-vous le temps de récupérer et regardez l’avenir avec confiance."}, "es": {"sign": "Leo", "cheer": "Un buen día para el corazón", "text": "Hoy la Luna recorre un signo de tu elemento y te sientes más tú. Haz las cosas a tu manera y no te disculpes por ello.", "number": "7 · Un día de reflexión", "color": "Color del día: violeta", "phase": "Gibosa creciente", "moonIn": "Luna en Virgo", "cardName": "La Estrella", "advice": "La carta dice: Ten esperanza y actúa desde ella. Lo peor ha pasado: date tiempo para recuperarte y mira el futuro con confianza."}, "uk": {"sign": "Лев", "cheer": "Добрий день для серця", "text": "Сьогодні Місяць проходить знаком твоєї стихії, і ти почуваєшся більше собою. Роби все по-своєму й не перепрошуй за це.", "number": "7 · День роздумів", "color": "Колір дня: фіолетовий", "phase": "Зростаючий місяць", "moonIn": "Місяць у Діві", "cardName": "Зірка", "advice": "Карта каже: Май надію й дій із неї. Найгірше минуло: дай собі час відновитися й дивися в майбутнє з довірою."}, "it": {"sign": "Leone", "cheer": "Un buon giorno per il cuore", "text": "Oggi la Luna attraversa un segno del tuo elemento, e ti senti più te stesso. Fai le cose a modo tuo e non scusarti per questo.", "number": "7 · Un giorno di riflessione", "color": "Colore del giorno: viola", "phase": "Gibbosa crescente", "moonIn": "Luna in Vergine", "cardName": "La Stella", "advice": "La carta dice: Abbi speranza e agisci a partire da essa. Il peggio è passato: concediti il tempo di riprenderti e guarda al futuro con fiducia."}, "pt": {"sign": "Leão", "cheer": "Um bom dia para o coração", "text": "Hoje a Lua passa por um signo do seu elemento, e você se sente mais você mesmo. Faça as coisas do seu jeito e não peça desculpas por isso.", "number": "7 · Um dia de reflexão", "color": "Cor do dia: violeta", "phase": "Gibosa crescente", "moonIn": "Lua em Virgem", "cardName": "A Estrela", "advice": "A carta diz: Tenha esperança e aja a partir dela. O pior passou: dê-se tempo para se recuperar e olhe o futuro com confiança."}, "nl": {"sign": "Leeuw", "cheer": "Een goede dag voor het hart", "text": "De Maan loopt vandaag door het teken van jouw element: je voelt je meer jezelf. Handel op je eigen manier en leg het niet uit.", "number": "7 · Dag van reflectie", "color": "Kleur van de dag: paars", "phase": "Wassende Maan", "moonIn": "Maan in Maagd", "cardName": "De Ster", "advice": "De kaart zegt: Heb hoop en handel vanuit die hoop. Het ergste is voorbij, geef jezelf tijd om te herstellen en kijk vol vertrouwen vooruit."}};
 const names = { pl: "Polski", en: "English", de: "Deutsch", fr: "Français", es: "Español", uk: "Українська", it: "Italiano", pt: "Português", nl: "Nederlands" };
 
 function apply(lang) {
@@ -703,6 +797,37 @@ function apply(lang) {
   document.getElementById('langs').innerHTML = Object.keys(T).map(k =>
     `<button lang="${k}" data-l="${k}" aria-pressed="${k === lang}">${names[k]}</button>`).join('');
   const m = M[lang];
+  // Widgets, as the app draws them: small horoscope and Moon, medium horoscope, large "Your day";
+  // on the phone the large "Good thought" and the medium card of the day.
+  const w = W[lang], e = esc;
+  const dots = (v, big) => `<span class="dots${big ? ' big' : ''}">${[1, 2, 3, 4, 5].map(i => `<i${i <= v ? ' class="on"' : ''}></i>`).join('')}</span>`;
+  const moonSvg = c => `<svg class="mn ${c}" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="#F1D98A" stroke-opacity=".45"/><path fill="#F1D98A" d="M12 2A10 10 0 0 1 12 22A6 10 0 0 1 12 2Z"/></svg>`;
+  const thumb = em => `<img class="th" style="--w:${em}em" src="assets/major_17.webp" alt="" loading="lazy">`;
+  const areas = [[t.love, 4], [t.work, 3], [t.energy, 5]];
+  const label = e(w.sign) + ' · ' + new Date().toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { weekday: 'long', day: 'numeric', month: 'long' });
+  const next = e(t.mockFull + ' ' + t.mockIn), foot = e(w.number + ' · ' + w.color);
+  document.getElementById('wLeft').innerHTML =
+    `<div class="wg s"><b class="fn clamp">${e(w.cheer)}</b>${areas.map(([a, v]) => `<div class="row fn"><span class="one">${e(a)}</span>${dots(v)}</div>`).join('')}
+      <span class="grow"></span><div class="row c2 gold"><b class="one">${e(w.number)}</b><span>›</span></div></div>
+    <div class="wg s">${moonSvg('')}<span class="grow"></span><b class="sub clamp">${e(w.phase)}</b><span class="cap par one">${e(w.moonIn)}</span><b class="c2 gold one">${next}</b></div>
+    <div class="wg m"><span class="lab one">${label}</span><b class="hd one">${e(w.cheer)}</b>
+      <div class="cols">${areas.map(([a, v]) => `<div><span class="c2 par one">${e(a)}</span>${dots(v)}</div>`).join('')}</div>
+      <span class="grow"></span><div class="row c2 gold"><b class="one">${foot}</b><span>›</span></div></div>
+    <div class="wg l"><span class="lab one">${label}</span><b class="t3 clamp">${e(w.cheer)}</b><b class="sub gold clamp">${e(m.lead)}</b>
+      ${areas.map(([a, v]) => `<div class="row sub"><span class="one">${e(a)}</span>${dots(v, 1)}</div>`).join('')}
+      <span class="fn par clamp" style="flex:0 1 auto">${e(w.text)}</span><span class="grow"></span><hr>
+      <div class="mid">${thumb(2.2)}<div><b class="c2 gold one" style="text-transform:uppercase">${e(t.mockCard)}</b><b class="sub clamp">${e(w.cardName)}</b></div>
+        ${moonSvg('sm')}<div><b class="fn clamp">${e(w.phase)}</b><span class="cap par one">${next}</span></div></div>
+      <b class="cap gold one">${foot}</b></div>`;
+  document.getElementById('wPhone').innerHTML =
+    `<div class="wg l ctr"><span class="sub gold">✦</span><b class="t2 clamp" style="--n:4">${e(m.lead)}</b><span class="rule"></span><b class="sub gold clamp">${e(m.support)}</b>
+      <span class="grow"></span><div class="mid">${thumb(3.875)}<div><b class="hd clamp">${e(w.cardName)}</b><span class="cap par clamp" style="--n:3">${e(w.advice)}</span></div></div></div>
+    <div class="wg m" style="justify-content:center"><div class="mid">${thumb(4.2)}<div><span class="lab one">${e(t.mockCard)}</span><b class="hd clamp">${e(w.cardName)}</b><span class="cap par clamp" style="--n:4">${e(w.advice)}</span></div></div></div>`;
+  // Today's date in the chosen language, first letter capitalised as the app shows it.
+  for (const b of document.querySelectorAll('.badge')) b.src = b.dataset.b === 'apple'
+    ? `assets/badges/apple_${lang === 'uk' ? 'en' : lang}.svg` : `assets/badges/google_${lang}.png`;
+  const date = new Date().toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { weekday: 'long', day: 'numeric', month: 'long' });
+  document.getElementById('mDate').textContent = date[0].toUpperCase() + date.slice(1);
   for (const [id, v] of [['mGreet', m.greet], ['mLead', m.lead], ['mSupport', m.support], ['mCard', m.card], ['mHint', m.hint],
     ['mReveal', m.reveal], ['mMood', m.mood], ['mTarot', m.tarot]]) document.getElementById(id).textContent = v;
   const svg = (d, extra = '') => `<svg viewBox="0 0 24 24" ${extra}>${d}</svg>`;
@@ -740,7 +865,14 @@ document.getElementById('langs').addEventListener('click', e => { const l = e.ta
 document.getElementById('year').textContent = new Date().getFullYear();
 apply(initial());
 
-// --- Sky: stars, zodiac wheel and Moon move with the scroll (still if the visitor prefers less motion) ---
+// Smooth wheel scrolling (Lenis), loaded only where there is a mouse: touch screens scroll natively and skip the download.
+if (matchMedia('(pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const s = document.createElement('script');
+  s.src = 'assets/lenis.min.js'; s.onload = () => new Lenis({ autoRaf: true, anchors: true });
+  document.head.append(s);
+}
+
+// --- Sky: stars, Milky Way and Moon move with the scroll (still if the visitor prefers less motion) ---
 (function () {
   const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const NS = 'http://www.w3.org/2000/svg';
@@ -749,7 +881,7 @@ apply(initial());
     { el: document.getElementById('stars1'), rate: 0.05, n: 70, r: [0.5, 1.0], color: '#fff', op: 0.55, spark: 0 },
     { el: document.getElementById('stars2'), rate: 0.12, n: 34, r: [0.9, 1.5], color: '#F3E9D2', op: 0.8, spark: 0 },
     { el: document.getElementById('stars3'), rate: 0.22, n: 12, r: [3, 5], color: '#E6C77F', op: 0.95, spark: 1 }];
-  const wheel = document.getElementById('wheel'), moon = document.getElementById('moon');
+  const milky = document.getElementById('milky'), moon = document.getElementById('moon');
   const shadow = document.getElementById('shadow'), moonRot = document.getElementById('moonRot');
   // The twelve signs, Aries first, drawn as small strokes in a 20 x 20 box.
   const SIGNS = [
@@ -765,15 +897,24 @@ apply(initial());
     'M-9-6L-5 4M-5 4C-5-4-3-8 0-8C3-8 3-2 1 1C-1 4 3 8 6 6C9 4 7 0 4 1',            // Capricorn
     'M-9-3L-6-6L-3-3L0-6L3-3L6-6L9-3M-9 4L-6 1L-3 4L0 1L3 4L6 1L9 4',               // Aquarius
     'M-6-9C-1-5-1 5-6 9M6-9C1-5 1 5 6 9M-8 0H8'];                                   // Pisces
-  let ticks = '';
-  for (let k = 0; k < 12; k++) {
-    const a = Math.PI + k * Math.PI / 6, b = a + Math.PI / 12; // Aries at the left, signs counter-clockwise
-    ticks += `<path d="M${(172 * Math.cos(a)).toFixed(1)} ${(-172 * Math.sin(a)).toFixed(1)}L${(190 * Math.cos(a)).toFixed(1)} ${(-190 * Math.sin(a)).toFixed(1)}"/>` +
-      `<path d="${SIGNS[k]}" transform="translate(${(147 * Math.cos(b)).toFixed(1)} ${(-147 * Math.sin(b)).toFixed(1)}) scale(.9)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".95"/>`;
+  const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
+  const sigil = document.getElementById('sigil'), sigilCard = document.getElementById('sigilCard');
+  document.getElementById('sigilSigns').innerHTML = SIGNS.map((d, k) => `<g class="z${k ? '' : ' on'}"><path d="${d}" transform="translate(102 152) scale(3.4)" stroke-width=".5"/>` +
+    `<text x="102" y="86" text-anchor="middle" font-family="Cormorant, 'Cormorant Garamond', serif" font-size="19" fill="#E6C77F" stroke="none">${ROMAN[k]}</text></g>`).join('');
+  const zs = sigil.querySelectorAll('.z'); let tick = 0, shown = 0;
+  // Milky Way: a few hundred faint stars crowded towards the middle of a tilted band.
+  const dust = ['', '', '', ''];
+  for (let i = 0; i < 520; i++) {
+    const g = (rnd() + rnd() + rnd() - 1.5) / 1.5;
+    dust[i % 4] += `M${(rnd() * 1900).toFixed(0)} ${(300 + g * 240).toFixed(0)}h0`;
   }
-  document.getElementById('wheelTicks').innerHTML = ticks;
+  // One path per size: 520 separate circles made the page too heavy.
+  milky.innerHTML = `<svg viewBox="0 0 1900 600" preserveAspectRatio="none" fill="none" stroke="#F3E9D2" stroke-linecap="round">` +
+    dust.map((d, k) => `<path d="${d}" stroke-width="${1.2 + k * .6}" opacity="${.3 + k * .15}"/>`).join('') + '</svg>';
+  let max = 1, doc = 0; // page height comes from the ResizeObserver below, so nothing here forces a layout
   function build() {
-    const H = innerHeight, W = innerWidth, doc = document.documentElement.scrollHeight;
+    const H = innerHeight, W = innerWidth;
+    max = Math.max(1, doc - H);
     seed = 7;
     for (const L of layers) {
       const h = H + doc * L.rate + 40; let out = '';
@@ -790,17 +931,25 @@ apply(initial());
   let queued = false;
   function frame() {
     queued = false;
-    const y = scrollY, max = Math.max(1, document.documentElement.scrollHeight - innerHeight), p = Math.min(1, y / max);
+    const y = scrollY, p = Math.min(1, y / max);
     for (const L of layers) L.el.style.transform = `translate3d(0,${(-y * L.rate).toFixed(1)}px,0)`;
-    wheel.style.transform = `rotate(${(y * 0.025).toFixed(2)}deg)`;
+    milky.style.transform = `translate3d(0,${(-y * 0.04).toFixed(1)}px,0) rotate(-32deg)`;
     shadow.setAttribute('cx', (120 - 330 * p).toFixed(1));
     moonRot.setAttribute('transform', `rotate(${(20 + y * 0.03).toFixed(1)})`);
+    const k = (Math.floor(y / 320) + tick) % 12;
+    if (k !== shown) { if (shown >= 0) zs[shown].classList.remove('on'); zs[k].classList.add('on'); shown = k; }
+    sigil.style.transform = `translate3d(0,${(-y * 0.06).toFixed(1)}px,0)`;
+    sigilCard.setAttribute('transform', `rotate(${(4 + 5 * Math.sin(y / 420)).toFixed(2)} 102 150)`);
     moon.style.transform = `translate3d(0,${(y * 0.04).toFixed(1)}px,0)`;
   }
-  build(); frame();
+  // Fires once at start and whenever the page changes size (window resize, language change).
+  new ResizeObserver(e => { doc = e[0].contentRect.height; frame(); build(); }).observe(document.documentElement);
   if (still) return;
+  // The sign starts changing on its own only after the visitor does something: a change a few seconds
+  // into a quiet page counts as unfinished loading in speed tests.
+  let timer; const go = () => timer ||= setInterval(() => { tick++; frame(); }, 4000);
+  for (const e of ['scroll', 'pointermove', 'touchstart', 'keydown']) addEventListener(e, go, { once: true, passive: true });
   addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(frame); } }, { passive: true });
-  addEventListener('resize', () => { build(); frame(); });
 })();
 </script>
 </body>

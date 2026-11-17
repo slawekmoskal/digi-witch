@@ -1,7 +1,7 @@
 [
  {
   "n": 1,
-  "name": "The Creative (Heaven)",
+  "name": "Pure Strength (Heaven)",
   "text": "Pure energy of action, initiative and a strength that needs nothing in order to get moving.",
   "advice": "Act boldly and consistently, but with moderation: strength without direction burns itself out.",
   "lines": [
@@ -15,7 +15,7 @@
  },
  {
   "n": 2,
-  "name": "The Receptive (Earth)",
+  "name": "Yielding Ground (Earth)",
   "text": "Openness, patience and a yielding quality that lets something grow.",
   "advice": "Do not lead now. Follow, support, let things ripen.",
   "lines": [
@@ -29,7 +29,7 @@
  },
  {
   "n": 3,
-  "name": "Difficulty at the Beginning",
+  "name": "Sprouting",
   "text": "The chaos of first steps: everything is sprouting, but nothing has settled yet.",
   "advice": "Do not be put off by the confusion. Ask for help and do not force the pace.",
   "lines": [
@@ -43,7 +43,7 @@
  },
  {
   "n": 4,
-  "name": "Youthful Inexperience",
+  "name": "The Young Learner",
   "text": "You do not know everything yet, and that is the starting point for learning.",
   "advice": "Ask, learn from the experienced, do not pretend to be an expert.",
   "lines": [
@@ -57,7 +57,7 @@
  },
  {
   "n": 5,
-  "name": "Waiting",
+  "name": "Patient Waiting",
   "text": "The matter is ripening; the rain will come, but not now.",
   "advice": "Wait calmly and with trust. Prepare instead of growing impatient.",
   "lines": [
@@ -71,7 +71,7 @@
  },
  {
   "n": 6,
-  "name": "Conflict",
+  "name": "Dispute",
   "text": "Tension, differing claims, a risk of conflict.",
   "advice": "Look for agreement halfway. Do not pursue the dispute to the end at any price.",
   "lines": [
@@ -85,7 +85,7 @@
  },
  {
   "n": 7,
-  "name": "The Army",
+  "name": "The Troops",
   "text": "Organised strength, discipline and a shared goal.",
   "advice": "Order and good leadership are needed. Act as a team and with a plan.",
   "lines": [
@@ -99,7 +99,7 @@
  },
  {
   "n": 8,
-  "name": "Union",
+  "name": "Standing Together",
   "text": "Joining with others, community, belonging.",
   "advice": "Look for allies and inspire trust. Do not delay in joining.",
   "lines": [
@@ -113,7 +113,7 @@
  },
  {
   "n": 9,
-  "name": "The Taming Power of the Small",
+  "name": "Small Restraint",
   "text": "Small obstacles slow things down but do not stop them.",
   "advice": "Act gently and in small steps. This is not yet the time for grand gestures.",
   "lines": [
@@ -127,7 +127,7 @@
  },
  {
   "n": 10,
-  "name": "Treading",
+  "name": "Careful Steps",
   "text": "Careful steps in a delicate situation, like treading on a tiger's tail.",
   "advice": "Keep your tact and courtesy. Good manners protect you from trouble.",
   "lines": [
@@ -141,7 +141,7 @@
  },
  {
   "n": 11,
-  "name": "Peace",
+  "name": "Harmony",
   "text": "The harmony of heaven and earth: a favourable time.",
   "advice": "Make use of the good period, build and share. Remember that good fortune changes too.",
   "lines": [
@@ -155,7 +155,7 @@
  },
  {
   "n": 12,
-  "name": "Standstill",
+  "name": "Blockage",
   "text": "Things are not flowing, and understanding is hard to reach.",
   "advice": "Do not push. Keep your values and wait it out without being drawn into bad arrangements.",
   "lines": [
@@ -169,7 +169,7 @@
  },
  {
   "n": 13,
-  "name": "Fellowship with People",
+  "name": "Kindred People",
   "text": "People come together around a shared goal.",
   "advice": "Act openly and look for what is shared, not for what divides.",
   "lines": [
@@ -183,7 +183,7 @@
  },
  {
   "n": 14,
-  "name": "Great Possession",
+  "name": "Having Much",
   "text": "Abundance, success, a great deal in your hands.",
   "advice": "Be generous and modest: prosperity lasts when it serves others too.",
   "lines": [
@@ -197,7 +197,7 @@
  },
  {
   "n": 15,
-  "name": "Modesty",
+  "name": "Humility",
   "text": "A strength that has no need to show itself.",
   "advice": "Do not set yourself above others. Modesty evens out what is unequal and opens doors.",
   "lines": [
@@ -211,7 +211,7 @@
  },
  {
   "n": 16,
-  "name": "Enthusiasm",
+  "name": "Delight",
   "text": "A joyful energy that carries others along.",
   "advice": "Spread your zeal, but prepare the ground: enthusiasm needs a plan.",
   "lines": [
@@ -225,7 +225,7 @@
  },
  {
   "n": 17,
-  "name": "Following",
+  "name": "Going Along",
   "text": "Adapting to the course of things and to someone who leads.",
   "advice": "Follow what is right, not what is convenient.",
   "lines": [
@@ -239,7 +239,7 @@
  },
  {
   "n": 18,
-  "name": "Repairing What Is Spoiled",
+  "name": "Mending Decay",
   "text": "Something neglected needs putting in order.",
   "advice": "Deal with the source of the problem, not the symptoms. Repair calls for thought before and after.",
   "lines": [
@@ -253,7 +253,7 @@
  },
  {
   "n": 19,
-  "name": "Approach",
+  "name": "Drawing Near",
   "text": "Something good is coming; a time of growth.",
   "advice": "Use this period, but remember that every season passes.",
   "lines": [
@@ -267,7 +267,7 @@
  },
  {
   "n": 20,
-  "name": "Contemplation",
+  "name": "Watching",
   "text": "The view from above, observation, understanding.",
   "advice": "Stop and look. Your example says more than words.",
   "lines": [
@@ -281,7 +281,7 @@
  },
  {
   "n": 21,
-  "name": "Biting Through",
+  "name": "Jaws Closing",
   "text": "An obstacle that has to be broken through decisively.",
   "advice": "Name the problem and solve it firmly but fairly.",
   "lines": [
@@ -295,7 +295,7 @@
  },
  {
   "n": 22,
-  "name": "Grace",
+  "name": "Adornment",
   "text": "Beauty, form, elegance.",
   "advice": "Take care of the form, but do not mistake it for the content. Important matters need more than ornament.",
   "lines": [
@@ -309,7 +309,7 @@
  },
  {
   "n": 23,
-  "name": "Splitting Apart",
+  "name": "Peeling Away",
   "text": "Old structures are crumbling.",
   "advice": "Do not undertake anything big now. Wait it out and look after the foundations.",
   "lines": [
@@ -323,7 +323,7 @@
  },
  {
   "n": 24,
-  "name": "Return",
+  "name": "Coming Back",
   "text": "The turning point: light returns after the darkness.",
   "advice": "Let the new grow slowly. Return to what is right for you.",
   "lines": [
@@ -337,7 +337,7 @@
  },
  {
   "n": 25,
-  "name": "Innocence",
+  "name": "Without Pretence",
   "text": "Acting without hidden motives; simplicity.",
   "advice": "Be sincere and spontaneous. Scheming will do harm now.",
   "lines": [
@@ -351,7 +351,7 @@
  },
  {
   "n": 26,
-  "name": "The Taming Power of the Great",
+  "name": "Great Restraint",
   "text": "Stored-up energy, knowledge and resources.",
   "advice": "Use what you have learned. A good time for great undertakings.",
   "lines": [
@@ -365,7 +365,7 @@
  },
  {
   "n": 27,
-  "name": "Nourishment",
+  "name": "Feeding",
   "text": "Care about what you feed yourself with: body, mind, words.",
   "advice": "Pay attention to what you take in and what you give to others.",
   "lines": [
@@ -379,7 +379,7 @@
  },
  {
   "n": 28,
-  "name": "Preponderance of the Great",
+  "name": "Great Excess",
   "text": "The weight exceeds your strength; the beam is sagging.",
   "advice": "Act quickly but carefully: reduce the load before something breaks.",
   "lines": [
@@ -393,7 +393,7 @@
  },
  {
   "n": 29,
-  "name": "The Abyss",
+  "name": "The Deep (Water)",
   "text": "Danger; a difficulty that keeps returning.",
   "advice": "Flow like water: steadily and without panic. Keep your inner sincerity.",
   "lines": [
@@ -407,7 +407,7 @@
  },
  {
   "n": 30,
-  "name": "The Clinging (Fire)",
+  "name": "Radiance (Fire)",
   "text": "Brightness, clarity, dependence on what sustains you.",
   "advice": "Shine, but remember where you draw your strength from. Look after your sources.",
   "lines": [
@@ -421,7 +421,7 @@
  },
  {
   "n": 31,
-  "name": "Influence",
+  "name": "Mutual Attraction",
   "text": "Mutual attraction, courtship, influence.",
   "advice": "Be open and receptive. True influence needs no pressure.",
   "lines": [
@@ -435,7 +435,7 @@
  },
  {
   "n": 32,
-  "name": "Duration",
+  "name": "Constancy",
   "text": "Constancy, faithfulness, endurance.",
   "advice": "Hold to the direction you have chosen: duration does not mean standing still.",
   "lines": [
@@ -449,7 +449,7 @@
  },
  {
   "n": 33,
-  "name": "Retreat",
+  "name": "Withdrawal",
   "text": "A wise withdrawal when opposing forces are growing.",
   "advice": "Withdraw in good time and with dignity. It is not flight but strategy.",
   "lines": [
@@ -463,7 +463,7 @@
  },
  {
   "n": 34,
-  "name": "The Power of the Great",
+  "name": "Great Vigour",
   "text": "Power at its full, but easily abused.",
   "advice": "Use your strength with care and in line with what is right.",
   "lines": [
@@ -477,7 +477,7 @@
  },
  {
   "n": 35,
-  "name": "Progress",
+  "name": "Advance",
   "text": "Rapid growth, recognition, the rising sun.",
   "advice": "Go forward, but share the light with others.",
   "lines": [
@@ -491,7 +491,7 @@
  },
  {
   "n": 36,
-  "name": "Darkening of the Light",
+  "name": "Hidden Brightness",
   "text": "A hard time, when it is better not to show everything.",
   "advice": "Protect your light within. Be careful, but do not abandon your principles.",
   "lines": [
@@ -505,7 +505,7 @@
  },
  {
   "n": 37,
-  "name": "The Family",
+  "name": "The Household",
   "text": "Home, roles, mutual care.",
   "advice": "Put close relationships in order: everything else starts there.",
   "lines": [
@@ -519,7 +519,7 @@
  },
  {
   "n": 38,
-  "name": "Opposition",
+  "name": "Divergence",
   "text": "Differences, diverging directions.",
   "advice": "Agreement is possible in small matters. Do not expect agreement on everything.",
   "lines": [
@@ -533,7 +533,7 @@
  },
  {
   "n": 39,
-  "name": "Obstruction",
+  "name": "Hard Going",
   "text": "The way is blocked.",
   "advice": "Stop, take stock of yourself and ask for help. Sometimes it is better to go round than to break through.",
   "lines": [
@@ -547,7 +547,7 @@
  },
  {
   "n": 40,
-  "name": "Deliverance",
+  "name": "Release",
   "text": "Relief after tension; the storm passes.",
   "advice": "Forgive, let go and return to ordinary life. Do not drag out the fight.",
   "lines": [
@@ -561,7 +561,7 @@
  },
  {
   "n": 41,
-  "name": "Decrease",
+  "name": "Lessening",
   "text": "Something has to be given up or reduced.",
   "advice": "Simplify and give up the excess: less can give more.",
   "lines": [
@@ -575,7 +575,7 @@
  },
  {
   "n": 42,
-  "name": "Increase",
+  "name": "Gain",
   "text": "Growth, support, a favourable wind.",
   "advice": "Use the opportunity to grow and to help others.",
   "lines": [
@@ -589,7 +589,7 @@
  },
  {
   "n": 43,
-  "name": "Breakthrough",
+  "name": "Resolve",
   "text": "Resolve, decision, a way out of deadlock.",
   "advice": "Speak the truth clearly but without aggression. Be ready for the consequences.",
   "lines": [
@@ -603,7 +603,7 @@
  },
  {
   "n": 44,
-  "name": "Coming to Meet",
+  "name": "Encounter",
   "text": "An unexpected encounter, a temptation.",
   "advice": "Be careful what you let into your life. Not everything that attracts you is good.",
   "lines": [
@@ -617,7 +617,7 @@
  },
  {
   "n": 45,
-  "name": "Gathering Together",
+  "name": "Gathering",
   "text": "People gather; a shared goal.",
   "advice": "Bring others together around values, and be prepared for the unforeseen.",
   "lines": [
@@ -631,7 +631,7 @@
  },
  {
   "n": 46,
-  "name": "Pushing Upward",
+  "name": "Rising",
   "text": "Gradual growth, like a tree from the earth.",
   "advice": "Go step by step. Effort now will bring a lasting result.",
   "lines": [
@@ -645,7 +645,7 @@
  },
  {
   "n": 47,
-  "name": "Oppression",
+  "name": "Hemmed In",
   "text": "Exhaustion, constraint.",
   "advice": "Do not lose faith. Say less and act wisely: this time will make you stronger.",
   "lines": [
@@ -673,7 +673,7 @@
  },
  {
   "n": 49,
-  "name": "Revolution",
+  "name": "Radical Change",
   "text": "Change, upheaval, shedding the old skin.",
   "advice": "Change when the time has come, and when you can explain why.",
   "lines": [
@@ -687,7 +687,7 @@
  },
  {
   "n": 50,
-  "name": "The Cauldron",
+  "name": "The Vessel",
   "text": "Transformation, nourishment, culture.",
   "advice": "Cultivate what is valuable. Good results need time and fire.",
   "lines": [
@@ -701,7 +701,7 @@
  },
  {
   "n": 51,
-  "name": "The Arousing (Thunder)",
+  "name": "Shock (Thunder)",
   "text": "A sudden event, a shock.",
   "advice": "Stay calm. The shock passes, and what it taught you remains.",
   "lines": [
@@ -715,7 +715,7 @@
  },
  {
   "n": 52,
-  "name": "Keeping Still (Mountain)",
+  "name": "Stillness (Mountain)",
   "text": "Calm, stillness, meditation.",
   "advice": "Stop. Act when it is time to act, and stand still when it is time to stand still.",
   "lines": [
@@ -729,7 +729,7 @@
  },
  {
   "n": 53,
-  "name": "Gradual Development",
+  "name": "Step by Step",
   "text": "Slow, sure progress.",
   "advice": "Do not hurry: good things grow slowly.",
   "lines": [
@@ -743,7 +743,7 @@
  },
  {
   "n": 54,
-  "name": "The Marrying Maiden",
+  "name": "The Young Bride",
   "text": "A situation in which you are not fully in control.",
   "advice": "Adapt with dignity, and remember the long-term goal.",
   "lines": [
@@ -757,7 +757,7 @@
  },
  {
   "n": 55,
-  "name": "Abundance",
+  "name": "Fullness",
   "text": "Fullness, the peak, like the sun at noon.",
   "advice": "Enjoy the fullness without fearing it will pass, and prepare wisely for change.",
   "lines": [
@@ -771,7 +771,7 @@
  },
  {
   "n": 56,
-  "name": "The Wanderer",
+  "name": "The Traveller",
   "text": "Travel, strangeness, impermanence.",
   "advice": "Be courteous and careful in a new place. Do not put down roots too quickly.",
   "lines": [
@@ -785,7 +785,7 @@
  },
  {
   "n": 57,
-  "name": "The Gentle (Wind)",
+  "name": "Soft Persistence (Wind)",
   "text": "Gentle but constant penetration.",
   "advice": "Act gently and persistently: dripping water wears away stone.",
   "lines": [
@@ -799,7 +799,7 @@
  },
  {
   "n": 58,
-  "name": "The Joyous (Lake)",
+  "name": "Gladness (Lake)",
   "text": "Cheerfulness, conversation, pleasure.",
   "advice": "Share your joy with others, but do not mistake it for indulgence.",
   "lines": [
@@ -813,7 +813,7 @@
  },
  {
   "n": 59,
-  "name": "Dispersion",
+  "name": "Scattering",
   "text": "Dissolving rigidity and divisions.",
   "advice": "Let go of what divides. A shared goal will bring people together again.",
   "lines": [
@@ -827,7 +827,7 @@
  },
  {
   "n": 60,
-  "name": "Limitation",
+  "name": "Measure",
   "text": "Boundaries, moderation, rules.",
   "advice": "Set sensible limits, but not so tight that they suffocate.",
   "lines": [
@@ -841,7 +841,7 @@
  },
  {
   "n": 61,
-  "name": "Inner Truth",
+  "name": "Sincerity Within",
   "text": "A sincerity that convinces.",
   "advice": "Be honest with yourself and with others. The truth reaches even the stubborn.",
   "lines": [
@@ -855,7 +855,7 @@
  },
  {
   "n": 62,
-  "name": "Preponderance of the Small",
+  "name": "Small Excess",
   "text": "A time for small matters, not great ones.",
   "advice": "Attend to the details and be modest. Do not aim too high now.",
   "lines": [
@@ -869,7 +869,7 @@
  },
  {
   "n": 63,
-  "name": "After Completion",
+  "name": "Already Across",
   "text": "Something has been achieved; everything is in its place.",
   "advice": "Do not rest on your laurels. Look after what has been achieved, because order is easily lost at the end.",
   "lines": [
@@ -883,7 +883,7 @@
  },
  {
   "n": 64,
-  "name": "Before Completion",
+  "name": "Not Yet Across",
   "text": "A transition; not the end yet.",
   "advice": "The last step needs the most attention. Do not celebrate too early.",
   "lines": [
